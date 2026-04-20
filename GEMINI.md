@@ -23,6 +23,7 @@ That is, determinatives are a *kind of noun*, alongside the other three. This re
 - *Full matrix of English determinative and pronoun features* (2021, LingBuzz 005747) — the feature-matrix the present paper should build on.
 - *Determiners, feline marsupials, and the category-function distinction* (2013, TESL Canada) — early statement of the category/function distinction.
 - *Determinatives again* (2014, TESL Canada) — follow-up.
+- *The lexicon-syntax boundary in English numerals* (2026, *English Language and Linguistics*) — numerals sit on a lexicon-syntax spectrum; cardinals pattern nominally in several constructions. Open question for this paper: are numerals a fifth noun sub-category, a nominal use of a separate numerative category, or something else? Either outcome affects the superordinate-Noun argument.
 - HPC book, Ch 11 (lexical categories) — the superordinate-category move should be consistent with the book's HPC-profile framing.
 - HPC book, Ch 12 (pro-form gender) — pronoun-specific properties that distinguish the pronoun sub-cluster.
 

@@ -39,6 +39,7 @@ Needs unpacking: which of these are shared across all four sub-clusters, and whi
 - Reynolds 2021 *Cadernos* — distributional quantification
 - Reynolds 2021 LingBuzz 005747 — feature matrix
 - Reynolds 2013, 2014 TESL Canada — category / function distinction (early statements)
+- Reynolds 2026 *EL&L* — *Lexicon-syntax boundary in English numerals: cardinals, ordinals, fractionals*. Numerals sit on a spectrum between lexical items and syntactic constructions. If cardinals pattern nominally (*the three, three of the books*), they're a candidate *fifth* noun sub-category — or a nominal use of an underlying numerative category. The proposal here should either absorb numerals into the Noun taxonomy or give a principled reason why they stay out. Worth checking whether the numerals paper's findings dovetail with the superordinate-Noun move or pull against it.
 - HPC book Ch 11 — lexical categories in HPC framework
 - HPC book Ch 12 — pronoun / gender case
 - HPC book Ch 7 — projectibility; the superordinate Noun has to project *for something* to earn its keep
