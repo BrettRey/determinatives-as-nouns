@@ -4,7 +4,38 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic research paper titled "Determinatives as nouns" by Brett Reynolds.
+Academic paper by Brett Reynolds. Working title: "Determinatives as nouns."
+
+### Core thesis
+
+The paper argues for a superordinate **Noun** category with four sub-categories:
+
+1. **Common noun** (*dog, water, idea*)
+2. **Proper noun** (*Brett, Toronto*)
+3. **Pronoun** (*she, who, something*)
+4. **Determinative** (*the, a, this, some, every*)
+
+That is, determinatives are a *kind of noun*, alongside the other three. This revises the standard CGEL (Huddleston & Pullum) taxonomy, which treats determinative as a distinct lexical category at the same level as noun. The move here is *not* Abney's DP hypothesis (which makes D the head of a DP); the categorial function distinction is preserved, and "the dog" remains an NP with a DP in determiner function. What changes is the superordinate classification: all four subcategories live under a broader Noun.
+
+### Related work (Brett's own)
+
+- *Quantifying the differences between lexical categories: The case of pronouns and determinatives in English* (2021, *Cadernos de Linguística*) — showed distributional distance between pronouns and determinatives. This paper has to explain how such distance is compatible with their both being nouns.
+- *Full matrix of English determinative and pronoun features* (2021, LingBuzz 005747) — the feature-matrix the present paper should build on.
+- *Determiners, feline marsupials, and the category-function distinction* (2013, TESL Canada) — early statement of the category/function distinction.
+- *Determinatives again* (2014, TESL Canada) — follow-up.
+- HPC book, Ch 11 (lexical categories) — the superordinate-category move should be consistent with the book's HPC-profile framing.
+- HPC book, Ch 12 (pro-form gender) — pronoun-specific properties that distinguish the pronoun sub-cluster.
+
+### HPC angle (probably load-bearing)
+
+On an HPC reading: Noun is an HPC kind with a profile (clustered properties) stabilised by mechanisms (acquisition, entrenchment, interactive alignment, iterated transmission). The four sub-categories are sub-clusters of the same kind — they share the Noun-level profile but have distinct additional properties stabilised by subtype-specific mechanisms. This is consistent with Boyd's homeostasis-at-multiple-scales view.
+
+### Status
+
+- 2026-04-20: Project created. Empty `main.tex`. No draft yet.
+- GitHub remote pending.
+
+## Build System
 
 ## Build System
 
