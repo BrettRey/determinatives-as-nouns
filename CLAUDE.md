@@ -27,13 +27,13 @@ That is, determinatives are a *kind of noun*, alongside the other three. This re
 - HPC book, Ch 11 (lexical categories) — the superordinate-category move should be consistent with the book's HPC-profile framing.
 - HPC book, Ch 12 (pro-form gender) — pronoun-specific properties that distinguish the pronoun sub-cluster.
 
-### HPC angle (probably load-bearing)
+### HPC angle (de-emphasised; see DECISIONS.md)
 
-On an HPC reading: Noun is an HPC kind with a profile (clustered properties) stabilised by mechanisms (acquisition, entrenchment, interactive alignment, iterated transmission). The four sub-categories are sub-clusters of the same kind — they share the Noun-level profile but have distinct additional properties stabilised by subtype-specific mechanisms. This is consistent with Boyd's homeostasis-at-multiple-scales view.
+The fourfold proposal is compatible with an HPC reading — Noun as a kind with a profile, sub-categories as sub-clusters — but the paper does not make HPC load-bearing. The argument runs on CGEL-internal diagnostics and the auxiliary-as-verb precedent (Pullum & Wilson 1977). HPC may appear as framing in the discussion of sub-cluster mechanisms, no more.
 
 ### Status
 
-- 2026-04-20: Project created. Empty `main.tex`. No draft yet.
+- 2026-04-20: Project created. Phase 0-3 lit work complete; paper plan locked. See `DECISIONS.md` for framing decisions and `notes/paper-plan.md` for section structure.
 - GitHub remote pending.
 
 ## Build System
