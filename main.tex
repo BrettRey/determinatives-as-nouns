@@ -330,6 +330,18 @@ Sub-cluster distinctions are preserved. Common nouns and proper nouns differ in 
 
 The claims here are for synchronic English. Cross-linguistic generalization depends on how far the grammaticalization cline has run and what form the endpoint takes in each language. Whether the fourfold-noun architecture extends to systems with bound articles, no articles, or richer nominal agreement morphology is a question for separate work. Fusion may vary by construction; the categorial verdict does not: determinatives are nouns.
 
+\appendix
+
+\section{Companion Lean formalization}\label{sec:lean-appendix}
+
+This paper's claim is empirical and CGEL-internal. The companion Lean development included in the repository supplement doesn't add new English data; it makes the paper's architectural commitments explicit in machine-checkable form. The supplement is a small standalone Lean 4 project under \texttt{lean-formalization/}. Its main proof file is \texttt{CGELBankFourfoldNoun.lean} in the supplement's \texttt{RequestProject/} directory.\footnote{The supplement builds with \texttt{lake build RequestProject} from the \texttt{lean-formalization/} directory.}
+
+The development idealizes away from the whole of \textit{CGEL} and formalizes only the fragment this paper needs. It encodes four lexical sub-categories (common noun, proper noun, pronoun, determinative) under a single superordinate \term{noun}, keeps category and function distinct, and states projectibility relative to specific purposes and feature sets. In that setting the formal question isn't whether Lean can decide the English facts; it can't. The question is whether a grammar with this fourfold taxonomy can be stated exactly so that the paper's claimed consequences are derivable rather than merely described.
+
+The checked theorems target those consequences directly. First, the four sub-categories support distinct field-relative projectibility profiles. Common nouns project descriptive and distributional features, proper nouns naming features, pronouns anaphoric features, and determinatives determiner-modificational features. Second, the noun-headed phrases functioning as determiner in the witness grammar are uniformly NPs headed by members of the \term{noun} supercategory, which is the formal analogue of the simplification claimed in §\ref{subsec:det-uniform}. Third, the architecture remains coherent when category and function overlap: determinatives can remain nouns while participating in Det function, so the move from determiner function to determinative category is blocked formally as well as descriptively.
+
+The result is therefore modest but useful. It isn't a proof that English determinatives are nouns, and it isn't yet a data-linked proof over the full CGELBank annotation scheme. It is an existence proof that the proposal can be given an explicit, machine-checked grammar whose consequences match the projection claims made in the main text. In that sense the formalization functions as a warranty on the paper's architecture, not as an additional empirical premise.
+
 \section*{Acknowledgements}
 
 This paper was drafted with the assistance of large language models. All content has been reviewed and revised by the author, who takes full responsibility for the final text.
