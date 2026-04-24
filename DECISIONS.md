@@ -1,5 +1,7 @@
 # Decisions — Determinatives as nouns
 
+2026-04-22 — Preprint posted to LingBuzz as [009939](https://lingbuzz.net/lingbuzz/009939) "Determinatives as nouns in English." PORTFOLIO.md, website publications.html, CV (main.tex + main.pdf) all updated. No journal target yet.
+
 2026-04-20 — Scope: English-only. No cross-linguistic typology claim. Any Phase-5 typology reading (Wiltschko 2014, Rijkhoff, Dryer) is out of scope.
 
 2026-04-20 — Numerals are not a fifth noun sub-category. Cardinals are absorbed into the existing taxonomy per Reynolds 2026 (*EL&L*): cardinals are both determinatives and (proper or common) nouns; ordinals are adjectives; fractionals are nouns. The determinative category stays a small closed list. Reason: the numerals paper already does the categorial work; creating a fifth sub-cluster would double-count.
@@ -19,3 +21,45 @@
 2026-04-20 — **Supporting phenomena, not central.** (ii) **Stacking restriction** as functional ("one Det per NP") rather than categorial — already implicit in CGEL, so this is expository cleanup. (iv) ***the many people* alternation** as Det vs Mod of the same determinative noun — Brett's original thought; still useful as supporting data but cannot be load-bearing because it creates a puzzle: if determinatives are nouns, why do they take AdvP modifiers (*almost every, hardly any*) while common nouns take AdjP modifiers (*a genuine professional*)? Answer to handle in paper: sub-cluster-specific combinatorics, consistent with PHP 2010:13-14 generalisation that *few* is a determinative in both *few doctors* and *the few doctors*. Sub-cluster modifier-selection asymmetry is evidence for the sub-cluster distinction, not against the superordinate Noun.
 
 2026-04-20 — ***The/a* steelman empirically grounded.** Lyons 1999 (diachronic/typological), PHP 2007:22-23 (lexical defectiveness of *every, no*), and CGEL 371-2 (explicit acknowledgment of *the/a* defectiveness) converge: articles are the maximally grammaticalised, phonologically weak, semantically minimal, cross-linguistically non-universal limit of the determinative sub-cluster. Paper treats them as the defective limit of the sub-cluster, parallel to defective proper nouns (*\*the John*; place names that reject articles). Reason: this is the worst case for the proposal, so the paper must handle it explicitly; the empirical support lets us handle it without special-pleading.
+
+2026-04-22 — The core argument is now explicitly two-stage. Partitives establish determinatives as head-like pivots in matrix NPs independently of the fusion question; the simple one-word cases are a second-stage argument about whether that headhood is canonical or fused. Reason: this separates the strongest headhood evidence from the more controversial anti-fusion claim.
+
+2026-04-22 — `Mine` and `Kim's` are not the load-bearing anti-fusion model. They are retained as evidence that fusion is compatible with nounhood/pronominality, but the main headhood case should not lean on them. Reason: the possessive subsystem is structurally mixed and weakens any attempt to use `mine` as a clean simple-Head control.
+
+2026-04-22 — The paper rejects `CGEL`'s `subject--determiner` analysis for its own purposes. Prenominal genitives are treated simply as genitive NPs or genitive pronouns in Det function. Reason: the `subject-` component encodes a semantic/thematic intuition, not a syntactic function the paper needs.
+
+2026-04-22 — Named review-board consensus on the current full draft: `Revise & Resubmit`. Main pressure points are the instability between the nounhood claim and the anti-fusion criterion, the under-demonstrated simplification at the determiner slot, the handling of `the/a`, and incomplete differentiation from the strongest rivals (Spinillo, A/N-split, Hudson-style unification). Reason: six-reviewer `gpt-5.4` board converged strongly enough to treat these as the live revision priorities.
+
+2026-04-22 — Compatibility framing pivot. Criterion at line 103 rewritten: productivity + non-parasitic-residue replaces the "rather than reached via fusion" clause. Fusion is a separate constructional question; the categorial conclusion holds either way. Reason: review board converged on the criterion fighting the paper's strongest insight; six reviewers all praised the compatibility framing once it was made central.
+
+2026-04-22 — Section title changes. §2 "The other sub-categories of Noun" (was "existing"); §3 "From Noun to determiner function" (was "Bridge from Noun to Determiner" — Det is a function, not a category). Reason: terminological precision (existing was vague; Determiner capitalised read as category).
+
+2026-04-22 — Five Pullum & Wilson rhetorical moves applied. (1) "Even if you grant" framing in abstract and §1; (2) category-inventory reduction appeal in Conclusion; (3) cross-cutting features (gender data) framed as P&W §1.2-style argument in §7; (4) "Criteria for keeping determinative primary" subsection in §4 listing the rival's positive case and showing each consideration is consistent with sub-category-of-N; (5) "the categorial verdict does not" closing-style refrain in three places. Reason: P&W 1977 provides the closest argumentative template (AUX → V); applying its rhetorical structure systematically.
+
+2026-04-22 — Refrain (ring composition): "Fusion may vary by construction; the categorial verdict does not" appears at end of §1 compatibility paragraph, end of §4.1 reanalysis, and (variant) at the very end of the Conclusion. Reason: structural rhetorical reinforcement; the central stabilization move stated three ways.
+
+2026-04-22 — Subject-determiner footnote narrowed from rejection to non-adoption. Earlier draft said "this paper rejects" CGEL Ch.16 §5; now says "this paper doesn't adopt the analysis... nothing in the argument hinges on the choice." Reason: Pullum and Payne both flagged the rejection as too brisk; the analysis is orthogonal to this paper's purposes.
+
+2026-04-22 — §4.2 includes concrete before/after bracketing schemas (CGEL: NP → Det:{DP, NP[gen], PP} + Head:Nom; present: NP → Det:{NP, PP} + Head:Nom) with instantiations for *the book*, *Kim's book*, *about twenty books*. Reason: review board wanted the simplification claim "technically earned" rather than just stated.
+
+2026-04-22 — §5 three-condition defectiveness test. A defective member remains inside a sub-category only if (i) paradigmatically integrated, (ii) contributes the same feature content, (iii) reduction is directional and local. Reason: principles the article handling rather than leaving it as a rescue operation; also used to defend *every* as a quantifier with one missing cell rather than an article-like residue member.
+
+2026-04-22 — Predicative complement added to canonical NP function lists. Recognized as a canonical function alongside subject, object, complement-of-preposition. §7 notes the asymmetry (determinatives weaker on predicative complement) as a sub-cluster property. Reason: completeness of canonical-function statement; previously absent.
+
+2026-04-22 — Terminology cleanup. "Categories not classes" for lexical-category referents (replace_all); "this paper/proposal/account" not "the present X"; "complement of preposition" not "PrepC" (which isn't a CGEL abbreviation; PC is predicative complement); "function as determiner" preferred to "fill Det function" where natural; en-dashes for fused-function labels (Det--Head not Det-Head). Reason: CGEL terminological hygiene + Brett's stylistic preferences.
+
+2026-04-22 — Bringhurst pass: all em-dashes reduced to parens, semicolons, or commas. Zero em-dashes remain in the paper. Reason: typographic preference; em-dashes overused for parenthetical asides where parens or commas are cleaner.
+
+2026-04-22 — New abstract opening (tricolon) and matched closing (chiasmus). Opening: "English determinatives have been treated as pronouns, as a category apart, and as heads of a functional projection; this paper argues that they are a fourth sub-category of Noun." Closing: "Whether fusion is retained or reanalyzed in any given construction, the categorial conclusion is the same: English determinatives are nouns." §1 opens with same tricolon (variant). Conclusion final: "Fusion may vary by construction; the categorial verdict does not: determinatives are nouns." Reason: external reviewer recommended the matched pair as the most rhetorically polished version.
+
+2026-04-22 — Paper shipped twice today (8b9106a and 578cd8c). Local bibliography pushed to central via /push-bib (25 entries: Pullum & Miller, Bruening, Salzmann, Blümel & Holler, Chomsky UCLA, Hudson, Van Langendonck, Déchaine & Wiltschko, Anderson, Wiltschko, Van Eynde, Spinillo, Herslund, Maekawa, Pullum & Wilson, Reynolds 2013/2014/2021/2026 gender, Heine & Kuteva, Palmer 1924). LingBuzz submission MD created with copy/paste-ready fields. Well-named PDF: Reynolds-Determinatives_as_nouns_in_English-2026.pdf.
+
+2026-04-24 — Thesis framing stabilized as asymmetric. Fusion is not an objection to nounhood, but the strongest positive case comes from reanalysing the simple independent determinatives as ordinary Head rather than obligatory fused Det--Head. Reason: reviewer convergence showed the stronger "categorial verdict independent of fusion" line was overclaiming and obscuring the real argument.
+
+2026-04-24 — Membership criterion softened to the core external nominal functions. Subject, object, and complement-of-preposition are the clearest cases; predicative complement is treated as semantically licensed rather than required item-by-item across the sub-category. Reason: this resolves the mismatch between the criterion, the diagnostic table, and the later discussion of restricted determinative predicative-complement uses.
+
+2026-04-24 — The determiner-slot subsection is now framed as a phrase-type consequence, not additional proof. "Independent NP use" replaces the lingering fused-head wording, and the payoff is explicitly that one noun-headed phrase-type disjunction disappears. Reason: align §4.2 with the preferred simple-case reanalysis and avoid suggesting that simple determinative heads still need fusion language.
+
+2026-04-24 — The adjective comparison is now constructional, not lexicalized, and the internal-modification diagnostic is broadened beyond `few` with numeral cases (`the remaining three`, `the selected two`). Reason: stronger and fairer contrast with adjectival Mod--Head residues.
+
+2026-04-24 — Lean appendix framing reduced to a machine-checked architectural sketch / audit trail. It is not presented as a proof that English determinatives are nouns. Reason: the current Lean file is a witness model of the architecture, not a data-linked formalization of the empirical argument.
