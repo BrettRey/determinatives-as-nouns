@@ -1,5 +1,9 @@
 # Decisions — Determinatives as nouns
 
+2026-04-29 — Journal target: *Word Structure*.
+
+2026-04-29 — Payne, Huddleston & Pullum 2010 ("The distribution and category status of adjectives and adverbs," *Word Structure*) promoted to lead methodological foil, replacing Pullum & Miller 2022 in that role. Reason: PHP 2010 is the structurally closest precedent — same journal, same diagnostic shape (distributional category-status argument), same author lineage, and it already handles *few*, *any*, *some*, *nothing* via fused-head determinative analysis. Reviewers familiar with the journal will read the paper as a sequel to PHP 2010, not as analogous work. Frame the proposal as "preserving PHP's local categorial continuity (anti-pronoun move for *few*, *any*, *some*) while revising the supercategory assignment (determinative → sub-category of noun)." Pullum & Miller 2022 stays in the literature engagement but moves from lead foil to one CGEL-side defence among several. How to apply: add a "Payne–Huddleston–Pullum precedent" subsection (probably end of §1 or in §6); rework §7's adverbial-modification defence to address the *hardly any* reintroduction problem explicitly; sharpen the "supercategory-vs-coordinate-category" distinction to answer PHP's distribution-per-se warning. See `notes/word-structure-revision-strategy.md` for full revision plan. Source: `literature/Payne, Huddleston, Pullum - 2010 - The distribution and category status of adjectives and adverbs(2) copy.md`.
+
 2026-04-22 — Preprint posted to LingBuzz as [009939](https://lingbuzz.net/lingbuzz/009939) "Determinatives as nouns in English." PORTFOLIO.md, website publications.html, CV (main.tex + main.pdf) all updated. No journal target yet.
 
 2026-04-20 — Scope: English-only. No cross-linguistic typology claim. Any Phase-5 typology reading (Wiltschko 2014, Rijkhoff, Dryer) is out of scope.
