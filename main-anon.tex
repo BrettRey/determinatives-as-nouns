@@ -3,16 +3,19 @@
 % House style preamble
 \input{.house-style/preamble.tex}
 
-% Update PDF metadata
+% PDF metadata stripped for anonymous review
 \hypersetup{
-  pdftitle={Determinatives as nouns in English}
+  pdftitle={Determinatives as nouns in English},
+  pdfauthor={},
+  pdfsubject={},
+  pdfkeywords={},
+  pdfcreator={},
+  pdfproducer={}
 }
 
 \title{Determinatives as nouns in English}
-\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
-\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
-Humber Polytechnic \& University of Toronto}
-\date{Draft, April 2026}
+\author{}
+\date{}
 
 \begin{document}
 \maketitle
@@ -383,7 +386,7 @@ The claims here are for synchronic English. Cross-linguistic generalization depe
 
 \section{Companion Lean formalization}\label{sec:lean-appendix}
 
-This paper's claim is empirical and CGEL-internal. The companion Lean development included in the repository supplement doesn't add new English data; it makes the paper's architectural commitments explicit in machine-checkable form. The supplement is a small standalone Lean 4 project under \texttt{lean-formalization/}. Its main proof file is \texttt{CGELBankFourfoldNoun.lean} in the supplement's \texttt{RequestProject/} directory.\footnote{The supplement builds with \texttt{lake build RequestProject} from the \texttt{lean-formalization/} directory and is available at \url{https://github.com/BrettRey/determinatives-as-nouns/tree/master/lean-formalization}.}
+This paper's claim is empirical and CGEL-internal. The companion Lean development included in the repository supplement doesn't add new English data; it makes the paper's architectural commitments explicit in machine-checkable form. The supplement is a small standalone Lean 4 project under \texttt{lean-formalization/}. Its main proof file is \texttt{CGELBankFourfoldNoun.lean} in the supplement's \texttt{RequestProject/} directory.\footnote{The supplement builds with \texttt{lake build RequestProject} from the \texttt{lean-formalization/} directory. The repository URL is omitted for anonymous review and will be supplied on acceptance.}
 
 The development idealizes away from the whole of \textit{CGEL} and formalizes only the fragment this paper needs. It encodes four lexical sub-categories (common noun, proper noun, pronoun, determinative) under a single superordinate \term{noun}, keeps category and function distinct, and states projectibility relative to specific purposes and feature sets. In that setting the formal question isn't whether Lean can decide the English facts; it can't. The question is whether a grammar with this fourfold taxonomy can be stated exactly so that the paper's claimed consequences are derivable rather than merely described.
 
@@ -391,9 +394,7 @@ The checked theorems target those consequences directly. First, the four sub-cat
 
 The result is modest but useful. It isn't a proof that English determinatives are nouns, and it isn't yet a data-linked proof over the full CGELBank annotation scheme described by \textcite{reynolds2025cgelbankmanual}. It is an existence proof that the proposal can be given an explicit, machine-checked grammar whose consequences match the projection claims made in the main text. In that sense the formalization functions as a machine-checked architectural sketch and audit trail, not as an additional empirical premise.
 
-\section*{Acknowledgements}
-
-This paper was drafted with the assistance of large language models. All content has been reviewed and revised by the author, who takes full responsibility for the final text.
+% Acknowledgements removed for anonymous review.
 
 \newpage
 \printbibliography
