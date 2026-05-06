@@ -16,9 +16,9 @@ The journal does not use a submission portal. Submission is by email, with the a
 
 ## Files in this folder
 
-- `Determinatives_as_nouns_anon.pdf` — anonymized manuscript (21 pages, no author metadata, GitHub URL redacted, acknowledgements removed)
+- `Determinatives_as_nouns_anon.pdf` — anonymized manuscript (21 pages). Author name removed from title page, ORCID/contact stripped, acknowledgements removed, PDF metadata cleared, GitHub URL in appendix redacted, all five self-citations replaced with "[Author] (year). [Title removed for anonymous review]" stubs, and prose mentions of "Reynolds" rephrased.
 - `AI_Disclosure_Form_completed.docx` — Edinburgh University Press AI disclosure, filled in (5 Yes rows: idea generation, literature discovery, research interpretation, writing/editing, abstracts/keywords)
-- `Determinatives_as_nouns_source.zip` — anonymized LaTeX source (only if requested by editor; the journal does not require source files at first submission)
+- `Determinatives_as_nouns_source.zip` — anonymized LaTeX source (only if requested by editor). Source uses anon-keyed bib stubs; central bib has had 51 Reynolds-authored entries and all identifying comment lines stripped.
 
 ## Title
 
@@ -30,7 +30,7 @@ English determinatives have been treated as pronouns, as a category apart, and a
 
 ## Keywords (5)
 
-determinatives, word classes, noun, category status, English
+determinatives, lexical categories, noun, category status, English
 
 ## Draft cover email
 
@@ -49,7 +49,7 @@ determinatives, word classes, noun, category status, English
 ## Pre-send checklist
 
 - [ ] Open `Determinatives_as_nouns_anon.pdf` and visually confirm: no author name on title page, no acknowledgements section, footnote in §A says "URL omitted for anonymous review", running heads/footers carry no identifying info.
-- [ ] Confirm references list is intact (you'll see "Reynolds 2013/2014/2021/2026" cites — these are third-person and Word Structure permits them).
+- [ ] Confirm the references list shows "[Author]" placeholders for all five self-citations (anon2021dist, anon2021matrix, anon2026gender, anon2026numerals, anon2025cgelbank) and that no real "Reynolds" string remains. Run `pdftotext Determinatives_as_nouns_anon.pdf - | grep -i "reynolds\|brett"` — should return nothing.
 - [ ] Send from your institutional address, not a personal one. Cover email is non-anonymous; the PDF attachment is the anonymous part.
 - [ ] If Sims is on leave or out of scope, forward to Huyghe.
 
