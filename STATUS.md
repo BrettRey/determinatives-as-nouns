@@ -1,7 +1,16 @@
 # STATUS
 
 **Last updated:** 2026-05-28
-**State:** **Desk rejected by *Word Structure* (Edinburgh UP) at editorial prescreening** on 2026-05-28. Andrea Sims wrote on behalf of the editors that the issue was fit rather than quality: the manuscript is solid and innovative, but the lexical-category status of determinatives does not obviously bear on morphology and the paper does not engage substantively enough with current morphological theory/literature for *Word Structure*. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+**State:** **Under review at *English Language and Linguistics*** as ELL-2026-0119, submitted through ScholarOne on 2026-05-28. Current title: "English determinatives as nouns." Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+## 2026-05-28 English Language and Linguistics submission
+
+- Submitted 2026-05-28 through ScholarOne.
+- Manuscript ID: ELL-2026-0119.
+- Submitted title: "English determinatives as nouns."
+- Files prepared in `submission/ell/`: anonymous Main Document PDF, LaTeX source ZIP, title page, cover-letter text, and copy-paste portal material.
+- Cover letter notes that University of Toronto, not Humber Polytechnic, should be used for open-access billing under the Cambridge agreement.
+- Next action: wait for editorial/reviewer response.
 
 ## 2026-05-28 Word Structure decision
 
@@ -28,6 +37,6 @@
 
 ## Next action
 
-Decide retargeting path. Default recommendation: prepare a general-linguistics resubmission for *Journal of Linguistics* or *English Language and Linguistics*, preserving the current syntax/category argument and adding only enough venue-facing framing to make the theoretical significance explicit. Alternative: revise for *Word Structure* only if the paper is substantially reframed around morphology literature/theory.
+Wait for the *English Language and Linguistics* decision. The old *Word Structure* package remains preserved as provenance; do not overwrite it.
 
 **Blocker:** None.
