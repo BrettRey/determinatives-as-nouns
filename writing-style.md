@@ -1,1 +1,1 @@
-../../.claude/rules/writing-style.md
+../../../.claude/rules/writing-style.md
