@@ -1,7 +1,36 @@
+---
+slug: determinatives-as-nouns
+kind: paper
+title: English determinatives as nouns
+stage: complete
+external: in-review
+blocked_on:
+- venue-response
+updated: 2026-07-07
+source:
+- STATUS.md
+- PORTFOLIO.md
+venue: English Language and Linguistics
+external_id: ELL-2026-0119
+preprints:
+- lingbuzz/009939
+next_action: Wait for the ELL decision; do not overwrite the preserved Word Structure submission package
+notes: 'Retargeted here after *Word Structure*''s editorial prescreen rejected the manuscript 2026-05-28
+  for journal scope/fit, not quality (editors called the argument ''solid, innovative''). Both sources
+  agree on the current ELL under-review state; STATUS.md explicitly records blocker: none at the manuscript
+  level.'
+---
+
 # STATUS
 
-**Last updated:** 2026-05-28
+**Last updated:** 2026-07-07
 **State:** **Under review at *English Language and Linguistics*** as ELL-2026-0119, submitted through ScholarOne on 2026-05-28. Current title: "English determinatives as nouns." Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+### 2026-07-07 Session Notes
+- Added a local working-copy supplement in §7: a numbered `or so` example pairing `fifteen or so minutes` with `ready by Tuesday or so`.
+- Framing decision: treat the construction as suggestive cross-DP/NP pro-form evidence inside the nominal domain, not as a primary diagnostic, because `or so` is idiomatic and scalar-restricted.
+- Rebuilt `main.pdf` with the full XeLaTeX/Biber/XeLaTeX sequence; final log scan found no unresolved references or citations.
+- Submission state is unchanged: ELL-2026-0119 remains under review, and this local edit has not been sent to the journal.
 
 ## 2026-05-28 English Language and Linguistics submission
 
