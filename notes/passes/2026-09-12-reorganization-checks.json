@@ -1,0 +1,101 @@
+{
+  "source_sha256": "2c2a31c6b77479176980aefb426859bde46ca3cc1bc465ccf70fc8666eb9b307",
+  "scope": "Approved reorganization and reader-facing accessibility repair; working draft, not final polish.",
+  "trees": {
+    "count": 11,
+    "contents_unchanged": true,
+    "order_changed": true
+  },
+  "schemata": {
+    "count": 4,
+    "contents_unchanged": true,
+    "order_changed": false
+  },
+  "numbered_examples": {
+    "count": 2,
+    "contents_unchanged": true,
+    "order_changed": false
+  },
+  "tables": {
+    "count": 6,
+    "unchanged": [
+      "Historical alternatives, moved to Appendix A",
+      "Matched Head relations",
+      "Use permissions"
+    ],
+    "profile": "Rows reordered; all cells preserved; attachment qualification in caption",
+    "accounting": "Five rows distinguish shared structure, internal permissions, existing restrictions, additional degree cost, taxonomic consequences",
+    "added": "Compact three-account map"
+  },
+  "mention": {
+    "unique_old": 345,
+    "unique_new": 347,
+    "lost": []
+  },
+  "enquote": {
+    "unique_old": 4,
+    "unique_new": 4,
+    "lost": []
+  },
+  "citations": {
+    "keys_unchanged": 22,
+    "unresolved": []
+  },
+  "protected_files_unchanged": 609,
+  "reading_copy": {
+    "trees": 11,
+    "schemata": 4,
+    "tables": 6,
+    "notes": 14,
+    "images": 0,
+    "pandoc_warnings": 0
+  },
+  "build": {
+    "pages": 32,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "oversized_floats": 0,
+    "unresolved_references": 0,
+    "sequence": "XeLaTeX, Biber, XeLaTeX, XeLaTeX",
+    "existing_advisories": [
+      "fancyhdr E field",
+      "microtype footnote patch",
+      "EB Garamond bold substitution"
+    ],
+    "image_inspection": "Deferred at author request"
+  },
+  "display_order": {
+    "figures": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tables": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "profile_table_before_verdict_and_articles": true
+  },
+  "texcount": {
+    "before": {
+      "Words in text": 8661,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 872,
+      "total": 9662
+    },
+    "after": {
+      "Words in text": 8707,
+      "Words in headers": 120,
+      "Words outside text (captions, etc.)": 906,
+      "total": 9733
+    }
+  },
+  "net_words_added": 71
+}

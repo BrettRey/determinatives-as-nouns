@@ -1,0 +1,79 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -74,7 +74,7 @@
+ 
+ Category membership doesn't remove lexical restrictions, such as the one applying to \mention{every}. \mention{Every apple} is grammatical, but unlike \mention{some} in \mention{I'll take some}, \mention{every} can't occur independently in \ungram{\mention{I'll take every}}. The rules in §\ref{sec:det-uniform} retain that restriction.
+ 
+-NPs already modify adjectives in \mention{a great deal better}. But \textit{CGEL} excludes \ungram{\mention{some a great deal better proposals}} while permitting \mention{some much better proposals} \citep[551--552]{huddleston2002}. Giving \mention{much} NP status requires restating that restriction on NP modifiers in attributive adjective phrases (AdjPs). This commitment follows the choice of NP projection for degree uses (§\ref{sec:enough}), rather than ordinary headedness alone.
++NPs already modify adjectives in \mention{a great deal better} and \mention{heaps worse} \citep[549--550]{huddleston2002}. Attested attributive \mention{heaps better} also challenges a general exclusion of NP modifiers from attributive adjective phrases (AdjPs). Degree uses thus extend the comparison with quantificational common nouns; their actual restrictions must be distinguished before NP projection can be counted as an added cost (§\ref{sec:enough}).
+ 
+ \textit{CGEL} already includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents \citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive properties within a broader lexical category \citep{pullumwilson1977}. These precedents motivate comparing the whole grammatical profile, rather than requiring every member to display each nominal property.
+ 
+@@ -139,7 +139,7 @@
+ 
+ Restricted dependents also occur on the common-noun side. \textit{CGEL} categorizes quantificational \mention{plenty} as a common noun whose use resists determination and modification; \mention{lot} requires \mention{a} and permits only limited modification \citep[349--350]{huddleston2002}. Established common nouns thus approach the determinative profile as determinatives approach theirs. Ordinary count nouns alone provide an inadequate comparison group.
+ 
+-The connection also extends beyond argument NPs. Quantificational nouns occur in degree modifiers such as \mention{a great deal smaller} and \mention{plenty big enough} \citep[549--550]{huddleston2002}. Section~\ref{sec:enough} compares these with determinative degree modifiers, including the restrictions on their attributive use. Meaning, complementation, agreement, and restricted dependents give the proposed grouping a specific basis within established Noun.
++The connection also extends beyond argument NPs. Quantificational nouns occur in degree modifiers such as \mention{a great deal smaller} and \mention{plenty big enough} \citep[549--550]{huddleston2002}. Section~\ref{sec:enough} compares these with determinative degree modifiers, including their attributive distribution. Meaning, complementation, agreement, and restricted dependents give the proposed grouping a specific basis within established Noun.
+ 
+ The comparison is specific to these constructions. Common nouns also permit a wider range of PP and clausal complements, whereas pronouns and primary naming uses of proper nouns have much more restricted dependents \citep[429--430, 439--443, 517--521]{huddleston2002}. Partitives such as \mention{a lot/some of the wine} connect established common nouns with determinatives without making their complement systems identical.
+ 
+@@ -622,17 +622,21 @@
+ 
+ \subsection{Degree uses outside noun phrases}\label{sec:enough}
+ 
+-Determinatives also modify expressions outside NP structure. The three NP-projecting implementations retain that projection in degree uses. Any resulting revision to modifier permissions concerns the kinds of phrase admitted in those positions; it doesn't follow from the choice between ordinary and fused Head in independent NPs.
++Determinatives also modify expressions outside NP structure. The three NP-projecting implementations retain that projection in degree uses. The relevant comparison is with the degree uses of established NPs, whose distribution already extends beyond argument and determiner functions.
+ 
+ \mention{Enough} tests both position and external function. It precedes a nominal in \mention{enough money} and can follow one in \mention{money enough}; post-head \mention{enough} can't itself be premodified, as shown by \ungram{\mention{money almost enough}} \citep[396--397, 445]{huddleston2002}. Only the permitted construction licenses each position.
+ 
+ \mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \mention{good enough}, \mention{quickly enough}, \mention{I hadn't prepared enough}, and \mention{enough in control} \citep[396--397]{huddleston2002}. The degree determinatives \mention{much} and \mention{little}, and \mention{no}/\mention{none}, likewise have uses outside NP structure \citep[390, 395--397]{huddleston2002}. These permissions must survive recategorization. Noun membership doesn't confine every projection to argument or determiner function.\footnote{\mention{Both}, \mention{either}, and \mention{neither} also serve as markers of coordination \citep[1305, 1308]{huddleston2002}. Their noun categorization would preserve that further category--function combination; the present fragment doesn't analyse coordination.}
+ 
+-NPs already modify adjectives in \mention{three years old}, \mention{a great deal smaller}, and \mention{plenty big enough} \citep[549--550]{huddleston2002}. These include the quantificational common nouns compared in §\ref{sec:quant-nouns}. Degree modification therefore supplies another connection with existing nouns, but also another restriction: \textit{CGEL} contrasts predicative \mention{a great deal better} with its exclusion before a noun in \ungram{\mention{some a great deal better proposals}}, where \mention{much better} is permitted \citep[551--552]{huddleston2002}.
+-
+-This restriction already has an exception involving a quantificational common noun. \textit{CGEL} permits \mention{She's a lot better player than me}, analysing the article belonging to \mention{a lot} as lost after the article determining the larger NP \citep[p.~552, n.~8]{huddleston2002}. The general restriction on NP modifiers in attributive AdjPs is therefore qualified in the baseline grammar.
+-
+-Giving degree determinatives NP projection requires identifying the NPs permitted in attributive AdjPs while preserving exclusions such as \ungram{\mention{some a great deal better proposals}}. This revises an existing, already qualified restriction. All three NP-projecting implementations share that commitment. It counts in favour of retaining DP in degree uses, without establishing a preference for fusion or a separate primary D category.
++NPs already modify adjectives in \mention{three years old}, \mention{a great deal smaller}, and \mention{plenty big enough}. \textit{CGEL} also explicitly treats \mention{lots better} and \mention{heaps worse} as containing quantificational NP modifiers \citep[549--550]{huddleston2002}. These uses extend the connection with the quantificational common nouns compared in §\ref{sec:quant-nouns}.
++
++Attributive uses are attested too: \mention{some heaps better photo's} and \mention{some lots better ones}.\footnote{\href{https://www.aulro.com/afvb/motor-cycling/61858-my-track-day-phillip-island-motogp-track-post798794.html}{AULRO, moose, 19 August 2008, post 2}; original spelling retained. The \href{https://www.uberpeople.net/threads/let-s-play-would-you-have-taken-this-trip.395130/}{Uber Drivers Forum} example was verified in an indexed excerpt; its author and post date remain unverified.} In \textit{CGEL}'s analysis, \mention{ones} here is an anaphoric common noun. Both examples therefore have attributive \mention{better} with a nominal degree modifier. Measure \mention{miles} supplies parallels in \mention{some miles better front brakes} and \mention{some miles-better bands}.\footnote{\href{https://www.uksaabs.co.uk/UKS/viewtopic.php?t=131481\#p1256815}{UKSaabs, rallyv4, 23 January 2014, post 6}; Shaun Ryder in \href{https://www.newstatesman.com/culture/2019/04/i-look-like-uncle-fester-the-second-life-of-shaun-ryder}{Kate Mossman's interview, \textit{New Statesman}, 17 April 2019}. The latter retains the source's hyphen, which doesn't itself settle the modifier's syntactic structure.}
++
++These attestations challenge \textit{CGEL}'s general exclusion of NP modifiers from attributive AdjPs. Its contrast between predicative \mention{a great deal better} and \ungram{\mention{some a great deal better proposals}}, against permitted \mention{some much better proposals}, remains a more restricted observation \citep[551--552]{huddleston2002}. The excluded example also juxtaposes \mention{some} and \mention{a}, so its unacceptability can't by itself be attributed to NP category.
++
++\textit{CGEL} already permits \mention{She's a lot better player than me}, analysing the article belonging to \mention{a lot} as lost after the article determining the larger NP \citep[p.~552, n.~8]{huddleston2002}. The \mention{heaps} and \mention{lots} examples have outer \mention{some} and no internal article, so they extend beyond this exception.
++
++The attestations don't establish unrestricted attributive use for nominal degree modifiers. They require a closer comparison of lexical, constructional, and register conditions under all four implementations. NP projection places degree determinatives within an existing nominal range; the attributive contrast doesn't yet establish an added cost, or a corresponding advantage for retaining DP.
+ 
+ \subsection{The comparative judgment}\label{sec:costs}
+ 
+@@ -640,16 +644,16 @@
+ 
+ \begin{table}[H]
+ \centering\small
+-\caption{Four implementations compared. All retain the lexical and constructional restrictions and adjectival fusion. The degree-use commitment follows NP projection. Cardinal and \mention{one} groupings are consequences of the categorization.}\label{tab:economy}
++\caption{Four implementations compared. All retain the lexical and constructional restrictions and adjectival fusion, and must account for attributive nominal degree modifiers. Cardinal and \mention{one} groupings are consequences of the categorization.}\label{tab:economy}
+ \setlength{\tabcolsep}{3pt}
+ \begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{2.65cm}}
+ \toprule
+ Account & Independent determinatives & Modifier permissions & Taxonomic consequences \\
+ \midrule
+-D-noun, ordinary Head & Nom--NP with Head alone across bare, partitive, and externally determined uses. & Peripheral NP premodifiers; head-specific internal modifiers. Degree NPs require a revised attributive restriction. & D within Noun. Cardinal uses and the three \mention{one} lexemes are grouped there. \\
+-Separate D, ordinary Head & Same structures, with a Nom rule admitting either N or D. & Same internal and peripheral permissions and degree-use commitment as the proposed package. & D remains separate from nominal counterparts. \\
+-Separate D, fused Head & DP fills Det--Head or Mod--Head in nominal structure. & DP--Nom separates premodifiers and postmodifiers. Degree DPs retain \textit{CGEL}'s contrast with NPs. & Same primary-category divisions as separate D with ordinary Head. \\
+-D-noun, fused Head & A projected NP fills Det--Head or Mod--Head in additional nominal structure. & Premodifiers within the fused NP; postmodifiers in the outer Nom. Same degree-use commitment as the other NP accounts. & Same Noun grouping as the proposed package. \\
++D-noun, ordinary Head & Nom--NP with Head alone across bare, partitive, and externally determined uses. & Peripheral NP premodifiers; head-specific internal modifiers. Degree determinatives project NP. & D within Noun. Cardinal uses and the three \mention{one} lexemes are grouped there. \\
++Separate D, ordinary Head & Same structures, with a Nom rule admitting either N or D. & Same internal and peripheral permissions and degree projection as the proposed package. & D remains separate from nominal counterparts. \\
++Separate D, fused Head & DP fills Det--Head or Mod--Head in nominal structure. & DP--Nom separates premodifiers and postmodifiers. Degree determinatives project DP. & Same primary-category divisions as separate D with ordinary Head. \\
++D-noun, fused Head & A projected NP fills Det--Head or Mod--Head in additional nominal structure. & Premodifiers within the fused NP; postmodifiers in the outer Nom. Degree determinatives project NP. & Same Noun grouping as the proposed package. \\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+@@ -700,7 +704,7 @@
+ 
+ Ordinary Head gives bare, partitive, and externally determined determinatives the familiar Nom--NP structure. That regularity complements the profile case for including them within Noun. The package is attractive because its categorization and its Head relations fit together. Separate D can also license ordinary headedness, and determinative nouns can participate in fusion; neither possibility removes the reason to prefer the combination argued for here.
+ 
+-The package retains lexical and constructional restrictions. Extending NP projection to degree uses also requires restating the restriction on NP modifiers within attributive AdjPs. Coordinate rank alongside pronoun is a further preference: the comparisons here don't establish the additional shared rules that nesting would express.
++The package retains lexical and constructional restrictions. Nominal degree modifiers already occur in attributive AdjPs, so their distribution doesn't establish an added cost of NP projection. Coordinate rank alongside pronoun is a further preference: the comparisons here don't establish the additional shared rules that nesting would express.
+ 
+ \appendix
+ 

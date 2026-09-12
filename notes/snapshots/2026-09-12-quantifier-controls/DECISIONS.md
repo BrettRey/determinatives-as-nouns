@@ -334,19 +334,3 @@ Brett clarifies that the paper's analysis combines Noun membership with ordinary
 Brett approved revising the degree argument after the five supplied quotations were located. CGEL explicitly treats degree *heaps* and *lots* as nominal, but attested attributive uses show that its general exclusion of NP modifiers from attributive AdjPs is too broad. *Ones* supplies a common-noun head in its own analysis. The *some a* sequence also prevents the excluded *some a great deal better proposals* from isolating category as the cause of unacceptability. The auction-*lots* quotation is excluded because its context permits a different analysis.
 
 This supersedes the additional degree-use cost assigned to NP projection in earlier comparisons. All four implementations must account for the lexical, constructional, and register distribution. The change strengthens the existing nominal-profile comparison without establishing Noun membership or ordinary Head on its own. The introduction, §5.3, Table 5, and conclusion now agree. See `notes/passes/2026-09-12-attributive-degree.md`; 10,222 words, 31 pages, working draft.
-
-
-## 2026-09-12 Quantificational controls and a provisional constructional cline
-
-Brett approved a dedicated subsection and evidence matrix after asking whether participation follows a cline and rejecting minimum length as the objective. The strongest deployment determines the size. This supersedes the earlier two-paragraph proposal for the control material.
-
-Section 2.3 now distinguishes explicit partitives, relative-modified arguments, unmodified anaphoric arguments, and existential uses with each internal configuration. CGEL descriptions retain their qualifications; constructed positive comparisons, attestations, and unresolved cases have distinct cells. The documented independent uses of *certain*, *numerous*, *multiple*, and *countless* prevent a clean binary negative control. The full combination of grammatical properties remains relevant to classification.
-
-The candidate cline concerns decreasing dependence on overt nominal support. Partitives and relatives aren't assigned consecutive ranks, and external construction is a separate dimension. A strict implication scale, an acceptability improvement from relatives, and a historical sequence remain unestablished. Genitives, demonstratives, and the article requirement of *a lot* prevent a universal scale of nounhood. Existential occurrence leaves adjective fusion available, and its agreement initially concerns the NP.
-
-The revision is integrated into §§2.1 and 2.6, preserving the broader four-subcategory table. The full build passes at 11,648 words and 34 pages. See `notes/passes/2026-09-12-quantifier-controls.md`. This remains a working draft; final polish is deferred.
-
-
-## 2026-09-12 Minimal working-draft ship
-
-Brett explicitly requested a minimal ship. Reuse the verified 34-page build and completed checks of the changed prose; final polish remains deferred. Record a ship-only exception for the stale whole-manuscript house-style pass rather than rerunning it for this checkpoint.

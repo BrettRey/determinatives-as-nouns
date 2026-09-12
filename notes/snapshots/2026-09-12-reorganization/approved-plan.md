@@ -61,9 +61,3 @@ comments:
       start.
     by: user
     at: 2026-09-12T12:44:22.249Z
-  c2:
-    body: >-
-      I’ll make accessibility the controlling criterion: clear section questions, concrete examples before notation, and explicit distinctions among the conclusions each comparison supports.
-    by: Codex
-    at: "2026-09-12T12:46:25.233731+00:00"
-    re: c1

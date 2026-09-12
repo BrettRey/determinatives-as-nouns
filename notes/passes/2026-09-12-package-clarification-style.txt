@@ -1,0 +1,70 @@
+
+Found 13 potential style violation(s):
+
+
+=== determinatives-as-nouns.tex ===
+  Line 247: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 144, 243, 247, 350, 404, ...) - vary if not defining, contrasting, or pivoting
+    The comparison is specific to these constructions. Common nouns also p; The i...
+  Line 434: [warning] Noticeable argumentative-object paragraph-opener cadence (7; lines 225, 243, 247, 434, 458, 508, ...) - vary by making the move directly where possible
+    The category-level argument draws on constructions that many determina; The i...
+  Line 38: Uncontracted pronoun + auxiliary 'What is' - prefer 'what's'
+    What is the categorial relationship among words such as \mention{some}, \ment...
+  Line 112: Uncontracted pronoun + auxiliary 'That is' - prefer 'that's'
+    Independent \mention{some} can form a one-word NP, whereas an NP with \mentio...
+  Line 162: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    Overlap with adjectives likewise needs phrase levels kept distinct. Both \men...
+  Line 462: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \textcite[42--47]{payne2010} establish that adverbs can postmodify common nou...
+  Line 549: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    In \mention{some apples} and \mention{Kim's apples}, the determining phrases ...
+  Line 572: Underscore subscript - use \textsubscript{}
+    \operatorname{licensed}(\mathrm{NP}_{h},f,c)\quad &\Longleftrightarrow\quad f...
+  Line 626: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    NPs already modify adjectives in \mention{three years old}, \mention{a great ...
+  Line 628: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    This restriction already has an exception involving a quantificational common...
+  Line 678: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \textcite{reynolds2021} compares 138 word forms through properties recorded a...
+  Line 678: Oxford spelling: 'unsupervised' -> 'unsupervized'
+    \textcite{reynolds2021} compares 138 word forms through properties recorded a...
+  Line 686: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    I therefore place determinative alongside pronoun. Their shared nominal struc...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    Line 110: AI pattern: possible false range; verify the endpoints form a real scale
+      Independent uses containing fused-head AdjPs prevent a simple inference from these positions to n...
+    Line 134: AI pattern: while maintaining/preserving trade-off frame
+      Quantificational common nouns make the connection more specific than shared quantity meanings. In...
+    Line 235: AI pattern: while maintaining/preserving trade-off frame
+      \mention{The} also participates in degree modification. In \mention{the bigger the better}, it mo...
+    Line 372: AI pattern: possible false range; verify the endpoints form a real scale
+      \caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the o...
+    Line 498: AI pattern: while maintaining/preserving trade-off frame
+      The relative clauses in §\ref{sec:independent} are ordinary postmodifiers, distinct from the spec...
+    Line 596: AI pattern: while maintaining/preserving trade-off frame
+      This projection applies to dependent as well as independent determinatives, eliminating DP from t...
+    Line 608: AI pattern: trailing evaluative -ing supplement
+      The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, exclu...
+    Line 630: AI pattern: while maintaining/preserving trade-off frame
+      Giving degree determinatives NP projection requires identifying the NPs permitted in attributive ...
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    685 sentences | median 14 | mean 14.3 | middle half 9-18 (9 words)
+         1-9  ####################      172   25%
+       10-14  ########################  206   30%
+       15-19  ####################      172   25%
+       20-24  ##########                 88   13%
+       25-29  ####                       36    5%
+       30-34  #                           6    1%
+       35-39                              3    0%
+         40+                              2    0%
+

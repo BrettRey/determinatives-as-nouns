@@ -1,0 +1,588 @@
+{
+  "source_units_used": {
+    "1": [
+      1
+    ],
+    "28": [
+      2
+    ],
+    "32": [
+      3
+    ],
+    "36": [
+      5
+    ],
+    "38": [
+      6
+    ],
+    "40": [
+      7
+    ],
+    "46": [
+      8
+    ],
+    "44": [
+      9
+    ],
+    "106": [
+      9
+    ],
+    "350": [
+      11
+    ],
+    "114": [
+      12
+    ],
+    "116": [
+      13
+    ],
+    "48": [
+      14
+    ],
+    "118": [
+      15
+    ],
+    "42": [
+      17
+    ],
+    "172": [
+      18
+    ],
+    "154": [
+      19
+    ],
+    "108": [
+      20
+    ],
+    "203": [
+      24
+    ],
+    "320": [
+      25
+    ],
+    "322": [
+      26
+    ],
+    "324": [
+      27
+    ],
+    "325": [
+      28
+    ],
+    "331": [
+      29
+    ],
+    "333": [
+      30
+    ],
+    "335": [
+      31
+    ],
+    "235": [
+      32
+    ],
+    "250": [
+      33
+    ],
+    "254": [
+      33
+    ],
+    "233": [
+      34
+    ],
+    "256": [
+      35
+    ],
+    "258": [
+      36
+    ],
+    "205": [
+      37
+    ],
+    "296": [
+      38
+    ],
+    "436": [
+      39
+    ],
+    "478": [
+      40
+    ],
+    "221": [
+      42
+    ],
+    "223": [
+      43
+    ],
+    "225": [
+      44
+    ],
+    "227": [
+      45
+    ],
+    "229": [
+      46
+    ],
+    "211": [
+      47
+    ],
+    "213": [
+      49
+    ],
+    "308": [
+      49
+    ],
+    "286": [
+      50
+    ],
+    "288": [
+      51
+    ],
+    "284": [
+      52
+    ],
+    "484": [
+      55
+    ],
+    "209": [
+      56
+    ],
+    "486": [
+      57
+    ],
+    "488": [
+      58
+    ],
+    "440": [
+      59
+    ],
+    "302": [
+      61
+    ],
+    "304": [
+      62
+    ],
+    "438": [
+      63
+    ],
+    "306": [
+      64
+    ],
+    "197": [
+      65
+    ],
+    "199": [
+      66
+    ],
+    "201": [
+      67
+    ],
+    "207": [
+      68
+    ],
+    "310": [
+      69
+    ],
+    "312": [
+      69
+    ],
+    "174": [
+      72
+    ],
+    "215": [
+      74
+    ],
+    "217": [
+      75
+    ],
+    "512": [
+      77
+    ],
+    "516": [
+      79
+    ],
+    "518": [
+      80
+    ],
+    "520": [
+      81
+    ],
+    "522": [
+      82
+    ],
+    "524": [
+      83
+    ],
+    "164": [
+      84
+    ],
+    "526": [
+      85
+    ],
+    "528": [
+      86
+    ],
+    "166": [
+      87
+    ],
+    "530": [
+      88
+    ],
+    "532": [
+      89
+    ],
+    "536": [
+      91
+    ],
+    "316": [
+      94
+    ],
+    "492": [
+      94
+    ],
+    "50": [
+      98
+    ],
+    "252": [
+      100
+    ],
+    "237": [
+      101
+    ],
+    "339": [
+      103
+    ],
+    "341": [
+      104
+    ],
+    "342": [
+      105
+    ],
+    "346": [
+      106
+    ],
+    "348": [
+      107
+    ],
+    "360": [
+      110
+    ],
+    "362": [
+      111
+    ],
+    "364": [
+      112
+    ],
+    "366": [
+      113
+    ],
+    "379": [
+      114
+    ],
+    "383": [
+      115
+    ],
+    "385": [
+      116
+    ],
+    "387": [
+      117
+    ],
+    "413": [
+      118
+    ],
+    "415": [
+      119
+    ],
+    "430": [
+      120
+    ],
+    "432": [
+      121
+    ],
+    "434": [
+      122
+    ],
+    "442": [
+      123
+    ],
+    "282": [
+      126
+    ],
+    "262": [
+      127
+    ],
+    "264": [
+      128
+    ],
+    "280": [
+      129
+    ],
+    "290": [
+      130
+    ],
+    "292": [
+      131
+    ],
+    "294": [
+      132
+    ],
+    "298": [
+      133
+    ],
+    "446": [
+      135
+    ],
+    "448": [
+      136
+    ],
+    "474": [
+      137
+    ],
+    "476": [
+      138
+    ],
+    "480": [
+      140
+    ],
+    "352": [
+      142
+    ],
+    "354": [
+      143
+    ],
+    "356": [
+      144
+    ],
+    "564": [
+      147
+    ],
+    "566": [
+      149
+    ],
+    "568": [
+      150
+    ],
+    "570": [
+      151
+    ],
+    "587": [
+      152
+    ],
+    "160": [
+      153
+    ],
+    "162": [
+      154
+    ],
+    "552": [
+      156
+    ],
+    "553": [
+      157
+    ],
+    "560": [
+      158
+    ],
+    "589": [
+      159
+    ],
+    "591": [
+      160
+    ],
+    "593": [
+      161
+    ],
+    "594": [
+      162
+    ],
+    "601": [
+      163
+    ],
+    "603": [
+      164
+    ],
+    "605": [
+      165
+    ],
+    "607": [
+      166
+    ],
+    "609": [
+      167
+    ],
+    "611": [
+      168
+    ],
+    "613": [
+      169
+    ],
+    "615": [
+      170
+    ],
+    "616": [
+      171
+    ],
+    "619": [
+      172
+    ],
+    "621": [
+      173
+    ],
+    "622": [
+      174
+    ],
+    "629": [
+      175
+    ],
+    "631": [
+      176
+    ],
+    "633": [
+      177
+    ],
+    "635": [
+      178
+    ],
+    "538": [
+      181
+    ],
+    "540": [
+      182
+    ],
+    "542": [
+      183
+    ],
+    "544": [
+      184
+    ],
+    "546": [
+      185
+    ],
+    "639": [
+      187
+    ],
+    "641": [
+      188
+    ],
+    "658": [
+      189
+    ],
+    "660": [
+      190
+    ],
+    "662": [
+      190
+    ],
+    "664": [
+      191
+    ],
+    "666": [
+      192
+    ],
+    "668": [
+      193
+    ],
+    "670": [
+      194
+    ],
+    "672": [
+      195
+    ],
+    "674": [
+      196
+    ],
+    "496": [
+      198
+    ],
+    "156": [
+      199
+    ],
+    "158": [
+      200
+    ],
+    "498": [
+      201
+    ],
+    "500": [
+      202
+    ],
+    "502": [
+      203
+    ],
+    "504": [
+      204
+    ],
+    "506": [
+      205
+    ],
+    "508": [
+      206
+    ],
+    "678": [
+      209
+    ],
+    "680": [
+      210
+    ],
+    "682": [
+      211
+    ],
+    "122": [
+      214
+    ],
+    "124": [
+      215
+    ],
+    "148": [
+      216
+    ],
+    "150": [
+      217
+    ],
+    "152": [
+      218
+    ],
+    "684": [
+      220
+    ],
+    "686": [
+      221
+    ],
+    "688": [
+      222
+    ],
+    "691": [
+      223
+    ]
+  },
+  "unused_units": {
+    "34": "\\section{The question}\\label{sec:intro}",
+    "110": "\\section{Categorization, headedness, and function}\\label{sec:alternatives}",
+    "112": "\\subsection{Category, function, and phrase structure}\\label{sec:category-function}",
+    "120": "\\subsection{Taxonomic and structural alternatives}\\label{sec:related}",
+    "168": "\\section{The D-noun analysis}\\label{sec:proposal}",
+    "170": "\\subsection{The basis for a broader Noun category}\\label{sec:membership}",
+    "219": "\\subsection{The connection from the common-noun side}\\label{sec:quant-nouns}",
+    "231": "\\subsection{Noun phrases in determiner and argument functions}\\label{sec:bridge}",
+    "260": "\\subsection{Modifier selection and taxonomic level}\\label{sec:payne}",
+    "300": "\\subsection{Inflection}\\label{sec:inflection}",
+    "314": "\\section{Evidence for nominal structure}\\label{sec:evidence}",
+    "318": "\\subsection{Breadth of independent use}\\label{sec:independent}",
+    "337": "\\subsection{Structural saturation and interpretation}\\label{sec:saturation}",
+    "358": "\\subsection{Partitives locate the quantificational head}",
+    "381": "\\subsection{Modification tests the internal analysis}\\label{sec:modification}",
+    "444": "\\subsection{Compounds and modifier domains}\\label{sec:compounds}",
+    "482": "\\subsection{Predicative uses and their restrictions}\\label{sec:predication}",
+    "490": "\\subsection{What the combined pattern supports}\\label{sec:cumulative}",
+    "494": "\\section{Coordinate subcategories and inheritance}\\label{sec:inheritance}",
+    "510": "\\section{Restricted members and wider functions}\\label{sec:articles}",
+    "514": "\\subsection{Articles and the limits of independent use}",
+    "534": "\\subsection{Form selection and degree modification}\\label{sec:enough}",
+    "548": "\\section{Structural consequences and grammatical economy}\\label{sec:economy}",
+    "550": "\\subsection{A shared phrase type in determiner function}\\label{sec:det-uniform}",
+    "562": "\\subsection{A matched descriptive fragment}\\label{sec:fragment}",
+    "637": "\\subsection{Existing restrictions, additional costs, and consequences}\\label{sec:costs}",
+    "676": "\\section{Conclusion}\\label{sec:conclusion}"
+  }
+}

@@ -1,0 +1,41 @@
+--- before-the-few.tex
++++ determinatives-as-nouns.tex
+@@ -374,7 +374,9 @@
+ 
+ Both Head analyses permit the overt quantifier and domain to supply a compositional interpretation of \mention{some of the wine}.
+ 
+-The pair \mention{the lucky survivors}/\mention{the lucky few} supplies a comparison involving both an external determiner and an attributive-modifier AdjP. \textit{CGEL} explicitly permits determinatives used as internal modifiers to fuse with Head, as in \mention{the other two} and \mention{these few here} \citep[415--416]{huddleston2002}. Its analysis of \mention{the few mistakes} assigns \mention{the} to Det and \mention{few} to Mod \citep[392]{huddleston2002}. That dependent use supplies the counterpart for a Mod--Head analysis of independent \mention{few} after an external determiner.
++Independent \mention{few} and certain other indefinite determinatives permit definite determination. Under D-noun, \mention{few} heads an ordinary NP both alone and in \mention{the few}, where \mention{the} fills Det. Adding an optional adjective gives \mention{the lucky few}, with the same Head and dependent functions as \mention{the lucky survivors}.
++
++\textit{CGEL} explicitly permits determinatives used as internal modifiers to fuse with Head, as in \mention{the other two} and \mention{these few here} \citep[415--416]{huddleston2002}. Its analysis of \mention{the few mistakes} assigns \mention{the} to Det and \mention{few} to Mod \citep[392]{huddleston2002}. That dependent use supplies the counterpart for a Mod--Head analysis of independent \mention{few} after an external determiner.
+ 
+ Figure~\ref{fig:few} compares the resulting analyses of \mention{the lucky few}. Both have an overt Det and a Nom modified by \mention{lucky}. In the D-noun analysis, \mention{few} fills Head. In the fusion analysis, its DP fills Mod--Head. The competing structure thus uses machinery already needed for adjectival fusion; it requires neither a silent noun nor conversion.
+ 
+@@ -404,7 +406,7 @@
+ \caption{\mention{The lucky few} with ordinary Head (left) and Mod--Head fusion (right). The determiner is separately realized in both. Internal structure within the article phrase and AdjP is suppressed.}\label{fig:few}
+ \end{figure}
+ 
+-Table~\ref{tab:matched-heads} compares the Head relations across four constructions; §\ref{sec:det-uniform} supplies the rules under both taxonomies.
++Table~\ref{tab:matched-heads} compares the Head relations across five constructions; §\ref{sec:det-uniform} supplies the rules under both taxonomies.
+ 
+ \begin{table}[H]
+ \centering\small
+@@ -415,6 +417,7 @@
+ \midrule
+ \mention{few survivors} & \mention{few}: Det; \mention{survivors}: Head & Same functions \\
+ Independent \mention{few} & \mention{few}: Det--Head & \mention{few}: Head \\
++\mention{the few} & \mention{few}: Mod--Head & \mention{few}: Head \\
+ \mention{the lucky few} & \mention{few}: Mod--Head; \mention{lucky}: Mod & \mention{few}: Head; \mention{lucky}: Mod \\
+ \mention{the idle rich} & \mention{rich}: Mod--Head; \mention{idle}: Mod & Same fusion and modifier functions \\
+ \bottomrule
+@@ -585,7 +588,9 @@
+ 
+ A singular count common noun such as \mention{book} faces a different restriction from an article. In \mention{a book}, its requirement for determination is satisfied; bare \ungram{\mention{Book arrived}} leaves that requirement unsatisfied. \mention{Books arrived} has no such requirement. Requiring determination for a common noun doesn't itself block an article-headed NP from argument use. An article's exclusion from argument use must still be stated separately.
+ 
+-\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almost} modifies the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. Degree \mention{very} modifies \mention{few} internally across dependent and independent uses. Externally determined \mention{few} also permits adjectival \mention{lucky}. The cardinal construction \mention{the almost thirty who came} licenses internal approximative \mention{almost}. In \mention{hardly anyone present}, \mention{hardly} is peripheral to NP and the restrictor \mention{present} is internal to Nom.
++\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Independent \mention{few} permits definite determination in \mention{the few} and optional adjectival modification in \mention{the lucky few}. Degree \mention{very} modifies \mention{few} internally across dependent and independent uses.
++
++Peripheral \mention{almost} modifies the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. The cardinal construction \mention{the almost thirty who came} licenses internal approximative \mention{almost}. In \mention{hardly anyone present}, \mention{hardly} is peripheral to NP and the restrictor \mention{present} is internal to Nom.
+ 
+ Under separate D with ordinary Head, the NP and use-permission rules are the same. Its Nom rule admits either Noun or determinative as lexical head:
+ 

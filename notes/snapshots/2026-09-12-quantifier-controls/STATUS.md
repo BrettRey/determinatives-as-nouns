@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Brett can read the quantifier-control revision; polish remains for later
+next_action: Brett can read the reorganized working draft in Roughdraft; polish remains for later
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,14 +28,10 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Quantificational controls, a construction matrix, and a provisional cline incorporated; 34-page working draft builds successfully · status: drafting · updated: 2026-09-12 -->
+<!-- SUMMARY: Attested attributive nominal degree modifiers incorporated; automatic NP cost removed; 31-page working draft builds successfully · status: drafting · updated: 2026-09-12 -->
 
 **Last updated:** 2026-09-12
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
-
-## 2026-09-12 Quantificational controls and constructional cline incorporated
-
-Section 2.3 adds a nine-row construction matrix and twelve sourced examples, with existential cross-reference in §2.1 and integration into the profile argument in §2.6. The cline concerns dependence on overt nominal support and remains a hypothesis requiring matched judgments; unresolved cells aren't negative judgments. The full working draft builds at 11,648 words and 34 pages. See [the revision record](notes/passes/2026-09-12-quantifier-controls.md) and [reading copy](notes/determinatives-as-nouns-review-2026-09-12-quantifier-controls.md). Brett supplied review comments directly because Roughdraft wasn't working; implementation followed his approval. Final polish and image inspection remain deferred.
 
 ## 2026-09-12 Attributive nominal degree evidence incorporated
 

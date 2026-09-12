@@ -1,0 +1,22 @@
+File: /tmp/dnoun-reorganization-count-after.tex
+Encoding: utf8
+Words in text: 8707
+Words in headers: 120
+Words outside text (captions, etc.): 906
+Number of headers: 27
+Number of floats/tables/figures: 12
+Number of math inlines: 8
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  145+1+0 (1/0/0/0) _top_
+  632+5+60 (1/1/0/0) Section: The question and the alternatives}\label{sec:intro
+  2302+28+322 (6/1/0/0) Section: Grounds for a broader Noun category}\label{sec:proposal
+  691+17+0 (3/0/0/0) Section: Restricted members and the scope of the grouping}\label{sec:articles
+  1908+31+350 (7/7/0/0) Section: Ordinary Head, fusion, and modifier attachment}\label{sec:evidence
+  1964+24+88 (5/2/8/4) Section: The matched fragment and comparative costs}\label{sec:economy
+  568+4+41 (1/0/0/0) Section: Coordinate or nested subcategories}\label{sec:inheritance
+  169+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  237+5+45 (1/1/0/0) Section: Earlier accounts and logical alternatives}\label{sec:historical
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

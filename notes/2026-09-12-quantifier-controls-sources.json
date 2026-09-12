@@ -1,0 +1,114 @@
+{
+  "retrieved": "2026-09-12",
+  "status": "Web and CGEL checks completed; targeted NOW/COCA attestation verification completed after login",
+  "corpus_followup": "2026-09-12-quantifier-controls-corpus.json",
+  "corpus_attempts": [
+    {
+      "corpus": "NOW",
+      "url": "https://www.english-corpora.org/now/",
+      "query": "there are multiple",
+      "result": "Registration/login gate; no concordance obtained"
+    },
+    {
+      "corpus": "COCA",
+      "url": "https://www.english-corpora.org/coca/",
+      "query": "there are countless",
+      "result": "Registration/login gate; no concordance obtained"
+    }
+  ],
+  "attestations": [
+    {
+      "id": "countless-relative-existential",
+      "word": "countless",
+      "construction": "article-free existential displaced subject with relative postmodifier",
+      "excerpt": "there are countless who",
+      "author": "Jeffrey Ladd (article byline; metadata names site editor Tim Clark)",
+      "title": "John Myers: The Portraits",
+      "site": "1000 Words",
+      "date": "2018-05-28",
+      "date_note": "First-publication metadata; current page modified 2026-07-02. Historical wording not separately archived.",
+      "url": "https://1000wordsmag.com/john-myers/",
+      "locator": "opening paragraph",
+      "verification": "Original article read; preceding sentence discusses photographers. Relative clause has plural are. No overt noun follows countless."
+    },
+    {
+      "id": "countless-partitive-existential",
+      "word": "countless",
+      "construction": "existential displaced subject with partitive complement",
+      "excerpt": "there are countless of them up there at Green Castle Hill",
+      "speaker": "Priest Isaac",
+      "site": "Pointe Xpress",
+      "date": "2021-06-18",
+      "url": "https://pointville.ag/wp-content/uploads/2021/06/18-JUNE-2021-Xpress-Issue-243-.pdf",
+      "locator": "p. 19, continuation of summer-solstice report",
+      "verification": "Original newspaper PDF text checked; them refers to stones. Antiguan news quotation; not evidence of unrestricted acceptability across varieties."
+    },
+    {
+      "id": "multiple-subject",
+      "word": "multiple",
+      "construction": "article-free canonical subject",
+      "excerpt": "multiple were injured",
+      "authors": [
+        "Ivana Saric",
+        "Herb Scribner"
+      ],
+      "site": "Axios",
+      "date": "2022-06-27",
+      "date_note": "Date displayed by page; developing-story updates described in body.",
+      "url": "https://www.axios.com/2022/06/27/amtrak-train-derail-missouri",
+      "locator": "opening sentence",
+      "verification": "Original page read."
+    },
+    {
+      "id": "multiple-relative-existential",
+      "word": "multiple",
+      "construction": "article-free existential displaced subject with relative postmodifier",
+      "excerpt": "There are multiple that are cited in my response.",
+      "speaker": "Zachary Loyed",
+      "date": "2025-05-29",
+      "title": "Public Records Hearing, State of Florida v. Thomas Lee Gudinas",
+      "url": "https://www.supremecourt.gov/DocketPDF/24/24-7457/363457/20250618100158557_Appendix%20to%20the%20Petition%20for%20Writ%20of%20Certiorari-06-18-25.pdf",
+      "locator": "Appendix C, transcript p. 7, lines 14–15; PDF p. 55",
+      "verification": "Downloaded original PDF and checked transcript text, hearing date, speaker and context. Multiple refers to cases."
+    },
+    {
+      "id": "multiple-partitive-existential",
+      "word": "multiple",
+      "construction": "existential displaced subject with partitive complement",
+      "excerpt": "there are multiple of them",
+      "speaker": "Saran",
+      "site": "SCB Abacus Strategy Day transcript",
+      "date": "2022",
+      "date_note": "Year in official archive path; exact event date not verified.",
+      "url": "https://investor.scbx.com/storage/strategy-day/2022/transcript/scb-abacus-strategy-day-transcription.pdf",
+      "locator": "PDF p. 4",
+      "verification": "Original transcript read; them refers to components. Thai corporate presentation in English; variety is not assumed to be American English."
+    },
+    {
+      "id": "earlier-closed-categories-draft",
+      "authors": [
+        "Brett Reynolds",
+        "Geoffrey K. Pullum"
+      ],
+      "title": "New members of closed classes in English",
+      "url": "https://www.lel.ed.ac.uk/~gpullum/ClosedClasses.pdf",
+      "locator": "sections 2.1.1–2.1.2 and final paragraph of 2.1",
+      "verification": "Original author-hosted draft read. Documents partitive numerous via MWDEU and discusses various historically. Lists multiple among further developments but supplies no multiple concordance in this section. No new corpus counts taken from it.",
+      "reported_attestation": {
+        "excerpt": "numerous of its inhabitants",
+        "original_byline": "Norman Harrington",
+        "original_source": "New York Times",
+        "original_date": "1968-04-07",
+        "verification": "Read in author-hosted draft §2.1.2 quoting Merriam-Webster’s Dictionary of English Usage; original newspaper and dictionary not independently read."
+      }
+    }
+  ],
+  "cgel_checks": {
+    "pp539-540": "Criteria are article incompatibility, licensing count singular NPs, and partitives; additional degree-position contrasts. Not all reduce to independent noun headedness.",
+    "pp392-393": "Various and certain marginal determinatives with qualified partitive uses; several also permits modification after a definite determiner.",
+    "pp416-418": "Fused-head adjective NPs include ordinal a second; plural rich/poor NPs have adjectives without number inflection.",
+    "p242": "There inherits person-number from displaced NP in the agreement account; informal invariant there’s complicates surface agreement.",
+    "pp1391-1393": "Dummy there is subject; NP is displaced subject; bare/extended existentials distinguished.",
+    "pp1397-1401": "Definite displaced NPs are not categorically excluded; several discourse conditions beyond list uses."
+  }
+}

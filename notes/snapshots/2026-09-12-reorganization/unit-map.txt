@@ -1,0 +1,212 @@
+1 prose \documentclass[12pt]{article} \input{.house-style/preamble.tex} \usepackage{forest} \usepackage{xurl} \usepackage{float} \usefores
+28 prose \begin{abstract} I argue that English determinatives belong within Noun alongside common nouns, proper nouns, and pronouns. Their 
+32 prose \noindent\textbf{Keywords:} determinatives, nouns, lexical categories, noun phrases, English
+34 block \section{The question}\label{sec:intro}
+36 prose What is the categorial relationship among words such as \mention{some}, \mention{me}, \mention{apple}, and \mention{Brett}? I argu
+38 prose I adopt the general framework of \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}).
+40 prose I use \term{determinative} for the category containing articles, demonstratives, and quantifiers such as \mention{the}, \mention{t
+42 prose \textit{CGEL} already includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and 
+44 prose In the D-noun analysis, determinatives inherit the nominal projection rules of Noun. Under these rules, a determinative heads a \t
+46 prose Figure~\ref{fig:some} compares \textit{CGEL} with the D-noun analysis for \mention{take some apples} and \mention{take some}. Both
+48 prose Here DP abbreviates \term{determinative phrase}, as in \textit{CGEL}, not to be confused with the DP of the DP hypothesis, where D
+50 block \begin{figure}[!htbp] \centering \textit{CGEL}\par\smallskip \begin{minipage}{.60\linewidth}\centering Dependent \mention{some}\pa
+106 prose The same ordinary Head structure extends to bare \mention{few}, partitive \mention{few of them}, and externally determined \mentio
+108 prose The argument proceeds from categorization to its consequences. Section~\ref{sec:related} places the proposal among earlier account
+110 block \section{Categorization, headedness, and function}\label{sec:alternatives}
+112 block \subsection{Category, function, and phrase structure}\label{sec:category-function}
+114 prose Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \mention{\underline{Kim
+116 prose The question of lexical categorization is distinct from the headedness question associated with the DP hypothesis of \textcite{abn
+118 prose Category membership doesn't remove lexical restrictions. \mention{Every apple} is grammatical, but \ungram{\mention{I'll take ever
+120 block \subsection{Taxonomic and structural alternatives}\label{sec:related}
+122 prose Keeping a word in one category across dependent and independent uses leaves its taxonomic position open. As \textcite[232--235]{ly
+124 block \begin{table}[H] \centering\small \caption{Selected accounts and logical alternatives. The earlier proposals differ in scope and r
+148 prose \textcite[24]{palmer1924} proposed placing \enquote{determinative adjectives} with pronouns. He contrasted them with qualifying ad
+150 prose \textcite{postal1966} develops the article--pronoun connection through English reflexives and combinations such as \mention{we men
+152 prose \textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlyin
+154 prose These predecessors challenge a fundamental article--pronoun separation, but leave the full determinative inventory uncategorized. 
+156 prose Hudson makes taxonomic inclusion explicit. His noun category contains common noun, proper noun, and pronoun \citep[253--254]{hudso
+158 prose Hudson's criteria centre on licensing a singular count common noun and on mutual exclusion in that use. He sets aside \mention{all
+160 prose Hudson also distinguishes dependency from external headedness. He argues that determiner and common noun depend on each other, alt
+162 prose The reciprocal selection facts are substantial: a singular count noun normally requires determination, while \mention{every} requi
+164 prose \textcite[153--158]{spinillo2004reconceptualising} instead retains \mention{the}, \mention{a}, and \mention{every} as an expanded 
+166 prose \textcite[140--144]{spinillo2004reconceptualising} draws an analogy with verbs and prepositions whose complements can be omitted. 
+168 block \section{The D-noun analysis}\label{sec:proposal}
+170 block \subsection{The basis for a broader Noun category}\label{sec:membership}
+172 prose Table~\ref{tab:existing} compares the four proposed subcategories. The issue is the combined profile: how broadly a property occur
+174 block \begin{table}[!htbp] \centering\small \caption{Representative profiles. Functions concern phrases; internal and peripheral modific
+197 prose Meaning and reference vary within Noun. \mention{Apple} describes a category; \mention{Kim}, in its primary naming use, identifies
+199 prose These meanings aren't exclusive to nouns. Adjectives such as \mention{singular} and \mention{plural} also concern number; \mention
+201 prose Pro-form gender \citep{reynolds2025proformgender} connects these ways of referring. Descriptions such as \mention{the woman} and n
+203 prose External syntax supplies a broad overlap in the functions available to the phrases. \textit{CGEL} makes this the stated ground for
+205 prose Modifier and adjunct functions also cut across the groups. Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \m
+207 prose Interrogative and relative properties must be distinguished from those functions. An interrogative object may be headed by a prono
+209 prose Overlap with adjectives likewise needs phrase levels kept distinct. Both \mention{the people} and \mention{the rich} are NPs in \t
+211 prose Complementation sharpens the comparison. Common nouns and determinatives take partitive complements: \mention{a lot/some of the wi
+213 prose The strongest adjectival connection is concentrated in \mention{few}, \mention{many}, \mention{much}, and \mention{little}. They i
+215 prose The case for inclusion rests on this distribution of connections. Determinatives share argument and determiner functions with all 
+217 prose The D-noun analysis captures shared properties through \term{inheritance}: a property stated for a superordinate category is avail
+219 block \subsection{The connection from the common-noun side}\label{sec:quant-nouns}
+221 prose Quantificational common nouns make the connection more specific than shared quantity meanings. In \mention{a lot of the delegates}
+223 prose Agreement provides another connection. Compare the constructed \mention{A lot of the people were waiting} and \mention{Some of the
+225 prose This pattern connects particular constructions, not every member of either category. Singular \mention{each of the people} doesn't
+227 prose Restricted dependents also occur on the common-noun side. \textit{CGEL} categorizes quantificational \mention{plenty} as a common 
+229 prose The connection also extends beyond argument NPs. Quantificational nouns occur in degree modifiers such as \mention{a great deal sm
+231 block \subsection{Noun phrases in determiner and argument functions}\label{sec:bridge}
+233 prose Determinatives' characteristic determiner use could support a separate primary category. But Det is itself specific to NP structur
+235 prose Determiner function already cuts across the existing noun subcategories. Compare \mention{my preferences}, \mention{Kim's preferen
+237 block \begin{figure}[H] \centering \begin{forest} nominal tree [NP  [{\synnode{Det}{NP[gen]}}   [{\synnode{Head}{Nom}}, head edge    [{\
+250 prose The compound determinative \mention{someone}, following the categorization of \textcite[§1.3]{Payne2007}, joins this pattern in \m
+252 prose The NP headed by \mention{some} likewise functions as Det in \mention{take some apples} and as object in \mention{take some} (Figu
+254 prose NP becomes the shared phrase type for the principal realizations of determiner function. Plain determinative-headed NPs, such as \
+256 prose These existing NP determiners give the extension a functional basis. In \mention{Kim's preferences}, the embedded NP supplies an i
+258 prose PPs remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks} \citep[356]{
+260 block \subsection{Modifier selection and taxonomic level}\label{sec:payne}
+262 prose Two premodifier patterns need distinguishing: approximative and focusing adverbs, and the degree series exemplified by \mention{ve
+264 block \begin{figure}[H] \centering \begin{forest} nominal tree [NP  [{\synnode{Det}{NP\textsubscript{D}}}   [{\synnode{Mod}{AdvP}} [\men
+280 prose \textcite[40--42]{payne2010} defend keeping \mention{few}, \mention{any}, and related forms in one lexical category across depende
+282 prose Peripheral modifiers attach outside an NP's internal dependents. Compare \mention{only you}, \mention{for almost my entire life}, 
+284 prose This pattern extends broadly across determinatives: \mention{almost every}, \mention{nearly all}, \mention{hardly any}, \mention{p
+286 prose Degree \mention{very} has different selection: \mention{very tall} and \mention{very few}, but \ungram{\mention{very you}}, \ungra
+288 prose The complex determinative \mention{a few} makes the attachment contrast visible. \textit{CGEL} explicitly contrasts internal \ment
+290 prose The proposed analysis gives \mention{very} internal attachment in dependent and independent uses alike. In \mention{the very few p
+292 prose NP degree modifiers provide a further connection. Determinatives permit determinative premodifiers such as \mention{this} in \ment
+294 prose \textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in the constructed \mention{the changes global
+296 prose Postmodifier permissions also overlap. Common nouns freely take integrated relative clauses; personal pronouns permit a restricted
+298 prose Approximatives need internal attachment where they follow an external determiner on an independent cardinal: \mention{the almost t
+300 block \subsection{Inflection}\label{sec:inflection}
+302 prose Inflection supplies several connections with established nouns, though no one contrast runs through the whole category. Common nou
+304 prose Number needn't be inflectional wherever it matters. \textit{CGEL} treats singular and plural \mention{you} as distinct lexemes, di
+306 prose Case gives a further partial connection. Genitives occur across the proposed subcategories: \mention{dog's}, \mention{Kim's}, \men
+308 prose Grade instead connects determinatives with adjectives. The paradigms \mention{few}/\allowbreak\mention{fewer}/\allowbreak\mention{
+310 prose The \mention{no}/\allowbreak\mention{none} alternation distinguishes dependent and independent forms. Genitive \mention{my}/\allow
+312 prose Derivation supplies a weaker category diagnostic. Determinatives enter common-noun formations such as \mention{nothingness} and \m
+314 block \section{Evidence for nominal structure}\label{sec:evidence}
+316 prose Independent uses, partitives, and modification show a recurring nominal pattern. The observations overlap: \mention{Some left} ill
+318 block \subsection{Breadth of independent use}\label{sec:independent}
+320 prose Independent use is widespread within the determinative inventory. \textit{CGEL} discusses such uses for demonstratives and quantif
+322 prose In the constructed examples in (\ref{ex:external}), compare the bracketed NPs as subjects, objects, and complements of preposition
+324 prose \begin{samepage}
+325 block \ea\label{ex:external} \ea \mention{\textup{[}People\textup{]} left.}\qquad \mention{I see \textup{[}people\textup{]}.}\qquad \men
+331 prose \end{samepage}
+333 prose Independent uses containing fused-head AdjPs prevent a simple inference from these positions to nounhood. \mention{The rich} and \
+335 prose Independent \mention{some} can form a one-word NP, whereas an NP with \mention{rich} as fused head requires the definite article \
+337 block \subsection{Structural saturation and interpretation}\label{sec:saturation}
+339 prose With a group of people under discussion, \mention{Some left}, \mention{Many came}, and \mention{All agree} illustrate \term{struct
+341 prose In the following attestation from the CGELBank treebank, \mention{two different Honda models} supplies the domain for the independ
+342 block \ea\label{ex:attested-both} \mention{Went there yesterday: we are trying to decide between two different Honda models, so we wante
+346 prose Generalizing expressions such as \mention{Many are called, few are chosen} and \mention{Enough is enough} need no previously utter
+348 prose The comparison with ordinary pronouns and proper nouns is structural as well as interpretive. In \mention{She left} and \mention{K
+350 prose In \textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency condi
+352 prose \textit{CGEL} also uses fusion with nouns. Anaphoric \mention{mine}, understood as \enquote*{my car}, combines the possessive rela
+354 prose The proposed analysis gives \mention{mine} ordinary Head in both anaphoric and predicative uses. Its genitive form expresses a rel
+356 prose In referential uses, the independent-genitive construction supplies the NP's interpretation and agreement properties based on the 
+358 block \subsection{Partitives locate the quantificational head}
+360 prose In \mention{some of the wine}, \mention{some} specifies a quantity drawn from an identifiable amount of wine. The NP \mention{the 
+362 prose Compare where the common noun occurs in \mention{some apples} and \mention{some of the wine}. In the partitive, \mention{wine} is 
+364 prose Figure~\ref{fig:partitive} gives the D-noun analysis, with the \mention{of}-phrase functioning as complement within Nom, as in \te
+366 block \begin{figure}[H] \centering \begin{forest} nominal tree [NP  [{\synnode{Head}{Nom}}, head edge   [{\synnode{Head}{N\textsubscript
+379 prose The overt quantifier and domain already supply a compositional interpretation of \mention{some of the wine}. A silent common noun 
+381 block \subsection{Modification tests the internal analysis}\label{sec:modification}
+383 prose The pair \mention{the lucky survivors}/\mention{the lucky few} supplies a comparison involving both an external determiner and an 
+385 prose Figure~\ref{fig:few} compares the resulting analyses of \mention{the lucky few}. Both have an overt Det and a Nom modified by \men
+387 block \begin{figure}[H] \centering \begin{minipage}{.48\linewidth}\centering \begin{forest} nominal tree [NP  [{\synnode{Det}{NP\textsub
+413 prose Table~\ref{tab:matched-heads} compares the Head relations across four constructions; §\ref{sec:fragment} supplies the rules under 
+415 block \begin{table}[H] \centering\small \caption{Head and dependent functions under matched analyses. Each independent expression is an 
+430 prose Fusion groups \mention{the lucky few} with \mention{the idle rich}; ordinary headedness groups it with \mention{the lucky survivor
+432 prose Reducing fusion's applications can simplify this description even when fusion remains available for adjectives. The advantage is t
+434 prose The constructed \mention{the remaining three} extends the modifier pattern to cardinals. It doesn't independently decide whether \
+436 prose Relative-clause postmodification adds another nominal construction: \mention{those who came}, \mention{anyone who asks}, \mention{
+438 prose The demonstrative number contrasts in §\ref{sec:inflection} remain visible in independent uses. Generic human \mention{the rich}, 
+440 prose Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary. \textit{CGEL}'s \mention{
+442 prose The combination of argument use, nominal number properties, partitives, and modification favours ordinary determinative headedness
+444 block \subsection{Compounds and modifier domains}\label{sec:compounds}
+446 prose A more demanding modifier comparison is \mention{hardly anyone present}. \textcite[581--583]{Payne2007} assign \mention{hardly} to
+448 block \begin{figure}[H] \centering \begin{minipage}{.48\linewidth}\centering \begin{forest} nominal tree [NP  [{\synnode{Mod}{AdvP}} [\m
+474 prose In the ordinary-Head tree, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determi
+476 prose The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor. When both occur, the 
+478 prose This division extends to \mention{someone} and \mention{everybody}: the compound family licenses nominal argument use and post-hea
+480 prose Both accounts separate the modifier domains structurally: fusion uses the DP--Nom boundary, and ordinary headedness uses the NP--N
+482 block \subsection{Predicative uses and their restrictions}\label{sec:predication}
+484 prose \textit{CGEL} records predicative \mention{Its advantages are several} and \mention{Their enemies were many}, describing the latte
+486 prose \mention{She is a beauty} ascribes a property, whereas \mention{That is Kim} identifies a person. \textit{CGEL} excludes specifyin
+488 prose Nominal grammar also distinguishes predicative and argument uses. A bare-role NP such as \mention{president} is licensed in \menti
+490 block \subsection{What the combined pattern supports}\label{sec:cumulative}
+492 prose The nominal constructions reinforce the semantic and morphological connections in §\ref{sec:proposal}. Under the D-noun analysis, 
+494 block \section{Coordinate subcategories and inheritance}\label{sec:inheritance}
+496 prose Including determinatives within Noun leaves a second question: where within Noun do they belong? In the proposed hierarchy, common
+498 prose The intermediate category would be useful if it supported grammatical generalizations applying to pronouns and determinatives toge
+500 prose \textcite{reynolds2021} compares 138 word forms through properties recorded as present or absent, such as accepting \mention{almos
+502 prose The grammatical case for nesting needs to be assessed on its own. Many pronouns and determinatives have little descriptive content
+504 prose Restrictions on determination and modification are another candidate. Personal pronouns generally resist external determiners and 
+506 prose Nor are those restrictions uniform within the proposed intermediate category. Determinatives allow \mention{the few}, \mention{the
+508 prose I therefore place determinative alongside pronoun. Their shared nominal structure belongs at the Noun level, while their more spec
+510 block \section{Restricted members and wider functions}\label{sec:articles}
+512 prose The broader grouping includes members with restricted distributions. Articles test whether ordinary independent use is necessary; 
+514 block \subsection{Articles and the limits of independent use}
+516 prose Why categorize the articles \mention{the} and \mention{a} as nouns if they can't stand independently? \mention{Every} is restricte
+518 prose \textit{CGEL}'s treatment of \mention{my} supplies a precedent for restricted membership within Noun \citep[470--471]{huddleston20
+520 prose The articles participate in the determinative system of definiteness, quantity, and count restrictions. In \mention{the/a/this/eve
+522 prose \mention{The} also participates in degree modification. In \mention{the bigger the better}, it modifies comparative AdjPs, as othe
+524 prose \mention{A} also enters the complex determinatives \mention{a few}, \mention{a little}, and \mention{many a}. In the last, \mentio
+526 prose \mention{Every} connects with independent \mention{each} through universal quantification and singular count selection. It also pe
+528 prose The issue is how much independent support its shared restrictions provide. Absence of bare, predicative, and partitive uses all li
+530 prose The argument for retaining the articles is synchronic. Grammaticalization supplies background: \textcite[331--336]{lyons1999} disc
+532 prose The D-noun analysis retains the shared determining profile and records the absence of independent use in lexical permissions. The 
+534 block \subsection{Form selection and degree modification}\label{sec:enough}
+536 prose \mention{No}/\mention{none} illustrates a restriction on forms within a paradigm. \textit{CGEL} treats them as inflectional forms 
+538 prose \mention{Enough} tests both position and external function. It precedes a nominal in \mention{enough money} and can follow one in 
+540 prose \mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \mention{good enough}, \mention{quickly enough}, \mention
+542 prose NPs already modify adjectives in \mention{three years old}, \mention{a great deal smaller}, and \mention{plenty big enough} \citep
+544 prose This restriction already has an exception involving a quantificational common noun. \textit{CGEL} permits \mention{She's a lot bet
+546 prose Extending determinative NP projection to degree uses admits a broader range in those positions. Both ordinary-Head accounts then n
+548 block \section{Structural consequences and grammatical economy}\label{sec:economy}
+550 block \subsection{A shared phrase type in determiner function}\label{sec:det-uniform}
+552 prose In \mention{some apples} and \mention{Kim's apples}, the determining phrases share the NP category under both ordinary-Head accoun
+553 block \[ \begin{aligned} \text{\textit{CGEL}:} &\quad \mathrm{Det}:\{\mathrm{DP},\mathrm{NP},\mathrm{PP}\} \\ \text{Both ordinary-Head a
+560 prose Determinative phrases and genitive NPs supply the principal realizations in the separate-D analysis; PPs are restricted. Under ord
+562 block \subsection{A matched descriptive fragment}\label{sec:fragment}
+564 prose A grammatical \term{fragment} is a set of rules for a specified range of constructions. Here it covers determination, ordinary sub
+566 prose Predication, interrogative clause structure, and modification outside NP structure also fall outside its scope; their implications
+568 prose Table~\ref{tab:permissions} records \term{use permissions}. \term{Dependent} means that the form heads a phrase in Det function be
+570 block \begin{table}[H] \centering\small \caption{Shared permissions in the fragment. For \mention{some}, the target column concerns its 
+587 prose Further constructional restrictions apply: \mention{she} is a subject form, whereas the corresponding ordinary object form is \men
+589 prose Comparing the ordinary-Head accounts holds projection fixed while varying taxonomy. Comparing the separate-D accounts holds taxono
+591 prose The D-noun analysis applies nominal projection to determinatives through their membership in Noun. A separate condition checks use
+593 prose $\mathrm{Mods}_{\mathrm{post}}$ denotes a possibly empty, constructionally ordered sequence of postmodifiers. For compounds, this 
+594 block \[ \begin{aligned} \mathrm{Nom}_{h} &\to (\mathrm{Mod}_{\mathrm{pre}})\quad \mathrm{Head}:\mathrm{N}_{h}\quad (\mathrm{Comp})\quad
+601 prose Here $U_h$ is the head's set of use permissions, $f$ is the completed NP's external function, and $C_h$ checks the lexical and con
+603 prose These checks accommodate the reciprocal selection discussed by Hudson (§\ref{sec:related}). The determining phrase checks the targ
+605 prose In \mention{some apples}, \mention{some} heads an NP whose Det permission and plural-count target requirement are satisfied. \ment
+607 prose Each NP's use permissions follow its own head. In \mention{the apple}, the article's Det permission licenses the dependent NP head
+609 prose The same distinction between phrase levels matters beyond the fragment. In \mention{I know which apple it is}, \mention{which} hea
+611 prose A singular count common noun such as \mention{book} faces a different restriction from an article. In \mention{a book}, its requir
+613 prose \mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almos
+615 prose Keeping ordinary headedness while retaining primary D gives the strongest separate-D alternative. It retains the NP and use-permis
+616 block \[ \mathrm{Nom}_{h}\to(\mathrm{Mod}_{\mathrm{pre}})\quad\mathrm{Head}:\{\mathrm{N}_{h},\mathrm{D}_{h}\}\quad(\mathrm{Comp})\quad\m
+619 prose This projection applies to dependent as well as independent determinatives, eliminating DP from the fragment while retaining prima
+621 prose The separate-D fusion account relates independent determinatives to their dependent counterparts. In addition to nominal projectio
+622 block \[ \begin{aligned} \mathrm{DP}_{h} &\to (\mathrm{Mod}_{\mathrm{pre}})\quad \mathrm{Head}:\mathrm{D}_{h}\quad (\mathrm{Comp}) \\ \m
+629 prose The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, excluding a second Det; Mod--Head fill
+631 prose The ordinary-Head accounts share nominal projection and Head relations. Once a member's use is licensed, its nominal structure fol
+633 prose The disjunction $\{\mathrm{N},\mathrm{D}\}$ groups the same heads for nominal projection. Expressing that grouping in the lexical 
+635 prose A grammar with Hudson's nested categorization can use the same permissions and projection rules. Holding those rules fixed, placin
+637 block \subsection{Existing restrictions, additional costs, and consequences}\label{sec:costs}
+639 prose Table~\ref{tab:economy} compares five criteria across the three accounts, holding the inventory, constructions, and readings fixed
+641 block \begin{table}[H] \centering\small \caption{Comparative accounting. These are descriptive commitments, not numerical scores. Extend
+658 prose The articles' restrictions, \mention{no}/\mention{none} form selection, and the compound restrictor conditions are already require
+660 prose The ordinary-Head accounts share peripheral NP rules for approximative and focusing modifiers. Their internal permissions cover th
+662 prose On shared structure, the ordinary-Head accounts tie. D-noun reduces the number of primary categories by one, retaining determinati
+664 prose \textcite{reynolds2026numerals} distinguishes determinative numerals such as \mention{ten} in \mention{ten men}, proper-noun cases
+666 prose \textcite[797--798]{payne2013anaphoric} distinguish three lexemes spelled \mention{one}: determinative, anaphoric common noun, and
+668 prose Complex cardinals also separate category from function. In \mention{two hundred books}, the whole \mention{two hundred} fills Det;
+670 prose These cardinals and the lexemes spelled \mention{one} retain their distinctions within one primary category. Their grouping follow
+672 prose I favour the broader Noun category because it places the recurring nominal structure at the shared level and preserves the determi
+674 prose If determinative-headed and genitive expressions require different projection rules after their independently motivated restrictio
+676 block \section{Conclusion}\label{sec:conclusion}
+678 prose English determinatives belong within Noun as a coordinate subcategory alongside common nouns, proper nouns, and pronouns. The comb
+680 prose The resulting category retains internal differences. Articles lack ordinary independent uses; the \mention{no}/\allowbreak\mention
+682 prose Determinatives then inherit nominal projection and ordinary Head relations across bare, partitive, and externally determined uses.
+684 block \section*{Data and analysis materials}
+686 prose The accompanying supplements are \href{run:matrix-audit.pdf}{\textit{Replication audit of the English determinative--pronoun featu
+688 prose \vspace{0.5\baselineskip} \noindent\textsc{Acknowledgements.} For the September 2026 revision, GPT-6 (Astra), Claude Opus~5, Claud
+691 prose \clearpage \printbibliography \end{document}

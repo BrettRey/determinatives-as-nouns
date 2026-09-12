@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Brett can read the quantifier-control revision; polish remains for later
+next_action: Brett can share the structurally consistent draft with an outside reader; fresh Roughdraft copy available
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,32 +28,10 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Quantificational controls, a construction matrix, and a provisional cline incorporated; 34-page working draft builds successfully · status: drafting · updated: 2026-09-12 -->
+<!-- SUMMARY: Bounded compound, genitive-agreement, and scope repairs complete; unsupported uptake claim removed; 9,662 words and 29 pages · status: drafting · updated: 2026-09-12 -->
 
 **Last updated:** 2026-09-12
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
-
-## 2026-09-12 Quantificational controls and constructional cline incorporated
-
-Section 2.3 adds a nine-row construction matrix and twelve sourced examples, with existential cross-reference in §2.1 and integration into the profile argument in §2.6. The cline concerns dependence on overt nominal support and remains a hypothesis requiring matched judgments; unresolved cells aren't negative judgments. The full working draft builds at 11,648 words and 34 pages. See [the revision record](notes/passes/2026-09-12-quantifier-controls.md) and [reading copy](notes/determinatives-as-nouns-review-2026-09-12-quantifier-controls.md). Brett supplied review comments directly because Roughdraft wasn't working; implementation followed his approval. Final polish and image inspection remain deferred.
-
-## 2026-09-12 Attributive nominal degree evidence incorporated
-
-Section 5.3 incorporates the attested *heaps*, *lots*, and *miles* examples, explicitly identifies *ones* as a common noun, and notes the *some a* sequence in CGEL's excluded example. The introduction, Table 5, and conclusion no longer assign an automatic degree-use cost to NP projection. The verified working draft is 10,222 words and 31 pages. See [the revision record](notes/passes/2026-09-12-attributive-degree.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-12-attributive-degree.md).
-
-## 2026-09-12 Definite determination made explicit
-
-Section 4.3 now introduces *few*, *the few*, and *the lucky few* in that order. Table 3 and §5.2 distinguish definite determination from optional adjectival modification. The full build passes at 32 pages. See [the revision record](notes/passes/2026-09-12-the-few.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-12-the-few.md).
-
-## 2026-09-12 Complementary package clarified
-
-Approved section 1 feedback is applied through the later comparison and conclusion. Noun membership and ordinary headedness are complementary parts of the package; four alternatives are explicit, and the degree-use commitment follows NP projection. The working draft is 10,042 words (+309), still 32 pages. The build passes; final polish and image inspection remain deferred. See [the revision record](notes/passes/2026-09-12-package-clarification.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-12-package-clarification.md).
-
-## 2026-09-12 Reorganized working draft
-
-The approved reorganization is implemented with accessibility guiding the sequence and transitions. The profile case now compares nominal and adjectival connections directly; restricted membership precedes the structural fragment, and subgroup rank follows it. Earlier accounts are in Appendix A. This is a working draft, not a final polish stage.
-
-The verified source is 9,733 words (+71), with a 32-page PDF. Trees, schemata, examples, citation keys, empirical materials, and earlier annotations are preserved. The full build passes; image inspection remains deferred. See [the revision record](notes/passes/2026-09-12-reorganization.md) and [fresh Roughdraft copy](notes/determinatives-as-nouns-review-2026-09-12-reorganization.md).
 
 ## 2026-09-12 Bounded repairs after the version (8) review
 

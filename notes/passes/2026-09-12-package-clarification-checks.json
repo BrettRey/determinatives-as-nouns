@@ -1,0 +1,56 @@
+{
+  "source_sha256": "01e118eb9ae5e6bc49fb33c28a39866d0bfe47b8cb6026fac90441791472f14b",
+  "trees": {
+    "count": 11,
+    "unchanged": true
+  },
+  "numbered_examples": {
+    "count": 2,
+    "unchanged": true
+  },
+  "schemata": {
+    "count": 4,
+    "change": "Only the phrase-inventory comparison label changes; three projection schemata unchanged. Fourth account specified by substitution in prose."
+  },
+  "changed_tables": [
+    "tab:accounts",
+    "tab:economy"
+  ],
+  "citation_keys_unchanged": 22,
+  "protected_files_unchanged": 637,
+  "author_annotations_unchanged": true,
+  "texcount": {
+    "before": {
+      "Words in text": 8707,
+      "Words in headers": 120,
+      "Words outside text (captions, etc.)": 906,
+      "total": 9733
+    },
+    "after": {
+      "Words in text": 8966,
+      "Words in headers": 120,
+      "Words outside text (captions, etc.)": 956,
+      "total": 10042
+    }
+  },
+  "net_words_added": 309,
+  "build": {
+    "pages": 32,
+    "sequence": "XeLaTeX/Biber/XeLaTeX/XeLaTeX",
+    "boxes_and_reference_errors": 0,
+    "display_order": "Figures and tables 1\u20136 in order",
+    "image_inspection": "Deferred at author request",
+    "existing_advisories": [
+      "font substitution",
+      "fancyhdr",
+      "microtype"
+    ]
+  },
+  "reading_copy": {
+    "trees": 11,
+    "schemata": 4,
+    "tables": 6,
+    "notes": 16,
+    "pandoc_warnings": 0
+  }
+}

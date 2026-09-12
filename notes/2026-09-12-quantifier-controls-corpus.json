@@ -1,0 +1,314 @@
+{
+  "retrieved": "2026-09-12",
+  "status": "Targeted COCA and NOW attestation checks completed after user login; no frequency or diachronic study",
+  "method": {
+    "access": "Authenticated Chrome UI; exact surface strings, without POS restrictions",
+    "coca": "All sections; corpus interface describes 1990–2019 coverage. Broad totals include overt-noun and other irrelevant uses.",
+    "now": "All sections; interface latest day 2026-09-11. Country codes describe corpus source assignments, not independently verified speaker dialects.",
+    "limits": "Raw hit counts are not counts of independently established grammatical uses. Duplicate or updated articles occur. Negative exact-string results do not establish ungrammaticality.",
+    "session_note": "The initially stale NOW tab returned COCA-shaped SPOK/BLOG records after COCA login. Those results were excluded from NOW evidence. NOW was reloaded at its corpus home URL; subsequent concordances had dated country-tagged news sources. The first refreshed query required the visible SEE FULL LIST option."
+  },
+  "queries": [
+    {
+      "corpus": "COCA",
+      "query": "there are countless",
+      "raw_hits": 456,
+      "inspection": "First displayed concordance page inspected; most hits have overt following nouns. Expanded one independent use with fronted of which."
+    },
+    {
+      "corpus": "COCA",
+      "query": "countless of",
+      "raw_hits": 36,
+      "texts_displayed": 34,
+      "inspection": "Displayed KWIC lines inspected. Expanded spoken and academic partitives. Many other hits have bare complements, e.g. hours, and are not canonical definite-NP partitives."
+    },
+    {
+      "corpus": "COCA",
+      "query": "there are countless who",
+      "raw_hits": 0
+    },
+    {
+      "corpus": "COCA",
+      "query": "multiple of",
+      "raw_hits": 453,
+      "inspection": "Frequency only; broad string includes mathematical noun multiple."
+    },
+    {
+      "corpus": "COCA",
+      "query": "multiple of them",
+      "raw_hits": 0
+    },
+    {
+      "corpus": "COCA",
+      "query": "multiple were",
+      "raw_hits": 1,
+      "inspection": "Excluded: a programmed multiple within a coordinated NP; not bare quantificational multiple as subject."
+    },
+    {
+      "corpus": "COCA",
+      "query": "there are multiple",
+      "raw_hits": 912,
+      "inspection": "Frequency only; not interpreted as a nominal-use count."
+    },
+    {
+      "corpus": "COCA",
+      "query": "there are multiple that",
+      "raw_hits": 0
+    },
+    {
+      "corpus": "COCA",
+      "query": "multiple of the",
+      "raw_hits": 64,
+      "texts_displayed": 56,
+      "inspection": "Displayed KWIC lines inspected; predominantly mathematical/financial multiple. Expanded the clear fast casual eateries partitive. A same piece example was not selected."
+    },
+    {
+      "corpus": "COCA",
+      "query": "are there multiple",
+      "raw_hits": 14,
+      "texts_displayed": 13,
+      "inspection": "All 14 displayed contexts have overt following nouns; several are non-question inversions."
+    },
+    {
+      "corpus": "COCA",
+      "query": "there are multiple in",
+      "raw_hits": 0
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are multiple that",
+      "raw_hits": 8,
+      "inspection": "Eight rows inspected; repeated quotation and updated article present. Expanded Dot Esports 2021 source."
+    },
+    {
+      "corpus": "NOW",
+      "query": "are there multiple",
+      "raw_hits": 206,
+      "texts_displayed": 198,
+      "inspection": "First displayed page inspected. Expanded question-final multiple in Quartz 2022. Most other lines have overt nouns; corpus extraction noise also occurs."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are countless who",
+      "raw_hits": 6,
+      "inspection": "Three visible source groups, one with three additional duplicates. Expanded Metro 2023 source."
+    },
+    {
+      "corpus": "NOW",
+      "query": "multiple of them",
+      "raw_hits": 195,
+      "inspection": "Frequency only; more specific existential query inspected next."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are multiple of them",
+      "raw_hits": 7,
+      "inspection": "All seven KWIC rows inspected; includes an updated duplicate. Expanded TechCrunch 2022 source."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are countless of them",
+      "raw_hits": 9,
+      "inspection": "Eight visible source groups, one with an additional duplicate. Expanded Seeking Alpha 2020 source."
+    },
+    {
+      "corpus": "NOW",
+      "query": "numerous were",
+      "raw_hits": 90,
+      "inspection": "Displayed KWIC contexts inspected; many are predicative inversions or include most/so. Expanded a clear article-free subject in Page Six 2022."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are numerous who",
+      "raw_hits": 8,
+      "inspection": "Displayed source groups inspected; includes duplicated material. Expanded Indian Express 2015 and verified the original article."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are various who",
+      "raw_hits": 0
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are certain who",
+      "raw_hits": 2,
+      "inspection": "Both KWIC contexts inspected. Expanded the 2020 quotation reported by Fox News and checked original article."
+    },
+    {
+      "corpus": "NOW",
+      "query": "there are various that",
+      "raw_hits": 0
+    }
+  ],
+  "attestations": [
+    {
+      "id": "coca-countless-fronted-partitive",
+      "corpus": "COCA",
+      "query": "there are countless",
+      "year": 2012,
+      "register": "BLOG",
+      "url": "http://www.thegoodatheist.net/2012/09/06/walmart-greeter-takes-time-from-work-to-tell-you-about-burning-in-hellfire/",
+      "title": "Walmart greeter takes time from work to tell you about burning in hellfire",
+      "excerpt": "of which there are countless in their religion",
+      "analysis": "Existential inside relative with fronted partitive; not an unmodified stand-alone answer.",
+      "verification": "COCA expanded context and source metadata."
+    },
+    {
+      "id": "coca-countless-spoken-partitive",
+      "corpus": "COCA",
+      "query": "countless of",
+      "date": "2012-08-24",
+      "register": "SPOK",
+      "source": "ABC 20/20, 9:01 PM EST",
+      "speaker": "Diane Sawyer (voiceover)",
+      "title": "Jaycee Dugard; Her First Interview",
+      "excerpt": "countless of them during her captivity",
+      "analysis": "Pronoun-complement partitive in a supplement.",
+      "verification": "COCA expanded context and source metadata; date is corpus record, not independently established first broadcast."
+    },
+    {
+      "id": "coca-countless-academic-partitive",
+      "corpus": "COCA",
+      "query": "countless of",
+      "year": 2008,
+      "register": "ACAD",
+      "author": "Thomas Hughson",
+      "title": "Interpreting Vatican II: “A New Pentecost”",
+      "journal": "Theological Studies",
+      "volume": 69,
+      "issue": 1,
+      "pages": "3–37",
+      "locator": "p. 9; PDF page 7",
+      "doi": "10.1177/004056390806900101",
+      "url": "https://theologicalstudies.net/wp-content/uploads/2022/08/69.1.1.pdf#page=7",
+      "metadata_url": "https://journals.sagepub.com/doi/10.1177/004056390806900101",
+      "excerpt": "countless of their particular statements and deeds",
+      "analysis": "Definite genitive-NP partitive, object of irradiate.",
+      "verification": "COCA expanded context; original journal PDF p. 9 confirms wording; publisher and university repository confirm bibliography. COCA labels March; publisher and repository label February. Year is secure."
+    },
+    {
+      "id": "coca-multiple-partitive",
+      "corpus": "COCA",
+      "query": "multiple of the",
+      "year": 2012,
+      "register": "BLOG",
+      "url": "http://www.tonetoatl.com/2012/08/burgerfi-bringing-its-burgers-to.html",
+      "title": "Tomorrow's News Today — Atlanta: BurgerFi Bringing Its Burgers to…",
+      "excerpt": "multiple of the fast casual eateries",
+      "analysis": "Partitive complement within in front of; context discusses restaurant parking.",
+      "verification": "COCA expanded context and source metadata. Original URL fetch failed in web tool; no exact comment date or author asserted."
+    },
+    {
+      "id": "now-multiple-bare-question",
+      "corpus": "NOW",
+      "query": "are there multiple",
+      "corpus_date": "2022-02-22",
+      "country_tag": "US",
+      "source": "Quartz",
+      "speaker": "Kira Bindrim",
+      "url": "https://qz.com/india/2130303/the-big-fat-indian-wedding-is-only-getting-bigger",
+      "excerpt": "Or dresses—are there multiple?",
+      "analysis": "Question-final multiple with a recoverable wedding-dress antecedent; no following complement or modifier.",
+      "verification": "NOW expanded context and original current transcript. Current page says updated July 20, 2022; corpus date retained separately."
+    },
+    {
+      "id": "now-multiple-relative",
+      "corpus": "NOW",
+      "query": "there are multiple that",
+      "corpus_date": "2021-11-06",
+      "country_tag": "US",
+      "source": "Dot Esports",
+      "url": "https://dotesports.com/mmo/news/best-classes-to-choose-in-lost-ark",
+      "title": "Best classes to choose in Lost Ark",
+      "excerpt": "there are multiple that do excellent damage",
+      "analysis": "Relative-modified multiple; antecedent is game classes.",
+      "verification": "NOW expanded context and metadata; original page not separately opened."
+    },
+    {
+      "id": "now-multiple-existential-partitive",
+      "corpus": "NOW",
+      "query": "there are multiple of them",
+      "corpus_date": "2022-09-16",
+      "country_tag": "US",
+      "source": "TechCrunch",
+      "author": "Ivan Mehta",
+      "url": "https://techcrunch.com/2022/09/16/ios-16-users-are-getting-creative-with-the-new-background-removal-feature-for-photos/",
+      "excerpt": "there are multiple of them",
+      "analysis": "Existential partitive with objects in a photo as antecedent.",
+      "verification": "NOW expanded context and original current article confirm wording and date. Source-country tag does not establish author's dialect."
+    },
+    {
+      "id": "now-countless-relative",
+      "corpus": "NOW",
+      "query": "there are countless who",
+      "corpus_date": "2023-10-01",
+      "country_tag": "GB",
+      "source": "Metro",
+      "title": "The Sisterhood List: Saluting the women who opened doors for other Black women in Britain",
+      "url": "https://metro.co.uk/2023/10/01/the-sisterhood-list-saluting-the-uk-black-women-whove-opened-doors-for-others-19558944/",
+      "excerpt": "There are countless who have greatly impacted their communities",
+      "analysis": "Article-free existential with relative clause.",
+      "verification": "NOW expanded context and source metadata. Original URL fetch failed in web tool."
+    },
+    {
+      "id": "now-countless-existential-partitive",
+      "corpus": "NOW",
+      "query": "there are countless of them",
+      "corpus_date": "2020-05-25",
+      "country_tag": "US",
+      "source": "Seeking Alpha",
+      "title": "Facebook's Future Is Brighter Than Ever",
+      "url": "https://seekingalpha.com/article/4349886-facebooks-future-is-brighter-ever",
+      "excerpt": "There are countless of them out there",
+      "analysis": "Existential partitive with payments apps as antecedent.",
+      "verification": "NOW expanded context and source metadata; original article not separately opened."
+    },
+    {
+      "id": "now-numerous-independent-subject",
+      "corpus": "NOW",
+      "query": "numerous were",
+      "corpus_date": "2022-07-04",
+      "country_tag": "US",
+      "source": "Page Six (NOW source label nypost.com)",
+      "url": "https://pagesix.com/2022/07/04/travis-scott-performs-in-miami-at-e11even/",
+      "title": "Travis Scott performs impromptu show at E11even in Miami",
+      "excerpt": "numerous were injured",
+      "analysis": "Article-free subject with people as antecedent, following a coordinated clause. Not numerous as fronted predicative complement.",
+      "verification": "NOW expanded context and source metadata. Original URL could not be opened by web tool."
+    },
+    {
+      "id": "now-numerous-relative-existential",
+      "corpus": "NOW",
+      "query": "there are numerous who",
+      "corpus_date": "2015-09-19",
+      "country_tag": "IN",
+      "source": "The Indian Express / IANS",
+      "speaker": "Nana Patekar, as quoted in English",
+      "url": "https://indianexpress.com/article/entertainment/bollywood/nana-patekars-foundation-collects-rs-80-lakh-for-drought-hit-farmers/",
+      "excerpt": "there are numerous who are willing to donate",
+      "analysis": "Article-free existential with relative postmodifier; context concerns industry celebrities. Indian news quotation; original language of speech not established.",
+      "verification": "NOW expanded context; original article confirms wording and date."
+    },
+    {
+      "id": "now-certain-relative-existential",
+      "corpus": "NOW",
+      "query": "there are certain who",
+      "corpus_date": "2020-03-26",
+      "country_tag": "US",
+      "source": "Fox News",
+      "author": "Andrew O’Reilly",
+      "speaker": "Donald Trump, as quoted",
+      "url": "https://www.foxnews.com/politics/trump-throws-support-behind-coronavirus-stimulus-bill-in-senate-vows-to-sign-vital-legislation-immediately",
+      "excerpt": "there are certain who would not like",
+      "analysis": "Article-free existential with relative postmodifier in reported speech. Attestation does not establish broad acceptability.",
+      "verification": "NOW expanded context and original article. Article published/updated March 25, 2020; corpus date retained separately. No audio verification."
+    }
+  ],
+  "conclusion": "Multiple has a verified question-final existential and definite partitives. Countless has relative-modified existentials and partitives, including an academic partitive in 2008. The cline follow-up also confirms independent numerous and relative-modified existentials with numerous and certain. A possible ordering by decreasing overt nominal support remains a hypothesis; partitives and relatives may be parallel rather than consecutive stages. No frequency, historical-order, broad acceptability, or maintenance claim is established. Isolated unmodified There are countless/numerous/various/certain remains outside the demonstrated findings.",
+  "cgel_cline_checks": {
+    "pp411-414": "Distinguishes explicit/implicit partitive, simple anaphoric, and special-interpretation independent uses.",
+    "p413": "Certain and various strongly resist omission of the partitive of phrase. These restrictions differ from either/neither/which/both, whose of phrase can be absent under the appropriate interpretation.",
+    "p413_limits": "Genitives exclude these direct partitives; demonstrative those has restricted partitive use requiring a following modifier. A universal scale from partitives to independent use is therefore unsuitable for the entire Noun/Determinative inventory.",
+    "p414": "Human special interpretations occur for a restricted list including few/many/all/some; those requires a clausal modifier in this use. Conventional human readings must be distinguished from contextual anaphora."
+  }
+}

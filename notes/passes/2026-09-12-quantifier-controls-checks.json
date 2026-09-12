@@ -1,0 +1,96 @@
+{
+  "source_sha256": "5e91bb418aecc60750cf37a46c6246a9f1270c3ad96ed6bff1c2fa7d1d01e005",
+  "trees": {
+    "count": 11,
+    "unchanged": true
+  },
+  "schemata": {
+    "count": 4,
+    "unchanged": true
+  },
+  "tables": {
+    "before": 6,
+    "after": 7,
+    "old_tables_unchanged": true,
+    "new_matrix_rows": 9,
+    "new_matrix_construction_columns": 6
+  },
+  "examples": {
+    "old_groups_unchanged": true,
+    "new_attested_examples": 12,
+    "reading_copy_labels_verified": true
+  },
+  "citation_keys": {
+    "count": 22,
+    "unchanged": true
+  },
+  "references": {
+    "unresolved": 0,
+    "duplicate_labels": 0
+  },
+  "build": {
+    "pages": 34,
+    "sequence": "XeLaTeX/Biber/XeLaTeX/XeLaTeX",
+    "biber": "Existing native arm64 binary; installed wrapper failed at extraction",
+    "boxes_and_reference_errors": 0,
+    "includes_resolve": true,
+    "bibliography_symlink_verified": true,
+    "existing_advisories": [
+      "font substitution",
+      "fancyhdr",
+      "microtype"
+    ],
+    "image_inspection": "Deferred at author request; PDF text inspected",
+    "caption_table_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "caption_figure_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "texcount": {
+    "before": {
+      "text": 9062,
+      "headers": 120,
+      "captions_and_notes": 1040,
+      "total": 10222
+    },
+    "after": {
+      "text": 10020,
+      "headers": 125,
+      "captions_and_notes": 1503,
+      "total": 11648
+    }
+  },
+  "net_words_added": 1426,
+  "style": {
+    "scope": "Changed prose and whole-file automated check",
+    "new_verified_violations": 0,
+    "whole_manuscript_polish": "Deferred"
+  },
+  "reading_copy": {
+    "file": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/notes/determinatives-as-nouns-review-2026-09-12-quantifier-controls.md",
+    "trees": 11,
+    "tables": 7,
+    "schemata": 4,
+    "notes": 31,
+    "pandoc_warnings": ""
+  },
+  "scope_limits": [
+    "Attestation is distinct from general acceptability.",
+    "I cells are constructed positive comparisons, not corpus observations.",
+    "Unresolved cells are not ungrammaticality judgments.",
+    "A strict cline, relative-clause improvement, and historical order remain unestablished."
+  ]
+}

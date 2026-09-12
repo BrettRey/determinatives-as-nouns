@@ -1,0 +1,146 @@
+[
+  [
+    "A separate comparison asks how determinative expressions are headed. Ordinary Head unifies bare, partitive, and externally determined uses, but is available whether determinative is within Noun or separate. A matched grammatical fragment gives those alternatives equal credit for shared structure and identifies their common costs in degree modification. A final comparison favours coordinate rank alongside pronoun over nesting within it.\n\\end{abstract}",
+    "In \\mention{take some apples} and \\mention{take some}, \\mention{some} belongs to the same category. For the independent use, I favour assigning it Head alone, rather than the combined determiner and Head functions in \\textit{CGEL}. This gives determinatives the ordinary noun-phrase structure that their inclusion within Noun makes natural. Neither choice requires the other, but their fit supports the package."
+  ],
+  [
+    "I write the superordinate category as Noun and call the fourfold proposal the \\term{determinative-noun} or \\term{D-noun analysis}.",
+    "I write the superordinate category as Noun."
+  ],
+  [
+    "for the syntactic function within the noun phrase characteristically performed",
+    "for the syntactic function within the noun phrase (NP) characteristically performed"
+  ],
+  [
+    "Two decisions need separating. The first is whether determinatives belong within Noun. The second is whether expressions such as independent \\mention{some} have an ordinary \\term{Head}, the element around which a phrase is built. The D-noun analysis licenses that headedness through Noun membership. A grammar retaining a separate determinative category (D) can license it too. Table~\\ref{tab:accounts} identifies the three accounts compared here.",
+    "Two choices are involved. The first is whether determinatives belong within Noun. The second concerns their Head function in independent NPs. In \\textit{CGEL}, the phrase headed by independent \\mention{some} jointly fills determiner and Head, a \\term{fusion of functions} \\citep[410--412]{huddleston2002}. The alternative gives it Head alone.\n\nA standard tree has unique parentage: each constituent below the root has one parent. Fusion allows branches to converge on a shared constituent with two parents. In the \\term{ordinary-Head analysis}, the determinative's projection needs no such join. Figure~\\ref{fig:some} in §\\ref{sec:head-relations} compares the structures.\\footnote{The proposal retains fusion elsewhere, including Mod--Head fusion in \\mention{the rich}. The preference for unique parentage concerns the determinative's Head configuration, rather than every construction in the grammar.}\n\nThe \\term{determinative-noun} or \\term{D-noun analysis} combines Noun membership with ordinary headedness. The categorization makes ordinary nominal structure a natural treatment, and that regular structure strengthens the case for the grouping. Neither commitment requires the other: a noun can have a fused Head function, and a separate determinative category (D) can permit ordinary headedness. Table~\\ref{tab:accounts} shows the four combinations.\\footnote{Another logical alternative posits an unrealized noun as Head. I set that option aside here. \\textit{CGEL} discusses the limits of ellipsis as a general account on pp.~420--421 \\citep{huddleston2002}.}"
+  ],
+  [
+    "\\caption{The three accounts compared. All retain one determinative category across dependent and independent uses and keep \\mention{apples} as Head in \\mention{some apples}.}",
+    "\\caption{Four combinations of categorization and Head analysis. The proposed package is the first row. All keep \\mention{apples} as Head in \\mention{some apples}.}"
+  ],
+  [
+    "D-noun, ordinary Head & A subcategory of Noun & Ordinary Head, inherited from Noun \\\\",
+    "D-noun, ordinary Head & A subcategory of Noun & Ordinary Head through nominal projection \\\\"
+  ],
+  [
+    "Separate D, fusion & A primary category alongside Noun & Joint determiner and Head functions \\\\",
+    "Separate D, fused Head & A primary category alongside Noun & Joint determiner and Head functions \\\\\nD-noun, fused Head & A subcategory of Noun & Joint determiner and Head functions \\\\"
+  ],
+  [
+    "In \\textit{CGEL}, independent \\mention{some} jointly realizes determiner and Head through a \\term{fusion of functions} \\citep[410--412]{huddleston2002}. Ordinary headedness assigns it Head alone. Both accounts give the whole independent expression noun-phrase (NP) status. The choice concerns its internal structure; assigning NP status doesn't by itself decide the lexical category of its head.",
+    "Both Head analyses give the whole independent expression NP status. Their difference concerns its internal structure. The four-way comparison leaves room to assess how a categorization and a structural treatment work together, without treating either as entailing the other."
+  ],
+  [
+    "Category membership doesn't remove lexical restrictions. \\mention{Every apple} is grammatical, but \\ungram{\\mention{I'll take every}} isn't an ordinary way to accept apples. The rules in §\\ref{sec:det-uniform} retain that restriction.",
+    "Category membership doesn't remove lexical restrictions, such as the one applying to \\mention{every}. \\mention{Every apple} is grammatical, but unlike \\mention{some} in \\mention{I'll take some}, \\mention{every} can't occur independently in \\ungram{\\mention{I'll take every}}. The rules in §\\ref{sec:det-uniform} retain that restriction."
+  ],
+  [
+    "Ordinary Head also has costs. Treating determinatives used as degree modifiers as NP heads broadens the permitted range of NP modifiers in adjective phrases (AdjPs). That commitment affects both ordinary-Head accounts (§\\ref{sec:enough}). Their shared structural gains and costs leave the category decision to the broader grammatical comparison.",
+    "NPs already modify adjectives in \\mention{a great deal better}. But \\textit{CGEL} excludes \\ungram{\\mention{some a great deal better proposals}} while permitting \\mention{some much better proposals} \\citep[551--552]{huddleston2002}. Giving \\mention{much} NP status requires restating that restriction on NP modifiers in attributive adjective phrases (AdjPs). This commitment follows the choice of NP projection for degree uses (§\\ref{sec:enough}), rather than ordinary headedness alone."
+  ],
+  [
+    "The category comparison and membership argument leave a structural choice. How should a grammar represent independent \\mention{some}, \\mention{some of the wine}, and \\mention{the lucky few}? All are overt expressions with nominal uses. Ordinary headedness gives their determinatives Head; fusion combines Head with a dependent function. Each analysis preserves some generalizations and requires particular restrictions.",
+    "The D-noun package pairs the proposed categorization with ordinary Head. This section compares that treatment with fusion in independent \\mention{some}, \\mention{some of the wine}, and \\mention{the lucky few}. Ordinary headedness gives the determinative Head alone; fusion combines Head with a dependent function. The question is how each treatment fits the nominal grammar and preserves the relevant restrictions."
+  ],
+  [
+    "In the upper-right tree, DP fills Det of NP and Head of Nom.",
+    "In the upper-right diagram, DP fills Det of NP and Head of Nom."
+  ],
+  [
+    "Under D-noun, \\term{inheritance} makes Noun's projection rules available to determinatives, subject to their restrictions. The separate-D ordinary-Head account can use the same phrase structure by admitting both Noun and D into those rules.",
+    "Under D-noun, \\term{inheritance} makes Noun's projection rules available to determinatives, subject to their restrictions. Ordinary headedness lets independent determinatives use that nominal structure directly. The separate-D ordinary-Head account can use the same phrase structure by admitting both Noun and D into those rules. The comparison concerns the fit between the lexical grouping and the shared structure."
+  ],
+  [
+    "That dependence doesn't establish a deleted common noun: ordinary pronouns also depend on context.",
+    "Ordinary pronouns also depend on context; both ordinary and fused Head can accommodate that interpretive dependence."
+  ],
+  [
+    "Generalizing expressions such as \\mention{Many are called, few are chosen} and \\mention{Enough is enough} need no previously uttered common-noun phrase. They rule out a mandatory overt-antecedent requirement, but a silent-noun account could supply a generic restriction. Generic pronoun \\mention{one}, as in \\mention{One shouldn't judge}, provides a parallel without a required overt antecedent. Such examples don't decide whether the restriction belongs in semantics or syntax.",
+    "Generalizing expressions such as \\mention{Many are called, few are chosen} and \\mention{Enough is enough} need no previously uttered common-noun phrase. Interpretation can instead depend on the situation or a generic restriction. Generic pronoun \\mention{one}, as in \\mention{One shouldn't judge}, provides a parallel without a required overt antecedent."
+  ],
+  [
+    "The overt quantifier and domain already supply a compositional interpretation of \\mention{some of the wine}. A silent common noun would need to explain something further, such as a restriction on interpretation or modification that the overt-head account misses. The construction itself supplies no such requirement. I therefore prefer an overt-head analysis over an otherwise equivalent null-head analysis; fusion remains compatible with that preference.",
+    "Both Head analyses permit the overt quantifier and domain to supply a compositional interpretation of \\mention{some of the wine}."
+  ],
+  [
+    "The three accounts receive the same judgments and lexical restrictions.",
+    "The four accounts receive the same judgments and lexical restrictions."
+  ],
+  [
+    "In \\mention{some apples} and \\mention{Kim's apples}, the determining phrases share the NP category under both ordinary-Head accounts: D-noun and separate D. \\textit{CGEL} instead distinguishes DP from genitive NP. It also admits a restricted range of plain-case NPs and PPs as determiners, as in \\mention{what size hat} and \\mention{over thirty ties} \\citep[Ch.~5, §4]{huddleston2002}. The phrase types are:",
+    "In \\mention{some apples} and \\mention{Kim's apples}, the determining phrases share the NP category under the proposed package. Separate D can permit the same NP projection. For the D-noun/fusion alternative, I retain that projection and add fusion in independent uses. These three implementations therefore share an inventory of phrase types. \\textit{CGEL} instead distinguishes DP from genitive NP.\n\n\\textit{CGEL} also admits a restricted range of plain-case NPs and PPs as determiners, as in \\mention{what size hat} and \\mention{over thirty ties} \\citep[Ch.~5, §4]{huddleston2002}. The phrase types are:"
+  ],
+  [
+    "\\text{Both ordinary-Head accounts:}",
+    "\\text{The three NP-projecting accounts:}"
+  ],
+  [
+    "Determinative phrases and genitive NPs supply the principal realizations in the separate-D analysis; PPs are restricted. Under ordinary headedness, NP covers both principal types. This consolidation leaves the selectional conditions in place: determinative-headed, genitive, and other licensed NPs still require separate identification. \\textit{CGEL} already states definiteness and the single-Det restriction functionally, so recategorization doesn't derive them. The following fragment compares projection once those restrictions are held fixed.",
+    "Determinative phrases and genitive NPs supply the principal realizations in \\textit{CGEL}; PPs are restricted. Giving determinatives NP projection consolidates those principal types. Determinative-headed, genitive, and other licensed NPs still require separate identification. \\textit{CGEL} already states definiteness and the single-Det restriction functionally, so recategorization doesn't derive them. The following fragment compares Head relations with those restrictions held fixed."
+  ],
+  [
+    "Comparing the ordinary-Head accounts holds projection fixed while varying taxonomy. Comparing the separate-D accounts holds taxonomy fixed while varying headedness. Table~\\ref{tab:economy} summarizes their consequences after the rules have been specified.",
+    "The four combinations permit comparison of the Head analyses within each taxonomy and of the taxonomies under each Head analysis. Table~\\ref{tab:economy} summarizes their commitments. The implementations below specify the phrase types as well as the lexical categories and Head functions."
+  ],
+  [
+    "The same sequence notation and ordering conditions apply under all three accounts.",
+    "The same sequence notation and ordering conditions apply under all four accounts."
+  ],
+  [
+    "Dependent determinatives gain a Nom layer under either ordinary-Head account. Both rules admit the same heads, through inheritance or the disjunction $\\{\\mathrm{N},\\mathrm{D}\\}$. Putting the grouping in the lexical hierarchy produces \\term{harmony} between taxonomy and phrase structure, but earns no additional credit for rules both accounts share.",
+    "The D-noun/fusion alternative uses the NP already projected by a determinative noun in place of DP in the fusion rule. That NP jointly fills Det of an outer NP and Head of its Nom, or Mod--Head where external determination is present. Fusion applies once to the determinative's projection. The partitive complement and compound restrictor remain on the outer Nom, as in the separate-D fusion account.\n\nNoun membership is thus compatible with fusion. This alternative adds nominal structure around a determinative expression that already forms an NP. Ordinary headedness uses that NP directly, giving bare, partitive, and externally determined determinatives the familiar nominal Head relations.\n\nBoth ordinary-Head accounts provide the same structures. Under D-noun, those structures instantiate the usual projection of a member of Noun; separate D extends that projection across a primary-category boundary. I take this alignment of category and structure to favour the D-noun package. Their shared coverage leaves both accounts viable, but doesn't make their categorizations equally well supported."
+  ],
+  [
+    "The fragment's NP constructions leave a further cost to be assessed. Determinatives also modify expressions outside NP structure. Giving these uses NP projection affects which kinds of phrase the grammar admits as degree modifiers.",
+    "Determinatives also modify expressions outside NP structure. The three NP-projecting implementations retain that projection in degree uses. Any resulting revision to modifier permissions concerns the kinds of phrase admitted in those positions; it doesn't follow from the choice between ordinary and fused Head in independent NPs."
+  ],
+  [
+    "Extending determinative NP projection to degree uses admits a broader range in those positions. Both ordinary-Head accounts then need to identify the permitted determinative-headed NPs while retaining exclusions such as \\ungram{\\mention{some a great deal better proposals}}. This cost favours keeping DP against both NP-projecting alternatives; it doesn't independently favour primary D over a determinative subcategory of Noun.",
+    "Giving degree determinatives NP projection requires identifying the NPs permitted in attributive AdjPs while preserving exclusions such as \\ungram{\\mention{some a great deal better proposals}}. This revises an existing, already qualified restriction. All three NP-projecting implementations share that commitment. It counts in favour of retaining DP in degree uses, without establishing a preference for fusion or a separate primary D category."
+  ],
+  [
+    "Table~\\ref{tab:economy} separates shared structure, internal permissions, existing restrictions, the additional degree-use cost, and taxonomic consequences. The last row groups consequences of the same recategorization rather than counting them as separate gains. The comparison holds the inventory, constructions, and readings fixed.",
+    "Table~\\ref{tab:economy} compares the four implementations. The Head configurations, modifier permissions, and taxonomic consequences are kept distinct so that the contribution of each choice is visible. The inventory, constructions, and readings remain fixed."
+  ],
+  [
+    "\\begin{table}[H]\n\\centering\\small\n\\caption{Comparative accounting. These are descriptive commitments, not numerical scores. Extending the accounts to degree uses incurs the same NP-modifier cost under both ordinary-Head taxonomies; that cost favours retaining DP, without deciding the primary-category boundary.}\\label{tab:economy}\n\\setlength{\\tabcolsep}{3pt}\n\\begin{tabular}{>{\\raggedright\\arraybackslash}p{2.2cm}*{3}{>{\\raggedright\\arraybackslash}p{3.45cm}}}\n\\toprule\nCriterion & D-noun, ordinary Head & Separate D, ordinary Head & Separate D, fusion \\\\\n\\midrule\nShared structure & Nom--NP and ordinary Head across bare, partitive, and externally determined uses. Adjectival fusion retained. & Same projection and Head relations as D-noun. Adjectival fusion retained. & DP plus nominal structure; Det--Head or Mod--Head for independent determinatives. Fusion shared with adjectives. \\\\\nInternal permissions & Internal degree AdvP on \\mention{few}, \\mention{many}, \\mention{much}, \\mention{little}; approximatives after Det with independent cardinals. & Same internal permissions, stated for primary D; same peripheral NP modification. & DP and Nom separate the premodifier and nominal postmodifier domains. \\\\\nExisting restrictions & Article-use permissions, \\mention{no}/\\mention{none} selection, and compound restrictor order and non-recursion retained. & Same lexical and constructional restrictions retained. & Same lexical and constructional restrictions retained. \\\\\nAdditional degree-use cost & NP degree modifiers require a broader permission in attributive AdjPs, preserving the remaining exclusions. & Same extension when NP projection includes degree uses. & DP--NP distinction retains the degree contrast, including exceptional NP constructions. \\\\\nTaxonomic consequences & One fewer primary category. Cardinal uses and the three lexemes spelled \\mention{one} fall within Noun; internal distinctions remain. & D remains separate. Determinative cardinals and determinative \\mention{one} remain primarily separate from nominal counterparts. & Same primary-category divisions as separate D with ordinary Head. \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+    "\\begin{table}[H]\n\\centering\\small\n\\caption{Four implementations compared. All retain the lexical and constructional restrictions and adjectival fusion. The degree-use commitment follows NP projection. Cardinal and \\mention{one} groupings are consequences of the categorization.}\\label{tab:economy}\n\\setlength{\\tabcolsep}{3pt}\n\\begin{tabular}{>{\\raggedright\\arraybackslash}p{2.5cm}>{\\raggedright\\arraybackslash}p{3.6cm}>{\\raggedright\\arraybackslash}p{3.6cm}>{\\raggedright\\arraybackslash}p{2.65cm}}\n\\toprule\nAccount & Independent determinatives & Modifier permissions & Taxonomic consequences \\\\\n\\midrule\nD-noun, ordinary Head & Nom--NP with Head alone across bare, partitive, and externally determined uses. & Peripheral NP premodifiers; head-specific internal modifiers. Degree NPs require a revised attributive restriction. & D within Noun. Cardinal uses and the three \\mention{one} lexemes are grouped there. \\\\\nSeparate D, ordinary Head & Same structures, with a Nom rule admitting either N or D. & Same internal and peripheral permissions and degree-use commitment as the proposed package. & D remains separate from nominal counterparts. \\\\\nSeparate D, fused Head & DP fills Det--Head or Mod--Head in nominal structure. & DP--Nom separates premodifiers and postmodifiers. Degree DPs retain \\textit{CGEL}'s contrast with NPs. & Same primary-category divisions as separate D with ordinary Head. \\\\\nD-noun, fused Head & A projected NP fills Det--Head or Mod--Head in additional nominal structure. & Premodifiers within the fused NP; postmodifiers in the outer Nom. Same degree-use commitment as the other NP accounts. & Same Noun grouping as the proposed package. \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}"
+  ],
+  [
+    "The ordinary-Head accounts tie on shared structure. Both use peripheral NP modification and the same internal modifier permissions (§\\ref{sec:payne}); both incur the further degree-use cost (§\\ref{sec:enough}). D-noun expresses the shared projection through inheritance, while separate D states a rule applying to both primary categories. The preference between them depends on the profile comparison in §\\ref{sec:proposal}.",
+    "The internal degree-AdvP permissions on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little}, and the internal approximatives with externally determined cardinals, remain explicit (§\\ref{sec:payne}). Both ordinary-Head accounts also use peripheral NP modification. Fusion instead places the compound's premodifiers within the fused phrase and its postmodifiers on the outer Nom (§\\ref{sec:compounds})."
+  ],
+  [
+    "Under the D-noun analysis, all fall within primary Noun, retaining their subcategory and constructional differences.",
+    "Under the D-noun categorization, all fall within primary Noun, retaining their subcategory and constructional differences."
+  ],
+  [
+    "These remain distinct under the D-noun analysis, but all belong within primary Noun.",
+    "These remain distinct under the D-noun categorization, but all belong within primary Noun."
+  ],
+  [
+    "These cardinals and the lexemes spelled \\mention{one} retain their distinctions within one primary category. Their grouping follows from the proposed hierarchy, whose support comes from the broader profile comparison.",
+    "These cardinals and the lexemes spelled \\mention{one} retain their distinctions within one primary category. That consequence belongs to the categorization and is shared by its ordinary- and fused-Head implementations."
+  ],
+  [
+    "I favour the broader Noun category because the profile comparison supports placing the shared nominal structure at that level. Determinative restrictions remain within it. Separate D crosses a primary boundary in its projection rule; that is a coherent alternative. Reducing the number of primary categories alone wouldn't establish the preference.",
+    "I favour the D-noun package because the profile and the ordinary NP structures support a common nominal treatment. Including determinatives within Noun makes those structures a natural application of nominal grammar; their regularity in turn strengthens the grouping. The commitments are complementary, although neither requires the other. Separate D with ordinary Head and D-noun with fusion remain coherent alternatives. Reducing the number of primary categories alone wouldn't establish the preference."
+  ],
+  [
+    "Ordinary Head provides a uniform structure for bare, partitive, and externally determined determinatives. Both D-noun and separate D can license it, and both incur the additional degree-modifier cost. I prefer the broader taxonomy because the profile supports placing the shared structure within Noun. Coordinate rank alongside pronoun is a further preference: the present comparisons don't establish the additional shared rules that nesting would express.",
+    "Ordinary Head gives bare, partitive, and externally determined determinatives the familiar Nom--NP structure. That regularity complements the profile case for including them within Noun. The package is attractive because its categorization and its Head relations fit together. Separate D can also license ordinary headedness, and determinative nouns can participate in fusion; neither possibility removes the reason to prefer the combination argued for here.\n\nThe package retains lexical and constructional restrictions. Extending NP projection to degree uses also requires restating the restriction on NP modifiers within attributive AdjPs. Coordinate rank alongside pronoun is a further preference: the comparisons here don't establish the additional shared rules that nesting would express."
+  ],
+  [
+    "Neither choice requires the other, but their fit supports the package.\n\n",
+    "Neither choice requires the other, but their fit supports the package.\n\\end{abstract}\n\n"
+  ],
+  [
+    "\\textit{CGEL} discusses the limits of ellipsis as a general account on pp.~420--421 \\citep{huddleston2002}.",
+    "\\textit{CGEL} discusses the limits of ellipsis as a general account \\citep[420--421]{huddleston2002}."
+  ],
+  [
+    "Noun membership is thus compatible with fusion. This alternative adds nominal structure around",
+    "This version of fusion adds nominal structure around"
+  ]
+]

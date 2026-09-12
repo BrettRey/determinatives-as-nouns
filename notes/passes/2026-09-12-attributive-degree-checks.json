@@ -1,0 +1,52 @@
+{
+  "source_sha256": "4b5e4406539c99cfb8719880f6f3e4c5741a3c91d61cc7b4486a57e33cfe3dc1",
+  "trees": {
+    "count": 11,
+    "unchanged": true
+  },
+  "schemata": {
+    "count": 4,
+    "unchanged": true
+  },
+  "numbered_examples": {
+    "count": 2,
+    "unchanged": true
+  },
+  "citation_keys_unchanged": 22,
+  "protected_files_unchanged": 59,
+  "author_annotations_preserved": true,
+  "build": {
+    "pages": 31,
+    "sequence": "XeLaTeX/Biber/XeLaTeX/XeLaTeX",
+    "boxes_and_reference_errors": 0,
+    "image_inspection": "Deferred at author request; PDF text inspected",
+    "existing_advisories": [
+      "font substitution",
+      "fancyhdr",
+      "microtype"
+    ],
+    "figures_and_tables_in_order": true
+  },
+  "texcount": {
+    "before": {
+      "Words in text": 9001,
+      "Words in headers": 120,
+      "Words outside text (captions, etc.)": 956,
+      "total": 10077
+    },
+    "after": {
+      "Words in text": 9062,
+      "Words in headers": 120,
+      "Words outside text (captions, etc.)": 1040,
+      "total": 10222
+    }
+  },
+  "net_words_added": 145,
+  "reading_copy": {
+    "trees": 11,
+    "schemata": 4,
+    "tables": 6,
+    "notes": 18,
+    "pandoc_warnings": 0
+  }
+}

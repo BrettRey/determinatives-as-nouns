@@ -1,0 +1,68 @@
+[
+  {
+    "id": "heaps-photos",
+    "quote": "Got some heaps better photo's than this one",
+    "author": "moose",
+    "date": "2008-08-19",
+    "title": "My Track Day @ Phillip Island Motogp track",
+    "site": "AULRO",
+    "url": "https://www.aulro.com/afvb/motor-cycling/61858-my-track-day-phillip-island-motogp-track-post798794.html",
+    "locator": "post #2, 19 August 2008, 7:40 PM (page displays GMT+10)",
+    "verification": "Directly read on original page in browser",
+    "assessment": "Clear attributive example: some determines the photos NP, heaps modifies better, and heaps better modifies the nominal headed by photos. Preserve the original apostrophe.",
+    "retrieved": "2026-09-12"
+  },
+  {
+    "id": "lots-ones",
+    "quote": "There are like these worse parts, too, see? But like there's some lots better ones, too,",
+    "author": null,
+    "date": null,
+    "title": "Let's Play “Would You Have Taken This Trip?”",
+    "site": "Uber Drivers Forum / Uberpeople",
+    "url": "https://www.uberpeople.net/threads/let-s-play-would-you-have-taken-this-trip.395130/",
+    "locator": "Search result dated 26 April 2020; this date is not independently verified as the quotation post date",
+    "verification": "Exact text located in Google indexed excerpt; browser site-safety policy blocked opening the page, and no workaround was attempted",
+    "assessment": "The indexed context contrasts parts of the Bronx. Lots is a degree modifier of better, with better ones in attributive structure. Strong syntactic fit, but author and exact post metadata remain unverified.",
+    "retrieved": "2026-09-12"
+  },
+  {
+    "id": "lots-quality",
+    "quote": "there is a lot a stuff there, some lots better quality than others",
+    "author": "georgia b",
+    "date": "2014-03-24",
+    "title": "Lincolnshire Bee Auction",
+    "site": "Beekeeping & Apiculture Forum",
+    "url": "https://beekeepingforum.co.uk/threads/lincolnshire-bee-auction.28399/post-401091",
+    "locator": "post #5",
+    "verification": "Directly read on original page in browser, including thread opening",
+    "assessment": "Exclude as evidence for attributive degree modification. The topic is auction lots, which the opening post explicitly mentions. A natural parse is some lots [being] better quality than others. Even a degree-lots reading leaves an elliptical/supplementary predication available.",
+    "retrieved": "2026-09-12"
+  },
+  {
+    "id": "miles-bands",
+    "quote": "There were some miles-better bands than us",
+    "author": "Kate Mossman",
+    "speaker": "Shaun Ryder",
+    "date": "2019-04-17",
+    "title": "“I look like Uncle Fester”: the second life of Shaun Ryder",
+    "site": "New Statesman",
+    "url": "https://www.newstatesman.com/culture/2019/04/i-look-like-uncle-fester-the-second-life-of-shaun-ryder",
+    "locator": "Interview passage about the Happy Mondays and music-press coverage",
+    "verification": "Exact quotation and surrounding paragraph recovered from indexed original article with web search; title, author, and date checked directly in browser. Browser displays only opening article paragraphs",
+    "assessment": "Clear prenominal miles-better before bands. The editorial hyphen does not by itself settle whether the modifier has syntactic or compound structure; the unhyphenated brakes example is useful alongside it.",
+    "retrieved": "2026-09-12"
+  },
+  {
+    "id": "miles-brakes",
+    "quote": "Then I recon you need some miles better front brakes",
+    "author": "rallyv4",
+    "date": "2014-01-23",
+    "title": "Quick Tyre Related Question",
+    "site": "UKSaabs",
+    "url": "https://www.uksaabs.co.uk/UKS/viewtopic.php?t=131481#p1256815",
+    "locator": "post #6, 23 January 2014, 12:32 PM as displayed",
+    "verification": "Directly read on original page in browser. Search snippet showed the thread start date, 22 January, but the quotation is dated 23 January",
+    "assessment": "Clear attributive construction, with some determining the brakes NP and miles modifying better before front brakes. Original spelling recon is preserved.",
+    "retrieved": "2026-09-12"
+  }
+]

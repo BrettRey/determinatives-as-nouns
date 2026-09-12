@@ -1,0 +1,74 @@
+[
+  [
+    "The question of lexical categorization is distinct from the headedness question associated with the DP hypothesis of \\textcite{abney1987}.",
+    "The DP hypothesis of \\textcite{abney1987} concerns a different Head relation."
+  ],
+  [
+    "The fragment retains that restriction (§\\ref{sec:fragment}).",
+    "The rules in §\\ref{sec:det-uniform} retain that restriction."
+  ],
+  [
+    "PPs remain a restricted alternative, as in",
+    "Preposition phrases (PPs) remain a restricted alternative, as in"
+  ],
+  [
+    "In \\mention{a lot of the delegates} and \\mention{many of the delegates}, both heads quantify over a partitive domain.",
+    "In \\mention{a lot of the delegates} and \\mention{many of the delegates}, both heads quantify over a partitive \\term{domain}: the whole from which a quantity is drawn, here the delegates."
+  ],
+  [
+    "Degree \\mention{very} has different selection:",
+    "Degree modifiers select gradable heads:"
+  ],
+  [
+    "The complex determinative \\mention{a few} makes the attachment contrast visible.",
+    "With the complex determinative \\mention{a few}, modifier position distinguishes two kinds of attachment."
+  ],
+  [
+    "In \\mention{a soccer/round ball}, Nom and AdjP share modifier function;",
+    "In \\mention{a soccer/round ball}, a noun-headed expression and an AdjP share modifier function;"
+  ],
+  [
+    "Interrogative and relative properties must be distinguished from those functions.",
+    "Interrogative and relative properties are distinct from functions such as object."
+  ],
+  [
+    "\\begin{table}[!htbp]\n\\centering\\small\n\\caption{Profile summary. Internal and peripheral attachment in the determinative column are analytical commitments, not independent diagnostics. Interrogative and relative forms follow \\textit{CGEL}'s inventory.}",
+    "\\begin{table}[H]\n\\centering\\small\n\\caption{Profiles compared. Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.}"
+  ],
+  [
+    "The separate-D ordinary-Head account can use the same trees by admitting both Noun and D into those rules.",
+    "The separate-D ordinary-Head account can use the same phrase structure by admitting both Noun and D into those rules."
+  ],
+  [
+    "In \\mention{some of the wine}, \\mention{some} specifies a quantity drawn from an identifiable amount of wine. The NP \\mention{the wine} denotes the partitive \\term{domain}: the whole from which that quantity is drawn. This NP is complement of \\mention{of}.",
+    "In \\mention{some of the wine}, \\mention{some} specifies a quantity drawn from an identifiable amount of wine. The NP \\mention{the wine} denotes the partitive domain and is complement of \\mention{of}."
+  ],
+  [
+    "§\\ref{sec:fragment} supplies the rules under both taxonomies.",
+    "§\\ref{sec:det-uniform} supplies the rules under both taxonomies."
+  ],
+  [
+    "Section~\\ref{sec:fragment} compares those costs while holding the lexical restrictions fixed.",
+    "Section~\\ref{sec:costs} compares those costs while holding the lexical restrictions fixed."
+  ],
+  [
+    "The preferred analysis thus unifies bare, partitive, and externally determined determinatives under ordinary Head. It retains fusion for adjectives such as \\mention{rich}. The choice has a structural benefit, but its value depends on the modifier permissions and other conditions needed elsewhere.",
+    "The modifier permissions needed under ordinary headedness now require a closer comparison."
+  ],
+  [
+    "The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor.",
+    "The relative clauses in §\\ref{sec:independent} are ordinary postmodifiers, distinct from the specialized restrictor."
+  ],
+  [
+    "Pro-form gender supplies further connections (§\\ref{sec:membership}).",
+    "Pro-form gender supplies further connections (§\\ref{sec:inflection})."
+  ],
+  [
+    "Degree modifiers select gradable heads:",
+    "Degree \\mention{very} selects gradable heads:"
+  ],
+  [
+    "\\begin{figure}[!htbp]\n\\centering\n\\textit{CGEL}\\par\\smallskip",
+    "\\begin{figure}[H]\n\\centering\n\\textit{CGEL}\\par\\smallskip"
+  ]
+]
