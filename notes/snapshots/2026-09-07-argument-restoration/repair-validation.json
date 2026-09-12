@@ -1,0 +1,18 @@
+{
+  "pages": 24,
+  "words_texcount_merge_sum": 8370,
+  "empirical_section_unchanged": true,
+  "appendix_unchanged": true,
+  "local_bibliography_unchanged": true,
+  "citation_keys": 24,
+  "unresolved_bib_keys": [],
+  "missing_labels": [],
+  "duplicate_labels": [],
+  "overfull_boxes": 0,
+  "forest_trees": 6,
+  "figures": 5,
+  "tables": 7,
+  "source_sha256": "b525b7cdf07617954ed548f632f398337ef5584130edb6496b41b3dc83379f9d",
+  "pdf_sha256": "e2912d77e7b38288bea70246d9be4a8634e7cfd61a045a7823bec0a571153bfa",
+  "visual_check": "All 24 pages inspected; final layout changes on pages 5, 8, 9, 10 and 11 re-rendered and inspected."
+}

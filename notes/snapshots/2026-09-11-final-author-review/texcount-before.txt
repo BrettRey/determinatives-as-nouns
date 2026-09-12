@@ -1,0 +1,22 @@
+File: /tmp/dnoun-final-author-count-before.tex
+Encoding: utf8
+Words in text: 8097
+Words in headers: 134
+Words outside text (captions, etc.): 824
+Number of headers: 29
+Number of floats/tables/figures: 11
+Number of math inlines: 6
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  98+1+0 (1/0/0/0) _top_
+  460+2+153 (1/1/0/0) Section: The question}\label{sec:intro
+  745+13+45 (3/1/0/0) Section: Classification, headedness, and function}\label{sec:alternatives
+  1816+27+171 (5/3/0/0) Section: The D-noun analysis}\label{sec:proposal
+  1727+36+337 (8/4/0/0) Section: Evidence for nominal structure}\label{sec:evidence
+  413+4+46 (1/0/0/0) Section: Coordinate subcategories and inheritance}\label{sec:inheritance
+  1083+24+32 (4/0/0/0) Section: Restricted members and disputed boundaries}\label{sec:articles
+  1498+22+40 (4/2/6/4) Section: Structural consequences and grammatical economy}\label{sec:economy
+  166+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

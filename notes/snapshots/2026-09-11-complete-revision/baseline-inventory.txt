@@ -1,0 +1,62 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/determinatives-as-nouns.tex
+- Word count: **1** (texcount)
+- Prose paragraphs inspected: **137**
+
+## Structure
+
+- L34: The question
+- L114: Classification, headedness and function
+- L116:   Category, function and phrase structure
+- L124:   Taxonomic and structural alternatives
+- L170: The D-noun analysis
+- L172:   The basis for a broader Noun category
+- L221:   Noun phrases in determiner and argument functions
+- L250:   Modifier selection and taxonomic level
+- L279:   Word formation and category boundaries
+- L295: Evidence for nominal structure
+- L299:   Breadth of independent use
+- L318:   Structural saturation and interpretation
+- L335:   Partitives locate the quantificational head
+- L358:   Modification tests the internal analysis
+- L421:   Compounds and modifier domains
+- L458:   Predicative uses and their restrictions
+- L466:   What the combined pattern supports
+- L470: Coordinate subcategories and inheritance
+- L488: The articles and other restricted members
+- L502: Structural consequences and grammatical economy
+- L504:   A shared phrase type in determiner function
+- L516:   A matched descriptive fragment
+- L597:   Existing restrictions, additional costs and consequences
+- L617: Conclusion
+- L623: Data and analysis materials
+
+## Paragraphs over 100 words
+
+- L301 (137 words): Independent use is widespread within the determinative inventory.
+- L417 (112 words): Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary.
+- L557 (116 words): The D-noun analysis applies nominal projection to determinatives through their membership in Noun.
+- L581 (113 words): The separate-D fusion account relates independent determinatives to their dependent counterparts.
+
+## Sentences of 40 words or more
+
+- L13 (69 words): [2] #1\\#2 head edge/.style= edge= line width=1pt , nominal tree/.style= for tree= align=center, parent anchor=south, child anchor=north, l sep=5mm, s sep=4mm, inner sep=1.5pt pdft
+- L152 (45 words): He contrasted them with qualifying adjectives, which permit predicative use, comparison and adverbial modification, and emphasized most determinatives' ability to be used indiffere
+
+## Repeated three-word paragraph openings
+
+- None occurring three or more times.
+
+## Possible editorial scar tissue
+
+- L223 [revision-position reference]: Determinatives' characteristic determiner use could support a separate primary category.
+- L225 [fragile paired reference]: Determiner function already cuts across the existing noun subcategories.
+- L291 [fragile paired reference]: Numeral morphology extends the comparison to ordinal and fractional formations, analysed respectively as adjectival and nominal by .
+- L327 [revision-position reference]: Generalizing expressions such as Many are called, few are chosen and Enough is enough need no previously uttered common-noun phrase.
+- L337 [revision-position reference]: In some of the wine , some specifies a quantity drawn from an identifiable amount of wine.
+- L452 [revision-position reference]: The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor.
+- L460 [fragile paired reference]: CGEL records predicative Its advantages are several and Their enemies were many , describing the latter pattern as uncommon and formal huddleston2002 .
+- L557 [revision-position reference]: The D-noun analysis applies nominal projection to determinatives through their membership in Noun.
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

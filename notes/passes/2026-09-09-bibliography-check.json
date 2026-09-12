@@ -1,0 +1,113 @@
+{
+  "scope": [
+    "determinatives-as-nouns.tex",
+    "matrix-audit.tex",
+    "corpus-documentation.tex"
+  ],
+  "central_entry_count": 2190,
+  "local_entry_count": 4,
+  "used_keys": {
+    "determinatives-as-nouns.tex": [
+      "Huddleston2021",
+      "Payne2007",
+      "abney1987",
+      "anderson1997notional",
+      "bruening2020nominal",
+      "dechainewiltschko2002",
+      "huddleston2002",
+      "hudson2004determiners",
+      "hudson2010wordgrammar",
+      "lyons1968",
+      "lyons1999",
+      "palmer1924",
+      "payne2010",
+      "postal1966",
+      "pullummiller2022nps",
+      "pullumwilson1977",
+      "reynolds2021",
+      "reynolds2023unified",
+      "reynolds2025proformgender",
+      "reynolds2026numerals",
+      "sommerstein1972",
+      "spinillo2004reconceptualising",
+      "vaneynde2003determiner"
+    ],
+    "matrix-audit.tex": [
+      "huddleston2002",
+      "reynolds2021",
+      "reynolds2021matrixpublic"
+    ],
+    "corpus-documentation.tex": [
+      "reynolds2023unified"
+    ]
+  },
+  "missing_keys": {
+    "determinatives-as-nouns.tex": [],
+    "matrix-audit.tex": [],
+    "corpus-documentation.tex": []
+  },
+  "quality_flags": [],
+  "unused_local_entries": [],
+  "central_unused_in_this_project": 2170,
+  "local_central_comparisons": [
+    {
+      "local_key": "reynolds2021matrixpublic",
+      "local": {
+        "author": "Reynolds, Brett",
+        "title": "Full matrix of {English} determinative and pronoun features",
+        "year": "2021",
+        "howpublished": "{LingBuzz} 005747",
+        "note": "Data resource: public CSV contains 138 word forms and 155 features",
+        "url": "https://ling.auf.net/lingbuzz/005747"
+      },
+      "central_key": "reynolds2021matrix",
+      "central": {
+        "author": "Reynolds, Brett",
+        "title": "Full matrix of {English} determinative and pronoun features",
+        "year": "2021",
+        "howpublished": "{LingBuzz} 005747",
+        "note": "Data resource: 138 word forms (73 determinatives, 65 pronouns) by 232 features. Companion to Reynolds 2021 \\emph{Cadernos de Lingu\u00edstica}",
+        "url": "https://ling.auf.net/lingbuzz/005747"
+      }
+    },
+    {
+      "local_key": "reynolds2023unified",
+      "local": {
+        "author": "Reynolds, Brett and Arora, Aryaman and Schneider, Nathan",
+        "title": "Unified Syntactic Annotation of {English} in the {CGEL} Framework",
+        "booktitle": "Proceedings of the 17th Linguistic Annotation Workshop ({LAW-XVII})",
+        "editor": "Prange, Jakob and Friedrich, Annemarie",
+        "year": "2023",
+        "pages": "220--234",
+        "publisher": "Association for Computational Linguistics",
+        "address": "Toronto, Canada",
+        "doi": "10.18653/v1/2023.law-1.22",
+        "url": "https://aclanthology.org/2023.law-1.22/"
+      },
+      "central_key": "arora2023unified",
+      "central": {
+        "title": "Unified Syntactic Annotation of {English} in the {CGEL} Framework",
+        "author": "Arora, Aryaman and Schneider, Nathan and Reynolds, Brett",
+        "year": "2023",
+        "booktitle": "Proceedings of the 17th Linguistic Annotation Workshop",
+        "url": "https://aclanthology.org/volumes/2023.law-1/"
+      }
+    },
+    {
+      "local_key": "reynolds2025proformgender",
+      "local": {
+        "author": "Reynolds, Brett",
+        "title": "Personhood and pro-forms: {A} hierarchical analysis of gender in {Modern English}",
+        "year": "2025",
+        "note": "Manuscript submitted to {Folia Linguistica}"
+      },
+      "central_key": "reynolds2025proform",
+      "central": {
+        "author": "Reynolds, Brett",
+        "title": "Personhood and pro-forms: {A} hierarchical analysis of gender in {Modern} {English}",
+        "year": "2025",
+        "note": "Manuscript in preparation"
+      }
+    }
+  ]
+}

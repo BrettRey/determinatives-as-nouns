@@ -1,0 +1,26 @@
+Exploratory fixed-matrix analysis; source and limits in PROTOCOL.txt.
+Random starts: energy seeds 1:100, iter.max=100; winner minimizes W.
+PAM uses deterministic original BUILD/SWAP; average linkage is deterministic.
+Legacy control: seed 20260907, nstart=100, iter.max=100, unscaled X.
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin25.4.0
+Running under: macOS Tahoe 26.6.2
+
+Matrix products: default
+BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib 
+LAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: America/Toronto
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] digest_0.6.39   energy_1.7-12   cluster_2.1.8.2
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1 tools_4.6.1    Rcpp_1.1.2     gsl_2.1-9      boot_1.3-32   

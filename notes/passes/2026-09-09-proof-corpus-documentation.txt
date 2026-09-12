@@ -1,0 +1,107 @@
+              CGELBank concordance and extraction notes
+                                             Brett Reynolds
+                             Supplementary material, September 2026
+
+
+1   Scope and source
+    This supplement preserves the CGELBank concordance, extraction procedure and annotation
+    counts accompanying Determinatives as nouns in English. The article uses selected sentences as
+    attestations of the constructions under discussion. The inventory doesn’t estimate productivity or
+    test the competing taxonomies.
+         CGELBank contains English sentences annotated using categories and functions developed from
+    The Cambridge grammar of the English language (Reynolds et al., 2023). D labels the determinative
+    category; Det and Mod label determiner and modifier functions. The sentences provide inspectable
+    examples. The category and fusion labels encode analytical decisions and can’t independently con-
+    firm those analyses or their replacements.
+         The source is the CGELBank repository at revision d0a2c2d8c522b23d5aa879fc9cb94948f428
+    5b2c, licensed CC BY 4.0. The inventory includes four top-level gold datasets: twitter.cgel, ewt.cgel,
+    ewt-test_pilot5.cgel and ewt-test_iaa50.cgel. Trial material, one-off examples and duplicate versions
+    from the annotation study are excluded. The source manifest records each file’s checksum.
+
+2   Extraction and annotation counts
+    The inventory contains 220 sentence trees and 3,390 lexical nodes with overt text. Of those nodes, 387
+    are annotated D. Multiword lexical nodes count once. Overt source errors and deleted source tokens
+    remain, with the corpus’s correction information retained. Lemmas follow the supplied correction or
+    lemma where available and are lowercased. These are annotation-token counts, not whitespace-word
+    counts.
+         For each D node, extraction follows Head relations upwards to the first non-Head relation, identi-
+    fying the local function of its projection. The resulting counts are Det (297), Mod (18), Det–Head
+    (65), Marker (1), Flat (4) and Coordinate (2). Det–Head combines determiner and head functions.
+    The concordance records each local phrase, its nearest containing noun phrase (NP) and that NP’s
+    function, and the source sentence. Following the projection avoids counting a determiner embedded
+    in a partitive domain as its outer quantifier.
+         Table 1 compares selected forms. These are counts of annotated uses, not estimates of a lexeme’s
+    capacity for independent use.
+
+
+
+
+                                                      1
+    CGELBank concordance and extraction notes                                                                    2
+
+
+
+    Table 1: Selected forms by local function in CGELBank. Compare forms attested in both Det and
+    Det–Head uses with forms restricted to Det in this sample. Other includes all remaining functions.
+    Counts group forms by corpus lemma, including singular and plural demonstratives.
+                                   Form      Total   Det   Det–Head      Other
+                                   the        129    129             0        0
+                                   a           90     89             0        1
+                                   every        3      3             0        0
+                                   this        28     21             7        0
+                                   that        12      5             7        0
+                                   some         5      3             2        0
+                                   all         11      3             5        3
+                                   both         4      2             1        1
+                                   many         3      0             1        2
+                                   a few        2      1             1        0
+                                   each         2      0             1        1
+                                   enough       6      2             1        3
+
+
+        The full inventory contains 65 Det–Head occurrences, all inspected in their source sentences.
+    They include ordinary arguments, partitives, compounds such as something, floating quantifiers, de-
+    gree and frequency expressions, numerical fragments and age supplements. In about 30 seconds, for
+    example, the numeral’s nominal projection is embedded in the determiner about 30. Reporting all
+    65 as independent argument uses would therefore conflate different constructions.
+        The sample has no determinative tokens of bare few, either or neither. Its gaps don’t establish
+    ungrammaticality. The inventory provides no representative productivity estimate or controlled test
+    of modifier contrasts.
+
+3   Attestations and identifiers
+    Two attestations illustrate independent quantifiers with a recoverable discourse domain:
+     (1)   a. Went there yesterday: we are trying to decide between two different Honda models, so we
+              wanted to test-drive both back to back.
+           b. I rarely listen to the news or to what politicians or lawyers say because so many tell lies that
+              none have credibility so what’s the point?
+        In (a), both refers to the two Honda models. In (b), politicians or lawyers supplies a domain for
+    many and none. These are examples of independent use with contextual interpretation, not evidence
+    of an antecedent-free reading.
+        Example (a) is sentence reviews-083459-0002 in ewt.cgel. Example (b) has identifier newsgrou
+    p-groups.google.com_INTPunderground_b2c62e87877e4a22_ENG_20050906_165900-0074.
+    Both resolve in analysis/results/corpus-concordance.csv and analysis/results/corpus-det-head-revie
+    w.csv.
+        CGELBank also attests I need something reliable and good looking, sentence answers-201110241
+    11513AAAQhAO_ans-0003 in ewt-test_iaa50.cgel. The original text has good looking; the normal-
+    CGELBank concordance and extraction notes                                                        3
+
+
+    ized annotation has good-looking. The article retains the source wording. This example documents
+    postmodification of a compound determinative; it doesn’t test premodification in the lucky few.
+
+4   Reproduction files
+    Run analysis/corpus_inventory.py against a checkout at the recorded revision. The script rejects a
+    different Git commit. Its parser requires pylatexenc (audit version 2.11). Commands and environ-
+    ment details are retained in analysis/README.md.
+         The file analysis/results/corpus-manifest.json records the source revision, dataset checksums,
+    totals and function counts. The concordance and Det–Head review preserve the extracted expres-
+    sions and their sentence contexts. The selected-form table remains generated from the recorded out-
+    puts. A model-assisted audit reproduced the extraction outputs and inspected all 65 Det–Head con-
+    texts; its report is reviews/review-board-20260907-rebuild/corpus.md.
+
+    References
+    Reynolds, B., Arora, A., & Schneider, N. (2023). Unified syntactic annotation of English in the
+          CGEL framework. In J. Prange & A. Friedrich (Eds.), Proceedings of the 17th linguistic an-
+          notation workshop (LAW-XVII) (pp. 220–234). Association for Computational Linguistics.
+          https://doi.org/10.18653/v1/2023.law-1.22
+

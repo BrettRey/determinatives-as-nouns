@@ -1,0 +1,15 @@
+{
+  "slug": "payne",
+  "provider": "anthropic",
+  "requested_model": "opus",
+  "observed_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "prompt": "prompt-payne.md",
+  "prompt_sha256": "93a59eb4b84ec97f810d8a559b6610f1fab9b350aedb48cead9664289b9e6ce7",
+  "output": "payne.md",
+  "output_sha256": "fbb94d47ffda57ed0d114a92f83060cf412454d2bbf88bbebbdac0419e887949",
+  "elapsed_seconds": 249.7,
+  "effective_tools": []
+}

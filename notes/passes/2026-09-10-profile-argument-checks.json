@@ -1,0 +1,79 @@
+{
+  "source": "determinatives-as-nouns.tex",
+  "review": "notes/determinatives-as-nouns-review-2026-09-10-profile.md",
+  "pdf_pages": 29,
+  "protected_files_checked": 70,
+  "protected_files_changed": [],
+  "source_blocks": {
+    "trees": {
+      "before": 11,
+      "after": 11,
+      "unchanged": 11
+    },
+    "schemata": {
+      "before": 4,
+      "after": 4,
+      "unchanged": 4
+    },
+    "tables": {
+      "before": 5,
+      "after": 5,
+      "unchanged": 3
+    }
+  },
+  "citation_keys": 22,
+  "cited_keys": [
+    "Huddleston2021",
+    "Payne2007",
+    "abney1987",
+    "bruening2020nominal",
+    "huddleston2002",
+    "hudson2004determiners",
+    "hudson2010wordgrammar",
+    "lipseylancaster1956secondbest",
+    "lyons1968",
+    "lyons1999",
+    "palmer1924",
+    "payne2010",
+    "payne2013anaphoric",
+    "postal1966",
+    "pullummiller2022nps",
+    "pullumwilson1977",
+    "reynolds2021",
+    "reynolds2023unified",
+    "reynolds2025proformgender",
+    "reynolds2026numerals",
+    "sommerstein1972",
+    "spinillo2004reconceptualising"
+  ],
+  "missing_citations": [],
+  "citation_required_field_issues": [],
+  "uncited_bibliography_entries_current_manuscript_only": 2174,
+  "added_citations": [
+    "payne2013anaphoric"
+  ],
+  "removed_citations": [],
+  "reading_copy": {
+    "trees": 11,
+    "schemata": 4,
+    "tables": 5,
+    "footnotes": 13,
+    "table1_data_rows": 12,
+    "table2_data_rows": 9,
+    "pandoc_warnings": [],
+    "images": 0
+  },
+  "overfull_lines": [
+    {
+      "amount_pt": 4.46857,
+      "source_lines": "343\u2013344",
+      "pre_existing": true
+    },
+    {
+      "amount_pt": 5.04185,
+      "source_lines": "419\u2013420",
+      "pre_existing": true
+    }
+  ],
+  "visual_inspection": "Deferred at author request; PDF checked through text extraction only."
+}

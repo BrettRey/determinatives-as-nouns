@@ -1,0 +1,95 @@
+{
+  "trees": {
+    "count": 11,
+    "unchanged": true
+  },
+  "schemata": {
+    "count": 4,
+    "unchanged": true
+  },
+  "tables": {
+    "count": 5,
+    "unchanged": true
+  },
+  "numbered_examples": {
+    "count": 2,
+    "unchanged": true
+  },
+  "citation_keys_unchanged": 22,
+  "unresolved_bibliography_keys": [],
+  "removed_example_strings": [
+    "-dom",
+    "-hood",
+    "Friendship",
+    "bachelorhood",
+    "falsehood",
+    "freedom",
+    "kingdom",
+    "likelihood",
+    "officialdom",
+    "wisdom"
+  ],
+  "added_example_strings": [
+    "little",
+    "so many mistakes",
+    "so numerous mistakes"
+  ],
+  "example_note": "The -hood/-dom catalogue is removed; Friendship is now lowercase friendship, already present in the table. The newly separate mention little is an existing member of the inventory.",
+  "direct_quotations_unchanged": true,
+  "protected_files_unchanged": 81,
+  "reading_copy": {
+    "text_trees": 11,
+    "text_schemata": 4,
+    "tables": 5,
+    "notes": 13,
+    "images": 0
+  },
+  "build": {
+    "pages": 24,
+    "overfull_boxes": 0,
+    "unresolved_references": 0,
+    "image_inspection": "deferred at author request",
+    "biber": "2.21, temporary arm64 extraction of installed universal binary"
+  },
+  "page_text_counts": [
+    335,
+    523,
+    174,
+    302,
+    517,
+    279,
+    515,
+    331,
+    374,
+    498,
+    454,
+    538,
+    267,
+    292,
+    396,
+    390,
+    473,
+    477,
+    331,
+    421,
+    474,
+    363,
+    396,
+    75
+  ],
+  "texcount": {
+    "before": {
+      "Words in text": 6429,
+      "Words in headers": 116,
+      "Words outside text (captions, etc.)": 811,
+      "total": 7356
+    },
+    "after": {
+      "Words in text": 6539,
+      "Words in headers": 116,
+      "Words outside text (captions, etc.)": 811,
+      "total": 7466
+    }
+  },
+  "net_words_added": 110
+}

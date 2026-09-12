@@ -1,0 +1,28 @@
+{
+  "protected_files": 35,
+  "changed_protected_files": [],
+  "duplicate_labels": [],
+  "missing_labels": [],
+  "figures": 6,
+  "trees": 11,
+  "tables": 5,
+  "formal_schemata_unchanged": true,
+  "sections_4_to_7_2_unchanged": true,
+  "conclusion_unchanged": true,
+  "criticmarkup_in_master": false,
+  "pdf_pages": 26,
+  "citation_keys": 21,
+  "bibliographic_quality_issues": [],
+  "unresolved_citations_or_references": false,
+  "existing_overfull_pt": [
+    4.46857,
+    5.04185
+  ],
+  "new_overfull_boxes": 0,
+  "review_trees": 11,
+  "review_schemata": 4,
+  "review_tables": 5,
+  "review_footnotes": 10,
+  "roughdraft_doctor_ok": true,
+  "pandoc_warnings": []
+}

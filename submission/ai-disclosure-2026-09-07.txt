@@ -1,0 +1,17 @@
+AI-assistance disclosure for the September 2026 revision
+Prepared 7 September 2026. Not entered in a submission system.
+
+Suggested submission-field text:
+
+The September 2026 revision used OpenAI GPT-6 (Astra) through Codex for drafting, source retrieval, analysis-script development and critical review. Further critical review used Anthropic Claude Opus 5 through Claude Code, with Claude Haiku 4.5 recorded in those sessions, and Z.ai GLM-5.3-Flash through OpenRouter. OpenAI GPT-5.6 (Sol) provided a separate check of numerical outputs. These uses occurred on 7 September 2026. The models assisted in constructing and checking analysis code; the reported numerical results derive from the archived data and reproducible R/Python runs, rather than from unrecorded model estimates. AI assistance also extended to the LaTeX source for the tree diagrams. The author retains responsibility for all claims, source attributions, judgments and results.
+
+Tool identifiers and access:
+- OpenAI: gpt-6-astra and gpt-5.6-sol; Codex, https://chatgpt.com/codex
+- Anthropic: claude-opus-5 and claude-haiku-4-5-20251001; Claude Code, https://claude.com/product/claude-code
+- Z.ai: z-ai/glm-5.3-flash; OpenRouter, https://openrouter.ai/
+
+Provenance: reviews/review-board-20260907-rebuild/manifest.json records model identifiers, dates, source hashes and responses. The separate Sol check is recorded in reviews/rebuild-2026-09-07.md and the session’s numerical-check report. Data, feature-selection decisions, R/Python scripts, environment details and outputs are in analysis/.
+
+Journal of Linguistics policy checked 7 September 2026:
+https://www.cambridge.org/core/journals/journal-of-linguistics/information/author-instructions/preparing-your-materials
+The policy calls for writing assistance in acknowledgements, data-assistance details in methods, and generated-visual assistance in captions, with tool/version/date/use/access information. At submission, use the statement above in any relevant submission-system field and carry the necessary declarations into the journal-formatted manuscript and supplementary materials. No submission has been initiated for this revision. Portal compliance is therefore pending submission, not certified here.

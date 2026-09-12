@@ -1,0 +1,193 @@
+EXPLORATORY MULTIVERSE — RESULTS
+
+The reciprocals project already contained a 40-row specification curve on
+the same matrix. It targets each_other and one_another; 20 of those rows
+are distinct geometric specifications. This run extends the comparison
+to the partition of all 138 forms.
+
+New run: 224 two-group specifications
+  core representations: 170
+  single-domain diagnostics: 54
+  withheld-domain transfer fits: 156
+  aliased weighting/distance choices omitted: 42
+
+CORE REFERENCE AGREEMENT
+Agreement orients cluster labels after fitting; chance-adjusted pair
+agreement is reported as ARI. The input inventory remains 73 D / 65 pronoun.
+  pam      n= 74: matched 96–129/138; ARI 0.147–0.754
+  average  n= 74: matched 70–136/138; ARI -0.004–0.942
+  energy   n= 22: matched 103–131/138; ARI 0.238–0.806
+
+BREAKDOWN BY FEATURE SET AND METHOD
+feature set                         method    n   agreement/138   ARI
+full                                pam      10     107–129       0.299–0.754
+full                                average  10      73–136       -0.000–0.942
+full                                energy    3     103–125       0.238–0.656
+no_components                       pam      10     111–125       0.366–0.656
+no_components                       average  10      75–129       0.004–0.754
+no_components                       energy    3     117–131       0.480–0.806
+no_four_labels                      pam      10     107–123       0.299–0.610
+no_four_labels                      average  10      73–129       -0.000–0.754
+no_four_labels                      energy    3     103–124       0.238–0.633
+no_components_or_four_labels        pam      10     109–122       0.331–0.587
+no_components_or_four_labels        average  10      75–129       0.004–0.754
+no_components_or_four_labels        energy    3     117–124       0.480–0.633
+no_morph                            pam       7      96–121       0.147–0.565
+no_morph                            average   7      70–129       -0.004–0.754
+no_morph                            energy    2     103–126       0.238–0.680
+no_phon                             pam      10     114–129       0.421–0.754
+no_phon                             average  10      75–136       0.004–0.942
+no_phon                             energy    3     124–130       0.633–0.780
+no_sem                              pam       7     103–119       0.238–0.522
+no_sem                              average   7      74–121       0.002–0.565
+no_sem                              energy    2     103–124       0.238–0.633
+no_synt                             pam      10     103–129       0.238–0.754
+no_synt                             average  10      70–133       -0.004–0.859
+no_synt                             energy    3     103–125       0.238–0.656
+morph_only                          pam       4     124–125       0.633–0.656
+morph_only                          average   4      72–126       -0.002–0.680
+morph_only                          energy    1     125–125       0.656–0.656
+morph_without_components            pam       4      78–122       0.010–0.587
+morph_without_components            average   4      72–126       -0.002–0.680
+morph_without_components            energy    1     125–125       0.656–0.656
+phon_only                           pam       4     103–103       0.238–0.238
+phon_only                           average   4     104–104       0.252–0.252
+phon_only                           energy    1     103–103       0.238–0.238
+sem_only                            pam       4     109–125       0.331–0.656
+sem_only                            average   4       75–86       0.004–0.056
+sem_only                            energy    1     132–132       0.832–0.832
+synt_only                           pam       4      70–111       -0.007–0.366
+synt_only                           average   4      74–107       0.002–0.299
+synt_only                           energy    1     118–118       0.501–0.501
+synt_without_four_labels            pam       4       72–91       -0.005–0.096
+synt_without_four_labels            average   4      74–105       0.002–0.268
+synt_without_four_labels            energy    1       99–99       0.183–0.183
+
+MATCHED COMPARISONS
+Each pair changes the named choice, with the others held fixed.
+Equivalent choices are resolved to their saved canonical result.
+Positive change means greater agreement with the historical labels;
+it doesn't establish that the changed analysis is preferable.
+comparison                                        pairs  change in matched forms
+full_to_no_components                               23          -18–50
+full_to_no_four_labels                              23          -28–2
+no_components_to_no_components_or_four_labels       23          -7–4
+full_to_no_morph                                    23          -33–1
+full_to_no_phon                                     23          -1–27
+full_to_no_sem                                      23          -46–46
+full_to_no_synt                                     23          -26–37
+synt_only_to_synt_without_four_labels                9          -37–3
+equal_features_to_equal_domains                     56          -55–48
+equal_features_to_unique_profiles                   56          -21–0
+sqrt_hamming_to_hamming                             44          -6–21
+sqrt_hamming_to_jaccard                             44          -61–25
+pam_to_average                                      74          -52–33
+pam_to_energy                                       22          -5–30
+jaccard_equal_to_idf                                16          -5–47
+
+MEMBERSHIP SENSITIVITY IN CORE REPRESENTATIONS
+Counts use the post-fit orientation toward the historical labels.
+They are counts over this analysis menu, not category probabilities.
+  pam: 62 forms switch alignment; 73 always match; 3 always differ.
+    Always differ: whatever_pron, which_rel_pron, there
+    each_other       D-aligned 63/74; pronoun-aligned 11/74
+    one_another      D-aligned 63/74; pronoun-aligned 11/74
+    the              D-aligned 73/74; pronoun-aligned 1/74
+    a                D-aligned 74/74; pronoun-aligned 0/74
+    this             D-aligned 16/74; pronoun-aligned 58/74
+    that             D-aligned 29/74; pronoun-aligned 45/74
+    these            D-aligned 18/74; pronoun-aligned 56/74
+    those            D-aligned 18/74; pronoun-aligned 56/74
+    my               D-aligned 10/74; pronoun-aligned 64/74
+    his              D-aligned 0/74; pronoun-aligned 74/74
+    her_dep          D-aligned 10/74; pronoun-aligned 64/74
+    its              D-aligned 0/74; pronoun-aligned 74/74
+    it_dum           D-aligned 36/74; pronoun-aligned 38/74
+    there            D-aligned 74/74; pronoun-aligned 0/74
+    something        D-aligned 74/74; pronoun-aligned 0/74
+    someone          D-aligned 74/74; pronoun-aligned 0/74
+  average: 89 forms switch alignment; 49 always match; 0 always differ.
+    Always differ: none
+    each_other       D-aligned 49/74; pronoun-aligned 25/74
+    one_another      D-aligned 49/74; pronoun-aligned 25/74
+    the              D-aligned 65/74; pronoun-aligned 9/74
+    a                D-aligned 74/74; pronoun-aligned 0/74
+    this             D-aligned 39/74; pronoun-aligned 35/74
+    that             D-aligned 39/74; pronoun-aligned 35/74
+    these            D-aligned 39/74; pronoun-aligned 35/74
+    those            D-aligned 39/74; pronoun-aligned 35/74
+    my               D-aligned 36/74; pronoun-aligned 38/74
+    his              D-aligned 27/74; pronoun-aligned 47/74
+    her_dep          D-aligned 36/74; pronoun-aligned 38/74
+    its              D-aligned 27/74; pronoun-aligned 47/74
+    it_dum           D-aligned 53/74; pronoun-aligned 21/74
+    there            D-aligned 46/74; pronoun-aligned 28/74
+    something        D-aligned 74/74; pronoun-aligned 0/74
+    someone          D-aligned 74/74; pronoun-aligned 0/74
+  energy: 48 forms switch alignment; 90 always match; 0 always differ.
+    Always differ: none
+    each_other       D-aligned 18/22; pronoun-aligned 4/22
+    one_another      D-aligned 18/22; pronoun-aligned 4/22
+    the              D-aligned 21/22; pronoun-aligned 1/22
+    a                D-aligned 22/22; pronoun-aligned 0/22
+    this             D-aligned 14/22; pronoun-aligned 8/22
+    that             D-aligned 14/22; pronoun-aligned 8/22
+    these            D-aligned 14/22; pronoun-aligned 8/22
+    those            D-aligned 14/22; pronoun-aligned 8/22
+    my               D-aligned 5/22; pronoun-aligned 17/22
+    his              D-aligned 0/22; pronoun-aligned 22/22
+    her_dep          D-aligned 5/22; pronoun-aligned 17/22
+    its              D-aligned 0/22; pronoun-aligned 22/22
+    it_dum           D-aligned 21/22; pronoun-aligned 1/22
+    there            D-aligned 21/22; pronoun-aligned 1/22
+    something        D-aligned 22/22; pronoun-aligned 0/22
+    someone          D-aligned 22/22; pronoun-aligned 0/22
+
+SILHOUETTE MAXIMA OVER K=2…8
+Ties choose the smaller k. This is an internal geometry diagnostic;
+it does not estimate a grammatical taxonomy or validate a category count.
+  pam: k=2: 21, k=3: 2, k=6: 5, k=7: 6, k=8: 40
+  average: k=2: 10, k=3: 4, k=4: 2, k=5: 1, k=6: 8, k=7: 11, k=8: 38
+
+WITHHELD-DOMAIN TRANSFER
+Positive gain = lower average log loss than an ungrouped prevalence
+baseline. Each target form is excluded from estimation of its own
+held-out probabilities. Counts are descriptive specification counts.
+domain   coding             n    positive/baseline  gain range (nats/cell)
+morph    all_features        16       14/16             -0.0041–0.0363
+  Historical-label gain over baseline: 0.0366 nats/cell. Learned gain over historical labels: -0.0407–-0.0003.
+morph    omit_four_labels    16       14/16             -0.0041–0.0318
+  Historical-label gain over baseline: 0.0366 nats/cell. Learned gain over historical labels: -0.0407–-0.0048.
+phon     all_features        23       19/23             -0.0018–0.0764
+  Historical-label gain over baseline: 0.0449 nats/cell. Learned gain over historical labels: -0.0468–0.0314.
+phon     omit_four_labels    23       19/23             -0.0018–0.0835
+  Historical-label gain over baseline: 0.0449 nats/cell. Learned gain over historical labels: -0.0468–0.0385.
+sem      all_features        16       15/16             -0.0012–0.0521
+  Historical-label gain over baseline: 0.0553 nats/cell. Learned gain over historical labels: -0.0565–-0.0032.
+sem      omit_four_labels    16       15/16             -0.0012–0.0471
+  Historical-label gain over baseline: 0.0553 nats/cell. Learned gain over historical labels: -0.0565–-0.0082.
+synt     all_features        23       23/23             0.0001–0.0413
+  Historical-label gain over baseline: 0.0455 nats/cell. Learned gain over historical labels: -0.0454–-0.0042.
+synt     omit_four_labels    23       21/23             -0.0001–0.0310
+  Historical-label gain over baseline: 0.0316 nats/cell. Learned gain over historical labels: -0.0317–-0.0007.
+
+VERIFICATION AND SCOPE
+Independent numerical verification passed; 31 pre-existing files unchanged.
+The historical coordinate-based control reproduces 125/138 agreement.
+The new energy fits use a different, explicitly recorded start schedule.
+All learned groupings are fitted without using the historical class labels.
+The classes are used only for evaluation and the separate prediction comparator.
+Transfer remains within this hand-coded inventory, with related forms present.
+Independent recodings, a checked family map, and common/proper-noun comparators
+would require additional evidence. No paper text or publication action is included.
+
+FILES
+PROTOCOL.txt: choices, mathematical definitions, provenance and limits
+specifications.csv / assignments.csv: complete two-group results
+paired-comparisons.csv: matched changes of feature set, weights, distance or method
+coassignment-core-*.csv / membership-core-*.csv: stability by method
+k-sensitivity.csv: complete silhouette curves
+held-domain-prediction.csv: transfer scores and comparator scores
+prediction-by-feature.csv / prediction-by-item.csv: individual contributions
+energy-starts.csv: optimization audit
+verification.json: independently recomputed checks

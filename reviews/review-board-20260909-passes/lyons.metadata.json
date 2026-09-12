@@ -1,0 +1,14 @@
+{
+  "slug": "lyons",
+  "provider": "openrouter",
+  "requested_model": "z-ai/glm-5.3-flash",
+  "observed_models": [
+    "z-ai/glm-5.3-flash"
+  ],
+  "prompt": "prompt-lyons.md",
+  "prompt_sha256": "8f636b3d15afc0a12e0587824f61ef3e5d7cfe2c98652620dae1567528ca326b",
+  "output": "lyons.md",
+  "output_sha256": "daff773ffcc603e19958bb010dd13e9077ddc372836d52c5810d4fff0adbc206",
+  "elapsed_seconds": 16.5,
+  "effective_tools": []
+}

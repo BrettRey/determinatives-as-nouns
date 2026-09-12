@@ -1,0 +1,119 @@
+{
+  "source_sha256": "89e45c96ea40700dda6e18488e9331d37698a3ec541803ff47c5cfb660ac78d1",
+  "trees": {
+    "count": 11,
+    "changed_tree": "Figure 3: peripheral almost in embedded NP; ten other trees unchanged",
+    "markdown": "Unary branches rendered vertically; fusion links retained"
+  },
+  "schemata": {
+    "count": 4,
+    "change": "All three Nom schemata now use an ordered possibly empty postmodifier sequence; other rules unchanged"
+  },
+  "numbered_examples": {
+    "count": 2,
+    "words_unchanged": true,
+    "format_change": "Upright square brackets"
+  },
+  "tables": {
+    "count": 5,
+    "changes": "Inventory independent of recategorization; five-criterion comparison replaces earlier accounts table"
+  },
+  "citations": {
+    "unchanged_keys": [
+      "Huddleston2021",
+      "Payne2007",
+      "abney1987",
+      "bruening2020nominal",
+      "huddleston2002",
+      "hudson2004determiners",
+      "hudson2010wordgrammar",
+      "lipseylancaster1956secondbest",
+      "lyons1968",
+      "lyons1999",
+      "palmer1924",
+      "payne2010",
+      "payne2013anaphoric",
+      "postal1966",
+      "pullummiller2022nps",
+      "pullumwilson1977",
+      "reynolds2021",
+      "reynolds2023unified",
+      "reynolds2025proformgender",
+      "reynolds2026numerals",
+      "sommerstein1972",
+      "spinillo2004reconceptualising"
+    ],
+    "unresolved": []
+  },
+  "protected_files_unchanged": 70,
+  "author_annotations_unchanged": true,
+  "reading_copy": {
+    "file": "notes/determinatives-as-nouns-review-2026-09-11-consolidated.md",
+    "trees": 11,
+    "schemata": 4,
+    "tables": 5,
+    "notes": 14,
+    "images": 0,
+    "pandoc_warnings": 0
+  },
+  "build": {
+    "pages": 28,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "unresolved_references": 0,
+    "sequence": "XeLaTeX, Biber, XeLaTeX, XeLaTeX",
+    "biber": "2.21 temporary arm64 extraction",
+    "existing_warnings": [
+      "fancyhdr E field in one-sided document",
+      "microtype footnote patch",
+      "EB Garamond bold substitution"
+    ],
+    "image_inspection": "Deferred at author request; PDF text and page distribution checked"
+  },
+  "page_text_counts": [
+    324,
+    514,
+    174,
+    286,
+    529,
+    521,
+    255,
+    522,
+    352,
+    360,
+    546,
+    520,
+    498,
+    374,
+    303,
+    518,
+    374,
+    531,
+    522,
+    530,
+    446,
+    515,
+    504,
+    317,
+    496,
+    134,
+    396,
+    75
+  ],
+  "texcount": {
+    "before": {
+      "Words in text": 8720,
+      "Words in headers": 135,
+      "Words outside text (captions, etc.)": 839,
+      "total": 9694
+    },
+    "after": {
+      "Words in text": 8390,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 848,
+      "total": 9367
+    }
+  },
+  "net_words_added": -327,
+  "review_scope": "Author correction and two supplied assessments: pronoun boundary removed; peripheral NP option corrected; common-noun agreement, degree baseline/cost attribution, comparison table and ordered postmodifiers incorporated; low-value expansion compressed"
+}

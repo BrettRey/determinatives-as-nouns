@@ -1,0 +1,24 @@
+{
+  "source_sha256": "238c84d6454edebda36d3f7b07bd6a49e830810218e8750a55e38f6cbb016feb",
+  "pdf_sha256": "4b78c49e663ada4b7a9c06f53459bd4af07f20c800eecf20e93ce34f90a81d52",
+  "reading_copy_sha256": "e06b78a1ed9cdbe25680a0b46f796e092a9091dfff1edda78778b2f2efd8ba1c",
+  "pages": 23,
+  "citation_keys": 24,
+  "all_citations_resolve": true,
+  "figures": 6,
+  "trees": 11,
+  "trees_unchanged": true,
+  "schemata": 4,
+  "schemata_unchanged": true,
+  "tables": 5,
+  "comparison_accounts": 3,
+  "footnotes": 9,
+  "protected_files_unchanged": 35,
+  "scar_tissue_edits": 8,
+  "overfull_lines": [
+    "4.46857pt too wide",
+    "5.04185pt too wide",
+    "4.2891pt too wide"
+  ],
+  "visual_inspection": false
+}

@@ -1,0 +1,22 @@
+File: /tmp/dnoun-head-consistency-count-after.tex
+Encoding: utf8
+Words in text: 8334
+Words in headers: 129
+Words outside text (captions, etc.): 875
+Number of headers: 29
+Number of floats/tables/figures: 11
+Number of math inlines: 8
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  96+1+0 (1/0/0/0) _top_
+  461+2+153 (1/1/0/0) Section: The question}\label{sec:intro
+  720+13+45 (3/1/0/0) Section: Categorization, headedness, and function}\label{sec:alternatives
+  2108+29+197 (6/3/0/0) Section: The D-noun analysis}\label{sec:proposal
+  1777+36+351 (8/4/0/0) Section: Evidence for nominal structure}\label{sec:evidence
+  428+4+41 (1/0/0/0) Section: Coordinate subcategories and inheritance}\label{sec:inheritance
+  842+17+28 (3/0/0/0) Section: Restricted members and wider functions}\label{sec:articles
+  1658+22+60 (4/2/8/4) Section: Structural consequences and grammatical economy}\label{sec:economy
+  153+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

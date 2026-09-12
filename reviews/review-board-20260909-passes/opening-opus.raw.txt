@@ -1,0 +1,10 @@
+```json
+{
+  "problem": "Whether English determinatives (the, this, some, every, many) should be classified inside the lexical category Noun — i.e. whether some belongs with me, apple and Brett — rather than standing as a primary category of their own.",
+  "debate": "The CGEL (Huddleston & Pullum 2002) taxonomy of English lexical categories and its exclusion of determinatives from Noun, with a gestured contrast to 'separate-D'/primary-D grammars (alluded to but uncited) and an explicit precedent in the absorption of auxiliaries into Verb (Pullum & Wilson 1977).",
+  "gap": "CGEL admits pronouns to Noun on the grounds of the functions of pronoun-headed phrases despite their deviant inflection and restricted dependents, yet never tests determinatives against those same grounds, resting their exclusion on differences from common nouns that the accepted noun subcategories already display among themselves.",
+  "contribution": "An argument that determinatives are a fourth coordinate subcategory of Noun, supported by a matched comparison of independent uses, partitives, modification and one compound construction, plus a separable 'ordinary headedness' proposal on which some always heads its own NP through a Nom, displacing CGEL's fusion of determiner and head functions.",
+  "decision": "advance",
+  "note": "The thesis, its framework, its terminology and its separable secondary claim are all legible within two pages, but you enter this debate with essentially one interlocutor — name and cite the prior determinatives-as-nouns and DP literature, and state outright that CGEL's exclusion is inconsistent instead of politely calling it an open question."
+}
+```

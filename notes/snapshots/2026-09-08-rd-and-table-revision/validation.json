@@ -1,0 +1,16 @@
+{
+  "source_sha256": "eea2c0e2d9cf80e197996a96f0e82ea062044419ab9ca52d5874dbede266a4c6",
+  "texcount": 9009,
+  "previous_texcount": 8644,
+  "pdf_pages": 26,
+  "tables": 8,
+  "figures": 6,
+  "trees": 9,
+  "schemata": 4,
+  "corpus_subsection_byte_identical": true,
+  "replication_appendix_byte_identical": true,
+  "formal_schemata_byte_identical": true,
+  "unresolved_citations_or_references": false,
+  "overfull_boxes": false,
+  "proof_inspection": "Deferred at user request; no page rendering or visual proof inspection in this revision."
+}

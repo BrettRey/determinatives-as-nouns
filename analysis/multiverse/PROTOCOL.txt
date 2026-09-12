@@ -1,0 +1,145 @@
+EXPLORATORY MULTIVERSE OF THE EXISTING DETERMINATIVE–PRONOUN MATRIX
+Run design fixed before the first new result, 10 September 2026.
+
+Purpose
+Examine how the partition and coassignment of 138 forms depend on representation,
+distance and clustering choices. This is an exploratory analysis workspace.
+
+Inputs and earlier work
+The public matrix has 155 binary features, 73 determinatives and 65 pronouns in
+the historical CGEL classification. Its original y/n coding is converted
+strictly to 1/0. No missing values are imputed. The inventory is held fixed,
+including classifications questioned in later work.
+
+The reciprocals project's matrix_clean.csv matches every public-matrix cell
+after conversion. Its feature block file supplies the established four domains:
+morphology 66, phonology 3, semantics 36, syntax 50. The first 50 morphological
+columns encode word components. Copied block metadata and historical reciprocal
+specifications are hashed in input-manifest.json.
+
+The earlier reciprocals specification curve has 40 rows: four distance choices,
+two classifier penalties and five block-inclusion choices. The two penalties
+do not affect its geometric distance contrasts, leaving 20 distinct distance
+specifications. It examines the two reciprocals. Its classifier predictions and
+distance contrasts have different specification axes.
+
+The old figure plots the mean contrast across the two reciprocals. For that
+mean, only morphology omission produces negative values; the manuscript's
+"only morphology" description of the plotted result is supported. Each_other
+considered alone also has negative contrasts under IDF-weighted Jaccard in the
+full and no-syntax representations and under some no-phonology specifications.
+An initial inspection mistook those itemwise signs for a contradiction of the
+plotted mean. The distinction is recorded here to prevent that error recurring.
+The new pipeline doesn't execute or import the old Stan/classifier code.
+
+New two-group specifications
+Core feature sets: all 155; omit 50 word components; omit four explicit analysis
+labels; omit both; omit morphology; omit phonology; omit semantics; omit syntax.
+Separate diagnostic panels: morphology; morphology without components;
+phonology; semantics; syntax; syntax without the four labels.
+
+The four analysis labels are inherited from the existing audit:
+  functions_as_fused_determiner_head
+  functions_as_head_of_partitive_construction
+  functions_as_subject_determiner
+  May_coordinate_with_non_fused_determiners
+Removing them doesn't make the remaining coding theory-independent.
+
+Weights:
+  equal_features: equal weight per included column;
+  equal_domains: equal total weight per included domain;
+  unique_profiles: columns with identical binary profiles share one unit;
+  idf_presence: log(138 / number of presences), used only with Jaccard.
+All weight vectors are normalized to sum to one. Unique-profile weighting
+addresses exact duplication only, not general diagnostic dependence.
+
+Distances:
+  Hamming: weighted fraction of disagreements;
+  square-root Hamming: square root of that fraction, proportional to Euclidean
+    distance on appropriately scaled binary coordinates;
+  Jaccard: weighted disagreements divided by the weighted union of presences.
+Two all-zero rows have Jaccard distance zero. The IDF-Jaccard branch retains an
+earlier reciprocal-analysis choice. Jaccard assumes that shared absences don't
+contribute similarity; its scientific suitability is a substantive choice.
+
+PAM and average linkage run on all distances. Energy k-groups runs only with
+square-root Hamming, where its Euclidean interpretation is direct. Each energy
+fit uses 100 starts (seeds 1–100, up to 100 iterations); the lowest within-cluster
+objective wins, without reference labels entering selection. Starts are
+optimization checks, not extra specifications. Ties within 1e-10 are recorded.
+PAM uses the original deterministic BUILD/SWAP algorithm. Average linkage uses
+R's hclust tie handling and the source row order.
+
+Equivalent distance calculations within a feature set are recorded as aliases
+and contribute only one specification. Single-domain diagnostics are kept out
+of the core membership summaries. Coassignment and aligned membership counts
+are reported separately by method because energy has a narrower distance menu.
+These frequencies describe the chosen menu, not membership probabilities.
+
+Reference agreement is computed after fitting by the better of the two label
+orientations. Adjusted Rand index (ARI) is invariant to label names and adjusts
+pair agreement for chance under its conventional reference model. An exact
+orientation tie is excluded from aligned membership counts; it remains in
+coassignment summaries.
+
+Number of clusters
+PAM and average linkage additionally run at k=2 through k=8, capped at the
+number of distinct binary row profiles. Silhouette curves describe cohesion
+and separation within each representation. Their maximum doesn't establish
+the number of grammatical categories. Energy retains k=2 for this run.
+
+Prediction of a withheld domain
+For each domain, remove every column in that domain before clustering.
+Also remove any training column whose binary profile equals a held-out column
+or its complement. Fit two clusters from the remaining features, using the
+same compatible weighting/distance/method choices as above.
+
+For each target row and held-out feature, estimate a Bernoulli probability
+from the other rows in its cluster, using Beta(1,1) smoothing. The numerator
+is other-row presences plus 1; the denominator is other-row count plus 2.
+Compare log loss and Brier score with an ungrouped leave-one-row-out prevalence
+baseline and the historical CGEL partition scored in the same way.
+Positive log-loss gains favour the learned partition.
+
+Repeat the domain-transfer procedure after excluding the four analysis labels
+from both training and targets. This is a separate coding panel, not a second
+independent dataset. The held-out domain never selects the number of clusters,
+weights, random start or method. All outcomes are reported, with per-feature
+and per-form contributions.
+
+This is transductive prediction within the same inventory: the target form's
+available domains participate in clustering. It is not validation on new
+lexemes, independent judgments or unseen grammatical features learned without
+any information about their distribution. Exact duplicate/complement removal
+doesn't eliminate more general dependencies between domains or related forms.
+
+Limits and work requiring additional evidence
+No hypothetical alternative judgments or family assignments are invented.
+Independently justified recodings and a checked paradigm/compound-family map
+would support further branches. Equal weight per observed form is retained.
+The recovered 232-column working file remains in the historical audit; it
+isn't silently substituted for the authenticated public 155-column matrix.
+This inventory contains no common/proper-noun comparator sample and cannot
+establish whether the two groups are coordinate primary categories or noun
+subclasses. No population p-values or confidence intervals are computed.
+
+Reproduction
+Requires R packages cluster, energy and digest.
+From this machine:
+  R_LIBS_USER=/tmp/determinatives-Rlib Rscript analysis/multiverse/run_multiverse.R
+Optional first argument: a separate output directory for replay.
+Then (requires Python with NumPy):
+  python3 analysis/multiverse/verify_and_summarize.py
+
+Outputs include per-specification assignments, feature weights, method-specific
+coassignment matrices, membership counts, k curves, optimization starts,
+domain-transfer scores, matched comparisons that change one analytical choice,
+and a direct control against the existing audit.
+The input manifest and protected-file snapshot keep this run separate from
+the prior analysis outputs and manuscripts.
+
+Method documentation checked during setup
+https://stat.ethz.ch/R-manual/R-devel/library/cluster/html/pam.html
+https://stat.ethz.ch/R-manual/R-devel/library/cluster/html/silhouette.html
+https://search.r-project.org/CRAN/refmans/energy/html/kgroups.html
+https://search.r-project.org/CRAN/refmans/mclust/html/adjustedRandIndex.html

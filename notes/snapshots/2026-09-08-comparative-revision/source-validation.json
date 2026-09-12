@@ -1,0 +1,10 @@
+{
+  "source_sha256": "42e19e1e05ff6fae587872c39c94d50f341d7638b3a1ec5fa9f32e775e62ec14",
+  "corpus_subsection_byte_identical": true,
+  "tables": 8,
+  "figures": 6,
+  "trees": 9,
+  "texcount": 8644,
+  "proofing": "Deferred at Brett\u2019s request; successful build preceded two verb-agreement corrections.",
+  "review_copy": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/notes/determinatives-as-nouns-review-2026-09-08.md"
+}

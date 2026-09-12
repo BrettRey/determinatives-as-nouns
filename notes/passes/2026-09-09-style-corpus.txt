@@ -1,0 +1,30 @@
+
+Found 4 potential style violation(s):
+
+
+=== corpus-documentation.tex ===
+  Line 26: Underscore subscript - use \textsubscript{}
+    The source is the \href{https://github.com/nert-nlp/cgel/tree/d0a2c2d8c522b23...
+  Line 48: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    The full inventory contains 65 Det--Head occurrences, all inspected in their ...
+  Line 62: Underscore subscript - use \textsubscript{}
+    Example (a) is sentence \href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c...
+  Line 68: Underscore subscript - use \textsubscript{}
+    Run \nolinkurl{analysis/corpus_inventory.py} against a checkout at the record...
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- corpus-documentation.tex ---
+    54 sentences | median 12 | mean 13.1 | middle half 9-17 (8 words)
+         1-9  ################           14   26%
+       10-14  ########################   21   39%
+       15-19  ###############            13   24%
+       20-24  #####                       4    7%
+       25-29  #                           1    2%
+       30-34  #                           1    2%
+       35-39                              0    0%
+         40+                              0    0%
+    [advisory] 65% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

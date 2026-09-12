@@ -1,0 +1,14 @@
+{
+  "slug": "audience",
+  "provider": "openrouter",
+  "requested_model": "z-ai/glm-5.3-flash",
+  "observed_models": [
+    "z-ai/glm-5.3-flash"
+  ],
+  "prompt": "prompt-audience.md",
+  "prompt_sha256": "5a196d7fe09b0d6eab2e415e29fba5ee751d9cf43bc1529ac8260f4864e048c2",
+  "output": "audience.md",
+  "output_sha256": "fe27fe57a359b72bb1cf68c9910c968d0c624c3c4a9bc9a64da2d357ad2b849c",
+  "elapsed_seconds": 42.0,
+  "effective_tools": []
+}

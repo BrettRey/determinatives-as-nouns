@@ -1,0 +1,93 @@
+{
+  "trees": {
+    "count": 11,
+    "unchanged": true
+  },
+  "schemata": {
+    "count": 4,
+    "unchanged": true
+  },
+  "tables": {
+    "count": 5,
+    "unchanged": true
+  },
+  "numbered_example_blocks": {
+    "count": 2,
+    "unchanged": true
+  },
+  "citation_keys_unchanged": 22,
+  "unresolved_bibliography_keys": [],
+  "unique_example_strings_preserved": 254,
+  "direct_quotations_unchanged": true,
+  "protected_files_unchanged": 72,
+  "reading_copy": {
+    "text_trees": 11,
+    "text_schemata": 4,
+    "tables": 5,
+    "adjacent_notes": 13,
+    "images": 0,
+    "roughdraft_doctor": "passed",
+    "pandoc_warnings": 0
+  },
+  "build": {
+    "pages": 24,
+    "overfull_boxes": 0,
+    "unresolved_citations_or_references": 0,
+    "remaining_warnings": [
+      "Existing EB Garamond font substitution",
+      "Existing microtype footnote patch warning"
+    ],
+    "image_inspection": "deferred at author request"
+  },
+  "table_pages": {
+    "1": 4,
+    "2": 6,
+    "3": 14,
+    "4": 19,
+    "5": 20
+  },
+  "page_text_counts": [
+    335,
+    516,
+    174,
+    302,
+    520,
+    279,
+    513,
+    344,
+    377,
+    496,
+    494,
+    368,
+    267,
+    292,
+    396,
+    390,
+    473,
+    477,
+    331,
+    421,
+    474,
+    363,
+    396,
+    75
+  ],
+  "texcount": {
+    "before": {
+      "Words in text": 8292,
+      "Words in headers": 116,
+      "Words outside text (captions, etc.)": 839,
+      "total": 9247
+    },
+    "after": {
+      "Words in text": 6429,
+      "Words in headers": 116,
+      "Words outside text (captions, etc.)": 811,
+      "total": 7356
+    },
+    "words_cut": 1891,
+    "reduction_percent": 20.4,
+    "method": "TeXcount on document body with explicit text-macro rules and forest excluded; total includes text, headers and captions/notes; bibliography excluded. Preamble is omitted because its sourcemap causes direct TeXcount parsing errors."
+  },
+  "git_diff_check": "Tracked diff and explicit snapshot/current-source diff have no whitespace errors."
+}

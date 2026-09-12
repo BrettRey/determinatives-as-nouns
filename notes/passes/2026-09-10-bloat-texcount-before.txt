@@ -1,0 +1,22 @@
+File: /tmp/determinatives-bloat-count-before.tex
+Encoding: utf8
+Words in text: 8292
+Words in headers: 116
+Words outside text (captions, etc.): 839
+Number of headers: 26
+Number of floats/tables/figures: 11
+Number of math inlines: 5
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  111+1+0 (1/0/0/0) _top_
+  649+2+135 (1/1/0/0) Section: The question}\label{sec:intro
+  875+13+58 (3/1/0/0) Section: Classification, headedness and function}\label{sec:alternatives
+  1981+27+185 (5/3/0/0) Section: The D-noun analysis}\label{sec:proposal
+  2058+36+337 (8/4/0/0) Section: Evidence for nominal structure}\label{sec:evidence
+  490+4+46 (1/0/0/0) Section: Coordinate subcategories and inheritance}\label{sec:inheritance
+  386+6+38 (1/0/0/0) Section: The articles and other restricted members}\label{sec:articles
+  1461+22+40 (4/2/5/4) Section: Structural consequences and grammatical economy}\label{sec:economy
+  190+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

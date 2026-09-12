@@ -1,0 +1,998 @@
+                             Determinatives as nouns in English
+
+                                            Brett Reynolds *
+                                Humber Polytechnic & University of Toronto
+                                                 Draft, September 2026
+
+
+
+                                                             Abstract
+                  I argue that English determinatives belong within Noun, preferably as a fourth coordinate
+              subcategory alongside common nouns, proper nouns and pronouns. The argument extends the
+              grounds on which The Cambridge grammar of the English language already includes pronouns
+              despite their distinctive inflection and restricted dependents. A matched comparison of inde-
+              pendent uses, partitives, modification and a compound construction supports shared nominal
+              organization while preserving lexical restrictions, including those of articles. Ordinary headed-
+              ness is a further proposal: a separate-D grammar can also permit it. The taxonomic choice is
+              between inheritance through Noun and a projection rule spanning separate noun and determ-
+              inative categories. The coordinate arrangement remains provisional: the fragment’s judgments
+              don’t distinguish it from nesting determinative within pronoun.
+
+    Keywords: determinatives, nouns, lexical categories, noun phrases, English
+
+1   The question
+    What is the categorial relationship among words such as some, me, apple and Brett? I argue that all
+    four are nouns. I call this the determinative-noun or D-noun analysis.
+         I adopt the general framework of The Cambridge grammar of the English language (CGEL; Hud-
+    dleston and Pullum 2002). Unlike CGEL, I include determinatives within Noun. The claims con-
+    cern synchronic English lexical categories.
+         I use determinative for the category containing articles, demonstratives and quantifiers such
+    as the, this, some, every and many.1 I reserve determiner for a syntactic function within the noun
+    phrase. This distinction separates what kind of word some is from what its phrase does. Capital-
+    ized Noun names the proposed superordinate category containing common nouns, proper nouns,
+    pronouns and determinative nouns.
+         CGEL already places common nouns, proper nouns and pronouns within Noun. It expressly
+    justifies pronoun membership by the functions of pronoun-headed phrases, despite differences in
+    inflection and dependents (Huddleston & Pullum, 2002, pp. 327–328). The question is whether
+       * Contact: brett.reynolds@humber.ca
+       1
+           For a fuller inventory, see the online “List of determinatives in English” accompanying Huddleston et al. (2022).
+
+
+                                                                 1
+1 THE QUESTION                                                                                        2
+
+
+determinatives meet comparable grounds for inclusion. Differences from common nouns alone can’t
+settle that question: the accepted noun subcategories already differ from one another. The inclusion
+of auxiliaries within Verb supplies a precedent for this kind of extension: a closed category can retain
+its distinctive syntax within a broader lexical category (Pullum & Wilson, 1977).
+     Inclusion within Noun is the principal thesis. I provisionally favour four coordinate subcat-
+egories, pending evidence that an intermediate category captures further generalizations. Ordinary
+headedness is a further proposal, not a consequence of that inclusion: a grammar retaining primary
+D can also give determinatives ordinary nominal projection.
+     Figure 1 compares CGEL with the ordinary-Head variant of the D-noun analysis for take some
+apples and take some. Both keep some in one lexical category across uses. In CGEL, independent some
+jointly fills determiner and head functions, a fusion of functions (Huddleston & Pullum, 2002,
+pp. 410–412). In the ordinary-Head variant, some always heads its own NP through a nominal
+(Nom): the phrase level below NP, containing the head and internal dependents but excluding an
+external determiner.
+1 THE QUESTION                                                                                     3
+
+
+                                                CGEL
+                                                                                VP
+                          VP
+                                                                         Head        Obj
+                                                                          V          NP
+                   Head          Obj
+                    V            NP
+                                                                                            Head
+                                                                         take             Nom
+                           Det          Head
+                  take    DP           Nom
+                                                                                 Det–Head
+                                                                                     DP
+                          Head          Head
+                           D       Ncommon
+                                                                                     Head
+                                                                                      D
+                          some         apples
+                                                                                     some
+                           Ordinary-Head variant of the D-noun analysis
+                          VP
+                                                                                 VP
+                  Head           Obj
+                   V             NP
+                                                                          Head         Obj
+                                                                           V          NP
+                          Det           Head
+                  take    NP           Nom
+                                                                                      Head
+                                                                          take       Nom
+                          Head          Head
+                          Nom      Ncommon
+                                                                                      Head
+                                                                                      ND
+                          Head
+                          ND           apples
+                                                                                      some
+                          some
+
+Figure 1: Take some apples (left) and take some (right) under CGEL (top) and the ordinary-Head
+variant of the D-noun analysis (bottom). In the upper-right tree, DP fills Det of NP and Head of
+Nom. In the lower pair, some heads an NP through the same nominal projection; that NP functions
+as Det on the left and Obj on the right. Function labels appear above category labels. Det marks
+determiner, Obj object, and Det–Head fusion; the two links show the combined functions. N, D
+and V mark noun, determinative and verb; NP, DP and VP mark their phrases. Subscripts identify
+noun subcategories.
+
+    The D-noun analysis keeps apples as the ultimate head of some apples. This differs from the DP
+hypothesis, where functional D heads the whole expression (Abney, 1987).
+    Earlier unifications include Palmer’s grouping of determinatives with pronouns, Postal’s underly-
+ing article analysis of pronouns, and Sommerstein’s underlying NP analysis of articles and pronouns
+    2   CLASSIFICATION, HEADEDNESS AND FUNCTION                                                               4
+
+
+    (Palmer, 1924; Postal, 1966; Sommerstein, 1972). Hudson places the words he calls determiners
+    within pronoun and pronoun within noun (Hudson, 2004, 2010). Section 2.2 compares these pro-
+    posals; Table 1 locates the taxonomic alternatives.
+        I first distinguish the competing analyses, then establish what the existing noun subcategories
+    share and how determinatives compare. Independent uses, partitives and modification identify the
+    constructions to be explained. The matched fragment in §7.2 holds the judgments and lexical restric-
+    tions fixed while varying taxonomy and headedness. The comparison concerns whether shared nom-
+    inal structure is better stated for Noun or licensed across categories, not whether only the D-noun
+    analysis can cover the examples.
+
+2   Classification, headedness and function
+     2.1 Category, function and phrase structure
+     Lexical categories and syntactic functions cut across one another. An NP can function as determiner,
+     as in Kim’s book, and a determinative-headed phrase can function as modifier, as in the many people
+    (Payne et al., 2010; Pullum & Miller, 2022). Including determinatives within Noun preserves this
+     distinction: the NP headed by some functions as determiner in take some apples and as object in take
+     some (Figure 1).
+          Two questions about headedness also need separating. Bruening (2020) supplies a generative de-
+     fence of N-headed rather than D-headed nominals, drawing on selection and conventionalized expres-
+     sions. Such arguments concern the head of expressions such as some apples; they don’t by themselves
+     assign determinatives to Noun. Whether independent some has ordinary Head or a fused function is
+     a further question. Including determinatives within Noun leaves both available (§7.2).
+          Category membership doesn’t remove lexical restrictions either. Every apple is grammatical, but
+    *I’ll take every isn’t an ordinary way to accept apples. Making every a noun doesn’t give it the full range
+     of uses available to some. Section 7.2 states structural rules and lexical restrictions separately so their
+     contributions can be assessed.
+    2.2 Taxonomic and structural alternatives
+    Keeping a word in one category across dependent and independent uses leaves its taxonomic position
+    open. As J. Lyons (1968, pp. 232–235) observes, distribution can be compared at different levels of
+    categorization: two expressions may belong together at one level and differ at a more specific level.
+    Table 1 sets out selected arrangements, from three separate primary categories to successive inclusion.
+    Common and proper nouns remain within Noun throughout. The D-noun analysis differs from
+    CGEL by including determinative within Noun, and from Hudson by placing it alongside pronoun.
+2   CLASSIFICATION, HEADEDNESS AND FUNCTION                                                        5
+
+
+
+Table 1: Selected taxonomic arrangements. Noun contains common and proper nouns in every row;
+its other members vary. The Hudson row abstracts from differences in lexical inventory explained in
+the text.
+            Relation among Noun, pronoun and determinative              Account or status
+            Noun, pronoun and determinative are separate primary        Logical comparison
+            categories.
+            Pronoun is within Noun; determinative is a separate         CGEL
+            primary category.
+            Determinative is within Noun; pronoun is a separate         Logical comparison
+            primary category.
+            Pronoun and determinative are coordinate subcategories of   D-noun analysis
+            Noun.
+            Determinatives belong within pronoun, which is within       Hudson
+            Noun.
+            Pronoun is within determinative, which is within Noun.      Reverse nesting for
+                                                                        comparison
+
+
+     Palmer (1924, p. 24) proposed placing determinatives with pronouns, citing disagreement about
+their classification and most members’ ability to “be used indifferently as pronouns or as modifiers
+of nouns”. J. Lyons (1968, p. 279) also emphasizes the shared definiteness and deictic contrasts of
+articles, demonstratives and personal pronouns. The D-noun analysis retains determinatives and
+pronouns as distinct subcategories of Noun.
+     Hudson includes the determining words within pronoun. His noun category has the subcategor-
+ies common noun, proper noun and pronoun (Hudson, 2010, pp. 253–254). In his terminology, a
+determiner is a pronoun whose valency permits the relevant common-noun dependent (Hudson,
+2004, pp. 9–10). Identifying these words by their permitted dependents doesn’t require another
+category node.
+     CGEL and Hudson classify different inventories. Hudson’s criteria in the 2004 paper centre on
+licensing a singular count common noun and on mutual exclusion in that use. He sets aside all,
+cardinal numerals and quantifiers restricted to plural or non-count nouns. CGEL’s determinative
+category is broader, so the comparison requires checking which words and constructions each covers.
+     Anderson (1997) draws the boundary of the nominal category differently. He groups names,
+pronouns and determining words as a notional {N} category, with common nouns represented sep-
+arately. His {N} differs from the inclusive Noun proposed here and falls outside Table 1.
+     Taxonomic inclusion doesn’t settle the structural analysis. Hudson separates dependency from
+phrase headedness: his 2004 account permits mutual dependency between determiner and common
+noun, with different constructions selecting different external heads (Hudson, 2004, pp. 7–9). In
+We met that day, the temporal adjunct depends on the temporal meaning of day. Such restrictions
+support a common-noun head for temporal adjuncts (Hudson, 2004, pp. 10–12).
+     Other unifications concern underlying representation. Postal (1966) unifies personal pronouns
+and articles through an underlying article analysis. Sommerstein (1972, pp. 197–203) reverses the
+direction, assigning underlying NP structure to the definite article and personal pronouns, with
+relative-clause structures contributing further descriptive material. These structures don’t by them-
+    3   THE D-NOUN ANALYSIS                                                                                   6
+
+
+    selves place the surface lexical categories in Table 1. Déchaine and Wiltschko (2002) distinguish pro-
+    DP, pro-ϕP and pro-NP, connecting different pronominal projections with distribution and binding.
+    Their proposal adds differences in pronominal projection to the comparison.
+         Rejecting a separate primary D needn’t preserve a unified determinative subcategory. Spinillo
+    (2004) proposes redistribution among existing categories, retaining the, a and every as an expanded
+    article category. That proposal makes the restricted members a separate category; the D-noun analysis
+    retains them inside the wider determinative subcategory.
+         For demonstratives and forms such as some and all, Spinillo (2004, pp. 140–144) rejects switching
+    between determiner and pronoun categories according to whether a noun follows. She compares the
+    alternation with verbs and prepositions used with or without a complement. The D-noun analysis
+    agrees that the two uses needn’t involve different lexical categories. It differs in retaining determinative
+    as the subcategory across those uses.
+         Van Eynde (2003) likewise rejects a separate determiner category, but assigns determining expres-
+    sions to adjective or noun on morphological and agreement evidence, chiefly from Italian and Dutch.
+    His analysis separates lexical category from the features governing determination. A noun-headed NP
+    account therefore needn’t unify every determining expression as nominal.
+         Independent nominal use may support inclusion within Noun without selecting the pronoun
+    subcategory. The demonstratives’ deictic properties make a pronominal grouping plausible; the ques-
+    tion is how far that grouping captures the wider inventory’s syntax. The comparisons below address
+    modifier profiles (§3.3), the determinative–pronoun boundary (§5), and the positive connections
+    linking restricted every to other quantifiers (§6). Redistribution must be assessed against those con-
+    nections as well as independence. The starting point is CGEL’s existing grounds for including distinct
+    subcategories within Noun.
+
+3   The D-noun analysis
+    3.1 The existing standard of nounhood
+    The starting category is Noun as CGEL already constitutes it. Its discussion of pronouns makes
+    the reasoning explicit: they differ from prototypical nouns in inflection and permitted dependents,
+    but qualify because the phrases they head have the functions of common- and proper-noun-headed
+    phrases (Huddleston & Pullum, 2002, p. 327). Table 2 sets out some of the variation already accepted
+    within that category.
+3   THE D-NOUN ANALYSIS                                                                                  7
+
+
+
+Table 2: Contrasts already accommodated within CGEL’s Noun. These are typical profiles, with
+further restrictions and exceptions within each subcategory (Huddleston & Pullum, 2002, pp. 327–
+328, 425–430, 517–520).
+         Dimension         Common noun             Proper noun             Pronoun
+         Inventory         Open                    Open to new names       Closed
+         Inflection        Number and genitive     Genitive; restricted    Case paradigms in
+                                                   plural uses             personal pronouns
+         Determination     Broad contrasts;        Restricted in primary   Normally excluded
+                           singular count          naming uses
+                           arguments normally
+                           require it
+         Internal          Productive AdjP and     Restricted              Restricted, as in poor
+         modification      nominal                 embellishments          old me
+                           modification
+
+
+     Common nouns supply the most familiar profile, but they don’t supply an entry test that every
+noun subcategory has to pass unchanged. Pronouns remain nouns despite their closed inventory and
+restricted modification; proper nouns remain nouns despite their distinct naming uses. An argument
+that excludes determinatives on these grounds therefore needs to explain why comparable differences
+warrant a primary-category boundary in this case.
+     Meaning and reference also vary within Noun. Apple conveys a descriptive classification; Kim,
+in its primary naming use, identifies through a name; she supplies limited descriptive content and
+depends on context. The quantificational or deictic contribution of a determinative therefore needs
+to be assessed alongside its grammar, rather than measured against common-noun semantics alone.
+     The distributional comparison follows CGEL’s pronoun argument: a range of determinatives
+occurs in subject, object and complement-of-preposition positions without another overt nominal
+head. The pattern recurs across lexemes and appropriate contexts, establishing systematic nominal
+use without deciding between fusion and ordinary headedness. The examples in §4.1 compare all
+four proposed subcategories in the same positions.
+     External distribution alone is insufficient: adjectival constructions such as the rich also fill those
+positions. The further comparison concerns the breadth of independent use, determination, par-
+titives and internal modification. Together these properties support a nominal subcategory profile.
+Restrictions on particular lexemes or readings remain part of the description, just as they do within
+the existing Noun category; §4.6 examines the predicative restrictions.
+     Extending the analysis to restricted members carries a separate burden. Pronoun forms them-
+selves don’t all pass the argument-position test: dependent genitives such as my have positive support
+from their paradigms. For determinatives, the argument likewise needs to establish both a broadly
+nominal constructional profile and the restricted members’ integration into that category. Section 6
+supplies the latter argument.
+     The distinction at issue is thus one of taxonomic level. A closed inventory, reduced descriptive
+content or unusual modifier selection can establish a distinctive subcategory without establishing
+exclusion from Noun. The decisive comparison is whether the shared nominal behaviour and local
+3   THE D-NOUN ANALYSIS                                                                                                8
+
+
+differences are better captured by extending existing nominal structure or by preserving a separate
+primary D. Section 7.2 holds the lexical restrictions fixed to make that comparison explicit.
+     The D-noun analysis captures shared properties through inheritance: a property stated for a
+superordinate category is available to its subcategories, subject to stated restrictions. It extends the
+division of labour already used within Noun: general rules supply nominal projection, subcategory
+rules constrain combinatorics, and lexical entries distinguish such forms as independent some and
+dependent-only every.
+3.2 Noun phrases in determiner and argument functions
+Determiner function already cuts across the existing noun subcategories. Compare my book, Kim’s
+book and the king’s book. The determiner is an NP ultimately headed by a pronoun, a proper noun
+and a common noun respectively (Huddleston & Pullum, 2002, pp. 354–355, 470–471).2 In the last
+example, the determines king inside the genitive NP, while that whole NP determines book. Figure 2
+illustrates the proper-noun case: Kim’s fills Det, while book ultimately heads the larger NP.
+
+                                                           NP
+
+                                                    Det         Head
+                                                NP[gen]         Nom
+
+                                                   Head         Head
+                                                  Nom        Ncommon
+
+                                                   Head
+                                                 Nproper        book
+
+
+                                                  Kim’s
+
+Figure 2: The genitive NP Kim’s functions as determiner within Kim’s book, ultimately headed by
+book. The representation abstracts from the internal realization of genitive marking.
+
+     Together, these genitives establish more than the possibility of a noun-headed phrase in Det
+function. All three admitted noun subcategories already contribute phrases to that function, sub-
+ject to the genitive construction’s restrictions. The D-noun analysis extends this nominal pattern to
+determinative-headed phrases.
+     The ordinary-Head variant gives the two D-noun structures in Figure 1. In take some apples, the
+NP headed by some fills Det, as Kim’s does in Kim’s book; apples heads the larger NP. In take some,
+some heads the whole object NP. The lexeme retains its subcategory and nominal projection across
+these uses, while the NP it heads changes function.
+     Shared projection doesn’t imply unrestricted interchangeability. The determiner construction
+selects a determinative-headed phrase, a suitable genitive NP, or another licensed expression. Num-
+    2
+     CGEL assigns these genitives the combined function Subject–Det (Huddleston & Pullum, 2002, pp. 472–473). I
+treat them as Det here, without the additional subject function. Their determining role supplies the relevant comparison;
+accepting the further subject analysis would leave the nounhood argument intact.
+3   THE D-NOUN ANALYSIS                                                                              9
+
+
+ber, countability and other selectional conditions further distinguish the determining expressions.
+Section 7.2 includes these restrictions in the comparison of grammars.
+3.3 Modifier selection and taxonomic level
+Shared nominal projection doesn’t make modifier permissions uniform. In almost every experienced
+teacher (Figure 3), the AdvP almost modifies the determinative noun every; the AdjP experienced
+modifies the common noun teacher, which ultimately heads the outer NP.
+
+                                                     NP
+
+                                       Det                       Head
+                                      NPD                        Nom
+
+                                      Head                Mod            Head
+                                      Nom                 AdjP          Ncommon
+
+                                Mod          Head
+                               AdvP          ND      experienced        teacher
+
+
+                              almost         every
+
+Figure 3: Two modifier relations in almost every experienced teacher: almost modifies every, and ex-
+perienced modifies teacher. The outer NP has teacher as its ultimate head. Internal structure within
+the one-word modifier phrases is suppressed.
+
+     Payne et al. (2010, pp. 40–42) defend keeping few, any and related forms in one lexical category
+across dependent and independent uses. In hardly any money and independent hardly any, hardly
+remains an adverb and any retains its category. The D-noun analysis preserves that continuity. It
+also preserves their contrast between adverbial premodification, as in almost anybody, and adjectival
+postmodification, as in nothing absolute.
+     Payne et al. (2010, pp. 60–61) also argue that distribution alone can’t decide whether adjectives
+and adverbs are inflectional variants of one category or derivationally related members of different
+categories. The D-noun analysis preserves distinct lexical subcategories and makes no inflectional-
+variant claim. Their methodological constraint still applies: shared positions alone don’t settle cat-
+egory status.
+     Modifier selection supports distinguishing determinatives from pronouns and common nouns.
+The further question is the taxonomic level of that distinction. Within the proposed Noun, the de-
+terminative subcategory licenses hardly any and almost every; the common-noun subcategory licenses
+experienced teacher. Neither *experienced every nor *almost teacher follows. The existing modifier pro-
+files remain, while their relation to the broader category changes; §7.3 considers the cost explicitly.
+Section 4 assesses the fuller constructional profile against the grounds on which CGEL already in-
+cludes distinct subcategories within Noun.
+    4     EVIDENCE FOR NOMINAL STRUCTURE                                                                                   10
+
+
+4   Evidence for nominal structure
+    Independent uses, partitives and modification show a recurring nominal pattern. These observations
+    overlap: Some left illustrates both external distribution and syntactic completeness. Fusion and or-
+    dinary headedness can cover this pattern. The comparisons below distinguish the shared observations
+    from the analyses of their internal structure; §7.2 assesses the resulting organization of the grammar.
+    4.1 Breadth of independent use
+    Independent use is widespread within the determinative inventory. CGEL discusses such uses for
+    demonstratives and quantifiers including some, all, both, many, few, several, each, either, neither, much
+    and enough, while recording lexical restrictions and the separate forms no/none (Huddleston & Pul-
+    lum, 2002, pp. 371–372, 410–424). The generalization concerns the availability of independent
+    constructions across a lexical category, not unrestricted acceptability in every sentence frame.3
+         The pattern extends beyond a few compounds or a single lexicalized expression. For this closed
+    category, productivity concerns the availability of independent use among established members
+    under appropriate conditions, rather than the licensing of new lexical items.
+         In the constructed examples in (1), compare the positions occupied by the bracketed NPs: sub-
+    ject, object and complement of a preposition. Assume that a woman named Kim and a group of
+    people are already under discussion. These positions admit NPs containing words from each pro-
+    posed noun subcategory; the competing analyses assign different internal structures to independent
+    some.
+
+        (1)   a. [People] left.     I see [people].     with [people]
+              b. [Kim] left.      I see [Kim].       with [Kim]
+              c. [She] left.    I see [her].       with [her]
+              d. [Some] left.      I see [some].      with [some]
+
+         Adjectival independent uses prevent a simple inference from these positions to nounhood. The
+    rich and the poor can fill nominal argument positions. Comparative and superlative adjectives also
+    head expressions without a human-class interpretation: CGEL’s the most important of her criticisms
+    is an NP containing a partitive of -phrase (Huddleston & Pullum, 2002, pp. 332–333, 416–423).
+         Independent some can form a one-word NP, whereas an NP with rich as fused head normally
+    requires a determiner on the human-class reading. That is a local contrast: argument NPs headed by
+    singular count common nouns also need determination. Section 4.4 returns to the fuller adjectival
+    comparison.
+    4.2 Structural saturation and interpretation
+    With a group of people under discussion, Some left, Many came and All agree illustrate structural
+    saturation: an argument expression can be syntactically complete without another overt head
+         3
+         Material before a determiner falls outside the independent-use comparison. CGEL treats all/both in all/both the books
+    as predeterminer modifiers, quite/rather before a good idea as peripheral modifiers, and such/exclamative what before a
+    disaster as adjectives (Huddleston & Pullum, 2002, pp. 433–437). The fixed many a is a complex determinative restricted
+    to Det function (Huddleston & Pullum, 2002, p. 394). The half in half a cake is a common noun used as a predeterminer
+    modifier (Huddleston & Pullum, 2002, p. 434). These constructions don’t add evidence for independent determinative
+    heads.
+4     EVIDENCE FOR NOMINAL STRUCTURE                                                                  11
+
+
+or determiner. Syntactic completeness differs from contextual interpretation. In I’ll take some, the
+relevant substance or set may be supplied by discourse or the situation. That dependence doesn’t
+establish a deleted common noun: ordinary pronouns also depend on context.
+    In the following attestation from the CGELBank treebank, two different Honda models supplies
+the domain for the independent object both:4
+    (2)     Went there yesterday: we are trying to decide between two different Honda models, so we
+            wanted to test-drive both back to back.
+    Generalizing expressions such as Many are called, few are chosen and Enough is enough need no
+previously uttered common-noun phrase. They rule out a mandatory overt-antecedent requirement,
+but a silent-noun account could supply a generic restriction. Such examples don’t decide whether
+the restriction belongs in semantics or syntax.
+    The comparison with ordinary pronouns and proper nouns is structural as well as interpretive. In
+She left and Kim left, CGEL permits an NP headed by a nominal with no determiner. Applying that
+structure to Some left preserves the same division between a complete NP and its context-dependent
+reference. The dependent use of some doesn’t by itself require a Det function inside every independ-
+ent occurrence.
+    Fusion supplies the competing analysis. In Payne et al. (2007), one constituent jointly realizes
+Head and a dependent function, subject to structural and adjacency conditions. In CGEL’s analysis
+of independent some, the DP headed by some fills Det of NP and Head of Nom. The word retains
+the determinative category it has in some apples, while the independent expression is an NP. Ordinary
+headedness replaces this relation with nominal projection; lexical restrictions on independence and
+form selection remain.
+    Nounhood remains compatible with fusion. CGEL analyses mine as fused Det–Head when it
+stands for a possessed entity in an anaphoric context, but as pure Head in the predicative possessive
+use it’s mine (Huddleston & Pullum, 2002, pp. 410–411). That comparison blocks an objection
+from fusion to nounhood. The positive case for ordinary headedness instead extends the structure
+available to she and Kim.
+    Saturation therefore clarifies the distributional comparison without independently selecting either
+internal structure.
+4.3 Partitives locate the quantificational head
+In some of the wine, some specifies a quantity drawn from an identifiable amount of wine. The NP
+the wine denotes the partitive domain: the whole from which that quantity is drawn. This NP is
+complement of of. A pronoun-headed NP or independent genitive NP can express the domain too:
+many of them, referring to previously mentioned people, or some of Kim’s, referring to Kim’s apples.
+    Compare where the common noun occurs in some apples and some of the wine. In the partitive,
+wine is embedded inside the of -phrase, so it can’t be the lexical head of the whole NP. The comparison
+instead concerns the head-like role of some in that larger expression.
+    Figure 4 gives the ordinary-Head D-noun analysis, with the of -phrase functioning as comple-
+ment within Nom, as in CGEL’s partitive tree (Huddleston & Pullum, 2002, pp. 411–412). CGEL
+represents the head-like role of some through Det–Head fusion. Partitives support that role while
+leaving the choice between fusion and ordinary headedness open.
+     4
+         CGELBank (Reynolds et al., 2023), sentence reviews-083459-0002.
+4   EVIDENCE FOR NOMINAL STRUCTURE                                                                 12
+
+
+                                              NP
+
+                                              Head
+                                              Nom
+
+                                       Head           Comp
+                                       ND             PP
+
+                                               Head        Comp
+                                       some
+                                                P            NP
+
+                                                of      the wine
+
+Figure 4: Some of the wine under the ordinary-Head D-noun analysis. The Head relations lead from
+the outer NP to some. The common noun wine is inside the complement PP and doesn’t head the
+whole expression. The inner NP is abbreviated.
+
+    The overt quantifier and domain already supply a compositional interpretation of some of the
+wine. A silent common noun would need to explain something further, such as a restriction on
+interpretation or modification that the overt-head account misses. The construction itself supplies
+no such requirement. I therefore prefer an overt-head analysis over an otherwise equivalent null-head
+analysis; fusion remains compatible with that preference.
+    The ordinary-Head analysis treats some and some of the wine as sharing nominal projection, with
+an added domain phrase in the partitive. Modification provides a further comparison of internal
+structure.
+4.4 Modification tests the internal analysis
+The pair the lucky survivors/the lucky few supplies a comparison involving both external determination
+and adjectival modification. CGEL explicitly permits determinatives used as internal modifiers to fuse
+with Head, as in the other two and these few here (Huddleston & Pullum, 2002, pp. 415–416). Its
+analysis of the few mistakes assigns the to Det and few to Mod (Huddleston & Pullum, 2002, p. 392).
+That dependent use supplies the counterpart for a Mod–Head analysis of independent few after an
+external determiner.
+    Figure 5 compares the resulting analyses of the lucky few. Both have an overt Det and a Nom
+modified by lucky. In the ordinary-Head D-noun analysis, few fills Head. In the fusion analysis, its
+DP fills Mod–Head. The competing structure thus uses machinery already needed for adjectival
+fusion; it requires neither a silent noun nor conversion.
+4   EVIDENCE FOR NOMINAL STRUCTURE                                                                   13
+
+
+                                                                        NP
+
+                                                                  Det           Head
+                       NP                                         DP           Nom
+
+                Det           Head                                       Mod                  Head
+              NPD           Nom                                   the   AdjP               Nom
+
+                        Mod          Head                                         Mod–Head
+               the     AdjP          ND                                 lucky          DP
+
+                                                                                       Head
+                       lucky         few                                               D
+
+                                                                                       few
+
+Figure 5: The lucky few with ordinary Head (left) and Mod–Head fusion (right). The determiner is
+separately realized in both. Internal structure within the article phrase and AdjP is suppressed.
+
+    Table 3 compares four constructions. Separate D with ordinary headedness can assign few the
+same Head relations as the D-noun analysis while retaining D as its lexical category; §7.2 supplies
+that alternative’s rules.
+
+Table 3: Head and dependent functions under matched analyses. Each independent expression is
+an NP; the fills Det wherever it appears. The ordinary-Head column applies to both taxonomies
+permitting ordinary determinative heads.
+          Expression                 Separate D with fusion      Ordinary determinative Head
+          few survivors              few: Det; survivors: Head   Same functions
+          Independent few            few: Det–Head               few: Head
+          the lucky few              few: Mod–Head; lucky: Mod   few: Head; lucky: Mod
+          the idle rich              rich: Mod–Head; idle: Mod   Same fusion and modifier
+                                                                 functions
+
+
+    Fusion groups the lucky few with the idle rich, whereas ordinary headedness groups it with the
+lucky survivors. Ordinary headedness unifies few across its bare and externally determined uses, without
+alternating Det–Head and Mod–Head. Neither account gains coverage from this example alone.
+The comparison is between sharing a fusion construction across D and adjective, and sharing ordin-
+ary nominal headedness across determinative constructions.
+    The constructed the remaining three extends the modifier pattern to cardinals. It doesn’t inde-
+pendently decide whether three is determinative or has a common-noun use: Reynolds (2026) argues
+for both uses of cardinals. Section 7.3 treats their unification as a consequence conditional on that
+analysis.
+    Why retain adjective outside Noun? The adjectival construction is restricted to particular lexical
+and interpretive groups, with additional determiner restrictions: compare the human-class the rich
+4   EVIDENCE FOR NOMINAL STRUCTURE                                                                   14
+
+
+with *these very poor (Huddleston & Pullum, 2002, pp. 416–417). Determinative independent use
+extends across demonstratives and quantifiers with varied domains and determining contrasts. This
+difference favours organizing nominal projection at the determinative-subcategory level while retain-
+ing constructional licensing for adjectival fusion. It supplies a comparative reason, not a necessary-
+and-sufficient membership test.
+4.5 Compounds and modifier domains
+A more demanding modifier comparison is hardly anyone present. Payne et al. (2007, pp. 581–583)
+assign hardly to DP structure and present to nominal structure. The compound anyone takes the
+premodifiers of its determinative base any: compare hardly any writer present. The adjective realizes
+a specialized restrictor function, restricted to post-head position and non-recursive. Figure 6
+contrasts this account with an ordinary-Head analysis.
+
+                                                                                  NP
+                          NP
+                                                                                              Head
+                                                                                           Nom
+                          Head
+                         Nom
+                                                                       Det–Head         Mod
+                                                                          DP           AdjP
+                Mod       Head       Mod
+               AdvP       ND        AdjP
+                                                                    Mod        Head
+                                                                   AdvP           D    present
+              hardly    anyone     present
+                                                                  hardly     anyone
+
+Figure 6: Hardly anyone present with ordinary Head (left) and fusion (right). Both post-head Mod
+positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom,
+following Payne et al. (2007, 582, (13d)). Modifier-phrase interiors are suppressed.
+
+     In the ordinary-Head D-noun analysis, anyone inherits nominal projection from Noun and its
+premodifier permissions from its determinative base. The compound construction supplies the post-
+head restrictor permission, with the same position and non-recursion conditions as the fusion ac-
+count. It doesn’t license a corresponding pre-head adjective. The compound’s ordinary argument
+use and exclusion of external determination are further lexical conditions; the premodifier and re-
+strictor slots aren’t unrestricted Nom dependents.
+     This division extends to someone and everybody: the compound family licenses nominal argument
+use and post-head restrictors, while each base supplies its own premodifier permissions. It doesn’t
+follow that hardly modifies every compound. CGELBank attests the post-head pattern in I need
+something reliable and good looking.5
+     Fusion reuses the DP–Nom boundary to separate the two modifier domains. Ordinary headed-
+ness reuses nominal projection, locating both domains within Nom and assigning their restrictions
+    5
+        Sentence answers-20111024111513AAAQhAO_ans-0003 in ewt-test_iaa50.cgel.
+    5   COORDINATE SUBCATEGORIES AND INHERITANCE                                                         15
+
+
+    to the determinative base and compound construction. Both accounts need the specialized restrictor
+    condition. The trade-off concerns where the restrictions are stated, not whether they can be removed.
+    4.6 Predicative uses and their restrictions
+    The argument-use patterns above don’t extend uniformly to predicative complementation. CGEL
+    records Its advantages are several and Their enemies were many, describing the latter pattern as un-
+    common and formal (Huddleston & Pullum, 2002, pp. 392, 395–396). Predicative use is available
+    to only part of the determinative inventory; every and the articles remain excluded from these frames.
+        The comparison also depends on what the predication expresses. She is a doctor ascribes a prop-
+    erty, whereas That is Kim identifies a person. CGEL excludes specifying be clauses from its noun–
+    adjective diagnostic because phrases from other categories occur in them too (Huddleston & Pullum,
+    2002, p. 536). Merely placing an expression after be therefore provides no uniform nounhood test.
+        Nominal grammar already licenses some expressions predicatively while restricting their argu-
+    ment uses. A bare-role NP such as president is licensed in I’d like to be president, but requires de-
+    termination in the corresponding object use I’d like to meet the president (Huddleston & Pullum,
+    2002, p. 328). Predicative and argument uses thus need separate conditions within Noun itself. The
+    determinative asymmetries belong in that comparison; they don’t establish exclusion merely by de-
+    parting from a common-noun substitution frame.
+    4.7 What the combined pattern supports
+    Independent uses, partitives and modification establish a systematic range of nominal constructions.
+    They support extending the comparison with existing noun subcategories beyond Some left. Both
+    fusion and ordinary headedness cover this range, while retaining the lexical and constructional restric-
+    tions illustrated above.
+        I favour ordinary headedness because it gives bare, partitive and externally determined uses the
+    Head relation already available to nouns. Fusion instead relates them to dependent counterparts
+    and distinguishes Det–Head from Mod–Head. That machinery is already needed for adjectives and
+    genitives, and the compound comparison shows a benefit of retaining its structural domains.
+        This structural preference leaves the taxonomic question open: a separate-D grammar can also
+    permit ordinary determinative heads. The pronoun precedent favours inheritance through Noun,
+    while separate D preserves the modifier contrast as a primary-category distinction. Section 7.2 com-
+    pares both headedness choices under both taxonomies, making explicit what the distributional pat-
+    tern leaves undecided. The next two sections consider the hierarchy within Noun and the member-
+    ship of its restricted forms.
+
+5   Coordinate subcategories and inheritance
+    Should determinatives and pronouns be coordinate subcategories within Noun, or should determ-
+    inatives belong inside pronoun? Reynolds (2021) compares determinative and pronoun profiles;
+    its matrix contains no common or proper nouns. Distributional separation between the supplied
+    groups doesn’t determine their taxonomic rank or test the proposed superordinate category. Even
+5   COORDINATE SUBCATEGORIES AND INHERITANCE                                                                          16
+
+
+perfect recovery of the distinction would be compatible with shared nounhood. The original discus-
+sion likewise leaves a nested nominal analysis open.6
+     The pronoun inventory in that study follows CGEL’s classification, whereas Hudson’s pronoun
+category includes the words he calls determiners. Comparing these hierarchies requires aligning their
+lexical inventories and asking which generalizations can be stated for each superordinate category.
+     An intermediate pronoun-plus-determinative category would be useful if it collected generaliza-
+tions otherwise repeated. Within the proposed grammar, nominal projection rules apply to all four
+subcategories, so they can be stated for Noun as a whole. The intermediate category would need
+additional generalizations. Different property profiles alone don’t favour coordination: a subtype
+can differ sharply from the rest of its superordinate category. Core personal pronouns’ case, reflex-
+ive and person contrasts, and determinatives’ quantificational and modifier patterns, support local
+distinctions under either hierarchy.
+     Reduced descriptive content and contextual interpretation are shared by many pronouns and
+determinatives. The coordinate analysis can record these interpretive properties through features or
+cross-classification; they don’t by themselves require an intermediate lexical category.
+     Pro-form gender supplies a more specific interpretive comparison. Reynolds (2025) proposes a
+personhood-based system spanning pronouns and determinatives. Personal reference links pronouns
+such as she with compound determinatives such as somebody; non-personal reference links it with
+something. These constraints concern how the referent is construed. They provide a shared general-
+ization for nominal pro-forms, but don’t decide between coordinate and nested noun subcategories.
+The broader pro-form system also includes non-nominal expressions, so gender alone doesn’t delimit
+Noun.
+     Restrictions on determination and attributive modification provide syntactic candidates, but
+they also occur outside the proposed grouping. In their primary use, proper names don’t select freely
+from the determiner system, and their adjectival embellishments are restricted (Huddleston & Pul-
+lum, 2002, pp. 517, 519–520). These properties distinguish more than pronouns and determinatives
+from common nouns.
+     Determination also differs within the proposed intermediate category. Determinatives permit
+external determination in a range of independent quantificational constructions: the few, the many,
+the two, these three. The permissions vary by item and often require further modification; CGEL
+gives these few here and the many who did (Huddleston & Pullum, 2002, pp. 415–416). Pronouns
+admit external determination only marginally, and internal premodification is restricted, as in poor
+old me (Huddleston & Pullum, 2002, pp. 429–430). These restrictions thus cross-cut the proposed
+grouping and vary within it.
+     I retain the coordinate classification as a provisional organizational preference. It preserves CGEL’s
+determinative/pronoun distinction while extending nominal structure across both. The fragment in
+§7.2 doesn’t distinguish coordination from nesting by its judgments. Hudson’s intermediate cat-
+egory would be preferable if further syntactic generalizations over the aligned inventory reduced oth-
+erwise repeated restrictions. Section 6 turns from the position of determinative within Noun to the
+membership of its restricted forms.
+    6
+      The accompanying Replication audit of the English determinative–pronoun feature matrix documents the discrep-
+ancy between the reported 232 features and the public 155-feature file, an extra feature dropped by the published cluster-
+ing code, and sensitivity to initialization and feature selection. The archived public file is retained unchanged.
+    7   SHARED PROJECTION AND GRAMMATICAL ECONOMY                                                                       17
+
+
+6   The articles and other restricted members
+    Why classify the articles the and a as nouns if they can’t stand independently? Independent uses
+    motivate the D-noun analysis of some, this and many, but the articles require a different argument.
+    Every is restricted too, while no has the distinct independent form none (Huddleston & Pullum, 2002,
+    pp. 371–372, 410–411).7
+         CGEL’s treatment of my supplies a precedent for restricted membership within Noun (Huddle-
+    ston & Pullum, 2002, pp. 470–471). The pronoun’s paradigm supports its membership despite its
+    lack of mine’s independent distribution. For articles, the corresponding positive evidence is integra-
+    tion into determinative; their nounhood depends on the category-level argument.
+         Retaining a restricted member requires three kinds of support. First, it should be paradigmatic-
+    ally integrated with independently identified members. Second, it should participate in the category’s
+    characteristic semantic and grammatical contrasts. Third, its missing uses should form a local restric-
+    tion while the positive connections remain. Calling an item defective summarizes that pattern; it
+    doesn’t supply an argument for membership by itself.
+         The articles meet these conditions within determinative. First, they contrast with demonstratives
+    and quantifiers before common-noun nominals: the/a/this/every book. Second, they participate in
+    the same system of definiteness, number and count restrictions: the permits singular, plural and non-
+    count targets, while a selects a singular count target. Third, their lack of ordinary independent uses
+    leaves that determining pattern intact. These connections support determinative membership, rather
+    than establishing nounhood independently.
+         Every has further connections beyond the restricted article set proposed by Spinillo (2004). Like
+    each, it expresses universal quantification and selects singular count nominals: every teacher, each
+    teacher. Unlike each, it lacks ordinary independent use. It also permits modification by almost and
+    nearly. These connections support retaining every with the quantifiers.
+         The argument for retaining the articles is synchronic. Grammaticalization supplies background:
+    C. Lyons (1999, pp. 331–336) discusses the development of definite articles from demonstratives and
+    of articles expressing cardinality from numerals. These histories can explain changes in content and
+    use, but don’t establish the synchronic classification.
+         A separate article category would gain support from a cluster of synchronic restrictions shared
+    by the, a and every, absent elsewhere in Noun, and otherwise requiring repeated exceptions. Lack of
+    independent argument use alone doesn’t supply that cluster. The comparison concerns the allocation
+    of generalizations; an additional restriction needn’t by itself overturn the membership analysis. All
+    the grammars compared in §7.2 retain the articles’ restriction on ordinary argument use.
+
+7   Shared projection and grammatical economy
+    7.1 A shared phrase type in determiner function
+    In some apples and Kim’s apples, the phrases headed by some and Kim fill the same determiner func-
+    tion. CGEL assigns them different phrase types, DP and genitive NP. It also admits a restricted range
+    of plain-case NPs and PPs as determiners, as in what size hat and over thirty ties (Huddleston & Pul-
+        7
+         The restriction concerns ordinary argument use. In the bigger the better, CGEL analyses the as a modifier within a
+    comparative phrase (Huddleston & Pullum, 2002, pp. 1131–1132, 1135–1136). This dependent use outside Det leaves
+    the restriction on ordinary argument use intact.
+7   SHARED PROJECTION AND GRAMMATICAL ECONOMY                                                        18
+
+
+lum, 2002, Ch. 5, §4). The D-noun analysis reduces this phrase-type inventory:
+
+                                          CGEL: Det : {DP, NP, PP}
+                                  D-noun analysis: Det : {NP, PP}
+
+     The gain is one shared nominal projection for the determinative and genitive cases. Selection still
+distinguishes determinative-headed, genitive and other licensed NPs; PP determiners remain. Reclas-
+sification doesn’t derive definiteness or the single-Det restriction: CGEL already states their common
+determining behaviour functionally. Independent some and Kim’s are already NPs in both accounts.
+Giving some ordinary headedness is a further change; genitive fusion remains available. Section 7.2
+compares these changes separately and shows how a separate-D grammar can also reduce the phrase-
+type inventory.
+7.2 A matched descriptive fragment
+A grammatical fragment is a set of rules for a specified range of constructions. Here it covers de-
+termination, ordinary subject and object uses, partitives, and the modifier and compound compar-
+isons in §4. Four accounts cross separate versus nominal D with fusion versus ordinary Head. All
+receive the same lexical restrictions and constructed judgments. The predicative constructions in
+§4.6 fall outside the fragment.
+    Table 4 records use permissions: whether a form, on a given reading, can head a phrase in
+determiner, subject or object function. Argument use covers the subject and object NPs in ex-
+amples such as Some left and I saw some. Quotation, metalinguistic naming and subordinate-clause
+uses of dependent genitives fall outside the fragment. Noun membership doesn’t itself grant a use
+permission.
+
+
+Table 4: Shared permissions in the fragment. For some, the target column concerns its unstressed use
+before a noun. The inventory is deliberately limited to the displayed constructions.
+             Form       Det use    Argument use   Target in the Det construction
+             the          yes           no        Singular or plural; count or non-count
+             a, every     yes           no        Singular count nominal
+             some         yes           yes       Plural count or non-count nominal
+             few          yes           yes       Plural count nominal
+             my           yes           no        No number/count restriction in this
+                                                  fragment
+             she          no            yes       None
+
+
+    Further constructional restrictions apply: she is a subject form, whereas the corresponding ordin-
+ary object form is her. The target restrictions concern the common-noun nominal being determined:
+a requires a singular count target such as book in a book.
+    Table 5 locates the four accounts. The ordinary-Head accounts differ in the categories admitted
+to nominal projection; the fusion accounts differ in the category of the phrase realizing the fused
+functions.
+7   SHARED PROJECTION AND GRAMMATICAL ECONOMY                                                        19
+
+
+
+Table 5: Taxonomy and headedness varied separately. All four accounts retain the permissions in
+Table 4, the modifier restrictions and the compound conditions.
+          Account                Primary taxonomy             Simple independent
+                                                              determinative
+          Nominal D,             D inside Noun                N–Nom–NP projection with
+          ordinary Head                                       Head function
+          Separate D, ordinary   D outside Noun               D–Nom–NP through
+          Head                                                cross-category projection
+          Separate D, fusion     D outside Noun               NP distribution through
+                                                              Det–Head
+          Nominal D, fusion      D inside Noun                NP distribution through
+                                                              Det–Head
+
+
+    The ordinary-Head variant of the D-noun analysis combines two projection rules with a use-
+permission condition. In the schemata below, h identifies the lexical head throughout its projection;
+parentheses mark optional dependents. The subscripts on Mod distinguish pre-head and post-head
+positions of the same modifier function. The head’s entry and construction restrict every dependent.
+
+                            Nomh → (Modpre ) Head : Nh (Comp) (Modpost )
+                               NPh → (Det) Head : Nomh
+             licensed(NPh , f, c) ⇐⇒ f ∈ Uh ∧ Ch (f, c)
+
+Here Uh is the head’s set of use permissions, f is the NP’s function, and Ch checks the lexical and con-
+structional conditions in context c. For Det use, these include compatibility with the target nominal;
+for an argument headed by a singular count common noun, they include required determination.
+Optionality in the second rule doesn’t override those conditions.
+     In some apples, some heads an NP whose Det permission and plural-count target requirement are
+satisfied. Apples heads the outer Nom, which heads the NP. In Some left, some heads an NP whose
+argument permission is satisfied. Every apple passes the Det and singular-count checks; ordinary in-
+dependent *Every left fails the argument-permission check. The apple and *The left, with left as a verb,
+differ in the same way.
+     Each NP’s use permissions follow its own head. In the apple, the article’s Det permission licenses
+the dependent NP headed by the. The outer NP takes its argument permission from apple, whose
+requirement for determination is satisfied by the article.
+     A singular count common noun such as book faces a different restriction from an article. In a book,
+its requirement for determination is satisfied; bare *Book arrived leaves that requirement unsatisfied.
+Books arrived has no such requirement. Requiring determination for a common noun doesn’t itself
+block an article-headed NP from argument use. An article’s exclusion from argument use must still
+be stated separately.
+     Partitives and modifiers require further lexical conditions. Some and few permit a partitive of -
+phrase within their nominal projection. Almost can modify every in almost every teacher; that per-
+mission doesn’t license experienced as a modifier of every. The construction the lucky few permits the
+7   SHARED PROJECTION AND GRAMMATICAL ECONOMY                                                       20
+
+
+external determiner and adjectival modifier shown in Figure 5. None of these permissions transfers
+automatically to every determinative noun.
+     Keeping ordinary headedness while retaining primary D gives the strongest separate-D alternative.
+It retains the NP and use-permission rules, but replaces the lexical-head restriction in Nom with:
+
+                  Nomh → (Modpre )       Head : {Nh , Dh }    (Comp)      (Modpost )
+
+This projection applies to dependent as well as independent determinatives, eliminating DP from the
+fragment while retaining primary D. Determiner selection still identifies D-headed NPs and suitable
+genitives. In the lucky few, few is D in ordinary Head function. In hardly anyone present, the de-
+terminative base and compound construction supply the same modifier restrictions as the D-noun
+account. Adjectival Mod–Head fusion remains available in both.
+     The fusion accounts instead relate independent determinatives to their dependent counterparts.
+The separate-D fusion grammar already needs nominal projection for other nouns. It adds DP pro-
+jection and permits a DP to realize a fused function in nominal structure. The partitive complement
+and compound restrictor belong to Nom, following the trees in CGEL and Payne et al. (2007, p. 582):
+
+                       DPh → (Modpre ) Head : Dh (Comp)
+                      Nomh → (Modpre ) F : DPh (Comp) (Modpost )
+                         F ∈ {Det–Head, Mod–Head}
+
+The ordinary NP rule embeds this Nom. Det–Head jointly realizes Det of NP and Head of Nom,
+excluding a second Det; Mod–Head fills an internal modifier’s function and Head of Nom, allowing
+external determination. Lexical and constructional conditions select the fused function and permit-
+ted dependents. These schemata cover independent few, few of them, the lucky few and hardly anyone
+present. The nominal-D fusion variant replaces DP here with NPD , retaining the fused relations.
+    The separate-D ordinary-Head account thus shares the D-noun ordinary-Head account’s reduced
+phrase-type inventory and Head relations. Those benefits don’t uniquely favour inclusion within
+Noun. Neither account removes the selectional alternatives, and dependent determinatives acquire a
+Nom layer. Their economy concerns reuse of grammatical organization, not uniformly smaller trees
+or fewer conditions.
+    A grammar with Hudson’s nested classification can use the same permissions and projection rules.
+Holding those rules fixed, an added pronoun category between Noun and determinative leaves the
+fragment’s judgments unchanged. Agreement on these judgments leaves the broader pronoun cat-
+egory open; it doesn’t establish equivalence between the full analyses.
+7.3 Existing restrictions, additional costs and consequences
+The remaining taxonomic choice is between inheritance through Noun and a projection rule span-
+ning N and D. Separate D preserves the modifier contrast as a primary-category distinction while
+licensing nominal projection across that boundary. D-noun makes projection an inherited property
+and states the modifier contrast within Noun.
+    The cost of this change needs separating from restrictions already present in the grammar. Com-
+mon nouns, proper nouns and pronouns already differ in determination and permitted modifiers
+(Table 2). Preserving those conditions is no additional cost of including determinatives. Likewise, the
+    8   CONCLUSION                                                                                       21
+
+
+    separate-D grammar already restricts adverbial modification and independent use within D. Moving
+    those restrictions inside Noun doesn’t create them.
+         Payne et al. (2010, 75, n. 3) analyse almost as a modifier of the attributive noun textbook in an
+    almost textbook case. The D-noun analysis extends such premodification to a systematic noun sub-
+    category, including hardly any and almost every. Its cost is stating the usual modifier contrast at that
+    subcategory boundary. In compounds, the inherited premodifier permissions must also be distin-
+    guished from the post-head restrictor construction (§4.5). These are explicit qualifications on shared
+    projection.
+         Why should systematic nominal projection warrant inclusion for pronouns but require cross-
+    category licensing for determinatives? I favour placing the recurring external and structural profile
+    at Noun, with modifier and use restrictions at the subcategories and constructions that distinguish
+    them. This applies the existing membership rationale consistently. The auxiliary-as-verb precedent
+    illustrates the same separation between a shared category and specialized syntax; the nominal evidence
+    supplies the justification here.
+         This preference gives shared nominal organization more weight than primary rank for the mod-
+    ifier boundary. The compound and adjectival comparisons expose the costs of that choice. The
+    fragment demonstrates how the accounts allocate the generalizations, rather than proving a unique
+    minimum description length.
+         Cardinals illustrate a consequence of broadening Noun. Reynolds (2026) distinguishes determ-
+    inative uses such as ten men, proper-noun uses such as Room 101, and common-noun uses such as
+    tens of pens. Under the D-noun analysis, these uses fall within one superordinate category, with their
+    differences retained at the subcategory and construction levels. This recasts the cardinal alternation
+    without eliminating it. The argument doesn’t extend to ordinals, which that study analyses as adject-
+    ives, or turn complex numeral phrases into single lexemes.
+         Complex cardinals also separate category from function. In two hundred books, the whole two
+    hundred fills Det; internally, two modifies the magnitude head hundred (Reynolds, 2026, §4). In these
+    two hundred books, these fills Det and two hundred is an internal modifier. Including determinatives
+    within Noun preserves these relations. One Det function doesn’t entail a limit of one determinative
+    lexeme per NP.
+         The shared projection proposed in §7.1 would lose its claimed economy if determinative-headed
+    and genitive NPs required different projection rules after their independently motivated feature re-
+    strictions were held fixed. Such a result would favour retaining the separate phrase types.
+
+8   Conclusion
+    The comparisons support including determinative within Noun in English. Across independent
+    uses, partitives and modification, the analysis gives determinatives shared nominal structure while
+    retaining their lexical and constructional restrictions, including those of the articles. CGEL already
+    admits pronouns on comparable grounds despite differences in inflection and dependents. The D-
+    noun analysis extends that membership rationale.
+         Within Noun, coordination remains provisional: the fragment’s judgments don’t distinguish it
+    from Hudson’s nesting. An intermediate category would be preferable if it captured further general-
+    izations otherwise repeated.
+8   CONCLUSION                                                                                      22
+
+
+    Ordinary headedness remains a further proposal. It unifies bare, partitive and externally determ-
+ined uses under Head; fusion instead captures correspondences with dependent uses and separates
+modifier domains structurally in compounds. A separate-D grammar can also share nominal projec-
+tion. The comparison therefore concerns inheritance through Noun versus cross-category licensing,
+not coverage alone. I favour inheritance: it extends CGEL’s rationale for pronoun membership, at
+the cost of reformulating the modifier contrast within Noun. Shared nominal structure belongs at
+the superordinate category; the differing permissions remain at subcategory and construction levels.
+
+Data and analysis materials
+The accompanying supplements are Replication audit of the English determinative–pronoun feature
+matrix and CGELBank concordance and extraction notes. The analysis/ directory preserves their
+input files, provenance records, scripts, numerical outputs and sentence concordance. Its README
+identifies the files and reproduction procedures.
+Acknowledgements. For the September 2026 revision, GPT-6 (Astra), Claude Opus 5, Claude
+Haiku 4.5 and GLM-5.3-Flash assisted drafting, source retrieval, script development or critical review;
+GPT-5.6 (Sol) checked numerical outputs. The accompanying materials record the tools and their
+uses. Responsibility for the analysis is mine.
+REFERENCES                                                                                            23
+
+
+References
+Abney, S. P. (1987). The English noun phrase in its sentential aspect [Doctoral dissertation, Massachu-
+         setts Institute of Technology].
+Anderson, J. M. (1997). A notional theory of syntactic categories. Cambridge University Press. https:
+         //doi.org/10.1017/CBO9780511519734
+Bruening, B. (2020). The head of the nominal is N, not D: N-to-D movement, hybrid agreement,
+         and conventionalized expressions. Glossa: a journal of general linguistics, 5(1), Article 15. ht
+         tps://doi.org/10.5334/gjgl.1031
+Déchaine, R.-M., & Wiltschko, M. (2002). Decomposing pronouns. Linguistic Inquiry, 33(3), 409–
+         442. https://doi.org/10.1162/002438902760168554
+Huddleston, R., & Pullum, G. K. (2002). The Cambridge grammar of the English language. Cam-
+         bridge University Press. https://doi.org/10.1017/9781316423530
+Huddleston, R., Pullum, G. K., & Reynolds, B. (2022). A student’s introduction to English grammar
+         (2nd ed.). Cambridge University Press. https://doi.org/10.1017/9781009085748
+Hudson, R. (2004). Are determiners heads? Functions of Language, 11(1), 7–42. https://doi.org/10
+         .1075/fol.11.1.03hud
+Hudson, R. (2010). An introduction to Word Grammar. Cambridge University Press.
+Lyons, C. (1999). Definiteness. Cambridge University Press. https://doi.org/10.1017/cbo9780511
+         605789
+Lyons, J. (1968). Introduction to theoretical linguistics. Cambridge University Press. https://doi.org
+         /10.1017/CBO9781139165570
+Palmer, H. E. (1924). A grammar of spoken English on a strictly phonetic basis. W. Heffer & Sons Ltd.
+Payne, J., Huddleston, R., & Pullum, G. K. (2007). Fusion of functions: The syntax of once, twice
+         and thrice. Journal of Linguistics, 43(3), 565–603. https://doi.org/10.1017/S00222267070
+         0477X
+Payne, J., Huddleston, R., & Pullum, G. K. (2010). The distribution and category status of adjectives
+         and adverbs. Word Structure, 3(1), 31–81. https://doi.org/10.3366/E1750124510000486
+Postal, P. M. (1966). On so-called “pronouns” in English. In F. P. Dinneen (Ed.), Report of the seven-
+         teenth annual round table meeting on linguistics and language studies (pp. 177–206). Geor-
+         getown University Press.
+Pullum, G. K., & Miller, P. (2022). NPs versus DPs: Why Chomsky was right [Working paper. Eng-
+         lish version of Miller & Pullum 2022, Revue CORELA HS-37]. https://lingbuzz.net/lingb
+         uzz/006845
+Pullum, G. K., & Wilson, D. (1977). Autonomous syntax and the analysis of auxiliaries. Language,
+         53(4), 741–788. https://doi.org/10.2307/412911
+Reynolds, B. (2021). Quantifying the differences between lexical categories: The case of pronouns
+         and determinatives in English. Cadernos de Linguística, 2(3), Article e399. https://doi.org
+         /10.25189/2675-4916.2021.V2.N3.ID399
+Reynolds, B. (2025). Personhood and pro-forms: A hierarchical analysis of gender in Modern English
+         [Manuscript submitted to Folia Linguistica].
+Reynolds, B. (2026). The lexicon–syntax boundary in English numerals: Cardinals, ordinals, and
+         fractionals [Published online 4 February 2026]. English Language and Linguistics, 1–19. ht
+         tps://doi.org/10.1017/S1360674325100518
+REFERENCES                                                                                          24
+
+
+Reynolds, B., Arora, A., & Schneider, N. (2023). Unified syntactic annotation of English in the
+        CGEL framework. In J. Prange & A. Friedrich (Eds.), Proceedings of the 17th linguistic an-
+        notation workshop (LAW-XVII) (pp. 220–234). Association for Computational Linguistics.
+        https://doi.org/10.18653/v1/2023.law-1.22
+Sommerstein, A. H. (1972). On the so-called definite article in English. Linguistic Inquiry, 3(2), 197–
+        209. https://www.jstor.org/stable/4177701
+Spinillo, M. G. (2004). Reconceptualising the English determiner class [PhD thesis]. University Col-
+        lege London. https://discovery.ucl.ac.uk/id/eprint/10101595/
+Van Eynde, F. (2003). On the notion “determiner”. In S. Müller (Ed.), Proceedings of the 10th Inter-
+        national Conference on Head-Driven Phrase Structure Grammar (pp. 391–396). CSLI Pub-
+        lications. https://doi.org/10.21248/hpsg.2003.22
+

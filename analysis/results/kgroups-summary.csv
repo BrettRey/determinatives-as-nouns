@@ -1,0 +1,8 @@
+"variant","features","single_start_min","single_start_median","single_start_max","single_start_equal_129","best_of_100_matched","total","objective","iterations"
+"public155",155,75,128,132,8,125,138,354.462265327234,3
+"appendix154",154,75,128,132,6,125,138,353.759748007252,3
+"working232",232,90,127.5,132,5,125,138,362.61040136463,3
+"working_appendix231",231,90,127,132,5,125,138,361.925607784275,3
+"no_word_component_columns",105,75,128,131,8,131,138,336.433310928443,9
+"syntax50",50,69,105,133,0,120,138,229.69192226605,6
+"syntax_without_four_analysis_labels",46,69,96,117,0,97,138,218.7677428799,3

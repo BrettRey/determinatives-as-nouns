@@ -1,0 +1,49 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -43,7 +43,7 @@
+ 
+ In the D-noun analysis, determinatives inherit the nominal projection rules of Noun. Under these rules, a determinative heads a \term{nominal} (Nom), which heads an NP, just as common nouns, proper nouns, and pronouns do. Nom contains the head and its internal dependents, excluding an external determiner. Lexical restrictions govern which uses are available.
+ 
+-Figure~\ref{fig:some} compares \textit{CGEL} with the D-noun analysis for \mention{take some apples} and \mention{take some}. Both keep \mention{some} in one lexical category. In \textit{CGEL}, independent \mention{some} jointly fills determiner and head functions, a \term{fusion of functions} \citep[410--412]{huddleston2002}.\footnote{As a syntactic representation, fusion of functions appears to have seen little adoption outside work based on \textit{CGEL}.} In the D-noun analysis, \mention{some} heads its own NP through a Nom in both uses; that NP functions as determiner before \mention{apples} and as object in \mention{take some}.
++Figure~\ref{fig:some} compares \textit{CGEL} with the D-noun analysis for \mention{take some apples} and \mention{take some}. Both keep \mention{some} in one lexical category. In \textit{CGEL}, independent \mention{some} jointly fills determiner and head functions, a \term{fusion of functions} \citep[410--412]{huddleston2002}. In the D-noun analysis, \mention{some} heads its own NP through a Nom in both uses; that NP functions as determiner before \mention{apples} and as object in \mention{take some}.
+ 
+ Here DP abbreviates \term{determinative phrase}, as in \textit{CGEL}, not to be confused with the DP of the DP hypothesis, where D heads the whole expression \mention{some apples} (\citealp{abney1987}; §\ref{sec:category-function}). The D-noun analysis keeps \mention{apples} as that expression's ultimate head.
+ 
+@@ -351,7 +351,9 @@
+ 
+ \textit{CGEL} also uses fusion with nouns. Anaphoric \mention{mine}, understood as \enquote*{my car}, combines the possessive relation with an understood nominal description and receives a fused analysis. Predicative \mention{mine}, as in \mention{it's mine}, can instead mean \enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \citep[410--411, 470--471]{huddleston2002}. A suitable context may permit either reading.
+ 
+-The proposed analysis gives \mention{mine} ordinary Head in both anaphoric and predicative uses. Its genitive form expresses a relation to the speaker; context can supply the understood nominal description, as it can with independent \mention{few}. The \mention{my}/\mention{mine} alternation remains a form-selection condition, parallel to \mention{no}/\mention{none}.
++The proposed analysis gives \mention{mine} ordinary Head in both anaphoric and predicative uses. Its genitive form expresses a relation to the speaker; context can supply the understood nominal description, as it can with independent \mention{few}. The \mention{my}/\mention{mine} alternation remains a form-selection condition, parallel to \mention{no}/\mention{none}. This extends ordinary headedness to an existing noun subcategory.
++
++In referential uses, the independent-genitive construction supplies the NP's interpretation and agreement properties based on the possessed entity or entities. Compare constructed \mention{I am ready} with \mention{Mine is ready} (\enquote*{my contribution}) and \mention{Mine are ready} (\enquote*{my slides}). The pronoun's first-person feature identifies the possessor; the independent NP has third-person singular or plural agreement.
+ 
+ \subsection{Partitives locate the quantificational head}
+ 
+@@ -469,13 +471,13 @@
+ \caption{\mention{Hardly anyone present} with ordinary Head (left) and fusion (right). On the left, \mention{hardly} is peripheral to NP and \mention{present} is internal to Nom. Both post-head Mod positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom, following \textcite[p.~582, (13d)]{Payne2007}. Modifier-phrase interiors are suppressed.}\label{fig:compound}
+ \end{figure}
+ 
+-In the ordinary-Head tree, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. Compounds exclude external determination, so \mention{hardly} occupies the NP periphery. The compound construction supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective.
++In the ordinary-Head tree, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. Peripheral \mention{hardly} follows the approximative pattern and its NP parallels in §\ref{sec:payne}. The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective.
+ 
+ The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor. When both occur, the relative follows it: \mention{something useful that I found}. \textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition \citep[423]{huddleston2002}.
+ 
+ This division extends to \mention{someone} and \mention{everybody}: the compound family licenses nominal argument use and post-head restrictors, while each base supplies its own premodifier permissions. CGELBank attests the post-head pattern in \mention{I need something reliable and good looking}.\footnote{Sentence \href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt-test_iaa50.cgel\#L179-L181}{\nolinkurl{answers-20111024111513AAAQhAO_ans-0003}} in \nolinkurl{ewt-test_iaa50.cgel}.}
+ 
+-Both accounts separate the modifier domains structurally: fusion uses the DP--Nom boundary, and ordinary headedness uses the NP--Nom boundary. The determinative base selects the premodifier, while the compound construction licenses the internal restrictor.
++Both accounts separate the modifier domains structurally: fusion uses the DP--Nom boundary, and ordinary headedness uses the NP--Nom boundary. Their constituent groupings differ: ordinary Head groups \mention{anyone present} in the inner NP, whereas fusion groups \mention{hardly anyone} in DP.
+ 
+ \subsection{Predicative uses and their restrictions}\label{sec:predication}
+ 
+@@ -559,7 +561,9 @@
+ 
+ \subsection{A matched descriptive fragment}\label{sec:fragment}
+ 
+-A grammatical \term{fragment} is a set of rules for a specified range of constructions. Here it covers determination, ordinary subject and object uses, partitives, and the modifier and compound comparisons in §\ref{sec:evidence}. It compares the D-noun analysis with two separate-D alternatives: ordinary headedness and fusion. All receive the same lexical restrictions and constructed judgments. Predication, interrogative and relative constructions, and modification outside NP structure fall outside this small fragment; their implications enter the broader comparison in §\ref{sec:costs}.
++A grammatical \term{fragment} is a set of rules for a specified range of constructions. Here it covers determination, ordinary subject and object uses, partitives, and the modifier and compound comparisons in §\ref{sec:evidence}. It compares the D-noun analysis with two separate-D alternatives: ordinary headedness and fusion. All receive the same lexical restrictions and constructed judgments. The fragment admits relative clauses as postmodifiers but doesn't analyse their internal grammar.
++
++Predication, interrogative clause structure, and modification outside NP structure also fall outside its scope; their implications enter the broader comparison in §\ref{sec:costs}.
+ 
+ Table~\ref{tab:permissions} records \term{use permissions}. \term{Dependent} means that the form heads a phrase in Det function before another nominal. \term{Independent} means that its phrase occurs without another nominal in the displayed subject or object uses, as in \mention{Some left} and \mention{I saw some}. These labels describe the constructions covered here, rather than every possible function. Quotation, metalinguistic naming, and subordinate-clause uses of dependent genitives fall outside the fragment. Noun membership doesn't itself grant a use permission.
+ 

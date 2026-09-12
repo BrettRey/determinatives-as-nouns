@@ -1,0 +1,20 @@
+[
+  {
+    "role": "feature-blocks.csv",
+    "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/reciprocals-boundary-phenomena/data/feature_blocks_by_order.csv",
+    "local_path": "data/feature-blocks.csv",
+    "sha256": "7846034b00bda1a10a42bc23c89f206d3d7a5454bc6c146edb7db0d747599a4b"
+  },
+  {
+    "role": "historical-reciprocal-specifications.csv",
+    "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/reciprocals-boundary-phenomena/data/spec_curve.csv",
+    "local_path": "data/historical-reciprocal-specifications.csv",
+    "sha256": "1da545069957839da63db8c1ecf0f2edd8d888d45e64830528cce390eb1761ce"
+  },
+  {
+    "role": "public_matrix",
+    "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/analysis/data/matrix155-lingbuzz.csv",
+    "local_path": "../data/matrix155-lingbuzz.csv",
+    "sha256": "a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7"
+  }
+]

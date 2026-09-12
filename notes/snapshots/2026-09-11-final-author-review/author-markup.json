@@ -1,0 +1,446 @@
+[
+  {
+    "id": "s1",
+    "kind": "++",
+    "text": "D-noun",
+    "context": " _few_, partitive _few of them_, and externally determined _the lucky few_. _CGEL_ divides these between Det–Head and Mod–Head fusion. Their unification is one structural consequence of the "
+  },
+  {
+    "id": "c1",
+    "kind": ">>",
+    "text": "we don't use class, classify, or classification for this",
+    "context": "at replacing DP with NP consolidates the phrase types functioning as determiner: determinatives join genitives and other nominal determiners.\n\nThe argument proceeds from {==classification==}"
+  },
+  {
+    "id": "s2",
+    "kind": "~~",
+    "text": "Classification~>Categorization",
+    "context": " subcategory rank and difficult members. The matched fragment in §7.2 then compares the resulting grammar with separate-D alternatives, holding judgments and lexical restrictions fixed.\n# 2 "
+  },
+  {
+    "id": "s3",
+    "kind": "++",
+    "text": "among ...",
+    "context": "concerns the selecting words’ superordinate category.\n\nSpinillo (2004, 153–58) instead retains _the_, _a_, and _every_ as an expanded article category and redistributes other determinatives "
+  },
+  {
+    "id": "s4",
+    "kind": "++",
+    "text": "article",
+    "context": "1T21:16:37.932Z\"}. Her grounds include dependence on a following nominal, lack of predicative and partitive uses, and limited descriptive content. She also recognizes differences within the "
+  },
+  {
+    "id": "c2",
+    "kind": ">>",
+    "text": "yes, I'd forgotten that was an adjective. Perhaps it's not relevant here?",
+    "context": "nary NP doesn’t preserve the construction. _CGEL_ classifies this _what_ as an adjective, distinct from interrogative and relative _what_ (Huddleston and Pullum 2002, 433–37; Ch. 10, §7).==}"
+  },
+  {
+    "id": "s5",
+    "kind": "++",
+    "text": "_apples_",
+    "context": "ain constant across these uses.\n\nNP becomes the shared phrase type for the principal realizations of determiner function. Plain determinatives, including modified forms such as _almost ten_ "
+  },
+  {
+    "id": "c3",
+    "kind": ">>",
+    "text": "this may not be the spot for it, but it just occurred to me that AdvPs won't premodify within a Nom, but they will premodify an NP as in Usually a careful driver, Anne found her mind wandering; For almost my entire life; Almost my age at nineteen, he was the only sensible male in the family",
+    "context": " function. Plain determinatives, including modified forms such as _almost ten_ {++_apples_++}{id=\"s5\" by=\"user\" at=\"2026-09-11T22:50:31.195Z\"}, join genitives such as _Kim’s_ and _my_{==.==}"
+  },
+  {
+    "id": "c4",
+    "kind": ">>",
+    "text": "Ah, looks like 3.3 is the place",
+    "context": "l driver, Anne found her mind wandering; For almost my entire life; Almost my age at nineteen, he was the only sensible male in the family<<}{id=\"c3\" by=\"user\" at=\"2026-09-11T22:51:30.355Z\"}"
+  },
+  {
+    "id": "c5",
+    "kind": ">>",
+    "text": "hardly one to be ignored, she ...",
+    "context": "alysis preserves that continuity. It also preserves their contrast between adverbial premodification, as in _almost anybody_, and adjectival postmodification, as in _nothing absolute_{==.==}"
+  },
+  {
+    "id": "c6",
+    "kind": ">>",
+    "text": "is there an argument for pre-head modifiers in \"DP\" being peripheral too under the D-noun analysis?",
+    "context": " or nominal. Adverbs occurring before a whole NP, as in _only you_, are peripheral modifiers of the NP, rather than internal modifiers of its head (Huddleston and Pullum 2002, 430–31){==.==}"
+  },
+  {
+    "id": "s7",
+    "kind": "++",
+    "text": "n NP",
+    "context": "\" by=\"user\" at=\"2026-09-11T23:25:48.643Z\"}\n\nDeterminatives also permit determinative premodifiers, as in _this much_ (Huddleston and Pullum 2002, 393). Under the proposed analysis, this is a"
+  },
+  {
+    "id": "s6",
+    "kind": "--",
+    "text": "noun",
+    "context": "lso permit determinative premodifiers, as in _this much_ (Huddleston and Pullum 2002, 393). Under the proposed analysis, this is a{++n NP++}{id=\"s7\" by=\"user\" at=\"2026-09-11T23:27:29.676Z\"} "
+  },
+  {
+    "id": "s9",
+    "kind": "++",
+    "text": "er",
+    "context": "on and Pullum 2002, 393). Under the proposed analysis, this is a{++n NP++}{id=\"s7\" by=\"user\" at=\"2026-09-11T23:27:29.676Z\"} {--noun--}{id=\"s6\" by=\"user\" at=\"2026-09-11T23:27:27.983Z\"} modify"
+  },
+  {
+    "id": "s8",
+    "kind": "--",
+    "text": "ing",
+    "context": "is is a{++n NP++}{id=\"s7\" by=\"user\" at=\"2026-09-11T23:27:29.676Z\"} {--noun--}{id=\"s6\" by=\"user\" at=\"2026-09-11T23:27:27.983Z\"} modify{++er++}{id=\"s9\" by=\"user\" at=\"2026-09-11T23:27:41.963Z\"}"
+  },
+  {
+    "id": "s10",
+    "kind": "++",
+    "text": "in",
+    "context": ".676Z\"} {--noun--}{id=\"s6\" by=\"user\" at=\"2026-09-11T23:27:27.983Z\"} modify{++er++}{id=\"s9\" by=\"user\" at=\"2026-09-11T23:27:41.963Z\"}{--ing--}{id=\"s8\" by=\"user\" at=\"2026-09-11T23:27:41.064Z\"} "
+  },
+  {
+    "id": "s11",
+    "kind": "~~",
+    "text": "noun~>NP",
+    "context": " modify{++er++}{id=\"s9\" by=\"user\" at=\"2026-09-11T23:27:41.963Z\"}{--ing--}{id=\"s8\" by=\"user\" at=\"2026-09-11T23:27:41.064Z\"} {++in++}{id=\"s10\" by=\"user\" at=\"2026-09-11T23:27:44.712Z\"} another "
+  },
+  {
+    "id": "c7",
+    "kind": ">>",
+    "text": "consider also *A day* more and I couldn't have born it; *a lot* fewer",
+    "context": "-}{id=\"s8\" by=\"user\" at=\"2026-09-11T23:27:41.064Z\"} {++in++}{id=\"s10\" by=\"user\" at=\"2026-09-11T23:27:44.712Z\"} another {~~noun~>NP~~}{id=\"s11\" by=\"user\" at=\"2026-09-11T23:27:47.155Z\"}{==.==}"
+  },
+  {
+    "id": "s12",
+    "kind": "++",
+    "text": "(the changes globally to the climate)",
+    "context": "ns specific: the availability of one determinative modifier doesn’t license arbitrary nominal premodification.\n\nPayne et al. (2010, 42–47) establish that adverbs can postmodify common nouns "
+  },
+  {
+    "id": "s13",
+    "kind": "--",
+    "text": "noun",
+    "context": "hat adverbs can postmodify common nouns {++(the changes globally to the climate)++}{id=\"s12\" by=\"user\" at=\"2026-09-11T23:30:46.768Z\"}, and they analyse _almost_ as modifying the attributive "
+  },
+  {
+    "id": "s14",
+    "kind": "++",
+    "text": "nominal",
+    "context": "ally to the climate)++}{id=\"s12\" by=\"user\" at=\"2026-09-11T23:30:46.768Z\"}, and they analyse _almost_ as modifying the attributive {--noun--}{id=\"s13\" by=\"user\" at=\"2026-09-11T23:31:14.796Z\"}"
+  },
+  {
+    "id": "c8",
+    "kind": ">>",
+    "text": "nice find! I had forgotten this.",
+    "context": " by=\"user\" at=\"2026-09-11T23:31:18.016Z\"} _textbook_ in _an almost textbook case_ (Payne et al. 2010, 75, n. 3). {==Adverbial modification therefore isn’t categorically excluded from Noun==}"
+  },
+  {
+    "id": "s15",
+    "kind": "++",
+    "text": "(also few who come ever leave; many who; those who; that which; two that I have seen, etc.)",
+    "context": "uding _we who have read the report_ (Huddleston and Pullum 2002, 430). Compound determinatives permit them too, as in _something that you need to know_ (Huddleston and Pullum 2002, 423–24). "
+  },
+  {
+    "id": "c11",
+    "kind": ">>",
+    "text": "does inflection not bear a whole subsection?",
+    "context": " against the grouping; §7.3 examines its consequences for stating the rules.\n## 3.4 Word formation and category boundaries\nDerivation supplies a less uniform comparison than {==inflection==}"
+  },
+  {
+    "id": "c9",
+    "kind": ">>",
+    "text": "this doesn't make sense, I think. Read that paper of mine.",
+    "context": " and fractional formations, analysed respectively as adjectival and nominal by Reynolds (2026). Their formation also bears on the boundary between a numeral lexeme and a syntactic phrase.==}"
+  },
+  {
+    "id": "c10",
+    "kind": ">>",
+    "text": "but we've only talked about derivational morphology.",
+    "context": "oundary between a numeral lexeme and a syntactic phrase.==}{>>this doesn't make sense, I think. Read that paper of mine.<<}{id=\"c9\" by=\"user\" at=\"2026-09-11T23:40:59.339Z\"}\n\n{==Morphology==}"
+  },
+  {
+    "id": "c12",
+    "kind": ">>",
+    "text": "brackets should always be upright",
+    "context": "miner modifier (Huddleston and Pullum 2002, 434). These constructions don’t add evidence for independent determinative heads.\n\nIn the constructed examples in (1), compare the {==bracketed==}"
+  },
+  {
+    "id": "s16",
+    "kind": "--",
+    "text": "Adjectival",
+    "context": " [people]._ — _with [people]_\n\n(1b) _[Kim] left._ — _I see [Kim]._ — _with [Kim]_\n\n(1c) _[She] left._ — _I see [her]._ — _with [her]_\n\n(1d) _[Some] left._ — _I see [some]._ — _with [some]_\n\n"
+  },
+  {
+    "id": "c13",
+    "kind": ">>",
+    "text": "",
+    "context": " — _with [Kim]_\n\n(1c) _[She] left._ — _I see [her]._ — _with [her]_\n\n(1d) _[Some] left._ — _I see [some]._ — _with [some]_\n\n{--Adjectival--}{id=\"s16\" by=\"user\" at=\"2026-09-11T23:45:17.444Z\"}"
+  },
+  {
+    "id": "s17",
+    "kind": "++",
+    "text": "of AdjP",
+    "context": " _[Some] left._ — _I see [some]._ — _with [some]_\n\n{--Adjectival--}{id=\"s16\" by=\"user\" at=\"2026-09-11T23:45:17.444Z\"}{>><<}{id=\"c13\" by=\"user\" at=\"2026-09-11T23:45:01.091Z\"} independent use "
+  },
+  {
+    "id": "s18",
+    "kind": "++",
+    "text": "s",
+    "context": "s16\" by=\"user\" at=\"2026-09-11T23:45:17.444Z\"}{>><<}{id=\"c13\" by=\"user\" at=\"2026-09-11T23:45:01.091Z\"} independent use {++of AdjP++}{id=\"s17\" by=\"user\" at=\"2026-09-11T23:45:21.780Z\"}s prevent"
+  },
+  {
+    "id": "c14",
+    "kind": ">>",
+    "text": "it's gotta be \"the\", doesn't it?",
+    "context": "a partitive _of_-phrase (Huddleston and Pullum 2002, 332–33, 416–23).\n\nIndependent _some_ can form a one-word NP, whereas an NP with _rich_ as fused head normally requires {==a determiner==}"
+  },
+  {
+    "id": "c15",
+    "kind": ">>",
+    "text": "not sure that it has a place in this paper but both, neither, and either function as markers of coordination",
+    "context": "LBank (Reynolds et al. 2023), sentence `reviews-083459-0002`.\n\n(2) _Went there yesterday: we are trying to decide between two different Honda models, so we wanted to test-drive_ {==_both_==}"
+  },
+  {
+    "id": "s19",
+    "kind": "++",
+    "text": "Among the pronouns: _one shouldn't judge_.",
+    "context": "ut a mandatory overt-antecedent requirement, but a silent-noun account could supply a generic restriction. Such examples don’t decide whether the restriction belongs in semantics or syntax. "
+  },
+  {
+    "id": "c16",
+    "kind": ">>",
+    "text": "what's the motivation for this?",
+    "context": "ons on independence and form selection.\n\n_CGEL_ also uses fusion with nouns. {==It assigns anaphoric _mine_ to Det–Head, but predicative possessive _mine_, as in _it’s mine_, to pure Head==}"
+  },
+  {
+    "id": "s21",
+    "kind": "++",
+    "text": "an",
+    "context": "analysis; fusion remains compatible with that preference.\n## 4.4 Modification tests the internal analysis\nThe pair _the lucky survivors_/_the lucky few_ supplies a comparison involving both "
+  },
+  {
+    "id": "s23",
+    "kind": "++",
+    "text": "er",
+    "context": "n tests the internal analysis\nThe pair _the lucky survivors_/_the lucky few_ supplies a comparison involving both {++an++}{id=\"s21\" by=\"user\" at=\"2026-09-12T00:35:54.485Z\"} external determin"
+  },
+  {
+    "id": "s22",
+    "kind": "--",
+    "text": "ation",
+    "context": "s_/_the lucky few_ supplies a comparison involving both {++an++}{id=\"s21\" by=\"user\" at=\"2026-09-12T00:35:54.485Z\"} external determin{++er++}{id=\"s23\" by=\"user\" at=\"2026-09-12T00:35:58.001Z\"}"
+  },
+  {
+    "id": "s20",
+    "kind": "~~",
+    "text": "adjectival modification~>an attributive-modifier AdjP",
+    "context": "d=\"s21\" by=\"user\" at=\"2026-09-12T00:35:54.485Z\"} external determin{++er++}{id=\"s23\" by=\"user\" at=\"2026-09-12T00:35:58.001Z\"}{--ation--}{id=\"s22\" by=\"user\" at=\"2026-09-12T00:35:56.833Z\"} and "
+  },
+  {
+    "id": "s24",
+    "kind": "--",
+    "text": "colour-noun ambiguity as well as",
+    "context": "main number-neutral.\n\nBare colour expressions and evaluative comparative subjects complicate a simple distributional boundary. _CGEL_’s _Henrietta likes red shirts, and I like blue_ permits "
+  },
+  {
+    "id": "s25",
+    "kind": "++",
+    "text": "blue is good is ambiguous between adjective and nouns, and",
+    "context": "s _Henrietta likes red shirts, and I like blue_ permits {--colour-noun ambiguity as well as--}{id=\"s24\" by=\"user\" at=\"2026-09-12T00:44:45.524Z\"} possible reduction licensed by coordination; "
+  },
+  {
+    "id": "c17",
+    "kind": ">>",
+    "text": "the branching in the tree should go straight down, not to the west",
+    "context": "Mod: AdjP\n        └── present\n```\n\n```text\nNP ──────────────────────┐ └── Head: Nom │ ├── Det–Head: DP ◄───┘ │ ├── Mod: AdvP │ │ └── hardly │ └── Head: D │ └── anyone └── Mod: AdjP {==└──==}"
+  },
+  {
+    "id": "s26",
+    "kind": "~~",
+    "text": "_doctor_~>beauty",
+    "context": "rn as uncommon and formal (Huddleston and Pullum 2002, 392, 395–96). This use is available to only part of the determinative inventory; _every_ and the articles remain excluded.\n\n_She is a_ "
+  },
+  {
+    "id": "c18",
+    "kind": ">>",
+    "text": "the writing in this section is highly inaccessible, assuming, as it does, far too much background knowledge from the reader",
+    "context": "ad and uses the DP–Nom boundary to separate modifier domains. These are competing ways of organizing the same constructional evidence; their grammatical costs are compared in §7.2.\n# {==5==}"
+  },
+  {
+    "id": "s27",
+    "kind": "~~",
+    "text": "should~>do",
+    "context": " from the reader<<}{id=\"c18\" by=\"user\" at=\"2026-09-12T01:03:38.847Z\"} Coordinate subcategories and inheritance\nShould determinatives and pronouns be coordinate subcategories within Noun, or "
+  },
+  {
+    "id": "s35",
+    "kind": "~~",
+    "text": "compares~>applies an",
+    "context": "erminatives and pronouns be coordinate subcategories within Noun, or {~~should~>do~~}{id=\"s27\" by=\"user\" at=\"2026-09-12T00:58:24.828Z\"} determinatives belong inside pronoun? Reynolds (2021) "
+  },
+  {
+    "id": "s34",
+    "kind": "++",
+    "text": "unsupervised clustering model to",
+    "context": "d~>do~~}{id=\"s27\" by=\"user\" at=\"2026-09-12T00:58:24.828Z\"} determinatives belong inside pronoun? Reynolds (2021) {~~compares~>applies an~~}{id=\"s35\" by=\"user\" at=\"2026-09-12T01:01:51.267Z\"} "
+  },
+  {
+    "id": "s33",
+    "kind": "--",
+    "text": "profiles",
+    "context": "~compares~>applies an~~}{id=\"s35\" by=\"user\" at=\"2026-09-12T01:01:51.267Z\"} {++unsupervised clustering model to++}{id=\"s34\" by=\"user\" at=\"2026-09-12T01:01:38.111Z\"} determinative and pronoun "
+  },
+  {
+    "id": "s28",
+    "kind": "++",
+    "text": "in an x properties by y word-types matrix",
+    "context": "51.267Z\"} {++unsupervised clustering model to++}{id=\"s34\" by=\"user\" at=\"2026-09-12T01:01:38.111Z\"} determinative and pronoun {--profiles--}{id=\"s33\" by=\"user\" at=\"2026-09-12T01:01:28.273Z\"} "
+  },
+  {
+    "id": "s29",
+    "kind": "--",
+    "text": "; its matrix",
+    "context": "} determinative and pronoun {--profiles--}{id=\"s33\" by=\"user\" at=\"2026-09-12T01:01:28.273Z\"} {++in an x properties by y word-types matrix++}{id=\"s28\" by=\"user\" at=\"2026-09-12T00:58:47.344Z\"}"
+  },
+  {
+    "id": "s30",
+    "kind": "++",
+    "text": "which",
+    "context": "6-09-12T01:01:28.273Z\"} {++in an x properties by y word-types matrix++}{id=\"s28\" by=\"user\" at=\"2026-09-12T00:58:47.344Z\"}{--; its matrix--}{id=\"s29\" by=\"user\" at=\"2026-09-12T01:00:22.554Z\"} "
+  },
+  {
+    "id": "s37",
+    "kind": "++",
+    "text": "y",
+    "context": "L_’s treatment of _my_ supplies a precedent for restricted membership within Noun (Huddleston and Pullum 2002, 470–71). The pronoun’s paradigm supports its membership despite its lack of _m_"
+  },
+  {
+    "id": "s36",
+    "kind": "--",
+    "text": "_ine_",
+    "context": "d membership within Noun (Huddleston and Pullum 2002, 470–71). The pronoun’s paradigm supports its membership despite its lack of _m_{++y++}{id=\"s37\" by=\"user\" at=\"2026-09-12T01:06:33.765Z\"}"
+  },
+  {
+    "id": "c19",
+    "kind": ">>",
+    "text": "mine is always independent",
+    "context": "digm supports its membership despite its lack of _m_{++y++}{id=\"s37\" by=\"user\" at=\"2026-09-12T01:06:33.765Z\"}{--_ine_--}{id=\"s36\" by=\"user\" at=\"2026-09-12T01:06:31.629Z\"}’s {==independent==}"
+  },
+  {
+    "id": "c20",
+    "kind": ">>",
+    "text": "the, like other Ds also functions as mod in AdjPs like the bigger the better",
+    "context": "r count target and contributes individuation. Their connections extend beyond shared position, although neither has the full determinative profile (Huddleston and Pullum 2002, 368–73){==.==}"
+  },
+  {
+    "id": "c21",
+    "kind": ">>",
+    "text": "how important is the inclusion of this section?",
+    "context": "ical permissions. The articles’ nounhood depends on their membership in that broader system. They don’t individually exhibit the full evidence that supports the parent category.\n## {==6.2==}"
+  },
+  {
+    "id": "s38",
+    "kind": "++",
+    "text": ", though, as we've seen above, no one property is definitive",
+    "context": "_, and _what_\n_Who_ has positive morphological grounds for pronoun status: its paradigm includes nominative _who_, accusative _whom_, and genitive _whose_ (Huddleston and Pullum 2002, 904–5)"
+  },
+  {
+    "id": "s40",
+    "kind": "++",
+    "text": "(What person/object do you have in mind?)",
+    "context": "rmit personal and non-personal heads (Huddleston and Pullum 2002, 398).\n\nI treat these occurrences as determinatives throughout. With an overt nominal, that nominal supplies the restriction "
+  },
+  {
+    "id": "s39",
+    "kind": "++",
+    "text": "(What's behind the door?)",
+    "context": "plies the restriction {++(What person/object do you have in mind?)++}{id=\"s40\" by=\"user\" at=\"2026-09-12T01:13:26.658Z\"}; without one, the construction requires a non-personal interpretation "
+  },
+  {
+    "id": "s48",
+    "kind": "++",
+    "text": "where DP > NP >> PP",
+    "context": "ted range of plain-case NPs and PPs as determiners, as in _what size hat_ and _over thirty ties_ (Huddleston and Pullum 2002, Ch. 5, §4). The phrase types are:\n\n```text\nCGEL: Det:{DP,NP,PP} "
+  },
+  {
+    "id": "s49",
+    "kind": "++",
+    "text": "where NP >> PP",
+    "context": "um 2002, Ch. 5, §4). The phrase types are:\n\n```text\nCGEL: Det:{DP,NP,PP} {++where DP > NP >> PP++}{id=\"s48\" by=\"user\" at=\"2026-09-12T01:24:01.456Z\"} Both ordinary-Head accounts: Det:{NP,PP} "
+  },
+  {
+    "id": "s42",
+    "kind": "++",
+    "text": "pendent",
+    "context": "hared permissions in the fragment. For _some_, the target column concerns its unstressed use before a noun. The inventory is deliberately limited to the displayed constructions.\n\n| Form | De"
+  },
+  {
+    "id": "s41",
+    "kind": "--",
+    "text": "t",
+    "context": "n concerns its unstressed use before a noun. The inventory is deliberately limited to the displayed constructions.\n\n| Form | De{++pendent++}{id=\"s42\" by=\"user\" at=\"2026-09-12T01:20:57.673Z\"}"
+  },
+  {
+    "id": "s43",
+    "kind": "--",
+    "text": "use",
+    "context": " is deliberately limited to the displayed constructions.\n\n| Form | De{++pendent++}{id=\"s42\" by=\"user\" at=\"2026-09-12T01:20:57.673Z\"}{--t--}{id=\"s41\" by=\"user\" at=\"2026-09-12T01:20:57.226Z\"} "
+  },
+  {
+    "id": "s44",
+    "kind": "~~",
+    "text": "Argument use~>Independnet",
+    "context": "rm | De{++pendent++}{id=\"s42\" by=\"user\" at=\"2026-09-12T01:20:57.673Z\"}{--t--}{id=\"s41\" by=\"user\" at=\"2026-09-12T01:20:57.226Z\"} {--use--}{id=\"s43\" by=\"user\" at=\"2026-09-12T01:21:02.515Z\"} | "
+  },
+  {
+    "id": "s45",
+    "kind": "~~",
+    "text": "number/count restriction in this fragment~>ne",
+    "context": "count |\n| _a_, _every_ | yes | no  | Singular count nominal |\n| _some_ | yes | yes | Plural count or non-count nominal |\n| _few_ | yes | yes | Plural count nominal |\n| _my_ | yes | no  | No "
+  },
+  {
+    "id": "s46",
+    "kind": "~~",
+    "text": "D–Nom–NP through cross-category projection~>unclear",
+    "context": "onomy | Simple independent determinative |\n| :--- | :--- | :--- |\n| D-noun analysis | D inside Noun | N–Nom–NP projection with Head function |\n| Separate D, ordinary Head | D outside Noun | "
+  },
+  {
+    "id": "s47",
+    "kind": "++",
+    "text": "fusion",
+    "context": "~~D–Nom–NP through cross-category projection~>unclear~~}{id=\"s46\" by=\"user\" at=\"2026-09-12T01:23:09.987Z\"} |\n| _CGEL_: separate D, fusion | D outside Noun | NP distribution through Det–Head "
+  },
+  {
+    "id": "s50",
+    "kind": "++",
+    "text": "(pre-mod)",
+    "context": "uish pre-head and post-head positions of the same modifier function. The head’s entry and construction restrict every dependent.\n\n```text\nNom_h → (Mod_pre) Head:N_h (Comp) (Mod_post) NP_h → "
+  },
+  {
+    "id": "s51",
+    "kind": "++",
+    "text": "what about _I know_ **_which apple_** _it is_",
+    "context": "ed. _Every apple_ passes the Det and singular-count checks; ordinary independent *_Every arrived_ fails the argument-permission check. _The apple_ and *_The arrived_ differ in the same way. "
+  },
+  {
+    "id": "s52",
+    "kind": "~~",
+    "text": "uses~>numerals",
+    "context": " tie. D-noun reduces the number of primary categories by one, retaining determinative as a subcategory and preserving its internal distinctions.\n\nReynolds (2026) distinguishes determinative "
+  },
+  {
+    "id": "s53",
+    "kind": "~~",
+    "text": "uses~>cases",
+    "context": " and preserving its internal distinctions.\n\nReynolds (2026) distinguishes determinative {~~uses~>numerals~~}{id=\"s52\" by=\"user\" at=\"2026-09-12T01:32:56.064Z\"} such as _ten men_, proper-noun "
+  },
+  {
+    "id": "s54",
+    "kind": "--",
+    "text": "_1_",
+    "context": "ve {~~uses~>numerals~~}{id=\"s52\" by=\"user\" at=\"2026-09-12T01:32:56.064Z\"} such as _ten men_, proper-noun {~~uses~>cases~~}{id=\"s53\" by=\"user\" at=\"2026-09-12T01:33:08.802Z\"} such as _Room 10_"
+  },
+  {
+    "id": "s55",
+    "kind": "~~",
+    "text": "uses~>numerals",
+    "context": "h as _ten men_, proper-noun {~~uses~>cases~~}{id=\"s53\" by=\"user\" at=\"2026-09-12T01:33:08.802Z\"} such as _Room 10_{--_1_--}{id=\"s54\" by=\"user\" at=\"2026-09-12T01:33:12.208Z\"}, and common-noun "
+  }
+]

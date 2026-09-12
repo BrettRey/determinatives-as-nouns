@@ -1,0 +1,71 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/determinatives-as-nouns.tex
+- Word count: **1** (texcount)
+- Prose paragraphs inspected: **158**
+
+## Structure
+
+- L34: The question
+- L110: Categorization, headedness, and function
+- L112:   Category, function, and phrase structure
+- L120:   Taxonomic and structural alternatives
+- L168: The D-noun analysis
+- L170:   The basis for a broader Noun category
+- L218:   The connection from the common-noun side
+- L230:   Noun phrases in determiner and argument functions
+- L259:   Modifier selection and taxonomic level
+- L297:   Inflection
+- L311: Evidence for nominal structure
+- L315:   Breadth of independent use
+- L334:   Structural saturation and interpretation
+- L353:   Partitives locate the quantificational head
+- L376:   Modification tests the internal analysis
+- L439:   Compounds and modifier domains
+- L476:   Predicative uses and their restrictions
+- L484:   What the combined pattern supports
+- L488: Coordinate subcategories and inheritance
+- L504: Restricted members and wider functions
+- L508:   Articles and the limits of independent use
+- L528:   Form selection and degree modification
+- L542: Structural consequences and grammatical economy
+- L544:   A shared phrase type in determiner function
+- L556:   A matched descriptive fragment
+- L629:   Existing restrictions, additional costs, and consequences
+- L668: Conclusion
+- L676: Data and analysis materials
+
+## Paragraphs over 100 words
+
+- L317 (137 words): Independent use is widespread within the determinative inventory.
+- L435 (120 words): Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary.
+- L494 (110 words): compares 138 word forms through properties recorded as present or absent, such as accepting almost .
+- L585 (119 words): [math] denotes a possibly empty, constructionally ordered sequence of postmodifiers.
+- L613 (113 words): The separate-D fusion account relates independent determinatives to their dependent counterparts.
+
+## Sentences of 40 words or more
+
+- L13 (69 words): [2] #1\\#2 head edge/.style= edge= line width=1pt , nominal tree/.style= for tree= align=center, parent anchor=south, child anchor=north, l sep=5mm, s sep=4mm, inner sep=1.5pt pdft
+- L585 (40 words): The same sequence notation and ordering conditions apply under all three accounts. [math] Here [math] is the head's set of use permissions, [math] is the completed NP's external fu
+
+## Repeated three-word paragraph openings
+
+- **the d-noun analysis** × 3 (lines 216, 526, 583)
+
+## Possible editorial scar tissue
+
+- L108 [revision-position reference]: The argument proceeds from categorization to its consequences.
+- L206 [fragile paired reference]: Interrogative and relative properties must be distinguished from those functions.
+- L208 [fragile paired reference]: Overlap with adjectives likewise needs phrase levels kept distinct.
+- L232 [revision-position reference]: Determinatives' characteristic determiner use could support a separate primary category.
+- L234 [fragile paired reference]: Determiner function already cuts across the existing noun subcategories.
+- L295 [revision-position reference]: The comparison therefore concerns modifier selection as well as attachment.
+- L309 [revision-position reference]: Derivation supplies a weaker category diagnostic.
+- L343 [revision-position reference]: Generalizing expressions such as Many are called, few are chosen and Enough is enough need no previously uttered common-noun phrase.
+- L355 [revision-position reference]: In some of the wine , some specifies a quantity drawn from an identifiable amount of wine.
+- L470 [revision-position reference]: The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor.
+- L478 [fragile paired reference]: CGEL records predicative Its advantages are several and Their enemies were many , describing the latter pattern as uncommon and formal huddleston2002 .
+- L583 [revision-position reference]: The D-noun analysis applies nominal projection to determinatives through their membership in Noun.
+- L625 [revision-position reference]: The disjunction [math] groups the same heads for nominal projection.
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

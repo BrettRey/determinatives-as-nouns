@@ -1,0 +1,51 @@
+ M .gitignore
+ T AGENTS.md
+ M CLAUDE.md
+ M DECISIONS.md
+ M GEMINI.md
+ M Makefile
+ M STATUS.md
+ D main.pdf
+ D main.tex
+ M notes/distance-verification.py
+ M references-local.bib
+?? .passes.jsonl
+?? analysis/
+?? corpus-documentation.pdf
+?? corpus-documentation.tex
+?? determinatives-as-nouns-rd-2.md
+?? determinatives-as-nouns-rd-assets/
+?? determinatives-as-nouns-rd.md
+?? determinatives-as-nouns.pdf
+?? determinatives-as-nouns.tex
+?? figure-plan.md
+?? matrix-audit.pdf
+?? matrix-audit.tex
+?? notes/2026-09-09-overnight-pass-review.md
+?? notes/april-current-argument-comparison-2026-09-08.md
+?? notes/argument-restoration-2026-09-07.md
+?? notes/author-comments-through-2-1-response-2026-09-10.md
+?? notes/coldread/
+?? notes/comparative-revision-2026-09-08.md
+?? notes/determinatives-as-nouns-review-2026-09-08-revised.md
+?? notes/determinatives-as-nouns-review-2026-09-08.md
+?? notes/determinatives-as-nouns-review-2026-09-09.md
+?? notes/determinatives-as-nouns-review-2026-09-10-profile.md
+?? notes/determinatives-as-nouns-review-2026-09-10-reframed.md
+?? notes/determinatives-as-nouns-review-2026-09-10-round-two.md
+?? notes/determinatives-as-nouns-review-2026-09-10-sections-1-3.md
+?? notes/determinatives-as-nouns-review-2026-09-10-trimmed.md
+?? notes/determinatives-as-nouns-review-2026-09-10.md
+?? notes/determinatives-as-nouns-review-2026-09-11-criteria.md
+?? notes/determinatives-as-nouns-review-2026-09-11-targeted.md
+?? notes/english-determinatives-argument-table-2026-09-10.md
+?? notes/handoff-2026-09-07-ell-rebuild.md
+?? notes/passes/
+?? notes/rd-and-table-revision-2026-09-08.md
+?? notes/review-triage/
+?? notes/second-author-round-2026-09-10.md
+?? notes/snapshots/
+?? notes/source-page-checks-2026-09-07.md
+?? reviews/
+?? submission/ai-disclosure-2026-09-07.txt
+?? submission/venue-decision-2026-09-07.md

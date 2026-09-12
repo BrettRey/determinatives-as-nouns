@@ -1,0 +1,177 @@
+--- notes/snapshots/2026-09-10-comments-through-2-1/determinatives-as-nouns.tex
++++ determinatives-as-nouns.tex
+@@ -15,7 +15,7 @@
+         replace={Glossa: A Journal of General Linguistics}]
+ }}}
+ \newcommand{\synnode}[2]{\shortstack{\scriptsize #1\\#2}}
+-\forestset{nominal tree/.style={for tree={align=center, parent anchor=south, child anchor=north, l sep=5mm, s sep=4mm, inner sep=1.5pt}}}
++\forestset{head edge/.style={edge={line width=1pt}}, nominal tree/.style={for tree={align=center, parent anchor=south, child anchor=north, l sep=5mm, s sep=4mm, inner sep=1.5pt}}}
+ \hypersetup{pdftitle={Determinatives as nouns in English},pdfkeywords={determinatives, nouns, lexical categories, noun phrases, English}}
+ \title{Determinatives as nouns in English}
+ \author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+@@ -53,22 +53,22 @@
+ \begin{minipage}{.60\linewidth}\centering
+ \begin{forest} nominal tree
+ [VP
+- [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Head}{V}}, head edge [\mention{take}]]
+  [{\synnode{Obj}{NP}}
+   [{\synnode{Det}{DP}}
+-   [{\synnode{Head}{D}} [\mention{some}]]]
+-  [{\synnode{Head}{Nom}}
+-   [{\synnode{Head}{N\textsubscript{common}}} [\mention{apples}]]]]]
++   [{\synnode{Head}{D}}, head edge [\mention{some}]]]
++  [{\synnode{Head}{Nom}}, head edge
++   [{\synnode{Head}{N\textsubscript{common}}}, head edge [\mention{apples}]]]]]
+ \end{forest}
+ \end{minipage}\hfill
+ \begin{minipage}{.38\linewidth}\centering
+ \begin{forest} nominal tree
+ [VP
+- [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Head}{V}}, head edge [\mention{take}]]
+  [{\synnode{Obj}{NP}}
+-  [{\synnode{Head}{Nom}}, before drawing tree={x+=1.5em}
++  [{\synnode{Head}{Nom}}, head edge, before drawing tree={x+=1.5em}
+    [{\synnode{Det--Head}{DP}}, no edge
+-    [{\synnode{Head}{D}} [\mention{some}]]]
++    [{\synnode{Head}{D}}, head edge [\mention{some}]]]
+    {\draw[-] (!uu.south) -- (); \draw[-,line width=1pt] (!u.south) -- (); }]]]
+ \end{forest}
+ \end{minipage}
+@@ -78,22 +78,22 @@
+ \begin{minipage}{.60\linewidth}\centering
+ \begin{forest} nominal tree
+ [VP
+- [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Head}{V}}, head edge [\mention{take}]]
+  [{\synnode{Obj}{NP}}
+   [{\synnode{Det}{NP}}
+-   [{\synnode{Head}{Nom}}
+-    [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]
+-  [{\synnode{Head}{Nom}}
+-   [{\synnode{Head}{N\textsubscript{common}}} [\mention{apples}]]]]]
++   [{\synnode{Head}{Nom}}, head edge
++    [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{some}]]]]
++  [{\synnode{Head}{Nom}}, head edge
++   [{\synnode{Head}{N\textsubscript{common}}}, head edge [\mention{apples}]]]]]
+ \end{forest}
+ \end{minipage}\hfill
+ \begin{minipage}{.38\linewidth}\centering
+ \begin{forest} nominal tree
+ [VP
+- [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Head}{V}}, head edge [\mention{take}]]
+  [{\synnode{Obj}{NP}}
+-  [{\synnode{Head}{Nom}}
+-   [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]]
++  [{\synnode{Head}{Nom}}, head edge
++   [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{some}]]]]]
+ \end{forest}
+ \end{minipage}
+ \caption{\mention{Take some apples} (left) and \mention{take some} (right) under \textit{CGEL} (top) and the ordinary-Head variant of the D-noun analysis (bottom). In the upper-right tree, DP fills Det of NP and Head of Nom. In the lower pair, \mention{some} heads an NP through the same nominal projection; that NP functions as Det on the left and Obj on the right. Function labels appear above category labels. Det marks determiner, Obj object, and Det--Head fusion; the two links show the combined functions. N, D and V mark noun, determinative and verb; NP, DP and VP mark their phrases. Subscripts identify noun subcategories.}\label{fig:some}
+@@ -107,7 +107,7 @@
+ 
+ \subsection{Category, function and phrase structure}
+ 
+-Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \mention{Kim's book}, and a determinative-headed phrase can function as modifier, as in \mention{the many people} \citep{payne2010,pullummiller2022nps}. Including determinatives within Noun preserves this distinction: the NP headed by \mention{some} functions as determiner in \mention{take some apples} and as object in \mention{take some} (Figure~\ref{fig:some}).
++Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \mention{\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \mention{the \underline{many} people} \citep{payne2010,pullummiller2022nps}. Including determinatives within Noun preserves this distinction: the NP headed by \mention{some} functions as determiner in \mention{take some apples} and as object in \mention{take some} (Figure~\ref{fig:some}).
+ 
+ Two questions about headedness also need separating. \textcite{bruening2020nominal} supplies a generative defence of N-headed rather than D-headed nominals, drawing on selection and conventionalized expressions. Such arguments concern the head of expressions such as \mention{some apples}; they don't by themselves assign determinatives to Noun. Whether independent \mention{some} has ordinary Head or a fused function is a further question. Including determinatives within Noun leaves both available (§\ref{sec:fragment}).
+ 
+@@ -199,10 +199,10 @@
+ \begin{forest} nominal tree
+ [NP
+  [{\synnode{Det}{NP[gen]}}
+-  [{\synnode{Head}{Nom}}
+-   [{\synnode{Head}{N\textsubscript{proper}}} [\mention{Kim's}]]]]
+- [{\synnode{Head}{Nom}}
+-  [{\synnode{Head}{N\textsubscript{common}}} [\mention{book}]]]]
++  [{\synnode{Head}{Nom}}, head edge
++   [{\synnode{Head}{N\textsubscript{proper}}}, head edge [\mention{Kim's}]]]]
++ [{\synnode{Head}{Nom}}, head edge
++  [{\synnode{Head}{N\textsubscript{common}}}, head edge [\mention{book}]]]]
+ \end{forest}
+ \caption{The genitive NP \mention{Kim's} functions as determiner within \mention{Kim's book}, ultimately headed by \mention{book}. The representation abstracts from the internal realization of genitive marking.}\label{fig:genitive}
+ \end{figure}
+@@ -222,12 +222,12 @@
+ \begin{forest} nominal tree
+ [NP
+  [{\synnode{Det}{NP\textsubscript{D}}}
+-  [{\synnode{Head}{Nom}}
++  [{\synnode{Head}{Nom}}, head edge
+    [{\synnode{Mod}{AdvP}} [\mention{almost}]]
+-   [{\synnode{Head}{N\textsubscript{D}}} [\mention{every}]]]]
+- [{\synnode{Head}{Nom}}
++   [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{every}]]]]
++ [{\synnode{Head}{Nom}}, head edge
+   [{\synnode{Mod}{AdjP}} [\mention{experienced}]]
+-  [{\synnode{Head}{N\textsubscript{common}}} [\mention{teacher}]]]]
++  [{\synnode{Head}{N\textsubscript{common}}}, head edge [\mention{teacher}]]]]
+ \end{forest}
+ \caption{Two modifier relations in \mention{almost every experienced teacher}: \mention{almost} modifies \mention{every}, and \mention{experienced} modifies \mention{teacher}. The outer NP has \mention{teacher} as its ultimate head. Internal structure within the one-word modifier phrases is suppressed.}\label{fig:every}
+ \end{figure}
+@@ -294,10 +294,10 @@
+ \centering
+ \begin{forest} nominal tree
+ [NP
+- [{\synnode{Head}{Nom}}
+-  [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]
++ [{\synnode{Head}{Nom}}, head edge
++  [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{some}]]
+   [{\synnode{Comp}{PP}}
+-   [{\synnode{Head}{P}} [\mention{of}]]
++   [{\synnode{Head}{P}}, head edge [\mention{of}]]
+    [{\synnode{Comp}{NP}} [\mention{the wine}, roof]]]]]
+ \end{forest}
+ \caption{\mention{Some of the wine} under the ordinary-Head D-noun analysis. The Head relations lead from the outer NP to \mention{some}. The common noun \mention{wine} is inside the complement PP and doesn't head the whole expression. The inner NP is abbreviated.}\label{fig:partitive}
+@@ -319,20 +319,20 @@
+ \begin{forest} nominal tree
+ [NP
+  [{\synnode{Det}{NP\textsubscript{D}}} [\mention{the}, roof]]
+- [{\synnode{Head}{Nom}}
++ [{\synnode{Head}{Nom}}, head edge
+   [{\synnode{Mod}{AdjP}} [\mention{lucky}]]
+-  [{\synnode{Head}{N\textsubscript{D}}} [\mention{few}]]]]
++  [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{few}]]]]
+ \end{forest}
+ \end{minipage}\hfill
+ \begin{minipage}{.48\linewidth}\centering
+ \begin{forest} nominal tree
+ [NP
+  [{\synnode{Det}{DP}} [\mention{the}, roof]]
+- [{\synnode{Head}{Nom}}
++ [{\synnode{Head}{Nom}}, head edge
+   [{\synnode{Mod}{AdjP}} [\mention{lucky}]]
+-  [{\synnode{Head}{Nom}}, before drawing tree={x+=1.5em}
++  [{\synnode{Head}{Nom}}, head edge, before drawing tree={x+=1.5em}
+    [{\synnode{Mod--Head}{DP}}, no edge
+-    [{\synnode{Head}{D}} [\mention{few}]]]
++    [{\synnode{Head}{D}}, head edge [\mention{few}]]]
+    {\draw[-] (!uu.south) -- (); \draw[-,line width=1pt] (!u.south) -- (); }]]]
+ \end{forest}
+ \end{minipage}
+@@ -379,19 +379,19 @@
+ \begin{minipage}{.48\linewidth}\centering
+ \begin{forest} nominal tree
+ [NP
+- [{\synnode{Head}{Nom}}
++ [{\synnode{Head}{Nom}}, head edge
+   [{\synnode{Mod}{AdvP}} [\mention{hardly}]]
+-  [{\synnode{Head}{N\textsubscript{D}}} [\mention{anyone}]]
++  [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{anyone}]]
+   [{\synnode{Mod}{AdjP}} [\mention{present}]]]]
+ \end{forest}
+ \end{minipage}\hfill
+ \begin{minipage}{.48\linewidth}\centering
+ \begin{forest} nominal tree
+ [NP
+- [{\synnode{Head}{Nom}}, before drawing tree={x+=4em}
++ [{\synnode{Head}{Nom}}, head edge, before drawing tree={x+=4em}
+   [{\synnode{Det--Head}{DP}}, no edge
+    [{\synnode{Mod}{AdvP}} [\mention{hardly}]]
+-   [{\synnode{Head}{D}} [\mention{anyone}]]]
++   [{\synnode{Head}{D}}, head edge [\mention{anyone}]]]
+   {\draw[-] (!uu.south) -- (); \draw[-,line width=1pt] (!u.south) -- (); }
+   [{\synnode{Mod}{AdjP}} [\mention{present}]]]]
+ \end{forest}

@@ -1,0 +1,22 @@
+File: /tmp/dnoun-consolidation-count-before.tex
+Encoding: utf8
+Words in text: 8720
+Words in headers: 135
+Words outside text (captions, etc.): 839
+Number of headers: 30
+Number of floats/tables/figures: 11
+Number of math inlines: 7
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  91+1+0 (1/0/0/0) _top_
+  461+2+153 (1/1/0/0) Section: The question}\label{sec:intro
+  752+13+45 (3/1/0/0) Section: Categorization, headedness, and function}\label{sec:alternatives
+  2240+28+168 (6/3/0/0) Section: The D-noun analysis}\label{sec:proposal
+  1812+36+337 (8/4/0/0) Section: Evidence for nominal structure}\label{sec:evidence
+  527+4+51 (1/0/0/0) Section: Coordinate subcategories and inheritance}\label{sec:inheritance
+  959+24+45 (4/0/0/0) Section: Restricted members and disputed boundaries}\label{sec:articles
+  1626+22+40 (4/2/7/4) Section: Structural consequences and grammatical economy}\label{sec:economy
+  161+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

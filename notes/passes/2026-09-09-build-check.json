@@ -1,0 +1,42 @@
+{
+  "determinatives-as-nouns": {
+    "errors": [],
+    "overfull": [
+      "Overfull \\hbox (4.46857pt too wide) in paragraph at lines 277--278",
+      "Overfull \\hbox (5.04185pt too wide) in paragraph at lines 353--354",
+      "Overfull \\hbox (4.2891pt too wide) in paragraph at lines 426--427",
+      "Overfull \\hbox (1.27979pt too wide) in paragraph at lines 534--535"
+    ],
+    "warnings": [
+      "Package fancyhdr Warning: \\fancyhead's `E' option without twoside option is use",
+      "Package fancyhdr Warning: \\fancyfoot's `E' option without twoside option is use",
+      "Package microtype Warning: Unable to apply patch `footnote' on input line 20.",
+      "LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined",
+      "LaTeX Font Warning: Some font shapes were not available, defaults substituted."
+    ],
+    "pages": "Pages:           24",
+    "unresolved_citations_references": []
+  },
+  "matrix-audit": {
+    "errors": [],
+    "overfull": [],
+    "warnings": [
+      "Package fancyhdr Warning: \\fancyhead's `E' option without twoside option is use",
+      "Package fancyhdr Warning: \\fancyfoot's `E' option without twoside option is use",
+      "Package microtype Warning: Unable to apply patch `footnote' on input line 17."
+    ],
+    "pages": "Pages:           3",
+    "unresolved_citations_references": []
+  },
+  "corpus-documentation": {
+    "errors": [],
+    "overfull": [],
+    "warnings": [
+      "Package fancyhdr Warning: \\fancyhead's `E' option without twoside option is use",
+      "Package fancyhdr Warning: \\fancyfoot's `E' option without twoside option is use",
+      "Package microtype Warning: Unable to apply patch `footnote' on input line 17."
+    ],
+    "pages": "Pages:           3",
+    "unresolved_citations_references": []
+  }
+}

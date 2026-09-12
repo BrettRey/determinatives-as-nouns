@@ -1,0 +1,2 @@
+CGELBank drawtex_rec, https://github.com/nert-nlp/cgel/blob/main/cgel.py#L396-L427
+Verified against local checkout at d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c and current upstream.

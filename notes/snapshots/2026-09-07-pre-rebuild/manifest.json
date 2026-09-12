@@ -1,0 +1,25 @@
+{
+  "purpose": "Working-copy baseline before the authorized September 2026 rebuild; submitted packages remain separately preserved.",
+  "files": [
+    {
+      "source": "main.tex",
+      "sha256": "47d3e44d51b14e770f69709a67a5e2d3cf97c3c7bcdee91318163a15c2b8119e",
+      "bytes": 74041
+    },
+    {
+      "source": "main.pdf",
+      "sha256": "2a599d05fef3a91b76d6a092feea632346249d8e8370ba3f7d31dc56023a47d3",
+      "bytes": 139705
+    },
+    {
+      "source": "references-local.bib",
+      "sha256": "3d4f51642b20049e6317c9357cb7df304548272375d13503839f75e0cf887b2a",
+      "bytes": 126
+    },
+    {
+      "source": "notes/distance-verification.py",
+      "sha256": "8683a53fc1805bcb244fb183d42ce0be072e8012115772e5542347694dfcc6df",
+      "bytes": 2222
+    }
+  ]
+}

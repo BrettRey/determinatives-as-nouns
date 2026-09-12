@@ -13,3 +13,9 @@
 
 # macOS
 .DS_Store
+
+# referee reports are not ours to publish
+reviews/ell-decision-*.md
+
+# Local extracts from copyrighted reference works
+notes/passes/*-source-page-*.txt

@@ -1,0 +1,26 @@
+
+=== terminology audit: determinatives-as-nouns.tex ===
+flag term                            first use   gloss  n   
+FLAG determinative                   title:214   NO     84  
+       ^ t English determinatives belong within Noun, preferably as a fourth coordinate s
+FLAG projection                      abstract:214NO     33  
+       ^ oun and a projection rule spanning separate noun and determinative categories. T
+FLAG inheritance                     abstract:214NO     9   
+       ^ s between inheritance through Noun and a projection rule spanning separate noun
+     nominal                         abstract:214yes    71  
+     fragment                        abstract:214yes    24  
+     determiner                      body:225    NO     39  
+     D-noun analysis                 body:221    yes    27  
+     domain                          body:434    yes    11  
+     Argument use                    body:549    yes    11  
+     profile                         body:329    yes    10  
+     restrictor                      body:522    NO     8   
+     use permissions                 body:623    NO     3   
+     structural saturation           body:430    NO     2   
+     determinative-noun              body:221    yes    1   
+     fusion of functions             body:231    yes    1   
+     valency                         body:313    NO     1   
+     productivity                    body:413    yes    1   
+     defective                       body:595    NO     1   
+
+3 flag(s): term used unglossed in front matter, or watchlist term never glossed at first use.

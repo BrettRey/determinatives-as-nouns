@@ -1,0 +1,119 @@
+{
+  "source_sha256": "6b754a70a5b7b0570570906a9fbf9721c0c8a29982972e690cab8deba6e36d87",
+  "trees": {
+    "count": 11,
+    "changed_tree": "Figure 6 ordinary-Head panel: Mod:AdvP has Head:NP as its sibling; that inner NP heads Nom containing anyone and present; ten other trees unchanged",
+    "markdown": "Unary branches rendered vertically; fusion links retained"
+  },
+  "schemata": {
+    "count": 4,
+    "change": "All four schemata unchanged; attachment conditions made explicit in adjacent prose"
+  },
+  "numbered_examples": {
+    "count": 2,
+    "words_unchanged": true,
+    "format_change": "Upright square brackets"
+  },
+  "tables": {
+    "count": 5,
+    "changes": "Comparison caption and internal-differences cell revised; four other tables unchanged"
+  },
+  "citations": {
+    "unchanged_keys": [
+      "Huddleston2021",
+      "Payne2007",
+      "abney1987",
+      "bruening2020nominal",
+      "huddleston2002",
+      "hudson2004determiners",
+      "hudson2010wordgrammar",
+      "lipseylancaster1956secondbest",
+      "lyons1968",
+      "lyons1999",
+      "palmer1924",
+      "payne2010",
+      "payne2013anaphoric",
+      "postal1966",
+      "pullummiller2022nps",
+      "pullumwilson1977",
+      "reynolds2021",
+      "reynolds2023unified",
+      "reynolds2025proformgender",
+      "reynolds2026numerals",
+      "sommerstein1972",
+      "spinillo2004reconceptualising"
+    ],
+    "unresolved": []
+  },
+  "protected_files_unchanged": 70,
+  "author_annotations_unchanged": true,
+  "reading_copy": {
+    "file": "notes/determinatives-as-nouns-review-2026-09-12-head-consistency.md",
+    "trees": 11,
+    "schemata": 4,
+    "tables": 5,
+    "notes": 14,
+    "images": 0,
+    "pandoc_warnings": 0
+  },
+  "build": {
+    "pages": 28,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "unresolved_references": 0,
+    "sequence": "Full XeLaTeX/Biber build, followed by one XeLaTeX pass for the Figure 6 NP-layer correction",
+    "biber": "2.21 temporary arm64 extraction",
+    "existing_warnings": [
+      "fancyhdr E field in one-sided document",
+      "microtype footnote patch",
+      "EB Garamond bold substitution"
+    ],
+    "image_inspection": "Deferred at author request; PDF text and page distribution checked"
+  },
+  "page_text_counts": [
+    328,
+    514,
+    174,
+    286,
+    529,
+    521,
+    255,
+    522,
+    352,
+    360,
+    545,
+    475,
+    498,
+    381,
+    303,
+    518,
+    395,
+    522,
+    523,
+    507,
+    446,
+    515,
+    506,
+    293,
+    477,
+    192,
+    396,
+    75
+  ],
+  "texcount": {
+    "before": {
+      "Words in text": 8390,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 848,
+      "total": 9367
+    },
+    "after": {
+      "Words in text": 8334,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 875,
+      "total": 9338
+    }
+  },
+  "net_words_added": -29,
+  "review_scope": "Author-specified consistency repair: ordinary Head retained throughout determinatives; peripheral versus internal attachment fixed by construction; anaphoric genitive fusion explicit; abstract and comparative accounting aligned"
+}

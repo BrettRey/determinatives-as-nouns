@@ -1,0 +1,34 @@
+
+Found 6 potential style violation(s):
+
+
+=== matrix-audit.tex ===
+  Line 26: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    There are no common or proper nouns. The analysis can therefore compare the s...
+  Line 39: Underscore subscript - use \textsubscript{}
+    The two matrices differ by 77 removed columns (76 singleton features and one ...
+  Line 47: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    The published k-groups code records a single random start and no seed. After ...
+  Line 63: Uncontracted demonstrative + auxiliary 'This is' - contract if natural or rephrase
+    Removing 50 word-component columns changes best-objective agreement to 131/13...
+  Line 67: Underscore subscript - use \textsubscript{}
+    The accompanying \nolinkurl{analysis/README.md} describes the inputs and repr...
+  Line 73: Uncontracted negative auxiliary 'has not' - prefer 'hasn't' unless contrast/emphasis requires the full form
+    The prepared notice \nolinkurl{analysis/public-matrix-correction.txt} identif...
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- matrix-audit.tex ---
+    69 sentences | median 13 | mean 14.7 | middle half 10-18 (8 words)
+         1-9  ###############            14   20%
+       10-14  ########################   23   33%
+       15-19  ###################        18   26%
+       20-24  ##########                 10   14%
+       25-29  ####                        4    6%
+       30-34                              0    0%
+       35-39                              0    0%
+         40+                              0    0%
+    [advisory] 62% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

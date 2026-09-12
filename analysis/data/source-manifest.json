@@ -1,0 +1,19 @@
+{
+  "retrieved": "2026-09-07",
+  "lingbuzz_url": "https://ling.auf.net/lingbuzz/005747/current.file",
+  "lingbuzz_download_sha256": "a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7",
+  "files": [
+    {
+      "file": "matrix155-lingbuzz.csv",
+      "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/literature/Reynolds2021_LingBuzz_feature_matrix.csv",
+      "sha256": "a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7",
+      "bytes": 47016
+    },
+    {
+      "file": "wordlist-first-cut-source.csv",
+      "source_path": "/Users/brettreynolds/Documents/PhD/TestCGELdet-pron/WordListFirstCut.csv",
+      "sha256": "037e12b17cf0f54c0f8e32b1d0db3a575c0b85ff6686c6615049af06d9dce050",
+      "bytes": 110159
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -26,7 +26,7 @@
+ \maketitle
+ 
+ \begin{abstract}
+-I argue that English determinatives belong within Noun alongside common nouns, proper nouns, and pronouns. Their combined semantic, syntactic, and morphological profile supports the grouping; quantificational common nouns provide particularly close connections. Adverbial premodification and grade distinguish determinatives within it. I examine restricted articles and determinatives' degree-modifier uses. The proposed hierarchy makes nominal projection inherited, unifying bare, partitive, and externally determined uses under ordinary Head structure. A matched grammatical fragment compares separate-D alternatives and identifies the costs of restricting modifier generalizations to subcategories.
++I argue that English determinatives belong within Noun alongside common nouns, proper nouns, and pronouns. Their combined semantic, syntactic, and morphological profile supports the grouping; quantificational common nouns provide particularly close connections. Adverbial premodification and grade distinguish determinatives within it. Lexical and constructional permissions within the subcategory accommodate restricted articles and degree-modifier uses. The proposed hierarchy makes nominal projection inherited, unifying bare, partitive, and externally determined uses under ordinary Head structure. A matched grammatical fragment compares separate-D alternatives and identifies the costs of restricting modifier generalizations to subcategories.
+ \end{abstract}
+ 
+ \noindent\textbf{Keywords:} determinatives, nouns, lexical categories, noun phrases, English
+@@ -280,19 +280,19 @@
+ 
+ Adverbial premodification needs two levels distinguished. Within a common-noun Nom, premodifiers are normally adjectival or nominal. At the edge of a whole NP, adverbs are less restricted: compare \mention{only you}, \mention{for almost my entire life}, and \mention{Usually a careful driver, Anne found her mind wandering}. Here \mention{only}, \mention{almost}, and \mention{usually} modify NPs containing their own heads and, where present, determiners. \textit{CGEL} calls these \term{peripheral modifiers} \citep[430--431]{huddleston2002}.
+ 
+-These levels remain distinct when one NP is embedded inside another. In \mention{the very few people}, \mention{very few} can be an NP functioning as Mod, with \mention{very} peripheral to the NP headed by \mention{few}. The determiner \mention{the} belongs to the larger NP. Its position before \mention{very} doesn't make \mention{very} internal to the smaller NP.
+-
+-The same attachment is available in independent \mention{the very few who objected}, with the inner NP realizing Mod--Head fusion. Alternatively, an ordinary-Head analysis can place \mention{very} within the nominal headed by \mention{few}. Nounhood permits both options: it doesn't itself eliminate fusion (§\ref{sec:saturation}). The example therefore doesn't establish that internal AdvP modification is unavoidable.
+-
+-\textit{CGEL} already observes overlap between DP modifiers and peripheral NP modifiers, with some attachment decisions uncertain \citep[431]{huddleston2002}. Replacing DP with NP makes peripheral attachment available within determinative-headed projections. Where an ordinary-Head account instead chooses internal attachment, it needs the corresponding modifier permission. That is a property of the chosen structure, rather than a cost forced by the outer determiner.
+-
+-NP modifiers provide a further connection. Determinatives permit determinative premodifiers such as \mention{this} in \mention{this much} \citep[393]{huddleston2002}. Under the proposed analysis, this is an NP modifier in another NP. Comparative determinatives also take established NP modifiers: \mention{a lot} in \mention{a lot fewer}, alongside \textit{CGEL}'s \mention{a lot more than fifty} \citep[432]{huddleston2002}. These permissions remain specific to the head and construction.
++\textit{CGEL} already observes overlap between DP modifiers and peripheral NP modifiers, with some attachment decisions uncertain \citep[431]{huddleston2002}. The D-noun analysis assigns peripheral attachment to adverbial premodifiers of determinative-headed NPs without external determination: \mention{almost every}, \mention{hardly any}, \mention{hardly anyone present}, and \mention{almost ten}.
++
++NP embedding preserves this distinction. In \mention{the very few people}, I analyse \mention{very few} as an NP functioning as Mod, with \mention{very} peripheral to the NP headed by \mention{few}. The determiner \mention{the} belongs to the larger NP; the smaller NP has no external Det.
++
++Independent \mention{the very few who objected} instead has \mention{few} as ordinary Head and \mention{very} as an internal modifier of Nom, like \mention{lucky} in \mention{the lucky few}. The same allocation applies to \mention{the very many} and \mention{the almost thirty who came}. In these ordinary-Head structures, the adverb follows the NP's own external Det and occupies its internal premodifier position.
++
++NP modifiers provide a further connection. Determinatives permit determinative premodifiers such as \mention{this} in \mention{this much} \citep[393]{huddleston2002}. Comparative determinatives also take established NP modifiers: \mention{a lot} in \mention{a lot fewer}, alongside \textit{CGEL}'s \mention{a lot more than fifty} \citep[432]{huddleston2002}. Under the proposed analysis, these are peripheral NP modifiers of a determinative-headed NP without external Det. Their permissions remain specific to the head and construction.
+ 
+ \textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in the constructed \mention{the changes globally to the climate}. They also analyse \mention{almost} as modifying the attributive nominal \mention{textbook} in \mention{an almost textbook case} \citep[p.~75, n.~3]{payne2010}. Adverbial modification therefore isn't categorically excluded from Noun, even internally. Its broader availability with determinatives remains a difference of distribution within the proposed category.
+ 
+ Postmodifier permissions also overlap. Common nouns freely take integrated relative clauses; personal pronouns permit a restricted range, including \mention{we who have read the report} \citep[430]{huddleston2002}. Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}. Section~\ref{sec:modification} examines this shared construction.
+ 
+-The comparison therefore concerns modifier selection as well as attachment. Determinative-headed NPs accept modifiers that other NPs often exclude, but their structural analysis can reuse peripheral modification. The matched ordinary-Head fragment below admits internal attachment too, subject to head-specific permissions. Section~\ref{sec:costs} separates those descriptive choices from the primary-category decision.
++Among the determinatives considered here, internal AdvP premodification is needed only for gradable quantifiers and cardinals in externally determined independent uses.
+ 
+ \subsection{Inflection}\label{sec:inflection}
+ 
+@@ -348,7 +348,7 @@
+ 
+ \textit{CGEL} also uses fusion with nouns. Anaphoric \mention{mine}, understood as \enquote*{my car}, combines the possessive relation with an understood nominal description and receives a fused analysis. Predicative \mention{mine}, as in \mention{it's mine}, can instead mean \enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \citep[410--411, 470--471]{huddleston2002}. A suitable context may permit either reading.
+ 
+-This distinction shows why nounhood and fusion are compatible. Ordinary headedness follows here from the proposed projection rules; it doesn't require eliminating every fused construction containing a noun. The analysis of independent genitives, including \mention{Kim's} and \mention{mine}, falls outside the fragment in §\ref{sec:fragment}.
++This distinction shows why nounhood and fusion are compatible. Ordinary headedness follows here from the proposed projection rules; it doesn't require eliminating every fused construction containing a noun. I retain \textit{CGEL}'s fusion analysis for anaphoric independent genitives such as \mention{mine}, while assigning ordinary Head to independent determinatives such as \mention{few}.
+ 
+ \subsection{Partitives locate the quantificational head}
+ 
+@@ -445,10 +445,11 @@
+ \begin{minipage}{.48\linewidth}\centering
+ \begin{forest} nominal tree
+ [NP
+- [{\synnode{Head}{Nom}}, head edge
+-  [{\synnode{Mod}{AdvP}} [\mention{hardly}]]
+-  [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{anyone}]]
+-  [{\synnode{Mod}{AdjP}} [\mention{present}]]]]
++ [{\synnode{Mod}{AdvP}} [\mention{hardly}]]
++ [{\synnode{Head}{NP}}, head edge
++  [{\synnode{Head}{Nom}}, head edge
++   [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{anyone}]]
++   [{\synnode{Mod}{AdjP}} [\mention{present}]]]]]
+ \end{forest}
+ \end{minipage}\hfill
+ \begin{minipage}{.48\linewidth}\centering
+@@ -462,16 +463,16 @@
+   [{\synnode{Mod}{AdjP}} [\mention{present}]]]]
+ \end{forest}
+ \end{minipage}
+-\caption{\mention{Hardly anyone present} with ordinary Head (left) and fusion (right). Both post-head Mod positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom, following \textcite[p.~582, (13d)]{Payne2007}. Modifier-phrase interiors are suppressed.}\label{fig:compound}
++\caption{\mention{Hardly anyone present} with ordinary Head (left) and fusion (right). On the left, \mention{hardly} is peripheral to NP and \mention{present} is internal to Nom. Both post-head Mod positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom, following \textcite[p.~582, (13d)]{Payne2007}. Modifier-phrase interiors are suppressed.}\label{fig:compound}
+ \end{figure}
+ 
+-In the ordinary-Head tree shown here, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. The compound construction supplies the post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective. The compound's ordinary argument use and exclusion of external determination are further lexical conditions; the premodifier and restrictor slots aren't unrestricted Nom dependents.
++In the ordinary-Head tree, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. Compounds exclude external determination, so \mention{hardly} occupies the NP periphery. The compound construction supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective.
+ 
+ The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor. When both occur, the relative follows it: \mention{something useful that I found}. \textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition \citep[423]{huddleston2002}.
+ 
+ This division extends to \mention{someone} and \mention{everybody}: the compound family licenses nominal argument use and post-head restrictors, while each base supplies its own premodifier permissions. CGELBank attests the post-head pattern in \mention{I need something reliable and good looking}.\footnote{Sentence \href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt-test_iaa50.cgel\#L179-L181}{\nolinkurl{answers-20111024111513AAAQhAO_ans-0003}} in \nolinkurl{ewt-test_iaa50.cgel}.}
+ 
+-Fusion reuses the DP--Nom boundary to separate the two modifier domains. The displayed ordinary-Head tree locates both within Nom, assigning their restrictions to the determinative base and compound construction. Peripheral NP attachment for \mention{hardly} is another possibility (§\ref{sec:payne}); either structure retains the compound's post-head restrictor condition.
++Both accounts separate the modifier domains structurally: fusion uses the DP--Nom boundary, and ordinary headedness uses the NP--Nom boundary. The determinative base selects the premodifier, while the compound construction licenses the internal restrictor.
+ 
+ \subsection{Predicative uses and their restrictions}\label{sec:predication}
+ 
+@@ -602,7 +603,7 @@
+ 
+ A singular count common noun such as \mention{book} faces a different restriction from an article. In \mention{a book}, its requirement for determination is satisfied; bare \ungram{\mention{Book arrived}} leaves that requirement unsatisfied. \mention{Books arrived} has no such requirement. Requiring determination for a common noun doesn't itself block an article-headed NP from argument use. An article's exclusion from argument use must still be stated separately.
+ 
+-\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almost} can modify the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. The construction \mention{the lucky few} permits the external determiner and adjectival modifier shown in Figure~\ref{fig:few}.
++\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almost} modifies the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. Externally determined \mention{few} permits internal adjectival \mention{lucky} and adverbial \mention{very}, preserving ordinary Head in both constructions. In \mention{hardly anyone present}, \mention{hardly} is peripheral to NP and the restrictor \mention{present} is internal to Nom.
+ 
+ Keeping ordinary headedness while retaining primary D gives the strongest separate-D alternative. It retains the NP and use-permission rules, but replaces the lexical-head restriction in Nom with:
+ \[
+@@ -632,7 +633,7 @@
+ 
+ \begin{table}[H]
+ \centering\small
+-\caption{Comparative accounting. These are descriptive commitments, not numerical scores. The degree-use comparison extends the ordinary-Head accounts beyond the fragment's NP-internal constructions.}\label{tab:economy}
++\caption{Comparative accounting. These are descriptive commitments, not numerical scores. Extending the accounts to degree uses incurs the same NP-modifier cost under both ordinary-Head taxonomies; that cost favours retaining DP, without deciding the primary-category boundary.}\label{tab:economy}
+ \setlength{\tabcolsep}{3pt}
+ \begin{tabular}{>{\raggedright\arraybackslash}p{2.2cm}*{3}{>{\raggedright\arraybackslash}p{3.45cm}}}
+ \toprule
+@@ -640,7 +641,7 @@
+ \midrule
+ Shared structural core & Nom--NP and ordinary Head across bare, partitive, and externally determined uses. Adjectival fusion retained. & Same projection and Head relations as D-noun. Adjectival fusion retained. & DP plus nominal structure; Det--Head or Mod--Head for independent determinatives. Fusion shared with adjectives. \\
+ Primary categories & Determinative inside Noun: one fewer primary category. & Determinative separate from Noun. & Determinative separate from Noun. \\
+-Internal differences & Modifier permissions stated for subcategories. Internal attachment, where chosen, narrows Noun generalizations. Compound restrictor order and non-recursion retained. & Same modifier permissions and compound conditions, stated for primary D. & DP and Nom separate modifier domains. Same compound restrictor order and non-recursion. \\
++Internal differences & Internal AdvP permission for externally determined gradable quantifiers and cardinals narrows Noun generalizations. Compound restrictor order and non-recursion retained. & Same modifier permissions and compound conditions, stated for primary D. & DP and Nom separate modifier domains. Same compound restrictor order and non-recursion. \\
+ Related forms and uses & Cardinal determinatives and cardinal nouns fall within Noun, as do the three lexemes spelled \mention{one}. Internal distinctions retained. & Determinative cardinals and determinative \mention{one} remain primarily separate from nominal counterparts. & Same primary-category divisions as separate D with ordinary Head. \\
+ Restrictions required & Article-use permissions and \mention{no}/\mention{none} selection retained. Degree uses extend the already qualified restriction on NP modifiers in attributive AdjPs. & Same retained permissions and form selection. Same degree-related extension when NP projection includes these uses. & Same article permissions and form selection. DP--NP distinction retains the degree contrast, including exceptional NP constructions. \\
+ \bottomrule
+@@ -649,7 +650,7 @@
+ 
+ The articles' restrictions, \mention{no}/\mention{none} form selection, and the compound restrictor conditions are already required in the separate-D grammar. Retaining them isn't an added cost of D-noun. Likewise, differences among existing noun subcategories in determination and modification remain in place (Table~\ref{tab:existing}).
+ 
+-Modifier structure offers choices rather than a single taxonomic test. Peripheral attachment can reuse NP grammar, including inside a smaller NP in Mod function (§\ref{sec:payne}). Where the ordinary-Head description uses internal AdvP attachment, it needs corresponding permissions within Nom. The cost of generalizing NP degree modification is firmer: it applies to both ordinary-Head accounts and extends an existing restriction with an existing \mention{a lot} exception (§\ref{sec:enough}).
++Both ordinary-Head accounts use peripheral attachment without external determination and internal AdvP attachment with externally determined gradable quantifiers and cardinals (§\ref{sec:payne}). D-noun states that internal permission within Noun. Generalizing NP degree modification carries a further cost for both accounts, extending the already qualified restriction with its \mention{a lot} exception (§\ref{sec:enough}).
+ 
+ On shared structure, the ordinary-Head accounts tie. D-noun reduces the number of primary categories by one, retaining determinative as a subcategory. The preference for that grouping depends on the semantic, syntactic, and morphological comparison, especially the common-noun connections in §\ref{sec:quant-nouns}.
+ 

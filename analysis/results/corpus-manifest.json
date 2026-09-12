@@ -1,0 +1,76 @@
+{
+  "repository": "https://github.com/nert-nlp/cgel",
+  "commit": "d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c",
+  "scope": "Four top-level gold dataset files; trial, oneoff, and duplicate IAA files excluded.",
+  "inference_limit": "Annotation inventory, not a random sample or independent test of CGEL categories.",
+  "files": [
+    {
+      "file": "datasets/twitter.cgel",
+      "sha256": "b1ecc28399391ae82d260a9d1e08689aa08e4f26fb2ee518605af1a69bf1808c"
+    },
+    {
+      "file": "datasets/ewt.cgel",
+      "sha256": "ed67213fd8aebcf45bed35fb4aba8f0e242d0df7c7de1f979fe82dabeed10554"
+    },
+    {
+      "file": "datasets/ewt-test_pilot5.cgel",
+      "sha256": "0dff5407f8d26e2bc95a7b76f1d511f921d4e71b9e108ef348d4cdcc9378f5bb"
+    },
+    {
+      "file": "datasets/ewt-test_iaa50.cgel",
+      "sha256": "4929bb7ea5c98d247204c090259584c2c7fe167507b516d391dde61e50806e8b"
+    }
+  ],
+  "totals": {
+    "trees": 220,
+    "lexical_nodes": 3390,
+    "D_tokens": 387
+  },
+  "functions": {
+    "Det": 297,
+    "Mod": 18,
+    "Det-Head": 65,
+    "Marker": 1,
+    "Flat": 4,
+    "Coordinate": 2
+  },
+  "det_head_lemmas": [
+    "2.3",
+    "20",
+    "200",
+    "21",
+    "22",
+    "28",
+    "30",
+    "5",
+    "53",
+    "a few",
+    "all",
+    "another",
+    "anybody",
+    "anyone",
+    "anything",
+    "anywhere",
+    "both",
+    "each",
+    "enough",
+    "everybody",
+    "everyone",
+    "everything",
+    "least",
+    "many",
+    "more",
+    "much",
+    "no one",
+    "none",
+    "once",
+    "one",
+    "some",
+    "someone",
+    "something",
+    "somewhere",
+    "that",
+    "this",
+    "which"
+  ]
+}

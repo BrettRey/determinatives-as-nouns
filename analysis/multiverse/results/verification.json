@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "numpy_version": "2.4.2",
+  "two_group_specifications": 224,
+  "core_specifications": 170,
+  "domain_transfer_fits": 156,
+  "distance_matrices_independently_reconstructed": 98,
+  "energy_fits_with_100_starts": 48,
+  "protected_preexisting_files_unchanged": 31,
+  "legacy_control_matched": 125,
+  "checks": [
+    "source hashes, fixed inventory and feature/weight alignment",
+    "reference agreement, adjusted Rand index, balanced accuracy",
+    "direct pairwise distances, energy and PAM objectives, silhouette",
+    "energy objective-based start selection and selected-fit convergence",
+    "all core coassignment cells and per-form membership counts",
+    "legacy result against the pre-existing audit",
+    "domain disjointness and exact duplicate/complement leakage exclusions",
+    "all domain-transfer log losses, Brier scores, per-feature and per-item losses"
+  ]
+}

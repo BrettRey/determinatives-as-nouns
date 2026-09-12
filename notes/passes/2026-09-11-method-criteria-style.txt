@@ -1,0 +1,63 @@
+
+Found 10 potential style violation(s):
+
+
+=== determinatives-as-nouns.tex ===
+  Line 329: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 120, 271, 329, 387, 452, ...) - vary if not defining, contrasting, or pivoting
+    The question of lexical classification is distinct from the headedness; The s...
+  Line 603: [warning] Noticeable argumentative-object paragraph-opener cadence (4; lines 120, 419, 498, 603) - vary by making the move directly where possible
+    The question of lexical classification is distinct from the headedness; The c...
+  Line 36: Uncontracted pronoun + auxiliary 'What is' - prefer 'what's'
+    What is the categorial relationship among words such as \mention{some}, \ment...
+  Line 217: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    Determinatives' nominal connections are distributed across the proposed subca...
+  Line 219: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    The D-noun analysis captures shared properties through \term{inheritance}: a ...
+  Line 273: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \textcite[42--47]{payne2010} establish that adverbs can postmodify common nou...
+  Line 285: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \mention{-ness} is the default suffix for forming nouns from adjectives, but ...
+  Line 316: Uncontracted pronoun + auxiliary 'That is' - prefer 'that's'
+    Independent \mention{some} can form a one-word NP, whereas an NP with \mentio...
+  Line 356: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    The overt quantifier and domain already supply a compositional interpretation...
+  Line 562: Underscore subscript - use \textsubscript{}
+    \operatorname{licensed}(\mathrm{NP}_{h},f,c)\quad &\Longleftrightarrow\quad f...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    Line 314: AI pattern: possible false range; verify the endpoints form a real scale
+      Adjectival independent uses prevent a simple inference from these positions to nounhood. \mention...
+    Line 353: AI pattern: possible false range; verify the endpoints form a real scale
+      \caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the o...
+    Line 452: AI pattern: while maintaining/preserving trade-off frame
+      The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized ...
+    Line 468: AI pattern: possible false range; verify the endpoints form a real scale
+      The nominal constructions reinforce the semantic and morphological connections in §\ref{sec:propo...
+    Line 575: AI pattern: while maintaining/preserving trade-off frame
+      Keeping ordinary headedness while retaining primary D gives the strongest separate-D alternative....
+    Line 579: AI pattern: while maintaining/preserving trade-off frame
+      This projection applies to dependent as well as independent determinatives, eliminating DP from t...
+    Line 589: AI pattern: trailing evaluative -ing supplement
+      The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, exclu...
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    504 sentences | median 14 | mean 14.7 | middle half 10-18 (8 words)
+         1-9  ####################      118   23%
+       10-14  ########################  142   28%
+       15-19  ########################  143   28%
+       20-24  ###########                64   13%
+       25-29  #####                      28    6%
+       30-34  #                           5    1%
+       35-39                              0    0%
+         40+  #                           4    1%
+    [advisory] 61% of sentences fall in 12-26 words; the band is narrow, so check whether the rhythm has flattened
+

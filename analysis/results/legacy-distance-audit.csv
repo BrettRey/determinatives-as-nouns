@@ -1,0 +1,9 @@
+form,comparison,n,sum_hamming,mean_hamming
+the,selected_determinatives,13,319,24.53846153846154
+the,selected_pronouns,8,210,26.25
+a,selected_determinatives,13,387,29.76923076923077
+a,selected_pronouns,8,242,30.25
+this,selected_determinatives,12,297,24.75
+this,selected_pronouns,8,238,29.75
+some,selected_determinatives,12,263,21.916666666666668
+some,selected_pronouns,8,290,36.25

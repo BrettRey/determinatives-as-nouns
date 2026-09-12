@@ -1,0 +1,88 @@
+--- generated baseline
++++ author reading
+@@ -24,7 +24,7 @@
+ 
+ I argue that the combined semantic, syntactic and morphological similarities among these four groups justify one superordinate category, which I write as Noun.
+ 
+-CGEL already includes pronouns within the superordinate Noun category, along with common and proper nouns, on the basis of their phrases’ functions, despite differences in inflection and dependents (Huddleston and Pullum 2002, 327–28). The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive syntax within a broader lexical category (Pullum and Wilson 1977).
++CGEL already includes pronouns within the superordinate Noun category, along with common and proper nouns, on the basis of their phrases’ functions, despite differences in inflection and dependents (Huddleston and Pullum 2002, 327–28). The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive properties within a broader lexical category (Pullum and Wilson 1977).
+ 
+ In the D-noun analysis, determinatives inherit the nominal projection rules of Noun. Under these rules, a determinative heads a nominal (Nom), which heads an NP, just as common nouns, proper nouns and pronouns do. Nom contains the head and its internal dependents, excluding an external determiner. Lexical restrictions govern which uses are available.
+ 
+@@ -84,7 +84,7 @@
+ 
+ The English article–pronoun boundary has long been contested. Palmer (1924) groups “determinative adjectives” with pronouns; Postal (1966) analyses personal pronouns as articles at an intermediate level of representation; Sommerstein (1972) gives the definite article and pronouns underlying NP structure. Hudson places his determining words within pronoun and pronoun within noun (Hudson 2004, 2010).
+ 
+-Ordinary Head structure unifies the bare, partitive and externally determined uses that CGEL divides between Det–Head and Mod–Head fusion. Replacing DP with NP also shares a phrase type across determinatives, genitives and minor nominal determiners. A separate-D grammar can share these structures. Including determinatives within Noun makes nominal projection inherited and brings the determinative, common-noun and proper-noun uses of cardinals within one primary category.
++Ordinary Head structure in NPs unifies the bare (I have some), partitive (some of the), and externally determined (some books [is this right?]) uses that CGEL divides between Det–Head and Mod–Head fusion. Replacing DP with NP also consolidates the set of phrase types functioning as determiner. Including determinatives within Noun makes nominal projection inherited and brings the determinative, common-noun and proper-noun uses of cardinals within one primary category.
+ 
+ Section 2.2 compares the alternatives; §§3–6 develop the classification. The matched fragment in §7.2 then assesses its structural consequences and costs, holding judgments and lexical restrictions fixed. Any economy depends on the resulting grammar, including modifier and use restrictions.
+ 
+@@ -131,7 +131,7 @@
+ 
+ Hudson makes taxonomic inclusion explicit. His noun category contains common noun, proper noun and pronoun (Hudson 2010, 253–54); a determiner is a pronoun whose valency permits the relevant common-noun dependent (Hudson 2004, 9–10). The word’s category remains constant across independent and dependent uses, which differ in their permitted dependents.
+ 
+-Hudson’s criteria are also limited: they centre on licensing a singular count common noun and on mutual exclusion in that use. He sets aside all, cardinal numerals and quantifiers restricted to plural or non-count nouns (Hudson 2004, 9–10). These exclusions leave a substantial part of CGEL’s inventory outside his target grouping. Extending the pronoun analysis to that inventory requires comparing its modifier selection, grade and quantitative meanings with the properties of the existing pronouns.
++Hudson’s criteria are also limited: they centre on licensing a singular count common noun and on mutual exclusion in that use. He sets aside all, cardinal numerals and quantifiers restricted to plural or non-count nouns (Hudson 2004, 9–10). These exclusions leave a substantial part of CGEL’s inventory ambiguously outside his target grouping. Extending the pronoun analysis to that inventory requires comparing its modifier selection, grade and quantitative meanings with the properties of the existing pronouns.
+ 
+ Hudson also permits mutual dependency between determiner and common noun, with different constructions selecting different external heads (Hudson 2004, 7–12). His English temporal adjunct We met that day supports a common-noun head because the adjunct’s distribution depends on day’s temporal meaning. The D-noun analysis retains common-noun headedness in that day while changing the determining word’s superordinate category.
+ 
+@@ -143,35 +143,35 @@
+ 
+ 3.1 The basis for a broader Noun category
+ 
+-Table 2 compares syntax, semantics and morphology across the four proposed noun subcategories. I weigh nominal and adjectival affinities by their breadth across the inventory, recurrence across constructions and specificity to the groups being compared.
++Table 2 compares syntax, semantics and morphology across the four proposed noun subcategories. I weigh noun-categorial and adjective-categorial affinities by their breadth across the inventory, recurrence across constructions and specificity to the groups being compared.
+ 
+ Table 2: Representative profiles of the proposed noun subcategories. Entries describe ranges of behaviour, not properties of every member. External syntax concerns whole phrases; the competing analyses differ over their internal heads. Noun-forming suffixes are listed by their bases, without assuming that noun output establishes noun input. Sources and qualifications follow.
+ 
+-  Dimension               Common noun                                                     Proper noun                                    Pronoun                                             Determinative
+-  ----------------------- --------------------------------------------------------------- ---------------------------------------------- --------------------------------------------------- --------------------------------------------------------------
+-  Inventory               Open                                                            Open to new names                              Closed                                              Closed
+-  External syntax         NP argument functions; genitive Det                             NP argument functions; genitive Det            NP argument functions; genitive Det                 NP argument functions; Det as in some books, someone’s books
+-  Meaning                 Descriptive properties and relations                            Naming in primary uses                         Mainly deixis and anaphora                          Quantification, definiteness and deixis
+-  Pro-form gender         Descriptions contribute to referent construal                   Names identify referents construed by gender   Contrasts expressed by gender-sensitive pro-forms   Contrasts expressed by gender-sensitive pro-forms
+-  Inflection              Number and genitive                                             Genitive; restricted number                    Case, including genitive; reflexive forms           Number; grade; genitive, e.g. something’s
+-  Noun-forming suffixes   -ship: friendship                                               -er: Londoner                                  No parallel established here                        -ness: nothingness
+-  Determination           Broad contrasts; singular count arguments normally require it   Restricted in primary naming uses              Normally excluded                                   Lexically restricted; the few, these three
+-  Internal modification   Productive; usually AdjP premodifiers; relative postmodifiers   Restricted embellishments                      Restricted: poor old me; relative postmodifiers     AdvP premodifiers; NP-internal postmodifiers; the lucky few
+-  Complementation         Selected PPs and clauses                                        Not characteristic of primary naming uses      Normally absent                                     Partitive of-PPs; comparative than-phrases
+-
+-Meaning and reference vary within Noun. Apple conveys a descriptive classification; Kim, in its primary naming use, identifies through a name; she supplies limited descriptive content and depends on context. Determinatives range from deictic this to quantitative many and universal every (Huddleston and Pullum 2002, 358–60, 370–405, 425–28, 515–21). Their semantic affinities cross several boundaries: deixis connects demonstratives with pronouns, while quantity connects determinatives with common nouns such as number and majority.
+-
+-Pro-form gender connects these ways of referring. Descriptions such as the woman and names such as Kim identify referents whose construal bears on pro-form choice. Gender-sensitive pronouns and determinatives express the relevant contrasts: compare personal she and somebody with non-personal it and something (Reynolds 2025).
++  Dimension               Common noun                                                     Proper noun                                         Pronoun                                                                                       Determinative
++  ----------------------- --------------------------------------------------------------- --------------------------------------------------- --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------
++  Inventory               Open                                                            Open to new names                                   Closed                                                                                        Closed
++  External syntax         NP argument functions; genitive Det; mod; adjunct               NP argument functions; genitive Det; mod; adjunct   NP argument functions; genitive Det; interrogative, relative, and exclamative; mod; adjunct   NP argument functions; Det (incl genitive Det); interrogative, relative, and exclamative; mod; adjunct
++  Meaning                 Descriptive properties and relations                            Naming in primary uses                              Mainly deixis and anaphora; interrogation                                                     Quantification, definiteness and deixis; interrogation
++  Pro-form gender         Descriptions contribute to referent construal                   Names identify referents construed by gender        Contrasts expressed by gender-sensitive pro-forms                                             Contrasts expressed by gender-sensitive pro-forms
++  Inflection              Number and genitive                                             Genitive; restricted number                         Case, including genitive; reflexive forms                                                     Number; grade; genitive, e.g. something’s
++  Noun-forming suffixes   -ship: friendship                                               -er: Londoner                                       No parallel established here                                                                  -ness: nothingness
++  Accepts Determination   Broad contrasts; singular count arguments normally require it   Restricted in primary naming uses                   Normally excluded                                                                             Lexically restricted; the few, these three
++  Internal modification   Productive; usually AdjP premodifiers; relative postmodifiers   Restricted AdjP premodifiers; embellishments        Restricted AdjP premodifiers; relative postmodifiers                                          D & AdvP premodifiers; NP-internal postmodifiers; the lucky few
++  Complementation         Selected PPs and clauses                                        Not characteristic of primary naming uses           Normally absent                                                                               Partitive of-PPs; comparative than-phrases
++
++Meaning and reference vary within Noun. Apple conveys a descriptive classification; Kim, in its primary naming use, identifies through a name; she supplies limited descriptive content and depends on context. Determinatives range from deictic this to quantitative many and universal every (Huddleston and Pullum 2002, 358–60, 370–405, 425–28, 515–21). Their semantic affinities cross several boundaries: deixis connects demonstratives with pronouns and some adjectives (proximate, distal), while quantity connects determinatives with a few common nouns such as number and majority and adjectives such as singular and plural.
++
++Pro-form gender (Reynolds 2025) connects these ways of referring. Descriptions such as the woman and names such as Kim identify referents whose construal bears on pro-form choice. Gender-sensitive pronouns and determinatives express the relevant contrasts: compare personal she and somebody with non-personal it and something or who and which .
+ 
+ The semantic distance can be considerable. Every contributes a quantificational relation between a nominal restriction and what’s predicated of its members; Kim identifies an individual through a name.
+ 
+-External syntax supplies a broad overlap in the functions available to the phrases. CGEL makes this the stated ground for including pronouns within Noun (Huddleston and Pullum 2002, 327). A range of determinatives likewise occurs in subject, object and complement-of-preposition positions without another overt nominal head. The examples in §4.1 compare these uses across all four proposed subcategories.
+-
+-Shared functions leave systematic distributional differences. In Who did you see?, interrogative who precedes the inverted auxiliary. Substituting the vicar doesn’t preserve the open interrogative. A common-noun-headed phrase needs an interrogative constituent, as in which vicar. Both expressions have object function, but the construction also requires interrogative properties (Huddleston and Pullum 2002, Ch. 10, §§7.1, 7.9).
+-
+-Adjectival constructions such as the rich also fill nominal argument positions, so external functions alone don’t establish nounhood. Internal syntax extends the comparison: determinatives permit partitive complements, as in some of the wine, and comparative complements, as in more than ten (Huddleston and Pullum 2002, 392–94, 411–12, 432–33).
+-
+-Common nouns permit PPs and clauses, while pronouns and primary naming uses of proper nouns have much more restricted dependents (Huddleston and Pullum 2002, 429–30, 439–43, 517–21). Determinatives share parts of both profiles: restricted determination and modification coexist with nominal complement and postmodifier constructions. Section 3.3 examines their distinctive premodifiers, and §4.4 compares the resulting profile with adjectives.
++External syntax supplies a broad overlap in the functions available to the phrases. CGEL makes this the stated ground for including pronouns within Noun (Huddleston and Pullum 2002, 327). A range of determinatives likewise occurs in subject, object and complement-of-preposition positions without another overt nominal head. The examples in §4.1 compare these uses across all four proposed subcategories. Phrases headed by all four putative noun subcategories also function as modifiers (dog houses, Canada day, the me generation, the few people)
++
++Shared functions leave systematic distributional differences. In W__hat a nice day, exclamative wh__at precedes the NP. No common or proper NP can substitute for what, which CGEL takes to be a pronoun.
++
++AdjPs also overlap in distribution with NPs (e.g., the people/rich, a soccer/round ball, and Jones became president/ill), so external functions alone don’t establish nounhood. Internal syntax extends the comparison: common nouns and determinatives permit partitive complements, as in a bottle/some of the wine, but comparative complements, as in more than ten, aren't shared (Huddleston and Pullum 2002, 392–94, 411–12, 432–33).
++
++Common nouns permit PP and clausal complements, while pronouns and primary naming uses of proper nouns have much more restricted dependents (Huddleston and Pullum 2002, 429–30, 439–43, 517–21). Determinatives share parts of both profiles: restricted determination and modification coexist with nominal complement and postmodifier constructions. Section 3.3 examines their distinctive premodifiers, and §4.4 compares the resulting profile with adjectives.
+ 
+ Inflection supplies overlapping contrasts too. Common nouns inflect for number and genitive; proper nouns permit number distinctions in restricted uses. Pronouns distinguish case, including genitive, and reflexive forms. Within determinative, this/these shows number, few/fewer/fewest grade, and something’s genitive (Huddleston and Pullum 2002, 373, 423–24, 426, 479–80, 521). Number and case connect parts of the inventory with nouns; grade connects another part with adjectives.
+ 

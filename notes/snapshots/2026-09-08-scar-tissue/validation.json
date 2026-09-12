@@ -1,0 +1,12 @@
+{
+  "source_sha256": "68b71d862ee5382f0633d608892a5d2e8318b111448877a7d1c479e64ba43050",
+  "words_before": 9009,
+  "words_after": 8730,
+  "words_cut": 279,
+  "pages": 26,
+  "local_edits": 22,
+  "tables": 8,
+  "trees": 9,
+  "schemata": 4,
+  "proof_inspection": "Deferred at user request"
+}

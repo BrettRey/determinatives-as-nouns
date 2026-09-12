@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage{float}
+\setlength{\headheight}{14pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\emergencystretch=1em
+\AtBeginBibliography{\emergencystretch=1em}
+\setcounter{biburlnumpenalty}{100}
+\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
+\hypersetup{pdftitle={CGELBank concordance and extraction notes}}
+\title{CGELBank concordance and extraction notes}
+\author{Brett Reynolds}
+\date{Supplementary material, September 2026}
+\fancyhead[L]{\small\scshape CGELBank concordance and extraction notes}
+\begin{document}
+\maketitle
+
+\section{Scope and source}
+
+This supplement preserves the CGELBank concordance, extraction procedure and annotation counts accompanying \textit{Determinatives as nouns in English}. The article uses selected sentences as attestations of the constructions under discussion. The inventory doesn't estimate productivity or test the competing taxonomies.
+
+CGELBank contains English sentences annotated using categories and functions developed from \textit{The Cambridge grammar of the English language} \citep{reynolds2023unified}. D labels the determinative category; Det and Mod label determiner and modifier functions. The sentences provide inspectable examples. The category and fusion labels encode analytical decisions and can't independently confirm those analyses or their replacements.
+
+The source is the \href{https://github.com/nert-nlp/cgel/tree/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c}{CGELBank repository} at revision \nolinkurl{d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c}, licensed CC BY 4.0. The inventory includes four top-level gold datasets: \nolinkurl{twitter.cgel}, \nolinkurl{ewt.cgel}, \nolinkurl{ewt-test_pilot5.cgel} and \nolinkurl{ewt-test_iaa50.cgel}. Trial material, one-off examples and duplicate versions from the annotation study are excluded. The source manifest records each file's checksum.
+
+\section{Extraction and annotation counts}
+
+The inventory contains 220 sentence trees and 3,390 lexical nodes with overt text. Of those nodes, 387 are annotated D. Multiword lexical nodes count once. Overt source errors and deleted source tokens remain, with the corpus's correction information retained. Lemmas follow the supplied correction or lemma where available and are lowercased. These are annotation-token counts, not whitespace-word counts.
+
+For each D node, extraction follows Head relations upwards to the first non-Head relation, identifying the local function of its projection. The resulting counts are Det (297), Mod (18), Det--Head (65), Marker (1), Flat (4) and Coordinate (2). Det--Head combines determiner and head functions. The concordance records each local phrase, its nearest containing noun phrase (NP) and that NP's function, and the source sentence. Following the projection avoids counting a determiner embedded in a partitive domain as its outer quantifier.
+
+Table~\ref{tab:corpus} compares selected forms. These are counts of annotated uses, not estimates of a lexeme's capacity for independent use.
+
+\begin{table}[H]
+\centering\small
+\caption{Selected forms by local function in CGELBank. Compare forms attested in both Det and Det--Head uses with forms restricted to Det in this sample. Other includes all remaining functions. Counts group forms by corpus lemma, including singular and plural demonstratives.}\label{tab:corpus}
+\begin{tabular}{lrrrr}
+\toprule
+Form & Total & Det & Det--Head & Other \\
+\midrule
+\tablebody{analysis/generated/corpus-table.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+The full inventory contains 65 Det--Head occurrences, all inspected in their source sentences. They include ordinary arguments, partitives, compounds such as \mention{something}, floating quantifiers, degree and frequency expressions, numerical fragments and age supplements. In \mention{about 30 seconds}, for example, the numeral's nominal projection is embedded in the determiner \mention{about 30}. Reporting all 65 as independent argument uses would therefore conflate different constructions.
+
+The sample has no determinative tokens of bare \mention{few}, \mention{either} or \mention{neither}. Its gaps don't establish ungrammaticality. The inventory provides no representative productivity estimate or controlled test of modifier contrasts.
+
+\section{Attestations and identifiers}
+
+Two attestations illustrate independent quantifiers with a recoverable discourse domain:
+\ea\label{ex:attested-quantifiers}
+\ea \mention{Went there yesterday: we are trying to decide between two different Honda models, so we wanted to test-drive both back to back.}
+\ex \mention{I rarely listen to the news or to what politicians or lawyers say because so many tell lies that none have credibility so what's the point?}
+\z\z
+
+In (a), \mention{both} refers to the two Honda models. In (b), \mention{politicians or lawyers} supplies a domain for \mention{many} and \mention{none}. These are examples of independent use with contextual interpretation, not evidence of an antecedent-free reading.
+
+Example (a) is sentence \href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt.cgel\#L651-L654}{\nolinkurl{reviews-083459-0002}} in \nolinkurl{ewt.cgel}. Example (b) has identifier \nolinkurl{newsgroup-groups.google.com_INTPunderground_b2c62e87877e4a22_ENG_20050906_165900-0074}. Both resolve in \nolinkurl{analysis/results/corpus-concordance.csv} and \nolinkurl{analysis/results/corpus-det-head-review.csv}.
+
+CGELBank also attests \mention{I need something reliable and good looking}, sentence \href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt-test_iaa50.cgel\#L179-L181}{\nolinkurl{answers-20111024111513AAAQhAO_ans-0003}} in \nolinkurl{ewt-test_iaa50.cgel}. The original text has \mention{good looking}; the normalized annotation has \mention{good-looking}. The article retains the source wording. This example documents postmodification of a compound determinative; it doesn't test premodification in \mention{the lucky few}.
+
+\section{Reproduction files}
+
+Run \nolinkurl{analysis/corpus_inventory.py} against a checkout at the recorded revision. The script rejects a different Git commit. Its parser requires \texttt{pylatexenc} (audit version 2.11). Commands and environment details are retained in \nolinkurl{analysis/README.md}.
+
+The file \nolinkurl{analysis/results/corpus-manifest.json} records the source revision, dataset checksums, totals and function counts. The concordance and Det--Head review preserve the extracted expressions and their sentence contexts. The selected-form table remains generated from the recorded outputs. An independent review reproduced the extraction outputs and inspected all 65 Det--Head contexts; its report is \nolinkurl{reviews/review-board-20260907-rebuild/corpus.md}.
+
+\printbibliography
+\end{document}

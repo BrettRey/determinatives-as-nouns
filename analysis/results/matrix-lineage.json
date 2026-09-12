@@ -1,0 +1,20 @@
+{
+  "source_sha256": "037e12b17cf0f54c0f8e32b1d0db3a575c0b85ff6686c6615049af06d9dce050",
+  "public_sha256": "a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7",
+  "recovered_sha256": "03315e4a7ab1d4236bda445eede45a7eecc6926be0aad29955d37a23d2fa364d",
+  "word_forms": 138,
+  "working_features": 232,
+  "public_features": 155,
+  "removed_features": 77,
+  "removed_all_zero": 1,
+  "removed_singletons": 76,
+  "shared_feature_cell_changes": 11,
+  "name_changes": {
+    "somewhat_424": "somewhat",
+    "such_435": "such"
+  },
+  "retained_singletons": [
+    "each_other"
+  ],
+  "provenance_limit": "Recovered working matrix; not authenticated as the published analysis input."
+}

@@ -1,0 +1,138 @@
+--- before.tex
++++ revised.tex
+@@ -28,11 +28,39 @@
+ 
+ \section{The question}\label{sec:intro}
+ 
+-What is the categorial relationship among words such as \mention{some}, \mention{me}, \mention{apple} and \mention{Brett}? I argue that all four are nouns. This \term{D-noun analysis} has three commitments of different strength: inclusion within Noun is the principal thesis; ordinary headedness is a further structural proposal; coordinate subcategories are the preferred arrangement pending evidence for a useful intermediate category.
+-
+-When offered apples, a speaker can say either \mention{I'll take some apples} or \mention{I'll take some}. The word \mention{some} quantifies over apples in both expressions, but only the first contains a common noun. The D-noun analysis treats \mention{some} as a determinative noun in both uses.
+-
+-Following \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}), I use \term{determinative} for the category containing articles, demonstratives and quantifiers such as \mention{the}, \mention{this}, \mention{some}, \mention{every} and \mention{many}. I reserve \term{determiner} for a syntactic function within the noun phrase. The distinction separates what kind of word \mention{some} is from what its phrase does. Capitalized Noun names the superordinate category when the distinction matters.
++What is the categorial relationship among words such as \mention{some}, \mention{me}, \mention{apple} and \mention{Brett}? I argue that all four are nouns. I call this the \term{determinative-noun} or \term{D-noun analysis}.
++
++Following \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}), I use \term{determinative} for the category containing articles, demonstratives and quantifiers such as \mention{the}, \mention{this}, \mention{some}, \mention{every} and \mention{many}.\footnote{For a fuller inventory, see the online \href{https://www.cambridge.org/highereducation/api/resources/2AC8DF5CA558F8A6FCDFACD0EAF8EA08}{\enquote{List of determinatives in English}} accompanying \textcite{Huddleston2021}.} I reserve \term{determiner} for a syntactic function within the noun phrase. Capitalized Noun names the proposed superordinate category containing common nouns, proper nouns, pronouns and determinative nouns. The distinction separates what kind of word \mention{some} is from what its phrase does.
++
++Figure~\ref{fig:some} shows the proposed structures for \mention{take some apples} and \mention{take some}. In each tree, \mention{some} heads a \term{nominal} (Nom), which heads a noun phrase (NP). A nominal contains a head noun and its internal dependents, excluding an external determiner. Function labels appear above category labels: Det marks determiner and Obj object. N\textsubscript{D} and N\textsubscript{common} distinguish noun subcategories; V and VP mark verb and verb phrase.
++
++\begin{figure}[htbp]
++\centering
++\begin{minipage}{.60\linewidth}\centering
++\begin{forest} nominal tree
++[VP
++ [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Obj}{NP}}
++  [{\synnode{Det}{NP}}
++   [{\synnode{Head}{Nom}}
++    [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]
++  [{\synnode{Head}{Nom}}
++   [{\synnode{Head}{N\textsubscript{common}}} [\mention{apples}]]]]]
++\end{forest}
++\end{minipage}\hfill
++\begin{minipage}{.38\linewidth}\centering
++\begin{forest} nominal tree
++[VP
++ [{\synnode{Head}{V}} [\mention{take}]]
++ [{\synnode{Obj}{NP}}
++  [{\synnode{Head}{Nom}}
++   [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]]
++\end{forest}
++\end{minipage}
++\caption{The proposed analyses of \mention{take some apples} (left) and \mention{take some} (right). The N\textsubscript{D}--Nom--NP sequence above \mention{some} is shared across uses. Its NP functions as Det within the object on the left and as the whole object on the right.}\label{fig:some}
++\end{figure}
++
++Inclusion of determinatives such as \mention{some} within Noun is the principal thesis. The two structures add the proposal that \mention{some} heads its own NP in both uses. I provisionally favour coordinate subcategories, pending evidence that an intermediate category captures further generalizations.
+ 
+ \textit{CGEL} already places common nouns, proper nouns and pronouns within Noun. It expressly justifies pronoun membership by the functions of pronoun-headed phrases, despite differences in inflection and dependents \citep[327--328]{huddleston2002}. The question is whether determinatives meet comparable grounds for inclusion. Differences from common nouns alone cannot settle that question: the accepted noun subcategories already differ from one another.
+ 
+@@ -71,7 +99,7 @@
+ 
+ Category, headedness and function therefore require separate decisions. A category assignment says which lexical generalizations apply to a word. A headedness analysis identifies a phrase's organizing head. A function label identifies a constituent's relation to its containing construction. An NP can function as determiner, as in \mention{Kim's book}, and a determinative-headed phrase can have another function, as in \mention{the many people} \citep{payne2010,pullummiller2022nps}.
+ 
+-For the trees below, a \term{nominal} (Nom) contains a head noun and its internal dependents, excluding an external determiner. A lexical noun heads a Nom, which heads an NP; this sequence is \term{nominal projection}, and the noun is the NP's ultimate head. Within \mention{almost every experienced teacher}, \mention{almost every} functions as determiner and \mention{experienced teacher} as head nominal. Within the determiner phrase, \mention{almost} modifies \mention{every}.
++The N--Nom--NP sequence illustrated in Figure~\ref{fig:some} is \term{nominal projection}, and the noun is the NP's ultimate head. Within \mention{almost every experienced teacher}, \mention{almost every} functions as determiner and \mention{experienced teacher} as head nominal. Within the determiner phrase, \mention{almost} modifies \mention{every}.
+ 
+ I abbreviate noun and determinative as N and D, and determiner and modifier functions as Det and Mod. Det--Head marks fusion. In the proposed trees, NP\textsubscript{D} is an NP headed by a determinative noun; the subscript identifies a subcategory. \textit{CGEL}'s DP is a dependent phrase in \mention{some apples}, distinct from the whole expression called DP under the DP hypothesis.
+ 
+@@ -156,7 +184,7 @@
+ 
+ \subsection{Nouns already function as determiners}\label{sec:bridge}
+ 
+-Determiner function also cuts across the existing noun subcategories. Compare \mention{my book}, \mention{Kim's book} and \mention{the king's book}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \citep[354--355, 470--471]{huddleston2002}. In the last example, \mention{the} determines \mention{king} inside the genitive NP, while that whole NP determines \mention{book}.
++Determiner function also cuts across the existing noun subcategories. Compare \mention{my book}, \mention{Kim's book} and \mention{the king's book}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function. Their determining role supplies the relevant comparison; accepting the further subject analysis would leave the nounhood argument intact.} In the last example, \mention{the} determines \mention{king} inside the genitive NP, while that whole NP determines \mention{book}.
+ 
+ These expressions establish more than the possibility of a noun in Det function. All three admitted noun subcategories already contribute phrases to that function, subject to the genitive construction's restrictions. The D-noun analysis extends this nominal pattern to determinative-headed phrases. Number, countability and other selectional conditions still distinguish the determining expressions; their shared function doesn't imply unrestricted interchangeability.
+ 
+@@ -177,29 +205,7 @@
+ 
+ \subsection{Dependent and independent uses}
+ 
+-Figure~\ref{fig:some} gives the proposed analyses of \mention{some apples} and independent \mention{some}. In the first tree, the inner NP\textsubscript{D} functions as Det within an NP ultimately headed by the common noun \mention{apples}. In the second, the determinative noun \mention{some} supplies the lexical head of the object NP. The lexeme has the same subcategory in both trees; its containing phrase has a different function.
+-
+-\begin{figure}[tb]
+-\centering
+-\begin{minipage}{.59\linewidth}\centering
+-\begin{forest} nominal tree
+-[NP
+- [{\synnode{Det}{NP\textsubscript{D}}}
+-  [{\synnode{Head}{Nom}}
+-   [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]
+- [{\synnode{Head}{Nom}}
+-  [{\synnode{Head}{N\textsubscript{common}}} [\mention{apples}]]]]
+-\end{forest}
+-\end{minipage}\hfill
+-\begin{minipage}{.36\linewidth}\centering
+-\begin{forest} nominal tree
+-[NP
+- [{\synnode{Head}{Nom}}
+-  [{\synnode{Head}{N\textsubscript{D}}} [\mention{some}]]]]
+-\end{forest}
+-\end{minipage}
+-\caption{The proposed analyses of \mention{some apples} (left) and independent \mention{some} (right). Follow the N\textsubscript{D}--Nom--NP sequence above \mention{some}: it is shared across uses. The resulting phrase functions as Det on the left and as the object in \mention{I'll take some} on the right.}\label{fig:some}
+-\end{figure}
++The genitive comparison clarifies the two analyses in Figure~\ref{fig:some}. In \mention{take some apples}, the NP headed by \mention{some} fills Det, as \mention{Kim's} does in \mention{Kim's book}; the common noun heads the larger NP. In \mention{take some}, \mention{some} heads the whole object NP. The lexeme retains its subcategory and nominal projection across these uses, while its containing phrase fills a different function.
+ 
+ The NP headed by \mention{some} inside \mention{some apples} isn't interchangeable with every NP. The determiner construction selects a determinative-headed phrase, a suitable genitive NP, or another licensed expression. Section~\ref{sec:economy} includes this restriction in the comparison of grammars.
+ 
+@@ -251,6 +257,8 @@
+ 
+ The pattern extends beyond a few compounds or a single lexicalized expression. For this closed category, \term{productivity} concerns the availability of independent use among established members under appropriate conditions, rather than the licensing of new lexical items.
+ 
++Material before a determiner requires a separate comparison. \textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers, \mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers, and \mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives \citep[433--437]{huddleston2002}. The fixed \mention{many a} is a complex determinative restricted to Det function \citep[394]{huddleston2002}. The \mention{half} in \mention{half a cake} is a common noun used as a predeterminer modifier \citep[434]{huddleston2002}. These constructions don't add evidence for independent determinative heads.
++
+ Adjectival independent uses prevent a simple inference from external distribution to nounhood. \mention{The rich} and \mention{the poor} can fill nominal argument positions. Comparative and superlative adjectives also head expressions without a human-class interpretation: \textit{CGEL}'s \mention{the most important of her criticisms} is an NP containing a partitive \mention{of}-phrase \citep[332--333, 416--423]{huddleston2002}.
+ 
+ Independent \mention{some} can form a one-word NP, whereas an NP with \mention{rich} as fused head normally requires a determiner on the human-class reading. That is a local contrast: argument NPs headed by singular count common nouns also need determination.
+@@ -292,6 +300,8 @@
+ 
+ \textit{CGEL} accounts for these facts through Det--Head fusion. Partitives support the determinative's head-like role, while leaving the choice between fusion and ordinary headedness open.
+ 
++The overt quantifier and domain already supply a compositional interpretation of \mention{some of the wine}. A silent common noun would need to explain something further, such as a restriction on interpretation or modification that the overt-head account misses. The construction itself supplies no such requirement. I therefore prefer an overt-head analysis over an otherwise equivalent null-head analysis; fusion remains compatible with that preference.
++
+ The D-noun analysis treats \mention{some} and \mention{some of the wine} as sharing nominal projection, with an added domain phrase in the partitive. Modification provides a further comparison of internal structure.
+ 
+ \subsection{Modification tests the internal analysis}
+@@ -461,11 +471,13 @@
+ 
+ \section{The articles and other restricted members}\label{sec:articles}
+ 
+-Why classify the articles \mention{the} and \mention{a} as nouns if they can't stand independently? Independent uses motivate the D-noun analysis of \mention{some}, \mention{this} and \mention{many}, but the articles require a different argument. \mention{Every} is restricted too, while \mention{no} has the distinct independent form \mention{none} \citep[371--372, 410--411]{huddleston2002}.
++Why classify the articles \mention{the} and \mention{a} as nouns if they can't stand independently? Independent uses motivate the D-noun analysis of \mention{some}, \mention{this} and \mention{many}, but the articles require a different argument. \mention{Every} is restricted too, while \mention{no} has the distinct independent form \mention{none} \citep[371--372, 410--411]{huddleston2002}.\footnote{The restriction concerns ordinary argument use. In \mention{the bigger the better}, \textit{CGEL} assigns \mention{the} modifier function within a comparative phrase \citep[1131--1132, 1135--1136]{huddleston2002}. Its analysis distinguishes this use from Det without licensing an article-headed argument NP. The construction therefore qualifies any claim that \mention{the} is confined to Det.}
+ 
+ Retaining a restricted member requires three kinds of support. First, it should be paradigmatically integrated with independently identified members. Second, it should participate in the category's characteristic semantic and grammatical contrasts. Third, its missing uses should form a local restriction while the positive connections remain. Calling an item \term{defective} summarizes that pattern; it doesn't supply an argument for membership by itself.
+ 
+ The articles meet these conditions within determinative. First, they contrast with demonstratives and quantifiers before common-noun nominals: \mention{the/a/this/every book}. Second, they participate in the same system of definiteness, number and count restrictions: \mention{the} permits singular, plural and non-count targets, while \mention{a} selects a singular count target. Third, their lack of ordinary independent uses leaves that determining pattern intact. These considerations support determinative membership; inclusion within Noun depends on the category-level argument.
++
++The most frequent members in Det use needn't be those with the widest constructional distribution. Frequency in that function alone can't establish which members define the category profile.
+ 
+ Restricted members already occur within Noun. \textit{CGEL} classifies \mention{my} as a pronoun despite its lack of the independent distribution of \mention{mine} \citep[470--471]{huddleston2002}. Its paradigm supplies positive membership evidence. The analogy blocks an exclusion argument; it doesn't establish article nounhood. That conclusion depends on the articles' determinative membership and the category-level case for including determinative within Noun. Their argument-use restriction remains explicit in §\ref{sec:fragment}.
+ 
+@@ -583,6 +595,8 @@
+ 
+ Cardinals illustrate a consequence of broadening Noun. \textcite{reynolds2026numerals} distinguishes determinative uses such as \mention{ten men}, proper-noun uses such as \mention{Room 101}, and common-noun uses such as \mention{tens of pens}. Under the D-noun analysis, these uses fall within one superordinate category, with their differences retained at the subcategory and construction levels. This recasts the cardinal alternation without eliminating it. The argument doesn't extend to ordinals, which that study analyses as adjectives, or turn complex numeral phrases into single lexemes.
+ 
++Complex cardinals also separate category from function. In \mention{two hundred books}, the whole \mention{two hundred} fills Det; internally, \mention{two} modifies the magnitude head \mention{hundred} \citep[§4]{reynolds2026numerals}. In \mention{these two hundred books}, \mention{these} fills Det and \mention{two hundred} is an internal modifier. Including determinatives within Noun preserves these relations. One Det function doesn't entail a limit of one determinative lexeme per NP.
++
+ The shared-Det analysis would lose its claimed economy if determinative-headed and genitive NPs required different projection rules after their independently motivated feature restrictions were held fixed. Such a result would favour retaining the separate phrase types. The present fragment demonstrates a shared analysis; lower overall description length and advantages for learning or processing require further comparison.
+ 
+ \section{Conclusion}\label{sec:conclusion}

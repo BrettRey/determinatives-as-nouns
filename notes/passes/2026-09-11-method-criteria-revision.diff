@@ -1,0 +1,43 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -171,7 +171,7 @@
+ 
+ \subsection{The basis for a broader Noun category}\label{sec:membership}
+ 
+-Table~\ref{tab:existing} compares external and internal syntax, semantics and morphology across the four proposed noun subcategories. Their shared properties occur in different combinations, with systematic differences among subcategories and restrictions on individual members.
++Table~\ref{tab:existing} compares syntax, semantics and morphology across the four proposed noun subcategories. I weigh nominal and adjectival affinities by their breadth across the inventory, recurrence across constructions and specificity to the groups being compared.
+ 
+ \begin{table}[H]
+ \centering\small
+@@ -588,21 +588,29 @@
+ \]
+ The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, excluding a second Det; Mod--Head fills an internal modifier's function and Head of Nom, allowing external determination. Lexical and constructional conditions select the fused function and permitted dependents. These schemata cover independent \mention{few}, \mention{few of them}, \mention{the lucky few} and \mention{hardly anyone present}.
+ 
+-The ordinary-Head accounts thus share nominal projection and Head relations; these benefits don't uniquely favour inclusion within Noun. Dependent determinatives acquire a Nom layer in both. The taxonomic difference lies in whether the lexical head enters this structure by inheritance from Noun or by a rule admitting both N and D.
++The ordinary-Head accounts share nominal projection and Head relations. Once a member's use is licensed, its nominal structure follows from the shared rules; lexical and constructional conditions still determine the available functions and dependents. Dependent determinatives acquire a Nom layer in both. One account supplies these common structural expectations through inheritance from Noun, the other through a rule admitting both N and D.
++
++The disjunction $\{\mathrm{N},\mathrm{D}\}$ groups the same heads for nominal projection. The D-noun analysis expresses this grouping in its lexical hierarchy, giving a point of \term{harmony} between taxonomy and phrase structure. Shared projection supports considering the grouping; its taxonomic rank depends on the broader profile comparison.
+ 
+ A grammar with Hudson's nested classification can use the same permissions and projection rules. Holding those rules fixed, placing the broader pronoun category on determinative's inheritance path from Noun leaves the fragment's judgments unchanged.
+ 
+ \subsection{Existing restrictions, additional costs and consequences}\label{sec:costs}
+ 
++I compare the shared structural core, the number of primary categories, the treatment of internal differences, the placement of related forms and uses, and the restrictions each account needs. I hold the inventory, constructions and readings fixed. Shared rules receive equal credit whether they use inheritance or cross-category licensing.
++
+ Common nouns, proper nouns and pronouns already differ in determination and permitted modifiers (Table~\ref{tab:existing}). Preserving those conditions adds no cost to the D-noun analysis. Separate D likewise restricts adverbial modification and independent use within its own category; moving those restrictions inside Noun doesn't create them.
+ 
+ The premodifier contrast in §\ref{sec:payne} adds a cost. A restriction normally stated for primary Noun now applies to specified noun subcategories, while determinatives retain their adverbial premodifiers. The attributive \mention{almost textbook} exception qualifies the original generalization. Compound constructions also retain the distinction between inherited premodifier permissions and post-head restrictors (§\ref{sec:compounds}).
+ 
+-Further constructions could favour inheritance by reusing nominal rules, or separate D if its boundary captures recurring restrictions otherwise restated within Noun. A fair comparison holds the inventory, constructions and readings fixed.
++On shared structure, the ordinary-Head accounts tie. D-noun reduces the number of primary categories by one, retaining determinative as a subcategory and preserving its internal distinctions.
+ 
+ \textcite{reynolds2026numerals} distinguishes determinative uses such as \mention{ten men}, proper-noun uses such as \mention{Room 101}, and common-noun uses such as \mention{tens of pens}. Under the D-noun analysis, all fall within primary Noun, retaining their subcategory and constructional differences. Ordinals remain adjectives, and complex numeral phrases remain distinct from single lexemes.
+ 
++\textcite[797--798]{payne2013anaphoric} distinguish three lexemes spelled \mention{one}: determinative, anaphoric common noun and generic pronoun. These remain distinct under the D-noun analysis, but all belong within primary Noun.
++
+ Complex cardinals also separate category from function. In \mention{two hundred books}, the whole \mention{two hundred} fills Det; internally, \mention{two} modifies the magnitude head \mention{hundred} \citep[§4]{reynolds2026numerals}. In \mention{these two hundred books}, \mention{these} fills Det and \mention{two hundred} is an internal modifier. One Det function doesn't entail a limit of one determinative lexeme per NP.
++
++The cardinal and \mention{one} cases show how related items or uses remain within one primary category. I favour this alignment with shared projection, accepting the premodifier restriction at subcategory level. These are connected benefits of a broader Noun category; they don't establish a unique minimum for the grammar.
+ 
+ If determinative-headed and genitive expressions require different projection rules after their independently motivated restrictions are held fixed, the shared-projection proposal in §\ref{sec:det-uniform} loses its advantage. That would favour separate phrase types. Retaining a separate primary D requires the further case that the category boundary captures the recurring differences better than a determinative subcategory within Noun.
+ 

@@ -1,0 +1,17 @@
+{
+  "before": {
+    "Words in text": 8292,
+    "Words in headers": 116,
+    "Words outside text (captions, etc.)": 839,
+    "total": 9247
+  },
+  "after": {
+    "Words in text": 6429,
+    "Words in headers": 116,
+    "Words outside text (captions, etc.)": 811,
+    "total": 7356
+  },
+  "words_cut": 1891,
+  "reduction_percent": 20.4,
+  "method": "TeXcount on document body with explicit text-macro rules and forest excluded; total includes text, headers and captions/notes; bibliography excluded. Preamble is omitted because its sourcemap causes direct TeXcount parsing errors."
+}

@@ -1,0 +1,68 @@
+# Manuscript inventory
+
+- Source: /Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/determinatives-as-nouns.tex
+- Word count: **1** (texcount)
+- Prose paragraphs inspected: **164**
+
+## Structure
+
+- L34: The question
+- L110: Categorization, headedness, and function
+- L112:   Category, function, and phrase structure
+- L120:   Taxonomic and structural alternatives
+- L168: The D-noun analysis
+- L170:   The basis for a broader Noun category
+- L222:   Noun phrases in determiner and argument functions
+- L251:   Modifier selection and taxonomic level
+- L286:   Inflection
+- L298:   Word formation and category boundaries
+- L316: Evidence for nominal structure
+- L320:   Breadth of independent use
+- L339:   Structural saturation and interpretation
+- L358:   Partitives locate the quantificational head
+- L381:   Modification tests the internal analysis
+- L444:   Compounds and modifier domains
+- L481:   Predicative uses and their restrictions
+- L489:   What the combined pattern supports
+- L493: Coordinate subcategories and inheritance
+- L513: Restricted members and disputed boundaries
+- L517:   Articles and the limits of independent use
+- L545:   Form selection and degree modification
+- L557: Structural consequences and grammatical economy
+- L559:   A shared phrase type in determiner function
+- L571:   A matched descriptive fragment
+- L656:   Existing restrictions, additional costs, and consequences
+- L678: Conclusion
+- L686: Data and analysis materials
+
+## Paragraphs over 100 words
+
+- L322 (137 words): Independent use is widespread within the determinative inventory.
+- L440 (120 words): Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary.
+- L612 (132 words): The D-noun analysis applies nominal projection to determinatives through their membership in Noun.
+- L640 (113 words): The separate-D fusion account relates independent determinatives to their dependent counterparts.
+
+## Sentences of 40 words or more
+
+- L13 (69 words): [2] #1\\#2 head edge/.style= edge= line width=1pt , nominal tree/.style= for tree= align=center, parent anchor=south, child anchor=north, l sep=5mm, s sep=4mm, inner sep=1.5pt pdft
+- L612 (50 words): The head's entry and construction restrict every dependent. [math] adds the peripheral premodifier discussed in § ; the compact rule leaves any further NP layering implicit. [math]
+
+## Repeated three-word paragraph openings
+
+- **the d-noun analysis** × 4 (lines 220, 535, 555, 612)
+
+## Possible editorial scar tissue
+
+- L108 [revision-position reference]: The argument proceeds from categorization to its consequences.
+- L206 [fragile paired reference]: Interrogative and relative properties must be distinguished from those functions.
+- L208 [fragile paired reference]: Overlap with adjectives likewise needs phrase levels kept distinct.
+- L224 [revision-position reference]: Determinatives' characteristic determiner use could support a separate primary category.
+- L226 [fragile paired reference]: Determiner function already cuts across the existing noun subcategories.
+- L348 [revision-position reference]: Generalizing expressions such as Many are called, few are chosen and Enough is enough need no previously uttered common-noun phrase.
+- L360 [revision-position reference]: In some of the wine , some specifies a quantity drawn from an identifiable amount of wine.
+- L475 [revision-position reference]: The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor.
+- L483 [fragile paired reference]: CGEL records predicative Its advantages are several and Their enemies were many , describing the latter pattern as uncommon and formal huddleston2002 .
+- L503 [assumed obviousness]: Two subcategories can be clearly distinguishable while sharing a parent.
+- L612 [revision-position reference]: The D-noun analysis applies nominal projection to determinatives through their membership in Noun.
+
+> This inventory is heuristic. Verify every candidate against the source, argument, and rendered artifact.

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "s1",
+    "kind": "~~",
+    "text": "syntax~>properties"
+  },
+  {
+    "id": "s2",
+    "kind": "++",
+    "text": "in NPs"
+  },
+  {
+    "id": "s4",
+    "kind": "++",
+    "text": "(I have some)"
+  },
+  {
+    "id": "s3",
+    "kind": "++",
+    "text": "(some of the),"
+  },
+  {
+    "id": "s5",
+    "kind": "++",
+    "text": "(some books [is this right?])"
+  },
+  {
+    "id": "s6",
+    "kind": "++",
+    "text": "consolidates the set of phrase types functioning as determiner."
+  },
+  {
+    "id": "s7",
+    "kind": "--",
+    "text": "shares a phrase type across determinatives, genitives and minor nominal determiners. A separate-D grammar can share these structures."
+  },
+  {
+    "id": "s8",
+    "kind": "++",
+    "text": "ambiguously"
+  },
+  {
+    "id": "s9",
+    "kind": "~~",
+    "text": "nominal~>noun-categorial"
+  },
+  {
+    "id": "s10",
+    "kind": "++",
+    "text": "e-categori"
+  },
+  {
+    "id": "s18",
+    "kind": "++",
+    "text": "; mod; adjunct"
+  },
+  {
+    "id": "s19",
+    "kind": "++",
+    "text": "; mod; adjunct"
+  },
+  {
+    "id": "s11",
+    "kind": "++",
+    "text": "; interrogative, relative, and exclamative; mod; adjunct"
+  },
+  {
+    "id": "s14",
+    "kind": "++",
+    "text": "(incl genitive Det)"
+  },
+  {
+    "id": "s13",
+    "kind": "--",
+    "text": "as in _some books_, _someone’s books_"
+  },
+  {
+    "id": "s12",
+    "kind": "++",
+    "text": "; interrogative, relative, and exclamative; mod; adjunct"
+  },
+  {
+    "id": "s15",
+    "kind": "++",
+    "text": "; interrogation"
+  },
+  {
+    "id": "s16",
+    "kind": "++",
+    "text": "; interrogation"
+  },
+  {
+    "id": "s17",
+    "kind": "++",
+    "text": "Accepts"
+  },
+  {
+    "id": "s20",
+    "kind": "++",
+    "text": "AdjP premodifiers;"
+  },
+  {
+    "id": "s22",
+    "kind": "++",
+    "text": "AdjP premodifiers"
+  },
+  {
+    "id": "s21",
+    "kind": "--",
+    "text": ": _poor old me_"
+  },
+  {
+    "id": "s23",
+    "kind": "++",
+    "text": "D &"
+  },
+  {
+    "id": "s25",
+    "kind": "++",
+    "text": "and some adjectives (_proximate_, _distal_)"
+  },
+  {
+    "id": "s26",
+    "kind": "++",
+    "text": "a few"
+  },
+  {
+    "id": "s24",
+    "kind": "++",
+    "text": "and adjectives such as _singular_ and _plural_"
+  },
+  {
+    "id": "s28",
+    "kind": "++",
+    "text": "(Reynolds 2025)"
+  },
+  {
+    "id": "s29",
+    "kind": "++",
+    "text": "or _who_ and _which_"
+  },
+  {
+    "id": "s27",
+    "kind": "--",
+    "text": "(Reynolds 2025)"
+  },
+  {
+    "id": "s30",
+    "kind": "++",
+    "text": "Phrases headed by all four putative noun subcategories also function as modifiers (**_dog_** _houses_, **_Canada_** _day_, _the_ **_me_** _generation_, _the_ **_few_** _people_)"
+  },
+  {
+    "id": "s32",
+    "kind": "++",
+    "text": "_hat a nice day_"
+  },
+  {
+    "id": "s31",
+    "kind": "--",
+    "text": "_ho did you see?_"
+  },
+  {
+    "id": "s33",
+    "kind": "~~",
+    "text": "interrogative~>exclamative"
+  },
+  {
+    "id": "s34",
+    "kind": "++",
+    "text": "_at_"
+  },
+  {
+    "id": "s35",
+    "kind": "--",
+    "text": "_o_"
+  },
+  {
+    "id": "s36",
+    "kind": "~~",
+    "text": "inverted auxiliary~>NP"
+  },
+  {
+    "id": "s37",
+    "kind": "--",
+    "text": "Substituting _the vicar_ doesn’t preserve the open interrogative. A common-noun-headed phrase needs an interrogative constituent, as in _which vicar_. Both expressions have object function, but the construction also requires interrogative properties (Huddleston and Pullum 2002, Ch. 10, §§7.1, 7.9)."
+  },
+  {
+    "id": "s38",
+    "kind": "++",
+    "text": "No common or proper NP can substitute for _what_, which _CGEL_ takes to be a pronoun."
+  },
+  {
+    "id": "s39",
+    "kind": "~~",
+    "text": "Adjectival constructions~>AdjPs"
+  },
+  {
+    "id": "s41",
+    "kind": "--",
+    "text": "such as _the_ **_rich_**"
+  },
+  {
+    "id": "s40",
+    "kind": "~~",
+    "text": "fill nominal argument positions~>overlap in distribution with NPs (e.g., _the_ **_people_**/**_rich_**, a soccer/round ball, and Jones became president/ill)"
+  },
+  {
+    "id": "s43",
+    "kind": "++",
+    "text": "common nouns and"
+  },
+  {
+    "id": "s42",
+    "kind": "++",
+    "text": "_a bottle_/"
+  },
+  {
+    "id": "s44",
+    "kind": "~~",
+    "text": "and~>but"
+  },
+  {
+    "id": "s45",
+    "kind": "++",
+    "text": ", aren't shared"
+  },
+  {
+    "id": "s46",
+    "kind": "--",
+    "text": "s"
+  },
+  {
+    "id": "s48",
+    "kind": "++",
+    "text": "al"
+  },
+  {
+    "id": "s47",
+    "kind": "--",
+    "text": "es"
+  },
+  {
+    "id": "s49",
+    "kind": "++",
+    "text": "complements"
+  },
+  {
+    "id": "c1",
+    "kind": "comment",
+    "text": ""
+  },
+  {
+    "id": "c2",
+    "kind": "comment",
+    "text": "the flow between paragraphs seems disrupted. It could be much smoother."
+  },
+  {
+    "id": "c3",
+    "kind": "comment",
+    "text": "the paragraph needs a rework"
+  },
+  {
+    "id": "c4",
+    "kind": "comment",
+    "text": "oxford comma throughout, please"
+  },
+  {
+    "id": "c5",
+    "kind": "comment",
+    "text": "does the D-noun proposal improve on this mutual dependency point? Is it a good point with solid evidence? Should we address it?"
+  },
+  {
+    "id": "c6",
+    "kind": "comment",
+    "text": "why do we pick on every? A also has quantifier (singular) and modifier (many a) properties. And there are other properties to consider as well. I expect Spinillo has done a very partial job."
+  },
+  {
+    "id": "c7",
+    "kind": "comment",
+    "text": "what does \"uses\" mean here?"
+  },
+  {
+    "id": "c9",
+    "kind": "comment",
+    "text": "consider my additions extra carefully here"
+  },
+  {
+    "id": "c8",
+    "kind": "comment",
+    "text": "this seems incomplete and ad hoc"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "location": "§1",
+    "tell": "Defensive preamble",
+    "before": "To head off a likely misunderstanding: under the D-noun analysis, \\mention{apples} still ultimately heads the whole noun phrase \\mention{some apples}. Assigning \\mention{some} to Noun doesn't adopt the DP hypothesis, in which functional D heads the whole expression \\citep{abney1987}. The claims concern synchronic English lexical categories.",
+    "after": "The D-noun analysis keeps \\mention{apples} as the ultimate head of \\mention{some apples}. In the DP hypothesis, functional D heads the whole expression \\citep{abney1987}. The present claims concern synchronic English lexical categories."
+  },
+  {
+    "location": "§2.1",
+    "tell": "Repeated notation definition",
+    "before": "Here DP abbreviates determinative phrase, and N\\textsubscript{D} marks a determinative noun.",
+    "after": "Here DP abbreviates determinative phrase."
+  },
+  {
+    "location": "§3.1",
+    "tell": "Repeated warning after positive requirement",
+    "before": "Section~\\ref{sec:articles} supplies the latter argument; merely listing exceptions wouldn't.",
+    "after": "Section~\\ref{sec:articles} supplies the latter argument."
+  },
+  {
+    "location": "§3.2",
+    "tell": "Repeated legend and transition left behind by moving Figure 1",
+    "before": "Figure~\\ref{fig:genitive} illustrates the proper-noun case. Function labels appear above category labels: Det:NP identifies an NP functioning as determiner. The genitive NP \\mention{Kim's} functions as Det, while \\mention{book} ultimately heads the larger NP. This existing configuration provides the comparison for the determinative analysis that follows.",
+    "after": "Figure~\\ref{fig:genitive} illustrates the proper-noun case. The genitive NP \\mention{Kim's} functions as Det, while \\mention{book} ultimately heads the larger NP."
+  },
+  {
+    "location": "§3.3",
+    "tell": "Defensive sentence duplicated by the selection rule that follows",
+    "before": "The NP headed by \\mention{some} inside \\mention{some apples} isn't interchangeable with every NP. ",
+    "after": ""
+  },
+  {
+    "location": "§4 opening",
+    "tell": "Correction framed against the previous diagnostic count",
+    "before": "These are overlapping observations: \\mention{Some left} illustrates both external distribution and structural saturation, not two independent tests.",
+    "after": "These observations overlap: \\mention{Some left} illustrates both external distribution and structural saturation."
+  },
+  {
+    "location": "§4.3",
+    "tell": "Source-check conversation imported into exposition",
+    "before": "Figure~\\ref{fig:partitive} gives the D-noun analysis, with the \\mention{of}-phrase functioning as complement within Nom. I follow \\textit{CGEL}'s explicit partitive analysis and tree \\citep[411--412]{huddleston2002}; its introductory description on p.~411 also calls this PP a modifier. The inner NP \\mention{the wine} is abbreviated.",
+    "after": "Figure~\\ref{fig:partitive} gives the D-noun analysis, with the \\mention{of}-phrase functioning as complement within Nom, as in \\textit{CGEL}'s partitive tree \\citep[411--412]{huddleston2002}. The inner NP \\mention{the wine} is abbreviated."
+  },
+  {
+    "location": "§4.4",
+    "tell": "Stranded qualification after the cardinal discussion",
+    "before": " Likewise, the adjectival modification of \\mention{few} doesn't transfer to \\mention{every}; the lexical restrictions remain.",
+    "after": ""
+  },
+  {
+    "location": "§4.5",
+    "tell": "Defensive summary of restrictions just specified",
+    "before": " That is a reformulation of the contrast, not its automatic derivation from nounhood.",
+    "after": ""
+  },
+  {
+    "location": "§4.5",
+    "tell": "Second defensive summary after the trade-off is stated",
+    "before": " This worked case establishes coverage without claiming that all compound properties favour abandoning fusion.",
+    "after": ""
+  },
+  {
+    "location": "§4.6",
+    "tell": "Imagined inference displacing the actual restriction",
+    "before": "Such uses are available to only part of the determinative inventory. The ordinary independent uses of \\mention{some} therefore cannot license every determinative in every predicative frame; \\mention{every} and the articles retain their restrictions.",
+    "after": "Predicative use is available to only part of the determinative inventory; \\mention{every} and the articles remain excluded from these frames."
+  },
+  {
+    "location": "§4.7",
+    "tell": "Repeated correction of the cumulative-evidence claim",
+    "before": "Their coverage is shared by the fusion and ordinary-Head accounts; the examples don't become discriminating evidence simply by being accumulated.",
+    "after": "Both the fusion and ordinary-Head accounts cover this range."
+  },
+  {
+    "location": "§5.2",
+    "tell": "Boundary between evidence and classification repeated before its explanation",
+    "before": " The results correct an earlier boundary argument; they don't positively support D-noun classification.",
+    "after": ""
+  },
+  {
+    "location": "§6",
+    "tell": "Defensive tail after the criterion favouring Hudson",
+    "before": "; the present comparisons resist a default nesting without establishing its overall inferiority.",
+    "after": "."
+  },
+  {
+    "location": "§7 footnote",
+    "tell": "Explanation of why the correction was added",
+    "before": "Its analysis distinguishes this use from Det without licensing an article-headed argument NP. The construction therefore qualifies any claim that \\mention{the} is confined to Det.",
+    "after": "This dependent use outside Det leaves the restriction on ordinary argument use intact."
+  },
+  {
+    "location": "§7",
+    "tell": "Article–pronoun comparison repeats the preceding membership argument",
+    "before": "Restricted members already occur within Noun. \\textit{CGEL} classifies \\mention{my} as a pronoun despite its lack of the independent distribution of \\mention{mine} \\citep[470--471]{huddleston2002}. Its paradigm supplies positive membership evidence. The analogy blocks an exclusion argument; it doesn't establish article nounhood. That conclusion depends on the articles' determinative membership and the category-level case for including determinative within Noun. Their argument-use restriction remains explicit in §\\ref{sec:fragment}.",
+    "after": "\\textit{CGEL}'s treatment of \\mention{my} supplies a precedent for restricted membership within Noun \\citep[470--471]{huddleston2002}. The pronoun's paradigm supports its membership despite its lack of \\mention{mine}'s independent distribution. For articles, the corresponding positive evidence is integration into determinative; their nounhood depends on the category-level argument. Section~\\ref{sec:fragment} retains their argument-use restriction."
+  },
+  {
+    "location": "§7",
+    "tell": "Caveat already expressed by the each/every contrast",
+    "before": "These facts support retaining \\mention{every} with the quantifiers without making its full distribution identical to that of \\mention{each}.",
+    "after": "These connections support retaining \\mention{every} with the quantifiers."
+  },
+  {
+    "location": "§8.2",
+    "tell": "Ordinal no longer matches the displayed table order",
+    "before": "This fourth account shares the D-noun analysis's ordinary headedness and reduced phrase-type inventory in Det function.",
+    "after": "The separate-D ordinary-Head account shares the D-noun analysis's ordinary headedness and reduced phrase-type inventory in Det function."
+  },
+  {
+    "location": "§8.2",
+    "tell": "Repeated disclaimer about shared judgments",
+    "before": "This applies the existing membership rationale consistently; it doesn't claim a new judgment beyond the shared permissions.",
+    "after": "This applies the existing membership rationale consistently."
+  },
+  {
+    "location": "§8.3",
+    "tell": "Rebuttal of the discarded exceptionless baseline",
+    "before": "The adverbial contrast needs a qualified baseline. \\textcite[75, n.~3]{payne2010} already analyse \\mention{almost} as modifying the noun \\mention{textbook} in \\mention{an almost textbook case}. Since \\mention{textbook} is attributive, this doesn't erase the contrast with ordinary noun-headed argument expressions. It does exclude an exceptionless Noun-wide ban on internal adverbial premodification.",
+    "after": "\\textcite[75, n.~3]{payne2010} analyse \\mention{almost} as a modifier of the attributive noun \\mention{textbook} in \\mention{an almost textbook case}."
+  },
+  {
+    "location": "§8.3",
+    "tell": "Cost statement still contrasts with the discarded baseline",
+    "before": "Its cost is restating the usual modifier contrast at that subcategory boundary, rather than introducing the first nominal exception.",
+    "after": "Its cost is stating the usual modifier contrast at that subcategory boundary."
+  },
+  {
+    "location": "Conclusion",
+    "tell": "Closing qualification repeated almost verbatim",
+    "before": "The corpus documents the constructions; the matrix reanalysis qualifies earlier evidence for a primary boundary. Coordinate subcategories remain the preferred arrangement, with a more provisional status than inclusion within Noun: the fragment's judgments don't distinguish them from Hudson's nesting.\n\nDistributional differences warrant retaining determinative and pronoun as distinct subcategories; they don't by themselves establish a primary-category boundary or decide between coordinate and nested membership within Noun.",
+    "after": "The corpus documents the constructions; the matrix reanalysis qualifies earlier evidence for a primary boundary. Distributional differences warrant retaining determinative and pronoun as distinct subcategories. Their coordinate arrangement remains a provisional preference: the fragment's judgments don't distinguish it from Hudson's nesting."
+  }
+]

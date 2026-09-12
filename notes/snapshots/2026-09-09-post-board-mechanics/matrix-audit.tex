@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage{float}
+\setlength{\headheight}{14pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\emergencystretch=1em
+\AtBeginBibliography{\emergencystretch=1em}
+\setcounter{biburlnumpenalty}{100}
+\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
+\hypersetup{pdftitle={Replication audit of the English determinative--pronoun feature matrix}}
+\title{Replication audit of the English determinative--pronoun feature matrix}
+\author{Brett Reynolds}
+\date{Supplementary material, September 2026}
+\fancyhead[L]{\small\scshape Determinative--pronoun matrix audit}
+\begin{document}
+\maketitle
+
+\section{Scope of the audit}
+
+This supplement audits the numerical analysis reported by \textcite{reynolds2021} and the publicly available feature matrix \citep{reynolds2021matrixpublic}. It preserves the reporting discrepancies, implementation findings and sensitivity results separately from the grammatical argument in \textit{Determinatives as nouns in English}.
+
+The matrix compares 73 determinative forms and 65 pronoun forms. Each row represents a form, and each binary column records a morphological, phonological, semantic or syntactic property. Cells record whether a form may exhibit the property. Most feature definitions follow \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}); the coding also draws on other sources and the author's judgments.
+
+There are no common or proper nouns. The analysis can therefore compare the supplied profiles, but can't test their inclusion within a superordinate Noun category. Even perfect recovery of the determinative--pronoun distinction would be compatible with shared nounhood; the original discussion likewise leaves a nested nominal analysis open.
+
+DISCO compares the supplied partition with shuffled partitions. The k-groups procedure searches for clusters without using the supplied category assignments. The audit distinguishes recovery of the published numerical decomposition from recovery of a clustering result whose original random state wasn't recorded.
+
+\section{Inputs and provenance}
+
+The article by \textcite{reynolds2021} and the LingBuzz description of its matrix report 232 features, but the public file contains 155 \citep{reynolds2021matrixpublic}. The reanalysis preserves that file with its checksum and compares it with a recovered local 232-feature working matrix. The working matrix isn't authenticated as the published input. The public file reproduces the published DISCO decomposition: between-group component 30.58286, within-group component 356.41607 and total 386.99893, giving $F=11.670$ to the reported precision.
+% Source: analysis/results/disco-sensitivity.csv, public155; published Table 3.
+
+
+
+The public CSV was retrieved on 7 September 2026 and is retained unchanged as \nolinkurl{analysis/data/matrix155-lingbuzz.csv}. Its SHA-256 is \nolinkurl{a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7}. The source manifest records the retrieval and the matching previously held file. The recovered working input and its original source hash are recorded separately in \nolinkurl{analysis/data/source-manifest.json}.
+
+The two matrices differ by 77 removed columns (76 singleton features and one all-zero feature), 11 changed cells in \nolinkurl{Start_with_hw}, and two normalized row names. One singleton feature remains in the public file. An earlier draft of \textit{Determinatives as nouns} incorrectly claimed that removing singleton features leaves between-form distances unchanged. The lineage report, removed-feature list and coding-change table preserve the exact comparison.
+
+\section{Procedures and sensitivity results}
+
+DISCO and k-groups use Euclidean distances between unscaled binary rows: the square root of the number of feature mismatches. Columns receive equal weight, so correlated diagnostics affect the geometry. DISCO uses \textit{CGEL}'s determinative/pronoun partition. Runs with 999 permutations and seed 20260907 give \mbox{$p=.001$} across the representations in Table~\ref{tab:matrix}, the minimum attainable value. The observations are coded word forms; the tests concern separation within this inventory.
+
+Here the permutation results describe comparison with shuffled partitions of these rows. They aren't population-level inference under a defended exchangeability assumption. Paradigmatic relations and repeated compound material connect word forms; removing word-component columns doesn't remove those relations among rows. The reported values show how the supplied partition compares with the shuffled partitions under this representation, without treating the forms as independent samples from a linguistic population.
+
+The published k-groups code records a single random start and no seed. After removing the name column, it removes the first remaining feature during clustering. The reanalysis therefore tests both the public 155-feature input and that 154-feature implementation. For each representation, 100 single-start fits use seeds 1--100 and the published limit of ten iterations. A separate fit uses 100 starts and a limit of 100 iterations, selecting the best objective~-- the clustering criterion being minimized~-- among those starts.
+
+\begin{table}[H]
+\centering\small
+\caption{Exploratory sensitivity of the matrix analysis. The range is agreement out of 138 across 100 single-start fits. The last column is agreement for the best-objective fit among a separate set of 100 starts, not the maximum agreement observed. All displayed DISCO runs give \mbox{$p=.001$} with 999 permutations.}\label{tab:matrix}
+\begin{tabular}{>{\raggedright\arraybackslash}p{5.1cm}rrrr}
+\toprule
+Representation & Features & DISCO $F$ & Range & Best objective \\
+\midrule
+\tablebody{analysis/generated/matrix-table.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cluster labels are oriented after fitting to maximize agreement with \textit{CGEL}'s classification. Eight public-matrix single-start fits reproduce the published count of 129 matches; the 100-start fit yields 125. The 154-feature implementation also varies across starts. Selecting the best clustering objective doesn't select the closest match to \textit{CGEL}'s labels. Reducing the feature set can increase agreement in the fit selected by that objective, but the increase doesn't independently support the taxonomy: the feature representation has changed.
+
+Removing 50 word-component columns changes best-objective agreement to 131/138. The 50 syntactic columns yield 120/138; removing four explicit analysis labels yields 97/138. Those labels concern fused determiner-head function, partitive head function, subject-determiner function and coordination with non-fused determiners. This is a limited sensitivity check: the remaining judgments still reflect the descriptive framework. Complete scripts, feature changes, seed schedules and outputs accompany the paper.
+
+\section{Reproduction files and correction record}
+
+The accompanying \nolinkurl{analysis/README.md} describes the inputs and reproduction commands. The scripts \nolinkurl{analysis/recover_matrix.py} and \nolinkurl{analysis/reproduce_matrix.R} preserve the recovery and analysis procedures. The run used R 4.6.1 and \texttt{energy} 1.7-12; \nolinkurl{analysis/results/R-session-info.txt} records the environment. The seed schedules and full outputs include the 154-feature implementation and the unauthenticated recovered working matrix, beyond the selected representations in Table~\ref{tab:matrix}.
+
+The within-category checks record both the determinative split implemented in the published appendix and the pronoun split described in its prose. Neither is treated as a taxonomic-rank test. The legacy distance audit records selected-group distances used in an archived draft; those groups don't supply a justified measure of prototype centrality.
+
+An independent review reran the matrix and corpus analyses and reproduced their outputs byte for byte; a separate numerical check found no discrepancies. Their records are preserved in \nolinkurl{reviews/review-board-20260907-rebuild/corpus.md} and \nolinkurl{reviews/review-board-20260907-rebuild/numbers-second-model.md}. Computational assistance is documented in \nolinkurl{analysis/ai-assistance.txt}.
+
+The prepared notice \nolinkurl{analysis/public-matrix-correction.txt} identifies the public-file discrepancy and clustering issues. It has not been posted to the original resource. Neither the public CSV nor the earlier article has been silently replaced. The recovered 232-feature matrix remains a distinct, unauthenticated working input. This supplement makes the correction trail available with the present paper; updating the original public records is a separate action.
+
+\printbibliography
+\end{document}

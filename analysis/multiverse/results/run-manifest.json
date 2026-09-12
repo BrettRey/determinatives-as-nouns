@@ -1,0 +1,61 @@
+{
+  "status": "computed_and_numerically_verified",
+  "run_date": "2026-09-10",
+  "python_version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "code_and_protocol_sha256": {
+    "run_multiverse.R": "744b595cc8f11b417cd93ba26d2d6b642a082055b8cfcd0c765cd3c8bbc128ea",
+    "verify_and_summarize.py": "bae99ba247543395be4ce18d8a8ad688070007fe106e1782e5819198c0f325de",
+    "PROTOCOL.txt": "537bda89b7f556989e682a35aecdeae23695b6a377c7d3baaf07fb53618abcb3"
+  },
+  "output_sha256": {
+    "results/R-session-info.txt": "b25eee2123cc70960aea4cfa6a2f2b22283a9825d6ad4030eba26a1c7dd96009",
+    "results/RESULTS.txt": "820b013adc5e9b6379042a78b647dca7456b6201ba03339e68c94225e7cb6e01",
+    "results/assignments.csv": "6509b49457e8f177011dd6eda4b6b038110f592f340ec0ace066ba6a5770d315",
+    "results/coassignment-core-average.csv": "d611c78f2a22ad6457a4cc1e3044b37bde6752aa2fa5ff1a917fef7cc82cd95c",
+    "results/coassignment-core-energy.csv": "2e014d49c4857fb719af0d60e163556b9699807cfbab82079a678bacd26baec0",
+    "results/coassignment-core-pam.csv": "178c2282741deffaca86091a92927fd98773a87e9b803b31f279e5860ebc0c02",
+    "results/energy-starts.csv": "70fb69f5888401ee0a877dea6cff0b040372c29c3ca4a60c202cce2d7e7b2459",
+    "results/equivalent-choices.csv": "2ea829b37aedbfde43ce6662188e9f56370b93b29c018ccb04ad613ae66fac40",
+    "results/feature-inventory.csv": "120a50b28d95dfe3f6fa4715a845d6358c73d39707929a3580335ba964f9ef2b",
+    "results/feature-sets.csv": "c4cd481b9caad63ae13782c6aff90da78b644002c0a6423050672b653218c3ba",
+    "results/feature-weights.csv": "80a23d41012eece020c5c8396a8e008d4475a136f7babd06045b1e3b2aefbb2b",
+    "results/held-domain-prediction.csv": "17c7435f21049e061886e262af4e16e19deb08883d744a2c6aa887e9f2d37f68",
+    "results/item-inventory.csv": "0dcb754ef02f18323c0b4ffee2b2a43c21ffa034def95d61dcbe4791c09aac1a",
+    "results/k-sensitivity.csv": "7368bb528ae8a47bc42e56c1e1f8fb69b4ced2a76b3e01192d4640eefbb3bcc7",
+    "results/legacy-control-assignments.csv": "60988c34e0613ecdcb720003c389dd4157f820d7695e0a263409175954fb3137",
+    "results/legacy-control.csv": "589b8840421b1e426f55edff0de22f46c09c22b50d5c7a481f973b62bea73315",
+    "results/membership-core-average.csv": "c489223eb31c4fbd7616a4c65fc6ab470e3d1eae5799a3b018f8e672a9a31b8c",
+    "results/membership-core-energy.csv": "69e7f80c419a7ef256af04f7d44d5afbe30450900d5ba1a6fe536d82d4693df7",
+    "results/membership-core-pam.csv": "5bc1ad20c40ec674c00397d7104e664ab792993a1854e74ccd47f1f40b26b350",
+    "results/paired-comparisons.csv": "237897a2752c0d5c4687c2b380e0fe88d783fcdb01baea64f28661d9bb2ed4a3",
+    "results/prediction-assignments.csv": "3b37b274f534e5bbe83e8fafabcd798ff006eb46649b840cbca3d470c22abb16",
+    "results/prediction-by-feature.csv": "3d317a29d6743d3116884fe1e70ca30543a47f211872978d48d00ef9b6433cdf",
+    "results/prediction-by-item.csv": "811ce90fc3bcdd568f1c6c6e946cdd650ca62e681176902ca2c364485efcdd6e",
+    "results/prediction-equivalent-choices.csv": "05f1d8faf055a7e3f9ede4737eafef51bd589a274a0c8ef36a92d1e5a7698024",
+    "results/prediction-folds.csv": "ebe1dce22bad4da2cd662c6a9e5f0b428f23ac6db66a97e3df8600459e1df460",
+    "results/specifications.csv": "0992f0a7fed5e55cdf0de7757f23ad46ab45c345c0400b948525da7f366aa516",
+    "results/verification.json": "d688f92f911a280d42a6de8939d8e376e910756064798a8f29675ed94cda4905"
+  },
+  "verification": {
+    "status": "passed",
+    "numpy_version": "2.4.2",
+    "two_group_specifications": 224,
+    "core_specifications": 170,
+    "domain_transfer_fits": 156,
+    "distance_matrices_independently_reconstructed": 98,
+    "energy_fits_with_100_starts": 48,
+    "protected_preexisting_files_unchanged": 31,
+    "legacy_control_matched": 125,
+    "checks": [
+      "source hashes, fixed inventory and feature/weight alignment",
+      "reference agreement, adjusted Rand index, balanced accuracy",
+      "direct pairwise distances, energy and PAM objectives, silhouette",
+      "energy objective-based start selection and selected-fit convergence",
+      "all core coassignment cells and per-form membership counts",
+      "legacy result against the pre-existing audit",
+      "domain disjointness and exact duplicate/complement leakage exclusions",
+      "all domain-transfer log losses, Brier scores, per-feature and per-item losses"
+    ]
+  }
+}

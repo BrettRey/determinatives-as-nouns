@@ -1,0 +1,466 @@
+[
+  {
+    "line_before_edit": 42,
+    "original": "Capitalized Noun names the proposed category above common nouns, proper nouns, pronouns and determinative nouns. I argue that the similarities across their semantic, syntactic and morphological profiles are substantial enough to support this grouping. The differences distinguish subcategories within it. The comparison includes both the properties that connect determinatives with other nouns and those that connect them with other categories.",
+    "replacement": "I argue that the combined semantic, syntactic and morphological similarities among these four groups justify one superordinate category, which I write as Noun.",
+    "reason": "State the primary justification once; remove the repeated inventory and generic instructions for the comparison."
+  },
+  {
+    "line_before_edit": 44,
+    "original": "\\textit{CGEL}'s inclusion of pronouns within Noun supplies a starting comparison. It emphasizes the functions of pronoun-headed phrases, despite differences in inflection and dependents \\citep[327--328]{huddleston2002}. I assess pronouns and determinatives within the broader comparison just described. The inclusion of auxiliaries within Verb supplies a precedent for preserving distinctive syntax within a more inclusive lexical category \\citep{pullumwilson1977}.",
+    "replacement": "\\textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences in inflection and dependents \\citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive syntax within a broader lexical category \\citep{pullumwilson1977}.",
+    "reason": "Remove the sentence announcing that the corrected broader comparison will be used; retain both precedents and their scope."
+  },
+  {
+    "line_before_edit": 112,
+    "original": "These consequences contribute an economy argument whose force depends on the rest of the grammar. Section~\\ref{sec:economy} compares the shared structures with the changes required in stating modifier and use restrictions. The primary taxonomic argument concerns the combined grammatical profile; a reduction in category labels alone wouldn't establish it.",
+    "replacement": "Section~\\ref{sec:related} compares the alternatives; §§\\ref{sec:proposal}--\\ref{sec:articles} develop the classification. The matched fragment in §\\ref{sec:fragment} then assesses its structural consequences and costs, holding judgments and lexical restrictions fixed. Any economy depends on the resulting grammar, including modifier and use restrictions.",
+    "reason": "Consolidate the two roadmaps and repeated distinction between the primary argument and economy."
+  },
+  {
+    "line_before_edit": 114,
+    "original": "I first distinguish the competing analyses, then compare external and internal syntax, meaning, inflection and word formation across the proposed noun subcategories. Independent uses, partitives and modification identify the constructions to be explained. The matched fragment in §\\ref{sec:fragment} holds the judgments and lexical restrictions fixed while varying taxonomy and headedness; its economy depends on preserving the empirical distinctions established by the comparison.",
+    "replacement": "",
+    "reason": "The preceding paragraph now supplies the roadmap and matched-comparison conditions."
+  },
+  {
+    "line_before_edit": 119,
+    "original": "Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \\mention{\\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \\mention{the \\underline{many} people} \\citep{payne2010,pullummiller2022nps}. Including determinatives within Noun preserves this distinction: the NP headed by \\mention{some} functions as determiner in \\mention{take some apples} and as object in \\mention{take some} (Figure~\\ref{fig:some}).",
+    "replacement": "Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \\mention{\\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \\mention{the \\underline{many} people} \\citep{payne2010,pullummiller2022nps}.",
+    "reason": "Remove the third walkthrough of the Figure 1 examples; retain the distinct examples of category and function."
+  },
+  {
+    "line_before_edit": 123,
+    "original": "Category membership doesn't remove lexical restrictions. \\mention{Every apple} is grammatical, but \\ungram{\\mention{I'll take every}} isn't an ordinary way to accept apples. Making \\mention{every} a noun doesn't give it the full range of uses available to \\mention{some}. Section~\\ref{sec:fragment} states structural rules and lexical restrictions separately so their contributions can be assessed.",
+    "replacement": "Category membership doesn't remove lexical restrictions. \\mention{Every apple} is grammatical, but \\ungram{\\mention{I'll take every}} isn't an ordinary way to accept apples. The fragment retains that restriction (§\\ref{sec:fragment}).",
+    "reason": "Cut two restatements of the restriction illustrated by the example."
+  },
+  {
+    "line_before_edit": 153,
+    "original": "\\textcite[24]{palmer1924} proposed placing \\enquote{determinative adjectives} with pronouns. He contrasted them with qualifying adjectives, which permit predicative use, comparison and adverbial modification, and emphasized most determinatives' ability to \\enquote{be used indifferently as pronouns or as modifiers of nouns}. This supplies an early English distributional argument for unification. It doesn't specify the inclusive Noun hierarchy proposed here. \\textcite[279]{lyons1968} adds a semantic connection: articles, demonstratives and personal pronouns share definiteness and deictic contrasts.",
+    "replacement": "\\textcite[24]{palmer1924} proposed placing \\enquote{determinative adjectives} with pronouns. He contrasted them with qualifying adjectives, which permit predicative use, comparison and adverbial modification, and emphasized most determinatives' ability to \\enquote{be used indifferently as pronouns or as modifiers of nouns}. \\textcite[279]{lyons1968} adds a semantic connection: articles, demonstratives and personal pronouns share definiteness and deictic contrasts.",
+    "reason": "The table already states the scope of Palmer’s hierarchy; the quotation makes the distributional argument directly."
+  },
+  {
+    "line_before_edit": 157,
+    "original": "\\textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlying NP structure. His English comparison includes the count restriction on anaphoric \\mention{one}, contrasting with \\mention{it}'s ability to refer to a quantity of a substance.\\footnote{For the later analysis of anaphoric \\mention{one} as a common count noun, distinct from determinative \\mention{one} and personal pronoun \\mention{one}, see \\textcite[797--798]{payne2013anaphoric}. The count restriction remains part of that account.} He also observes that noun status for \\mention{self} doesn't decide whether the preceding element is an article or a genitive pronoun. Their disagreement concerns which direction of analysis explains the shared behaviour.",
+    "replacement": "\\textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlying NP structure. His English comparison includes the count restriction on anaphoric \\mention{one}, contrasting with \\mention{it}'s ability to refer to a quantity of a substance.\\footnote{\\textcite[797--798]{payne2013anaphoric} analyse anaphoric \\mention{one} as a common count noun, distinct from determinative \\mention{one} and personal pronoun \\mention{one}.} He also observes that noun status for \\mention{self} doesn't decide whether the preceding element is an article or a genitive pronoun.",
+    "reason": "State the later classification directly and remove the assurance that the correction preserves the count restriction; cut the generic summary of the disagreement."
+  },
+  {
+    "line_before_edit": 159,
+    "original": "These proposals are substantive predecessors of the present unification, but their underlying structures don't supply a classification of the full English determinative inventory. The wider contrasts in grade, modification, complementation and restricted independent use still need an account. The comparison here asks how those properties are distributed among surface lexical categories, while retaining the earlier challenge to a fundamental article--pronoun separation.",
+    "replacement": "These predecessors challenge a fundamental article--pronoun separation, but leave the full determinative inventory unclassified. Its contrasts in grade, modification, complementation and restricted independent use extend the comparison beyond their proposals.",
+    "reason": "Replace the revision-facing defence of including the predecessors with their contribution and limit."
+  },
+  {
+    "line_before_edit": 161,
+    "original": "Hudson makes taxonomic inclusion explicit. His noun category contains common noun, proper noun and pronoun \\citep[253--254]{hudson2010wordgrammar}; a determiner is a pronoun whose \\term{valency} permits the relevant common-noun dependent \\citep[9--10]{hudson2004determiners}. His analysis preserves one lexical category across independent and dependent uses and expresses their difference through permitted dependents. The D-noun analysis shares that continuity but proposes a coordinate determinative subcategory.",
+    "replacement": "Hudson makes taxonomic inclusion explicit. His noun category contains common noun, proper noun and pronoun \\citep[253--254]{hudson2010wordgrammar}; a determiner is a pronoun whose \\term{valency} permits the relevant common-noun dependent \\citep[9--10]{hudson2004determiners}. The word's category remains constant across independent and dependent uses, which differ in their permitted dependents.",
+    "reason": "Remove the repeated announcement that D-noun agrees about continuity but favours coordination; Table 1 and §5 supply that comparison."
+  },
+  {
+    "line_before_edit": 165,
+    "original": "Hudson also permits mutual dependency between determiner and common noun, with different constructions selecting different external heads \\citep[7--12]{hudson2004determiners}. His English temporal adjunct \\mention{We met that day} supports a common-noun head because the adjunct's distribution depends on \\mention{day}'s temporal meaning. Mutual dependency adds a structural commitment to his taxonomy. The D-noun analysis retains common-noun headedness in \\mention{that day} while changing the determining word's superordinate category.",
+    "replacement": "Hudson also permits mutual dependency between determiner and common noun, with different constructions selecting different external heads \\citep[7--12]{hudson2004determiners}. His English temporal adjunct \\mention{We met that day} supports a common-noun head because the adjunct's distribution depends on \\mention{day}'s temporal meaning. The D-noun analysis retains common-noun headedness in \\mention{that day} while changing the determining word's superordinate category.",
+    "reason": "Remove the sentence re-labelling mutual dependency as a structural commitment after it has been described."
+  },
+  {
+    "line_before_edit": 171,
+    "original": "The comparison therefore concerns the same English words across external syntax, internal syntax, semantics, inflection, and word formation. Independent use and shared deixis supply part of that evidence. Grade, genitive marking, complementation, modifier selection and derivational relationships supply further comparisons, including potential evidence against unification. Section~\\ref{sec:proposal} sets out this broader profile before §\\ref{sec:evidence} develops the nominal constructions and §\\ref{sec:inheritance} assesses the pronoun boundary.",
+    "replacement": "",
+    "reason": "Remove the repeated list of domains and roadmap; the next section introduces the comparative table."
+  },
+  {
+    "line_before_edit": 176,
+    "original": "Common nouns, proper nouns and pronouns combine different ways of identifying or characterizing entities with overlapping nominal syntax. Determinatives add quantitative, definite and deictic meanings to this comparison. Table~\\ref{tab:existing} sets their external and internal syntax beside their semantics and morphology. The grouping proposed here rests on the combined profile across these domains. Its breadth permits systematic differences among subcategories as well as restrictions on individual members.",
+    "replacement": "Table~\\ref{tab:existing} compares external and internal syntax, semantics and morphology across the four proposed noun subcategories. Their shared properties occur in different combinations, with systematic differences among subcategories and restrictions on individual members.",
+    "reason": "Introduce the table without another abstract statement of the profile argument."
+  },
+  {
+    "line_before_edit": 199,
+    "original": "Common nouns supply the most familiar nominal profile. Proper nouns' naming uses and pronouns' deictic and anaphoric uses depart from it in both meaning and permitted dependents. Their inclusion within Noun is a classificatory judgment about those similarities and differences. I make the same kind of judgment about determinatives, assessing all four profiles together rather than treating the common noun as an entry test for the others.",
+    "replacement": "",
+    "reason": "This paragraph repeats the introduction’s classificatory stance and anticipates the concrete semantic comparison immediately following it."
+  },
+  {
+    "line_before_edit": 202,
+    "original": "Pro-form gender connects these ways of referring. Descriptions such as \\mention{the woman} and names such as \\mention{Kim} identify referents whose construal bears on pro-form choice. Gender-sensitive pronouns and determinatives express the relevant contrasts: compare personal \\mention{she} and \\mention{somebody} with non-personal \\mention{it} and \\mention{something} \\citep{reynolds2025proformgender}. The connection concerns how referents are construed, rather than noun-class gender assigned to common or proper nouns. Section~\\ref{sec:inheritance} considers its implications for the pronoun boundary.",
+    "replacement": "Pro-form gender connects these ways of referring. Descriptions such as \\mention{the woman} and names such as \\mention{Kim} identify referents whose construal bears on pro-form choice. Gender-sensitive pronouns and determinatives express the relevant contrasts: compare personal \\mention{she} and \\mention{somebody} with non-personal \\mention{it} and \\mention{something} \\citep{reynolds2025proformgender}.",
+    "reason": "The positive account already locates gender in referent construal; remove the corrective contrast and routine forward pointer."
+  },
+  {
+    "line_before_edit": 204,
+    "original": "Semantic differences remain substantial. \\mention{Every} contributes a quantificational relation between a nominal restriction and what's predicated of its members; \\mention{Kim} identifies an individual through a name. The proposal preserves these contributions within distinct subcategories. Their place in one category is supported by the accompanying syntactic and morphological relationships, not by a claim that quantification and naming have the same meaning.",
+    "replacement": "The semantic distance can be considerable. \\mention{Every} contributes a quantificational relation between a nominal restriction and what's predicated of its members; \\mention{Kim} identifies an individual through a name.",
+    "reason": "Retain the semantic contrast; remove assurances that the proposal does not equate quantification with naming."
+  },
+  {
+    "line_before_edit": 208,
+    "original": "Shared functions leave systematic distributional differences. In \\mention{Who did you see?}, interrogative \\mention{who} precedes the inverted auxiliary. Substituting \\mention{the vicar} doesn't preserve the open interrogative. A common-noun-headed phrase needs an interrogative constituent, as in \\mention{which vicar}. Both expressions have object function, but the construction also requires interrogative properties \\citep[Ch.~10, §§7.1, 7.9]{huddleston2002}. Such differences belong in the profile being compared.",
+    "replacement": "Shared functions leave systematic distributional differences. In \\mention{Who did you see?}, interrogative \\mention{who} precedes the inverted auxiliary. Substituting \\mention{the vicar} doesn't preserve the open interrogative. A common-noun-headed phrase needs an interrogative constituent, as in \\mention{which vicar}. Both expressions have object function, but the construction also requires interrogative properties \\citep[Ch.~10, §§7.1, 7.9]{huddleston2002}.",
+    "reason": "The example establishes the distributional difference without a final instruction to include it in the profile."
+  },
+  {
+    "line_before_edit": 210,
+    "original": "I treat shared external functions as one source of evidence for nounhood. Making them a sufficient condition would give a single diagnostic more authority than the broader comparison supports: adjectival constructions such as \\mention{the rich} also fill those positions. Internal syntax supplies further evidence. Determinatives permit partitive complements, as in \\mention{some of the wine}, and comparative complements, as in \\mention{more than ten} \\citep[392--394, 411--412, 432--433]{huddleston2002}.",
+    "replacement": "Adjectival constructions such as \\mention{the rich} also fill nominal argument positions, so external functions alone don't establish nounhood. Internal syntax extends the comparison: determinatives permit partitive complements, as in \\mention{some of the wine}, and comparative complements, as in \\mention{more than ten} \\citep[392--394, 411--412, 432--433]{huddleston2002}.",
+    "reason": "Replace the methodological reply to the earlier external-function criterion with the actual counterexample and additional evidence."
+  },
+  {
+    "line_before_edit": 216,
+    "original": "Number contrasts aren't uniformly inflectional. \\textit{CGEL} treats singular and plural \\mention{you} as distinct lexemes whose difference is overt only in the reflexive forms \\mention{yourself} and \\mention{yourselves} \\citep[486]{huddleston2002}. The comparison therefore distinguishes the expression of number from number inflection within a lexeme. Word formation contributes a further morphological comparison (§\\ref{sec:word-formation}).",
+    "replacement": "\\textit{CGEL} treats singular and plural \\mention{you} as distinct lexemes whose difference is overt only in the reflexive forms \\mention{yourself} and \\mention{yourselves} \\citep[486]{huddleston2002}. Here number distinguishes lexemes rather than inflectional forms of one lexeme.",
+    "reason": "Present the corrected analysis directly; remove the announcement of a distinction and the routine word-formation pointer."
+  },
+  {
+    "line_before_edit": 218,
+    "original": "Extending the analysis to restricted members carries a separate burden. Pronoun forms themselves don't all pass the argument-position test: dependent genitives such as \\mention{my} have positive support from their paradigms. For determinatives, the argument likewise needs to establish both a broadly nominal constructional profile and the restricted members' integration into that category. Section~\\ref{sec:articles} supplies the latter argument.",
+    "replacement": "",
+    "reason": "The dedicated article section establishes paradigm-based membership with my and mine; remove its advance rehearsal."
+  },
+  {
+    "line_before_edit": 219,
+    "original": "The similarities link determinatives to different parts of Noun. Deixis and pro-form gender connect them with pronouns; number and genitive marking connect some members with common and proper nouns; argument and determiner uses span all four groups. Partitives and nominal postmodification extend the internal-syntactic comparison. I judge this combined profile substantial enough for a superordinate category, with determinatives' quantificational, inflectional and modifier patterns supporting their distinct place within it.",
+    "replacement": "Determinatives' nominal connections are distributed across the proposed subcategories: deixis and pro-form gender link them with pronouns, number and genitive marking with common and proper nouns, and argument and determiner uses with all three. Alongside partitives and nominal postmodification, I take these similarities to justify a superordinate Noun category, with determinatives' quantificational, inflectional and modifier patterns distinguishing their place within it.",
+    "reason": "Keep the body’s substantive synthesis while tightening the repeated domain list."
+  },
+  {
+    "line_before_edit": 225,
+    "original": "Determiner function already cuts across the existing noun subcategories. Compare \\mention{my preferences}, \\mention{Kim's preferences} and \\mention{people's preferences}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \\citep[354--355, 470--471]{huddleston2002}.\\footnote{\\textit{CGEL} assigns these genitives the combined function Subject--Det \\citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.} Figure~\\ref{fig:genitive} illustrates the proper-noun case: \\mention{Kim's} fills Det, while \\mention{preferences} ultimately heads the larger NP.",
+    "replacement": "Determiner function already cuts across the existing noun subcategories. Compare \\mention{my preferences}, \\mention{Kim's preferences} and \\mention{people's preferences}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \\citep[354--355, 470--471]{huddleston2002}.\\footnote{\\textit{CGEL} assigns these genitives the combined function Subject--Det \\citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.} Figure~\\ref{fig:genitive} illustrates the proper-noun case.",
+    "reason": "Remove the prose duplicate of the figure’s head and determiner labels."
+  },
+  {
+    "line_before_edit": 242,
+    "original": "The inherited projection gives the two D-noun structures in Figure~\\ref{fig:some}. In \\mention{take some apples}, the NP headed by \\mention{some} fills Det, as \\mention{Kim's} does in \\mention{Kim's preferences}; \\mention{apples} heads the larger NP. In \\mention{take some}, \\mention{some} heads the whole object NP. The lexeme retains its subcategory and nominal projection across these uses, while the NP it heads changes function.",
+    "replacement": "The NP headed by \\mention{some} likewise functions as Det in \\mention{take some apples} and as object in \\mention{take some} (Figure~\\ref{fig:some}). Its subcategory and nominal projection remain constant across these uses.",
+    "reason": "Compress the repeated Figure 1 walkthrough to the comparison needed here."
+  },
+  {
+    "line_before_edit": 244,
+    "original": "NP becomes the shared phrase type for the principal realizations of determiner function. Plain determinative phrases join genitives such as \\mention{Kim's} and \\mention{my}. Minor determiners include further NPs: \\mention{what size} in \\mention{what size shoes}, \\mention{that size} in \\mention{that size shoes}, and \\mention{Sunday} in \\mention{Sunday morning} \\citep[356]{huddleston2002}. Determiner function is thus shared across the proposed nominal subcategories.",
+    "replacement": "NP becomes the shared phrase type for the principal realizations of determiner function. Plain determinatives, including modified forms such as \\mention{almost ten}, join genitives such as \\mention{Kim's} and \\mention{my}. Minor determiners include further NPs: \\mention{what size} in \\mention{what size shoes}, \\mention{that size} in \\mention{that size shoes}, and \\mention{Sunday} in \\mention{Sunday morning} \\citep[356]{huddleston2002}.",
+    "reason": "Integrate almost ten as a positive NP example rather than an explicit repair of the earlier PP classification; cut the repeated closing claim."
+  },
+  {
+    "line_before_edit": 246,
+    "original": "PPs remain a restricted alternative, as in \\mention{up to twenty minutes} and \\mention{between fifty and sixty tanks} \\citep[356]{huddleston2002}. By contrast, \\mention{almost ten} is an NP under the D-noun analysis, with an adverbial modifier of its numeral head. Number, countability and other selectional conditions distinguish the determining expressions. Sections~\\ref{sec:det-uniform}--\\ref{sec:fragment} compare the resulting structures and restrictions.",
+    "replacement": "PPs remain a restricted alternative, as in \\mention{up to twenty minutes} and \\mention{between fifty and sixty tanks} \\citep[356]{huddleston2002}. Number, countability and other selectional conditions distinguish the determining expressions.",
+    "reason": "Remove the corrective contrast now integrated above and the repeated roadmap to the fragment."
+  },
+  {
+    "line_before_edit": 269,
+    "original": "The systematic use of AdvP premodifiers is the strongest internal-syntactic objection to the D-noun analysis. In the other three noun subcategories, internal premodifiers are normally adjectival or nominal. Adverbs occurring before a whole NP, as in \\mention{only you}, don't supply a parallel: they're peripheral modifiers of the NP, rather than internal modifiers of its head \\citep[430--431]{huddleston2002}. The distinction concerns attachment as well as word order.",
+    "replacement": "The systematic use of AdvP premodifiers is the strongest internal-syntactic objection to the D-noun analysis. In the other three noun subcategories, internal premodifiers are normally adjectival or nominal. Adverbs occurring before a whole NP, as in \\mention{only you}, are peripheral modifiers of the NP, rather than internal modifiers of its head \\citep[430--431]{huddleston2002}.",
+    "reason": "Retain the attachment distinction; remove the paragraph’s restatement of its own point."
+  },
+  {
+    "line_before_edit": 273,
+    "original": "The existing noun subcategories also differ in the range and conditions of their postmodifiers. Common nouns freely take integrated relative clauses; personal pronouns permit a restricted range, including \\mention{we who have read the report} \\citep[430]{huddleston2002}. Compound determinatives permit them too, as in \\mention{something that you need to know} \\citep[423--424]{huddleston2002}. These comparisons show that modifier permissions can vary within Noun, but they don't neutralize the premodifier objection.",
+    "replacement": "Postmodifier permissions vary within Noun too. Common nouns freely take integrated relative clauses; personal pronouns permit a restricted range, including \\mention{we who have read the report} \\citep[430]{huddleston2002}. Compound determinatives permit them too, as in \\mention{something that you need to know} \\citep[423--424]{huddleston2002}.",
+    "reason": "Remove another assurance that the postmodifier evidence does not neutralize the premodifier objection; the objection remains explicit in the surrounding paragraphs."
+  },
+  {
+    "line_before_edit": 275,
+    "original": "Including determinatives places this systematic premodifier contrast within Noun. The determinative subcategory licenses \\mention{hardly any} and \\mention{almost every}; common nouns license \\mention{experienced teacher}. Neither \\ungram{\\mention{experienced every}} nor \\ungram{\\mention{almost teacher}} follows. The contrast weighs against the proposed grouping, while the other nominal connections weigh in its favour. Its taxonomic level depends on that cumulative comparison; §\\ref{sec:costs} examines the consequences for stating the rules.",
+    "replacement": "Including determinatives places the premodifier contrast within Noun. The determinative subcategory licenses \\mention{hardly any} and \\mention{almost every}; common nouns license \\mention{experienced teacher}. Neither \\ungram{\\mention{experienced every}} nor \\ungram{\\mention{almost teacher}} follows. This contrast weighs against the grouping; §\\ref{sec:costs} examines its consequences for stating the rules.",
+    "reason": "Keep the negative evidence and grammaticality contrasts; remove another general statement that classification weighs the complete profile."
+  },
+  {
+    "line_before_edit": 279,
+    "original": "Derivational affixes contribute two kinds of evidence: the categories they select as bases and the categories they form. A suffix restricted to nominal bases would supply evidence about a determinative's input category. A suffix forming common nouns establishes the output category, but may permit several kinds of base. The noun-forming examples in Table~\\ref{tab:existing} need to be assessed in these terms.",
+    "replacement": "Derivational affixes select categories of bases and determine categories of outputs. A suffix restricted to nominal bases would supply evidence about a determinative's input category. A noun-forming suffix may accept several kinds of base.",
+    "reason": "Define the input/output distinction once without instructions for how to read the table."
+  },
+  {
+    "line_before_edit": 281,
+    "original": "The common-noun and proper-noun examples illustrate the distinction. \\mention{Friendship} contains \\mention{-ship}, which primarily selects nouns denoting persons, though \\mention{hardship} has an adjective base. The inhabitant suffix \\mention{-er} in \\mention{Londoner} attaches to a place name. These are specific nominal derivations, but the comparisons presented here establish no corresponding noun-selecting suffix shared by pronouns and determinatives \\citep[Ch.~19, §§5.6.2(b), 5.7.2(k)]{huddleston2002}.",
+    "replacement": "\\mention{Friendship} contains \\mention{-ship}, which primarily selects nouns denoting persons, though \\mention{hardship} has an adjective base. The inhabitant suffix \\mention{-er} in \\mention{Londoner} attaches to a place name \\citep[Ch.~19, §§5.6.2(b), 5.7.2(k)]{huddleston2002}.",
+    "reason": "Remove abstract introductions and reserve the result of the affix comparison for the following paragraph."
+  },
+  {
+    "line_before_edit": 283,
+    "original": "Related suffixes reinforce the need to check input restrictions. \\mention{-hood} usually selects noun bases, as in \\mention{bachelorhood}, but also forms \\mention{falsehood} and \\mention{likelihood} from adjectives. \\mention{-dom} similarly has noun bases in \\mention{kingdom} and \\mention{officialdom}, alongside adjectival bases in \\mention{freedom} and \\mention{wisdom} \\citep[Ch.~19, §5.7.2(e--f)]{huddleston2002}. These exceptions limit the value of treating a familiar nominal suffix as a categorical input test.",
+    "replacement": "\\mention{-hood} usually selects noun bases, as in \\mention{bachelorhood}, but also forms \\mention{falsehood} and \\mention{likelihood} from adjectives. \\mention{-dom} similarly has noun bases in \\mention{kingdom} and \\mention{officialdom}, alongside adjectival bases in \\mention{freedom} and \\mention{wisdom} \\citep[Ch.~19, §5.7.2(e--f)]{huddleston2002}. These comparisons establish no noun-selecting suffix shared by pronouns and determinatives.",
+    "reason": "Retain every affix and exception, and state the bounded negative result once."
+  },
+  {
+    "line_before_edit": 285,
+    "original": "Determinatives do enter derivations whose output is a common noun. \\textit{CGEL} cites \\mention{nothingness} and \\mention{oneness} among formations with \\mention{-ness} on non-adjectival bases \\citep[Ch.~19, §5.7.2(i)]{huddleston2002}. Further established nouns include \\mention{thisness}, \\mention{fewness} and \\mention{muchness}.\\footnote{See \\textit{Merriam-Webster.com Dictionary}, s.vv.\\ \\href{https://www.merriam-webster.com/dictionary/thisness}{\\mention{thisness}} and \\href{https://www.merriam-webster.com/dictionary/fewness}{\\mention{fewness}}, and \\textit{Dictionary.com}, s.v.\\ \\href{https://www.dictionary.com/browse/muchness}{\\mention{muchness}} (accessed 10 September 2026). The entries establish the words and their meanings or histories; they don't establish a uniformly productive modern rule.} On a direct D-base analysis, these formations connect determinatives with common nouns through derivation. Under the proposed taxonomy, that connection is internal to Noun.",
+    "replacement": "Determinatives enter derivations whose output is a common noun. \\textit{CGEL} cites \\mention{nothingness} and \\mention{oneness} among formations with \\mention{-ness} on non-adjectival bases \\citep[Ch.~19, §5.7.2(i)]{huddleston2002}. Further established nouns include \\mention{thisness}, \\mention{fewness} and \\mention{muchness}.\\footnote{See \\textit{Merriam-Webster.com Dictionary}, s.vv.\\ \\href{https://www.merriam-webster.com/dictionary/thisness}{\\mention{thisness}} and \\href{https://www.merriam-webster.com/dictionary/fewness}{\\mention{fewness}}, and \\textit{Dictionary.com}, s.v.\\ \\href{https://www.dictionary.com/browse/muchness}{\\mention{muchness}} (accessed 10 September 2026). These attestations don't establish a uniformly productive modern rule.} With a direct D base, these derivations connect determinatives with common nouns within the proposed Noun category.",
+    "reason": "Compress the direct-base interpretation and dictionary limitation without removing attestations or the productivity limit."
+  },
+  {
+    "line_before_edit": 287,
+    "original": "Their input classification remains open to the wider evidence. \\mention{-ness} is the default suffix for forming nouns from adjectives, but also attaches to other bases, as in \\mention{whyness}. Its occurrence in \\mention{nothingness} therefore establishes neither an exclusively nominal nor an exclusively adjectival base. Where a converted base intervenes, the derivation begins from that base; a conversion analysis needs evidence beyond protecting a preferred classification.",
+    "replacement": "\\mention{-ness} is the default suffix for forming nouns from adjectives, but also attaches to other bases, as in \\mention{whyness}. Its occurrence in \\mention{nothingness} thus identifies neither an exclusively nominal nor an exclusively adjectival input. A conversion analysis would require independent evidence for an intermediate base.",
+    "reason": "Replace the defensive discussion of protecting a preferred classification with the evidential requirement for conversion."
+  },
+  {
+    "line_before_edit": 289,
+    "original": "The adverb \\mention{mostly} provides a different output.\\footnote{See \\textit{Dictionary.com}, s.v.\\ \\href{https://www.dictionary.com/browse/mostly}{\\mention{mostly}} (accessed 10 September 2026).} Adverbial \\mention{-ly} primarily attaches to adjectives, but \\textit{CGEL} also gives noun-based \\mention{partly} and \\mention{purposely} \\citep[566]{huddleston2002}. This derivation gives \\mention{most} an adjectival affinity without supplying an adjective-only diagnostic. Its adverb output crosses a primary-category boundary under either the separate-D or D-noun classification.",
+    "replacement": "The adverb \\mention{mostly} provides a different output.\\footnote{See \\textit{Dictionary.com}, s.v.\\ \\href{https://www.dictionary.com/browse/mostly}{\\mention{mostly}} (accessed 10 September 2026).} Adverbial \\mention{-ly} primarily attaches to adjectives, but \\textit{CGEL} also gives noun-based \\mention{partly} and \\mention{purposely} \\citep[566]{huddleston2002}. This gives \\mention{most} an adjectival affinity without an adjective-only diagnostic.",
+    "reason": "The identified adverb output already establishes the category change; remove the redundant comparison under both taxonomies."
+  },
+  {
+    "line_before_edit": 291,
+    "original": "Compounding supplies a further connection, though it isn't an affix-selection test. Pronouns enter gender-marking compounds such as \\mention{he-goat} and \\mention{she-ass} \\citep[Ch.~19, §5.3]{huddleston2002}; determinatives combine with nominal material in \\mention{someone} and \\mention{anything}. Their determinative premodifier permissions recur in the compounds (§\\ref{sec:compounds}), supporting continuity between a base and its compound while the nominal component contributes further properties.",
+    "replacement": "Pronouns enter gender-marking compounds such as \\mention{he-goat} and \\mention{she-ass} \\citep[Ch.~19, §5.3]{huddleston2002}; determinatives combine with nominal material in \\mention{someone} and \\mention{anything}. Their determinative premodifier permissions recur in the compounds (§\\ref{sec:compounds}), while the nominal component contributes further properties.",
+    "reason": "Move directly to the compound evidence without explaining that compounding is not an affix-selection test."
+  },
+  {
+    "line_before_edit": 293,
+    "original": "Numeral morphology extends the comparison to ordinal and fractional formations, analysed respectively as adjectival and nominal by \\textcite{reynolds2026numerals}. Their formation also bears on the boundary between a numeral lexeme and a syntactic phrase. These distinctions concern different outputs and different constituent structures; the common cardinal base participates in all of them.",
+    "replacement": "Numeral morphology extends the comparison to ordinal and fractional formations, analysed respectively as adjectival and nominal by \\textcite{reynolds2026numerals}. Their formation also bears on the boundary between a numeral lexeme and a syntactic phrase.",
+    "reason": "Remove the sentence restating the different outputs and structures just identified."
+  },
+  {
+    "line_before_edit": 295,
+    "original": "Morphology thus provides overlapping and divergent relationships. Number and genitive marking give the clearest inflectional connections with nouns. Noun-forming derivation adds a relationship between some determinatives and common nouns, while grade and the predominantly adjectival \\mention{-ness} and \\mention{-ly} patterns supply adjectival affinities. These contributions have different evidential force. Their place in the argument depends on the accompanying semantic and syntactic profile.",
+    "replacement": "Morphology supplies mixed evidence: number and genitive marking give the clearest inflectional connections with nouns, while grade gives an adjectival connection. Derivation links some determinatives with common nouns through suffixes whose typical bases are adjectival.",
+    "reason": "Keep the morphological verdict; remove the repeated instruction to weigh it with syntax and semantics."
+  },
+  {
+    "line_before_edit": 299,
+    "original": "Independent uses, partitives and modification show a recurring nominal pattern. These observations overlap: \\mention{Some left} illustrates both external distribution and syntactic completeness. Fusion and ordinary headedness can cover this pattern. The comparisons below distinguish the shared observations from the analyses of their internal structure; §\\ref{sec:fragment} assesses the resulting organization of the grammar.",
+    "replacement": "Independent uses, partitives and modification show a recurring nominal pattern. The observations overlap: \\mention{Some left} illustrates both external distribution and syntactic completeness. Fusion and ordinary headedness offer different internal analyses of these constructions.",
+    "reason": "Remove the section’s advance rehearsal of the matched fragment and its methodological separation."
+  },
+  {
+    "line_before_edit": 305,
+    "original": "The pattern extends beyond a few compounds or a single lexicalized expression. For this closed category, \\term{productivity} concerns the availability of independent use among established members under appropriate conditions, rather than the licensing of new lexical items.",
+    "replacement": "",
+    "reason": "The inventory paragraph already establishes breadth. The introduced definition of productivity answers a retired wording problem and is unused later."
+  },
+  {
+    "line_before_edit": 306,
+    "original": "In the constructed examples in (\\ref{ex:external}), compare the positions occupied by the bracketed NPs: subject, object and complement of a preposition. Assume that a woman named Kim and a group of people are already under discussion. These positions admit NPs containing words from each proposed noun subcategory; the competing analyses assign different internal structures to independent \\mention{some}.",
+    "replacement": "In the constructed examples in (\\ref{ex:external}), compare the bracketed NPs in subject, object and complement-of-preposition positions. Assume that a woman named Kim and a group of people are already under discussion. The competing analyses assign different internal structures to independent \\mention{some}.",
+    "reason": "The displayed four-way comparison supplies the inventory; retain the discourse context and structural distinction."
+  },
+  {
+    "line_before_edit": 334,
+    "original": "Fusion supplies the competing analysis. In \\textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions. In \\textit{CGEL}'s analysis of independent \\mention{some}, the DP headed by \\mention{some} fills Det of NP and Head of Nom. The word retains the determinative category it has in \\mention{some apples}, while the independent expression is an NP. Ordinary headedness replaces this relation with nominal projection; lexical restrictions on independence and form selection remain.",
+    "replacement": "In \\textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions. Under \\textit{CGEL}'s analysis of independent \\mention{some}, its DP fills Det of NP and Head of Nom. The word remains determinative, while the independent expression is an NP. Ordinary headedness instead gives \\mention{some} nominal projection, with the same restrictions on independence and form selection.",
+    "reason": "Shorten the repeated fusion definition while retaining its structural conditions and category/phrase distinction."
+  },
+  {
+    "line_before_edit": 338,
+    "original": "Saturation therefore clarifies the distributional comparison without independently selecting either internal structure.",
+    "replacement": "",
+    "reason": "The preceding comparison already leaves both analyses available; cut the sealed-paragraph summary and its existing overfull line."
+  },
+  {
+    "line_before_edit": 362,
+    "original": "The D-noun analysis treats \\mention{some} and \\mention{some of the wine} as sharing nominal projection, with an added domain phrase in the partitive. Modification provides a further comparison of internal structure.",
+    "replacement": "",
+    "reason": "Shared projection across bare and partitive uses is already explained in the figure and the preceding analysis; the next heading provides the transition."
+  },
+  {
+    "line_before_edit": 412,
+    "original": "Fusion groups \\mention{the lucky few} with \\mention{the idle rich}, whereas ordinary headedness groups it with \\mention{the lucky survivors}. Ordinary headedness unifies \\mention{few} across its bare and externally determined uses, without alternating Det--Head and Mod--Head. Neither account gains coverage from this example alone. The comparison is between sharing a fusion construction across D and adjective, and sharing ordinary nominal headedness across determinative constructions.",
+    "replacement": "Fusion groups \\mention{the lucky few} with \\mention{the idle rich}; ordinary headedness groups it with \\mention{the lucky survivors} and unifies bare and externally determined \\mention{few}. Both cover the example. The choice is between sharing fusion across D and adjective, and sharing ordinary Head structure across determinative constructions.",
+    "reason": "State the structural comparison once, cutting the prose duplicate of the table’s Det–Head/Mod–Head alternation and the existing overfull line."
+  },
+  {
+    "line_before_edit": 418,
+    "original": "Relative-clause postmodification adds another nominal construction: \\mention{those who came}, \\mention{anyone who asks}, \\mention{everything that matters}, and, with books under discussion, \\mention{some that I saw}. \\textit{CGEL} describes relatives with demonstratives and compounds \\citep[414, 422--423]{huddleston2002}. These clauses modify the nominal expression containing the determinative, as they do in \\mention{people who came}; their availability isn't limited to compounds.",
+    "replacement": "Relative-clause postmodification adds another nominal construction: \\mention{those who came}, \\mention{anyone who asks}, \\mention{everything that matters}, and, with books under discussion, \\mention{some that I saw}. \\textit{CGEL} describes relatives with demonstratives and compounds \\citep[414, 422--423]{huddleston2002}. These clauses modify the nominal expression containing the determinative, as they do in \\mention{people who came}.",
+    "reason": "The demonstrative and simple examples already establish availability beyond compounds; remove the corrective closing clause."
+  },
+  {
+    "line_before_edit": 424,
+    "original": "The positive comparison therefore combines independent argument use with nominal number properties, partitives and modification. Adjectival constructions provide overlapping external functions while preserving distinct properties of their heads. This favours retaining adjectival fusion alongside ordinary determinative headedness.",
+    "replacement": "The combination of argument use, nominal number properties, partitives and modification favours ordinary determinative headedness alongside adjectival fusion.",
+    "reason": "Keep the local interpretive conclusion without repeating the preceding adjective/NP comparison."
+  },
+  {
+    "line_before_edit": 459,
+    "original": "This division extends to \\mention{someone} and \\mention{everybody}: the compound family licenses nominal argument use and post-head restrictors, while each base supplies its own premodifier permissions. It doesn't follow that \\mention{hardly} modifies every compound. CGELBank attests the post-head pattern in \\mention{I need something reliable and good looking}.\\footnote{Sentence \\href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt-test_iaa50.cgel\\#L179-L181}{\\nolinkurl{answers-20111024111513AAAQhAO_ans-0003}} in \\nolinkurl{ewt-test_iaa50.cgel}.}",
+    "replacement": "This division extends to \\mention{someone} and \\mention{everybody}: the compound family licenses nominal argument use and post-head restrictors, while each base supplies its own premodifier permissions. CGELBank attests the post-head pattern in \\mention{I need something reliable and good looking}.\\footnote{Sentence \\href{https://github.com/nert-nlp/cgel/blob/d0a2c2d8c522b23d5aa879fc9cb94948f4285b2c/datasets/ewt-test_iaa50.cgel\\#L179-L181}{\\nolinkurl{answers-20111024111513AAAQhAO_ans-0003}} in \\nolinkurl{ewt-test_iaa50.cgel}.}",
+    "reason": "Each base’s own permissions already exclude indiscriminate extension of hardly; remove the corrective negation while retaining the attestation."
+  },
+  {
+    "line_before_edit": 461,
+    "original": "Fusion reuses the DP--Nom boundary to separate the two modifier domains. Ordinary headedness reuses nominal projection, locating both domains within Nom and assigning their restrictions to the determinative base and compound construction. Both accounts need the specialized restrictor condition. The trade-off concerns where the restrictions are stated, not whether they can be removed.",
+    "replacement": "Fusion reuses the DP--Nom boundary to separate the two modifier domains. Ordinary headedness locates both within Nom, assigning their restrictions to the determinative base and compound construction. Both accounts need the specialized restrictor condition.",
+    "reason": "Remove the repeated explanation that the trade-off concerns where restrictions are stated."
+  },
+  {
+    "line_before_edit": 465,
+    "original": "The argument-use patterns above don't extend uniformly to predicative complementation. \\textit{CGEL} records \\mention{Its advantages are several} and \\mention{Their enemies were many}, describing the latter pattern as uncommon and formal \\citep[392, 395--396]{huddleston2002}. Predicative use is available to only part of the determinative inventory; \\mention{every} and the articles remain excluded from these frames.",
+    "replacement": "\\textit{CGEL} records predicative \\mention{Its advantages are several} and \\mention{Their enemies were many}, describing the latter pattern as uncommon and formal \\citep[392, 395--396]{huddleston2002}. This use is available to only part of the determinative inventory; \\mention{every} and the articles remain excluded.",
+    "reason": "Lead with the attested predicative contrast instead of a backward-facing correction of the argument-use generalization."
+  },
+  {
+    "line_before_edit": 467,
+    "original": "The comparison also depends on what the predication expresses. \\mention{She is a doctor} ascribes a property, whereas \\mention{That is Kim} identifies a person. \\textit{CGEL} excludes specifying \\mention{be} clauses from its noun--adjective diagnostic because phrases from other categories occur in them too \\citep[536]{huddleston2002}. Merely placing an expression after \\mention{be} therefore provides no uniform nounhood test.",
+    "replacement": "\\mention{She is a doctor} ascribes a property, whereas \\mention{That is Kim} identifies a person. \\textit{CGEL} excludes specifying \\mention{be} clauses from its noun--adjective diagnostic because phrases from other categories occur in them too \\citep[536]{huddleston2002}.",
+    "reason": "The contrast and cited diagnostic already establish the point; remove the abstract opener and restating closer."
+  },
+  {
+    "line_before_edit": 469,
+    "original": "Nominal grammar already licenses some expressions predicatively while restricting their argument uses. A bare-role NP such as \\mention{president} is licensed in \\mention{I'd like to be president}, but requires determination in the corresponding object use \\mention{I'd like to meet the president} \\citep[328]{huddleston2002}. Predicative and argument uses thus need separate conditions within Noun itself. The determinative asymmetries belong in that comparison; they don't establish exclusion merely by departing from a common-noun substitution frame.",
+    "replacement": "Nominal grammar also distinguishes predicative and argument uses. A bare-role NP such as \\mention{president} is licensed in \\mention{I'd like to be president}, but requires determination in the corresponding object use \\mention{I'd like to meet the president} \\citep[328]{huddleston2002}. Determinatives' asymmetries fit this broader variation within Noun.",
+    "reason": "Retain the counterexample to a common-noun substitution criterion; replace the corrective closing negation with its positive consequence."
+  },
+  {
+    "line_before_edit": 473,
+    "original": "Independent uses, number, genitives, partitives and modification establish a systematic nominal profile. Together with the semantic and derivational relationships in §\\ref{sec:proposal}, they connect determinatives with the other proposed noun subcategories in several domains. The properties are distributed across determinative families, just as common nouns, proper nouns and pronouns differ among themselves. The case for inclusion rests on this cumulative resemblance, with the premodifier and adjectival counterpatterns retained in the comparison.",
+    "replacement": "The nominal constructions reinforce the semantic and morphological connections in §\\ref{sec:proposal}. Under the D-noun analysis, bare, partitive and externally determined uses inherit ordinary Head structure. \\textit{CGEL} distinguishes Det--Head from Mod--Head and uses the DP--Nom boundary to separate modifier domains. These are competing ways of organizing the same constructional evidence; their grammatical costs are compared in §\\ref{sec:fragment}.",
+    "reason": "Consolidate the cumulative subsection into one structural synthesis; avoid rehearsing the complete profile judgment again."
+  },
+  {
+    "line_before_edit": 475,
+    "original": "Under the D-noun analysis, bare, partitive and externally determined uses inherit the ordinary Head relation of nominal projection. \\textit{CGEL} instead relates independent determinatives to dependent counterparts and distinguishes Det--Head from Mod--Head. Its compound analysis also uses the DP--Nom boundary to separate modifier domains. The D-noun analysis states those restrictions within nominal structure (§\\ref{sec:compounds}).",
+    "replacement": "",
+    "reason": "Merged into the preceding paragraph."
+  },
+  {
+    "line_before_edit": 476,
+    "original": "The next two sections consider the hierarchy within Noun and the membership of its restricted forms. Section~\\ref{sec:fragment} then compares the grammatical organization under the three accounts.",
+    "replacement": "",
+    "reason": "The following headings supply the hierarchy/article progression; the useful fragment pointer is retained above."
+  },
+  {
+    "line_before_edit": 479,
+    "original": "Should determinatives and pronouns be coordinate subcategories within Noun, or should determinatives belong inside pronoun? \\textcite{reynolds2021} compares determinative and pronoun profiles; its matrix contains no common or proper nouns. Distributional separation between the supplied groups doesn't determine their taxonomic rank or test the proposed superordinate category. Even perfect recovery of the distinction would be compatible with shared nounhood. The original discussion likewise leaves a nested nominal analysis open.",
+    "replacement": "Should determinatives and pronouns be coordinate subcategories within Noun, or should determinatives belong inside pronoun? \\textcite{reynolds2021} compares determinative and pronoun profiles; its matrix contains no common or proper nouns. Distributional separation between the supplied groups doesn't determine their taxonomic rank or test the proposed superordinate category. The original discussion likewise leaves a nested nominal analysis open.",
+    "reason": "Remove the restatement that even perfect separation is compatible with shared nounhood; retain the study’s limits and historical compatibility."
+  },
+  {
+    "line_before_edit": 485,
+    "original": "An intermediate category would represent pronouns and determinatives as more closely related to each other than to common and proper nouns. Assessing that relationship requires comparing their full profiles. Nominal projection already applies to all four subcategories, while personal pronouns' case, reflexive and person contrasts and determinatives' quantificational and modifier patterns support local distinctions under either hierarchy.",
+    "replacement": "Nesting would group pronouns and determinatives more closely than either with common or proper nouns.",
+    "reason": "Remove the generic instruction to compare full profiles and the advance summary of the contrasts argued below."
+  },
+  {
+    "line_before_edit": 489,
+    "original": "Pro-form gender supplies a more specific interpretive comparison. \\textcite{reynolds2025proformgender} proposes a personhood-based system spanning pronouns and determinatives. Personal reference links pronouns such as \\mention{she} with compound determinatives such as \\mention{somebody}; non-personal reference links \\mention{it} with \\mention{something}. These constraints concern how the referent is construed. They provide a shared generalization for nominal pro-forms, but don't decide between coordinate and nested noun subcategories. The broader pro-form system also includes non-nominal expressions, so gender alone doesn't delimit Noun.",
+    "replacement": "The personhood-based system of pro-form gender also spans both groups \\citep{reynolds2025proformgender} (§\\ref{sec:membership}). It supplies a shared generalization for nominal pro-forms, but also includes non-nominal expressions and doesn't by itself decide between coordinate and nested noun subcategories.",
+    "reason": "Apply the gender discussion from §3.1 to the hierarchy question without repeating its examples and definition."
+  },
+  {
+    "line_before_edit": 495,
+    "original": "I place determinative alongside pronoun because their shared nominal properties coexist with different centres of grammatical organization. Pronouns centre on person, case, reflexivity and contextual reference; determinatives centre on quantification, determination and their associated modifier patterns. Their affinities also extend to common and proper nouns. Coordinate subcategories represent this combination, while further evidence could support a broader pronoun grouping. Section~\\ref{sec:articles} turns to the membership of the articles and other restricted forms.",
+    "replacement": "I place determinative alongside pronoun because their shared nominal properties coexist with different centres of grammatical organization. Pronouns centre on person, case, reflexivity and contextual reference; determinatives centre on quantification, determination and their associated modifier patterns. Their affinities with common and proper nouns also favour coordination.",
+    "reason": "Retain the positive argument for coordination; remove another generic future-evidence qualification and the routine pointer to articles."
+  },
+  {
+    "line_before_edit": 499,
+    "original": "Why classify the articles \\mention{the} and \\mention{a} as nouns if they can't stand independently? Independent uses motivate the D-noun analysis of \\mention{some}, \\mention{this} and \\mention{many}, but the articles require a different argument. \\mention{Every} is restricted too, while \\mention{no} has the distinct independent form \\mention{none} \\citep[371--372, 410--411]{huddleston2002}.\\footnote{The restriction concerns ordinary argument use. In \\mention{the bigger the better}, \\textit{CGEL} analyses \\mention{the} as a modifier within a comparative phrase \\citep[1131--1132, 1135--1136]{huddleston2002}. This dependent use outside Det leaves the restriction on ordinary argument use intact.}",
+    "replacement": "Why classify the articles \\mention{the} and \\mention{a} as nouns if they can't stand independently? \\mention{Every} is restricted too, while \\mention{no} has the distinct independent form \\mention{none} \\citep[371--372, 410--411]{huddleston2002}.\\footnote{In \\mention{the bigger the better}, \\textit{CGEL} analyses \\mention{the} as a modifier within a comparative phrase \\citep[1131--1132, 1135--1136]{huddleston2002}. This dependent use outside Det leaves the restriction on ordinary argument use intact.}",
+    "reason": "The question already identifies the problem; remove the repeated list of unrestricted determinatives and redundant opening of the footnote."
+  },
+  {
+    "line_before_edit": 503,
+    "original": "Retaining a restricted member requires three kinds of support. First, it should be paradigmatically integrated with independently identified members. Second, it should participate in the category's characteristic semantic and grammatical contrasts. Third, its missing uses should form a local restriction while the positive connections remain. Calling an item \\term{defective} summarizes that pattern; it doesn't supply an argument for membership by itself.",
+    "replacement": "",
+    "reason": "The next paragraph applies all three conditions concretely; cut their abstract rehearsal and the unused defective label."
+  },
+  {
+    "line_before_edit": 504,
+    "original": "The articles meet these conditions within determinative. First, they contrast with demonstratives and quantifiers before common-noun nominals: \\mention{the/a/this/every book}. Second, they participate in the same system of definiteness, number and count restrictions: \\mention{the} permits singular, plural and non-count targets, while \\mention{a} selects a singular count target. Third, their lack of ordinary independent uses leaves that determining pattern intact. These connections support determinative membership, rather than establishing nounhood independently.",
+    "replacement": "The articles are integrated into determinative in three ways. First, they contrast with demonstratives and quantifiers before common-noun nominals: \\mention{the/a/this/every book}. Second, they participate in the same system of definiteness, number and count restrictions: \\mention{the} permits singular, plural and non-count targets, while \\mention{a} selects a singular count target. Third, their lack of ordinary independent uses leaves that determining pattern intact. These connections support determinative membership, rather than establishing nounhood independently.",
+    "reason": "Repair the opening after deleting the abstract criteria; retain each criterion and its concrete application."
+  },
+  {
+    "line_before_edit": 510,
+    "original": "A separate article category would gain support from a cluster of synchronic restrictions shared by \\mention{the}, \\mention{a} and \\mention{every}, absent elsewhere in Noun, and otherwise requiring repeated exceptions. Lack of independent argument use alone doesn't supply that cluster. The comparison concerns the allocation of generalizations; an additional restriction needn't by itself overturn the membership analysis. All the grammars compared in §\\ref{sec:fragment} retain the articles' restriction on ordinary argument use.",
+    "replacement": "A separate article category would gain support from a cluster of synchronic restrictions shared by \\mention{the}, \\mention{a} and \\mention{every}, absent elsewhere in Noun and otherwise requiring repeated exceptions. Lack of independent argument use alone doesn't supply that cluster.",
+    "reason": "Retain the condition that could favour a separate article class; remove generic reminders and the duplicate of the fragment’s article permissions."
+  },
+  {
+    "line_before_edit": 524,
+    "original": "This shares a phrase type without shortening the selectional disjunction: determinative-headed, genitive and other licensed NPs still require separate identification. \\textit{CGEL} already states definiteness and the single-Det restriction functionally, so reclassification doesn't derive them. The substantive comparison concerns whether determining phrases reuse nominal projection once their different restrictions are held fixed. Fewer phrase labels alone don't establish grammatical economy; §\\ref{sec:fragment} displays the rules that must be compared.",
+    "replacement": "This shares a phrase type without shortening the selectional disjunction: determinative-headed, genitive and other licensed NPs still require separate identification. \\textit{CGEL} already states definiteness and the single-Det restriction functionally, so reclassification doesn't derive them. The following fragment compares projection once those restrictions are held fixed.",
+    "reason": "Keep the actual limits on economy; remove the methodological restatement about counting labels."
+  },
+  {
+    "line_before_edit": 583,
+    "original": "Partitives and modifiers require further lexical conditions. \\mention{Some} and \\mention{few} permit a partitive \\mention{of}-phrase within their nominal projection. \\mention{Almost} can modify \\mention{every} in \\mention{almost every teacher}; that permission doesn't license \\mention{experienced} as a modifier of \\mention{every}. The construction \\mention{the lucky few} permits the external determiner and adjectival modifier shown in Figure~\\ref{fig:few}. None of these permissions transfers automatically to every determinative noun.",
+    "replacement": "\\mention{Some} and \\mention{few} permit a partitive \\mention{of}-phrase within their nominal projection. \\mention{Almost} can modify \\mention{every} in \\mention{almost every teacher}; that permission doesn't license \\mention{experienced} as a modifier of \\mention{every}. The construction \\mention{the lucky few} permits the external determiner and adjectival modifier shown in Figure~\\ref{fig:few}.",
+    "reason": "The examples specify the permissions; remove the general opener and repeated warning that permissions do not transfer automatically."
+  },
+  {
+    "line_before_edit": 603,
+    "original": "A grammar with Hudson's nested classification can use the same permissions and projection rules. Holding those rules fixed, placing the broader pronoun category on determinative's inheritance path from Noun leaves the fragment's judgments unchanged. Agreement on these judgments leaves the broader pronoun category open.",
+    "replacement": "A grammar with Hudson's nested classification can use the same permissions and projection rules. Holding those rules fixed, placing the broader pronoun category on determinative's inheritance path from Noun leaves the fragment's judgments unchanged.",
+    "reason": "Remove the closing sentence restating the fragment’s neutrality on nesting."
+  },
+  {
+    "line_before_edit": 607,
+    "original": "The combined semantic, syntactic and morphological profile motivates the fourfold grouping. The fragment shows how that grouping can be represented while retaining the relevant judgments. Its strongest separate-D rival shares the nominal projection rules. The taxonomic judgment therefore reaches beyond the fragment: it weighs the range and organization of the shared properties against the recurring differences between the proposed subcategories.",
+    "replacement": "",
+    "reason": "The costs subsection should assess consequences; remove its renewed statement of the primary argument and the fragment’s scope."
+  },
+  {
+    "line_before_edit": 608,
+    "original": "The cost of this change needs separating from restrictions already present in the grammar. Common nouns, proper nouns and pronouns already differ in determination and permitted modifiers (Table~\\ref{tab:existing}). Preserving those conditions is no additional cost of including determinatives. Likewise, the separate-D grammar already restricts adverbial modification and independent use within D. Moving those restrictions inside Noun doesn't create them.",
+    "replacement": "Common nouns, proper nouns and pronouns already differ in determination and permitted modifiers (Table~\\ref{tab:existing}). Preserving those conditions adds no cost to the D-noun analysis. Separate D likewise restricts adverbial modification and independent use within its own category; moving those restrictions inside Noun doesn't create them.",
+    "reason": "Make the cost comparison directly instead of introducing the distinction as a methodological task."
+  },
+  {
+    "line_before_edit": 610,
+    "original": "The systematic premodifier contrast in §\\ref{sec:payne} identifies an additional cost. A restriction normally stated for primary Noun now applies to specified noun subcategories, while determinative nouns retain their adverbial premodifiers. The attributive \\mention{almost textbook} exception limits the original generalization but doesn't erase that change. In compounds, inherited premodifier permissions also remain distinct from the post-head restrictor construction (§\\ref{sec:compounds}). Any claim of net economy has to account for these choices.",
+    "replacement": "The premodifier contrast in §\\ref{sec:payne} adds a cost. A restriction normally stated for primary Noun now applies to specified noun subcategories, while determinatives retain their adverbial premodifiers. The attributive \\mention{almost textbook} exception qualifies the original generalization. Compound constructions also retain the distinction between inherited premodifier permissions and post-head restrictors (§\\ref{sec:compounds}).",
+    "reason": "Condense the actual costs and exception; remove another assurance that a net-economy claim must account for them."
+  },
+  {
+    "line_before_edit": 612,
+    "original": "I favour inclusion because determinatives' nominal connections extend across the domains considered here. Their argument and determiner uses, partitives and postmodification align with nominal constructions; their deictic and gender distinctions connect with pronouns; number and genitive marking connect some members with other nouns. Grade and adverbial premodification support a distinctive determinative profile. Taken together, I judge these similarities and differences better represented by subcategories of a broad Noun category.",
+    "replacement": "",
+    "reason": "Remove the second full profile synthesis in the costs subsection; §3.1 already argues this judgment and the conclusion returns to it."
+  },
+  {
+    "line_before_edit": 613,
+    "original": "Further comparisons can sharpen this judgment. Holding the inventory, constructions and readings fixed permits assessment of which grammar needs additional rules after shared restrictions have been factored out. Inheritance gains support where new constructions reuse nominal rules; separate D gains support where its boundary captures recurring restrictions otherwise restated within Noun. Such results would add evidence about the organization of the profile, alongside the semantic and morphological comparisons.",
+    "replacement": "Further constructions could favour inheritance by reusing nominal rules, or separate D if its boundary captures recurring restrictions otherwise restated within Noun. The comparison must hold the inventory, constructions and readings fixed.",
+    "reason": "Retain the substantive ways further evidence could favour either account; remove the generic instruction to add it to the wider profile."
+  },
+  {
+    "line_before_edit": 615,
+    "original": "Cardinals illustrate the reduction in overlap between primary categories. \\textcite{reynolds2026numerals} distinguishes determinative uses such as \\mention{ten men}, proper-noun uses such as \\mention{Room 101}, and common-noun uses such as \\mention{tens of pens}. Under the D-noun analysis, these uses fall within Noun: cardinals no longer span separate primary determinative and noun categories. Their differences remain at the subcategory and construction levels. The argument doesn't extend to ordinals, which that study analyses as adjectives, or turn complex numeral phrases into single lexemes.",
+    "replacement": "\\textcite{reynolds2026numerals} distinguishes determinative uses such as \\mention{ten men}, proper-noun uses such as \\mention{Room 101}, and common-noun uses such as \\mention{tens of pens}. Under the D-noun analysis, all fall within primary Noun, retaining their subcategory and constructional differences. Ordinals remain adjectives, and complex numeral phrases remain distinct from single lexemes.",
+    "reason": "State the cardinal consequence once, preserving all use types, examples and limits."
+  },
+  {
+    "line_before_edit": 617,
+    "original": "Complex cardinals also separate category from function. In \\mention{two hundred books}, the whole \\mention{two hundred} fills Det; internally, \\mention{two} modifies the magnitude head \\mention{hundred} \\citep[§4]{reynolds2026numerals}. In \\mention{these two hundred books}, \\mention{these} fills Det and \\mention{two hundred} is an internal modifier. Including determinatives within Noun preserves these relations. One Det function doesn't entail a limit of one determinative lexeme per NP.",
+    "replacement": "Complex cardinals also separate category from function. In \\mention{two hundred books}, the whole \\mention{two hundred} fills Det; internally, \\mention{two} modifies the magnitude head \\mention{hundred} \\citep[§4]{reynolds2026numerals}. In \\mention{these two hundred books}, \\mention{these} fills Det and \\mention{two hundred} is an internal modifier. One Det function doesn't entail a limit of one determinative lexeme per NP.",
+    "reason": "Remove the assurance that the proposal preserves the relations just analysed."
+  },
+  {
+    "line_before_edit": 623,
+    "original": "I propose four coordinate subcategories of Noun in English: common noun, proper noun, pronoun and determinative. The proposal rests on their overlapping profiles across semantics, syntax and morphology. Shared argument and determiner uses, nominal dependents, referential distinctions, number and genitive marking connect the groups in different combinations. Determinatives' quantitative meanings, grade and premodifier permissions support a distinct subcategory within this broader organization.",
+    "replacement": "I propose four coordinate subcategories of Noun in English: common noun, proper noun, pronoun and determinative. Their overlapping semantic, syntactic and morphological profiles justify the grouping, while determinatives' quantificational, inflectional and modifier patterns distinguish their subcategory. Its restricted members, including the articles, belong through their integration into the determinative paradigm.",
+    "reason": "Give the conclusion one taxonomic judgment; retain restricted membership without repeating the complete evidence list."
+  },
+  {
+    "line_before_edit": 625,
+    "original": "This is a cumulative classificatory judgment. The nominal connections have to be weighed alongside adjectival affinities and the systematic distributional differences, including those of pronouns. I judge the combined similarities substantial enough for one superordinate category, while the differences justify its internal divisions. The articles' membership rests on their integration into the determinative paradigm and its semantic and grammatical contrasts.",
+    "replacement": "",
+    "reason": "The conclusion’s first paragraph now states the judgment; adjective counterevidence remains in the abstract and substantive comparisons."
+  },
+  {
+    "line_before_edit": 626,
+    "original": "Through membership in Noun, determinatives inherit nominal projection and ordinary Head relations across bare, partitive and externally determined uses. This also brings the principal realizations of determiner function within NP and places cardinal uses within one primary category. A separate-D grammar can share some of these structures, and both analyses retain lexical and constructional restrictions. Their comparative economy is a further consideration in assessing the broader grammatical grouping.",
+    "replacement": "Determinatives inherit nominal projection and ordinary Head relations across bare, partitive and externally determined uses. This brings the principal realizations of determiner function within NP and cardinal uses within one primary category. Separate-D grammars can share some of these structures; comparative economy remains a further consideration alongside the broader grammatical profile.",
+    "reason": "Compress the structural consequences and secondary role of economy without a further reminder about retained restrictions."
+  },
+  {
+    "stage": "final reader and layout check",
+    "locations": [
+      "Introduction historical paragraph",
+      "§4.1 example introduction",
+      "§5 shared-profile discussion"
+    ],
+    "changes": [
+      "Removed the duplicate §2.2 roadmap and generic historical closer.",
+      "Rephrased NP positions as subjects, objects and complements of prepositions.",
+      "Joined the nesting criterion to its semantic candidate; shortened the repeated pro-form gender explanation."
+    ],
+    "reason": "Repair repetition and paragraph joins exposed by the cut, and eliminate the two introduced line overflows."
+  }
+]

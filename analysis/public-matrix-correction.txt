@@ -1,0 +1,16 @@
+Prepared 7 September 2026 — NOT YET POSTED
+
+Correction to the description of “Full matrix of English determinative and pronoun features” (LingBuzz 005747)
+
+The downloadable CSV contains 138 word forms (73 determinative forms and 65 pronoun forms) and 155 feature columns. The description of 232 features does not match this public file. The CSV itself is unchanged.
+
+The public file, retrieved on 7 September 2026, has SHA-256:
+a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7
+
+A reanalysis of this file reproduces the DISCO decomposition reported in Reynolds (2021): between-group component 30.58286, within-group component 356.41607, total 386.99893, and F = 11.670 to the reported precision. A recovered local 232-feature working matrix has not been authenticated as the published input and should not be treated as its replacement.
+
+The reported k-groups match of 129 out of 138 forms is attainable but depends on initialization. Across 100 single-start fits with seeds 1–100 and a ten-iteration limit, agreement ranges from 75 to 132 forms. A separate fit selecting the best objective among 100 starts yields 125 matches. The published clustering code also drops one feature after the name column has already been removed; both the 155-feature input and that 154-feature implementation are documented in the reanalysis.
+
+Evidence and reproducibility record: analysis/data/source-manifest.json; analysis/results/disco-sensitivity.csv; analysis/results/kgroups-summary.csv; analysis/reproduce_matrix.R. The accompanying supplement, “Replication audit of the English determinative–pronoun feature matrix” (matrix-audit.pdf; source: matrix-audit.tex), reports the methods, provenance and sensitivity checks together. The audit was moved out of the article's replication appendix on 9 September 2026; the original inputs and outputs remain unchanged.
+
+Publication action: update the resource description and attach this correction while preserving the original CSV and its version history. This prepared notice does not mean that the LingBuzz record or the 2021 article has been updated.

@@ -1,0 +1,409 @@
+\documentclass[12pt]{article}
+
+% House style preamble
+\input{.house-style/preamble.tex}
+
+% Update PDF metadata
+\hypersetup{
+  pdftitle={English determinatives as nouns}
+}
+
+\title{English determinatives as nouns}
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
+Humber Polytechnic \& University of Toronto}
+\date{Draft, April 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+English determinatives have been treated as pronouns, as a category apart, and as heads of a functional projection; this paper argues that they are a fourth sub-category of \term{noun}, alongside common, proper, and pronoun. The argument preserves \textit{CGEL}'s category/function distinction and N-headed NP analysis while revising the supercategory assignment. Partitives such as \mention{some of the wine} and \mention{many of the students} establish determinatives as head-like pivots in matrix NPs, and simple independent cases such as \textit{Some left} are best analyzed as ordinary Head rather than fused Det--Head. Three diagnostics support this reanalysis: productivity across the determinative paradigm, saturation without an additional head, and internal modification in cases such as \mention{the lucky few}. The analysis also simplifies the determiner slot: the noun-headed DP/genitive-NP disjunction collapses to NP, while the fusion-of-functions apparatus narrows to a smaller residue. Articles such as \mention{the} and \mention{a} are treated as defective members of a sub-category whose profile otherwise satisfies the membership criterion. The result is a fourfold taxonomy of English noun sub-categories: common noun, proper noun, pronoun, and determinative.
+\end{abstract}
+
+\noindent\textbf{Keywords:} determinatives, lexical categories, noun, category status, English
+
+\section{Introduction}\label{sec:intro}
+
+English determinatives have been treated as pronouns, as a category apart, and as heads of a functional projection; this paper argues that the right taxonomic answer is simpler: they are nouns. The split between determinative and pronoun is a 20th-century innovation; most dictionaries and pedagogical grammars still group the two together. \textcite{palmer1924} proposed a unified \enquote{Pronouns and Determinatives} class (his coinage of the English \mention{determinative} from the French \olang{déterminatif}), grouping articles, demonstratives, genitive pronouns, and numerals with the pronouns on distributional grounds: unlike qualitative adjectives, these items don't function predicatively, don't inflect for comparison, and resist modification. Specialist work since the 1960s has unified the same terrain in different directions: \citet{postal1966} sends pronouns toward articles, \citet{hudson2004determiners} sends determiners toward pronouns, and this paper sends both toward noun. \citet{reynolds2021} supplies the empirical pushback against any reduction of one to the other, showing through energy-distance clustering on a 138-word-form by 155-feature matrix\footnote{Reynolds 2021 originally coded 232 binary features. The 155 used here are those that apply to more than one word form; singleton features that distinguish only a single item have been filtered out, since they contribute no information to between-form distances. The filtered matrix is the version on LingBuzz \citep{reynolds2021matrix}.} that the two are distributionally distinct sub-categories.
+
+This paper offers an account that respects both the older unifying intuition and the modern distributional finding. The two sub-categories are distinct, but distinct as sub-categories of \term{noun}, alongside common noun and proper noun. \textit{CGEL} \citep{huddleston2002} already treats pronouns as a sub-category of \term{noun}; the paper extends the move to determinatives, giving a four-way taxonomy that the historical grouping implicitly anticipated.
+
+The proposal extends an existing tradition. \textcite{spinillo2000determiners,spinillo2004reconceptualising} argue on English data that the determinative isn't a valid primary lexical category. \textcite{vaneynde2003determiner} argues within HPSG that determinatives should be reclassified across the A and N categories on inflectional evidence from Italian and Dutch. Neither paper commits to the specific architecture defended here: all four of common, proper, pronoun, and determinative as coordinate sub-categories of a single supercategory \term{noun}.
+
+The kind of taxonomic move has precedent in the same descriptive framework. \textcite{pullumwilson1977} dissolved the AUX category into V; \textit{CGEL} preserves this, treating modal and primary auxiliaries as a sub-category of verb rather than members of a separate functional category. This proposal extends the same architectural move to determinatives within \term{noun}. The precedent isn't an argument from analogy but a demonstration that the framework has absorbed a closed functional category into an open lexical category before.
+
+The closest methodological precedent is \textcite{payne2010}, which used distributional evidence to reassess the category status of adjectives and adverbs and, in doing so, defended \textit{CGEL}'s treatment of \mention{few}, \mention{any}, \mention{some}, \mention{nothing}, and related forms as determinatives rather than pronouns. This paper preserves that local result. It doesn't split these items between determinative and pronoun, nor does it deny the modifier asymmetries Payne et al.\ identify. The disagreement is one taxonomic level higher: whether determinative is a primary category coordinate with noun or a closed sub-category within \term{noun}. §\ref{sec:php-precedent} develops the comparison.
+
+The paper keeps the category/function distinction and the N-headed NP analysis that \textcite{pullummiller2022nps} defend against DP. The difference from \textcite{abney1987} lies in the supercategory classification of determinatives. On this account they're nouns with a distinctive sub-cluster profile, not heads of a separate functional projection.
+
+The fused Det--Head analysis isn't the proposal's main target (\textit{CGEL}'s treatment of constructions like \textit{I'll take some}, in which a single phrase fills both Det and Head functions of the NP; see §\ref{subsec:fused-head}). \textit{CGEL}'s existing treatment of independent genitives (\mention{mine}, \mention{Kim's}) already shows that fusion, where it applies, is compatible with noun heads, so fusion itself cannot be an objection to determinatives as nouns.
+
+The positive case comes in two stages. First, partitive constructions like \textit{some of the wine} establish determinatives as head-like pivots in matrix NPs, independently of whether the construction is fused. Second, three discriminators (paradigm productivity, structural saturation, internal modification) support a simpler non-fused analysis for simple cases like \textit{Some left} and distinguish them from adjectival Mod--Head fusion. \textit{CGEL} can keep fused Det--Head for partitive and similar cases without disturbing the narrower point that fusion is compatible with nounhood. But the strongest positive version of the proposal comes when the simple independent cases are analyzed as ordinary Head.
+
+The articles \mention{the} and \mention{a} are the worst case: they don't head free-standing substantive NPs and don't occur in the independent Head uses that support the reanalysis for the rest of the category. The paper handles them as defective members of a sub-category whose profile otherwise satisfies the criterion. §\ref{sec:articles} develops the account.
+
+Two downstream simplifications follow. The DPs and genitive NPs that function as Det (currently a disjunction of phrase types) collapse to NP when determinatives become nouns. Other phrases that function as Det (PPs like \mention{about twenty}) are unaffected, but the primary noun-headed disjunction is simplified rather than eliminated outright. If the simple cases are analyzed as ordinary head-of-NP function rather than fusion, the fusion-of-functions apparatus developed in \textcite{Payne2007} narrows to a smaller empirical profile (Mod--Head, partitive, and similar cases).
+
+§\ref{sec:existing} sketches the three other sub-categories of \term{noun} (common, proper, pronoun) and the property dimensions along which they differ, providing a framework for evaluating the determinative case. §\ref{sec:bridge} shows that the non-fused determiner function is already routinely filled by NPs ultimately headed by N in \textit{CGEL}'s existing analysis (genitive pronouns, genitive common and proper NPs). §\ref{sec:argument} makes the central argument, first separating partitive headhood from the fusion question and then defending the simple-case reanalysis in §\ref{subsec:fused-head}; §\ref{subsec:det-uniform} develops the determiner-slot simplification. §\ref{sec:articles} handles \mention{the} and \mention{a}. §\ref{sec:nearby} distinguishes this proposal from nearby work. §\ref{sec:php-precedent} situates the proposal as an extension of \textcite{payne2010} on the supercategory question. §\ref{sec:subcluster} develops the sub-cluster differences internal to \term{noun}. The claims here are for synchronic English.
+
+\section{The other sub-categories of Noun}\label{sec:existing}
+
+\textit{CGEL} treats common nouns, proper nouns, and pronouns as three sub-categories of \term{noun}. They share the supercategory's projection profile (a Nom that heads an NP filling the core external nominal functions: especially subject, object, and complement-of-preposition, with predicative complement available where semantically licensed) but differ on most other dimensions. Setting out those dimensions in advance gives a framework for asking whether determinatives also belong.
+
+\begin{table}[h]
+\centering
+\caption{Property profiles of the three other sub-categories of \term{noun} in \textit{CGEL}.}\label{tab:existing}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{4cm}}
+\hline
+Dimension & Common N & Proper N & Pronoun \\
+\hline
+Class openness & open & open (extending) & closed \\
+Morphology & sparse inflection (number; genitive); productive derivation & restricted plural; genitive & rich paradigm: case \(\times\) person \(\times\) number \(\times\) gender (\mention{I/me/my/mine/myself}); closed inventory \\
+Semantic content & descriptive (categorial sense) & rigid designator; naming relation & minimal lexical content; deictic or anaphoric \\
+Det co-occurrence & combines freely & restricted (\ungram{\textit{the Kim}}) & restricted (\ungram{\textit{the she}}) \\
+Mod (within Nom) & AdjP and Nom:Mod both productively & limited & limited (\textit{poor me}) \\
+Discourse profile & introduces or refers; definite or indefinite & presupposes familiarity & reference depends on context \\
+\hline
+\end{tabular}
+\normalsize
+\end{table}
+
+Morphological profiles differ qualitatively across the three sub-categories. Pronouns inflect across case, person, number, and gender (\mention{I/me/my/mine/myself}, \mention{we/us/our/ours/ourselves}), filling a closed paradigm whose cells are largely supplied by suppletion. Common nouns inflect only for number and genitive (\mention{dog/dogs/dog's/dogs'}), and compensate with highly productive derivation. Proper nouns are the most inflectionally defective, with restricted plural use (\textit{the Smiths}) and genitive. No single inflectional profile defines \term{noun}; the existing sub-categories already show that noun sub-categories may diverge sharply in morphological organization.
+
+The semantic profiles diverge similarly. Common nouns carry descriptive lexical content (\mention{dog} picks out members of a class). Proper nouns are rigid designators \citep{Kripke1980}: their lexical content is largely the naming relation. Pronouns carry minimal descriptive content; their reference is supplied by context, whether by anaphora or by deixis. The three sub-categories occupy different points on a descriptive-to-deictic continuum.
+
+NP-internal combinatorics also diverge. Common nouns freely occur with a determiner and accept productive Nom-internal modification, both by AdjPs (\textit{a lucky dog}) and by other Noms (\textit{a dog house}, with \mention{dog} as a Nom filling Mod function within the Nom headed by \mention{house}). Proper nouns typically resist a determiner (\ungram{\textit{the Kim}}) and accept little modification. Pronouns also resist a determiner (\ungram{\textit{the she}}) and admit only limited modification (\textit{poor me}, \textit{the real you}). Pronouns and proper nouns aren't structurally identical, but they share a more restricted internal profile than common nouns.
+
+The discourse profiles are equally distinct. Common nouns can introduce entities into discourse or refer to them, with the appropriate determination supplied externally. Proper nouns presuppose familiarity with the named entity. Pronouns are inherently relational: reference depends on context. The three sub-categories occupy distinct discourse niches.
+
+What the three share is the supercategory profile: a Nom heading an NP that fills nominal functions. \textit{CGEL} accepts pronouns as nouns despite their substantial divergence from common nouns on morphology, semantics, internal syntax, and discourse. The question for the rest of the paper is whether determinatives fit the same pattern: shared supercategory profile, with internal divergence at the sub-category level.
+
+\section{From Noun to determiner function}\label{sec:bridge}
+
+The evaluation question from §\ref{sec:existing} (do determinatives fit the Noun supercategory pattern?) is easier to approach given one fact about \textit{CGEL}'s existing taxonomy. In non-fused constructions (where Det and Head are distinct phrases within the NP), the determiner function is already routinely filled by NPs ultimately headed by N. \textit{CGEL} accepts this pattern in two main sub-cases, plus a marginal case (\textit{what size} in \textit{what size shoe}).
+
+First, NPs headed by genitive pronouns (\mention{my}, \mention{your}, \mention{his}, \mention{her}, \mention{our}, \mention{their}, \mention{its}) function as determiner:
+\ea\label{ex:pronoun-det}
+\ea \textit{my book}
+\ex \textit{her office}
+\ex \textit{their proposal}
+\z
+\z
+Since pronouns are already a sub-category of \term{noun} in \textit{CGEL}, these NPs are ultimately noun-headed: the pronoun heads a Nom, and the Nom heads the NP.
+
+Second, genitive NPs headed by common or proper nouns fill the same function:
+\ea\label{ex:gen-NPs}
+\ea \textit{Kim's book}
+\ex \textit{the king's book}
+\ex \textit{that man next door's car}
+\z
+\z
+Each is an NP with its own internal modifiers and its own head N \citep[2]{pullummiller2022nps}.\footnote{On \textit{CGEL}'s analysis, genitive NPs in Det function fill a fused \enquote{subject--determiner} function (\mention{my} in \mention{my friend} combining Det with a notion of \enquote{subject of NP}; see \textcite[Ch.~16 §5]{huddleston2002}, adopted by \textcite{Payne2007}). The motivation is a thematic parallel between the genitive-plus-head-N and subject-plus-verb (\mention{Kim's arrival} bearing the same thematic profile as \mention{Kim arrived}). This paper doesn't adopt the analysis, treating these simply as genitive NPs in Det function; nothing in the argument hinges on the choice.}
+
+Across these two main sub-cases, the determiner function is already filled by NPs ultimately headed by members of three sub-categories of \term{noun} under \textit{CGEL}'s existing analysis: pronoun, common noun, and proper noun. The residue (items in Det function not captured by these cases) is the DPs headed by determinatives (\mention{the book}, \mention{this book}, \mention{some books}, \mention{every book}). The paper argues in §\ref{sec:argument} that determinatives are nouns too, which makes their \enquote{DPs} NPs. The determiner function then admits NPs ultimately headed by members of all four sub-categories of \term{noun}, in addition to the non-N-headed phrases \textit{CGEL} already accepts in Det function (PPs like \mention{about twenty}).
+
+\section{The category-membership argument}\label{sec:argument}
+
+The criterion for noun sub-category membership is straightforward: members head Nominals that head NPs in the core external nominal functions, and the projection is productive across the category rather than a small constructional residue parasitic on another category. The clearest cases are subject, object, and complement-of-preposition. Predicative-complement use matters too, but where it is available it is constrained by the item's semantics and discourse profile rather than required item-by-item across the sub-category. For the non-article determinatives, the claim defended below is that this criterion is met once the simple independent cases are analyzed as ordinary Head rather than obligatorily fused Det--Head. Whether some other constructions remain fused is a separate constructional question. The criterion respects \textit{CGEL}'s phrasal architecture: a lexical N heads a Nom, the Nom heads an NP, and the NP serves as subject (or some other function). Subject isn't directly a function of N, and N doesn't directly head NP; the Nom layer is the intermediate constituent.
+
+The case for keeping determinative as a primary category rests on a small set of considerations: restricted distribution to Det and Mod functions, a closed paradigm, function-word semantics, head-feature selection, and the unavailability of canonical Head function (the fused-head analysis of \textit{Some left}). Of these, the first four are sub-cluster properties: pronouns share most of them, proper nouns share some, and none requires a separate primary category. Restricted distribution, closed paradigm, and reduced semantic content place a sub-category at the closed end of \term{noun}, but \textit{CGEL} already admits pronouns there. Head-feature selection is shared with genitive NPs that function as determiner, themselves N-headed under \textit{CGEL}. The fifth consideration (canonical Head availability) is the central empirical question §\ref{subsec:fused-head} addresses. Fusion compatibility blocks a negative objection to the proposal, but the strongest positive case turns on whether the simple independent uses are best analyzed as canonical Head.
+
+The criterion applies at the sub-category profile level, not at the level of individual lexemes. A sub-category qualifies if its items productively head Nominals heading NPs as part of the sub-category's profile, and lexically defective members are admitted on paradigmatic grounds. Lexical defectiveness within a sub-category is familiar in the grammar: paradigms contain missing or suppletive cells without forcing recategorization, and the determinative category already includes suppletion (\mention{none} for \mention{no} in fused Det--Head uses; \textcite[22--23]{Payne2007}). The same allowance covers \mention{the} and \mention{a} within the determinative sub-category, defective members of a sub-category whose profile satisfies the criterion. §\ref{sec:articles} develops that point. Sub-cluster differences in discourse profile, modifier selection, and inflection are developed in §\ref{sec:subcluster}.
+
+\subsection{The fused-head reanalysis}\label{subsec:fused-head}
+
+The central question is whether occurrences of determinative-headed phrases as Head in fused-head constructions count as canonical headedness or as a fusion construction. \textit{CGEL}'s analysis is the latter \citep[Ch.~5 §9]{huddleston2002}. In cases like \mention{I'll take some}, the Det and Head functions of the NP fuse, and a single DP (headed by the determinative \mention{some}) realizes the fused function. Function fusion, not category fusion: \mention{some} remains a determinative; the two syntactic functions it would otherwise fill separately are realized by a single phrase in this construction. The general apparatus is developed by \textcite{Payne2007} as fusion of functions, with six defining properties.
+
+A first point about head-like behaviour can be separated from the fusion question. In partitives like those in \ref{ex:partitive-headhood}, the determinative is the structural pivot of the matrix NP:
+\ea\label{ex:partitive-headhood}
+\ea \textit{some of mine}
+\ex \textit{some of Kim's}
+\ex \textit{many of them}
+\ex \textit{all of those}
+\z
+\z
+The \mention{of}-phrase is licensed by the quantificational pivot, exactly as in \textit{some of the books}. \textit{CGEL} itself analyzes such partitive cases as fused Det--Head structures rather than as plain canonical headedness \citep[Ch.~5 §9]{huddleston2002}, so this isn't yet evidence for the canonical analysis (a Nom in NP's Head function) over \textit{CGEL}'s fused one (a DP in fused Det--Head). What it does establish is that the determinative is the matrix lexical pivot of the NP, independently of whether the construction is fused.
+
+A covert common-noun head would be redundant unless independently motivated: the \mention{of}-phrase already supplies the quantificational domain, and the determinative is the overt lexical anchor on which the construction is built. By itself, that is not yet a proof of nounhood. It is the first step in the argument, because it shows that determinatives are not merely dependents of the following phrase.
+
+Headhood doesn't by itself settle the fusion question. A determinative can be the lexical anchor of the matrix NP under either analysis: heading a Nom that fills NP's Head (canonical), or heading a DP that fills fused Det--Head. The two questions should be kept apart: whether determinatives can head Noms heading NPs at all, and whether the simple one-word cases should be analyzed as canonical headedness or as fusion.
+
+The argument against requiring fused Det--Head analysis for the simple cases comes from a parallel with the other established noun sub-categories. \textit{CGEL} treats pronoun-headed NPs (\textit{Mine is on the table}, \textit{I'll take yours}) and proper-noun-headed NPs (\textit{Kim left}, \textit{I saw Toronto}) as having no Det position: the noun heads a Nom, the Nom heads the NP, and there's no Det function to fill or fuse. Even genitive pronouns like \mention{mine}, \mention{yours}, \mention{ours} head Noms heading NPs this way, without a separate Det function \citep[411]{huddleston2002}, despite their genitive marking, which in other contexts (the \mention{my} set) co-occurs with Det function. Pronouns and proper nouns are both nouns that don't require a determiner.
+
+This is the point at which the independent-genitive parallel has to be kept in scale. \textit{CGEL}'s treatment of \mention{mine}/\mention{Kim's} shows that fusion, where it applies, is compatible with the head being a noun. That blocks the objection that a fused Det--Head cannot be noun-headed. It doesn't by itself show that determinatives are nouns. The positive classification case comes from the simple independent determinatives if they are analyzed as heading a Nom directly, parallel to \textit{Mine is on the table}. The simpler analysis (canonical Head, no fusion) isn't just an optional elegance claim; it is where the strongest positive evidence for noun-supercategory membership lies.
+
+The cases \textit{CGEL} handles under fusion of functions divide for this analysis. Simple fused-head, where the dependent function is Det and the item filling it is from the determinative category, makes up the bulk of the discussion. Mod--Head fusion, exemplified by AdjPs in \mention{the rich}, \mention{the poor}, \mention{the elderly}, is a smaller residue. Adjectives head AdjPs, and AdjPs canonically fill modifier function within Nom or predicative complement function within clauses. The Mod--Head fusion machinery is what \textit{CGEL} uses to accommodate the small set of cases where an AdjP also fills Head within Nom (a position the AdjP's category doesn't otherwise reach).
+
+Items restricted to predeterminer-modifier function (\mention{quite a}, \mention{rather a}, \mention{many a}, \mention{what a}, \mention{such a}) don't enter the comparison at all: they precede indefinite NPs and never head Noms themselves, fused or otherwise. The substantive question is whether the simple cases pattern with Mod--Head fusion or stand apart. Items like \mention{all}, \mention{both}, \mention{half} fill predeterminer-modifier function in some constructions and are determinatives elsewhere; they fall under the simple-fused-head treatment below.
+
+Three positive discriminators show that the simple cases pattern like pronoun-headed NPs (where no Det function is at issue) and unlike adjectival Mod--Head fusion (where fusion is well motivated). The discriminators don't refute Det--Head fusion in general (\textit{CGEL} can keep the fusion analysis for partitive and other cases), but they do narrow the construction-types for which fusion is the most parsimonious analysis.
+
+The first discriminator is paradigm productivity. Fused-head use is a broadly productive pattern within the determinative category. The set that admits it includes \mention{some}, \mention{all}, \mention{both}, \mention{many}, \mention{few}, \mention{several}, \mention{most}, \mention{this/these}, \mention{that/those}, \mention{each}, \mention{either}, \mention{neither}, \mention{much}, and \mention{enough}, and the cardinals (\textit{three of the shirts}, \textit{I'll take two}). \textit{CGEL}~\citep[371--2]{huddleston2002} and \textcite[22--23]{Payne2007} identify a small set of lexically defective members: \mention{the} and \mention{a} lack fused-head use entirely, \mention{every} doesn't appear as a fused head, and \mention{no} is restricted to the suppletive \mention{none}. The defective set is small and independently noted; the pattern remains broadly productive across the rest of the category.
+
+Adjective Mod--Head fusion is, by contrast, constructionally restricted to a narrower semantic profile, especially class-referring human plurals and a smaller abstract residue: \mention{the rich}, \mention{the poor}, \mention{the elderly}, \mention{the dead}, \mention{the unemployed}, \mention{the sublime}. The pattern is broad and paradigm-internal within determinatives, but narrower and semantically more restricted within adjectives.
+
+The second discriminator is structural saturation. Simple fused-head NPs require no additional structure. The examples in \ref{ex:fused-saturated} are full NPs filling argument positions with the determinative as the sole element:
+\ea\label{ex:fused-saturated}
+\ea \textit{Some left.}
+\ex \textit{Many came.}
+\ex \textit{All agree.}
+\z
+\z
+Mod--Head fusion requires a determiner. \mention{The rich} in \ref{ex:rich-needs-det}~(a) is a full NP, but \mention{rich} in (b), intended as a class-referring NP, isn't:
+\ea\label{ex:rich-needs-det}
+\ea \textit{The rich get richer.}
+\ex \ungram{\textit{Rich get richer.}}
+\z
+\z
+The Mod--Head AdjP can't saturate the NP on its own; the simple fused-head determinative can.
+
+Generic and proverb-like uses sharpen the saturation point. \textit{Many are called, few are chosen}, \textit{Some objected, many abstained, and none resigned}, \textit{All is not lost}, and \textit{Enough is enough} are independent NP uses with no anaphorically retrievable common-noun head in prior discourse. An ellipsis or antecedent-recovery analysis (the determinative recovering some particular common noun from context) doesn't apply: there is no antecedent. The simple fused-head determinative saturates the NP without contextual recovery, putting the saturation generalization on a firmer footing than \textit{I'll take some}, where anaphoric recovery is at least available.
+
+A third discriminator cuts against covert-head alternatives. In \ref{ex:internal-mod}, an AdjP in Nom-internal Mod function attaches to the determinative as the lexical pivot of the Nom:
+\ea\label{ex:internal-mod}
+\ea \textit{The lucky few left.}
+\ex \textit{The chosen few will survive.}
+\ex \textit{The happy few agree.}
+\ex \textit{The remaining three left.}
+\ex \textit{The selected two will speak.}
+\z
+\z
+The structure has \mention{few}/\mention{three}/\mention{two} as the head of the Nom and \mention{lucky/chosen/happy/remaining/selected} as an AdjP in Mod function within that Nom, parallel to \textit{the lucky survivors} where \mention{survivors} is the head N and \mention{lucky} is Mod within Nom. This isn't discriminating between determinatives and Mod--Head adjectives (the Mod--Head residue also takes AdjP modification, as in \textit{the idle rich}), but it does cut against two alternative analyses of the determinative itself.
+
+Consider a null-head analysis: the determinative is in Det function of an NP whose head is a silent N, with the AdjP attaching to the silent N. Or a D-with-silent-NP analysis: the determinative is a functional head whose complement is a silent NP, with the AdjP inside that NP. Both analyses lose the most economical generalization.
+
+The AdjP occupies the linear position that attributive modifiers occupy relative to lexical heads (\textit{the lucky winners, the lucky few}): immediately after Det, immediately before the lexical pivot. In \textit{the lucky few}, the overt quantificational item is that pivot. A silent head can always be posited in principle, but it is unmotivated here and obscures the generalization that the overt determinative is the element to which the modifier is structurally related. One potential concern is that \mention{few} in \textit{the lucky few} might itself be analyzed as a common-noun use (via N-shift to \enquote{a small number of people}); even granting that, the structural point stands: the AdjP attaches to the lexical pivot, whatever its sub-category, not to a covert common noun.
+
+Productivity broadens the pattern, saturation completes the structure, and internal modification locates the pivot. Productivity separates the simple cases from Mod--Head fusion: the two patterns have different distributional profiles across the category. Saturation rules out a covert-determiner analysis: no such determiner is needed for the NP to be complete. Internal modification counts against null-head and silent-NP analyses: the determinative itself is the pivot that modifiers attach to, and the null analyses buy no additional explanatory payoff.
+
+None of the three diagnostics defeats Det--Head fusion within an NP-headed analysis (\textit{CGEL}'s live alternative). Collectively they make the simpler analysis (canonical Head, no fusion) more parsimonious for the simple cases while leaving fusion as a defensible option for partitive and similar cases. The Mod--Head residue retains fusion on the narrow empirical profile set out above.
+
+The reanalysis runs as follows. The pair in \ref{ex:fused-pair}, traditionally treated as having different structures, receives parallel analyses:
+\ea\label{ex:fused-pair}
+\ea \textit{I'll take some apples.}
+\ex \textit{I'll take some.}
+\z
+\z
+\textit{CGEL} analyzes (a) as having \mention{some} in Det function of an NP ultimately headed by \mention{apples}, and (b) as having \mention{some} in fused Det--Head function of an NP whose head is anaphorically construed. This analysis preserves the first; the second has \mention{some} heading the Nom of an NP, exactly parallel to (\ref{ex:dogs-parallel}):
+\ea\label{ex:dogs-parallel}
+\textit{I'll take dogs.}
+\z
+The two sentences in \ref{ex:fused-pair}~(b) and \ref{ex:dogs-parallel} have the same structure in object position; the only difference is which sub-category of N heads the Nom.
+
+The upshot is asymmetric. Under the canonical-Head reanalysis defended above, determinatives directly head Noms heading NPs in the core external nominal functions, especially subject, object, and complement-of-preposition, with predicative-complement use available where semantically licensed. Under \textit{CGEL}'s fused Det--Head analysis, the determinative remains the lexical anchor of the fused DP that fills both Det and Head, so fusion itself is no objection to nounhood. But the strongest positive case for supercategory membership comes under the reanalysis. Table~\ref{tab:diagnostic} summarizes that result.
+
+\begin{table}[h]
+\centering
+\caption{The membership criterion across the four sub-categories of \term{noun}, with the Mod--Head residue for contrast. The criterion includes the distributional condition (heads a Nominal heading an NP in the core external nominal functions) and the productivity condition (the projection appears productively across the sub-category, not as a small constructionally restricted residue). The determinative row satisfies both under the reanalysis in §\ref{subsec:fused-head}.}\label{tab:diagnostic}
+\begin{tabular}{lllll}
+\hline
+Sub-category & Subject & Object & Comp of Prep & NP-projection \\
+\hline
+Common N & \textit{People left.} & \textit{I see people.} & \textit{with people} & productive \\
+Proper N & \textit{Kim left.} & \textit{I see Kim.} & \textit{with Kim} & productive \\
+Pronoun & \textit{She left.} & \textit{I see her.} & \textit{with her} & productive \\
+Determinative & \textit{Some left.} & \textit{I see some.} & \textit{with some} & productive \\
+\hline
+\multicolumn{5}{l}{\emph{Residue} (does not satisfy the criterion):} \\
+Adjective (Mod--Head) & \textit{The rich left.} & \textit{I see the rich.} & \textit{with the rich} & constructional residue \\
+\hline
+\end{tabular}
+\end{table}
+
+The reanalysis doesn't eliminate fusion altogether. Mod--Head fusion remains for the smaller constructional residue in \mention{the rich}, \mention{the poor}, and related cases. The fusion-of-functions apparatus is preserved where it remains empirically motivated. For the simple cases, the reanalysis shows that a non-fused analysis is available and arguably simpler. Fusion may vary by construction, but fusion itself is not evidence against nounhood.
+
+\subsection{Simplification at the determiner slot}\label{subsec:det-uniform}
+
+Once the simple independent cases are reanalyzed as in §\ref{subsec:fused-head} and determinatives are treated as nouns, a downstream simplification follows at the determiner slot. \textit{CGEL}'s existing treatment of the determiner function admits several phrase types: determinative phrases (DPs, in Ch.~5 terminology), genitive NPs, and PPs like \mention{about twenty books} \citep[Ch.~5 §4-5]{huddleston2002}. The core disjunction at the noun-headed end is between DP and genitive NP: two primary lexical categories projecting to different phrase types, both functioning as Det. \textit{CGEL} captures that parallelism functionally. This paper captures the noun-headed portion of it categorially.
+
+Under this proposal, the two noun-headed phrase types collapse into one. What was analyzed as a DP is an NP ultimately headed by a determinative-noun; a genitive NP in Det function is an NP ultimately headed by a common or proper noun (or, in the dependent genitive cases, a pronoun). The noun-headed phrase functioning as Det is uniformly an NP. PPs still function as Det alongside, but the primary DP/NP disjunction is simplified.
+
+The schemas compare as in \ref{ex:schemas}, with concrete instantiations in \ref{ex:schemas-instantiated}:
+\ea\label{ex:schemas}
+\ea \textit{CGEL}: NP $\rightarrow$ Det:\{DP, NP[gen], PP\} + Head:Nom
+\ex Present: NP $\rightarrow$ Det:\{NP, PP\} + Head:Nom
+\z
+\z
+\ea\label{ex:schemas-instantiated}
+\ea \textit{the book}: \textit{CGEL} [\textsubscript{NP} [\textsubscript{Det} [\textsubscript{DP} the]] [\textsubscript{Head} [\textsubscript{Nom} book]]] vs.\ present [\textsubscript{NP} [\textsubscript{Det} [\textsubscript{NP} the]] [\textsubscript{Head} [\textsubscript{Nom} book]]]
+\ex \textit{Kim's book}: \textit{CGEL} [\textsubscript{NP} [\textsubscript{Det} [\textsubscript{NP[gen]} Kim's]] [\textsubscript{Head} [\textsubscript{Nom} book]]] vs.\ present [\textsubscript{NP} [\textsubscript{Det} [\textsubscript{NP} Kim's]] [\textsubscript{Head} [\textsubscript{Nom} book]]]
+\ex \textit{about twenty books}: both [\textsubscript{NP} [\textsubscript{Det} [\textsubscript{PP} about twenty]] [\textsubscript{Head} [\textsubscript{Nom} books]]] (PPs unaffected)
+\z
+\z
+
+This isn't a notational change alone. Three observations follow.
+
+First, definite article phrases and genitive NPs contribute definite reference in parallel ways. \textit{The book} and \textit{Kim's book} are both definite NPs; neither admits a further article. The shared definiteness behaviour is unsurprising if both phrases are NPs whose head can carry a definiteness profile.
+
+Second, the one-determiner-per-NP restriction applies uniformly. None of \ungram{\textit{the the book}}, \ungram{\textit{the Kim's book}}, \ungram{\textit{Kim's the book}}, or \ungram{\textit{these Kim's books}} works. Whatever fills the Det position precludes a further determiner, not because articles specifically are blocked but because the NP's single Det position is already filled.
+
+Third, independent NP use extends naturally. Both phrase types can occur independently in object position, as in \ref{ex:fused-licensing}:
+\ea\label{ex:fused-licensing}
+\ea \textit{I'll take some.}
+\ex \textit{I'll take Kim's.}
+\z
+\z
+Under this proposal both have NPs in object position, headed in one case by a determinative-noun and in the other by a proper noun marked for genitive case. \textit{CGEL} may analyze one or both with fusion machinery, but the phrase-type contrast is no longer DP versus NP.
+
+The genitive subsystem shouldn't bear more weight than that. Forms like \mention{mine} and \mention{Kim's} matter because they show that fusion, where it applies, is compatible with nounhood and pronominality. The positive headhood argument for determinatives comes from the partitive pivot facts together with the simple independent cases and the diagnostics in §\ref{subsec:fused-head}, not from the special morphology of the independent genitives.
+
+The simplification is at the phrase-type level, not the feature level. The head N of the outer NP still selects its Det-functioning NP by the relevant nominal features; what changes is that the primary noun-headed phrase is uniformly an NP, rather than a DP-or-NP disjunction. The feature-selection work remains but now targets a single phrase type for the noun-headed cases, with different determinative and genitive sub-clusters contributing different feature profiles.
+
+The gain is concrete in one place in particular. Under \textit{CGEL}'s disjunctive analysis, the head noun's selection of Det has to be stated as \enquote{accepts DP or NP (genitive)}, with the two alternatives treated as categorially distinct but functionally parallel. Under this account, that noun-headed parallelism is no longer just functional; it is categorial as well, because both phrases are NPs whose head nouns contribute the relevant features. The featural diversity of what the four sub-categories contribute to Det function (definiteness marking from articles, deixis from demonstratives, quantificational force from quantifiers, possessor profile from genitive pronouns and from genitive common or proper NPs) still requires the selectional disjunction the sub-category labels track. One phrase-type disjunction disappears, and no data go with it.
+
+The simplification doesn't independently establish determinatives as nouns; that's the work of §\ref{subsec:fused-head}. What §\ref{subsec:det-uniform} cashes out is a consequence of having established it. The noun-headed Det disjunction collapses to a single phrase type, and the patterns that the disjunction left unexplained (definiteness contribution, the one-Det-per-NP restriction, independent NP use) receive a uniform structural account for the noun-headed cases.
+
+\section{The articles}\label{sec:articles}
+
+The articles \mention{the} and \mention{a} are this proposal's least cooperative witnesses. On the criterion in §\ref{sec:argument}, a sub-category of \term{noun} qualifies if its items canonically head Nominals heading NPs in the core external nominal functions. The articles do not head free-standing substantive NPs and do not occur in the independent Head uses that support the reanalysis for the rest of the category. \textit{CGEL} \citep[371--2]{huddleston2002} and \textcite[22--23]{Payne2007} mark the defectiveness explicitly. \textcite{lyons1999} documents its typological character: articles are phonologically weak, semantically minimal, and cross-linguistically non-universal.
+
+The membership criterion is at the sub-category profile level, as stated in §\ref{sec:argument}. The question isn't whether \mention{the} and \mention{a} individually satisfy the full distributional condition; by themselves they don't. The question is whether defective members can remain within a sub-category whose profile otherwise satisfies it. They can, but only under three conditions: they're paradigmatically integrated with the core members; they contribute the same sort of feature content in the core function; and their reduction is directional and local, not evidence of a different basic category. Three synchronic considerations show that \mention{the} and \mention{a} satisfy all three within the determinative sub-category.
+
+First, \mention{the} and \mention{a} stand in paradigmatic opposition with the demonstratives (\mention{this/these, that/those}) and the quantifiers (\mention{some, any, every, no, each}) within the determinative sub-category. The contrast is systematic in feature-space: \mention{the} is the definiteness-marked member of a set whose other members carry richer featural content (deixis for demonstratives; quantification for quantifiers); \mention{a} is the indefinite member of a set that includes the numeral \mention{one} and the quantifiers. The articles aren't isolated lexemes outside the sub-category; they're paradigmatic participants in it.
+
+Second, \mention{the} and \mention{a} carry the core feature contributions the determinative sub-category's profile predicts in Det function. \mention{The} contributes definiteness across singular count, plural count, and non-count heads; \mention{a} contributes indefiniteness together with singular-count selection. Common nouns don't carry these features on the lexeme; they allow them to be contributed by a determiner. The articles realize the same core Det-function contribution in the most lexically reduced form.
+
+Third, the articles are nearly confined to Det function. \mention{The} appears outside Det only in marginal constructions like the correlative comparative (\textit{the bigger the better}), where its analysis is contested. The other determinatives occupy Det as their default but alternate productively into Mod and Head. The articles are the sub-category's defective end for non-Det functions: the end-point of a distributional cline the rest of the sub-category still spans. Defectiveness is relative to the sub-category profile, not relative to common-noun profiles.
+
+The articles are defective with respect to one diagnostic of the determinative sub-category, not defective with respect to membership in that sub-category. Their defectiveness is local: it affects independent NP projection, while leaving their paradigmatic and featural role intact.
+
+\mention{Every} warrants separate comment, because it lacks standalone Head use (\ungram{\textit{Every left}}, \ungram{\textit{I invited every}}) and because \textcite{spinillo2004reconceptualising} groups it with \mention{the} and \mention{a} in a residual article class rather than with the quantifiers. The paper places \mention{every} with the other quantifiers (\mention{some, any, no, each, all, most}) on semantic and distributional grounds: it contributes universal quantification, selects singular count heads in the same way \mention{each} does, and admits similar AdvP modifiers (\mention{almost every, nearly every}). It's a quantifier with one missing cell (no fused-Head use), not a member of an article-like residue. The defectiveness is paradigmatic: \mention{every} patterns with \mention{each} on the central semantic and combinatorial diagnostics at issue here, and the right description is sub-paradigm gap, not sub-category boundary.
+
+The claims here are for synchronic English. Languages vary in how far the grammaticalization cline has run and what form the endpoint takes: Scandinavian has suffixal articles (\textit{hus-et} \enquote{house-the}); Bulgarian and Romanian have similar postposed definiteness markers; many languages lack articles entirely. Whether the fourfold-noun proposal generalizes to systems with bound articles, no articles, or richer agreement morphology is a question for separate work. The architectural claim (that \term{noun} has a sub-category wherever a language has items satisfying the membership criterion) is in principle cross-linguistic; the empirical claim here is only that English has exactly four such sub-categories. Whether Scandinavian suffixal articles instantiate a noun sub-category, a bound-morphology phenomenon, or something else awaits case-by-case analysis within each language.
+
+The grammaticalization story explains why \mention{the} and \mention{a} are defective in exactly this way. \mention{The} descends from the Old English distal demonstrative \textit{þæt/se/sēo}; \mention{a/an} descends from the Old English numeral \textit{ān} \enquote{one}. \textcite{heinekuteva2002lexicon} document the cross-linguistic paths: DEMONSTRATIVE~>~DEFINITE ARTICLE and NUMERAL \enquote{ONE}~>~INDEFINITE ARTICLE are among the most robust attested trajectories. \textcite{diessel1999} traces the demonstrative-to-article development in detail; \textcite[Ch.~9]{lyons1999} surveys the cross-linguistic picture. The diachronic account explains the pattern of attrition (phonological reduction, loss of head-of-NP distribution, semantic bleaching) without doing the synchronic membership work. The membership argument rests on paradigmatic, featural, and functional contrast synchronically available in the grammar.
+
+Frequency here tracks workload, not prototypehood. The high token frequency of \mention{the} and \mention{a} follows from their functional role, not from prototype centrality. They're the members of the determinative sub-category with the most discourse work to do (definiteness and indefiniteness marking), so they appear in nearly every NP that takes a determiner. Frequency isn't evidence that they define the sub-category; if anything, it's evidence of how far grammaticalization has reduced them. The sub-category's categorial profile is supplied by the demonstratives, quantifiers, and the rest of the membership; the articles are the grammaticalized endpoint of that profile.
+
+Empirical support for the peripheral status of the articles comes from \textcite{reynolds2021}. In the energy-distance dendrogram over the 138-word-form by 155-feature matrix \citep{reynolds2021matrix}, \mention{the} sits in a small sub-cluster with the dummy pronouns \mention{it} and \mention{there} at the determinative-pronoun boundary, distant from the demonstratives and quantifiers that occupy the core of the determinative group. Mean Hamming distances over the 155-feature vectors tell the same story: \mention{the} is roughly equidistant from core determinatives (24.8) and from sampled pronouns (26.2), while core items like \mention{this} (25.2 vs 29.0) and \mention{some} (21.8 vs 36.8) sit squarely inside the determinative cluster. \mention{A} patterns similarly (28.8 vs 30.0).\footnote{Core determinatives: the demonstratives \mention{this, that, these, those} and the quantifiers \mention{some, any, every, each, no, all, most, many, few}. Sampled pronouns: \mention{he, she, it, they, I, we} together with the dummy \mention{it} and existential \mention{there}, which the dendrogram places adjacent to \mention{the}. Verification script: \texttt{notes/distance-verification.py}.} \textcite{reynolds2021} raises but leaves open the question whether \mention{the} is the most prototypical determinative; the clustering's own structure gives an answer. Prototype centrality belongs to the demonstratives and quantifiers, not to the articles, which is exactly what the grammaticalization account predicts.
+
+\section{Nearby proposals}\label{sec:nearby}
+
+The nearby proposals fall along a cline: \textit{CGEL} stops one step early, Spinillo repartitions the field, and Abney changes the architecture altogether. The closest CGEL-internal rival keeps the N-headed NP analysis and the category/function distinction but retains determinative as a separate primary category. The closest English dissolve-Det rival is Spinillo's positive repartitioning. The remaining proposals matter as background because they unify the same terrain in different directions or under different architectures. Table~\ref{tab:proposals} compares them along three dimensions: the unification direction, the status of common nouns, and whether the proposal keeps an N-headed NP architecture.
+
+\begin{table}[h]
+\centering
+\caption{Nearby proposals on the determinative-pronoun-noun overlap.}\label{tab:proposals}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{5.8cm}>{\raggedright\arraybackslash}p{2cm}>{\raggedright\arraybackslash}p{1.9cm}}
+\hline
+Proposal & Unification move & Common N status & N-headed NP? \\
+\hline
+Abney 1987 & D heads DP (functional) & complement of D & no \\
+\textit{CGEL}; Pullum \& Miller 2022 & NP-headed; determinative retained as separate primary category & coordinate & yes \\
+Postal 1966 & pronouns from article + [+Pro] N & source of pronouns & yes \\
+Hudson 2004 & determiners $\subset$ pronouns & separate & no \\
+Anderson 1997 & names, pronouns, and determinatives grouped as \{N\} & \{N;P\} separate & no \\
+Van Eynde 2003 & Det split across A and N & unaffected & yes \\
+Spinillo 2000, 2004 & Det dissolved; residual article class (\mention{the}, \mention{a}, \mention{every}) & unaffected & yes \\
+Déchaine \& Wiltschko 2002 & pronouns decompose into pro-DP, pro-$\phi$P, pro-NP & unaffected & no \\
+\textbf{this paper} & \textbf{four sub-categories of Noun} & \textbf{coordinate} & \textbf{yes} \\
+\hline
+\end{tabular}
+\normalsize
+\end{table}
+
+The nearest rival is the NP-headed tradition that stops one step earlier. \textit{CGEL} and \textcite{pullummiller2022nps} keep the N-headed NP analysis and the category/function distinction while retaining determinative as a separate primary category; \textcite{bruening2020nominal} reaches the same NP-headed conclusion in a generative setting. The disagreement is narrow. Once partitives show determinatives as head-like pivots in matrix NPs and the simple cases plausibly admit a canonical-Head analysis, the remaining question is taxonomic: why should determinatives still be denied nounhood if the projection facts are already shared?
+
+The nearest English dissolve-Det rival is Spinillo. \textcite{spinillo2000determiners,spinillo2004reconceptualising} offer a positive repartitioning in which demonstratives and genitives join pronouns, quantifiers split across classes, and \mention{the}, \mention{a}, and \mention{every} form a residual article class. Her case rests on case-by-case distributional and semantic diagnostics (pro-form substitution, anaphoric potential, environment-specific patterning), not a single test; the diagnostic machinery is worth preserving even where this paper disagrees with the partition.
+
+This paper agrees with the negative diagnosis and rejects the repartition on two specific points. First, demonstratives stay with the determinatives, not the pronouns. The argument for moving demonstratives to pronouns rests on their fused-Head use (\textit{This is mine}). But fused-Head use occurs productively within the determinative sub-category, and demonstratives' attributive use (\textit{this book}, \textit{that idea}) is determinative-typical.
+
+Second, \mention{every} stays with the quantifiers, not the articles. Grouping \mention{every} with \mention{the} and \mention{a} rests on the shared lack of fused-Head use, but \mention{every} patterns with \mention{each} on universal quantification, singular count selection, and AdvP modification (\textit{almost every}, \textit{nearly every}). Shared defectiveness at the fused-Head end doesn't override the systematic similarity to the other quantifiers. The articles are handled as defective determinatives (paradigmatically integrated, featurally consistent, distributionally reduced), not as the residue left over after repartition.
+
+\textcite{vaneynde2003determiner} and \textcite{herslund2008articles} address different evidence. Van Eynde splits determinatives between adjective and noun on agreement and inflectional evidence from Italian and Dutch. Herslund treats definite articles specifically as pronominal heads. Both are useful comparators, but neither supplies the target claim here: a synchronic English argument that keeps the determinative category together. English lacks the rich prenominal agreement morphology that drives Van Eynde's split, and the article-specific move doesn't generalize to the demonstratives and quantifiers.
+
+\textcite{postal1966}, \textcite{hudson2004determiners}, and \textcite{anderson1997notional} unify the same territory in the opposite direction or under a broader notional cover term. Their shared point is that the determiner-pronoun boundary isn't a clean categorial divide. This paper agrees with that much. It diverges by refusing to reduce one noun-like sub-category to another or to leave common nouns outside the same supercategory. Pronoun and determinative remain distinct sub-clusters, and common nouns remain coordinate with them inside \term{noun}. Hudson's specific argument proceeds on mutual-dependency grounds in Word Grammar, with determiner and head both contributing to phrase distribution (see \textcite{vanlangendonck1994} as a longstanding sparring partner). The partitive and gender data cited elsewhere in this paper are consistent with Hudson's dependency architecture too; the choice between dependency-without-supercategory and constituency-with-supercategory turns on broader architectural commitments outside this paper's scope.
+
+\textcite{dechainewiltschko2002} and \textcite{abney1987} move the dispute to a different architecture. Déchaine and Wiltschko decompose pronouns into pro-DP, pro-$\phi$P, and pro-NP. Abney makes D the functional head of the nominal phrase. Those proposals matter because they also reject a simple pronoun/determinative/common-noun partition. They aren't close rivals here because this paper keeps the category/function distinction and the N-headed NP analysis that both approaches abandon.
+
+\section{The Payne--Huddleston--Pullum precedent}\label{sec:php-precedent}
+
+\textcite{payne2010} is the closest precedent for this paper in journal, method, and diagnostic shape. They attack the received complementarity claim for adjectives and adverbs by defining distributional cores from pre-head modifier frames, testing them across a wider range of environments, and separating the distributional question from the category-status question. The same shape applies here: the received determinative-versus-noun split is probed against distribution and projection, the diagnostics are cumulative, and the category-status conclusion isn't read off distribution alone.
+
+This paper preserves two specific commitments in \textcite{payne2010}. First, they reject the move that splits \mention{few}, \mention{any}, \mention{some}, \mention{many}, \mention{nothing}, and \mention{anybody} between determinative and pronoun \citep[13--14]{payne2010}. Their argument is that assigning these items to different categories with and without a following common-noun head is an unnecessary complication; the parallel with adjectival modifier--head fusion (\mention{best} as adjective in both \textit{the best doctors} and \textit{the best are here}) supplies the structural template. The anti-pronoun continuity holds here too: \mention{few} stays a determinative across \textit{few doctors} and \textit{Few are here}, and \mention{anybody} stays a determinative.
+
+Second, \textcite[13--14]{payne2010} establish that the modifiers of these items are adverbs in attributive use (\textit{hardly any}, \textit{precisely nothing}, \textit{almost anybody}) and adjectives in postmodifier use (\textit{nothing absolute}). On a pronoun analysis, attributive position would admit adverbs as well as adjectives, which \textit{CGEL} treats as a counterexample to be avoided. This paper accepts the empirical generalization and accommodates it as a sub-category-internal modifier profile, developed in §\ref{sec:subcluster}. That the determinative sub-category sits inside \term{noun} doesn't predict \ungram{\textit{genuine any}}, \ungram{\textit{experienced every}}, or \ungram{\textit{almost dog}}, because the common-noun and determinative sub-categories carry distinct modifier profiles.
+
+The disagreement with \textcite{payne2010} is one taxonomic level higher. They treat determinative as a primary category coordinate with noun, verb, adjective, and preposition. This paper relocates determinative as a sub-category of \term{noun}, joining pronoun (already a sub-category of noun in \textit{CGEL}, see §\ref{sec:existing}) and the open common and proper sub-categories. The disagreement isn't over the identity of the determinative class or over its members, but over the supercategory under which the class sits.
+
+The \enquote{distribution per se} warning at \textcite[§10]{payne2010} bears on a different question. They ask whether adjective and adverb are inflectional variants of a single major category, with distribution playing the deciding role. Distribution can't carry that load, since the same form-pair often shows complementarity in some environments and contrast in others (\mention{wood/wooden}; Russian \mention{soldat/soldatom}). The shape of the question here is different: not the merger of two coordinate major categories but supercategory location for a closed sub-category. Determinative stays a coherent class with stable members; the choice is whether the class sits coordinate with noun, verb, adjective, and preposition or inside \term{noun} alongside common, proper, and pronoun.
+
+\textit{CGEL} has already made the analogous move for pronoun. Pronoun shares little distributionally with common noun at the lexeme level (closed paradigm, deictic semantics, restricted modification) yet sits inside \term{noun} on supercategory grounds: NP-projection profile and the convergent sub-cluster differences laid out in §\ref{sec:existing}. The Payne et al.\ warning applies here as a methodological constraint, not a prohibition. Distribution alone wouldn't justify relocating determinatives inside \term{noun}. The case depends on a wider profile (NP projection, head-feature selection, paradigm productivity, structural saturation, internal modification) and on the precedent \textit{CGEL} already sets in locating pronouns inside \term{noun} despite their sharp divergence from common noun. Extending the same relocation to determinative is an architectural extension, not a category merger.
+
+The local categorial continuity \textcite{payne2010} secured for the determinative class is preserved here, and the supercategory assignment is revised. The items they kept together as determinatives stay together, and the relocation \textit{CGEL} already provides for the closed-class noun sub-categories extends to a fourth.
+
+\section{Sub-cluster combinatorics}\label{sec:subcluster}
+
+The supercategory claim concerns NP projection and external distribution. Within \term{noun}, the sub-clusters differ in internal morphosyntax, modifier profiles, and discourse behaviour. That is what the sub-category labels are for. The four sub-categories are distinct for the same kinds of reasons that other grammatical sub-clusters are distinct.
+
+Three sub-cluster differences matter for this paper.
+
+First, determinative-headed NPs accept AdvP modifiers that common-noun-headed NPs don't:
+\ea\label{ex:advp-det}
+\ea \textit{almost every problem}
+\ex \textit{hardly any mistakes}
+\ex \textit{very nearly all responses}
+\z
+\z
+Common-noun-headed NPs take AdjP modifiers within Nom (\textit{a genuine professional}, \textit{an experienced teacher}). A parallel asymmetry appears in predicative complement function: pronouns, common nouns, and proper nouns serve freely as predicative complements (\textit{That is mine}, \textit{She is a doctor}, \textit{That is Kim}), while determinatives in fused-Head function are more restricted. \textit{They are many} and \textit{They are few} work, but \ungram{\textit{They are some}}, \ungram{\textit{They are every}}, and \ungram{\textit{They are the}} do not.
+
+The asymmetries are real, but they mark sub-cluster differences rather than supercategory boundaries. \textcite[13--14]{payne2010} treat the same determinative across two functions without changing its category: \mention{few} is a determinative in \textit{few doctors} (Det function) and in \textit{the few doctors} (Mod function). The item's category stays constant; its functional profile includes both Det and Mod. On this account the same item is also a noun, so the modifier pattern belongs to the determinative sub-category's profile within \term{noun}.
+
+Second, common and proper nouns usually carry more descriptive content on the lexeme. Pronouns and determinatives are more reduced, with reference tracked through discourse mechanisms such as anaphora, deixis, and quantification rather than lexical description. The contrast isn't absolute (\textit{Many are called, few are chosen} is generic, and deictic uses of demonstratives aren't anaphoric), but the tendency is strong enough to place the two closed sub-categories at the semantically reduced end of the supercategory.
+
+The closed-category commonality reaches further: gender. \textcite{reynolds2026gender} shows that English pro-form gender (the personal/non-personal hierarchy, with epicene/sexual and locative/temporal sub-types) is realized across pronouns and determinatives jointly. On that analysis, personal determinatives include first- and second-person forms in their determiner-like uses (\textit{we linguists}, \textit{you people}) together with the \mention{-body}/\mention{-one} compounds (\mention{somebody}, \mention{everyone}). Non-personal determinatives include the \mention{-thing}/\mention{-where} compounds, the temporal forms \mention{once}/\mention{twice}/\mention{thrice}, and \mention{much}/\mention{little}.
+
+Gender isn't pronoun-specific; it's a property of pro-forms with members in both sub-categories, and the cross-sub-category sharing is exactly what's expected if pronouns and determinatives are sub-clusters within a single supercategory. The pattern instantiates the kind of cross-cutting feature evidence \textcite[§1.2]{pullumwilson1977} used to argue that AUX and V belong to a single supercategory: if pro-form gender necessarily cross-classifies determinatives and pronouns, then the primary-category boundary between them does no descriptive work the feature couldn't do anyway. The supercategory absorbs the cross-cutting fact; sub-clusters preserve the within-category differences.
+
+Third, one NP permits one Det function, not one determinative lexeme. The restriction is functional, not categorial. The determinative sub-category can contribute more than one lexical item to a single NP in different functions. The standard case is \textit{the many people}, where \mention{the} fills Det and \mention{many} fills Mod. Both are determinatives; both are nouns on this account. The functional restriction is preserved without relabeling either item. \textcite{reynolds2026numerals} makes the same point for numeral factors: \textit{two hundred books} has \mention{two} in Mod and \mention{hundred} as Head, with the NP taking a single Det (no overt Det in the example, overt in \textit{the two hundred books}).
+
+Empirical support for the sub-cluster structure comes from \textcite{reynolds2021}. In a 138-word-form by 155-feature matrix of determinatives and pronouns \citep{reynolds2021matrix}, an energy-distance clustering analysis returns a 93\% correspondence with \textit{CGEL}'s sub-category boundaries. The result confirms that the two sub-clusters are distributionally distinct at a level a non-parametric test can recover. This proposal doesn't dispute that distinctness. It locates it at the sub-category level under a common supercategory rather than across primary lexical categories.
+
+Cardinal numerals are the cleanest case of cross-sub-category lexical alternation, and the proposal simplifies the picture \citet{reynolds2026numerals} draws. Reynolds analyzes cardinals as spanning the primary categories determinative and noun depending on use: cardinal-as-determinative in \textit{ten men}, cardinal-as-proper-noun in \textit{Room 101}, cardinal-as-common-noun in \textit{tens of pens}. Under this account, the cross-categorial span becomes a within-supercategory span: cardinals are nouns in all three uses, with the variation falling among the sub-categories of \term{noun}. The cross-category alternation Reynolds documents is recast as a sub-category alternation within \term{noun}. No fifth sub-category is needed, and no cross-primary-category ambiguity has to be stipulated for cardinal lexemes.
+
+One small constructional fact points in the same direction. In the approximative coordination \mention{or so}, the pro-form \mention{so} can be coordinated with both determinative-headed DPs and noun-headed NPs:
+\ea\label{ex:or-so}
+\ea \textit{fifteen or so minutes}
+\ex \textit{ready by Tuesday or so}
+\z
+\z
+On \textit{CGEL}'s terms, \mention{so} is coordinated with a cardinal DP in \ref{ex:or-so}~(a) and with an NP headed by a proper noun in \ref{ex:or-so}~(b). The construction is too idiomatic and semantically restricted to function as a primary category diagnostic; the anchor has to supply a value on a relevant scale, such as amount or time. But its reach across the DP/NP boundary is suggestive if that boundary is a sub-category distinction inside a broader nominal domain.
+
+Sub-cluster differences are expected in any non-trivial taxonomy. Common nouns and proper nouns differ in article distribution, pluralization, and descriptive content. Pronouns differ from both in case inflection and paradigmatic closure. Determinatives differ in modifier selection, semantic reduction, and a distributional profile centered on Det and Mod, with restricted but productive independent Head use. The sub-category labels track those differences. The supercategory label tracks what the four share: the projection of an NP that heads an argument-bearing constituent.
+
+\section{Conclusion}\label{sec:conclusion}
+
+English has four sub-categories of \term{noun}: common noun, proper noun, pronoun, and determinative. \textit{CGEL} admits three; this paper adds the fourth. \textit{CGEL}'s existing treatment of independent genitives (\mention{mine}, \mention{Kim's}) already shows that fusion, where it applies, is compatible with noun heads, so fusion itself is not an objection to the proposal. Two pieces of evidence then bear on the positive case. Partitives establish determinatives as head-like pivots in matrix NPs, independently of whether the construction is fused. Three discriminators (paradigm productivity, structural saturation, and internal modification) additionally support a simpler non-fused analysis for the simple one-word cases and distinguish them from adjectival Mod--Head fusion. The strongest positive version of the proposal comes when the simple independent cases are analyzed as ordinary Head, while \textit{CGEL} remains free to keep fused Det--Head for partitive and similar cases.
+
+There is precedent for the move within the same framework. \textit{CGEL} already treats auxiliaries as a sub-category of verb \citep{pullumwilson1977} and admits pronouns to \term{noun} despite their distinct morphosyntax. Extending the sub-categorization of \term{noun} to include determinatives applies the same kind of move to a different closed functional category. The proposal preserves the category/function distinction and the N-headed NP analysis; what changes is the supercategory assignment of determinatives. The reduction in the inventory of primary lexical categories is a theoretical economy of the kind \textcite{pullumwilson1977} took to strengthen universal linguistic theory: closed functional categories absorbed into open lexical ones, without loss of descriptive precision at the sub-category level. \textcite{pullumwilson1977} absorbed AUX into V; this paper absorbs the determinative category into N.
+
+Two simplifications follow. The noun-headed phrases that function as Det, namely the DPs \textit{CGEL} treats as headed by determinatives and the genitive NPs ultimately headed by common, proper, or pronoun, collapse into a single phrase type once determinatives are nouns. PPs continue to function as Det alongside, but the primary DP/NP disjunction is simplified rather than erased wholesale. The fusion-of-functions apparatus developed in \textcite{Payne2007} is available but not required for the simple one-word cases (where the discriminators support a simpler non-fused analysis) and remains empirically motivated for the narrower Mod--Head and partitive cases. The articles \mention{the} and \mention{a} are handled as defective members of a sub-category whose profile otherwise satisfies the criterion; their distributional attrition is the endpoint of a grammaticalization cline whose sources (demonstratives and the numeral \mention{one}) are already nominal on this analysis.
+
+Sub-cluster distinctions are preserved. Common nouns and proper nouns differ in article distribution and descriptive content; pronouns differ from both in case inflection and paradigmatic closure; determinatives differ in modifier selection, semantic reduction, and a distributional profile centered on Det and Mod, with restricted but productive independent Head use. What the four sub-categories share is the projection of an NP in the core external nominal functions, especially subject, object, and complement-of-preposition, with predicative complement available where semantically licensed, which is what the supercategory tracks.
+
+The claims here are for synchronic English. Cross-linguistic generalization depends on how far the grammaticalization cline has run and what form the endpoint takes in each language. Whether the fourfold-noun architecture extends to systems with bound articles, no articles, or richer nominal agreement morphology is a question for separate work. Fusion may vary by construction, but fusion itself is not evidence against the conclusion defended here: determinatives are nouns.
+
+\newpage
+\appendix
+
+\section{Companion Lean formalization}\label{sec:lean-appendix}
+
+This paper's claim is empirical and CGEL-internal. The companion Lean development included in the repository supplement doesn't add new English data; it makes the paper's architectural commitments explicit in machine-checkable form. The supplement is a small standalone Lean 4 project under \texttt{lean-formalization/}. Its main proof file is \texttt{CGELBankFourfoldNoun.lean} in the supplement's \texttt{RequestProject/} directory.\footnote{The supplement builds with \texttt{lake build RequestProject} from the \texttt{lean-formalization/} directory and is available at \url{https://github.com/BrettRey/determinatives-as-nouns/tree/master/lean-formalization}.}
+
+The development idealizes away from the whole of \textit{CGEL} and formalizes only the fragment this paper needs. It encodes four lexical sub-categories (common noun, proper noun, pronoun, determinative) under a single superordinate \term{noun}, keeps category and function distinct, and states projectibility relative to specific purposes and feature sets. In that setting the formal question isn't whether Lean can decide the English facts; it can't. The question is whether a grammar with this fourfold taxonomy can be stated exactly so that the paper's claimed consequences are derivable rather than merely described.
+
+The checked theorems target those consequences directly. First, the four sub-categories support distinct field-relative projectibility profiles. Common nouns project descriptive and distributional features, proper nouns naming features, pronouns anaphoric features, and determinatives determiner-modificational features. Second, the noun-headed phrases functioning as determiner in the witness grammar are uniformly NPs headed by members of the \term{noun} supercategory, which is the formal analogue of the simplification claimed in §\ref{subsec:det-uniform}. Third, the architecture remains coherent when category and function overlap: determinatives can remain nouns while participating in Det function, so the move from determiner function to determinative category is blocked formally as well as descriptively.
+
+The result is modest but useful. It isn't a proof that English determinatives are nouns, and it isn't yet a data-linked proof over the full CGELBank annotation scheme described by \textcite{reynolds2025cgelbankmanual}. It is an existence proof that the proposal can be given an explicit, machine-checked grammar whose consequences match the projection claims made in the main text. In that sense the formalization functions as a machine-checked architectural sketch and audit trail, not as an additional empirical premise.
+
+\section*{Acknowledgements}
+
+This paper was drafted with the assistance of large language models. All content has been reviewed and revised by the author, who takes full responsibility for the final text.
+
+\newpage
+\printbibliography
+
+\end{document}

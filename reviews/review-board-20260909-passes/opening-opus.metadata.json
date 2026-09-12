@@ -1,0 +1,15 @@
+{
+  "slug": "opening-opus",
+  "provider": "anthropic",
+  "requested_model": "opus",
+  "observed_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "prompt": "prompt-opening.md",
+  "prompt_sha256": "37e6d869023413bce28063db88846dc5c7322db746b5d64f315953204e33aadd",
+  "output": "opening-opus.json",
+  "output_sha256": "a90488fce461a2ee7835116e4f7754d5054d4cd6865f836a3d970a9d7d0a6758",
+  "elapsed_seconds": 48.5,
+  "effective_tools": []
+}

@@ -1,0 +1,11 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -348,7 +348,7 @@
+ 
+ \textit{CGEL} also uses fusion with nouns. Anaphoric \mention{mine}, understood as \enquote*{my car}, combines the possessive relation with an understood nominal description and receives a fused analysis. Predicative \mention{mine}, as in \mention{it's mine}, can instead mean \enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \citep[410--411, 470--471]{huddleston2002}. A suitable context may permit either reading.
+ 
+-This distinction shows why nounhood and fusion are compatible. Ordinary headedness follows here from the proposed projection rules; it doesn't require eliminating every fused construction containing a noun. I retain \textit{CGEL}'s fusion analysis for anaphoric independent genitives such as \mention{mine}, while assigning ordinary Head to independent determinatives such as \mention{few}.
++The proposed analysis gives \mention{mine} ordinary Head in both anaphoric and predicative uses. Its genitive form expresses a relation to the speaker; context can supply the understood nominal description, as it can with independent \mention{few}. The \mention{my}/\mention{mine} alternation remains a form-selection condition, parallel to \mention{no}/\mention{none}.
+ 
+ \subsection{Partitives locate the quantificational head}
+ 

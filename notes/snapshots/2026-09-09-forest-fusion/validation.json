@@ -1,0 +1,21 @@
+{
+  "source_sha256": "7e47af220054cb57942fdfbd9704f4a4725f9ce2bcf4cba50450cc821e4e0dd7",
+  "changed_tree_numbers": [
+    2,
+    9,
+    11
+  ],
+  "changed_figures": [
+    1,
+    5,
+    6
+  ],
+  "technique": "CGELBank: offset intermediate Nom, no edge on fused node, node-relative drawing commands for both incoming branches; Head branch 1pt",
+  "mod_head": "Nested Head Nom added so Mod edge reaches outer Nom and Head edge reaches inner Nom",
+  "outside_forest_byte_identical": true,
+  "review_outside_tree_blocks_byte_identical": true,
+  "review_fusion_edges": 3,
+  "build": "25 pages; no overfull lines or unresolved references",
+  "visual_check": "Only changed figures, pp. 3, 12, 13: branches attach correctly; labels unobstructed",
+  "april_check": "29 April snapshot contains no Forest, TikZ, qtree, figure, or included image; fusion discussed in prose and bracketed schemata"
+}

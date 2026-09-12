@@ -1,0 +1,27 @@
+{
+  "source_sha256": "637d04e1281311f8c5cc7c8fe8b297b0ffbcef173440af4a8ac3c6fce8d8ba1b",
+  "pdf_sha256": "7f118e4bb94878ba5c2930fa7c8def3ebdf6b4c5bf4ef79732c0e9ebae9ee488",
+  "pages": 24,
+  "citekeys": 24,
+  "biber_errors_or_warnings": [],
+  "unresolved_reference_or_citation_warnings": [],
+  "overfull_widths_pt": [
+    "4.46857",
+    "5.04185",
+    "4.2891",
+    "1.27979"
+  ],
+  "images_inspected": false,
+  "figure": {
+    "count": 6,
+    "unchanged": true
+  },
+  "table": {
+    "count": 5,
+    "unchanged": true
+  },
+  "forest": {
+    "count": 11,
+    "unchanged": true
+  }
+}

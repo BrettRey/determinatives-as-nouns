@@ -1,0 +1,15 @@
+AI-assistance disclosure for the September 2026 revision
+Prepared 7 September 2026; updated 9 September 2026. Not entered in a submission system.
+
+Suggested submission-field text:
+
+The September 2026 revision used OpenAI GPT-6 (Astra) through Codex for drafting, source retrieval, analysis-script development and critical review. Further critical review used Anthropic Claude Opus 5 through Claude Code, with Claude Haiku 4.5 recorded in those sessions, and Z.ai GLM-5.3-Flash through OpenRouter. OpenAI GPT-5.6 (Sol) provided a separate check of numerical outputs. These uses occurred on 7 and 9 September 2026. The models assisted in constructing and checking analysis code; the reported numerical results derive from the archived data and reproducible R/Python runs, rather than from unrecorded model estimates. AI assistance also extended to the LaTeX source for the tree diagrams. The author retains responsibility for all claims, source attributions, judgments and results.
+
+Tool identifiers and access:
+- OpenAI: gpt-6-astra and gpt-5.6-sol; Codex, https://chatgpt.com/codex
+- Anthropic: claude-opus-5 and claude-haiku-4-5-20251001; Claude Code, https://claude.com/product/claude-code
+- Z.ai: z-ai/glm-5.3-flash; OpenRouter, https://openrouter.ai/
+
+Provenance: reviews/review-board-20260907-rebuild/manifest.json records model identifiers, dates, source hashes and responses. The separate Sol check is recorded in reviews/rebuild-2026-09-07.md and the session’s numerical-check report. Data, feature-selection decisions, R/Python scripts, environment details and outputs are in analysis/.
+
+The 9 September continuation relocated the empirical material into two standalone supplements and carried out terminology, source, evidence, argument and reader passes. A fresh opening read and full review board used Astra, Opus 5 and GLM-5.3 Flash. Complete prompts, outputs, runtime model metadata and input limitations are preserved in reviews/review-board-20260909-passes/manifest.json; editing-pass records are in notes/passes/. The full article was supplied to the review board. The initial packets omitted the two generated supplementary table bodies, so that board is not represented as a fresh numerical validation. Its input limitation and the later table record are preserved with the run. The earlier computational reproduction and separate Sol check remain the numerical checks. No reviewer output has been treated as evidence of human scholarly consensus.

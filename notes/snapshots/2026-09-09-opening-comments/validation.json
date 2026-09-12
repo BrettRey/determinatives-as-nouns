@@ -1,0 +1,32 @@
+{
+  "source_sha256": "c67aeb9c5a87b5d96b95a17e31de88be4423e5515b62cc2133830df89763cff7",
+  "word_count_before": 8730,
+  "word_count_after": 8561,
+  "words_cut": 169,
+  "pdf_pages": 25,
+  "source_figures": 6,
+  "source_trees": 11,
+  "original_nine_trees_unchanged": true,
+  "source_tables": 7,
+  "schemata_unchanged": true,
+  "appendix_unchanged": true,
+  "later_source_only_change": "\u00a73.3 identifies the two D-noun trees among the four Figure 1 trees",
+  "submitted_markup_preserved": true,
+  "removed_citation_key": "reynolds2013determiners, as requested",
+  "references_local_unchanged": true,
+  "build": "XeLaTeX/Biber succeeded; no overfull boxes or unresolved references/citations",
+  "visual_proof": "Deferred as requested",
+  "markdown_blocks": {
+    "Header": 35,
+    "Para": 197,
+    "BlockQuote": 3,
+    "CodeBlock": 15,
+    "Table": 7
+  },
+  "comparison_rows": 47,
+  "source_checks": [
+    "Palmer (1924), original p. 24: quoted wording exact",
+    "CGEL (2002), p. 412, diagram 7: fusion has shared Det of NP / Head of Nom node"
+  ],
+  "review_file": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/notes/determinatives-as-nouns-review-2026-09-09.md"
+}

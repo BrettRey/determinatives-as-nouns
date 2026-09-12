@@ -1,0 +1,82 @@
+{
+  "source_sha256": "82211a89a592b1f94c94c8e359e3cadcaa419c40afad9d0f1a9b442ebb918f77",
+  "pdf_sha256": "4efe2299fb99fc83f457ea387a458b8220156e8e680bde27d17e21075313a7c0",
+  "pages": 24,
+  "citation_keys": [
+    "Huddleston2021",
+    "Payne2007",
+    "abney1987",
+    "anderson1997notional",
+    "bruening2020nominal",
+    "dechainewiltschko2002",
+    "huddleston2002",
+    "hudson2004determiners",
+    "hudson2010wordgrammar",
+    "lipseylancaster1956secondbest",
+    "lyons1968",
+    "lyons1999",
+    "palmer1924",
+    "payne2010",
+    "postal1966",
+    "pullummiller2022nps",
+    "pullumwilson1977",
+    "reynolds2021",
+    "reynolds2023unified",
+    "reynolds2025proformgender",
+    "reynolds2026numerals",
+    "sommerstein1972",
+    "spinillo2004reconceptualising",
+    "vaneynde2003determiner"
+  ],
+  "missing_citation_keys": [],
+  "errors_or_unresolved": [],
+  "biber_warning_or_error": [],
+  "overfulls": [
+    {
+      "points": 4.46857,
+      "line": 283
+    },
+    {
+      "points": 5.04185,
+      "line": 359
+    },
+    {
+      "points": 4.2891,
+      "line": 444
+    }
+  ],
+  "figures": 6,
+  "trees": 11,
+  "tree_source_unchanged": true,
+  "tables": 5,
+  "changed_table_indices": [
+    2
+  ],
+  "protected_analysis_and_supplement_files": 31,
+  "protected_file_changes": [],
+  "local_bib_unchanged": true,
+  "glossa_title_normalized": true,
+  "correct_page_locators": {
+    "payne2010": true,
+    "Payne2007": true
+  },
+  "page_2_words": 523,
+  "figure_1_pages": [
+    3
+  ],
+  "spaces_in_reported_sequence": [
+    {
+      "page": 14,
+      "words": [
+        "someone",
+        "and",
+        "everybody:"
+      ],
+      "gap_before_and_pt": 1.761922999999996
+    }
+  ],
+  "main_source_trailing_whitespace_lines": [],
+  "unresolved_bluer_judgment_removed": true,
+  "countercases_retained": true,
+  "second_best_mention_retained": true
+}

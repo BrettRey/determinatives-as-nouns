@@ -1,0 +1,98 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -41,9 +41,9 @@
+ 
+ I argue that the combined semantic, syntactic and morphological similarities among these four groups justify one superordinate category, which I write as Noun.
+ 
+-\textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences in inflection and dependents \citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive syntax within a broader lexical category \citep{pullumwilson1977}.
+-
+-Classifying determinatives as nouns gives them the nominal projection rules of Noun. A determinative therefore heads a \term{nominal} (Nom), which heads an NP, just as common nouns, proper nouns and pronouns do. Nom contains the head and its internal dependents, excluding an external determiner. Lexical restrictions govern which uses are available.
++\textit{CGEL} already includes pronouns within the superordinate Noun category, along with common and proper nouns, on the basis of their phrases' functions, despite differences in inflection and dependents \citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive syntax within a broader lexical category \citep{pullumwilson1977}.
++
++In the D-noun analysis, determinatives inherit the nominal projection rules of Noun. Under these rules, a determinative heads a \term{nominal} (Nom), which heads an NP, just as common nouns, proper nouns and pronouns do. Nom contains the head and its internal dependents, excluding an external determiner. Lexical restrictions govern which uses are available.
+ 
+ Figure~\ref{fig:some} compares \textit{CGEL} with the D-noun analysis for \mention{take some apples} and \mention{take some}. Both keep \mention{some} in one lexical category across uses. In \textit{CGEL}, independent \mention{some} jointly fills determiner and head functions, a \term{fusion of functions} \citep[410--412]{huddleston2002}. As a syntactic representation, fusion of functions appears to have seen little adoption outside work based on \textit{CGEL}. In the D-noun analysis, \mention{some} heads its own NP through a Nom in both uses.
+ 
+@@ -107,7 +107,7 @@
+ 
+ The English article--pronoun boundary has long been contested. \textcite{palmer1924} groups \enquote{determinative adjectives} with pronouns; \textcite{postal1966} analyses personal pronouns as articles at an intermediate level of representation; \textcite{sommerstein1972} gives the definite article and pronouns underlying NP structure. Hudson places his determining words within pronoun and pronoun within noun \citep{hudson2004determiners,hudson2010wordgrammar}.
+ 
+-The grouping also offers several connected simplifications. First, determinatives inherit nominal projection, replacing a separate DP with NP. Second, ordinary Head structure unifies the bare, partitive and externally determined uses that \textit{CGEL} divides between Det--Head and Mod--Head fusion. Third, NP becomes the phrase type shared by ordinary determinatives, genitives and the minor nominal determiners. Fourth, the determinative, common-noun and proper-noun uses of cardinals fall within one primary category.
++Ordinary Head structure unifies the bare, partitive and externally determined uses that \textit{CGEL} divides between Det--Head and Mod--Head fusion. Replacing DP with NP also shares a phrase type across determinatives, genitives and minor nominal determiners. A separate-D grammar can share these structures. Including determinatives within Noun makes nominal projection inherited and brings the determinative, common-noun and proper-noun uses of cardinals within one primary category.
+ 
+ Section~\ref{sec:related} compares the alternatives; §§\ref{sec:proposal}--\ref{sec:articles} develop the classification. The matched fragment in §\ref{sec:fragment} then assesses its structural consequences and costs, holding judgments and lexical restrictions fixed. Any economy depends on the resulting grammar, including modifier and use restrictions.
+ 
+@@ -153,7 +153,7 @@
+ 
+ \textcite{postal1966} develops the article--pronoun connection through English reflexives and combinations such as \mention{we men}. His morphological evidence for the noun \mention{self} includes \mention{selfish}, \mention{selfless} and the plural alternation \mention{self}/\mention{selves}; he analyses the preceding pronominal material as an article. The classification depends on representational level: article segments occur at intermediate stages, their deepest counterparts are features of nouns, and surface pronouns can receive derivative Noun status.
+ 
+-\textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlying NP structure. His English comparison includes the count restriction on anaphoric \mention{one}, contrasting with \mention{it}'s ability to refer to a quantity of a substance.\footnote{\textcite[797--798]{payne2013anaphoric} analyse anaphoric \mention{one} as a common count noun, distinct from determinative \mention{one} and personal pronoun \mention{one}.} He also observes that noun status for \mention{self} doesn't decide whether the preceding element is an article or a genitive pronoun.
++\textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlying NP structure. His English comparison includes the count restriction on anaphoric \mention{one}, whereas \mention{it} can refer to a quantity of a substance.\footnote{\textcite[797--798]{payne2013anaphoric} analyse anaphoric \mention{one} as a common count noun, distinct from determinative \mention{one} and personal pronoun \mention{one}.} He also observes that noun status for \mention{self} doesn't decide whether the preceding element is an article or a genitive pronoun.
+ 
+ These predecessors challenge a fundamental article--pronoun separation, but leave the full determinative inventory unclassified. Its contrasts in grade, modification, complementation and restricted independent use extend the comparison beyond their proposals.
+ 
+@@ -212,11 +212,15 @@
+ 
+ \textit{CGEL} treats singular and plural \mention{you} as distinct lexemes whose difference is overt only in the reflexive forms \mention{yourself} and \mention{yourselves} \citep[486]{huddleston2002}. Here number distinguishes lexemes rather than inflectional forms of one lexeme.
+ 
+-Determinatives' nominal connections are distributed across the proposed subcategories: deixis and pro-form gender link them with pronouns, number and genitive marking with common and proper nouns, and argument and determiner uses with all three. Alongside partitives and nominal postmodification, I take these similarities to justify a superordinate Noun category, with determinatives' quantificational, inflectional and modifier patterns distinguishing their place within it.
++The adjectival affinities likewise vary across the inventory. Grade connects \mention{few}, \mention{many}, \mention{much} and \mention{little} with adjectives, and their comparative forms take \mention{than}-complements. Predicative use extends to \mention{several}, and AdvP premodification extends much further. Even the gradable forms have distinct syntax: \mention{so many mistakes} contrasts with \ungram{\mention{so numerous mistakes}} \citep[392--396, 539--540]{huddleston2002}.
++
++Determinatives' nominal connections are distributed across the proposed subcategories: deixis and pro-form gender link them with pronouns, number and genitive marking with common and proper nouns, and argument and determiner uses with all three. Alongside partitives and nominal postmodification, I give this combined pattern greater weight than the adjectival connections. I therefore include determinatives within Noun, with their quantificational, inflectional and modifier patterns distinguishing the subcategory.
+ 
+ The D-noun analysis captures shared properties through \term{inheritance}: a property stated for a superordinate category is available to its subcategories, subject to stated restrictions. Determinatives therefore inherit nominal projection from Noun. Subcategory rules constrain combinatorics, and lexical entries distinguish such forms as independent \mention{some} and dependent-only \mention{every}.
+ 
+ \subsection{Noun phrases in determiner and argument functions}\label{sec:bridge}
++
++Determinatives' characteristic determiner use could support a separate primary category. But Det is itself specific to NP structure, where it marks definiteness and often contributes quantification \citep[354--359]{huddleston2002}. These tasks connect it with the reference and number properties compared above. The question is whether this specialization warrants a primary boundary within nominal grammar.
+ 
+ Determiner function already cuts across the existing noun subcategories. Compare \mention{my preferences}, \mention{Kim's preferences} and \mention{people's preferences}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.} Figure~\ref{fig:genitive} illustrates the proper-noun case.
+ 
+@@ -238,6 +242,8 @@
+ The NP headed by \mention{some} likewise functions as Det in \mention{take some apples} and as object in \mention{take some} (Figure~\ref{fig:some}). Its subcategory and nominal projection remain constant across these uses.
+ 
+ NP becomes the shared phrase type for the principal realizations of determiner function. Plain determinatives, including modified forms such as \mention{almost ten}, join genitives such as \mention{Kim's} and \mention{my}. Minor determiners include further NPs: \mention{what size} in \mention{what size shoes}, \mention{that size} in \mention{that size shoes}, and \mention{Sunday} in \mention{Sunday morning} \citep[356]{huddleston2002}.
++
++These existing NP determiners give the extension a functional basis. In \mention{Kim's preferences}, the embedded NP supplies an identifying anchor through its own referent; \mention{Sunday} and \mention{what size} specify a day or a dimension. Determinatives' deictic and quantitative specifications fit this nominal pattern. I take that fit to support treating their specialization in Det as a distinction within Noun.
+ 
+ PPs remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks} \citep[356]{huddleston2002}. Number, countability and other selectional conditions distinguish the determining expressions.
+ 
+@@ -272,15 +278,11 @@
+ 
+ \subsection{Word formation and category boundaries}\label{sec:word-formation}
+ 
+-Derivational affixes select categories of bases and determine categories of outputs. A suffix restricted to nominal bases would supply evidence about a determinative's input category. A noun-forming suffix may accept several kinds of base.
+-
+-\mention{Friendship} contains \mention{-ship}, which primarily selects nouns denoting persons, though \mention{hardship} has an adjective base. The inhabitant suffix \mention{-er} in \mention{Londoner} attaches to a place name \citep[Ch.~19, §§5.6.2(b), 5.7.2(k)]{huddleston2002}.
+-
+-\mention{-hood} usually selects noun bases, as in \mention{bachelorhood}, but also forms \mention{falsehood} and \mention{likelihood} from adjectives. \mention{-dom} similarly has noun bases in \mention{kingdom} and \mention{officialdom}, alongside adjectival bases in \mention{freedom} and \mention{wisdom} \citep[Ch.~19, §5.7.2(e--f)]{huddleston2002}. These comparisons establish no noun-selecting suffix shared by pronouns and determinatives.
+-
+-Determinatives enter derivations whose output is a common noun. \textit{CGEL} cites \mention{nothingness} and \mention{oneness} among formations with \mention{-ness} on non-adjectival bases \citep[Ch.~19, §5.7.2(i)]{huddleston2002}. Further established nouns include \mention{thisness}, \mention{fewness} and \mention{muchness}.\footnote{See \textit{Merriam-Webster.com Dictionary}, s.vv.\ \href{https://www.merriam-webster.com/dictionary/thisness}{\mention{thisness}} and \href{https://www.merriam-webster.com/dictionary/fewness}{\mention{fewness}}, and \textit{Dictionary.com}, s.v.\ \href{https://www.dictionary.com/browse/muchness}{\mention{muchness}} (accessed 10 September 2026). These attestations don't establish a uniformly productive modern rule.} With a direct D base, these derivations connect determinatives with common nouns within the proposed Noun category.
+-
+-\mention{-ness} is the default suffix for forming nouns from adjectives, but also attaches to other bases, as in \mention{whyness}. Its occurrence in \mention{nothingness} thus identifies neither an exclusively nominal nor an exclusively adjectival input. A conversion analysis would require independent evidence for an intermediate base.
++Noun-forming suffixes differ in the bases they select. \mention{-ship} in \mention{friendship} primarily selects nouns denoting persons, though \mention{hardship} has an adjective base. The inhabitant suffix \mention{-er} in \mention{Londoner} attaches to a place name \citep[Ch.~19, §§5.6.2(b), 5.7.2(k)]{huddleston2002}. Table~\ref{tab:existing} establishes no noun-selecting suffix shared by pronouns and determinatives.
++
++Determinatives enter derivations whose output is a common noun. \textit{CGEL} cites \mention{nothingness} and \mention{oneness} among formations with \mention{-ness} on non-adjectival bases \citep[Ch.~19, §5.7.2(i)]{huddleston2002}. Further established nouns include \mention{thisness}, \mention{fewness} and \mention{muchness}.\footnote{See \textit{Merriam-Webster.com Dictionary}, s.vv.\ \href{https://www.merriam-webster.com/dictionary/thisness}{\mention{thisness}} and \href{https://www.merriam-webster.com/dictionary/fewness}{\mention{fewness}}, and \textit{Dictionary.com}, s.v.\ \href{https://www.dictionary.com/browse/muchness}{\mention{muchness}} (accessed 10 September 2026). These attestations don't establish a uniformly productive modern rule.}
++
++\mention{-ness} is the default suffix for forming nouns from adjectives, but also attaches to other bases, as in \mention{whyness} \citep[Ch.~19, §5.7.2(i)]{huddleston2002}. It therefore doesn't settle the input category of \mention{nothingness}. A conversion analysis would require independent evidence for an intermediate base.
+ 
+ The adverb \mention{mostly} provides a different output.\footnote{See \textit{Dictionary.com}, s.v.\ \href{https://www.dictionary.com/browse/mostly}{\mention{mostly}} (accessed 10 September 2026).} Adverbial \mention{-ly} primarily attaches to adjectives, but \textit{CGEL} also gives noun-based \mention{partly} and \mention{purposely} \citep[566]{huddleston2002}. This gives \mention{most} an adjectival affinity without an adjective-only diagnostic.
+ 
+@@ -328,7 +330,7 @@
+ 
+ In \textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions. Under \textit{CGEL}'s analysis of independent \mention{some}, its DP fills Det of NP and Head of Nom. The word remains determinative, while the independent expression is an NP. Ordinary headedness instead gives \mention{some} nominal projection, with the same restrictions on independence and form selection.
+ 
+-\textit{CGEL} also uses fusion in noun-headed structures. It analyses \mention{mine} as fused Det--Head when it stands for a possessed entity in an anaphoric context, but as pure Head in the predicative possessive use \mention{it's mine} \citep[410--411]{huddleston2002}.
++\textit{CGEL} also uses fusion with nouns. It assigns anaphoric \mention{mine} to Det--Head, but predicative possessive \mention{mine}, as in \mention{it's mine}, to pure Head \citep[410--411]{huddleston2002}. Nounhood is thus compatible with fusion. Here ordinary determinative headedness follows from the inherited projection rules; the analysis of independent genitives, including \mention{Kim's} and \mention{mine}, falls outside the fragment in §\ref{sec:fragment}.
+ 
+ \subsection{Partitives locate the quantificational head}
+ 
+@@ -596,7 +598,7 @@
+ 
+ The premodifier contrast in §\ref{sec:payne} adds a cost. A restriction normally stated for primary Noun now applies to specified noun subcategories, while determinatives retain their adverbial premodifiers. The attributive \mention{almost textbook} exception qualifies the original generalization. Compound constructions also retain the distinction between inherited premodifier permissions and post-head restrictors (§\ref{sec:compounds}).
+ 
+-Further constructions could favour inheritance by reusing nominal rules, or separate D if its boundary captures recurring restrictions otherwise restated within Noun. The comparison must hold the inventory, constructions and readings fixed.
++Further constructions could favour inheritance by reusing nominal rules, or separate D if its boundary captures recurring restrictions otherwise restated within Noun. A fair comparison holds the inventory, constructions and readings fixed.
+ 
+ \textcite{reynolds2026numerals} distinguishes determinative uses such as \mention{ten men}, proper-noun uses such as \mention{Room 101}, and common-noun uses such as \mention{tens of pens}. Under the D-noun analysis, all fall within primary Noun, retaining their subcategory and constructional differences. Ordinals remain adjectives, and complex numeral phrases remain distinct from single lexemes.
+ 

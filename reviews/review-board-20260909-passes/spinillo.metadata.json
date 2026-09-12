@@ -1,0 +1,14 @@
+{
+  "slug": "spinillo",
+  "provider": "openrouter",
+  "requested_model": "z-ai/glm-5.3-flash",
+  "observed_models": [
+    "z-ai/glm-5.3-flash"
+  ],
+  "prompt": "prompt-spinillo.md",
+  "prompt_sha256": "7b616abd4e3553a307325a7db94567a6c96b016cc93eead4381cce96a967b371",
+  "output": "spinillo.md",
+  "output_sha256": "00e7c39ba18a52706627a5f8f883b74b37c93178505320d03aad642274355847",
+  "elapsed_seconds": 21.6,
+  "effective_tools": []
+}

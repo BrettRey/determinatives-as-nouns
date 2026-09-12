@@ -1,0 +1,121 @@
+{
+  "source_sha256": "18edda7924f4f6a3d576ff60c66e55d7fc3a973369028ddf0b883f128c6488f3",
+  "trees": {
+    "count": 11,
+    "changed_tree": "All eleven trees unchanged, including the corrected NP layer in Figure 6",
+    "markdown": "Unary branches rendered vertically; fusion links retained"
+  },
+  "schemata": {
+    "count": 4,
+    "change": "All four schemata unchanged; attachment conditions made explicit in adjacent prose"
+  },
+  "numbered_examples": {
+    "count": 2,
+    "words_unchanged": true,
+    "format_change": "Upright square brackets"
+  },
+  "tables": {
+    "count": 5,
+    "changes": "Table 2 splits internal and peripheral modification; Table 5 updates internal permissions; three other tables unchanged"
+  },
+  "citations": {
+    "unchanged_keys": [
+      "Huddleston2021",
+      "Payne2007",
+      "abney1987",
+      "bruening2020nominal",
+      "huddleston2002",
+      "hudson2004determiners",
+      "hudson2010wordgrammar",
+      "lipseylancaster1956secondbest",
+      "lyons1968",
+      "lyons1999",
+      "palmer1924",
+      "payne2010",
+      "payne2013anaphoric",
+      "postal1966",
+      "pullummiller2022nps",
+      "pullumwilson1977",
+      "reynolds2021",
+      "reynolds2023unified",
+      "reynolds2025proformgender",
+      "reynolds2026numerals",
+      "sommerstein1972",
+      "spinillo2004reconceptualising"
+    ],
+    "unresolved": []
+  },
+  "protected_files_unchanged": 70,
+  "author_annotations_unchanged": true,
+  "reading_copy": {
+    "file": "notes/determinatives-as-nouns-review-2026-09-12-modifier-series.md",
+    "trees": 11,
+    "schemata": 4,
+    "tables": 5,
+    "notes": 15,
+    "images": 0,
+    "pandoc_warnings": 0
+  },
+  "build": {
+    "pages": 29,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "unresolved_references": 0,
+    "sequence": "XeLaTeX, Biber, XeLaTeX, XeLaTeX",
+    "biber": "2.21 temporary arm64 extraction",
+    "existing_warnings": [
+      "fancyhdr E field in one-sided document",
+      "microtype footnote patch",
+      "EB Garamond bold substitution"
+    ],
+    "image_inspection": "Deferred at author request; PDF text and page distribution checked",
+    "oversized_floats": 0
+  },
+  "page_text_counts": [
+    334,
+    514,
+    174,
+    286,
+    529,
+    521,
+    249,
+    523,
+    341,
+    371,
+    580,
+    476,
+    478,
+    480,
+    270,
+    292,
+    383,
+    395,
+    522,
+    523,
+    507,
+    446,
+    515,
+    484,
+    305,
+    480,
+    252,
+    396,
+    75
+  ],
+  "texcount": {
+    "before": {
+      "Words in text": 8330,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 875,
+      "total": 9334
+    },
+    "after": {
+      "Words in text": 8575,
+      "Words in headers": 129,
+      "Words outside text (captions, etc.)": 890,
+      "total": 9594
+    }
+  },
+  "net_words_added": 260,
+  "review_scope": "Author-directed modifier-series distinction: peripheral approximative/focusing NP modification; internal degree series with four gradable quantifiers in both uses; cardinal exception and separate completeness permissions retained"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "van-eynde",
+  "provider": "anthropic",
+  "requested_model": "opus",
+  "observed_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "prompt": "prompt-van-eynde.md",
+  "prompt_sha256": "75b026ffb91764bdaf87448cd083157e1f2d9666c6864da1385c836843c468d4",
+  "output": "van-eynde.md",
+  "output_sha256": "aa0a5fb04d9bfc8e7d5cd10421cb18f629db75f450d85a76a6d5478aed616aaa",
+  "elapsed_seconds": 184.8,
+  "effective_tools": []
+}

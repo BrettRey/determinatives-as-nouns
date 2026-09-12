@@ -1,0 +1,113 @@
+--- before/determinatives-as-nouns.tex
++++ after/determinatives-as-nouns.tex
+@@ -26,7 +26,7 @@
+ \maketitle
+ 
+ \begin{abstract}
+-I argue that English determinatives belong within Noun alongside common nouns, proper nouns, and pronouns. Their combined semantic, syntactic, and morphological profile supports the grouping; quantificational common nouns provide particularly close connections. Adverbial premodification and grade distinguish determinatives within it. Lexical and constructional permissions within the subcategory accommodate restricted articles and degree-modifier uses. The proposed hierarchy makes nominal projection inherited, unifying bare, partitive, and externally determined uses under ordinary Head structure. A matched grammatical fragment compares separate-D alternatives and identifies the costs of restricting modifier generalizations to subcategories.
++I argue that English determinatives belong within Noun alongside common nouns, proper nouns, and pronouns. Their combined semantic, syntactic, and morphological profile supports the grouping; quantificational common nouns provide particularly close connections. Grade and its associated degree-modifier pattern distinguish four quantifiers; peripheral modification follows existing NP grammar. Lexical and constructional permissions within the subcategory accommodate restricted articles and degree-modifier uses. The proposed hierarchy makes nominal projection inherited, unifying bare, partitive, and externally determined uses under ordinary Head structure. A matched grammatical fragment compares separate-D alternatives and identifies the costs of restricting modifier generalizations to subcategories.
+ \end{abstract}
+ 
+ \noindent\textbf{Keywords:} determinatives, nouns, lexical categories, noun phrases, English
+@@ -173,7 +173,7 @@
+ 
+ \begin{table}[!htbp]
+ \centering\small
+-\caption{Representative profiles, with ranges rather than universal properties. Argument and Det functions concern whole phrases; modifier examples involve Nom or NP as appropriate. Construction type is distinct from function. Interrogative and relative examples follow \textit{CGEL}'s inventory; their precise subcategory boundaries aren't at issue here.}\label{tab:existing}
++\caption{Representative profiles. Functions concern phrases; internal and peripheral modification concern Nom and NP respectively. Interrogative and relative forms follow \textit{CGEL}'s inventory.}\label{tab:existing}
+ \setlength{\tabcolsep}{4pt}
+ \begin{tabular}{>{\raggedright\arraybackslash}p{2.25cm}*{4}{>{\raggedright\arraybackslash}p{2.42cm}}}
+ \toprule
+@@ -187,7 +187,8 @@
+ Pro-form gender & Descriptions shape referent construal & Names identify referents construed by gender & Gender-sensitive forms & Gender-sensitive forms and constructions \\
+ Inflection & Number and genitive & Genitive; restricted number & Case, including genitive; reflexive forms & Number; grade; genitive; \mention{no}/\mention{none} \\
+ Accepts determination & Broad contrasts; singular count arguments normally require it & Restricted in primary naming uses & Normally excluded & Lexically restricted: \mention{the few}, \mention{these three} \\
+-Modification & Productive AdjP and nominal premodifiers; relative postmodifiers & Restricted AdjP premodifiers and embellishments & Restricted AdjP premodifiers and relative postmodifiers & AdvP and D premodifiers; nominal postmodifiers; \mention{the lucky few} \\
++Internal modification & Productive AdjP and nominal premodifiers; relative postmodifiers & Restricted AdjP premodifiers and embellishments & Restricted AdjP premodifiers and relative postmodifiers & Degree AdvP on four quantifiers; NP modifiers; \mention{the lucky few}; relatives \\
++Peripheral AdvP & \mention{only the book} & \mention{even Kim} & \mention{only you} & \mention{almost every}; \mention{hardly any}; \mention{almost ten} \\
+ Complemen\-tation & Selected PPs and clauses & Not characteristic of primary naming uses & Normally absent & Partitive \mention{of}-PPs; comparative \mention{than}-phrases \\
+ \bottomrule
+ \end{tabular}
+@@ -209,9 +210,9 @@
+ 
+ Complementation sharpens the comparison. Common nouns and determinatives take partitive complements: \mention{a lot/some of the wine}. Comparative complements such as \mention{more than ten} instead connect determinatives with adjectives \citep[349--350, 392--394, 411--412, 432--433]{huddleston2002}. Common nouns permit PP and clausal complements more generally; pronouns and primary naming uses of proper nouns have much more restricted dependents \citep[429--430, 439--443, 517--521]{huddleston2002}. Determinatives combine nominal complement and postmodifier constructions with their own selectional restrictions.
+ 
+-The adjectival affinities likewise vary across the inventory. Grade connects \mention{few}, \mention{many}, \mention{much}, and \mention{little} with adjectives, and their comparative forms take \mention{than}-complements. Predicative use extends to \mention{several}, and AdvP premodification extends much further. Even the gradable forms have distinct syntax: \mention{so many mistakes} contrasts with \ungram{\mention{so numerous mistakes}} \citep[392--396, 539--540]{huddleston2002}.
+-
+-The case for inclusion rests on this distribution of connections. Determinatives share argument and determiner functions with all three noun subcategories, referential contrasts with pronouns, and number, genitive marking, and partitive constructions with established parts of Noun. Adverbial premodification distinguishes determinatives distributionally, though peripheral NP attachment limits its force as a primary-category diagnostic (§\ref{sec:payne}). Grade and comparative complementation connect a smaller set with adjectives. I give greater weight to the recurring nominal profile, while preserving those countervailing properties in the determinative subcategory.
++The strongest adjectival connection is concentrated in \mention{few}, \mention{many}, \mention{much}, and \mention{little}. They inflect for grade, take degree modifiers such as \mention{very} and \mention{so}, and license comparative \mention{than}-complements. These properties form a connected profile. Predicative use extends to \mention{several}, but the broader adverbial pattern involves approximative and focusing modifiers, analysed below at the NP periphery. Even the gradable forms have distinct syntax: \mention{so many mistakes} contrasts with \ungram{\mention{so numerous mistakes}} \citep[392--396, 431--432, 539--540]{huddleston2002}.
++
++The case for inclusion rests on this distribution of connections. Determinatives share argument and determiner functions with all three noun subcategories, referential contrasts with pronouns, and number, genitive marking, and partitive constructions with established parts of Noun. Approximative and focusing modification reuses independently established NP grammar (§\ref{sec:payne}). The localized degree-modifier, grade, and complementation pattern supplies an adjectival counterweight. I give greater weight to the recurring nominal profile, while preserving that connected set of distinctive properties within the determinative subcategory.
+ 
+ The D-noun analysis captures shared properties through \term{inheritance}: a property stated for a superordinate category is available to its subcategories, subject to stated restrictions. Determinatives therefore inherit nominal projection from Noun. Subcategory rules constrain combinatorics, and lexical entries distinguish such forms as independent \mention{some} and dependent-only \mention{every}.
+ 
+@@ -258,7 +259,7 @@
+ 
+ \subsection{Modifier selection and taxonomic level}\label{sec:payne}
+ 
+-Shared nominal projection doesn't make modifier permissions uniform. In \mention{almost every experienced teacher}, \mention{almost} belongs with \mention{every}, while \mention{experienced} modifies \mention{teacher}. Figure~\ref{fig:every} gives \mention{almost} peripheral attachment within the smaller determinative-headed NP. That NP functions as Det in the larger NP, whose ultimate head is \mention{teacher}.
++Two premodifier patterns need distinguishing: approximative and focusing adverbs, and the degree series exemplified by \mention{very} and \mention{so}. In \mention{almost every experienced teacher}, \mention{almost} belongs with \mention{every}, while \mention{experienced} modifies \mention{teacher}. Figure~\ref{fig:every} places \mention{almost} at the periphery of the NP headed by \mention{every}. That smaller NP functions as Det in the larger NP, whose ultimate head is \mention{teacher}.
+ 
+ \begin{figure}[H]
+ \centering
+@@ -278,21 +279,23 @@
+ 
+ \textcite[40--42]{payne2010} defend keeping \mention{few}, \mention{any}, and related forms in one lexical category across dependent and independent uses. In \mention{hardly any money} and independent \mention{hardly any}, \mention{hardly} remains an adverb and \mention{any} retains its category. The D-noun analysis preserves that continuity. It also preserves their contrast between adverbial premodification, as in \mention{almost anybody}, and adjectival postmodification, as in \mention{nothing absolute}.
+ 
+-Adverbial premodification needs two levels distinguished. Within a common-noun Nom, premodifiers are normally adjectival or nominal. At the edge of a whole NP, adverbs are less restricted: compare \mention{only you}, \mention{for almost my entire life}, and \mention{Usually a careful driver, Anne found her mind wandering}. Here \mention{only}, \mention{almost}, and \mention{usually} modify NPs containing their own heads and, where present, determiners. \textit{CGEL} calls these \term{peripheral modifiers} \citep[430--431]{huddleston2002}.
+-
+-\textit{CGEL} already observes overlap between DP modifiers and peripheral NP modifiers, with some attachment decisions uncertain \citep[431]{huddleston2002}. The D-noun analysis assigns peripheral attachment to adverbial premodifiers of determinative-headed NPs without external determination: \mention{almost every}, \mention{hardly any}, \mention{hardly anyone present}, and \mention{almost ten}.
+-
+-NP embedding preserves this distinction. In \mention{the very few people}, I analyse \mention{very few} as an NP functioning as Mod, with \mention{very} peripheral to the NP headed by \mention{few}. The determiner \mention{the} belongs to the larger NP; the smaller NP has no external Det.
+-
+-Independent \mention{the very few who objected} instead has \mention{few} as ordinary Head and \mention{very} as an internal modifier of Nom, like \mention{lucky} in \mention{the lucky few}. The same allocation applies to \mention{the very many} and \mention{the almost thirty who came}. In these ordinary-Head structures, the adverb follows the NP's own external Det and occupies its internal premodifier position.
+-
+-NP modifiers provide a further connection. Determinatives permit determinative premodifiers such as \mention{this} in \mention{this much} \citep[393]{huddleston2002}. Comparative determinatives also take established NP modifiers: \mention{a lot} in \mention{a lot fewer}, alongside \textit{CGEL}'s \mention{a lot more than fifty} \citep[432]{huddleston2002}. Under the proposed analysis, these are peripheral NP modifiers of a determinative-headed NP without external Det. Their permissions remain specific to the head and construction.
++Peripheral modifiers attach outside an NP's internal dependents. Compare \mention{only you}, \mention{for almost my entire life}, and \mention{Usually a careful driver, Anne found her mind wandering}. The modifiers precede any determiner belonging to the NP they modify. \textit{CGEL} already assigns them NP-level attachment \citep[430--431]{huddleston2002}. Focusing \mention{even} and \mention{just}, and approximatives such as \mention{nearly}, \mention{hardly}, \mention{virtually}, and \mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.
++
++This pattern extends broadly across determinatives: \mention{almost every}, \mention{nearly all}, \mention{hardly any}, \mention{practically no}, \mention{almost everyone}, and \mention{almost ten}. Under D-noun, these combinations reuse the peripheral modification found in \mention{almost the whole class}, \mention{hardly a day}, and \mention{only the best}. In dependent \mention{almost every student}, \mention{almost} approximates the quantificational contribution of \mention{every}; it doesn't intensify a gradable property of that head. The NP analysis gives this broad pattern a place in existing nominal grammar.
++
++Degree \mention{very} has different selection: \mention{very tall} and \mention{very few}, but \ungram{\mention{very you}}, \ungram{\mention{very the book}}, and \ungram{\mention{very my life}}. It also excludes non-gradable determinatives: \ungram{\mention{very every}}, \ungram{\mention{very some}}, and \ungram{\mention{very this}}. The associated series includes \mention{so few}, \mention{too few}, \mention{how few}, and \mention{as few as}. These degree patterns select \mention{few}, \mention{many}, \mention{much}, and \mention{little}, the four determinatives that inflect for grade \citep[393--395, 431--432]{huddleston2002}.\footnote{The restriction concerns this degree series. \textit{CGEL} also records modifiers of completeness, including \mention{marginally enough} and \mention{absolutely all}, with different selectional ranges \citep[432]{huddleston2002}. Those combinations don't extend the \mention{very}/\mention{so}/\mention{too}/\mention{how} series beyond the four degree determinatives.}
++
++The complex determinative \mention{a few} makes the attachment contrast visible. \textit{CGEL} explicitly contrasts internal \mention{very} in \mention{a very few mistakes} with peripheral \mention{quite} in \mention{quite a few mistakes} \citep[p.~392, (61)]{huddleston2002}. The reversed orders \ungram{\mention{very a few}} and \ungram{\mention{a quite few}} are excluded in these constructions. Here \mention{a} belongs to the complex determinative; \mention{very} occurs within it and \mention{quite} outside it.
++
++The proposed analysis gives \mention{very} internal attachment in dependent and independent uses alike. In \mention{the very few people}, it modifies the Nom headed by \mention{few}; the resulting \mention{very few} NP functions as Mod in the larger NP. In \mention{the very few who objected}, \mention{few} remains ordinary Head and \mention{very} remains internal. The degree relation is unchanged, and one internal permission covers both constructions. The same analysis applies to \mention{the very many}.
++
++NP degree modifiers provide a further connection. Determinatives permit determinative premodifiers such as \mention{this} in \mention{this much} \citep[393]{huddleston2002}. Comparative determinatives also take established NP modifiers: \mention{a lot} in \mention{a lot fewer}, alongside \textit{CGEL}'s \mention{a lot more than fifty} \citep[432]{huddleston2002}. These modify the quantity expressed by the head. Under the proposed analysis, they're internal NP modifiers within its nominal projection, with permissions specific to the head and construction.
+ 
+ \textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in the constructed \mention{the changes globally to the climate}. They also analyse \mention{almost} as modifying the attributive nominal \mention{textbook} in \mention{an almost textbook case} \citep[p.~75, n.~3]{payne2010}. Adverbial modification therefore isn't categorically excluded from Noun, even internally. Its broader availability with determinatives remains a difference of distribution within the proposed category.
+ 
+ Postmodifier permissions also overlap. Common nouns freely take integrated relative clauses; personal pronouns permit a restricted range, including \mention{we who have read the report} \citep[430]{huddleston2002}. Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}. Section~\ref{sec:modification} examines this shared construction.
+ 
+-Among the determinatives considered here, internal AdvP premodification is needed only for gradable quantifiers and cardinals in externally determined independent uses.
++Approximatives need internal attachment where they follow an external determiner on an independent cardinal: \mention{the almost thirty who came}. The internal AdvP permissions at issue are thus the degree series on \mention{few}, \mention{many}, \mention{much}, and \mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.
+ 
+ \subsection{Inflection}\label{sec:inflection}
+ 
+@@ -603,7 +606,7 @@
+ 
+ A singular count common noun such as \mention{book} faces a different restriction from an article. In \mention{a book}, its requirement for determination is satisfied; bare \ungram{\mention{Book arrived}} leaves that requirement unsatisfied. \mention{Books arrived} has no such requirement. Requiring determination for a common noun doesn't itself block an article-headed NP from argument use. An article's exclusion from argument use must still be stated separately.
+ 
+-\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almost} modifies the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. Externally determined \mention{few} permits internal adjectival \mention{lucky} and adverbial \mention{very}, preserving ordinary Head in both constructions. In \mention{hardly anyone present}, \mention{hardly} is peripheral to NP and the restrictor \mention{present} is internal to Nom.
++\mention{Some} and \mention{few} permit a partitive \mention{of}-phrase within their nominal projection. Peripheral \mention{almost} modifies the NP headed by \mention{every}; this doesn't license \mention{experienced} as its modifier. Degree \mention{very} modifies \mention{few} internally across dependent and independent uses. Externally determined \mention{few} also permits adjectival \mention{lucky}. The cardinal construction \mention{the almost thirty who came} licenses internal approximative \mention{almost}. In \mention{hardly anyone present}, \mention{hardly} is peripheral to NP and the restrictor \mention{present} is internal to Nom.
+ 
+ Keeping ordinary headedness while retaining primary D gives the strongest separate-D alternative. It retains the NP and use-permission rules, but replaces the lexical-head restriction in Nom with:
+ \[
+@@ -641,7 +644,7 @@
+ \midrule
+ Shared structural core & Nom--NP and ordinary Head across bare, partitive, and externally determined uses. Adjectival fusion retained. & Same projection and Head relations as D-noun. Adjectival fusion retained. & DP plus nominal structure; Det--Head or Mod--Head for independent determinatives. Fusion shared with adjectives. \\
+ Primary categories & Determinative inside Noun: one fewer primary category. & Determinative separate from Noun. & Determinative separate from Noun. \\
+-Internal differences & Internal AdvP permission for externally determined gradable quantifiers and cardinals narrows Noun generalizations. Compound restrictor order and non-recursion retained. & Same modifier permissions and compound conditions, stated for primary D. & DP and Nom separate modifier domains. Same compound restrictor order and non-recursion. \\
++Internal differences & Internal degree AdvP on \mention{few}, \mention{many}, \mention{much}, \mention{little}; approximatives after Det with independent cardinals. Compound restrictor order and non-recursion retained. & Same internal permissions, stated for primary D; same peripheral NP modification and compound conditions. & DP and Nom separate modifier domains. Same compound restrictor order and non-recursion. \\
+ Related forms and uses & Cardinal determinatives and cardinal nouns fall within Noun, as do the three lexemes spelled \mention{one}. Internal distinctions retained. & Determinative cardinals and determinative \mention{one} remain primarily separate from nominal counterparts. & Same primary-category divisions as separate D with ordinary Head. \\
+ Restrictions required & Article-use permissions and \mention{no}/\mention{none} selection retained. Degree uses extend the already qualified restriction on NP modifiers in attributive AdjPs. & Same retained permissions and form selection. Same degree-related extension when NP projection includes these uses. & Same article permissions and form selection. DP--NP distinction retains the degree contrast, including exceptional NP constructions. \\
+ \bottomrule
+@@ -650,7 +653,7 @@
+ 
+ The articles' restrictions, \mention{no}/\mention{none} form selection, and the compound restrictor conditions are already required in the separate-D grammar. Retaining them isn't an added cost of D-noun. Likewise, differences among existing noun subcategories in determination and modification remain in place (Table~\ref{tab:existing}).
+ 
+-Both ordinary-Head accounts use peripheral attachment without external determination and internal AdvP attachment with externally determined gradable quantifiers and cardinals (§\ref{sec:payne}). D-noun states that internal permission within Noun. Generalizing NP degree modification carries a further cost for both accounts, extending the already qualified restriction with its \mention{a lot} exception (§\ref{sec:enough}).
++The ordinary-Head accounts share peripheral NP rules for approximative and focusing modifiers. Their internal permissions cover the degree series on the four gradable quantifiers and approximatives on externally determined independent cardinals (§\ref{sec:payne}). D-noun states these permissions within Noun. The localized degree series accompanies grade and comparative complementation; the broader adverbial pattern fits NP structure. Generalizing NP degree modification outside nominal constructions carries a further cost for both accounts, extending the already qualified attributive-AdjP restriction with its \mention{a lot} exception (§\ref{sec:enough}).
+ 
+ On shared structure, the ordinary-Head accounts tie. D-noun reduces the number of primary categories by one, retaining determinative as a subcategory. The preference for that grouping depends on the semantic, syntactic, and morphological comparison, especially the common-noun connections in §\ref{sec:quant-nouns}.
+ 

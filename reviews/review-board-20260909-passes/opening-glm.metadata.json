@@ -1,0 +1,14 @@
+{
+  "slug": "opening-glm",
+  "provider": "openrouter",
+  "requested_model": "z-ai/glm-5.3-flash",
+  "observed_models": [
+    "z-ai/glm-5.3-flash"
+  ],
+  "prompt": "prompt-opening.md",
+  "prompt_sha256": "37e6d869023413bce28063db88846dc5c7322db746b5d64f315953204e33aadd",
+  "output": "opening-glm.json",
+  "output_sha256": "dc3c54c8629c0ceb577d5cf447ec8dd2d37c835fe567b418e378e014c7389ed9",
+  "elapsed_seconds": 18.2,
+  "effective_tools": []
+}

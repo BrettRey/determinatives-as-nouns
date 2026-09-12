@@ -1,0 +1,22 @@
+File: /tmp/dnoun-complete-count-before.tex
+Encoding: utf8
+Words in text: 6714
+Words in headers: 116
+Words outside text (captions, etc.): 811
+Number of headers: 26
+Number of floats/tables/figures: 11
+Number of math inlines: 6
+Number of math displayed: 4
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  111+1+0 (1/0/0/0) _top_
+  513+2+135 (1/1/0/0) Section: The question}\label{sec:intro
+  678+13+45 (3/1/0/0) Section: Classification, headedness and function}\label{sec:alternatives
+  1503+27+176 (5/3/0/0) Section: The D-noun analysis}\label{sec:proposal
+  1727+36+337 (8/4/0/0) Section: Evidence for nominal structure}\label{sec:evidence
+  360+4+46 (1/0/0/0) Section: Coordinate subcategories and inheritance}\label{sec:inheritance
+  279+6+32 (1/0/0/0) Section: The articles and other restricted members}\label{sec:articles
+  1351+22+40 (4/2/6/4) Section: Structural consequences and grammatical economy}\label{sec:economy
+  101+1+0 (1/0/0/0) Section: Conclusion}\label{sec:conclusion
+  91+4+0 (1/0/0/0) Section: Data and analysis materials
+

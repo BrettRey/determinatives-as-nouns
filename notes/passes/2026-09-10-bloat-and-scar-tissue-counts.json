@@ -1,0 +1,35 @@
+{
+  "method": "Same Pandoc plain-text conversion of body, including tables, captions, abstract and notes; excluding unchanged tree and display-formula content and bibliography. Word tokens include numbers; counts are comparative, not venue word counts.",
+  "counts": {
+    "before": {
+      "Abstract and keywords": 111,
+      "The question": 696,
+      "Classification, headedness and function": 1077,
+      "The D-noun analysis": 2259,
+      "Evidence for nominal structure": 2335,
+      "Coordinate subcategories and inheritance": 528,
+      "The articles and other restricted members": 414,
+      "Structural consequences and grammatical economy": 1638,
+      "Conclusion": 190,
+      "Data and analysis materials": 90
+    },
+    "after": {
+      "Abstract and keywords": 111,
+      "The question": 555,
+      "Classification, headedness and function": 862,
+      "The D-noun analysis": 1672,
+      "Evidence for nominal structure": 1982,
+      "Coordinate subcategories and inheritance": 399,
+      "The articles and other restricted members": 299,
+      "Structural consequences and grammatical economy": 1353,
+      "Conclusion": 101,
+      "Data and analysis materials": 90
+    }
+  },
+  "totals": {
+    "before": 9338,
+    "after": 7424
+  },
+  "words_cut": 1914,
+  "reduction_percent": 20.5
+}

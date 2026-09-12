@@ -1,17 +1,30 @@
 # Makefile for LaTeX paper compilation
-# Naturalizing Typological Kinds: Comparanda, Mechanisms, and Measurement
+# English determinatives as nouns
 
 # Configuration
 LATEX = xelatex
 BIBER = biber
-MAIN = main
+MAIN = determinatives-as-nouns
+SUPPLEMENTS = matrix-audit corpus-documentation
 OUTDIR = .
 
 # Targets
-.PHONY: all clean distclean view help test
+.PHONY: all supplements clean distclean view help test
 
 # Default target: build the PDF
 all: $(MAIN).pdf
+
+# Standalone empirical supplements
+supplements: $(SUPPLEMENTS:%=%.pdf)
+
+$(SUPPLEMENTS:%=%.pdf): %.pdf: %.tex references.bib references-local.bib .house-style/preamble.tex
+	$(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=$(OUTDIR) $<
+	$(BIBER) $*
+	$(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=$(OUTDIR) $<
+	$(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=$(OUTDIR) $<
+
+matrix-audit.pdf: analysis/generated/matrix-table.tex
+corpus-documentation.pdf: analysis/generated/corpus-table.tex
 
 # Full build sequence with bibliography
 $(MAIN).pdf: $(MAIN).tex references.bib
@@ -62,6 +75,7 @@ test:
 help:
 	@echo "Available targets:"
 	@echo "  make          - Build PDF with full bibliography (default)"
+	@echo "  make supplements - Build the matrix audit and corpus documentation"
 	@echo "  make quick    - Quick build (single pass, no bib update)"
 	@echo "  make lualatex - Build using LuaLaTeX (not recommended)"
 	@echo "  make clean    - Remove build artifacts (keep PDF)"

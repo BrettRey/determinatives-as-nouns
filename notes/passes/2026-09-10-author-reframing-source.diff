@@ -1,0 +1,263 @@
+--- before-author-reframing
++++ determinatives-as-nouns.tex
+@@ -26,7 +26,7 @@
+ \maketitle
+ 
+ \begin{abstract}
+-I argue that English determinatives belong within Noun, provisionally as a fourth coordinate subcategory alongside common nouns, proper nouns and pronouns. The argument extends the grounds on which \textit{The Cambridge grammar of the English language} already includes pronouns despite their distinctive inflection and restricted dependents. Independent uses, number, genitives, partitives and modification support a shared nominal profile. A matched grammatical fragment separates this membership argument from the further proposal of ordinary headedness. The taxonomic choice concerns inheritance through Noun versus projection across separate noun and determinative categories, with lexical and constructional restrictions preserved, including those of articles.
++I argue that English determinatives belong within Noun, provisionally as a fourth coordinate subcategory alongside common nouns, proper nouns and pronouns. The argument extends the grounds on which \textit{The Cambridge grammar of the English language} already includes pronouns despite their distinctive inflection and restricted dependents. Independent uses, number, genitives, partitives and modification support a shared nominal profile. As nouns, determinatives inherit the nominal structure for heading NPs, with lexical and constructional restrictions preserved, including those of articles. A matched grammatical fragment compares this analysis with separate-D grammars using ordinary heads or fusion. The taxonomic choice concerns inheritance through Noun versus projection licensed across separate noun and determinative categories.
+ \end{abstract}
+ 
+ \noindent\textbf{Keywords:} determinatives, nouns, lexical categories, noun phrases, English
+@@ -35,15 +35,15 @@
+ 
+ What is the categorial relationship among words such as \mention{some}, \mention{me}, \mention{apple} and \mention{Brett}? I argue that all four are nouns. I call this the \term{determinative-noun} or \term{D-noun analysis}.
+ 
+-I adopt the general framework of \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}). Unlike \textit{CGEL}, I include determinatives within Noun. The claims concern synchronic English lexical categories.
+-
+-I use \term{determinative} for the category containing articles, demonstratives and quantifiers such as \mention{the}, \mention{this}, \mention{some}, \mention{every} and \mention{many}.\footnote{For a fuller inventory, see the online \href{https://www.cambridge.org/highereducation/api/resources/2AC8DF5CA558F8A6FCDFACD0EAF8EA08}{\enquote{List of determinatives in English}} accompanying \textcite{Huddleston2021}.} I reserve \term{determiner} for a syntactic function within the noun phrase. This distinction separates what kind of word \mention{some} is from what its phrase does. Capitalized Noun names the proposed superordinate category containing common nouns, proper nouns, pronouns and determinative nouns.
+-
+-\textit{CGEL} already places common nouns, proper nouns and pronouns within Noun. It expressly justifies pronoun membership by the functions of pronoun-headed phrases, despite differences in inflection and dependents \citep[327--328]{huddleston2002}. The question is whether determinatives meet comparable grounds for inclusion. Differences from common nouns alone can't settle that question: the accepted noun subcategories already differ from one another. The inclusion of auxiliaries within Verb supplies a precedent for this kind of extension: a closed category can retain its distinctive syntax within a broader lexical category \citep{pullumwilson1977}.\footnote{The inflectional parallel is limited. Non-modal auxiliaries share verbal tense and agreement contrasts, as in \mention{have/has/had}; nominal number inflection within determinative is concentrated in the demonstratives (§\ref{sec:modification}). The precedent supports the taxonomic move, while the nominal evidence must justify this application.}
+-
+-Inclusion within Noun is the principal thesis. The placement of determinative alongside pronoun and the analysis of independent determinatives as ordinary heads are further proposals, assessed separately in §§\ref{sec:inheritance} and \ref{sec:fragment}.
+-
+-Figure~\ref{fig:some} compares \textit{CGEL} with the ordinary-Head variant of the D-noun analysis for \mention{take some apples} and \mention{take some}. Both keep \mention{some} in one lexical category across uses. In \textit{CGEL}, independent \mention{some} jointly fills determiner and head functions, a \term{fusion of functions} \citep[410--412]{huddleston2002}. In the ordinary-Head variant, \mention{some} always heads its own NP through a \term{nominal} (Nom): the phrase level below NP, containing the head and internal dependents but excluding an external determiner.
++I adopt the general framework of \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealt{huddleston2002}). Unlike \textit{CGEL}, though, I include determinatives within Noun. The claims concern synchronic English lexical categories.
++
++I use \term{determinative} for the category containing articles, demonstratives and quantifiers such as \mention{the}, \mention{this}, \mention{some}, \mention{every} and \mention{many}.\footnote{For a fuller inventory, see the online \href{https://www.cambridge.org/highereducation/api/resources/2AC8DF5CA558F8A6FCDFACD0EAF8EA08}{\enquote{List of determinatives in English}} accompanying \textcite{Huddleston2021}.} I reserve \term{determiner} for a syntactic function within the noun phrase. This distinction separates what kind of word \mention{some} is from what syntactic relationships its phrase participates in. Capitalized Noun names the proposed superordinate category containing common nouns, proper nouns, pronouns and determinative nouns.
++
++\textit{CGEL} already places common nouns, proper nouns and pronouns within Noun. It expressly justifies pronoun membership by the functions of pronoun-headed phrases, despite differences in inflection and dependents \citep[327--328]{huddleston2002}. The question here is whether determinatives meet comparable grounds for inclusion. Differences from common nouns alone can't settle that question: the accepted noun subcategories already differ from one another. The inclusion of auxiliaries within Verb supplies a precedent for this kind of extension: a closed category can retain its distinctive syntax within a broader lexical category \citep{pullumwilson1977}.
++
++In the D-noun analysis, determinatives inherit the nominal projection rules of Noun. A determinative heads a \term{nominal} (Nom), which heads an NP. Nom contains the head and its internal dependents, excluding an external determiner. Lexical restrictions govern which uses are available. The placement of determinative alongside pronoun is a further proposal, assessed in §\ref{sec:inheritance}.
++
++Figure~\ref{fig:some} compares \textit{CGEL} with the D-noun analysis for \mention{take some apples} and \mention{take some}. Both keep \mention{some} in one lexical category across uses. In \textit{CGEL}, independent \mention{some} jointly fills determiner and head functions, a \term{fusion of functions} \citep[410--412]{huddleston2002}. In the D-noun analysis, \mention{some} heads its own NP through a Nom in both uses.
+ 
+ Here DP abbreviates \term{determinative phrase}, as in \textit{CGEL}. It differs from the DP of the DP hypothesis, where D heads the whole expression \mention{some apples} \citep{abney1987}. The D-noun analysis keeps \mention{apples} as that expression's ultimate head.
+ 
+@@ -74,7 +74,7 @@
+ \end{minipage}
+ 
+ \medskip
+-\textit{Ordinary-Head variant of the D-noun analysis}\par\smallskip
++\textit{D-noun analysis}\par\smallskip
+ \begin{minipage}{.60\linewidth}\centering
+ \begin{forest} nominal tree
+ [VP
+@@ -96,10 +96,10 @@
+    [{\synnode{Head}{N\textsubscript{D}}}, head edge [\mention{some}]]]]]
+ \end{forest}
+ \end{minipage}
+-\caption{\mention{Take some apples} (left) and \mention{take some} (right) under \textit{CGEL} (top) and the ordinary-Head variant of the D-noun analysis (bottom). In the upper-right tree, DP fills Det of NP and Head of Nom. In the lower pair, \mention{some} heads an NP through the same nominal projection; that NP functions as Det on the left and Obj on the right. Function labels appear above category labels. Det marks determiner, Obj object, and Det--Head fusion; the two links show the combined functions. N, D and V mark noun, determinative and verb; NP, DP and VP mark their phrases. Subscripts identify noun subcategories.}\label{fig:some}
++\caption{\mention{Take some apples} (left) and \mention{take some} (right) under \textit{CGEL} (top) and the D-noun analysis (bottom). In the upper-right tree, DP fills Det of NP and Head of Nom. In the lower pair, \mention{some} heads an NP through the same nominal projection; that NP functions as Det on the left and Obj on the right. Function labels appear above category labels. Det marks determiner, Obj object, and Det--Head fusion; the two links show the combined functions. N, D and V mark noun, determinative and verb; NP, DP and VP mark their phrases. Subscripts identify noun subcategories.}\label{fig:some}
+ \end{figure}
+ 
+-Earlier unifications include Palmer's grouping of determinatives with pronouns, Postal's underlying article analysis of pronouns, and Sommerstein's underlying NP analysis of articles and pronouns \citep{palmer1924,postal1966,sommerstein1972}. Hudson places the words he calls determiners within pronoun and pronoun within noun \citep{hudson2004determiners,hudson2010wordgrammar}. Section~\ref{sec:related} compares these proposals; Table~\ref{tab:rivals} locates the taxonomic alternatives.
++Earlier unifications include Palmer's grouping of determinatives with pronouns against the traditional adjectival classification, Postal's underlying article analysis of pronouns, and Sommerstein's underlying NP analysis of articles and pronouns \citep{palmer1924,postal1966,sommerstein1972}. Hudson places the words he calls determiners within pronoun and pronoun within noun \citep{hudson2004determiners,hudson2010wordgrammar}. Section~\ref{sec:related} compares these proposals; Table~\ref{tab:rivals} locates the taxonomic alternatives.
+ 
+ I first distinguish the competing analyses, then establish what the existing noun subcategories share and how determinatives compare. Independent uses, partitives and modification identify the constructions to be explained. The matched fragment in §\ref{sec:fragment} holds the judgments and lexical restrictions fixed while varying taxonomy and headedness.
+ 
+@@ -109,9 +109,9 @@
+ 
+ Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \mention{\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \mention{the \underline{many} people} \citep{payne2010,pullummiller2022nps}. Including determinatives within Noun preserves this distinction: the NP headed by \mention{some} functions as determiner in \mention{take some apples} and as object in \mention{take some} (Figure~\ref{fig:some}).
+ 
+-Two questions about headedness also need separating. \textcite{bruening2020nominal} supplies a generative defence of N-headed rather than D-headed nominals, drawing on selection and conventionalized expressions. Such arguments concern the head of expressions such as \mention{some apples}; they don't by themselves assign determinatives to Noun. Whether independent \mention{some} has ordinary Head or a fused function is a further question. Including determinatives within Noun leaves both available (§\ref{sec:fragment}).
+-
+-Category membership doesn't remove lexical restrictions either. \mention{Every apple} is grammatical, but \ungram{\mention{I'll take every}} isn't an ordinary way to accept apples. Making \mention{every} a noun doesn't give it the full range of uses available to \mention{some}. Section~\ref{sec:fragment} states structural rules and lexical restrictions separately so their contributions can be assessed.
++The question of lexical classification is distinct from the headedness question associated with the DP hypothesis of \textcite{abney1987}. Under that hypothesis, D heads expressions such as \mention{some apples}. I retain noun-headed NPs and reject the DP analysis for English, following the arguments of \textcite{pullummiller2022nps} and \textcite{bruening2020nominal}.
++
++Category membership doesn't remove lexical restrictions. \mention{Every apple} is grammatical, but \ungram{\mention{I'll take every}} isn't an ordinary way to accept apples. Making \mention{every} a noun doesn't give it the full range of uses available to \mention{some}. Section~\ref{sec:fragment} states structural rules and lexical restrictions separately so their contributions can be assessed.
+ 
+ \subsection{Taxonomic and structural alternatives}\label{sec:related}
+ 
+@@ -180,7 +180,7 @@
+ 
+ Meaning and reference also vary within Noun. \mention{Apple} conveys a descriptive classification; \mention{Kim}, in its primary naming use, identifies through a name; \mention{she} supplies limited descriptive content and depends on context. The quantificational or deictic contribution of a determinative therefore needs to be assessed alongside its grammar, rather than measured against common-noun semantics alone.
+ 
+-The distributional comparison follows \textit{CGEL}'s pronoun argument: a range of determinatives occurs in subject, object and complement-of-preposition positions without another overt nominal head. The pattern recurs across lexemes and appropriate contexts, establishing systematic nominal use without deciding between fusion and ordinary headedness. The examples in §\ref{sec:independent} compare all four proposed subcategories in the same positions.
++The distributional comparison follows \textit{CGEL}'s pronoun argument: a range of determinatives occurs in subject, object and complement-of-preposition positions without another overt nominal head. The pattern recurs across lexemes and appropriate contexts, establishing systematic nominal use. The examples in §\ref{sec:independent} compare all four proposed subcategories in the same positions.
+ 
+ External distribution alone is insufficient: adjectival constructions such as \mention{the rich} also fill those positions. The further comparison concerns the breadth of independent use, number, determination, partitives and internal modification. Together these properties support a nominal subcategory profile. Restrictions on particular lexemes or readings remain part of the description, just as they do within the existing Noun category; §\ref{sec:predication} examines the predicative restrictions.
+ 
+@@ -188,11 +188,11 @@
+ 
+ The distinction at issue is thus one of taxonomic level. A closed inventory, reduced descriptive content or unusual modifier selection can establish a distinctive subcategory without establishing exclusion from Noun. The decisive comparison is whether the shared nominal behaviour and local differences are better captured by extending existing nominal structure or by preserving a separate primary D. Section~\ref{sec:fragment} holds the lexical restrictions fixed to make that comparison explicit.
+ 
+-The D-noun analysis captures shared properties through \term{inheritance}: a property stated for a superordinate category is available to its subcategories, subject to stated restrictions. It extends the division of labour already used within Noun: general rules supply nominal projection, subcategory rules constrain combinatorics, and lexical entries distinguish such forms as independent \mention{some} and dependent-only \mention{every}.
++The D-noun analysis captures shared properties through \term{inheritance}: a property stated for a superordinate category is available to its subcategories, subject to stated restrictions. Determinatives therefore inherit nominal projection from Noun. Subcategory rules constrain combinatorics, and lexical entries distinguish such forms as independent \mention{some} and dependent-only \mention{every}.
+ 
+ \subsection{Noun phrases in determiner and argument functions}\label{sec:bridge}
+ 
+-Determiner function already cuts across the existing noun subcategories. Compare \mention{my book}, \mention{Kim's book} and \mention{the king's book}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function. Their determining role supplies the relevant comparison; accepting the further subject analysis would leave the nounhood argument intact.} In the last example, \mention{the} determines \mention{king} inside the genitive NP, while that whole NP determines \mention{book}. Figure~\ref{fig:genitive} illustrates the proper-noun case: \mention{Kim's} fills Det, while \mention{book} ultimately heads the larger NP.
++Determiner function already cuts across the existing noun subcategories. Compare \mention{my book}, \mention{Kim's book} and \mention{the king's book}. The determiner is an NP ultimately headed by a pronoun, a proper noun and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.} In the last example, \mention{the} determines \mention{king} inside the genitive NP, while that whole NP determines \mention{book}. Figure~\ref{fig:genitive} illustrates the proper-noun case: \mention{Kim's} fills Det, while \mention{book} ultimately heads the larger NP.
+ 
+ \begin{figure}[H]
+ \centering
+@@ -207,9 +207,9 @@
+ \caption{The genitive NP \mention{Kim's} functions as determiner within \mention{Kim's book}, ultimately headed by \mention{book}. The representation abstracts from the internal realization of genitive marking.}\label{fig:genitive}
+ \end{figure}
+ 
+-The compound determinative joins this pattern in \mention{someone's book}: its genitive NP fills the same determiner function. This completes a four-way comparison within the genitive construction, rather than merely placing \mention{some apples} beside \mention{Kim's book}. The nominal base in \mention{someone} may contribute to that permission; it doesn't establish genitive marking throughout determinative. It does supply a positive connection between a determinative compound and the existing noun subcategories.
+-
+-The ordinary-Head variant gives the two D-noun structures in Figure~\ref{fig:some}. In \mention{take some apples}, the NP headed by \mention{some} fills Det, as \mention{Kim's} does in \mention{Kim's book}; \mention{apples} heads the larger NP. In \mention{take some}, \mention{some} heads the whole object NP. The lexeme retains its subcategory and nominal projection across these uses, while the NP it heads changes function.
++The compound determinative joins this pattern in \mention{someone's book}: its genitive NP fills the same determiner function. The nominal base in \mention{someone} may contribute to that permission; it doesn't establish genitive marking throughout determinative.
++
++The inherited projection gives the two D-noun structures in Figure~\ref{fig:some}. In \mention{take some apples}, the NP headed by \mention{some} fills Det, as \mention{Kim's} does in \mention{Kim's book}; \mention{apples} heads the larger NP. In \mention{take some}, \mention{some} heads the whole object NP. The lexeme retains its subcategory and nominal projection across these uses, while the NP it heads changes function.
+ 
+ Shared projection doesn't imply unrestricted interchangeability. The determiner construction selects a determinative-headed phrase, a suitable genitive NP, or another licensed expression. Number, countability and other selectional conditions further distinguish the determining expressions. Section~\ref{sec:fragment} includes these restrictions in the comparison of grammars.
+ 
+@@ -278,7 +278,7 @@
+ 
+ Fusion supplies the competing analysis. In \textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions. In \textit{CGEL}'s analysis of independent \mention{some}, the DP headed by \mention{some} fills Det of NP and Head of Nom. The word retains the determinative category it has in \mention{some apples}, while the independent expression is an NP. Ordinary headedness replaces this relation with nominal projection; lexical restrictions on independence and form selection remain.
+ 
+-Nounhood remains compatible with fusion. \textit{CGEL} analyses \mention{mine} as fused Det--Head when it stands for a possessed entity in an anaphoric context, but as pure Head in the predicative possessive use \mention{it's mine} \citep[410--411]{huddleston2002}. That comparison blocks an objection from fusion to nounhood. The positive case for ordinary headedness instead extends the structure available to \mention{she} and \mention{Kim}.
++\textit{CGEL} also uses fusion in noun-headed structures. It analyses \mention{mine} as fused Det--Head when it stands for a possessed entity in an anaphoric context, but as pure Head in the predicative possessive use \mention{it's mine} \citep[410--411]{huddleston2002}.
+ 
+ Saturation therefore clarifies the distributional comparison without independently selecting either internal structure.
+ 
+@@ -288,7 +288,7 @@
+ 
+ Compare where the common noun occurs in \mention{some apples} and \mention{some of the wine}. In the partitive, \mention{wine} is embedded inside the \mention{of}-phrase, so it can't be the lexical head of the whole NP. The comparison instead concerns the head-like role of \mention{some} in that larger expression.
+ 
+-Figure~\ref{fig:partitive} gives the ordinary-Head D-noun analysis, with the \mention{of}-phrase functioning as complement within Nom, as in \textit{CGEL}'s partitive tree \citep[411--412]{huddleston2002}. \textit{CGEL} represents the head-like role of \mention{some} through Det--Head fusion. Partitives support that role while leaving the choice between fusion and ordinary headedness open.
++Figure~\ref{fig:partitive} gives the D-noun analysis, with the \mention{of}-phrase functioning as complement within Nom, as in \textit{CGEL}'s partitive tree \citep[411--412]{huddleston2002}. \textit{CGEL} represents the head-like role of \mention{some} through Det--Head fusion. Partitives support that role while leaving the choice between fusion and ordinary headedness open.
+ 
+ \begin{figure}[H]
+ \centering
+@@ -300,18 +300,18 @@
+    [{\synnode{Head}{P}}, head edge [\mention{of}]]
+    [{\synnode{Comp}{NP}} [\mention{the wine}, roof]]]]]
+ \end{forest}
+-\caption{\mention{Some of the wine} under the ordinary-Head D-noun analysis. The Head relations lead from the outer NP to \mention{some}. The common noun \mention{wine} is inside the complement PP and doesn't head the whole expression. The inner NP is abbreviated.}\label{fig:partitive}
++\caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the outer NP to \mention{some}. The common noun \mention{wine} is inside the complement PP and doesn't head the whole expression. The inner NP is abbreviated.}\label{fig:partitive}
+ \end{figure}
+ 
+ The overt quantifier and domain already supply a compositional interpretation of \mention{some of the wine}. A silent common noun would need to explain something further, such as a restriction on interpretation or modification that the overt-head account misses. The construction itself supplies no such requirement. I therefore prefer an overt-head analysis over an otherwise equivalent null-head analysis; fusion remains compatible with that preference.
+ 
+-The ordinary-Head analysis treats \mention{some} and \mention{some of the wine} as sharing nominal projection, with an added domain phrase in the partitive. Modification provides a further comparison of internal structure.
++The D-noun analysis treats \mention{some} and \mention{some of the wine} as sharing nominal projection, with an added domain phrase in the partitive. Modification provides a further comparison of internal structure.
+ 
+ \subsection{Modification tests the internal analysis}\label{sec:modification}
+ 
+ The pair \mention{the lucky survivors}/\mention{the lucky few} supplies a comparison involving both external determination and adjectival modification. \textit{CGEL} explicitly permits determinatives used as internal modifiers to fuse with Head, as in \mention{the other two} and \mention{these few here} \citep[415--416]{huddleston2002}. Its analysis of \mention{the few mistakes} assigns \mention{the} to Det and \mention{few} to Mod \citep[392]{huddleston2002}. That dependent use supplies the counterpart for a Mod--Head analysis of independent \mention{few} after an external determiner.
+ 
+-Figure~\ref{fig:few} compares the resulting analyses of \mention{the lucky few}. Both have an overt Det and a Nom modified by \mention{lucky}. In the ordinary-Head D-noun analysis, \mention{few} fills Head. In the fusion analysis, its DP fills Mod--Head. The competing structure thus uses machinery already needed for adjectival fusion; it requires neither a silent noun nor conversion.
++Figure~\ref{fig:few} compares the resulting analyses of \mention{the lucky few}. Both have an overt Det and a Nom modified by \mention{lucky}. In the D-noun analysis, \mention{few} fills Head. In the fusion analysis, its DP fills Mod--Head. The competing structure thus uses machinery already needed for adjectival fusion; it requires neither a silent noun nor conversion.
+ 
+ \begin{figure}[H]
+ \centering
+@@ -368,7 +368,7 @@
+ 
+ Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary. \textit{CGEL}'s \mention{Henrietta likes red shirts, and I like blue} permits colour-noun ambiguity as well as possible reduction licensed by coordination; the attested \mention{Bluer is better} establishes a bare comparative subject without settling its phrase category.\footnote{The \mention{blue}, \mention{old} and \mention{small} examples on \textit{CGEL} p.~417 all occur in coordinated contrasts. \mention{Bluer is better} accompanies a results colour scale in Stanford CS329X, \href{https://web.stanford.edu/class/cs329x/slides/Lecture12_B_Codeswitching\%20LLMs.pdf}{\enquote{Codeswitching LLMs}}, slide~8 (accessed 10 September 2026). I interpret it as evaluating a degree of blueness. Subject function alone doesn't establish NP status \citep[236]{huddleston2002}.} These cases leave the wider comparison of argument distribution and head properties necessary.
+ 
+-The positive comparison therefore combines independent argument use with nominal number properties, partitives and modification. Adjectival constructions provide overlapping external functions while preserving distinct properties of their heads. This favours retaining adjectival fusion alongside ordinary determinative headedness, without requiring a blanket prohibition on bare adjectival subjects.
++The positive comparison therefore combines independent argument use with nominal number properties, partitives and modification. Adjectival constructions provide overlapping external functions while preserving distinct properties of their heads. This favours retaining adjectival fusion alongside ordinary determinative headedness.
+ 
+ \subsection{Compounds and modifier domains}\label{sec:compounds}
+ 
+@@ -399,7 +399,7 @@
+ \caption{\mention{Hardly anyone present} with ordinary Head (left) and fusion (right). Both post-head Mod positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom, following \textcite[p.~582, (13d)]{Payne2007}. Modifier-phrase interiors are suppressed.}\label{fig:compound}
+ \end{figure}
+ 
+-In the ordinary-Head D-noun analysis, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. The compound construction supplies the post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective. The compound's ordinary argument use and exclusion of external determination are further lexical conditions; the premodifier and restrictor slots aren't unrestricted Nom dependents.
++In the D-noun analysis, \mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. The compound construction supplies the post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective. The compound's ordinary argument use and exclusion of external determination are further lexical conditions; the premodifier and restrictor slots aren't unrestricted Nom dependents.
+ 
+ The relative clauses illustrated above are ordinary postmodifiers, distinct from the specialized restrictor. When both occur, the relative follows it: \mention{something useful that I found}. \textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition \citep[423]{huddleston2002}.
+ 
+@@ -419,9 +419,9 @@
+ 
+ Independent uses, number, genitives, partitives and modification establish a systematic nominal profile. The properties are distributed across determinative families, just as the existing noun subcategories differ in inflection and dependents. This is the positive basis for extending \textit{CGEL}'s membership rationale beyond pronouns.
+ 
+-I favour ordinary headedness because it gives bare, partitive and externally determined uses the Head relation already available to nouns. Fusion instead relates them to dependent counterparts and distinguishes Det--Head from Mod--Head. That machinery is already needed for adjectives and genitives, and the compound comparison shows a benefit of retaining its structural domains.
+-
+-The next two sections consider the hierarchy within Noun and the membership of its restricted forms. Section~\ref{sec:fragment} then compares the grammatical organization under each taxonomy and headedness choice.
++Under the D-noun analysis, bare, partitive and externally determined uses inherit the ordinary Head relation of nominal projection. \textit{CGEL} instead relates independent determinatives to dependent counterparts and distinguishes Det--Head from Mod--Head. Its compound analysis also uses the DP--Nom boundary to separate modifier domains. The D-noun analysis states those restrictions within nominal structure (§\ref{sec:compounds}).
++
++The next two sections consider the hierarchy within Noun and the membership of its restricted forms. Section~\ref{sec:fragment} then compares the grammatical organization under the three accounts.
+ 
+ \section{Coordinate subcategories and inheritance}\label{sec:inheritance}
+ 
+@@ -471,11 +471,11 @@
+ \end{aligned}
+ \]
+ 
+-This shares a phrase type without shortening the selectional disjunction: determinative-headed, genitive and other licensed NPs still require separate identification. \textit{CGEL} already states definiteness and the single-Det restriction functionally, so reclassification doesn't derive them. The substantive comparison concerns whether determining phrases reuse nominal projection once their different restrictions are held fixed. Fewer phrase labels alone don't establish grammatical economy; §\ref{sec:fragment} displays the rules that must be compared. Genitive fusion remains available.
++This shares a phrase type without shortening the selectional disjunction: determinative-headed, genitive and other licensed NPs still require separate identification. \textit{CGEL} already states definiteness and the single-Det restriction functionally, so reclassification doesn't derive them. The substantive comparison concerns whether determining phrases reuse nominal projection once their different restrictions are held fixed. Fewer phrase labels alone don't establish grammatical economy; §\ref{sec:fragment} displays the rules that must be compared.
+ 
+ \subsection{A matched descriptive fragment}\label{sec:fragment}
+ 
+-A grammatical \term{fragment} is a set of rules for a specified range of constructions. Here it covers determination, ordinary subject and object uses, partitives, and the modifier and compound comparisons in §\ref{sec:evidence}. Four accounts cross separate versus nominal D with fusion versus ordinary Head. All receive the same lexical restrictions and constructed judgments. The predicative constructions in §\ref{sec:predication} fall outside the fragment.
++A grammatical \term{fragment} is a set of rules for a specified range of constructions. Here it covers determination, ordinary subject and object uses, partitives, and the modifier and compound comparisons in §\ref{sec:evidence}. It compares the D-noun analysis with two separate-D alternatives: ordinary headedness and fusion. All receive the same lexical restrictions and constructed judgments. The predicative constructions in §\ref{sec:predication} fall outside the fragment.
+ 
+ Table~\ref{tab:permissions} records \term{use permissions}: whether a form, on a given reading, can head a phrase in determiner, subject or object function. \term{Argument use} covers the subject and object NPs in examples such as \mention{Some left} and \mention{I saw some}. Quotation, metalinguistic naming and subordinate-clause uses of dependent genitives fall outside the fragment. Noun membership doesn't itself grant a use permission.
+ 
+@@ -498,24 +498,23 @@
+ 
+ Further constructional restrictions apply: \mention{she} is a subject form, whereas the corresponding ordinary object form is \mention{her}. The target restrictions concern the common-noun nominal being determined: \mention{a} requires a singular count target such as \mention{book} in \mention{a book}.
+ 
+-Table~\ref{tab:economy} locates the four accounts. The ordinary-Head accounts differ in the categories admitted to nominal projection; the fusion accounts differ in the category of the phrase realizing the fused functions.
++Table~\ref{tab:economy} locates the three accounts. Comparing the ordinary-Head accounts holds projection fixed while varying taxonomy. Comparing the separate-D accounts holds taxonomy fixed while varying headedness.
+ 
+ \begin{table}[H]
+ \centering\small
+-\caption{Taxonomy and headedness varied separately. All four accounts retain the permissions in Table~\ref{tab:permissions}, the modifier restrictions and the compound conditions.}\label{tab:economy}
++\caption{Three accounts retaining the permissions in Table~\ref{tab:permissions}, the modifier restrictions and the compound conditions.}\label{tab:economy}
+ \begin{tabular}{>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.7cm}}
+ \toprule
+ Account & Primary taxonomy & Simple independent determinative \\
+ \midrule
+-Nominal D, ordinary Head & D inside Noun & N--Nom--NP projection with Head function \\
++D-noun analysis & D inside Noun & N--Nom--NP projection with Head function \\
+ Separate D, ordinary Head & D outside Noun & D--Nom--NP through cross-category projection \\
+-Separate D, fusion & D outside Noun & NP distribution through Det--Head \\
+-Nominal D, fusion & D inside Noun & NP distribution through Det--Head \\
++\textit{CGEL}: separate D, fusion & D outside Noun & NP distribution through Det--Head \\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+ 
+-The ordinary-Head variant of the D-noun analysis combines two projection rules with a use-permission condition. In the schemata below, $h$ identifies the lexical head throughout its projection; parentheses mark optional dependents. The subscripts on Mod distinguish pre-head and post-head positions of the same modifier function. The head's entry and construction restrict every dependent.
++The D-noun analysis applies nominal projection to determinatives through their membership in Noun. A separate condition checks use permissions. In the schemata below, $h$ identifies the lexical head throughout its projection; parentheses mark optional dependents. The subscripts on Mod distinguish pre-head and post-head positions of the same modifier function. The head's entry and construction restrict every dependent.
+ \[
+ \begin{aligned}
+ \mathrm{Nom}_{h} &\to (\mathrm{Mod}_{\mathrm{pre}})\quad \mathrm{Head}:\mathrm{N}_{h}\quad (\mathrm{Comp})\quad (\mathrm{Mod}_{\mathrm{post}}) \\
+@@ -539,7 +538,7 @@
+ \]
+ This projection applies to dependent as well as independent determinatives, eliminating DP from the fragment while retaining primary D. Determiner selection still identifies D-headed NPs and suitable genitives. In \mention{the lucky few}, \mention{few} is D in ordinary Head function. In \mention{hardly anyone present}, the determinative base and compound construction supply the same modifier restrictions as the D-noun account. Adjectival Mod--Head fusion remains available in both.
+ 
+-The fusion accounts instead relate independent determinatives to their dependent counterparts. The separate-D fusion grammar already needs nominal projection for other nouns. It adds DP projection and permits a DP to realize a fused function in nominal structure. The partitive complement and compound restrictor belong to Nom, following the trees in \textit{CGEL} and \textcite[582]{Payne2007}:
++The separate-D fusion account relates independent determinatives to their dependent counterparts. In addition to nominal projection for nouns, it uses DP projection and permits a DP to realize a fused function in nominal structure. The partitive complement and compound restrictor belong to Nom, following the trees in \textit{CGEL} and \textcite[582]{Payne2007}:
+ \[
+ \begin{aligned}
+ \mathrm{DP}_{h} &\to (\mathrm{Mod}_{\mathrm{pre}})\quad \mathrm{Head}:\mathrm{D}_{h}\quad (\mathrm{Comp}) \\
+@@ -547,11 +546,11 @@
+ F&\in\{\mathrm{Det\text{--}Head},\mathrm{Mod\text{--}Head}\}
+ \end{aligned}
+ \]
+-The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, excluding a second Det; Mod--Head fills an internal modifier's function and Head of Nom, allowing external determination. Lexical and constructional conditions select the fused function and permitted dependents. These schemata cover independent \mention{few}, \mention{few of them}, \mention{the lucky few} and \mention{hardly anyone present}. The nominal-D fusion variant replaces DP here with $\mathrm{NP}_{D}$, retaining the fused relations.
++The ordinary NP rule embeds this Nom. Det--Head jointly realizes Det of NP and Head of Nom, excluding a second Det; Mod--Head fills an internal modifier's function and Head of Nom, allowing external determination. Lexical and constructional conditions select the fused function and permitted dependents. These schemata cover independent \mention{few}, \mention{few of them}, \mention{the lucky few} and \mention{hardly anyone present}.
+ 
+ The ordinary-Head accounts thus share nominal projection and Head relations; these benefits don't uniquely favour inclusion within Noun. Dependent determinatives acquire a Nom layer in both. The taxonomic difference lies in whether the lexical head enters this structure by inheritance from Noun or by a rule admitting both N and D.
+ 
+-A grammar with Hudson's nested classification can use the same permissions and projection rules. Holding those rules fixed, an added pronoun category between Noun and determinative leaves the fragment's judgments unchanged. Agreement on these judgments leaves the broader pronoun category open; it doesn't establish equivalence between the full analyses.
++A grammar with Hudson's nested classification can use the same permissions and projection rules. Holding those rules fixed, an added pronoun category between Noun and determinative leaves the fragment's judgments unchanged. Agreement on these judgments leaves the broader pronoun category open.
+ 
+ \subsection{Existing restrictions, additional costs and consequences}\label{sec:costs}
+ 
+@@ -559,7 +558,7 @@
+ 
+ The cost of this change needs separating from restrictions already present in the grammar. Common nouns, proper nouns and pronouns already differ in determination and permitted modifiers (Table~\ref{tab:existing}). Preserving those conditions is no additional cost of including determinatives. Likewise, the separate-D grammar already restricts adverbial modification and independent use within D. Moving those restrictions inside Noun doesn't create them.
+ 
+-\textcite[p.~75, n.~3]{payne2010} analyse \mention{almost} as a modifier of the attributive noun \mention{textbook} in \mention{an almost textbook case}. The D-noun analysis extends such premodification to a systematic noun subcategory, including \mention{hardly any} and \mention{almost every}. Its cost is stating the usual modifier contrast at that subcategory boundary. In compounds, the inherited premodifier permissions must also be distinguished from the post-head restrictor construction (§\ref{sec:compounds}). These are explicit qualifications on shared projection.
++\textcite[p.~75, n.~3]{payne2010} analyse \mention{almost} as a modifier of the attributive noun \mention{textbook} in \mention{an almost textbook case}. The D-noun analysis extends such premodification to a systematic noun subcategory, including \mention{hardly any} and \mention{almost every}. Its cost is stating the usual modifier contrast at that subcategory boundary. In compounds, the inherited premodifier permissions must also be distinguished from the post-head restrictor construction (§\ref{sec:compounds}).
+ 
+ Why should systematic nominal projection warrant inclusion for pronouns but require cross-category licensing for determinatives? I favour placing the recurring external and structural profile at Noun, with modifier and use restrictions at the subcategories and constructions that distinguish them. This applies the existing membership rationale consistently.
+ 
+@@ -577,7 +576,7 @@
+ 
+ Within Noun, coordination remains provisional: the fragment's judgments don't distinguish it from Hudson's nesting. An intermediate category would be preferable if it captured further generalizations otherwise repeated.
+ 
+-Ordinary headedness remains a further proposal. It unifies bare, partitive and externally determined uses under Head; fusion instead captures correspondences with dependent uses and separates modifier domains structurally in compounds. A separate-D grammar can also share nominal projection. The comparison therefore concerns inheritance through Noun versus cross-category licensing, not coverage alone. I favour inheritance: it extends \textit{CGEL}'s rationale for pronoun membership, at the cost of reformulating the modifier contrast within Noun. Shared nominal structure belongs at the superordinate category; the differing permissions remain at subcategory and construction levels.
++Through membership in Noun, determinatives inherit the Head relations that unify their bare, partitive and externally determined uses. A separate-D grammar can also license that projection. The taxonomic choice concerns inheritance through Noun versus cross-category licensing. I favour inheritance because it extends \textit{CGEL}'s rationale for pronoun membership, with the modifier contrast stated within Noun. Shared nominal structure belongs at the superordinate category; differing permissions remain at subcategory and construction levels.
+ 
+ \section*{Data and analysis materials}
+ 

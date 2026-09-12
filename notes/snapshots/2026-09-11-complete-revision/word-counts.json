@@ -1,0 +1,14 @@
+{
+  "before": {
+    "Words in text": 6714,
+    "Words in headers": 116,
+    "Words outside text (captions, etc.)": 811,
+    "total": 7641
+  },
+  "after": {
+    "Words in text": 8194,
+    "Words in headers": 134,
+    "Words outside text (captions, etc.)": 824,
+    "total": 9152
+  }
+}
