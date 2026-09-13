@@ -96,21 +96,13 @@ The existing NP determiners provide a positive comparison. In _Kim’s preferenc
 
 Preposition phrases (PPs) remain a restricted alternative, as in _up to twenty minutes_ and _between fifty and sixty tanks_ (Huddleston and Pullum 2002, 356). Number, countability, and other selectional conditions distinguish the determining expressions.
 
-Modifier and adjunct functions also cut across the {++four noun++}{id="s1" by="user" at="2026-09-12T23:34:12.857Z"} groups. Compare the modifiers in _dog houses_, _Canada Day_, _the manager herself_, and _the few people_. Emphatic _herself_ also functions as a clause adjunct in _The manager detected the error herself_ (Huddleston and Pullum 2002, 1496–97). Temporal NPs such as _that day_ and _Sunday_ supply adjuncts, as does degree _enough_ in _I hadn’t prepared enough_ (§5.3). These are shared functions with construction-specific distributions.
+Modifier and adjunct functions also cut across the groups. Compare the modifiers in _dog houses_, _Canada Day_, _the manager herself_, and _the few people_. Emphatic _herself_ also functions as a clause adjunct in _The manager detected the error herself_ (Huddleston and Pullum 2002, 1496–97). Temporal NPs such as _that day_ and _Sunday_ supply adjuncts, as does degree _enough_ in _I hadn’t prepared enough_ (§5.3). These are shared functions with construction-specific distributions.
 
 Relative-clause postmodification supplies a further constructional comparison. Common nouns freely take integrated relatives, as in _people who came_; personal pronouns permit a restricted range, including _we who have read the report_ (Huddleston and Pullum 2002, 430). Determinative examples include _few who come ever leave_, _those who came_, _that which remains_, and _something that you need to know_.
 
 Compounds also permit _anyone who asks_ and _everything that matters_. With books under discussion, compare _some that I saw_ and _two that I have seen_. _CGEL_ describes relative postmodification with demonstratives and compounds (Huddleston and Pullum 2002, 414, 422–23).
 
-Compound determinatives also take post-head adjectives. {==CGELBank, a treebank annotated in the _CGEL_ framework (Reynolds et al. 2023), attests _I need something reliable and good looking_==}{>>why cite CGELBank for this. There's tons of stuff like this all over, and I don't think citation is needed, but these are from COCA: 1 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEED SOMETHING SWEET AND OUT 	2 	
-2 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDS SOMETHING THROWABLE AND LONG 	1 	
-3 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDS SOMETHING FRESH AND NEW 	1 	
-4 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDS SOMETHING -- AND SOMEONE 	1 	
-5 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDED SOMETHING THIN AND LIGHT 	1 	
-6 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDED SOMETHING SMART AND FAST 	1 	
-7 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDED SOMETHING SMALL AND ROUND 	1 	
-8 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDED SOMETHING QUIET AND CHEERFUL 	1 	
-9 	[See 'word page' for individual words to the right] 	[Save words and phrases and see/use them later] 	  NEEDED SOMETHING HOMEY AND SWEET-SMELLING<<}{id="c2" by="user" at="2026-09-12T23:38:44.965Z"}. The position and interpretation of these modifiers have specialized conditions (§4.5).
+Compound determinatives also take post-head adjectives. CGELBank, a treebank annotated in the _CGEL_ framework (Reynolds et al. 2023), attests _I need something reliable and good looking_. The position and interpretation of these modifiers have specialized conditions (§4.5).
 
 > Note 7. Sentence `answers-20111024111513AAAQhAO_ans-0003` in `ewt-test_iaa50.cgel`.
 ## 2.2 The connection from quantificational common nouns
@@ -138,7 +130,7 @@ _CGEL_’s restrictions give this hypothesis a starting point. The _of_-phrase w
 
 Table 2 separates NP dependents from the surrounding construction. The argument frames are _X of them_, _X who arrived left_, and anaphoric _X left_. The existential frames are _There are X of them_, _There are X who can help_, and anaphoric _Are there X?_ Interpret the constructed comparisons with people under discussion. The common-noun controls retain _a_ in _a lot_.
 
-Table 2: Independent quantificational uses. G: described in _CGEL_; R: restricted there; I: constructed positive illustration in the stated frame. Numbered references identify attestations below. A question mark marks {==an unresolved cell==}{>>why are there unresolved cells?<<}{id="c3" by="user" at="2026-09-12T23:53:02.343Z"}, not an ungrammaticality judgment.
+Table 2: Independent quantificational uses. G: described in _CGEL_; R: restricted there; I: constructed positive illustration in the stated frame. Numbered references identify attestations below. A question mark marks an unresolved cell, not an ungrammaticality judgment.
 
 | Expression | Argument: partitive | Argument: relative | Argument: no dependent | Existential: partitive | Existential: relative | Existential: no dependent |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -220,7 +212,7 @@ The controls sharpen what the broader Noun proposal has to explain. Quantity wor
 ## 2.4 The connected adjectival profile
 The strongest adjectival connection also concerns a restricted group: _few_, _many_, _much_, and _little_. They distinguish plain, comparative, and superlative forms: _few_/_fewer_/_fewest_, _many_/_more_/_most_, and corresponding paradigms for _little_ and _much_ (Huddleston and Pullum 2002, 391–95). Grade combines with degree-modifier selection and comparative complementation, as in _more than ten_. The three properties form a connected profile.
 
-Degree _very_{++, _so_, and _too_++}{id="s3" by="user" at="2026-09-12T23:56:22.337Z"} select{--s--}{id="s4" by="user" at="2026-09-12T23:56:35.155Z"} gradable heads: _very tall_ and {~~_very_~>so~~}{id="s5" by="user" at="2026-09-12T23:56:40.622Z"} _few_, but *_very you_, *{~~_very_~>so~~}{id="s6" by="user" at="2026-09-12T23:56:51.175Z"} _the book_, and *{~~_very_~>too~~}{id="s7" by="user" at="2026-09-12T23:56:53.327Z"} _my life_. It also excludes non-gradable determinatives: *_very every_, *_very some_, and *_very this_. The associated series includes _so few_, _too few_, _how few_, and _as few as_. These degree patterns select _few_, _many_, _much_, and _little_, the four determinatives that inflect for grade (Huddleston and Pullum 2002, 393–95, 431–32).
+Degree _very_ selects gradable heads: _very tall_ and _very few_, but *_very you_, *_very the book_, and *_very my life_. It also excludes non-gradable determinatives: *_very every_, *_very some_, and *_very this_. The associated series includes _so few_, _too few_, _how few_, and _as few as_. These degree patterns select _few_, _many_, _much_, and _little_, the four determinatives that inflect for grade (Huddleston and Pullum 2002, 393–95, 431–32).
 
 > Note 21. The restriction concerns this degree series. _CGEL_ also records modifiers of completeness, including _marginally enough_ and _absolutely all_, with different selectional ranges (Huddleston and Pullum 2002, 432). Those combinations don’t extend the _very_/_so_/_too_/_how_ series beyond the four degree determinatives.
 
@@ -234,7 +226,7 @@ Overlap with adjectives likewise needs phrase levels kept distinct. Both _the pe
 
 _She is a beauty_ ascribes a property, whereas _That is Kim_ identifies a person. _CGEL_ excludes specifying _be_ clauses from its noun–adjective diagnostic because phrases from other categories occur in them too (Huddleston and Pullum 2002, 536).
 
-{~~Nominal~>NP (?)~~}{id="s8" by="user" at="2026-09-13T00:11:39.026Z"} grammar also distinguishes predicative and argument uses. A bare-role NP such as _president_ is licensed in _I’d like to be president_, but requires determination in the corresponding object use _I’d like to meet the president_ (Huddleston and Pullum 2002, 328). Determinatives’ asymmetries fit this broader variation within Noun.
+Nominal grammar also distinguishes predicative and argument uses. A bare-role NP such as _president_ is licensed in _I’d like to be president_, but requires determination in the corresponding object use _I’d like to meet the president_ (Huddleston and Pullum 2002, 328). Determinatives’ asymmetries fit this broader variation within Noun.
 
 Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary. _CGEL_’s _Henrietta likes red shirts, and I like blue_ permits reduction licensed by coordination. The constructed _Blue is good_ raises a separate ambiguity between noun and adjective, while the attested _Bluer is better_ establishes a bare comparative subject without settling its phrase category. These cases leave the wider comparison of argument distribution and head properties necessary.
 
@@ -248,7 +240,7 @@ The demonstrative number contrasts remain visible in independent uses. Generic h
 
 Case gives a further partial connection. Genitives occur across the proposed subcategories: _dog’s_, _Kim’s_, _my_, and _someone’s_. Personal pronouns have fuller case paradigms. Most determinatives lack case inflection, and compounds such as _someone_ and _something_ may owe their genitives to the nominal component (Huddleston and Pullum 2002, 423–24, 479–80). This supports the compounds’ nominal affinity more directly than the category’s membership as a whole.
 
-Meaning and reference vary within Noun. _Apple_ describes a category; _Kim_, in its primary naming use, identifies through a name; _she_ depends on context. Determinatives {++are often pro-forms and++}{id="s9" by="user" at="2026-09-13T00:21:13.355Z"} range from deictic _this_ to quantitative _many_ and universal _every_ (Huddleston and Pullum 2002, 358–60, 370–405, 425–28, 515–21). Deixis connects demonstratives with pronouns, while quantity connects determinatives with common nouns such as _number_ and _majority_.
+Meaning and reference vary within Noun. _Apple_ describes a category; _Kim_, in its primary naming use, identifies through a name; _she_ depends on context. Determinatives range from deictic _this_ to quantitative _many_ and universal _every_ (Huddleston and Pullum 2002, 358–60, 370–405, 425–28, 515–21). Deixis connects demonstratives with pronouns, while quantity connects determinatives with common nouns such as _number_ and _majority_.
 
 These meanings aren’t exclusive to nouns. Adjectives such as _singular_ and _plural_ also concern number; _proximate_ and _distal_ describe spatial relations relevant to demonstrative contrasts, though spatial meaning needn’t itself be deictic. Nor does Noun imply close semantic similarity throughout: _every_ quantifies over a nominal restriction, while _Kim_ identifies an individual. Semantic affinities contribute to the comparison without settling its boundaries.
 
@@ -270,7 +262,7 @@ Table 3: Profiles compared. Determinative modifier attachments are analytical co
 | :--- | :--- | :--- | :--- | :--- |
 | Argument / Det functions | NP arguments; genitive Det | NP arguments; genitive Det | NP arguments; genitive Det | NP arguments; plain and genitive Det |
 | Accepts determination | Broad contrasts; singular count arguments normally require it | Restricted in primary naming uses | Normally excluded | Lexically restricted: _the few_, _these three_ |
-| Internal modification | Productive AdjP and nominal premodifiers{++, including DPs++}{id="s10" by="user" at="2026-09-13T00:28:53.945Z"}; relative postmodifiers | Restricted AdjP {++and nominal++}{id="s11" by="user" at="2026-09-13T00:29:42.754Z"}premodifiers{++, including DPs;++}{id="s12" by="user" at="2026-09-13T00:30:11.069Z"} {--and--}{id="s13" by="user" at="2026-09-13T00:30:18.607Z"} embellishments | Restricted AdjP {++and nominal++}{id="s14" by="user" at="2026-09-13T00:30:40.984Z"} premodifiers{++, including DPs;++}{id="s15" by="user" at="2026-09-13T00:30:46.982Z"} {--and--}{id="s16" by="user" at="2026-09-13T00:30:55.976Z"} relative postmodifiers | Degree AdvP on four quantifiers; {++DP and++}{id="s17" by="user" at="2026-09-13T00:33:05.566Z"} NP modifiers; _the lucky few_; relatives |
+| Internal modification | Productive AdjP and nominal premodifiers; relative postmodifiers | Restricted AdjP premodifiers and embellishments | Restricted AdjP premodifiers and relative postmodifiers | Degree AdvP on four quantifiers; NP modifiers; _the lucky few_; relatives |
 | Complementation | Selected PPs and clauses | Not characteristic of primary naming uses | Normally absent | Partitive _of_-PPs; comparative _than_-phrases |
 | Peripheral AdvP | _only the book_ | _even Kim_ | _only you_ | _almost every_; _hardly any_; _almost ten_ |
 | Modifier / adjunct functions | _dog houses_; _that day_ | _Canada Day_; _Sunday_ | Emphatic reflexives in both functions | _the few people_; degree adjuncts |
@@ -320,7 +312,7 @@ A nominal (Nom) contains a head and its internal dependents, excluding an extern
 
 Under D-noun, a determinative can head this Nom–NP structure too. Figure 1 compares the accounts for _take some apples_ and _take some_. The dependent expression still has _apples_ as its ultimate head. Independent _some_ has ordinary Head under D-noun; in _CGEL_, its DP jointly fills Det of NP and Head of Nom.
 
-{==CGEL==}{>>would the four trees fit all on one line instead of two?<<}{id="c4" by="user" at="2026-09-13T00:43:30.043Z"}: take some apples
+CGEL: take some apples
 
 ```text
 VP
@@ -422,7 +414,7 @@ Figure 2: The genitive NP _Kim’s_ functions as determiner within _Kim’s pref
 ## 4.2 Syntactic completeness and contextual interpretation
 With a group of people under discussion, _Some left_, _Many came_, and _All agree_ illustrate structural saturation: an argument expression can be syntactically complete without another overt head or determiner. Syntactic completeness differs from contextual interpretation. In _I’ll take some_, the relevant substance or set may be supplied by discourse or the situation. Ordinary pronouns also depend on context; both ordinary and fused Head can accommodate that interpretive dependence.
 
-In the following attestation {==from the CGELBank treebank==}{>>cite the deeper source, probably GUM<<}{id="c5" by="user" at="2026-09-13T00:48:12.408Z"}, _two different Honda models_ supplies the domain for the independent object _both_:
+In the following attestation from the CGELBank treebank, _two different Honda models_ supplies the domain for the independent object _both_:
 
 > Note 25. CGELBank (Reynolds et al. 2023), sentence `reviews-083459-0002`.
 
@@ -554,7 +546,7 @@ Figure 5: Peripheral _almost_ modifies the smaller NP headed by _every_; the res
 
 Payne et al. (2010, 40–42) defend keeping _few_, _any_, and related forms in one lexical category across dependent and independent uses. In _hardly any money_ and independent _hardly any_, _hardly_ remains an adverb and _any_ retains its category. The D-noun analysis preserves that continuity. It also preserves their contrast between adverbial premodification, as in _almost anybody_, and adjectival postmodification, as in _nothing absolute_.
 
-The proposed analysis gives {++adverbs like++}{id="s18" by="user" at="2026-09-13T01:03:05.572Z"} _very_ {++and _too_++}{id="s19" by="user" at="2026-09-13T01:03:11.313Z"} internal attachment in dependent and independent uses alike. In _the very few people_, it modifies the Nom headed by _few_; the resulting _very few_ NP functions as Mod in the larger NP. In _the very few who objected_, _few_ remains ordinary Head and _very_ remains internal. The degree relation is unchanged, and one internal permission covers both constructions. The same analysis applies to _the very many_.
+The proposed analysis gives _very_ internal attachment in dependent and independent uses alike. In _the very few people_, it modifies the Nom headed by _few_; the resulting _very few_ NP functions as Mod in the larger NP. In _the very few who objected_, _few_ remains ordinary Head and _very_ remains internal. The degree relation is unchanged, and one internal permission covers both constructions. The same analysis applies to _the very many_.
 
 NP degree modifiers provide a further connection. Determinatives permit determinative premodifiers such as _this_ in _this much_ (Huddleston and Pullum 2002, 393). Comparative determinatives also take established NP modifiers: _a lot_ in _a lot fewer_, alongside _CGEL_’s _a lot more than fifty_ (Huddleston and Pullum 2002, 432). These modify the quantity expressed by the head. Under the proposed analysis, they’re internal NP modifiers within its nominal projection, with permissions specific to the head and construction.
 
@@ -581,7 +573,19 @@ NP
 ```
 
 ```text
-NP ──────────────────┐ │ │ Head: Nom │ ├── Det–Head: DP ◄───┘ │ ├── Mod: AdvP │ │ │ │ │ hardly │ └── Head: D │ │ │ anyone {==└──==}{>>I pointed this out before. The branch should point S not SW as it currently does<<}{id="c6" by="user" at="2026-09-13T01:04:01.022Z"} Mod: AdjP │ present
+NP ──────────────────┐
+│                    │
+Head: Nom            │
+├── Det–Head: DP ◄───┘
+│   ├── Mod: AdvP
+│   │   │
+│   │   hardly
+│   └── Head: D
+│       │
+│       anyone
+└── Mod: AdjP
+    │
+    present
 ```
 
 Figure 6: _Hardly anyone present_ with ordinary Head (first tree) and fusion (second tree). In the first tree, _hardly_ is peripheral to NP and _present_ is internal to Nom. Both post-head Mod positions realize the specialized restrictor. In the fusion tree, DP fills Det of NP and Head of Nom, following Payne et al. (2007, 582, (13d)). Modifier-phrase interiors are suppressed.
@@ -643,7 +647,9 @@ The D-noun analysis applies nominal projection to determinatives through their m
 `Mods_post` denotes a possibly empty, constructionally ordered sequence of postmodifiers. For compounds, this permits one specialized restrictor followed by ordinary postmodifiers: _useful_ precedes _that I found_ in _something useful that I found_. It doesn’t permit unrestricted repetition of the restrictor. The same sequence notation and ordering conditions apply under all four accounts.
 
 ```text
-Nom_h → (Mod_pre) Head:N_h (Comp) {==Mods_post==}{>>shouldn't this be in parens?<<}{id="c7" by="user" at="2026-09-13T12:22:02.480Z"} NP_h → (Mod_periph) (Det) Head:Nom_h licensed(NP_h,f,c) ⇔ f ∈ U_h ∧ C_h(f,c)
+Nom_h → (Mod_pre)  Head:N_h  (Comp)  Mods_post
+NP_h → (Mod_periph) (Det)  Head:Nom_h
+licensed(NP_h,f,c)  ⇔  f ∈ U_h ∧ C_h(f,c)
 ```
 
 Here `U_h` is the head’s set of use permissions, `f` is the completed NP’s external function, and `C_h` checks the lexical and constructional conditions in context `c`. For Det use, these include compatibility with the target nominal; for a singular count argument, they include required determination. Optionality in the second rule doesn’t override those conditions. Intermediate Head links within a projection don’t require independent argument permission.
@@ -662,7 +668,7 @@ _Some_ and _few_ permit a partitive _of_-phrase within their nominal projection.
 
 Peripheral _almost_ modifies the NP headed by _every_; this doesn’t license _experienced_ as its modifier. The cardinal construction _the almost thirty who came_ licenses internal approximative _almost_. In _hardly anyone present_, _hardly_ is peripheral to NP and the restrictor _present_ is internal to Nom.
 
-Under separate D with ordinary Head, the NP and use-permission {==rules==}{>>The use of "rules" here rankles for a few reasons. CGEL isn't generative, and a model-theoretic approach is more natural, and second, as Pullum has argued, languages don't have what qualify as "rules". That said, I'm not rejecting this approach. I would like you to carefully weigh the pros and con as well as consider alternatives.<<}{id="c8" by="user" at="2026-09-13T12:27:25.094Z"} are the same. Its Nom rule admits either Noun or determinative as lexical head:
+Under separate D with ordinary Head, the NP and use-permission rules are the same. Its Nom rule admits either Noun or determinative as lexical head:
 
 ```text
 Nom_h→(Mod_pre)  Head:{N_h,D_h}  (Comp)  Mods_post
@@ -690,12 +696,7 @@ A grammar with Hudson’s nested categorization can use the same permissions and
 ## 5.3 Degree uses outside noun phrases
 Determinatives also modify expressions outside NP structure. The three NP-projecting implementations retain that projection in degree uses. The relevant comparison is with the degree uses of established NPs, whose distribution already extends beyond argument and determiner functions.
 
-_Enough_ tests both position and external function. It precedes a nominal in _enough money_ and {==can follow one in _money enough_==}{>>Applicants [completely free every Tuesday] will be interviewed next month.
-Anyone [very busy this week] but [completely free next week] should contact me today.
-I’d analyze the relevant constituents as:
-[AdjP [Head:AdjP completely free] [Mod:NP every Tuesday]]
-[AdjP [Head:AdjP very busy] [Mod:NP this week]]
-[AdjP [Head:AdjP completely free] [Mod:NP next week]]<<}{id="c10" by="user" at="2026-09-13T12:57:42.009Z"}; post-head _enough_ can’t itself be premodified, as shown by *_money almost enough_ (Huddleston and Pullum 2002, 396–97, 445). Only the permitted construction licenses each position.
+_Enough_ tests both position and external function. It precedes a nominal in _enough money_ and can follow one in _money enough_; post-head _enough_ can’t itself be premodified, as shown by *_money almost enough_ (Huddleston and Pullum 2002, 396–97, 445). Only the permitted construction licenses each position.
 
 _Enough_ also modifies adjectives, adverbs, verbs, and some PPs: _good enough_, _quickly enough_, _I hadn’t prepared enough_, and _enough in control_ (Huddleston and Pullum 2002, 396–97). The degree determinatives _much_ and _little_, and _no_/_none_, likewise have uses outside NP structure (Huddleston and Pullum 2002, 390, 395–97). These permissions must survive recategorization. Noun membership doesn’t confine every projection to argument or determiner function.
 
@@ -703,12 +704,7 @@ _Enough_ also modifies adjectives, adverbs, verbs, and some PPs: _good enough_, 
 
 NPs already modify adjectives in _three years old_, _a great deal smaller_, and _plenty big enough_. _CGEL_ also explicitly treats _lots better_ and _heaps worse_ as containing quantificational NP modifiers (Huddleston and Pullum 2002, 549–50). These uses extend the connection with the quantificational common nouns compared in §2.2.
 
-Attributive uses are {==attested==}{>>these are from COCA: 
-1 	2012 	WEB 	amazon.com 				  for Fellowship, this one also comes in a thick box with a 45 pages long booklet full of liner notes by Douglas Adams, a Shore expert, who provides
-2 	2012 	WEB 	tvtropes.org 				  and only retains his identity by extreme effort. # There's a several pages long passage in Three Men In A Boat, detailing how a person's mood depends
-3 	2012 	BLOG 	...erbeatheadphone.info 				  models of CHI flat irons. All of these models come with a 10 feet long cord which can move around at 360 degrees so that you can style hair at
-4 	2004 	FIC 	Mov:Hellboy 				  green light beeps, READY. The muzzle of the flamethrower vomits a 30 feet long gout of fire into the blackness. The men pause: silence! Quarry turns
-5 	2002 	MOV 	Megalodon 				  these things is swimming off my coast? No. You have a 15 feet long baby swimming off your coast. But it's a damn dinosaur. How did<<}{id="c9" by="user" at="2026-09-13T12:42:50.942Z"} too: _some heaps better photo’s_ and _some lots better ones_. In _CGEL_’s analysis, _ones_ here is an anaphoric common noun. Both examples therefore have attributive _better_ with a nominal degree modifier. Measure _miles_ supplies parallels in _some miles better front brakes_ and _some miles-better bands_.
+Attributive uses are attested too: _some heaps better photo’s_ and _some lots better ones_. In _CGEL_’s analysis, _ones_ here is an anaphoric common noun. Both examples therefore have attributive _better_ with a nominal degree modifier. Measure _miles_ supplies parallels in _some miles better front brakes_ and _some miles-better bands_.
 
 > Note 29. [UKSaabs, rallyv4, 23 January 2014, post 6](https://www.uksaabs.co.uk/UKS/viewtopic.php?t=131481#p1256815); Shaun Ryder in [Kate Mossman’s interview, _New Statesman_, 17 April 2019](https://www.newstatesman.com/culture/2019/04/i-look-like-uncle-fester-the-second-life-of-shaun-ryder). The latter retains the source’s hyphen, which doesn’t itself settle the modifier’s syntactic structure.
 

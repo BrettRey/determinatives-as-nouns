@@ -1,0 +1,25 @@
+{
+  "reviewer": "Fable \u2014 Section 5 logic and formalisms",
+  "requested_model": "fable",
+  "provider": "Anthropic / Claude Code",
+  "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/determinatives-as-nouns.tex",
+  "source_git_commit": "c4b47a73075bb8abdea3c29b639d6df5962051d7",
+  "source_sha256": "f17db68cc91f50bf355ea081209539282998245af01572ecd5684b0ac0467c0b",
+  "prompt_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/reviews/fable-section-5-2026-09-13/prompt.md",
+  "prompt_sha256": "3290ab395f79c4a75ec7285dd14d94bb109d047fc45ce815a8b65247c7e69b90",
+  "dependence_cluster": "single-independent-fable-section5",
+  "started_at": "2026-09-13T12:37:58.500282+00:00",
+  "actual_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-fable-5-1"
+  ],
+  "raw_output_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/reviews/fable-section-5-2026-09-13/raw-response.json",
+  "raw_output_sha256": "9b19c3c416c517e29362a02471b63dd9634c82fd63377ecc6d3afe2546c9c9fc",
+  "audit_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/reviews/fable-section-5-2026-09-13/fable-audit.md",
+  "audit_sha256": "0f5b8b0ee3b9aff145108daf27717dca342ad698256269d37af8b5618b86dbbb",
+  "completed_at": "2026-09-13T12:54:50.794265+00:00",
+  "source_unchanged": true,
+  "reviewer_model": "claude-fable-5-1",
+  "auxiliary_cli_model": "claude-haiku-4-5-20251001 (17 output tokens; CLI auxiliary call, not a second reviewer)",
+  "tools_available_to_reviewer": []
+}

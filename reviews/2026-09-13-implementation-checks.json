@@ -1,0 +1,43 @@
+{
+  "pages": 35,
+  "inventory": {
+    "cells_checked": 14,
+    "attested": 10,
+    "searched_no_qualifying_attestation": 4,
+    "scope": "Targeted follow-up stopped after the remaining cells had received focused checks; no usage rates or matched acceptability judgments inferred."
+  },
+  "reading_copy": {
+    "trees": 11,
+    "tables": 7,
+    "formal_displays": 4,
+    "notes": 41,
+    "pandoc_warnings": 0
+  },
+  "earlier_annotated_files_unchanged": true,
+  "all_ten_evidence_urls_in_source": true,
+  "labels_unique_and_references_defined": true,
+  "overfull_underfull_or_unresolved_references": false,
+  "rendered_pages_inspected": [
+    6,
+    7,
+    9,
+    13,
+    16,
+    22,
+    23,
+    24,
+    26
+  ],
+  "tex_sha256": "8353645c1e89074061b8dff2fcb59b06f72e06a2a490c5f9376b521aa01da822",
+  "pdf_sha256": "ac1b08d4e6e7f55323336ee6f243d1be2f32008cc2dc0142e66a5f35ec4096a5",
+  "followup_checks": {
+    "vertical_fusion_branches_pages": [
+      19,
+      22
+    ],
+    "pp_extrapolation_page": 24,
+    "build_pages": 35,
+    "new_style_flags": 0,
+    "implicational_aim_page": 9
+  }
+}

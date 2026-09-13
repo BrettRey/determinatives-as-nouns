@@ -5,7 +5,7 @@ title: Determinatives as nouns in English
 stage: drafting
 external: rejected
 blocked_on: []
-updated: 2026-09-13
+updated: 2026-09-12
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Brett can read the constraints revision; final polish remains for later
+next_action: Brett can read the quantifier-control revision; polish remains for later
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,14 +28,10 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Review through §5 implemented; constraint fragment, ten new evidence cells, and figure repairs; 35-page working draft verified · status: drafting · updated: 2026-09-13 -->
+<!-- SUMMARY: Quantificational controls, a construction matrix, and a provisional cline incorporated; 34-page working draft builds successfully · status: drafting · updated: 2026-09-12 -->
 
-**Last updated:** 2026-09-13
+**Last updated:** 2026-09-12
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
-
-## 2026-09-13 Review through §5 and constraint presentation incorporated
-
-The approved Roughdraft reconciliation is implemented: §5 uses explicit constraints on labelled structures, the author’s wording and evidence changes are incorporated, Figure 1 has four trees in one row, and Figure 6 has the corrected vertical modifier branch. Targeted follow-up checked all fourteen inventory gaps, finding attestations for ten and recording four unsuccessful searches without negative grammaticality judgments. The 35-page build passes; changed tables, figures, and formal displays were visually inspected. See the [implementation record](reviews/2026-09-13-implementation-record.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-13-constraints.md). This remains a working draft; final polish is deferred.
 
 ## 2026-09-12 Quantificational controls and constructional cline incorporated
 

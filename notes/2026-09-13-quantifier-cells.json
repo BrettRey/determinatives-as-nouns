@@ -1,0 +1,428 @@
+{
+  "date": "2026-09-13",
+  "task": "Complete the fourteen previously unresolved evidence cells; corpus non-attestation is not a grammaticality judgment.",
+  "cells": [
+    {
+      "word": "certain",
+      "construction": "argument_relative",
+      "status": "searched_no_qualifying_attestation",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "certain who",
+          "hits": 1012,
+          "screening": "Broad result not fully screened; narrowed by left context and continuation."
+        },
+        {
+          "corpus": "NOW",
+          "query": "to|with|about certain who",
+          "hits": 2,
+          "screened": 2,
+          "screening": "Adjectival certain after close to; WHO institutional acronym. Neither qualifies."
+        },
+        {
+          "corpus": "NOW",
+          "query": "certain who have|were|would",
+          "hits": 30,
+          "screening": "Displayed groups are embedded questions, a of a certain who truncated expression, and the already documented Trump existential. No canonical article-free argument with relative."
+        },
+        {
+          "corpus": "NOW",
+          "query": "by|of|among certain who",
+          "hits": 0
+        }
+      ],
+      "evidence": [],
+      "limit": "No qualifying attestation retained from these bounded searches. This is not a negative grammaticality judgment or an exhaustive corpus search."
+    },
+    {
+      "word": "certain",
+      "construction": "existential_partitive",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are certain of them",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are certain of",
+          "hits": 11,
+          "screened": 11
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "There are certain of our friends.",
+          "context": "I don’t see any possibility of a mahagathbandhan or anything. There are certain of our friends. They want that. But that is not practical.",
+          "speaker": "Sharad Pawar, as quoted in English",
+          "author": "Manish Tewari",
+          "title": "Erdogan’s victory: A lesson for Indian Oppn",
+          "source": "Deccan Chronicle",
+          "date": "2018-07-08",
+          "corpus_date": "2018-07-07",
+          "url": "https://www.deccanchronicle.com/opinion/columnists/080718/erdogans-victory-a-lesson-for-indian-oppn.html",
+          "verification": "NOW KWIC and original article full context; sentence ends after partitive. Original speech language/audio not checked."
+        }
+      ]
+    },
+    {
+      "word": "certain",
+      "construction": "existential_bare",
+      "status": "searched_no_qualifying_attestation",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are certain .",
+          "hits": 3,
+          "screening": "Two clear false positives: transcript segmentation before Folks, and ellipsis before logistic constraints. Third is a truncated NZCity news-index teaser; original historical full sentence unavailable, excluded."
+        },
+        {
+          "corpus": "NOW",
+          "query": "are there certain|various ?",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there were certain|various .",
+          "hits": 1,
+          "screening": "One candidate: Rolling Stone interview, 2019-12-14, certain ... let’s say unrealistic expectations. Ellipsis before overt noun; excluded."
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are|were certain|various ,",
+          "matching_string": "there are certain ,",
+          "hits": 47,
+          "screening": "Displayed groups have an overt later noun, a following relative (with younger fans supplement), or an interrupted utterance. Cleveland and Australian interview fragments are not clear complete bare NPs; excluded, not coded ungrammatical."
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are|were certain|various ,",
+          "matching_string": "there were certain ,",
+          "hits": 6,
+          "screened": 6,
+          "screening": "Five with later overt noun; one interrupted Sri Lanka interview question; none qualifies."
+        }
+      ],
+      "evidence": [],
+      "limit": "No qualifying attestation retained from these bounded searches. This is not a negative grammaticality judgment or an exhaustive corpus search."
+    },
+    {
+      "word": "various",
+      "construction": "argument_relative",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "various who",
+          "hits": 31,
+          "screened_at_least": 28
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "think about various who had done it and who hadn’t",
+          "speaker": "Stephen Tompkinson",
+          "author": "James Hibbs",
+          "source": "Radio Times",
+          "date": "2026-04-29",
+          "url": "https://www.radiotimes.com/tv/drama/stephen-tompkinson-new-detective-role-exclusive-newsupdate/",
+          "verification": "NOW KWIC and full original interview. NP is complement of about, with coordinated relatives; context concerns identifying killers in detective scripts. No audio check."
+        }
+      ]
+    },
+    {
+      "word": "various",
+      "construction": "existential_partitive",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are various of",
+          "tokens": 15,
+          "texts": 11,
+          "screened_lines": 14
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "There are various of Maro’s own inventions",
+          "author": "Erica Platter",
+          "source": "Daily Maverick",
+          "date": "2019-03-08",
+          "url": "https://www.dailymaverick.co.za/article/2019-03-08-maros-weapons-of-diet-destruction/",
+          "verification": "NOW KWIC and original full article; context lists cakes. Genitive definite partitive domain, followed by supplementary including examples; no integrated relative."
+        }
+      ]
+    },
+    {
+      "word": "various",
+      "construction": "existential_relative",
+      "status": "searched_no_qualifying_attestation",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are various that",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there were various who",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there were various that",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are|were various who|that",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there BE various who|that|which",
+          "hits": 0
+        }
+      ],
+      "evidence": [],
+      "limit": "No qualifying attestation retained from these bounded searches. This is not a negative grammaticality judgment or an exhaustive corpus search."
+    },
+    {
+      "word": "various",
+      "construction": "existential_bare",
+      "status": "searched_no_qualifying_attestation",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are various .",
+          "hits": 0,
+          "screening": "No matching records."
+        },
+        {
+          "corpus": "NOW",
+          "query": "are there certain|various ?",
+          "hits": 0
+        },
+        {
+          "corpus": "NOW",
+          "query": "there were certain|various .",
+          "hits": 0,
+          "screening": "No matching various string."
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are|were certain|various ,",
+          "matching_string": "there are various ,",
+          "hits": 25,
+          "screening": "All displayed concordance groups have an overt later noun (e.g. contradictory reports, conflicting claims); no qualifying bare use."
+        },
+        {
+          "corpus": "NOW",
+          "query": "there are|were certain|various ,",
+          "matching_string": "there were various ,",
+          "hits": 6,
+          "screened": 6,
+          "screening": "All six continue to an overt noun."
+        }
+      ],
+      "evidence": [],
+      "limit": "No qualifying attestation retained from these bounded searches. This is not a negative grammaticality judgment or an exhaustive corpus search."
+    },
+    {
+      "word": "numerous",
+      "construction": "argument_relative",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "numerous who",
+          "hits": 29,
+          "screened_groups": 29
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "he has heard from numerous who are “deeply concerned”",
+          "antecedent": "Republican attorneys",
+          "source": "ABC News",
+          "date": "2020-08-18",
+          "corpus_date": "2020-08-19",
+          "url": "https://abcnews.com/Politics/reversal-postmaster-general-dejoy-suspends-mail-handling-election/story?id=72446764",
+          "verification": "NOW concordance and original article full context; numerous is complement of from with integrated relative; no external article."
+        }
+      ]
+    },
+    {
+      "word": "numerous",
+      "construction": "existential_partitive",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are numerous of",
+          "tokens": 48,
+          "texts": 46,
+          "screening": "Displayed concordances screened; retained complete partitive sentence with pronoun them."
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "There are numerous of them.",
+          "speaker": "Sunday Cyriacus Umeha",
+          "author": "Adamu Abuh",
+          "source": "The Guardian (Nigeria)",
+          "date": "2025-06-07",
+          "antecedent": "sons of Enugu appointed to government positions",
+          "url": "https://guardian.ng/politics/sunday-umeha-apc-government-is-showing-ndigbo-they-are-truly-part-and-parcel-of-nigeria/",
+          "verification": "NOW concordance and original interview full context; sentence ends after them. No audio check."
+        }
+      ]
+    },
+    {
+      "word": "numerous",
+      "construction": "existential_bare",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are numerous .",
+          "hits": 9,
+          "screened_at_least": 8
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "I’m aware there are numerous.",
+          "antecedent": "the benefits of a college education",
+          "author": "Danny Sapio",
+          "source": "The Next Web, syndicated from uxdesign.cc",
+          "date": "2019-12-15",
+          "corpus_date": "2019-12-29",
+          "url": "https://thenextweb.com/news/you-probably-dont-need-a-degree-to-be-a-ui-ux-designer",
+          "verification": "NOW KWIC and original article full context; sentence-final numerous without dependent. Relative of which examples excluded from bare cell."
+        }
+      ]
+    },
+    {
+      "word": "multiple",
+      "construction": "argument_relative",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "for|from|to multiple|countless who",
+          "total_hits": 9,
+          "matching_string": "to multiple who",
+          "hits": 1,
+          "screened": 1,
+          "other_matching_string": "from multiple who (one hit, not needed or screened)"
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "according to multiple who have spoken to him",
+          "context": "aggressive in reaching out to potential staffers, according to multiple who have spoken to him. That is in keeping with other early moves",
+          "source": "The London Free Press",
+          "corpus_date": "2018-11-19",
+          "title_from_source_url": "2020 Democratic contenders already eyeing top staff in Iowa",
+          "url": "https://lfpress.com/pmn/news-pmn/2020-democratic-contenders-already-eyeing-top-staff-in-iowa/wcm/e9a17ae7-bcb2-420c-9141-442306ec38e4",
+          "verification": "NOW concordance and source metadata; original article retrieval failed, so no full-original check. Multiple is prepositional complement with an integrated relative."
+        }
+      ]
+    },
+    {
+      "word": "countless",
+      "construction": "argument_relative",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "for|from|to multiple|countless who",
+          "total_hits": 9,
+          "matching_string": "for countless who",
+          "hits": 6,
+          "displayed_groups_screened": 5,
+          "screening": "Retained first complete PP; one Who band-name result excluded."
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "paving the way for countless who followed him",
+          "context": "screen presences of his time, paving the way for countless who followed him. In interviews and in his 2000 autobiography",
+          "source": "WFTV",
+          "corpus_date": "2022-01-07",
+          "topic": "Sidney Poitier",
+          "url": "https://www.wftv.com/entertainment/sidney-poitier/VYJKDUZBWNMX4M5UU4NM3RT52Y/",
+          "verification": "NOW concordance and source metadata. Original URL returns 404. Countless is complement of for with integrated relative."
+        }
+      ]
+    },
+    {
+      "word": "countless",
+      "construction": "argument_bare",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "countless were",
+          "hits": 35,
+          "displayed_groups_screened": 33,
+          "screening": "Canonical subjects distinguished from predicative inversions such as countless were the times; retained clear anaphoric subject."
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "countless were left in floods of tears",
+          "antecedent": "viewers, in the preceding clause",
+          "author": "John Murphy",
+          "source": "Extra.ie",
+          "date": "2022-04-17",
+          "url": "https://extra.ie/2022/04/17/entertainment/movies-tv/i-bow-to-you-diy-sos-viewers-in-total-agreement-after-latest-inspirational-episode",
+          "verification": "NOW concordance and original full article. Countless is bare canonical subject of were left, with no NP dependent."
+        }
+      ]
+    },
+    {
+      "word": "countless",
+      "construction": "existential_bare",
+      "status": "attested",
+      "queries": [
+        {
+          "corpus": "NOW",
+          "query": "there are countless .",
+          "hits": 10,
+          "screened": 10
+        }
+      ],
+      "evidence": [
+        {
+          "excerpt": "In fact, there are countless.",
+          "antecedent": "investment options, mentioned immediately before; following sentence also refers to finding your options",
+          "source": "Financial Post",
+          "corpus_date": "2013-08-03",
+          "title": "Bad excuses for not investing while you are young",
+          "url": "https://financialpost.com/personal-finance/young-money/youth-investing-personal-finance",
+          "verification": "NOW concordance includes complete sentence, preceding clause and following sentence beginning. Source link/title identified through browser. Original article full text not checked; web retrieval failed and browser access was blocked, with no further attempt to access that page."
+        }
+      ]
+    }
+  ],
+  "query_errors": [
+    {
+      "corpus": "NOW",
+      "query": "there are|were certain|various|numerous|countless .|,|;",
+      "result": "Server error; no evidential value. Simpler punctuation queries succeeded."
+    }
+  ],
+  "syntax_source": "https://www.english-corpora.org/help/word-phrase.asp",
+  "syntax_note": "Punctuation can be searched as a separate word; alternants use |. Official search help consulted.",
+  "summary": {
+    "cells_checked": 14,
+    "attested": 10,
+    "searched_no_qualifying_attestation": 4,
+    "scope": "Targeted follow-up stopped after the remaining cells had received focused checks; no usage rates or matched acceptability judgments inferred."
+  }
+}

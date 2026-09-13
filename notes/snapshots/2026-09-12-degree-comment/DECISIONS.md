@@ -350,10 +350,3 @@ The revision is integrated into §§2.1 and 2.6, preserving the broader four-sub
 ## 2026-09-12 Minimal working-draft ship
 
 Brett explicitly requested a minimal ship. Reuse the verified 34-page build and completed checks of the changed prose; final polish remains deferred. Record a ship-only exception for the stale whole-manuscript house-style pass rather than rerunning it for this checkpoint.
-
-
-## 2026-09-13 Constraint presentation and bounded inventory completion
-
-Brett approved replacing §5’s rewriting-style presentation with conditions on labelled structures, while retaining the four-account comparison. Use permissions, form selection, function-conditioned dependents, and Head relations are explicit. Both ordinary-Head accounts receive equal credit for shared NP structure; the lexical-profile case bears the categorial conclusion. Constraint counts don't establish economy. Fusion retains its distinct inner-phrase restrictions and combined function relations.
-
-The fourteen previously unresolved evidence cells received targeted checks. Ten now have attestations; four report no qualifying attestation in the logged searches. This completes the bounded follow-up, not a grammaticality inventory or a test of a strict constructional cline. Brett’s proportionality correction limits further searching and broad polish at this stage. The 35-page working draft and changed-page visual checks are recorded in `reviews/2026-09-13-implementation-record.md`.
