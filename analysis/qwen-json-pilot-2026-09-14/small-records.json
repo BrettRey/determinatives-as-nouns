@@ -1,0 +1,37 @@
+{
+  "lexeme_forms": {
+    "lex_few": [
+      "dependent",
+      "independent"
+    ],
+    "lex_my": [
+      "dependent"
+    ],
+    "lex_some": [
+      "dependent",
+      "independent"
+    ]
+  },
+  "participation_claims": {
+    "few_dependent_det": {
+      "status": "not_stated",
+      "conditions": "",
+      "source_ids": []
+    },
+    "few_independent_argument": {
+      "status": "not_stated",
+      "conditions": "",
+      "source_ids": []
+    },
+    "mine_independent_argument": {
+      "status": "not_stated",
+      "conditions": "",
+      "source_ids": []
+    },
+    "some_degree_modifier_of_adjective": {
+      "status": "not_stated",
+      "conditions": "",
+      "source_ids": []
+    }
+  }
+}

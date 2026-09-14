@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "sample_ids": [
+    "X011",
+    "X020",
+    "X044",
+    "X067",
+    "X090",
+    "X109"
+  ],
+  "selection_file": "parent-sample-plan.json",
+  "initial_sample_findings": [
+    {
+      "id": "X011",
+      "finding": "Source-faithful in the inspected conditions: constructed positive existential-relative illustration, people context, not an attestation."
+    },
+    {
+      "id": "X020",
+      "finding": "Retains actual Radio Times/NOW relative attestation, speaker, date and no-audio limit; the attested PP-complement use must not be read as direct attestation of the table’s canonical subject frame."
+    },
+    {
+      "id": "X044",
+      "finding": "Source-faithful: constructed relative argument example, people context, retained article belongs to a lot frame, not lexeme form."
+    },
+    {
+      "id": "X067",
+      "finding": "Potential omission: only the no/none almost-permission paragraph is quoted; peripheral attachment and attribution to the proposed analysis are not stated in conditions. Full source M453–481 distinguishes peripheral approximatives from internal degree modifiers, but returned record does not connect that account to the peripheral_mod_admission classification. Await Opus assessment."
+    },
+    {
+      "id": "X090",
+      "finding": "Retains independent All agree, people context and contrast between constructional availability and unrestricted acceptability; excludes predeterminer use only from this comparison."
+    },
+    {
+      "id": "X109",
+      "finding": "Potential bearer inconsistency: determination of the NP containing fused rich uses outer_np, while plural NP agreement and adjective inflection/modification are bundled as own_phrase. The NP-level number/agreeing property should not be assigned to the adjective phrase. Await Opus assessment."
+    }
+  ],
+  "exception_findings": [
+    {
+      "id": "X100",
+      "finding": "Aristotle explicitly acknowledges that excluded overstates source resists modification. Requires correction or an unresolved representation notice; a hedging condition cannot make the categorical status faithful."
+    }
+  ],
+  "boundary": "Only six selected records and the twenty exception reasons inspected by parent; no full semantic rereview.",
+  "final_sample_result": "Six sampled records checked. X067 attachment grounding and X109 bearer assignments were corrected; the other four retained their source distinctions. X100’s overstatement was corrected to an unresolved participation judgment with source restrictions retained in exceptions.json.",
+  "final_sample_corrections": [
+    "X067",
+    "X109"
+  ],
+  "final_exception_polarity_correction": "X100",
+  "all_source_hashes_unchanged": true,
+  "final_records_sha256": "c428cedbba8fbeab532d2e98a8f32ace468447976765004a1ba1e2103c49d673"
+}

@@ -1,0 +1,574 @@
+{
+  "changed": {
+    "lexemes": [],
+    "constructions": [],
+    "participation_claims": [
+      {
+        "id": "X012",
+        "lexeme_id": "lex_several",
+        "form": "several",
+        "construction_id": "existential_displaced_subject",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "construction",
+            "requirement": "Surrounding construction: existential with dummy \\textit{there} as subject, anaphoric, with no NP dependent; stated frame \"Are there several?\"."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Evidential basis stated in the supplement's comparison table: \\textit{I}, a \"constructed positive illustration in the stated frame\"; the cell records a constructed comparison, not a retained attestation."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "The constructed comparison is to be interpreted with people under discussion."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "The supplement separates the NP dependent from the surrounding construction; the claim covers this dependent type in this surrounding construction only, and the supplement establishes no ordering among the constructions."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Separate statement in the manuscript bearing on this cell: with possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position, with dummy \\mention{there} as subject; the manuscript attributes that displaced-subject analysis to \\textit{CGEL} 1391--1393. This is the manuscript's own constructed example and is recorded separately from the supplement's constructed illustration in the stated frame \"Are there several?\"."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "Q",
+            "quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\"
+          },
+          {
+            "source_id": "Q",
+            "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The argument frames are \\mention{X of them}, \\mention{X who arrived left}, and anaphoric \\mention{X left}. The existential frames are \\mention{There are X of them}, \\mention{There are X who can help}, and anaphoric \\mention{Are there X?}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "Interpret the constructed comparisons with people under discussion."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Table~\\ref{tab:quant-controls} separates NP dependents from the surrounding construction."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The searches establish selected occurrences, without estimating their frequency or establishing an ordering of the constructions."
+          },
+          {
+            "source_id": "M",
+            "quote": "Existentials add a construction to this comparison. With possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject"
+          }
+        ]
+      },
+      {
+        "id": "X030",
+        "lexeme_id": "lex_numerous",
+        "form": "numerous",
+        "construction_id": "existential_displaced_subject",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "construction",
+            "requirement": "Surrounding construction: existential with dummy \\textit{there} as subject, anaphoric, with no NP dependent; stated frame \"Are there numerous?\"."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Evidential basis stated in the supplement's comparison table: a numbered reference to a retained attestation listed in the supplement."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Retained attestation \"I'm aware there are numerous.\": Danny Sapio, The Next Web, 15 December 2019; NOW record dated 29 December and original article, syndicated from uxdesign.cc; in this cell \\mention{numerous} refers to benefits of a college education, an anaphoric interpretation established without an overt following nominal."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Scope of the finding: the supplement's searches establish selected occurrences and supply no usage rates, establish no ordering of the constructions, and don't establish each speaker's or writer's variety; the attestation is evidence for the occurrence, not for the population."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "The supplement separates the NP dependent from the surrounding construction; the claim covers this dependent type in this surrounding construction only, and the supplement establishes no ordering among the constructions."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "Q",
+            "quote": "\\ex\\label{ex:numerous-exist-bare} \\mention{I'm aware there are numerous.}\\footnote{Danny Sapio, \\href{https://thenextweb.com/news/you-probably-dont-need-a-degree-to-be-a-ui-ux-designer}{The Next Web}, 15 December 2019; NOW record dated 29 December and original article, syndicated from \\nolinkurl{uxdesign.cc}.}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "These searches establish selected occurrences; they supply no usage rates."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Source locations identify the records; they don't establish each speaker's or writer's variety."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+          },
+          {
+            "source_id": "Q",
+            "quote": "\\mention{numerous} & (\\ref{ex:numerous-part}) & (\\ref{ex:numerous-arg-rel}) & (\\ref{ex:numerous-subj}) & (\\ref{ex:numerous-exist-part}) & (\\ref{ex:numerous-exist}) & (\\ref{ex:numerous-exist-bare}) \\\\"
+          },
+          {
+            "source_id": "Q",
+            "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The argument frames are \\mention{X of them}, \\mention{X who arrived left}, and anaphoric \\mention{X left}. The existential frames are \\mention{There are X of them}, \\mention{There are X who can help}, and anaphoric \\mention{Are there X?}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "Table~\\ref{tab:quant-controls} separates NP dependents from the surrounding construction."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The searches establish selected occurrences, without estimating their frequency or establishing an ordering of the constructions."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The final two have no NP dependent: \\mention{numerous} refers to benefits of a college education and \\mention{countless} to investment options. These contexts establish anaphoric interpretations without an overt following nominal."
+          }
+        ]
+      },
+      {
+        "id": "X037",
+        "lexeme_id": "lex_countless",
+        "form": "countless",
+        "construction_id": "independent_partitive",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "construction",
+            "requirement": "Surrounding construction: argument use; stated frame \"countless of them\", with the partitive of-PP as the NP dependent. Argument use also includes complementation of prepositions."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Evidential basis stated in the supplement's comparison table: a numbered reference to a retained attestation listed in the supplement."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Retained attestation \"countless of their particular statements and deeds\": Thomas Hughson, \"Interpreting Vatican II: 'A New Pentecost'\", Theological Studies 69 (2008), p. 9; COCA academic record, checked against the journal PDF; the NP is object of \\mention{irradiate}, and the supplement notes that this partitive comes from academic prose."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Scope of the finding: the supplement's searches establish selected occurrences and supply no usage rates, establish no ordering of the constructions, and don't establish each speaker's or writer's variety; the attestation is evidence for the occurrence, not for the population."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "The supplement separates the NP dependent from the surrounding construction; the claim covers this dependent type in this surrounding construction only, and the supplement establishes no ordering among the constructions."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "Q",
+            "quote": "\\ea\\label{ex:countless-part} \\mention{countless of their particular statements and deeds}\\footnote{Thomas Hughson, \\href{https://theologicalstudies.net/wp-content/uploads/2022/08/69.1.1.pdf\\#page=7}{\\enquote{Interpreting Vatican II: \\enquote{A New Pentecost}}}, \\textit{Theological Studies} 69 (2008), p.~9; COCA academic record, checked against the journal PDF. The NP is object of \\mention{irradiate}.}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "These searches establish selected occurrences; they supply no usage rates."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Source locations identify the records; they don't establish each speaker's or writer's variety."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+          },
+          {
+            "source_id": "Q",
+            "quote": "\\mention{countless} & (\\ref{ex:countless-part}) & (\\ref{ex:countless-arg-rel}) & (\\ref{ex:countless-subj}) & (\\ref{ex:countless-exist-part}) & (\\ref{ex:countless-exist-rel}) & (\\ref{ex:countless-exist-bare}) \\\\"
+          },
+          {
+            "source_id": "Q",
+            "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The argument frames are \\mention{X of them}, \\mention{X who arrived left}, and anaphoric \\mention{X left}. The existential frames are \\mention{There are X of them}, \\mention{There are X who can help}, and anaphoric \\mention{Are there X?}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "Argument use also includes complementation of prepositions."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Table~\\ref{tab:quant-controls} separates NP dependents from the surrounding construction."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The searches establish selected occurrences, without estimating their frequency or establishing an ordering of the constructions."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The \\mention{countless} partitive comes from academic prose; the \\mention{multiple} partitive from a blog discussion."
+          }
+        ]
+      },
+      {
+        "id": "X042",
+        "lexeme_id": "lex_countless",
+        "form": "countless",
+        "construction_id": "existential_displaced_subject",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "construction",
+            "requirement": "Surrounding construction: existential with dummy \\textit{there} as subject, anaphoric, with no NP dependent; stated frame \"Are there countless?\"."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Evidential basis stated in the supplement's comparison table: a numbered reference to a retained attestation listed in the supplement."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Retained attestation \"In fact, there are countless.\": Financial Post, NOW record dated 3 August 2013; complete sentence and adjacent context checked in the concordance; stated verification limit: the original page wasn't available. In this cell \\mention{countless} refers to investment options, an anaphoric interpretation established without an overt following nominal."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Scope of the finding: the supplement's searches establish selected occurrences and supply no usage rates, establish no ordering of the constructions, and don't establish each speaker's or writer's variety; the attestation is evidence for the occurrence, not for the population."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "The supplement separates the NP dependent from the surrounding construction; the claim covers this dependent type in this surrounding construction only, and the supplement establishes no ordering among the constructions."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "Q",
+            "quote": "\\ex\\label{ex:countless-exist-bare} \\mention{In fact, there are countless.}\\footnote{\\href{https://financialpost.com/personal-finance/young-money/youth-investing-personal-finance}{Financial Post}, NOW record dated 3 August 2013; complete sentence and adjacent context checked in the concordance. The original page wasn't available.}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "These searches establish selected occurrences; they supply no usage rates."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Source locations identify the records; they don't establish each speaker's or writer's variety."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+          },
+          {
+            "source_id": "Q",
+            "quote": "\\mention{countless} & (\\ref{ex:countless-part}) & (\\ref{ex:countless-arg-rel}) & (\\ref{ex:countless-subj}) & (\\ref{ex:countless-exist-part}) & (\\ref{ex:countless-exist-rel}) & (\\ref{ex:countless-exist-bare}) \\\\"
+          },
+          {
+            "source_id": "Q",
+            "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The argument frames are \\mention{X of them}, \\mention{X who arrived left}, and anaphoric \\mention{X left}. The existential frames are \\mention{There are X of them}, \\mention{There are X who can help}, and anaphoric \\mention{Are there X?}"
+          },
+          {
+            "source_id": "Q",
+            "quote": "Table~\\ref{tab:quant-controls} separates NP dependents from the surrounding construction."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The searches establish selected occurrences, without estimating their frequency or establishing an ordering of the constructions."
+          },
+          {
+            "source_id": "Q",
+            "quote": "The final two have no NP dependent: \\mention{numerous} refers to benefits of a college education and \\mention{countless} to investment options. These contexts establish anaphoric interpretations without an overt following nominal."
+          }
+        ]
+      },
+      {
+        "id": "X067",
+        "lexeme_id": "lex_no",
+        "form": "none",
+        "construction_id": "peripheral_mod_admission",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "own_phrase",
+            "requirement": "Form selection: \\mention{no} and \\mention{none} are treated as inflectional forms of one determinative; \\mention{none} is the independent form and \\mention{no} the dependent one, and both are reported to permit \\mention{almost}."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "Separate condition on the partitive: \\mention{none of the students} requires the independent form, while \\mention{no of the students} is excluded; this is a form-selection condition, not a modifier condition."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "Basis of the peripheral classification: no statement about \\mention{none} assigns an attachment site, so peripheral attachment for \\mention{almost} with \\mention{none} follows the manuscript's general analysis of approximatives, which places them outside an NP's internal dependents (illustrated with \\mention{almost every}); the same analysis assigns approximatives internal attachment where they follow an external determiner on an independent cardinal, as in \\mention{the almost thirty who came}."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Function split not represented: the record's construction vocabulary does not separate the dependent and independent functions of the two forms beyond what is stated here."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "M",
+            "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+          },
+          {
+            "source_id": "M",
+            "quote": "The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded."
+          },
+          {
+            "source_id": "M",
+            "quote": "Form selection remains necessary, just as with \\mention{my}/\\mention{mine}."
+          },
+          {
+            "source_id": "M",
+            "quote": "Peripheral modifiers attach outside an NP's internal dependents."
+          },
+          {
+            "source_id": "M",
+            "quote": "Figure~\\ref{fig:every} places \\mention{almost} at the periphery of the NP headed by \\mention{every}."
+          },
+          {
+            "source_id": "M",
+            "quote": "Approximatives also need internal attachment where they follow an external determiner on an independent cardinal: \\mention{the almost thirty who came}."
+          }
+        ]
+      },
+      {
+        "id": "X100",
+        "lexeme_id": "lex_plenty",
+        "form": "plenty",
+        "construction_id": "internal_mod_admission",
+        "status": "not_stated",
+        "conditions": [],
+        "evidence": []
+      },
+      {
+        "id": "X109",
+        "lexeme_id": "lex_rich",
+        "form": "rich",
+        "construction_id": "independent_argument",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "outer_np",
+            "requirement": "Determination requirement: on the generic human reading, an NP with \\mention{rich} as fused head requires the definite article \\mention{the}."
+          },
+          {
+            "bearer": "outer_np",
+            "requirement": "Number and agreement: generic human \\mention{the rich} is a plural NP and takes plural agreement."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "The fused-head adjective lacks number inflection and still takes adverb modifiers, as in \\mention{the very rich}."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Contrast drawn: independent \\mention{some} can form a one-word NP, whereas the generic human reading of \\mention{rich} requires \\mention{the}; the manuscript calls this a local contrast, since argument NPs headed by singular count common nouns also need determination, and notes that fused-head AdjPs prevent a simple inference from argument positions to nounhood."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "M",
+            "quote": "Independent \\mention{some} can form a one-word NP, whereas an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading"
+          },
+          {
+            "source_id": "M",
+            "quote": "That's a local contrast: argument NPs headed by singular count common nouns also need determination."
+          },
+          {
+            "source_id": "M",
+            "quote": "Generic human \\mention{the rich}, by contrast, is a plural NP whose adjective lacks number inflection and still takes adverb modifiers: \\mention{the very rich}"
+          },
+          {
+            "source_id": "M",
+            "quote": "Plural agreement likewise occurs with adjective-containing \\mention{the rich}, whose adjective lacks number inflection"
+          },
+          {
+            "source_id": "M",
+            "quote": "Independent uses containing fused-head adjective phrases (AdjPs) prevent a simple inference from these positions to nounhood. \\mention{The rich} and \\mention{the poor} can fill nominal argument positions."
+          }
+        ]
+      }
+    ],
+    "scope_checks": [
+      {
+        "id": "search_nonfinding_vs_unstated",
+        "answer": "No, the fixed vocabulary does not distinguish them. The four S cells (argument \\mention{certain} with a relative, bare existential \\mention{certain}, existential \\mention{various} with a relative, and existential \\mention{various} with no dependent) record a bounded search in which no qualifying attestation was retained; the supplement says explicitly that this isn't an ungrammaticality judgment, that the bounded searches don't establish exclusion, and that these cells retain a different evidential status both from the positive examples and from \\textit{CGEL}'s stated restrictions. Among the fixed statuses, licensed would report a positive result and excluded would convert a nonfinding into a ban, so these four records take not_stated - the same value a combination the documents never address would take. Since not_stated records must carry empty conditions and evidence, the distinction is recorded outside the record shape: in exceptions.json, one entry per cell (X014, X018, X023, X024), each carrying the supplement's own wording and the bounds of the searches. One further record, X100, also takes not_stated for a different reason - the source's \"resists\" wording supports neither polarity - so not_stated in these records covers three distinct situations that the status field itself cannot tell apart; the X100 entry in exceptions.json states which one applies there.",
+        "evidence": [
+          {
+            "source_id": "Q",
+            "quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \\textit{CGEL}'s stated restrictions."
+          },
+          {
+            "source_id": "Q",
+            "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+          },
+          {
+            "source_id": "Q",
+            "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+          }
+        ]
+      }
+    ]
+  },
+  "unchanged_ids": {
+    "lexemes": [
+      "lex_the",
+      "lex_every",
+      "lex_some",
+      "lex_few",
+      "lex_no",
+      "lex_my",
+      "lex_book",
+      "lex_a",
+      "lex_many",
+      "lex_much",
+      "lex_little",
+      "lex_several",
+      "lex_all",
+      "lex_both",
+      "lex_any",
+      "lex_enough",
+      "lex_this",
+      "lex_that",
+      "lex_anyone",
+      "lex_something",
+      "lex_certain",
+      "lex_various",
+      "lex_numerous",
+      "lex_multiple",
+      "lex_countless",
+      "lex_plenty",
+      "lex_lot",
+      "lex_lots",
+      "lex_heaps",
+      "lex_deal",
+      "lex_ten",
+      "lex_thirty",
+      "lex_rich",
+      "lex_second"
+    ],
+    "constructions": [
+      "dependent_det",
+      "dependent_internal_mod",
+      "independent_argument",
+      "independent_partitive",
+      "degree_modifier_adj",
+      "existential_displaced_subject",
+      "internal_mod_admission",
+      "peripheral_mod_admission",
+      "comparative_complement",
+      "degree_modifier_nonadj",
+      "predicative_complement"
+    ],
+    "participation_claims": [
+      "X001",
+      "X002",
+      "X003",
+      "X004",
+      "X005",
+      "X006",
+      "X007",
+      "X008",
+      "X009",
+      "X010",
+      "X011",
+      "X013",
+      "X014",
+      "X015",
+      "X016",
+      "X017",
+      "X018",
+      "X019",
+      "X020",
+      "X021",
+      "X022",
+      "X023",
+      "X024",
+      "X025",
+      "X026",
+      "X027",
+      "X028",
+      "X029",
+      "X031",
+      "X032",
+      "X033",
+      "X034",
+      "X035",
+      "X036",
+      "X038",
+      "X039",
+      "X040",
+      "X041",
+      "X043",
+      "X044",
+      "X045",
+      "X046",
+      "X047",
+      "X048",
+      "X049",
+      "X050",
+      "X051",
+      "X052",
+      "X053",
+      "X054",
+      "X055",
+      "X056",
+      "X057",
+      "X058",
+      "X059",
+      "X060",
+      "X061",
+      "X062",
+      "X063",
+      "X064",
+      "X065",
+      "X066",
+      "X068",
+      "X069",
+      "X070",
+      "X071",
+      "X072",
+      "X073",
+      "X074",
+      "X075",
+      "X076",
+      "X077",
+      "X078",
+      "X079",
+      "X080",
+      "X081",
+      "X082",
+      "X083",
+      "X084",
+      "X085",
+      "X086",
+      "X087",
+      "X088",
+      "X089",
+      "X090",
+      "X091",
+      "X092",
+      "X093",
+      "X094",
+      "X095",
+      "X096",
+      "X097",
+      "X098",
+      "X099",
+      "X101",
+      "X102",
+      "X103",
+      "X104",
+      "X105",
+      "X106",
+      "X107",
+      "X108",
+      "X110"
+    ],
+    "scope_checks": [
+      "one_lexeme_split",
+      "lots_heaps_lexeme_identity",
+      "completeness_modifier_attachment",
+      "predication_outside_fragment",
+      "attestation_scope_limits"
+    ]
+  }
+}

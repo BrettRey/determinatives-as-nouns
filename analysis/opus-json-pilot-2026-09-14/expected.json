@@ -1,0 +1,37 @@
+{
+  "statuses": {
+    "P01": "licensed",
+    "P02": "excluded",
+    "P03": "licensed",
+    "P04": "licensed",
+    "P05": "excluded",
+    "P06": "licensed",
+    "P07": "licensed",
+    "P08": "licensed",
+    "P09": "licensed",
+    "P10": "licensed",
+    "P11": "licensed",
+    "P12": "excluded",
+    "P13": "licensed",
+    "P14": "licensed",
+    "P15": "licensed",
+    "P16": "licensed",
+    "P17": "excluded",
+    "P18": "licensed",
+    "P19": "not_stated",
+    "P20": "excluded"
+  },
+  "critical_checks": [
+    "P06: unstressed some selects a plural-count or non-count target, and its own dependent phrase excludes external determination, partitives, and relatives.",
+    "P08/P09: dependent few selects a plural-count target and excludes the three dependents within its own phrase; this does not exclude the outer the in the few people.",
+    "P07/P10: independent uses retain selected partitives and relatives; independent few also permits definite determination and adjectival premodification.",
+    "P12/P13/P14: no and none remain forms of one lexeme with constructional form selection; partitives require none.",
+    "P15/P16/P20: my and mine remain forms of one lexeme; my lacks ordinary independent argument permission.",
+    "P16: the possessor is distinct from the possessed referent controlling independent NP agreement; no first-person or fixed-singular NP agreement inference.",
+    "P17/P18: bare singular count book fails its determination requirement; bare plural books passes.",
+    "P19: no supplied excerpt establishes some as degree modifier of an adjective; missing information remains not_stated.",
+    "the_apple: the article phrase has Det permission, while the whole NP has argument permission through apple.",
+    "the_few_people: the determines the outer people NP, whereas few has its own determiner in the lucky few."
+  ],
+  "boundary": "Identifiers, construction catalog, queries, and book/books pairing are supplied. This tests constrained extraction, not autonomous schema design or exhaustive discovery."
+}

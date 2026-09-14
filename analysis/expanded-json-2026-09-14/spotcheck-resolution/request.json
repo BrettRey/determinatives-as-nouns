@@ -1,0 +1,235 @@
+{
+  "request": "Resolve these three bounded concerns before a single correction request is sent to Aristotle. The parent is asking for a source-based decision, not prescribing your conclusion. Review only these three records, using the exact source excerpts and original definitions below; put only these IDs in reviewed_ids. Do not redo the full batch. If a concern warrants no correction, explain why concisely in summary. Return concrete revision instructions for any correction; source/schema limitations may remain reported, but must not be silently treated as resolved.",
+  "concerns": [
+    {
+      "id": "X100",
+      "concern": "Your review correctly rejected excluded as stronger than resists modification, but the proposed replacement licensed may assert positive permission that the source does not establish either. Does the source actually warrant licensed, or should this be not_stated (empty conditions/evidence under the fixed schema), with the stated resistance and separate determination restriction retained in exceptions.json and marked as an unresolved participation judgment? Neither source discussion nor a caveat licenses silently changing what the status field means. Compare the other restriction cases, but do not assume that resists entails the same positive availability as permits only limited modification. Resolve this polarity question explicitly."
+    },
+    {
+      "id": "X067",
+      "concern": "The record is classified as peripheral_mod_admission but quotes only the no/none paragraph saying both forms permit almost. It states no attachment account or attribution in conditions. Does the manuscript’s general peripheral-approximative analysis warrant this classification? If so, is a source quote and concise attribution/attachment condition needed; if not, avoid supplying an unstated attachment analysis. This is a potential grounding omission, not a demand to fabricate a none-specific sentence."
+    },
+    {
+      "id": "X109",
+      "concern": "The determination requirement of the NP with fused rich has bearer outer_np, while plural NP number/agreement and lack of adjectival number inflection are bundled under own_phrase. Are those bearer assignments consistent with the fixed definitions and this query, or do they mix NP properties with the adjective phrase? Resolve which phrase is being recorded and, if necessary, align/split the conditions without changing the source’s analysis."
+    }
+  ],
+  "original_condition_definitions": "Extract draft linguistic records from supplied manuscript excerpts. This is source extraction, not a new analysis. Use only these excerpts; do not use background grammatical knowledge or external sources. Return only JSON matching the schema. Preserve restrictions, scope and qualifications. A missing statement is not an exclusion. No new citations, invented examples, or category assignments. An explicitly licensed construction may still have conditions. Each evidence quote must be an exact nonempty substring of one supplied excerpt, including LaTeX markup where present. For not_stated, use empty evidence and conditions. Record concise conditions with their correct bearer: target_nominal is what the phrase determines/modifies; own_phrase is the phrase whose participation is being recorded; outer_np is the larger containing NP; possessor and possessed_referent must remain distinct. Do not transfer permissions between levels or constructions.\n",
+  "construction_definitions": {
+    "peripheral_mod_admission": "A phrase admits a peripheral modifier attached outside its own determiner and internal nominal dependents; the query states the modifier.",
+    "internal_mod_admission": "A phrase admits a modifier attached inside its own nominal projection; the query states the modifier and its position.",
+    "independent_argument": "A phrase has an ordinary subject, object, or preposition-complement use without a separate target nominal."
+  },
+  "queries": [
+    {
+      "id": "X067",
+      "form": "none",
+      "lexeme_id": "lex_no",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The independent form none with almost. Record what the documents state about this form in comparison with dependent no."
+    },
+    {
+      "id": "X100",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "internal_mod_admission",
+      "request": "Quantificational plenty admitting modification within its own phrase. Record CGEL's statement about this use resisting modification, and record the parallel statement about determination as a separate condition rather than merging the two."
+    },
+    {
+      "id": "X109",
+      "form": "rich",
+      "lexeme_id": "lex_rich",
+      "construction_id": "independent_argument",
+      "request": "The adjective rich as fused head of an argument NP on the generic human reading, as in the rich. Record the determination requirement, the number and agreement facts, and the contrast drawn with a one-word independent determinative NP."
+    }
+  ],
+  "candidate": {
+    "lexemes": [],
+    "constructions": [],
+    "participation_claims": [
+      {
+        "id": "X067",
+        "lexeme_id": "lex_no",
+        "form": "none",
+        "construction_id": "peripheral_mod_admission",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "own_phrase",
+            "requirement": "Form selection: \\mention{no} and \\mention{none} are treated as inflectional forms of one determinative; \\mention{none} is the independent form and \\mention{no} the dependent one, and both are reported to permit \\mention{almost}."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "Separate condition on the partitive: \\mention{none of the students} requires the independent form, while \\mention{no of the students} is excluded; this is a form-selection condition, not a modifier condition."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Function split not represented: the record's construction vocabulary does not separate the dependent and independent functions of the two forms beyond what is stated here."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "M",
+            "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+          },
+          {
+            "source_id": "M",
+            "quote": "The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded."
+          },
+          {
+            "source_id": "M",
+            "quote": "Form selection remains necessary, just as with \\mention{my}/\\mention{mine}."
+          }
+        ]
+      },
+      {
+        "id": "X100",
+        "lexeme_id": "lex_plenty",
+        "form": "plenty",
+        "construction_id": "internal_mod_admission",
+        "status": "excluded",
+        "conditions": [
+          {
+            "bearer": "own_phrase",
+            "requirement": "\\textit{CGEL}'s statement, recorded as stated: quantificational \\mention{plenty} is categorized as a common noun whose use resists modification. \"Resists\" is weaker than a categorical ban, and the fixed status vocabulary cannot express that difference (see exceptions.json)."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "Separate condition on determination: the same statement says the use resists determination; that is a distinct restriction from the modification restriction and is recorded here without merging the two."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Role in the argument: restricted dependents on the common-noun side show established common nouns approaching the determinative profile."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "M",
+            "quote": "\\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification"
+          },
+          {
+            "source_id": "M",
+            "quote": "Established common nouns thus approach the determinative profile as determinatives approach theirs."
+          }
+        ]
+      },
+      {
+        "id": "X109",
+        "lexeme_id": "lex_rich",
+        "form": "rich",
+        "construction_id": "independent_argument",
+        "status": "licensed",
+        "conditions": [
+          {
+            "bearer": "outer_np",
+            "requirement": "Determination requirement: on the generic human reading, an NP with \\mention{rich} as fused head requires the definite article \\mention{the}."
+          },
+          {
+            "bearer": "own_phrase",
+            "requirement": "Number and agreement: generic human \\mention{the rich} is a plural NP and takes plural agreement, although its adjective lacks number inflection; it still takes adverb modifiers, as in \\mention{the very rich}."
+          },
+          {
+            "bearer": "construction",
+            "requirement": "Contrast drawn: independent \\mention{some} can form a one-word NP, whereas the generic human reading of \\mention{rich} requires \\mention{the}; the manuscript calls this a local contrast, since argument NPs headed by singular count common nouns also need determination, and notes that fused-head AdjPs prevent a simple inference from argument positions to nounhood."
+          }
+        ],
+        "evidence": [
+          {
+            "source_id": "M",
+            "quote": "Independent \\mention{some} can form a one-word NP, whereas an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading"
+          },
+          {
+            "source_id": "M",
+            "quote": "That's a local contrast: argument NPs headed by singular count common nouns also need determination."
+          },
+          {
+            "source_id": "M",
+            "quote": "Generic human \\mention{the rich}, by contrast, is a plural NP whose adjective lacks number inflection and still takes adverb modifiers: \\mention{the very rich}"
+          },
+          {
+            "source_id": "M",
+            "quote": "Plural agreement likewise occurs with adjective-containing \\mention{the rich}, whose adjective lacks number inflection"
+          },
+          {
+            "source_id": "M",
+            "quote": "Independent uses containing fused-head adjective phrases (AdjPs) prevent a simple inference from these positions to nounhood. \\mention{The rich} and \\mention{the poor} can fill nominal argument positions."
+          }
+        ]
+      }
+    ],
+    "scope_checks": []
+  },
+  "exact_source_excerpts": [
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:136-149",
+      "text": "\\subsection{The connection from quantificational common nouns}\\label{sec:quant-nouns}\n\nQuantificational common nouns make the connection more specific than shared quantity meanings. I use \\term{quantifier} across lexical categories for expressions specifying quantity. In \\mention{a lot of the delegates} and \\mention{many of the delegates}, both heads quantify over a partitive \\term{domain}: the whole from which a quantity is drawn, here the delegates. But \\mention{lot} also permits \\mention{a lot of delegates}, whereas \\ungram{\\mention{many of delegates}} is excluded \\citep[349]{huddleston2002}.\n\nAgreement provides another connection. Compare the constructed \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement, against \\mention{A lot of the work was finished} and \\mention{Some of the work was finished}, with singular agreement. The whole subject NP's number depends on the complement of \\mention{of}. \\textit{CGEL} calls quantificational \\mention{lot} \\term{number-transparent} \\citep[349--350, 411--412]{huddleston2002}.\n\nSingular \\mention{each of the people} doesn't take its number from \\mention{people}; nor does ordinary \\mention{a photograph of the people}. Number transparency specifically connects quantificational \\mention{lot} with number-neutral \\mention{some}.\n\nRestricted dependents also occur on the common-noun side. \\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification \\citep[349--350]{huddleston2002}. Established common nouns thus approach the determinative profile as determinatives approach theirs.\n\nThe connection also extends beyond argument NPs. Quantificational nouns occur in degree modifiers such as \\mention{a great deal smaller} and \\mention{plenty big enough} \\citep[549--550]{huddleston2002}. Section~\\ref{sec:enough} compares these with determinative degree modifiers, including their attributive distribution. Meaning, complementation, agreement, and restricted dependents give the proposed grouping a specific basis within established Noun.\n\nCommon nouns also permit a wider range of PP and clausal complements, whereas pronouns and primary naming uses of proper nouns have much more restricted dependents \\citep[429--430, 439--443, 517--521]{huddleston2002}. The shared partitive in \\mention{a lot/some of the wine} connects these different complement systems.\n\n"
+    },
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:451-483",
+      "text": "\\subsection{Modifier selection and attachment}\\label{sec:payne}\n\nThe selection and ordering contrast in §\\ref{sec:adjectival-profile} guides the attachment analysis. Approximative and focusing modifiers have established NP parallels; the degree series selects the four gradable quantifiers. Both ordinary-Head accounts can represent that difference by distinguishing NP-peripheral modification from modification inside Nom.\n\nPeripheral modifiers attach outside an NP's internal dependents. Compare \\mention{only you}, \\mention{for almost my entire life}, and \\mention{Usually a careful driver, Anne found her mind wandering}. The modifiers precede any determiner belonging to the NP they modify. \\textit{CGEL} already assigns them NP-level attachment \\citep[430--431]{huddleston2002}. Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.\n\nIn \\mention{almost every experienced teacher}, \\mention{almost} belongs with \\mention{every}, while \\mention{experienced} modifies \\mention{teacher}. Figure~\\ref{fig:every} places \\mention{almost} at the periphery of the NP headed by \\mention{every}. That smaller NP functions as Det in the larger NP, whose ultimate head is \\mention{teacher}.\n\n\\begin{figure}[H]\n\\centering\n\\begin{forest} nominal tree\n[NP\n [{\\synnode{Det}{NP\\textsubscript{D}}}\n  [{\\synnode{Mod}{AdvP}} [\\mention{almost}]]\n  [{\\synnode{Head}{NP\\textsubscript{D}}}, head edge\n   [{\\synnode{Head}{Nom}}, head edge\n    [{\\synnode{Head}{N\\textsubscript{D}}}, head edge [\\mention{every}]]]]]\n [{\\synnode{Head}{Nom}}, head edge\n  [{\\synnode{Mod}{AdjP}} [\\mention{experienced}]]\n  [{\\synnode{Head}{N\\textsubscript{common}}}, head edge [\\mention{teacher}]]]]\n\\end{forest}\n\\caption{Peripheral \\mention{almost} modifies the smaller NP headed by \\mention{every}; the resulting \\mention{almost every} NP functions as Det. The adjective \\mention{experienced} modifies the common-noun nominal. Internal structure within the one-word modifier phrases is suppressed.}\\label{fig:every}\n\\end{figure}\n\n\\textcite[40--42]{payne2010} defend keeping \\mention{few}, \\mention{any}, and related forms in one lexical category across dependent and independent uses. In \\mention{hardly any money} and independent \\mention{hardly any}, \\mention{hardly} remains an adverb and \\mention{any} retains its category. The D-noun analysis preserves that continuity. It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute}.\n\nThe proposed analysis gives adverbs such as \\mention{very} and \\mention{too} internal attachment in dependent and independent uses alike. In \\mention{the very few people}, \\mention{very} modifies the Nom headed by \\mention{few}; the resulting \\mention{very few} NP functions as Mod in the larger NP. In \\mention{the very few who objected}, \\mention{few} remains ordinary Head and \\mention{very} remains internal. The degree relation is unchanged, and one internal permission covers both constructions. The same analysis applies to \\mention{the very many}.\n\nNP degree modifiers provide a further connection. Determinatives permit determinative premodifiers such as \\mention{this} in \\mention{this much} \\citep[393]{huddleston2002}. Comparative determinatives also take established NP modifiers: \\mention{a lot} in \\mention{a lot fewer}, alongside \\textit{CGEL}'s \\mention{a lot more than fifty} \\citep[432]{huddleston2002}. These modify the quantity expressed by the head. Under the proposed analysis, they're internal NP modifiers within its nominal projection, with permissions specific to the head and construction.\n\n\\textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in the constructed \\mention{the changes globally to the climate}. They also analyse \\mention{almost} as modifying the attributive nominal \\mention{textbook} in \\mention{an almost textbook case} \\citep[p.~75, n.~3]{payne2010}. Adverbial modification therefore isn't categorically excluded from Noun, even internally. Its broader availability with determinatives remains a difference of distribution within the proposed category.\n\nApproximatives also need internal attachment where they follow an external determiner on an independent cardinal: \\mention{the almost thirty who came}. The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.\n"
+    },
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:105-116",
+      "text": "\\ex \\mention{\\textup{[}Kim\\textup{]} left.}\\qquad \\mention{I see \\textup{[}Kim\\textup{]}.}\\qquad \\mention{with \\textup{[}Kim\\textup{]}}\n\\ex \\mention{\\textup{[}She\\textup{]} left.}\\qquad \\mention{I see \\textup{[}her\\textup{]}.}\\qquad \\mention{with \\textup{[}her\\textup{]}}\n\\ex \\mention{\\textup{[}Some\\textup{]} left.}\\qquad \\mention{I see \\textup{[}some\\textup{]}.}\\qquad \\mention{with \\textup{[}some\\textup{]}}\n\\z\\z\n\n\\end{samepage}\n\nIndependent uses containing fused-head adjective phrases (AdjPs) prevent a simple inference from these positions to nounhood. \\mention{The rich} and \\mention{the poor} can fill nominal argument positions. Comparative and superlative adjectives also head expressions without a generic human interpretation: \\textit{CGEL}'s \\mention{the most important of her criticisms} is an NP containing a partitive \\mention{of}-phrase \\citep[332--333, 416--423]{huddleston2002}.\n\nIndependent \\mention{some} can form a one-word NP, whereas an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading \\citep[417--418]{huddleston2002}. That's a local contrast: argument NPs headed by singular count common nouns also need determination.\n\nExistentials add a construction to this comparison. With possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject \\citep[1391--1393]{huddleston2002}. Section~\\ref{sec:quant-controls} compares this use with quantity words near the adjective--determinative boundary, distinguishing expressions with partitive or relative dependents from those interpreted through context alone.\n"
+    },
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:150-160",
+      "text": "\\subsection{Quantificational adjectives and nominal independence}\\label{sec:quant-controls}\n\n\\mention{Numerous people} and \\mention{many people} both quantify, but their syntax differs. Degree modification exposes a contrast: \\mention{so many mistakes} is possible, while \\ungram{\\mention{so numerous mistakes}} is excluded \\citep[539--540]{huddleston2002}. Quantity meaning and prenominal position provide a semantic control for the nominal comparison. Independent use tests whether their further distributions sustain the distinction.\n\nThe boundary already cuts through this semantic range in \\textit{CGEL}. It includes \\mention{several} among determinatives and treats quantificational \\mention{certain} and \\mention{various} as marginal members, partly on the evidence of partitives. Their \\mention{of}-phrases are hardly omissible, with speaker and register restrictions on the partitive uses \\citep[392--393, 411--413]{huddleston2002}. Predicative \\mention{Its advantages are several} and \\mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \\citep[392, 395--396]{huddleston2002}.\n\nIndependent uses extend to \\mention{numerous}, \\mention{multiple}, and \\mention{countless}. Attested examples include subject \\mention{numerous were injured}, anaphoric \\mention{are there multiple?}, and \\mention{paving the way for countless who followed him}, where a relative postmodifies the complement of \\mention{for}.\\footnote{The accompanying \\href{run:quantifier-controls.pdf}{\\textit{Quantificational controls: attestations and provenance}} preserves the comparison table, attestations, source locations, and verification limits. Descriptions in \\textit{CGEL}, constructed comparisons, positive attestations, and searches with no qualifying result are distinguished.} These selected occurrences establish overlap, without establishing equal acceptability or frequency. Assigning every independent quantity word to determinative would make independent use a circular category diagnostic.\n\nExistential occurrence doesn't decide the structural analysis either. Adjective fusion permits indefinite ordinal \\mention{a second} \\citep[416]{huddleston2002}, giving the constructed comparison \\mention{There was a second}. Plural agreement likewise occurs with adjective-containing \\mention{the rich}, whose adjective lacks number inflection \\citep[418]{huddleston2002}. The number transparency of \\mention{some} and \\mention{a lot} in §\\ref{sec:quant-nouns} supplies a more specific comparison, with explicit count and non-count domains.\n\nThe categorial significance of independent use depends on its combination with degree syntax, determination, and dependents.\n"
+    },
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:182-190",
+      "text": "\\subsection{Number, genitive marking, and reference}\\label{sec:inflection}\n\nInflection supplies several connections with established nouns, though no one contrast runs through the whole category. Common nouns typically distinguish singular and plural; proper nouns permit number inflection in restricted uses such as \\mention{the Smiths}. Demonstratives likewise distinguish \\mention{this}/\\mention{these} and \\mention{that}/\\mention{those} \\citep[373, 521]{huddleston2002}. These are contrasts between forms of a lexeme, unlike the fixed number restrictions of \\mention{each} and \\mention{several}.\n\nNumber needn't be inflectional wherever it matters. \\textit{CGEL} treats singular and plural \\mention{you} as distinct lexemes, differentiated overtly only by the reflexive forms \\mention{yourself} and \\mention{yourselves} \\citep[486]{huddleston2002}. Number-neutral \\mention{some} has no corresponding singular--plural alternation. The demonstratives supply positive morphological evidence; the absence of that alternation elsewhere doesn't distinguish determinatives from pronouns as whole categories.\n\nThe demonstrative number contrasts remain visible in independent uses. Generic human \\mention{the rich}, by contrast, is a plural NP whose adjective lacks number inflection and still takes adverb modifiers: \\mention{the very rich} \\citep[418]{huddleston2002}. The difference concerns overt paradigms, rather than the mere possession of a number value by the whole NP.\n\nCase gives a further partial connection. Genitives occur across the proposed subcategories: \\mention{dog's}, \\mention{Kim's}, \\mention{my}, and \\mention{someone's}. Personal pronouns have fuller case paradigms. Most determinatives lack case inflection, and compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component \\citep[423--424, 479--480]{huddleston2002}. This supports the compounds' nominal affinity more directly than the category's membership as a whole.\n"
+    },
+    {
+      "source_id": "M",
+      "locator": "determinatives-as-nouns.tex:263-269",
+      "text": "The argument for retaining the articles is synchronic. Grammaticalization supplies background: \\textcite[331--336]{lyons1999} discusses the development of definite articles from demonstratives and of articles expressing cardinality from numerals. These histories can explain changes in content and use, but don't establish the synchronic categorization.\n\n\\subsection{Dependent and independent forms}\\label{sec:form-selection}\n\n\\mention{No}/\\mention{none} illustrates a restriction on forms within a paradigm. \\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost} \\citep[389--390]{huddleston2002}. The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded. Form selection remains necessary, just as with \\mention{my}/\\mention{mine}.\n\nThe broader grouping preserves two distinctions: between members' permitted constructions, and between the forms selected within a paradigm.\n"
+    },
+    {
+      "source_id": "Q",
+      "locator": "quantifier-controls.tex:21-25",
+      "text": "This supplement records the independent quantificational uses discussed in §2.3 of \\textit{Determinatives as nouns in English}. It preserves the comparison table, retained attestations, and source-verification limits. The searches establish selected occurrences, without estimating their frequency or establishing an ordering of the constructions.\n\n\\textit{The Cambridge grammar of the English language} (\\textit{CGEL}; \\citealp{huddleston2002}) includes \\mention{several} among determinatives and treats quantificational \\mention{certain} and \\mention{various} as marginal members. The \\mention{of}-phrase with independent \\mention{certain} and \\mention{various} is hardly omissible. The partitive with \\mention{certain} is relatively formal; that with \\mention{various} is accepted by some speakers, primarily in American English \\citep[392--393, 411--413]{huddleston2002}.\n\nTable~\\ref{tab:quant-controls} separates NP dependents from the surrounding construction. The argument frames are \\mention{X of them}, \\mention{X who arrived left}, and anaphoric \\mention{X left}. The existential frames are \\mention{There are X of them}, \\mention{There are X who can help}, and anaphoric \\mention{Are there X?} Interpret the constructed comparisons with people under discussion. Argument use also includes complementation of prepositions. The common-noun controls retain \\mention{a} in \\mention{a lot}.\n"
+    }
+  ],
+  "prior_issue_I2": {
+    "id": "I2",
+    "record_id": "X100",
+    "severity": "material",
+    "finding": "The source states only that CGEL categorizes quantificational plenty as a common noun \"whose use resists determination and modification\". The status \"excluded\" asserts a categorical exclusion the source does not state; no ungrammaticality mark or excluding wording is given for modified plenty, unlike the other excluded records (X059-X061, X075, X088, X097, X099). It also conflicts with the treatment of comparable stated restrictions (X015, X021 \"hardly omissible\"; X101 \"permits only limited modification\"), and the extraction's own exceptions entry concedes the status overstates the source.",
+    "source_ids": [
+      "M"
+    ],
+    "revision_instruction": "Change X100's status so it does not assert a ban, using the same non-categorical rendering applied to the other stated restrictions: status licensed, with CGEL's \"resists ... modification\" wording as an own_phrase condition and the determination restriction retained as a separate condition (do not merge them), evidence unchanged. Expand the existing X100 exceptions entry to state that neither fixed status expresses \"resists\", so the record asserts neither permission nor exclusion beyond the quoted wording."
+  },
+  "relevant_exceptions": [
+    {
+      "query_id": "X100",
+      "reason": "The source states that quantificational \\mention{plenty} is a common noun \"whose use resists determination and modification\". \"Resists\" is a restriction weaker than a categorical ban, and the fixed statuses offer no intermediate value: \"licensed\" would drop the restriction and \"not_stated\" would deny that the documents address it. The record uses \"excluded\" with the source wording preserved as a condition, but the status field overstates the source: no ungrammaticality judgment or starred example is given for modified \\mention{plenty}. The parallel statement about determination is a separate restriction and is recorded as a separate condition, not merged with the modification one.",
+      "evidence": [
+        {
+          "source_id": "M",
+          "quote": "\\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification"
+        }
+      ]
+    },
+    {
+      "query_id": "X067",
+      "reason": "Function split not representable. The documents distinguish the dependent form \\mention{no} from the independent form \\mention{none} and state that the partitive requires the independent form, but the construction vocabulary carries no dependent/independent parameter for peripheral modification (and independent_argument merges subject, object and complement-of-preposition uses), so the no/none function split can ride only in conditions. The record also reports \\mention{almost} with \\mention{none} on the strength of the statement that both forms permit \\mention{almost}; the sequence \\mention{almost none} is not itself written out in either document.",
+      "evidence": [
+        {
+          "source_id": "M",
+          "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+        },
+        {
+          "source_id": "M",
+          "quote": "The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded."
+        }
+      ]
+    }
+  ]
+}

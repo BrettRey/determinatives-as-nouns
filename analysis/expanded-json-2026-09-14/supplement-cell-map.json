@@ -1,0 +1,326 @@
+[
+  {
+    "query_id": "X001",
+    "form": "many",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X002",
+    "form": "many",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X003",
+    "form": "many",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X004",
+    "form": "many",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X005",
+    "form": "many",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X006",
+    "form": "many",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X007",
+    "form": "several",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X008",
+    "form": "several",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X009",
+    "form": "several",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X010",
+    "form": "several",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X011",
+    "form": "several",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X012",
+    "form": "several",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X013",
+    "form": "certain",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X014",
+    "form": "certain",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X015",
+    "form": "certain",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X016",
+    "form": "certain",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X017",
+    "form": "certain",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X018",
+    "form": "certain",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X019",
+    "form": "various",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X020",
+    "form": "various",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X021",
+    "form": "various",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X022",
+    "form": "various",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X023",
+    "form": "various",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X024",
+    "form": "various",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X025",
+    "form": "numerous",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X026",
+    "form": "numerous",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X027",
+    "form": "numerous",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X028",
+    "form": "numerous",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X029",
+    "form": "numerous",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X030",
+    "form": "numerous",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X031",
+    "form": "multiple",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X032",
+    "form": "multiple",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X033",
+    "form": "multiple",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X034",
+    "form": "multiple",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X035",
+    "form": "multiple",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X036",
+    "form": "multiple",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X037",
+    "form": "countless",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X038",
+    "form": "countless",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X039",
+    "form": "countless",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X040",
+    "form": "countless",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X041",
+    "form": "countless",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X042",
+    "form": "countless",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X043",
+    "form": "lot",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X044",
+    "form": "lot",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X045",
+    "form": "lot",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X046",
+    "form": "lot",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X047",
+    "form": "lot",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X048",
+    "form": "lot",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X049",
+    "form": "plenty",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X050",
+    "form": "plenty",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X051",
+    "form": "plenty",
+    "surrounding_construction": "argument",
+    "dependent_configuration": "no dependent"
+  },
+  {
+    "query_id": "X052",
+    "form": "plenty",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "partitive"
+  },
+  {
+    "query_id": "X053",
+    "form": "plenty",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "relative"
+  },
+  {
+    "query_id": "X054",
+    "form": "plenty",
+    "surrounding_construction": "existential",
+    "dependent_configuration": "no dependent"
+  }
+]

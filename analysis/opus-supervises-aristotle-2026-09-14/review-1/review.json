@@ -1,0 +1,64 @@
+{
+  "decision": "revise",
+  "summary": "Reviewed all 7 lexemes, 5 constructions, 20 participation claims and 2 scope checks against S01–S11. Statuses track the source: table dashes (\"A dash marks absence\") support the exclusions (P02, P05, P12, P20); P17 keeps the \"normally\" hedge; P19 is correctly not_stated, since no excerpt addresses some as an adjective degree modifier (S07 concerns this much). Bearers keep possessor/possessed and own_phrase/target/outer NP distinct, with no permission transferred across levels or constructions. Conditions carry the required restrictions: some/few dependent exclusions, independent partitive/relative permissions, the lucky few determination, no/none and my/mine form selection, and the fragment-scope caveat on dependent genitives. One fix: the closing clause of scope check the_few_people recasts S07's permission as the \"only\" target restriction on the, which the source does not state.",
+  "issues": [
+    {
+      "id": "I1",
+      "record_id": "the_few_people",
+      "severity": "minor",
+      "finding": "The closing clause — \"the relevant target restriction on the is only that the nominal it determines may itself be headed by an independent determinative, as in the few\" — misstates the source. S05 gives the's target restriction as \"No count or number restriction\"; S07 says target restrictions apply to nominals \"including a nominal headed by an independent determinative\", so that is a permitted target type, not the sole restriction on the. The 'only' exhaustivity claim is unsupported, and in the few people (S10) the's target is the nominal headed by people, not a determinative-headed nominal.",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S10"
+      ],
+      "revision_instruction": "In scope_checks[the_few_people].answer, replace the final clause after \"These are the two distinguished uses of few\" with source-tracking wording such as: \"and the carries no count or number restriction on its target, with target restrictions applying also to a nominal headed by an independent determinative, which is why the permits plural few in the few.\" Leave the rest of the answer and all evidence quotes unchanged."
+    }
+  ],
+  "reviewed_ids": {
+    "lexemes": [
+      "lex_the",
+      "lex_every",
+      "lex_some",
+      "lex_few",
+      "lex_no",
+      "lex_my",
+      "lex_book"
+    ],
+    "constructions": [
+      "dependent_det",
+      "dependent_internal_mod",
+      "independent_argument",
+      "independent_partitive",
+      "degree_modifier_adj"
+    ],
+    "participation_claims": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20"
+    ],
+    "scope_checks": [
+      "the_apple",
+      "the_few_people"
+    ]
+  },
+  "unresolved": [],
+  "responsibility_notice": ""
+}

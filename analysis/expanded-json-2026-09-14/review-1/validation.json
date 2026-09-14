@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "quotes_checked": 654,
+  "counts": {
+    "lexemes": 34,
+    "constructions": 11,
+    "participation_claims": 110,
+    "scope_checks": 6
+  },
+  "exception_entries": 20,
+  "exception_quotes_checked": 60
+}

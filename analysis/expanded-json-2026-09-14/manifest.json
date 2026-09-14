@@ -1,0 +1,129 @@
+{
+  "status": "complete",
+  "finished_at": "2026-09-14T22:14:36.432482+00:00",
+  "final_supervisor_decision": "accept",
+  "further_correction_requests": 0,
+  "source_schema_limits_remaining": [
+    "The four searched-but-unattested cells X014/X018/X023/X024 and the unresolved modification judgment for plenty X100 use not_stated for different reasons; the distinctions and source evidence are retained in exceptions.json.",
+    "The restricted R cells X015/X021 remain licensed only with the hardly-omissible qualification in conditions; the bare status is not an unqualified judgment.",
+    "G/R/I/S and attestation provenance are stored in prose conditions/evidence rather than a separate evidence-state field.",
+    "Identity of lots/heaps relative to lot/heap and the lexeme bearer of complex a few remain provisional or unsettled in the supplied sources.",
+    "Target-selection details for enough and many, and attachment of completeness modifiers, are not supplied by these documents.",
+    "X067 attributes peripheral attachment to the manuscript’s general analysis, with no none-specific attachment statement. X109 explicitly fixes the own_phrase/outer_np convention for the fused adjective control.",
+    "Some distinctions, including post-head enough and individual subject/object/preposition-complement roles, exceed this bounded construction catalog or remain in query/condition prose."
+  ],
+  "coverage": {
+    "lexeme_entries": 34,
+    "lexemes_with_new_queries": 33,
+    "retained_unqueried_entries": [
+      "lex_book"
+    ],
+    "construction_entries": 11,
+    "new_participation_claims": 110,
+    "supplement_cells": 54,
+    "additional_main_manuscript_queries": 56,
+    "scope_checks": 6,
+    "scope_is_exhaustive_lexicon": false
+  },
+  "final_status_counts": {
+    "licensed": 98,
+    "not_stated": 5,
+    "excluded": 7
+  },
+  "corrections": {
+    "changed_claims": 7,
+    "changed_claim_fraction": 0.06363636363636363,
+    "changed_claim_ids": [
+      "X012",
+      "X030",
+      "X037",
+      "X042",
+      "X067",
+      "X100",
+      "X109"
+    ],
+    "changed_scope_ids": [
+      "search_nonfinding_vs_unstated"
+    ],
+    "status_changes": {
+      "X100": {
+        "before": "excluded",
+        "after": "not_stated"
+      }
+    },
+    "first_full_review_identified_claims": [
+      "X012",
+      "X030",
+      "X037",
+      "X042",
+      "X100"
+    ],
+    "parent_sample_added_claims": [
+      "X067",
+      "X109"
+    ],
+    "parent_challenged_initial_supervisor_remedy": "X100 licensed proposal replaced with not_stated after focused Opus reconsideration",
+    "errors_not_equivalent_to_a_benchmark_accuracy_score": true
+  },
+  "validation": {
+    "errors": [],
+    "quotes_checked": 659,
+    "counts": {
+      "lexemes": 34,
+      "constructions": 11,
+      "participation_claims": 110,
+      "scope_checks": 6
+    },
+    "exception_entries": 21,
+    "exception_quotes_checked": 67
+  },
+  "source_files_unchanged": {
+    "determinatives-as-nouns.tex": true,
+    "quantifier-controls.tex": true
+  },
+  "schema_shape_and_status_bearers_unchanged": true,
+  "identifier_enums_and_construction_catalog_expanded": true,
+  "supervisory_usage": {
+    "all_opus_phase_elapsed_seconds": 1460.77,
+    "scope_elapsed_seconds": 902.58,
+    "review_resolution_recheck_elapsed_seconds": 558.19,
+    "per_model_totals": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 255569,
+        "cacheCreationInputTokens": 0,
+        "cacheReadInputTokens": 0,
+        "outputTokens": 67,
+        "thinkingTokens": 0,
+        "costUSD": 0.255904,
+        "processed_input_tokens": 255569,
+        "nonthinking_output_tokens": 67
+      },
+      "claude-opus-5": {
+        "inputTokens": 8,
+        "cacheCreationInputTokens": 346525,
+        "cacheReadInputTokens": 3708,
+        "outputTokens": 122546,
+        "thinkingTokens": 98843,
+        "costUSD": 6.530794,
+        "processed_input_tokens": 350241,
+        "nonthinking_output_tokens": 23703
+      }
+    },
+    "all_cli_reported_cost_usd": 6.786698,
+    "cost_is_cli_estimate_not_subscription_billing": true,
+    "root_token_savings_measured": false,
+    "direct_opus_expansion_comparison_run": false
+  },
+  "aristotle": {
+    "project_id": "db165175-a8d0-4f52-9415-c0197eb9dddf",
+    "initial_task_id": "90184e33-5901-4aab-bf32-82504f4a64e7",
+    "correction_task_id": "3ee13e27-24f2-4672-829d-208dfefccc8d",
+    "initial_completion_observed_seconds": 1525.24,
+    "correction_service_elapsed": "7m 36s",
+    "status_stream_interruptions": 1,
+    "correction_completion_checker_errors_recovered": true,
+    "resume_requests": 0,
+    "added_timeout": null
+  },
+  "parent_verification": "Six preregistered sample records, exception notes, changed fields, full mechanical validation, coverage and source hashes; no full semantic rereview by parent."
+}

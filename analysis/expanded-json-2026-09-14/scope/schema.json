@@ -1,0 +1,109 @@
+{
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "lexeme_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "construction_catalog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "form": {
+            "type": "string"
+          },
+          "lexeme_id": {
+            "type": "string"
+          },
+          "construction_id": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "form",
+          "lexeme_id",
+          "construction_id",
+          "request"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "scope_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "question"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "coverage_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "omitted_or_ambiguous": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "responsibility_notice": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "summary",
+    "lexeme_ids",
+    "construction_catalog",
+    "queries",
+    "scope_checks",
+    "coverage_notes",
+    "omitted_or_ambiguous",
+    "responsibility_notice"
+  ],
+  "additionalProperties": false
+}

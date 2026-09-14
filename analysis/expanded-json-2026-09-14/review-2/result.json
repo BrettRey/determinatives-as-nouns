@@ -1,0 +1,23 @@
+{
+  "decision": "accept",
+  "summary": "Focused recheck of the seven changed participation records and one changed scope answer. X012 now records the manuscript's constructed There are several as a separate condition with an exact M quote, kept distinct from the supplement's \"Are there several?\" I cell. X030, X042 and X037 add the running-text Q quotes grounding the antecedent and academic-prose claims; statuses and other conditions unchanged. X100 is not_stated with empty conditions and evidence, its exceptions entry retaining CGEL's \"resists\" wording, the separate determination restriction, and the open participation judgment. X067 stays licensed and attributes peripheral attachment to the manuscript's general approximative analysis, noting the cardinal counter-case, with no none-specific attachment claim. X109 splits plural NP status and agreement (outer_np) from the fused-head adjective's properties (own_phrase). Spot-checked quotes are exact substrings; G/R/I/S, attestation scope and schema limits remain documented in exceptions.json and the scope answers.",
+  "issues": [],
+  "reviewed_ids": {
+    "lexemes": [],
+    "constructions": [],
+    "participation_claims": [
+      "X012",
+      "X030",
+      "X037",
+      "X042",
+      "X067",
+      "X100",
+      "X109"
+    ],
+    "scope_checks": [
+      "search_nonfinding_vs_unstated"
+    ]
+  },
+  "unresolved": [],
+  "responsibility_notice": ""
+}

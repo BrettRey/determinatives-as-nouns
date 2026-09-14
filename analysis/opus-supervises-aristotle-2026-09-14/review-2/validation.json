@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "quotes_checked": 56,
+  "counts": {
+    "lexemes": 7,
+    "constructions": 5,
+    "participation_claims": 20,
+    "scope_checks": 2
+  }
+}

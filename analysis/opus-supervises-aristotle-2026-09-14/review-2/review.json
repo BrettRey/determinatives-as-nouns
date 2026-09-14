@@ -1,0 +1,15 @@
+{
+  "decision": "accept",
+  "summary": "Focused recheck of the one changed record, scope_checks[the_few_people]. Prior issue I1 is resolved: the unsupported \"only\" exhaustivity claim about the's target restriction is gone, replaced with source-tracking wording — \"no count or number restriction\" matches S05's table entry for the, and \"target restrictions applying also to a nominal headed by an independent determinative, which is why the permits plural few in the few\" matches S07's \"including\" formulation without treating it as the sole restriction. The core answer still tracks S10 (few's phrase is internal Mod of the nominal headed by people; the lucky few has few heading the independently determined NP) and S09 (dependent few excludes external determination within its own phrase; independent few permits definite determination and adjectival premodification). All four evidence quotes are exact substrings of S07, S09, S10; script reports no mechanical errors. No new issues.",
+  "issues": [],
+  "reviewed_ids": {
+    "lexemes": [],
+    "constructions": [],
+    "participation_claims": [],
+    "scope_checks": [
+      "the_few_people"
+    ]
+  },
+  "unresolved": [],
+  "responsibility_notice": ""
+}

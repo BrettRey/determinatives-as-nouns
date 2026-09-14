@@ -1,0 +1,915 @@
+{
+  "summary": "Query scope for the expanded extraction: 110 new participation queries (none repeating P01–P20), comprising all 54 comparison cells of the quantifier supplement (nine expressions × argument vs existential surrounding construction × partitive-PP / relative-clause / no-dependent configuration) plus 56 further lexeme–use combinations from the main manuscript, concentrated on degree uses, modifier-attachment contrasts, form-sensitive alternations, quantificational common nouns, compounds, and the manuscript's own adjectival and nominal controls. The construction catalog keeps the five original definitions verbatim and adds six clearly distinct ones (existential displaced subject, internal and peripheral modifier admission, comparative complement, non-adjectival degree modification, predicative complement); the three dependent configurations and the six supplement frames are carried in query wording rather than multiplied into constructions. Queries name the exact form, frame and construction to be tested and instruct that evidential basis (CGEL description, CGEL-stated restriction, constructed illustration, retained attestation, or bounded search with nothing retained), stated variation, and source-verification limits be carried into the records; they never state the outcome. Distinctions the fixed status vocabulary cannot carry faithfully — notably R-type \"hardly omissible\" restrictions, the G/R/I/S evidential split, and searched-with-no-retained-attestation cells — are flagged rather than settled by wording, and 34 lexeme identifiers (7 retained, 27 new) are proposed with expression-level material such as the article of a lot, a few and a great deal kept in query context rather than folded into a form.",
+  "lexeme_ids": [
+    "lex_the",
+    "lex_every",
+    "lex_some",
+    "lex_few",
+    "lex_no",
+    "lex_my",
+    "lex_book",
+    "lex_a",
+    "lex_many",
+    "lex_much",
+    "lex_little",
+    "lex_several",
+    "lex_all",
+    "lex_both",
+    "lex_any",
+    "lex_enough",
+    "lex_this",
+    "lex_that",
+    "lex_anyone",
+    "lex_something",
+    "lex_certain",
+    "lex_various",
+    "lex_numerous",
+    "lex_multiple",
+    "lex_countless",
+    "lex_plenty",
+    "lex_lot",
+    "lex_lots",
+    "lex_heaps",
+    "lex_deal",
+    "lex_ten",
+    "lex_thirty",
+    "lex_rich",
+    "lex_second"
+  ],
+  "construction_catalog": [
+    {
+      "id": "dependent_det",
+      "description": "A phrase functions as Det before a separate target nominal."
+    },
+    {
+      "id": "dependent_internal_mod",
+      "description": "A phrase functions as internal Mod before a separate target nominal."
+    },
+    {
+      "id": "independent_argument",
+      "description": "A phrase has an ordinary subject, object, or preposition-complement use without a separate target nominal."
+    },
+    {
+      "id": "independent_partitive",
+      "description": "An independent phrase contains a partitive of-PP."
+    },
+    {
+      "id": "degree_modifier_adj",
+      "description": "A phrase functions as a degree modifier of an adjective."
+    },
+    {
+      "id": "existential_displaced_subject",
+      "description": "A phrase functions as displaced subject in an existential there-construction, with dummy there as subject."
+    },
+    {
+      "id": "internal_mod_admission",
+      "description": "A phrase admits a modifier attached inside its own nominal projection; the query states the modifier and its position."
+    },
+    {
+      "id": "peripheral_mod_admission",
+      "description": "A phrase admits a peripheral modifier attached outside its own determiner and internal nominal dependents; the query states the modifier."
+    },
+    {
+      "id": "comparative_complement",
+      "description": "A phrase contains a comparative than-phrase complement."
+    },
+    {
+      "id": "degree_modifier_nonadj",
+      "description": "A phrase functions as a degree modifier of a non-adjectival target; the query states the target category."
+    },
+    {
+      "id": "predicative_complement",
+      "description": "A phrase functions as predicative complement of a copular verb."
+    }
+  ],
+  "queries": [
+    {
+      "id": "X001",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "independent_partitive",
+      "request": "Independent many with a partitive of-PP in the supplement's argument frame many of them. Record the evidential basis the supplement assigns this cell and any qualification stated with it."
+    },
+    {
+      "id": "X002",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "independent_argument",
+      "request": "Independent many with a relative-clause postmodifier in the argument frame many who arrived left. Record the evidential basis stated for this cell, including any interpretive condition the supplement attaches to it."
+    },
+    {
+      "id": "X003",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric many with no NP dependent in the argument frame many left, with people under discussion. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X004",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "existential_displaced_subject",
+      "request": "Many as existential displaced subject with a partitive of-PP, frame There are many of them. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X005",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "existential_displaced_subject",
+      "request": "Many as existential displaced subject with a relative-clause postmodifier, frame There are many who can help. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X006",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "existential_displaced_subject",
+      "request": "Many as existential displaced subject with no NP dependent, frame Are there many? Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X007",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "independent_partitive",
+      "request": "Independent several with a partitive of-PP in the argument frame several of them. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X008",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "independent_argument",
+      "request": "Independent several with a relative-clause postmodifier in the argument frame several who arrived left. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X009",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric several with no NP dependent in the argument frame several left. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X010",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "existential_displaced_subject",
+      "request": "Several as existential displaced subject with a partitive of-PP, frame There are several of them. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X011",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "existential_displaced_subject",
+      "request": "Several as existential displaced subject with a relative-clause postmodifier, frame There are several who can help. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X012",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "existential_displaced_subject",
+      "request": "Several as existential displaced subject with no NP dependent, frame Are there several? Record the evidential basis stated for this cell, and note the main manuscript's constructed There are several if it bears on it."
+    },
+    {
+      "id": "X013",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "independent_partitive",
+      "request": "Independent quantificational certain with a partitive of-PP in the argument frame certain of them. Record the evidential basis and carry CGEL's stated register qualification on this partitive as a condition."
+    },
+    {
+      "id": "X014",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "independent_argument",
+      "request": "Independent certain with a relative-clause postmodifier in the argument frame certain who arrived left. Record what the supplement reports for this cell, and do not convert a bounded search result into an exclusion."
+    },
+    {
+      "id": "X015",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric certain with no NP dependent in the argument frame certain left. Record the evidential basis and carry CGEL's statement about omission of the of-phrase as a stated restriction, not as a categorical ban."
+    },
+    {
+      "id": "X016",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "existential_displaced_subject",
+      "request": "Certain as existential displaced subject with a partitive of-PP, frame There are certain of them. If the supplement records an attestation for this cell, carry its speaker or source, date, corpus record and every stated verification limit."
+    },
+    {
+      "id": "X017",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "existential_displaced_subject",
+      "request": "Certain as existential displaced subject with a relative-clause postmodifier, frame There are certain who can help. If the supplement records an attestation, carry its provenance and stated verification limits, including any unchecked original-language or audio caveat."
+    },
+    {
+      "id": "X018",
+      "form": "certain",
+      "lexeme_id": "lex_certain",
+      "construction_id": "existential_displaced_subject",
+      "request": "Certain as existential displaced subject with no NP dependent, frame Are there certain? Record exactly what the supplement reports for this cell without treating a bounded search result as an exclusion."
+    },
+    {
+      "id": "X019",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "independent_partitive",
+      "request": "Independent quantificational various with a partitive of-PP in the argument frame various of them. Record the evidential basis and carry CGEL's stated speaker and variety qualification on this partitive as a condition."
+    },
+    {
+      "id": "X020",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "independent_argument",
+      "request": "Independent various with a relative-clause postmodifier in the argument frame various who arrived left. If the supplement records an attestation, carry its speaker, publication, date, corpus record and stated verification limits."
+    },
+    {
+      "id": "X021",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric various with no NP dependent in the argument frame various left. Record the evidential basis and carry CGEL's statement about omission of the of-phrase as a stated restriction, not as a categorical ban."
+    },
+    {
+      "id": "X022",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "existential_displaced_subject",
+      "request": "Various as existential displaced subject with a partitive of-PP, frame There are various of them. If the supplement records an attestation, carry its provenance, surrounding context and stated verification limits."
+    },
+    {
+      "id": "X023",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "existential_displaced_subject",
+      "request": "Various as existential displaced subject with a relative-clause postmodifier, frame There are various who can help. Record exactly what the supplement reports for this cell without treating a bounded search result as an exclusion."
+    },
+    {
+      "id": "X024",
+      "form": "various",
+      "lexeme_id": "lex_various",
+      "construction_id": "existential_displaced_subject",
+      "request": "Various as existential displaced subject with no NP dependent, frame Are there various? Record exactly what the supplement reports for this cell without treating a bounded search result as an exclusion."
+    },
+    {
+      "id": "X025",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "independent_partitive",
+      "request": "Independent numerous with a partitive of-PP in the argument frame numerous of them. If the supplement records an attestation, carry its source, date, the route by which it was verified, and the stated limit on checking the original."
+    },
+    {
+      "id": "X026",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "independent_argument",
+      "request": "Independent numerous with a relative-clause postmodifier in the argument frame numerous who arrived left. If the supplement records an attestation, carry its publication, date, corpus record, antecedent and stated verification limits."
+    },
+    {
+      "id": "X027",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric numerous with no NP dependent in the argument frame numerous left. If the supplement records an attestation, carry its provenance and context, and keep the scope of the finding to that occurrence."
+    },
+    {
+      "id": "X028",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "existential_displaced_subject",
+      "request": "Numerous as existential displaced subject with a partitive of-PP, frame There are numerous of them. If the supplement records an attestation, carry its interview source, date, antecedent and stated verification limits."
+    },
+    {
+      "id": "X029",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "existential_displaced_subject",
+      "request": "Numerous as existential displaced subject with a relative-clause postmodifier, frame There are numerous who can help. If the supplement records an attestation, carry its provenance and any caveat about the original language of the reported speech."
+    },
+    {
+      "id": "X030",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "existential_displaced_subject",
+      "request": "Numerous as existential displaced subject with no NP dependent, frame Are there numerous? If the supplement records an attestation, carry its provenance, the context that supplies the interpretation, and stated verification limits."
+    },
+    {
+      "id": "X031",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "independent_partitive",
+      "request": "Independent multiple with a partitive of-PP in the argument frame multiple of them. If the supplement records an attestation, carry its corpus record, surrounding phrase and the stated limit on the original page; note the exclusion of mathematical multiple from the retained material."
+    },
+    {
+      "id": "X032",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "independent_argument",
+      "request": "Independent multiple with a relative-clause postmodifier in the argument frame multiple who arrived left. If the supplement records an attestation, carry its publication, corpus record date and stated verification limits."
+    },
+    {
+      "id": "X033",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric multiple with no NP dependent in the argument frame multiple left. If the supplement records an attestation, carry its publication, date and whether the original page was checked."
+    },
+    {
+      "id": "X034",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "existential_displaced_subject",
+      "request": "Multiple as existential displaced subject with a partitive of-PP, frame There are multiple of them. If the supplement records an attestation, carry its publication, date and antecedent."
+    },
+    {
+      "id": "X035",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "existential_displaced_subject",
+      "request": "Multiple as existential displaced subject with a relative-clause postmodifier, frame There are multiple that are cited. If the supplement records an attestation, carry its document, page and line location and what the expression refers to."
+    },
+    {
+      "id": "X036",
+      "form": "multiple",
+      "lexeme_id": "lex_multiple",
+      "construction_id": "existential_displaced_subject",
+      "request": "Multiple as existential displaced subject with no NP dependent, frame Are there multiple? If the supplement records an attestation, carry its transcript source, the preceding question that supplies the interpretation, and the noted discrepancy between record and update dates."
+    },
+    {
+      "id": "X037",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "independent_partitive",
+      "request": "Independent countless with a partitive of-PP in the argument frame countless of them. If the supplement records an attestation, carry its author, journal, year, corpus record and the syntactic role noted for the NP."
+    },
+    {
+      "id": "X038",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "independent_argument",
+      "request": "Independent countless with a relative-clause postmodifier in the argument frame countless who arrived left. If the supplement records an attestation, carry its publication, corpus record date and the stated limit on retrieving the original URL."
+    },
+    {
+      "id": "X039",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "independent_argument",
+      "request": "Independent anaphoric countless with no NP dependent in the argument frame countless left. If the supplement records an attestation, carry its author, publication, date and the preceding context that supplies the interpretation."
+    },
+    {
+      "id": "X040",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "existential_displaced_subject",
+      "request": "Countless as existential displaced subject with a partitive of-PP, frame There are countless of them. If the supplement records an attestation, carry its publication, date, antecedent and corpus record."
+    },
+    {
+      "id": "X041",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "existential_displaced_subject",
+      "request": "Countless as existential displaced subject with a relative-clause postmodifier, frame There are countless who can help. If the supplement records an attestation, carry its publication, date and corpus record."
+    },
+    {
+      "id": "X042",
+      "form": "countless",
+      "lexeme_id": "lex_countless",
+      "construction_id": "existential_displaced_subject",
+      "request": "Countless as existential displaced subject with no NP dependent, frame Are there countless? If the supplement records an attestation, carry its publication, corpus record date, the context that supplies the interpretation and the stated limit on the original page."
+    },
+    {
+      "id": "X043",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_partitive",
+      "request": "Quantificational lot with a partitive of-PP in the argument frame a lot of them. Treat the retained article as part of the frame, not as part of the form, and record the evidential basis the supplement assigns this common-noun control."
+    },
+    {
+      "id": "X044",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_argument",
+      "request": "Quantificational lot with a relative-clause postmodifier in the argument frame a lot who arrived left, with the article in the frame. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X045",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_argument",
+      "request": "Quantificational lot with no NP dependent in the anaphoric argument frame a lot left, with the article in the frame. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X046",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational lot as existential displaced subject with a partitive of-PP, frame There are a lot of them. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X047",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational lot as existential displaced subject with a relative-clause postmodifier, frame There are a lot who can help. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X048",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational lot as existential displaced subject with no NP dependent, frame Are there a lot? Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X049",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "independent_partitive",
+      "request": "Quantificational plenty with a partitive of-PP in the argument frame plenty of them. Record the evidential basis the supplement assigns this common-noun control and any CGEL qualification carried with it."
+    },
+    {
+      "id": "X050",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "independent_argument",
+      "request": "Quantificational plenty with a relative-clause postmodifier in the argument frame plenty who arrived left. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X051",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "independent_argument",
+      "request": "Quantificational plenty with no NP dependent in the anaphoric argument frame plenty left. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X052",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational plenty as existential displaced subject with a partitive of-PP, frame There are plenty of them. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X053",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational plenty as existential displaced subject with a relative-clause postmodifier, frame There are plenty who can help. Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X054",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "existential_displaced_subject",
+      "request": "Quantificational plenty as existential displaced subject with no NP dependent, frame Are there plenty? Record the evidential basis stated for this cell."
+    },
+    {
+      "id": "X055",
+      "form": "few",
+      "lexeme_id": "lex_few",
+      "construction_id": "internal_mod_admission",
+      "request": "Few taking a degree adverb of the very / so / too / how / as ... as series inside its own projection, in dependent uses such as very few mistakes and in independent uses such as the very few who objected. Record which uses the manuscript covers and the attachment it assigns."
+    },
+    {
+      "id": "X056",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "internal_mod_admission",
+      "request": "Many taking a degree adverb of the very / so / too / how series inside its own projection, as in so many mistakes and the very many. Record the attachment assigned and any restriction on the series."
+    },
+    {
+      "id": "X057",
+      "form": "much",
+      "lexeme_id": "lex_much",
+      "construction_id": "internal_mod_admission",
+      "request": "Much taking a degree adverb of the very / so / too / how series inside its own projection. Record whether the manuscript states this for much individually or as one of the grade-inflecting determinatives."
+    },
+    {
+      "id": "X058",
+      "form": "little",
+      "lexeme_id": "lex_little",
+      "construction_id": "internal_mod_admission",
+      "request": "Little taking a degree adverb of the very / so / too / how series inside its own projection. Record whether the manuscript states this for little individually or as one of the grade-inflecting determinatives."
+    },
+    {
+      "id": "X059",
+      "form": "some",
+      "lexeme_id": "lex_some",
+      "construction_id": "internal_mod_admission",
+      "request": "Some taking the degree adverb very inside its own projection, as in the sequence very some. Record what the manuscript states and the property it appeals to."
+    },
+    {
+      "id": "X060",
+      "form": "every",
+      "lexeme_id": "lex_every",
+      "construction_id": "internal_mod_admission",
+      "request": "Every taking the degree adverb very inside its own projection, as in the sequence very every. Record what the manuscript states and the property it appeals to."
+    },
+    {
+      "id": "X061",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "internal_mod_admission",
+      "request": "Attributive numerous taking the degree adverb so, as in the sequence so numerous mistakes. Record what the manuscript states and how it uses this against so many mistakes."
+    },
+    {
+      "id": "X062",
+      "form": "few",
+      "lexeme_id": "lex_few",
+      "construction_id": "internal_mod_admission",
+      "request": "The degree adverb very inside the complex determinative a few, as in a very few mistakes. Treat the article as part of the stated complex determinative context; record the attachment and the ordering condition, including the status of the reversed sequence very a few."
+    },
+    {
+      "id": "X063",
+      "form": "few",
+      "lexeme_id": "lex_few",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The modifier quite outside the complex determinative a few, as in quite a few mistakes. Record the attachment and the ordering condition, including the status of the sequence a quite few."
+    },
+    {
+      "id": "X064",
+      "form": "every",
+      "lexeme_id": "lex_every",
+      "construction_id": "peripheral_mod_admission",
+      "request": "Every with the approximative almost, as in almost every and almost every experienced teacher. Record the attachment the manuscript assigns, what almost is said to apply to, and that this is an analytical commitment rather than a CGEL assignment where the manuscript says so."
+    },
+    {
+      "id": "X065",
+      "form": "any",
+      "lexeme_id": "lex_any",
+      "construction_id": "peripheral_mod_admission",
+      "request": "Any with hardly, in the dependent hardly any money and the independent hardly any. Record the attachment assigned and whether the same permission is said to cover both uses."
+    },
+    {
+      "id": "X066",
+      "form": "no",
+      "lexeme_id": "lex_no",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The dependent form no with approximative or focusing modifiers, as in practically no and almost no. Record the attachment assigned and which modifiers the documents actually exemplify for this form."
+    },
+    {
+      "id": "X067",
+      "form": "none",
+      "lexeme_id": "lex_no",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The independent form none with almost. Record what the documents state about this form in comparison with dependent no."
+    },
+    {
+      "id": "X068",
+      "form": "ten",
+      "lexeme_id": "lex_ten",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The cardinal ten with the approximative almost, as in almost ten and almost ten apples. Record the attachment assigned and any qualification about the category of cardinals."
+    },
+    {
+      "id": "X069",
+      "form": "thirty",
+      "lexeme_id": "lex_thirty",
+      "construction_id": "internal_mod_admission",
+      "request": "An approximative inside the projection of an externally determined independent cardinal, as in the almost thirty who came. Record the attachment the manuscript requires here and how it differs from the almost every case."
+    },
+    {
+      "id": "X070",
+      "form": "more",
+      "lexeme_id": "lex_many",
+      "construction_id": "comparative_complement",
+      "request": "The comparative form more with a than-phrase complement, as in more than ten. Record how this complement is distinguished from a partitive of-PP and which lexemes the property is stated for."
+    },
+    {
+      "id": "X071",
+      "form": "the",
+      "lexeme_id": "lex_the",
+      "construction_id": "degree_modifier_adj",
+      "request": "The article the as a degree modifier of a comparative AdjP, as in the bigger the better. Record the construction it is restricted to and whether the manuscript treats this as bearing on independent argument use."
+    },
+    {
+      "id": "X072",
+      "form": "no",
+      "lexeme_id": "lex_no",
+      "construction_id": "degree_modifier_adj",
+      "request": "No as a degree modifier of a comparative adjective, as in no better. Record what the documents state about degree uses of this form outside NP structure."
+    },
+    {
+      "id": "X073",
+      "form": "much",
+      "lexeme_id": "lex_much",
+      "construction_id": "degree_modifier_adj",
+      "request": "Much as a degree modifier of a comparative adjective in attributive position, as in some much better proposals. Record the status of the attributive position specifically, since the manuscript treats attributive uses as the crucial test."
+    },
+    {
+      "id": "X074",
+      "form": "deal",
+      "lexeme_id": "lex_deal",
+      "construction_id": "degree_modifier_adj",
+      "request": "Quantificational deal as a degree modifier of an adjective outside attributive position, as in a great deal smaller and predicative a great deal better. The retained a great belongs to the frame, not to the form; record the analysis the documents give the modifier's category."
+    },
+    {
+      "id": "X075",
+      "form": "deal",
+      "lexeme_id": "lex_deal",
+      "construction_id": "degree_modifier_adj",
+      "request": "Quantificational deal as a degree modifier of a comparative adjective in attributive position, as in the sequence some a great deal better proposals. Record CGEL's judgment and the manuscript's caveat that the example also juxtaposes two determiners and so may not isolate the modifier's category."
+    },
+    {
+      "id": "X076",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "degree_modifier_adj",
+      "request": "Quantificational lot as a degree modifier of a comparative adjective in attributive position, as in She's a lot better player than me. The article belongs to the frame; record CGEL's judgment and its analysis of the inner article."
+    },
+    {
+      "id": "X077",
+      "form": "lots",
+      "lexeme_id": "lex_lots",
+      "construction_id": "degree_modifier_adj",
+      "request": "Lots as a degree modifier of a comparative adjective outside attributive position, as in lots better. Record the category the documents assign the modifier and do not assume a lexeme relation to quantificational lot that the documents do not state."
+    },
+    {
+      "id": "X078",
+      "form": "lots",
+      "lexeme_id": "lex_lots",
+      "construction_id": "degree_modifier_adj",
+      "request": "Lots as a degree modifier of a comparative adjective in attributive position, as in some lots better ones. Carry the attestation's forum source, its unverified author and date, its informal character, and the manuscript's statement about what remains to be established."
+    },
+    {
+      "id": "X079",
+      "form": "heaps",
+      "lexeme_id": "lex_heaps",
+      "construction_id": "degree_modifier_adj",
+      "request": "Heaps as a degree modifier of a comparative adjective outside attributive position, as in heaps worse. Record the category the documents assign the modifier."
+    },
+    {
+      "id": "X080",
+      "form": "heaps",
+      "lexeme_id": "lex_heaps",
+      "construction_id": "degree_modifier_adj",
+      "request": "Heaps as a degree modifier of a comparative adjective in attributive position, as in some heaps better photo's. Carry the attestation's forum source, date, retained original spelling, informal character, and the stated limits on what it establishes."
+    },
+    {
+      "id": "X081",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "degree_modifier_adj",
+      "request": "Quantificational plenty as a degree modifier of an adjective, as in plenty big enough. Record the category assigned to the modifier and the section in which the manuscript uses it."
+    },
+    {
+      "id": "X082",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "degree_modifier_adj",
+      "request": "Enough as a degree modifier of an adjective, as in good enough. Record its position relative to the adjective and any stated restriction on modifying enough itself in that position."
+    },
+    {
+      "id": "X083",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "degree_modifier_nonadj",
+      "request": "Enough as a degree modifier with an adverb as target, as in quickly enough. Record the target category and position."
+    },
+    {
+      "id": "X084",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "degree_modifier_nonadj",
+      "request": "Enough as a degree modifier with a verb as target, as in I hadn't prepared enough. Record the target category and whether the manuscript also describes this as a clause adjunct."
+    },
+    {
+      "id": "X085",
+      "form": "this",
+      "lexeme_id": "lex_this",
+      "construction_id": "degree_modifier_nonadj",
+      "request": "This as a degree premodifier with a determinative-headed target, as in this much. Record the attachment assigned and whether the permission is said to follow from demonstrative Det selection."
+    },
+    {
+      "id": "X086",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "degree_modifier_nonadj",
+      "request": "Quantificational lot as a degree modifier with a comparative determinative-headed target, as in a lot fewer and a lot more than fifty. The article belongs to the frame; record the attachment and what the modifier is said to modify."
+    },
+    {
+      "id": "X087",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "dependent_det",
+      "request": "Enough before a target nominal, as in enough money. Record any target selection stated and keep the post-nominal position of money enough distinct from this query."
+    },
+    {
+      "id": "X088",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "internal_mod_admission",
+      "request": "Post-head enough taking a premodifier, as in the sequence money almost enough. Record what the documents state and the position to which the statement is tied."
+    },
+    {
+      "id": "X089",
+      "form": "enough",
+      "lexeme_id": "lex_enough",
+      "construction_id": "independent_argument",
+      "request": "Independent enough in an ordinary argument use, as in the generalizing Enough is enough. Record how interpretation is said to be supplied when no antecedent nominal phrase precedes."
+    },
+    {
+      "id": "X090",
+      "form": "all",
+      "lexeme_id": "lex_all",
+      "construction_id": "independent_argument",
+      "request": "Independent all in an ordinary argument use, as in All agree. Record the basis on which the manuscript reports independent use for this item and any lexical restriction noted alongside it."
+    },
+    {
+      "id": "X091",
+      "form": "both",
+      "lexeme_id": "lex_both",
+      "construction_id": "independent_argument",
+      "request": "Independent both as object, as in the attested test-drive both back to back. Carry the treebank sentence identifier, the verification route, the noted failure to identify the original webpage, and the phrase said to supply the domain."
+    },
+    {
+      "id": "X092",
+      "form": "those",
+      "lexeme_id": "lex_that",
+      "construction_id": "independent_argument",
+      "request": "The demonstrative form those in independent argument use with a relative-clause postmodifier, as in those who came. Record the basis for the description and the kind of postmodifier involved."
+    },
+    {
+      "id": "X093",
+      "form": "anyone",
+      "lexeme_id": "lex_anyone",
+      "construction_id": "internal_mod_admission",
+      "request": "The compound anyone with a post-head adjective inside its nominal structure, as in hardly anyone present. Record the specialized function assigned to that adjective, its position, and the non-recursion condition."
+    },
+    {
+      "id": "X094",
+      "form": "anyone",
+      "lexeme_id": "lex_anyone",
+      "construction_id": "peripheral_mod_admission",
+      "request": "The compound anyone with hardly, as in hardly anyone present. Record the attachment the ordinary-Head account assigns, the source from which its premodifier permissions are said to come, and how the fusion account differs."
+    },
+    {
+      "id": "X095",
+      "form": "anyone",
+      "lexeme_id": "lex_anyone",
+      "construction_id": "independent_argument",
+      "request": "The compound anyone in independent argument use with a relative-clause postmodifier, as in anyone who asks. Record what the documents state about external determination of the compound in this construction."
+    },
+    {
+      "id": "X096",
+      "form": "something",
+      "lexeme_id": "lex_something",
+      "construction_id": "internal_mod_admission",
+      "request": "The compound something with post-head adjectival material, as in something reliable and good looking and something useful that I found. Record the ordering condition between the specialized post-head modifier and an ordinary relative postmodifier."
+    },
+    {
+      "id": "X097",
+      "form": "something",
+      "lexeme_id": "lex_something",
+      "construction_id": "internal_mod_admission",
+      "request": "The compound something with a pre-head adjective inside its nominal structure. Record what the compound construction is said to license in that position."
+    },
+    {
+      "id": "X098",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_partitive",
+      "request": "Quantificational lot with an of-PP whose complement is an undetermined nominal, as in a lot of delegates, compared with a lot of the delegates. The article belongs to the frame; record the number-transparency property and the count and non-count agreement examples."
+    },
+    {
+      "id": "X099",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "independent_partitive",
+      "request": "Many with an of-PP whose complement is an undetermined nominal, as in the sequence many of delegates, compared with many of the delegates. Record the contrast the manuscript draws with the quantificational common noun."
+    },
+    {
+      "id": "X100",
+      "form": "plenty",
+      "lexeme_id": "lex_plenty",
+      "construction_id": "internal_mod_admission",
+      "request": "Quantificational plenty admitting modification within its own phrase. Record CGEL's statement about this use resisting modification, and record the parallel statement about determination as a separate condition rather than merging the two."
+    },
+    {
+      "id": "X101",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "internal_mod_admission",
+      "request": "Quantificational lot admitting modification within its own phrase. Record the stated limit on modification and the separate requirement for the article, keeping the article in the conditions rather than in the form."
+    },
+    {
+      "id": "X102",
+      "form": "some",
+      "lexeme_id": "lex_some",
+      "construction_id": "independent_partitive",
+      "request": "Independent some with a partitive of-PP, as in some of the wine, some of the people and some of Kim's. Record the kinds of NP that can express the domain, the agreement facts, and the Head relations the manuscript assigns."
+    },
+    {
+      "id": "X103",
+      "form": "several",
+      "lexeme_id": "lex_several",
+      "construction_id": "predicative_complement",
+      "request": "Several as predicative complement, as in Its advantages are several. Record the evidential basis and note that the manuscript's fragment places predication outside its scope."
+    },
+    {
+      "id": "X104",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "predicative_complement",
+      "request": "Many as predicative complement, as in Their enemies were many. Carry the stated frequency and register qualification, and note that the fragment places predication outside its scope."
+    },
+    {
+      "id": "X105",
+      "form": "mine",
+      "lexeme_id": "lex_my",
+      "construction_id": "predicative_complement",
+      "request": "The independent genitive form mine as predicative complement, as in it's mine. Record the reading distinguished from the anaphoric one, the Head analysis the manuscript prefers, and the statement about context permitting either reading."
+    },
+    {
+      "id": "X106",
+      "form": "a",
+      "lexeme_id": "lex_a",
+      "construction_id": "dependent_det",
+      "request": "The article a before a target nominal, as in a book. Record its target selection and any contribution to interpretation stated for it."
+    },
+    {
+      "id": "X107",
+      "form": "many",
+      "lexeme_id": "lex_many",
+      "construction_id": "dependent_det",
+      "request": "Many as Det before a target nominal, as in many people. Record target selection and the degree-modification evidence the manuscript uses to separate this item from an attributive adjective."
+    },
+    {
+      "id": "X108",
+      "form": "numerous",
+      "lexeme_id": "lex_numerous",
+      "construction_id": "dependent_internal_mod",
+      "request": "Attributive numerous before a nominal, as in numerous people. Record the category the manuscript assigns it and the role this control plays in the comparison."
+    },
+    {
+      "id": "X109",
+      "form": "rich",
+      "lexeme_id": "lex_rich",
+      "construction_id": "independent_argument",
+      "request": "The adjective rich as fused head of an argument NP on the generic human reading, as in the rich. Record the determination requirement, the number and agreement facts, and the contrast drawn with a one-word independent determinative NP."
+    },
+    {
+      "id": "X110",
+      "form": "second",
+      "lexeme_id": "lex_second",
+      "construction_id": "existential_displaced_subject",
+      "request": "The indefinite ordinal second as existential displaced subject under adjective fusion, as in the constructed There was a second. Record the evidential basis and the manuscript's statement about what existential occurrence does and does not decide."
+    }
+  ],
+  "scope_checks": [
+    {
+      "id": "one_lexeme_split",
+      "question": "Do the three lexemes spelled one that the manuscript reports (determinative, anaphoric common noun, generic personal pronoun) require three separate lexeme records, or one record with several forms, given the instruction not to conflate homographs?"
+    },
+    {
+      "id": "lots_heaps_lexeme_identity",
+      "question": "Do the documents state whether lots and heaps in lots better and heaps worse are forms of the quantificational lexemes lot and heap or separate lexemes, and what follows for the provisional lex_lots and lex_heaps records?"
+    },
+    {
+      "id": "completeness_modifier_attachment",
+      "question": "Do the documents state an attachment site for the completeness modifiers in marginally enough and absolutely all, and can a record using the internal and peripheral modifier constructions be completed for them without supplying an unstated analysis?"
+    },
+    {
+      "id": "search_nonfinding_vs_unstated",
+      "question": "For the four supplement cells where a search was run and no qualifying attestation was retained, does the fixed status vocabulary distinguish that evidential situation from a case the documents simply do not address, and where should the distinction be recorded if it does not?"
+    },
+    {
+      "id": "predication_outside_fragment",
+      "question": "Given that the manuscript's fragment excludes predication from its scope while §2.3 cites predicative several and many as evidence, what scope should attach to records built on the predicative complement construction?"
+    },
+    {
+      "id": "attestation_scope_limits",
+      "question": "What scope do the supplement's positive attestations support, given its statements that the searches establish selected occurrences, supply no usage rates, establish no ordering of the constructions, and do not establish each speaker's or writer's variety?"
+    }
+  ],
+  "coverage_notes": [
+    "Size and composition: 110 new queries, X001–X110. X001–X054 are the supplement's 54 comparison cells; X055–X110 are 56 further lexeme–use combinations from the main manuscript. None repeats P01–P20; where a tested lexeme reappears (the, every, some, few, no, my) it is in a construction or configuration not covered by the original twenty.",
+    "Supplement mapping: the two surrounding constructions are carried by construction ids (argument use by independent_partitive for the partitive column and independent_argument for the relative and no-dependent columns; existential use by the new existential_displaced_subject for all three columns), and the three dependent configurations plus the supplement's six frames (X of them, X who arrived left, X left, There are X of them, There are X who can help, Are there X?) are stated in each request. No construction was created per cell.",
+    "Evidential distinctions: each cell request asks for the evidential basis the supplement assigns (CGEL description, CGEL-stated restriction, constructed illustration in the stated frame, a numbered attestation, or a bounded search with nothing retained) to be carried into conditions and evidence; no request states or hints at an outcome. The record shape has no evidential-basis field, so this must ride in conditions and evidence quotes; see omitted_or_ambiguous.",
+    "Restrictions kept as restrictions: requests for certain and various ask that CGEL's statements (the of-phrase hardly omissible, the partitive with certain relatively formal, the partitive with various accepted by some speakers and primarily in American English) be recorded as conditions on the relevant cells, not strengthened into categorical bans, and not generalized beyond the cell.",
+    "Search nonfindings: the four cells with no retained attestation (argument certain with a relative, bare existential certain, existential various with a relative, existential various with no dependent) are queried in the same neutral terms as the others, with explicit instruction not to convert a bounded search result into an exclusion.",
+    "Provenance: attestation cells ask for the corpus (NOW or COCA), record and publication dates, author or speaker, antecedent or context, and every stated verification limit, including original pages that were unavailable or returned errors, quotations checked without audio, speech quoted in English whose original language was not established, an author and date that remain unverified, a source verified only through a secondary draft, and a NOW record date differing from the page's update date. Positive attestations are to be scoped to the occurrence, not to the population.",
+    "Degree material (the emphasis requested): admission of the very/so/too/how/as series by few, many, much and little (X055–X058); the excluded combinations with some, every and attributive numerous (X059–X061); the internal versus peripheral contrast in a very few and quite a few with its ordering conditions (X062–X063); determinative and NP degree modifiers this much and a lot fewer (X085–X086); degree-modifier function on adjectives including the crucial attributive position (X071–X082); non-adjectival targets for enough (X083–X084); and enough's dependent and independent uses (X087–X089).",
+    "Form-sensitive contrasts covered: no versus none under peripheral modification (X066–X067); my versus mine in the predicative reading (X105); many versus its comparative form more (X056, X070); that versus those (X092); enough before and after a nominal (X087–X088); few alone versus few inside the complex determinative a few (X055, X062–X063); many as Det versus attributive numerous (X107–X108).",
+    "Lexeme versus expression: lex_lot, lex_deal and lex_few carry the bare forms lot, deal and few; the retained a, a great and a of a lot, a great deal and a few are stated in query frames and belong in conditions. lex_lots and lex_heaps are provisional separate records (see scope check and flags).",
+    "No query requires facts absent from the documents. Candidate questions that would have (a Det target restriction for little, the lexeme identity of lots and heaps, the attachment of completeness modifiers, the phrase category of bare Bluer is better) were removed from the query set and redirected to scope checks or to omitted_or_ambiguous, per the reversal condition.",
+    "Deliberately omitted from queries but recorded here as source-explicit and category-relevant: genitive and plain-case determiners across the noun subcategories (Kim's preferences, people's preferences, someone's preferences, what size shoes, that size shoes, Sunday morning) and PP determiners (up to twenty minutes, between fifty and sixty tanks, over thirty ties); independent uses of each, either, neither and much from CGEL's list; relative postmodification with pronouns and common nouns (we who have read the report, people who came) and with demonstratives and compounds beyond those who came (that which remains, everything that matters, some that I saw, two that I have seen); externally determined independent cardinals and complex cardinals (the two, these three, the remaining three, the other two, two hundred books); these few here and the many who did; the fixed many a; the three lexemes spelled one and the numeral cases Room 10 and tens of pens; the very rich; poor old me; only the book and only you; Payne's almost anybody and nothing absolute contrast. These were left out to keep the expansion bounded, not because the sources are silent.",
+    "Excluded by the manuscript itself from the independent-use comparison, and therefore not queried: predeterminer all and both in all/both the books, peripheral quite and rather before a good idea, such and exclamative what before a disaster, and common-noun half in half a cake. Coordination-marking both, either and neither are likewise outside the fragment.",
+    "Construction catalog: the five original definitions are retained verbatim and reused. Six were added because no retained definition covers them faithfully: existential displaced subject (a distinct surrounding construction required by the supplement's second block), admission of an internal modifier and admission of a peripheral modifier (the manuscript's explicit attachment contrast, distinct from dependent_internal_mod, which is the lexeme itself functioning as Mod before a target), comparative than-complementation (explicitly licensed separately from partitive of-phrases), non-adjectival degree modification, and predicative complement. Modifier identity, position, ordering and target category are stated per query rather than multiplied into further ids."
+  ],
+  "omitted_or_ambiguous": [
+    "The fixed status vocabulary cannot distinguish a bounded search that retained nothing from a case the documents do not address; both tend toward not_stated, which loses the supplement's explicit separation of its S cells from unexamined combinations. Flagged rather than settled by query wording; see the search_nonfinding_vs_unstated scope check.",
+    "R-type cells (independent certain and various with no dependent, where the of-phrase is described as hardly omissible) fit neither licensed nor excluded: excluded would strengthen a restriction into a ban, and licensed without qualification would drop it. The queries ask for the restriction as a condition, but the status field itself cannot carry the distinction.",
+    "The G/R/I/S difference (CGEL description, CGEL-stated restriction, constructed illustration, retained attestation) is evidential, not participational. The record shape has no evidential-basis field, so it must be carried in conditions and evidence quotes; readers of the status field alone cannot recover it.",
+    "independent_argument merges subject, object and complement-of-preposition uses, so function-specific splits cannot be represented by construction id. For this reason the she/her contrast in the manuscript's permissions table was not turned into queries; the same limitation affects any future no/none and my/mine function splits, which must ride in conditions.",
+    "Whether lots and heaps are forms of the lexemes lot and heap or separate lexemes is not stated in the documents; lex_lots and lex_heaps are used provisionally and should not be merged into lex_lot without a source statement.",
+    "The documents call a few and a little complex determinatives while treating the a of a lot and a great deal as part of the common-noun frame. Queries X062, X063, X074, X076, X086, X098 and X101 keep the article in the frame and conditions, but whether the lexeme record for the a few cases should be few or the complex unit is not settled here.",
+    "The attachment site of completeness modifiers (marginally enough, absolutely all) is not stated, so no query forces a choice between the internal and peripheral modifier constructions for them.",
+    "Post-head enough in money enough has no faithful construction: dependent_det and dependent_internal_mod are both defined as occurring before a separate target nominal. Only the premodification test (money almost enough, X088) is queried; the positional contrast itself is recorded here.",
+    "Temporal NP modifiers inside AdjPs (completely free every Tuesday, very busy this week, completely free next week) and the measure NP in three years old are adjective modification but are not presented as degree modification; degree_modifier_adj would misdescribe them, so they are omitted rather than forced.",
+    "The excluded sequences so the book and too my life were not turned into queries because the modified expression is an NP headed by a common noun or containing a genitive determiner, so the bearer of participation is unclear under the per-lexeme record shape.",
+    "The manuscript's fragment places predication outside its scope while §2.3 uses predicative several and many as evidence; records built on predicative_complement (X103–X105) therefore carry a scope caveat that the other constructions do not.",
+    "Existential occurrence is explicitly said not to decide the structural analysis, and the displaced-subject analysis is CGEL's. Records under existential_displaced_subject should report participation only, with no inference to category or Head relations; X110 is included precisely as the manuscript's control against such an inference.",
+    "Attachment claims in X064, X065, X069, X085, X086, X093 and X094 are in part the author's analytical commitments rather than CGEL assignments; conditions should mark which is which, since the condition-bearer vocabulary does not encode attribution.",
+    "Whether independent what and relative which belong to pronoun or determinative is left open by the author, so no lexeme records were proposed for them; the same applies to the unsettled place of all, cardinals and plural-or-non-count quantifiers in Hudson's taxonomy."
+  ],
+  "responsibility_notice": ""
+}

@@ -1,0 +1,402 @@
+{
+  "type": "object",
+  "properties": {
+    "lexemes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "lex_the",
+              "lex_every",
+              "lex_some",
+              "lex_few",
+              "lex_no",
+              "lex_my",
+              "lex_book",
+              "lex_a",
+              "lex_many",
+              "lex_much",
+              "lex_little",
+              "lex_several",
+              "lex_all",
+              "lex_both",
+              "lex_any",
+              "lex_enough",
+              "lex_this",
+              "lex_that",
+              "lex_anyone",
+              "lex_something",
+              "lex_certain",
+              "lex_various",
+              "lex_numerous",
+              "lex_multiple",
+              "lex_countless",
+              "lex_plenty",
+              "lex_lot",
+              "lex_lots",
+              "lex_heaps",
+              "lex_deal",
+              "lex_ten",
+              "lex_thirty",
+              "lex_rich",
+              "lex_second"
+            ]
+          },
+          "forms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "forms"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "constructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "dependent_det",
+              "dependent_internal_mod",
+              "independent_argument",
+              "independent_partitive",
+              "degree_modifier_adj",
+              "existential_displaced_subject",
+              "internal_mod_admission",
+              "peripheral_mod_admission",
+              "comparative_complement",
+              "degree_modifier_nonadj",
+              "predicative_complement"
+            ]
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "participation_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "X001",
+              "X002",
+              "X003",
+              "X004",
+              "X005",
+              "X006",
+              "X007",
+              "X008",
+              "X009",
+              "X010",
+              "X011",
+              "X012",
+              "X013",
+              "X014",
+              "X015",
+              "X016",
+              "X017",
+              "X018",
+              "X019",
+              "X020",
+              "X021",
+              "X022",
+              "X023",
+              "X024",
+              "X025",
+              "X026",
+              "X027",
+              "X028",
+              "X029",
+              "X030",
+              "X031",
+              "X032",
+              "X033",
+              "X034",
+              "X035",
+              "X036",
+              "X037",
+              "X038",
+              "X039",
+              "X040",
+              "X041",
+              "X042",
+              "X043",
+              "X044",
+              "X045",
+              "X046",
+              "X047",
+              "X048",
+              "X049",
+              "X050",
+              "X051",
+              "X052",
+              "X053",
+              "X054",
+              "X055",
+              "X056",
+              "X057",
+              "X058",
+              "X059",
+              "X060",
+              "X061",
+              "X062",
+              "X063",
+              "X064",
+              "X065",
+              "X066",
+              "X067",
+              "X068",
+              "X069",
+              "X070",
+              "X071",
+              "X072",
+              "X073",
+              "X074",
+              "X075",
+              "X076",
+              "X077",
+              "X078",
+              "X079",
+              "X080",
+              "X081",
+              "X082",
+              "X083",
+              "X084",
+              "X085",
+              "X086",
+              "X087",
+              "X088",
+              "X089",
+              "X090",
+              "X091",
+              "X092",
+              "X093",
+              "X094",
+              "X095",
+              "X096",
+              "X097",
+              "X098",
+              "X099",
+              "X100",
+              "X101",
+              "X102",
+              "X103",
+              "X104",
+              "X105",
+              "X106",
+              "X107",
+              "X108",
+              "X109",
+              "X110"
+            ]
+          },
+          "lexeme_id": {
+            "type": "string",
+            "enum": [
+              "lex_the",
+              "lex_every",
+              "lex_some",
+              "lex_few",
+              "lex_no",
+              "lex_my",
+              "lex_book",
+              "lex_a",
+              "lex_many",
+              "lex_much",
+              "lex_little",
+              "lex_several",
+              "lex_all",
+              "lex_both",
+              "lex_any",
+              "lex_enough",
+              "lex_this",
+              "lex_that",
+              "lex_anyone",
+              "lex_something",
+              "lex_certain",
+              "lex_various",
+              "lex_numerous",
+              "lex_multiple",
+              "lex_countless",
+              "lex_plenty",
+              "lex_lot",
+              "lex_lots",
+              "lex_heaps",
+              "lex_deal",
+              "lex_ten",
+              "lex_thirty",
+              "lex_rich",
+              "lex_second"
+            ]
+          },
+          "form": {
+            "type": "string"
+          },
+          "construction_id": {
+            "type": "string",
+            "enum": [
+              "dependent_det",
+              "dependent_internal_mod",
+              "independent_argument",
+              "independent_partitive",
+              "degree_modifier_adj",
+              "existential_displaced_subject",
+              "internal_mod_admission",
+              "peripheral_mod_admission",
+              "comparative_complement",
+              "degree_modifier_nonadj",
+              "predicative_complement"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "licensed",
+              "excluded",
+              "not_stated"
+            ]
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "bearer": {
+                  "type": "string",
+                  "enum": [
+                    "target_nominal",
+                    "own_phrase",
+                    "outer_np",
+                    "possessor",
+                    "possessed_referent",
+                    "construction"
+                  ]
+                },
+                "requirement": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "bearer",
+                "requirement"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "enum": [
+                    "M",
+                    "Q"
+                  ]
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_id",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "lexeme_id",
+          "form",
+          "construction_id",
+          "status",
+          "conditions",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "scope_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "one_lexeme_split",
+              "lots_heaps_lexeme_identity",
+              "completeness_modifier_attachment",
+              "search_nonfinding_vs_unstated",
+              "predication_outside_fragment",
+              "attestation_scope_limits"
+            ]
+          },
+          "answer": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "enum": [
+                    "M",
+                    "Q"
+                  ]
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_id",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "answer",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "lexemes",
+    "constructions",
+    "participation_claims",
+    "scope_checks"
+  ],
+  "additionalProperties": false
+}

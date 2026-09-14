@@ -1,0 +1,1 @@
+Follow task.md and task.json. Extract the complete expanded 110-query batch into records.json with the supplied fixed schema, and return exceptions.json for any unresolved source/schema issues. This is source extraction from the two full documents embedded in task.json; no Lean formalization is requested.

@@ -8,7 +8,6 @@
 \emergencystretch=1em
 \AtBeginBibliography{\emergencystretch=1em}
 \setcounter{biburlnumpenalty}{100}
-\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
 \hypersetup{pdftitle={Quantificational controls: attestations and provenance}}
 \title{Quantificational controls: attestations and provenance}
 \author{Brett Reynolds}
@@ -35,7 +34,15 @@ Table~\ref{tab:quant-controls} separates NP dependents from the surrounding cons
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}
 Expression & Partitive PP & Relative clause & No dependent & Partitive PP & Relative clause & No dependent \\
 \midrule
-\tablebody{analysis/generated/quant-table.tex}
+\mention{many} & G & G & G & \textit{I} & \textit{I} & \textit{I} \\
+\mention{several} & G & \textit{I} & G & \textit{I} & \textit{I} & \textit{I} \\
+\mention{certain} & G & S & R & (\ref{ex:certain-exist-part}) & (\ref{ex:certain-exist}) & S \\
+\mention{various} & G & (\ref{ex:various-arg-rel}) & R & (\ref{ex:various-exist-part}) & S & S \\
+\mention{numerous} & (\ref{ex:numerous-part}) & (\ref{ex:numerous-arg-rel}) & (\ref{ex:numerous-subj}) & (\ref{ex:numerous-exist-part}) & (\ref{ex:numerous-exist}) & (\ref{ex:numerous-exist-bare}) \\
+\mention{multiple} & (\ref{ex:multiple-part}) & (\ref{ex:multiple-arg-rel}) & (\ref{ex:multiple-subj}) & (\ref{ex:multiple-exist-part}) & (\ref{ex:multiple-exist-rel}) & (\ref{ex:multiple-bare}) \\
+\mention{countless} & (\ref{ex:countless-part}) & (\ref{ex:countless-arg-rel}) & (\ref{ex:countless-subj}) & (\ref{ex:countless-exist-part}) & (\ref{ex:countless-exist-rel}) & (\ref{ex:countless-exist-bare}) \\
+\mention{plenty} & G & \textit{I} & \textit{I} & \textit{I} & \textit{I} & \textit{I} \\
+\mention{a lot} & G & \textit{I} & \textit{I} & \textit{I} & \textit{I} & \textit{I} \\
 \bottomrule
 \end{tabular}
 \end{table}

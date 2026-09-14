@@ -1,0 +1,81 @@
+{
+  "requested_model": "opus",
+  "requested_effort": "xhigh",
+  "added_timeout": null,
+  "started_at": "2026-09-14T19:40:18.813845+00:00",
+  "cli_version": "2.1.270 (Claude Code)",
+  "status": "complete",
+  "input_sha256": {
+    "prompt.json": "7a7353bbef45de271cc7f7ce78d7033894b44e226a18a39a6a546e37d0300044",
+    "system-prompt.txt": "10094090c06b691a61cd0b54f486f12196bbdb12e7353a21374875aba7b97906",
+    "schema.json": "f9329118c1f3bbe2da2c63a8808a59eaa5e84fadceb5facf0500276497e1d88c",
+    "sources.json": "3a97108c25590f8e77b38864c603c9fcde9fc816e004b78923711e6d19426efd",
+    "queries.json": "cd149062c97bdcc38d016245952fef50e1e8ef5f58890e1d22512c3984374ed0"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--model",
+    "opus",
+    "--effort",
+    "xhigh",
+    "--safe-mode",
+    "--restricted",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--setting-sources",
+    "",
+    "--no-session-persistence",
+    "--output-format",
+    "json",
+    "--json-schema",
+    "{\"type\": \"object\", \"properties\": {\"lexemes\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"string\", \"enum\": [\"lex_the\", \"lex_every\", \"lex_some\", \"lex_few\", \"lex_no\", \"lex_my\", \"lex_book\"]}, \"forms\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"id\", \"forms\"], \"additionalProperties\": false}}, \"constructions\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"string\", \"enum\": [\"dependent_det\", \"dependent_internal_mod\", \"independent_argument\", \"independent_partitive\", \"degree_modifier_adj\"]}, \"description\": {\"type\": \"string\"}}, \"required\": [\"id\", \"description\"], \"additionalProperties\": false}}, \"participation_claims\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"string\", \"enum\": [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\", \"P12\", \"P13\", \"P14\", \"P15\", \"P16\", \"P17\", \"P18\", \"P19\", \"P20\"]}, \"lexeme_id\": {\"type\": \"string\", \"enum\": [\"lex_the\", \"lex_every\", \"lex_some\", \"lex_few\", \"lex_no\", \"lex_my\", \"lex_book\"]}, \"form\": {\"type\": \"string\"}, \"construction_id\": {\"type\": \"string\", \"enum\": [\"dependent_det\", \"dependent_internal_mod\", \"independent_argument\", \"independent_partitive\", \"degree_modifier_adj\"]}, \"status\": {\"type\": \"string\", \"enum\": [\"licensed\", \"excluded\", \"not_stated\"]}, \"conditions\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"bearer\": {\"type\": \"string\", \"enum\": [\"target_nominal\", \"own_phrase\", \"outer_np\", \"possessor\", \"possessed_referent\", \"construction\"]}, \"requirement\": {\"type\": \"string\"}}, \"required\": [\"bearer\", \"requirement\"], \"additionalProperties\": false}}, \"evidence\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"enum\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\", \"S09\", \"S10\", \"S11\"]}, \"quote\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"quote\"], \"additionalProperties\": false}}}, \"required\": [\"id\", \"lexeme_id\", \"form\", \"construction_id\", \"status\", \"conditions\", \"evidence\"], \"additionalProperties\": false}}, \"scope_checks\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"string\", \"enum\": [\"the_apple\", \"the_few_people\"]}, \"answer\": {\"type\": \"string\"}, \"evidence\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"enum\": [\"S01\", \"S02\", \"S03\", \"S04\", \"S05\", \"S06\", \"S07\", \"S08\", \"S09\", \"S10\", \"S11\"]}, \"quote\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"quote\"], \"additionalProperties\": false}}}, \"required\": [\"id\", \"answer\", \"evidence\"], \"additionalProperties\": false}}}, \"required\": [\"lexemes\", \"constructions\", \"participation_claims\", \"scope_checks\"], \"additionalProperties\": false}",
+    "--system-prompt",
+    "Extract draft linguistic records from supplied manuscript excerpts. This is source extraction, not a new analysis. Use only these excerpts; do not use background grammatical knowledge or external sources. Return only JSON matching the schema. Preserve restrictions, scope and qualifications. A missing statement is not an exclusion. No new citations, invented examples, or category assignments. An explicitly licensed construction may still have conditions. Each evidence quote must be an exact nonempty substring of one supplied excerpt, including LaTeX markup where present. For not_stated, use empty evidence and conditions. Record concise conditions with their correct bearer: target_nominal is what the phrase determines/modifies; own_phrase is the phrase whose participation is being recorded; outer_np is the larger containing NP; possessor and possessed_referent must remain distinct. Do not transfer permissions between levels or constructions.\n"
+  ],
+  "pid": 47949,
+  "exit_code": 0,
+  "elapsed_seconds": 110.09,
+  "finished_at": "2026-09-14T19:42:08.910529+00:00",
+  "actual_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "reported_cost_usd": 0.38497400000000004,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7770,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12090,
+    "output_tokens_details": {
+      "thinking_tokens": 5300
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7770,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 12090,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 7770,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7770
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  }
+}

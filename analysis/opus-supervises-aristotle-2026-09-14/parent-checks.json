@@ -1,0 +1,16 @@
+{
+  "changed_fields": [
+    {
+      "group": "scope_checks",
+      "id": "the_few_people",
+      "field": "answer",
+      "before": "No. In the few people the phrase headed by few is an internal Mod of the nominal headed by people, so the determines that larger nominal, not the phrase headed by few; in this dependent use ordinary few excludes external determination within its own phrase. By contrast, in the lucky few, few heads the independently determined NP, and independent few does permit definite determination and adjectival premodification. These are the two distinguished uses of few, and the relevant target restriction on the is only that the nominal it determines may itself be headed by an independent determinative, as in the few.",
+      "after": "No. In the few people the phrase headed by few is an internal Mod of the nominal headed by people, so the determines that larger nominal, not the phrase headed by few; in this dependent use ordinary few excludes external determination within its own phrase. By contrast, in the lucky few, few heads the independently determined NP, and independent few does permit definite determination and adjectival premodification. These are the two distinguished uses of few, and the carries no count or number restriction on its target, with target restrictions applying also to a nominal headed by an independent determinative, which is why the permits plural few in the few."
+    }
+  ],
+  "status_errors": [],
+  "correct_statuses": 20,
+  "total_statuses": 20,
+  "manuscript_unchanged": true,
+  "evidence_unchanged": true
+}

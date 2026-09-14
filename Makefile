@@ -9,7 +9,7 @@ SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
 OUTDIR = .
 
 # Targets
-.PHONY: all supplements clean distclean view help test
+.PHONY: all supplements clean distclean view help test check-quant-table
 
 # Default target: build the PDF
 all: $(MAIN).pdf
@@ -25,6 +25,18 @@ $(SUPPLEMENTS:%=%.pdf): %.pdf: %.tex references.bib references-local.bib .house-
 
 matrix-audit.pdf: analysis/generated/matrix-table.tex
 corpus-documentation.pdf: analysis/generated/corpus-table.tex
+quantifier-controls.pdf: analysis/generated/quant-table.tex
+
+# Table 1 of the quantifier supplement is derived from the extracted claim set
+# (analysis/expanded-json-2026-09-14), so the markers cannot drift from the
+# evidence.  `make check-quant-table' verifies the committed file instead.
+analysis/generated/quant-table.tex: analysis/expanded-json-2026-09-14/records.json \
+		analysis/expanded-json-2026-09-14/supplement-cell-map.json \
+		analysis/tools/quant_table.py
+	python3 analysis/tools/quant_table.py build
+
+check-quant-table:
+	python3 analysis/tools/quant_table.py check
 
 # Full build sequence with bibliography
 $(MAIN).pdf: $(MAIN).tex references.bib
@@ -82,4 +94,5 @@ help:
 	@echo "  make distclean- Remove everything including PDF"
 	@echo "  make view     - Open PDF (macOS only)"
 	@echo "  make test     - Run Python specification tests"
+	@echo "  make check-quant-table - Verify Table 1 against the claim set"
 	@echo "  make help     - Show this help message"

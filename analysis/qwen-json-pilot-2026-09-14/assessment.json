@@ -1,0 +1,65 @@
+{
+  "schema_errors": [],
+  "status_results": {
+    "few_dependent_det": {
+      "expected": "licensed",
+      "actual": "not_stated",
+      "correct": false
+    },
+    "few_independent_argument": {
+      "expected": "licensed",
+      "actual": "not_stated",
+      "correct": false
+    },
+    "mine_independent_argument": {
+      "expected": "licensed",
+      "actual": "not_stated",
+      "correct": false
+    },
+    "some_degree_modifier_of_adjective": {
+      "expected": "not_stated",
+      "actual": "not_stated",
+      "correct": true
+    }
+  },
+  "form_results": {
+    "lex_few": {
+      "expected": [
+        "few"
+      ],
+      "actual": [
+        "dependent",
+        "independent"
+      ],
+      "correct": false
+    },
+    "lex_my": {
+      "expected": [
+        "my",
+        "mine"
+      ],
+      "actual": [
+        "dependent"
+      ],
+      "correct": false
+    },
+    "lex_some": {
+      "expected": [
+        "some"
+      ],
+      "actual": [
+        "dependent",
+        "independent"
+      ],
+      "correct": false
+    }
+  },
+  "manuscript_unchanged": true,
+  "manual_content_assessment": {
+    "few_dependent_conditions": "Missing plural-count target selection and exclusions of external determination, partitives, and relatives within its own phrase.",
+    "few_independent_conditions": "Missing plural-count properties and permitted partitives, relatives, definite determination, and adjective premodification.",
+    "mine_agreement": "Missing the separation between possessor person and agreement with the possessed entity/entities.",
+    "unsupported_some_degree": "Correctly left not_stated, but the blanket abstention on all cases limits what this establishes."
+  },
+  "interpretation": "The tested configuration is not ready for unattended population of these records. This is a small extraction test, not a general capability benchmark. Thinking was disabled; no prompt or model tuning was attempted after the reduced result."
+}

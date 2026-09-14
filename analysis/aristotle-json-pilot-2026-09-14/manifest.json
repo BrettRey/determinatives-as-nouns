@@ -1,0 +1,24 @@
+{
+  "submitted_at": "2026-09-14T20:11:02.529904+00:00",
+  "status": "complete",
+  "scope": "same full seven-lexeme, 20-query extraction pilot; no Lean requested",
+  "added_timeout": null,
+  "cli_version": "aristotlelib 2.1.0",
+  "source_sha256": "d39bcaf37aa185ba8545d6dcfa947e8d628577af601f02a1c9e71575c7267cdb",
+  "input_sha256": {
+    "sources.json": "3a97108c25590f8e77b38864c603c9fcde9fc816e004b78923711e6d19426efd",
+    "system-prompt.txt": "10094090c06b691a61cd0b54f486f12196bbdb12e7353a21374875aba7b97906",
+    "prompt.json": "7a7353bbef45de271cc7f7ce78d7033894b44e226a18a39a6a546e37d0300044",
+    "schema.json": "f9329118c1f3bbe2da2c63a8808a59eaa5e84fadceb5facf0500276497e1d88c",
+    "task.md": "0704464fa17069b0b916030fb93b3d19c0fa2cc23cd9bda7b8bc26dc6546b583"
+  },
+  "submit_exit_code": 0,
+  "project_id": "52318017-655a-4afd-85c3-fd7eec060f0a",
+  "task_id": "d1ff4ba6-f714-45ca-a78e-f9f73210f9e4",
+  "downloaded_at": "2026-09-14T20:17:44.833679+00:00",
+  "returned_records": "records.json",
+  "service_reported_elapsed": "5m 0s",
+  "local_validation": "passed",
+  "manual_assessment": "core distinctions preserved; two wording qualifications",
+  "manuscript_unchanged": true
+}

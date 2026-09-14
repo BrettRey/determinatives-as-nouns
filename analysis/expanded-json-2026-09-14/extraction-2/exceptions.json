@@ -1,0 +1,396 @@
+[
+  {
+    "query_id": "X014",
+    "reason": "Fixed status vocabulary cannot express a bounded search that retained no qualifying attestation. The supplement's table marks this cell S, defined as \"searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment\", and states that the bounded searches don't establish exclusion and that these cells retain a different evidential status from the positive examples and from CGEL's stated restrictions. \"excluded\" would convert the nonfinding into a ban and \"licensed\" would report a positive result, so the record uses \"not_stated\", which cannot be distinguished from a combination the documents never address. Because not_stated records carry empty conditions and evidence, the supplement's qualifications are preserved here instead. The searches were bounded: 12-13 September 2026, NOW and COCA, surface strings without part-of-speech filters.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \\textit{CGEL}'s stated restrictions."
+      },
+      {
+        "source_id": "Q",
+        "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+      }
+    ]
+  },
+  {
+    "query_id": "X018",
+    "reason": "Same limitation as X014, for the bare existential \\mention{certain} cell (frame \"Are there certain?\"). The table marks it S; the supplement names it among the four cells for which no qualifying attestation was retained, states that the bounded searches don't establish exclusion, and separates the cell's evidential status both from the positive examples and from CGEL's stated restrictions. The record is not_stated with empty conditions and evidence, so those qualifications are preserved here.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \\textit{CGEL}'s stated restrictions."
+      },
+      {
+        "source_id": "Q",
+        "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+      }
+    ]
+  },
+  {
+    "query_id": "X023",
+    "reason": "Same limitation as X014, for existential \\mention{various} with a relative clause (frame \"There are various who can help\"). The table marks it S, and the supplement names it among the four cells for which no qualifying attestation was retained and states that the bounded searches don't establish exclusion. Recorded as not_stated, with the supplement's qualifications preserved here.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \\textit{CGEL}'s stated restrictions."
+      },
+      {
+        "source_id": "Q",
+        "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+      }
+    ]
+  },
+  {
+    "query_id": "X024",
+    "reason": "Same limitation as X014, for existential \\mention{various} with no dependent (frame \"Are there various?\"). The table marks it S, and the supplement names it among the four cells for which no qualifying attestation was retained and states that the bounded searches don't establish exclusion. Recorded as not_stated, with the supplement's qualifications preserved here.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \\textit{CGEL}'s stated restrictions."
+      },
+      {
+        "source_id": "Q",
+        "quote": "Searches conducted on 12--13 September 2026 in \\href{https://www.english-corpora.org/now/}{NOW} and \\href{https://www.english-corpora.org/coca/}{COCA}, using surface strings without part-of-speech filters."
+      }
+    ]
+  },
+  {
+    "query_id": "X015",
+    "reason": "R cell: the status field cannot carry a stated restriction. The supplement marks independent \\mention{certain} with no dependent R, \"restricted there\", i.e. restricted in CGEL, because the of-phrase with independent certain and various is hardly omissible. \"excluded\" would strengthen that restriction into a categorical ban and \"licensed\" alone would drop it, so the record uses \"licensed\" and carries the restriction as an own_phrase condition; a reader of the status field alone cannot recover it. The restriction is not generalized beyond this cell.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "The \\mention{of}-phrase with independent \\mention{certain} and \\mention{various} is hardly omissible. The partitive with \\mention{certain} is relatively formal; that with \\mention{various} is accepted by some speakers, primarily in American English"
+      },
+      {
+        "source_id": "Q",
+        "quote": "The G and R cells retain the qualifications just stated; the common-noun partitives follow \\textit{CGEL}"
+      }
+    ]
+  },
+  {
+    "query_id": "X021",
+    "reason": "R cell: same limitation as X015, for independent \\mention{various} with no dependent. The supplement marks the cell R and states that the of-phrase with independent certain and various is hardly omissible. The record uses \"licensed\" with the restriction as an own_phrase condition rather than converting a restriction into an exclusion; the status field itself cannot carry the distinction, and the restriction is not generalized beyond this cell.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      },
+      {
+        "source_id": "Q",
+        "quote": "The \\mention{of}-phrase with independent \\mention{certain} and \\mention{various} is hardly omissible. The partitive with \\mention{certain} is relatively formal; that with \\mention{various} is accepted by some speakers, primarily in American English"
+      },
+      {
+        "source_id": "Q",
+        "quote": "The G and R cells retain the qualifications just stated; the common-noun partitives follow \\textit{CGEL}"
+      }
+    ]
+  },
+  {
+    "query_id": "X013",
+    "reason": "Evidential basis has no field of its own. The cell is a G cell, a CGEL description carrying the register restriction that the partitive with certain is relatively formal, and CGEL treats quantificational certain as a marginal member of the determinative category. The status \"licensed\" reports participation only; the restriction and the evidential basis ride in conditions and evidence, and are not generalized beyond this cell. The same limitation applies to the corresponding various cell, X019, whose partitive is accepted by some speakers, primarily in American English.",
+    "evidence": [
+      {
+        "source_id": "Q",
+        "quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\"
+      },
+      {
+        "source_id": "Q",
+        "quote": "The \\mention{of}-phrase with independent \\mention{certain} and \\mention{various} is hardly omissible. The partitive with \\mention{certain} is relatively formal; that with \\mention{various} is accepted by some speakers, primarily in American English"
+      },
+      {
+        "source_id": "Q",
+        "quote": "G: described in \\textit{CGEL}; R: restricted there; \\textit{I}: constructed positive illustration in the stated frame. Numbered references identify attestations below. S: searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment."
+      }
+    ]
+  },
+  {
+    "query_id": "X077",
+    "reason": "Lexeme identity unresolved. The query is recorded under the provisional lexeme lex_lots, but neither document states whether \\mention{lots} is a form of the quantificational lexeme \\mention{lot} or a separate lexeme. The record therefore keeps lex_lots separate from lex_lot, and the permission recorded here transfers to neither. The same applies to X078, and to \\mention{heaps} in X079-X080 with respect to any lexeme \\mention{heap}. See the lots_heaps_lexeme_identity scope check.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers"
+      },
+      {
+        "source_id": "M",
+        "quote": "Informal attributive examples with nominal \\mention{heaps} and \\mention{lots} further qualify a categorical exclusion."
+      }
+    ]
+  },
+  {
+    "query_id": "X078",
+    "reason": "Two issues. (i) Lexeme identity, as for X077: lex_lots is provisional and no source statement relates \\mention{lots} to \\mention{lot}. (ii) Evidential basis: the attributive example rests on an informal forum attestation whose author and date remain unverified and which was verified only in an indexed excerpt; the source states that any register restriction remains to be established and that such examples don't establish the same distribution as degree determinatives. The status \"licensed\" records the attested occurrence only, and the record shape has no evidential-basis field, so this rides in conditions.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\mention{Some lots better ones}: \\href{https://www.uberpeople.net/threads/let-s-play-would-you-have-taken-this-trip.395130/}{Uber Drivers Forum}, verified in an indexed excerpt; author and date remain unverified."
+      },
+      {
+        "source_id": "M",
+        "quote": "These are informal attestations; any register restriction remains to be established."
+      },
+      {
+        "source_id": "M",
+        "quote": "They don't establish the same distribution as degree determinatives. The lexical, constructional, and register conditions remain a descriptive question for all four accounts."
+      }
+    ]
+  },
+  {
+    "query_id": "X080",
+    "reason": "As for X078, for \\mention{heaps}: lex_heaps is provisional, and the attributive example is an informal forum attestation (AULRO, moose, 19 August 2008, post 2) with the original spelling retained, of which the source says that any register restriction remains to be established and that it doesn't establish the same distribution as degree determinatives. The status \"licensed\" records the attested occurrence only.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\mention{Some heaps better photo's}: \\href{https://www.aulro.com/afvb/motor-cycling/61858-my-track-day-phillip-island-motogp-track-post798794.html}{AULRO, moose, 19 August 2008, post 2}; original spelling retained."
+      },
+      {
+        "source_id": "M",
+        "quote": "These are informal attestations; any register restriction remains to be established."
+      },
+      {
+        "source_id": "M",
+        "quote": "They don't establish the same distribution as degree determinatives. The lexical, constructional, and register conditions remain a descriptive question for all four accounts."
+      }
+    ]
+  },
+  {
+    "query_id": "X100",
+    "reason": "Participation unresolved; no fixed status expresses the source wording. The only relevant statement is that \\textit{CGEL} categorizes quantificational \\mention{plenty} as \"a common noun whose use resists determination and modification\". \"Resists\" is a negative-leaning restriction that establishes no positive availability, unlike \\mention{lot}'s \"permits only limited modification\" (X101) or the hardly-omissible \\mention{of}-phrase cells (X015, X021), whose source wording is permissive or presupposes an available use; equally, no ungrammaticality judgment or starred example is given for modified \\mention{plenty}. \"licensed\" and \"excluded\" would each assert a polarity the source does not support, so the record is \"not_stated\" with empty conditions and evidence, as the fixed schema requires for that status. That choice is made only to avoid asserting either polarity: it does not mean the documents are silent on modification of \\mention{plenty}, and the participation judgment for modification within quantificational \\mention{plenty}'s own phrase remains unresolved. Two distinct source restrictions therefore survive only here, unmerged: (i) the modification restriction, that the use resists modification; and (ii) the separate determination restriction, that the same use resists determination. No other passage shows modification within quantificational \\mention{plenty}'s own phrase; \\mention{plenty big enough} is a degree-modifier use of \\mention{plenty}, not modification of it.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification"
+      }
+    ]
+  },
+  {
+    "query_id": "X109",
+    "reason": "Bearer convention not fixed by the schema. The schema does not state whether the participant phrase in independent_argument for a fused head is the AdjP headed by \\mention{rich} or the containing NP \\mention{the rich}. This record takes own_phrase to be the fused-head AdjP and outer_np the containing NP, matching its determination condition, and splits the source's properties accordingly: plural NP status and plural agreement are properties of the NP (outer_np), while the absence of number inflection and the admission of adverb modifiers are properties of the adjective (own_phrase). If the extraction instead treated the NP as own_phrase, the determination condition would have to move there and outer_np would be dropped; either way the two levels must not be bundled into one condition.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "Independent \\mention{some} can form a one-word NP, whereas an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading"
+      },
+      {
+        "source_id": "M",
+        "quote": "Generic human \\mention{the rich}, by contrast, is a plural NP whose adjective lacks number inflection and still takes adverb modifiers: \\mention{the very rich}"
+      },
+      {
+        "source_id": "M",
+        "quote": "Plural agreement likewise occurs with adjective-containing \\mention{the rich}, whose adjective lacks number inflection"
+      },
+      {
+        "source_id": "M",
+        "quote": "Independent uses containing fused-head adjective phrases (AdjPs) prevent a simple inference from these positions to nounhood. \\mention{The rich} and \\mention{the poor} can fill nominal argument positions."
+      }
+    ]
+  },
+  {
+    "query_id": "X087",
+    "reason": "Part of the request cannot be answered from the sources. The query asks for any target selection stated for \\mention{enough} before a nominal; the documents state only that \\mention{enough} precedes a nominal in \\mention{enough money} and can follow one in \\mention{money enough}, and the fragment's permissions table, which is where target restrictions are recorded, has no row for \\mention{enough}. The participation claim itself is recorded as licensed; the target-selection sub-request is unresolved in the sources and is not answered by inference. A further limitation: post-head \\mention{enough} in \\mention{money enough} has no faithful construction here, since dependent_det and dependent_internal_mod are both defined as occurring before a separate target nominal, so only the premodification test (X088) could be recorded.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\mention{Enough} tests both position and external function. It precedes a nominal in \\mention{enough money} and can follow one in \\mention{money enough}; post-head \\mention{enough} can't itself be premodified, as shown by \\ungram{\\mention{money almost enough}}"
+      },
+      {
+        "source_id": "M",
+        "quote": "Form & Det & Mod & Subj & Obj / CompP & Target before another nominal \\\\"
+      }
+    ]
+  },
+  {
+    "query_id": "X107",
+    "reason": "Part of the request cannot be answered from the sources. The query asks for the target selection of \\mention{many} as Det; the fragment's permissions table records target restrictions only for \\mention{the}, \\mention{a}, \\mention{every}, \\mention{some}, \\mention{few}, \\mention{no}, \\mention{none}, \\mention{my}, \\mention{mine}, \\mention{she} and \\mention{her}, and neither document states a count or number target restriction for \\mention{many}. The degree-modification part of the request is answered in full, and the participation claim is recorded as licensed.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "Form & Det & Mod & Subj & Obj / CompP & Target before another nominal \\\\"
+      },
+      {
+        "source_id": "M",
+        "quote": "\\mention{Numerous people} and \\mention{many people} both quantify, but their syntax differs."
+      },
+      {
+        "source_id": "M",
+        "quote": "Degree modification exposes a contrast: \\mention{so many mistakes} is possible, while \\ungram{\\mention{so numerous mistakes}} is excluded"
+      }
+    ]
+  },
+  {
+    "query_id": "X062",
+    "reason": "Lexeme assignment unsettled for the complex determinative. The documents call \\mention{a few} a complex determinative, say that its initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target, and leave its internal analysis beyond the position contrast unspecified. The record uses lex_few with the article kept in the frame and conditions, as the query directs, but whether the bearer of this permission is the lexeme \\mention{few} or the complex unit \\mention{a few} is not settled by the sources. The same applies to X063.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "With the complex determinative \\mention{a few}, modifier position distinguishes two kinds of attachment. \\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}"
+      },
+      {
+        "source_id": "M",
+        "quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}. Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target."
+      }
+    ]
+  },
+  {
+    "query_id": "X066",
+    "reason": "The query asks which modifiers the documents exemplify for the dependent form \\mention{no}. Only \\mention{practically no} is written out; \\mention{almost} is reported to be permitted by both \\mention{no} and \\mention{none}, but the sequence \\mention{almost no} named in the query does not itself appear in either document. The record is licensed, with that difference carried in a condition.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "Approximative and focusing modifiers have a broader distribution. Compare \\mention{almost every}, \\mention{nearly all}, \\mention{hardly any}, \\mention{practically no}, \\mention{almost everyone}, and \\mention{almost ten}."
+      },
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+      }
+    ]
+  },
+  {
+    "query_id": "X067",
+    "reason": "Function split not representable. The documents distinguish the dependent form \\mention{no} from the independent form \\mention{none} and state that the partitive requires the independent form, but the construction vocabulary carries no dependent/independent parameter for peripheral modification (and independent_argument merges subject, object and complement-of-preposition uses), so the no/none function split can ride only in conditions. The record also reports \\mention{almost} with \\mention{none} on the strength of the statement that both forms permit \\mention{almost}; the sequence \\mention{almost none} is not itself written out in either document. Grounding limitation, unresolved: the sentence that licenses this cell says nothing about attachment, and no statement anywhere is specific to \\mention{none}. The peripheral_mod_admission classification, which requires attachment outside the phrase's own determiner and internal nominal dependents, therefore rests on the manuscript's general analysis of approximatives, stated in §\\ref{sec:payne} and illustrated with \\mention{almost every}; that same analysis requires internal attachment for approximatives on externally determined independent cardinals, as in \\mention{the almost thirty who came}. No none-specific attachment claim is asserted in the record.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+      },
+      {
+        "source_id": "M",
+        "quote": "The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded."
+      },
+      {
+        "source_id": "M",
+        "quote": "Peripheral modifiers attach outside an NP's internal dependents."
+      },
+      {
+        "source_id": "M",
+        "quote": "Figure~\\ref{fig:every} places \\mention{almost} at the periphery of the NP headed by \\mention{every}."
+      },
+      {
+        "source_id": "M",
+        "quote": "Approximatives also need internal attachment where they follow an external determiner on an independent cardinal: \\mention{the almost thirty who came}."
+      }
+    ]
+  },
+  {
+    "query_id": "X075",
+    "reason": "Attribution and cause. The status \"excluded\" reports CGEL's judgment on \\mention{some a great deal better proposals}, but the manuscript's caveat is that the excluded example also juxtaposes \\mention{some} and \\mention{a} and so doesn't isolate NP category as the cause; CGEL permits \\mention{She's a lot better player than me}. The status field carries the judgment but not the caveat, which is recorded in conditions.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} contrasts predicative \\mention{a great deal better} with \\ungram{\\mention{some a great deal better proposals}}, against permitted \\mention{some much better proposals}"
+      },
+      {
+        "source_id": "M",
+        "quote": "The excluded example also juxtaposes \\mention{some} and \\mention{a}; it doesn't isolate NP category as the cause."
+      },
+      {
+        "source_id": "M",
+        "quote": "\\textit{CGEL} permits \\mention{She's a lot better player than me}, analysing the inner article as lost after the outer one"
+      }
+    ]
+  },
+  {
+    "query_id": "X103",
+    "reason": "Scope caveat not representable in the record shape. The manuscript's fragment places predication beyond its scope, while §2.3 cites predicative \\mention{several} as evidence, so records built on predicative_complement (X103-X105) rest on the profile discussion rather than on the fragment's use permissions. The caveat is carried in conditions; the status field cannot express it. See the predication_outside_fragment scope check.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "Predication, interrogative clause structure, and modification outside NP structure lie beyond its scope."
+      },
+      {
+        "source_id": "M",
+        "quote": "Predicative \\mention{Its advantages are several} and \\mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal"
+      },
+      {
+        "source_id": "M",
+        "quote": "The fragment covers determination, internal nominal modification, ordinary subject, object, and complement-of-preposition uses, partitives, and the compound comparisons in §\\ref{sec:evidence}."
+      }
+    ]
+  },
+  {
+    "query_id": "X108",
+    "reason": "Category label partly inferred from section framing. The manuscript contrasts attributive \\mention{numerous} with determinative \\mention{many} in a section headed \"Quantificational adjectives and nominal independence\" and uses the degree-modification contrast to separate them, but neither document contains a sentence of the form \"numerous is an adjective\". The record states the adjective categorization as the section's framing together with the stated syntactic contrast, rather than as a quoted categorial assignment.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "\\subsection{Quantificational adjectives and nominal independence}"
+      },
+      {
+        "source_id": "M",
+        "quote": "\\mention{Numerous people} and \\mention{many people} both quantify, but their syntax differs."
+      },
+      {
+        "source_id": "M",
+        "quote": "Degree modification exposes a contrast: \\mention{so many mistakes} is possible, while \\ungram{\\mention{so numerous mistakes}} is excluded"
+      }
+    ]
+  },
+  {
+    "query_id": "X110",
+    "reason": "Evidential and inferential limits. The cell is a constructed comparison built on CGEL's adjective-fusion statement, and the manuscript includes it precisely as a control: existential occurrence doesn't decide the structural analysis. The displaced-subject analysis presupposed by the construction id is CGEL's, so this record reports participation only and supports no inference to category or Head relations. The record shape has no field for that distinction, so it is carried in conditions.",
+    "evidence": [
+      {
+        "source_id": "M",
+        "quote": "Adjective fusion permits indefinite ordinal \\mention{a second} \\citep[416]{huddleston2002}, giving the constructed comparison \\mention{There was a second}."
+      },
+      {
+        "source_id": "M",
+        "quote": "Existential occurrence doesn't decide the structural analysis either."
+      },
+      {
+        "source_id": "M",
+        "quote": "Existentials add a construction to this comparison. With possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject"
+      }
+    ]
+  }
+]

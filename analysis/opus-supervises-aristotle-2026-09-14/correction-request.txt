@@ -1,0 +1,16 @@
+An Opus supervisor reviewed records.json against the original supplied excerpts and requests the following bounded correction. Apply it to records.json, preserve all other records and every exact evidence quotation unchanged, and return the complete corrected records.json. Keep the existing schema. No Lean work or outside sources are requested.
+
+[
+  {
+    "id": "I1",
+    "record_id": "the_few_people",
+    "severity": "minor",
+    "finding": "The closing clause — \"the relevant target restriction on the is only that the nominal it determines may itself be headed by an independent determinative, as in the few\" — misstates the source. S05 gives the's target restriction as \"No count or number restriction\"; S07 says target restrictions apply to nominals \"including a nominal headed by an independent determinative\", so that is a permitted target type, not the sole restriction on the. The 'only' exhaustivity claim is unsupported, and in the few people (S10) the's target is the nominal headed by people, not a determinative-headed nominal.",
+    "source_ids": [
+      "S05",
+      "S07",
+      "S10"
+    ],
+    "revision_instruction": "In scope_checks[the_few_people].answer, replace the final clause after \"These are the two distinguished uses of few\" with source-tracking wording such as: \"and the carries no count or number restriction on its target, with target restrictions applying also to a nominal headed by an independent determinative, which is why the permits plural few in the few.\" Leave the rest of the answer and all evidence quotes unchanged."
+  }
+]

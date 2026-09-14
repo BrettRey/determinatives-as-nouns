@@ -1,0 +1,21 @@
+[
+  {
+    "by": "parent",
+    "query_id": "X098",
+    "reason": "The defined independent_partitive construction should not presuppose that a lot of delegates with an undetermined complement is partitive. The main source contrasts this with a lot of the delegates. The general argument construction leaves that distinction available.",
+    "before": {
+      "id": "X098",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_partitive",
+      "request": "Quantificational lot with an of-PP whose complement is an undetermined nominal, as in a lot of delegates, compared with a lot of the delegates. The article belongs to the frame; record the number-transparency property and the count and non-count agreement examples."
+    },
+    "after": {
+      "id": "X098",
+      "form": "lot",
+      "lexeme_id": "lex_lot",
+      "construction_id": "independent_argument",
+      "request": "Quantificational lot in an independent argument phrase with an of-PP whose complement is an undetermined nominal, as in a lot of delegates, compared with a lot of the delegates. The article belongs to the frame. Keep the undetermined-complement use distinct from the partitive comparison, and record the number-transparency property and the count and non-count agreement examples."
+    }
+  }
+]

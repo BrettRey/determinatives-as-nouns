@@ -1,0 +1,74 @@
+{
+  "changed": {
+    "lexemes": [],
+    "constructions": [],
+    "participation_claims": [],
+    "scope_checks": [
+      {
+        "id": "the_few_people",
+        "answer": "No. In the few people the phrase headed by few is an internal Mod of the nominal headed by people, so the determines that larger nominal, not the phrase headed by few; in this dependent use ordinary few excludes external determination within its own phrase. By contrast, in the lucky few, few heads the independently determined NP, and independent few does permit definite determination and adjectival premodification. These are the two distinguished uses of few, and the carries no count or number restriction on its target, with target restrictions applying also to a nominal headed by an independent determinative, which is why the permits plural few in the few.",
+        "evidence": [
+          {
+            "source_id": "S10",
+            "quote": "The constraints also distinguish the uses of \\mention{few}. In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP."
+          },
+          {
+            "source_id": "S09",
+            "quote": "In Det or internal Mod function before a target, ordinary \\mention{some} and \\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase."
+          },
+          {
+            "source_id": "S09",
+            "quote": "independent \\mention{few} also permits definite determination and adjectival premodification, as in \\mention{the lucky few}"
+          },
+          {
+            "source_id": "S07",
+            "quote": "Thus \\mention{the} permits plural \\mention{few} in \\mention{the few}."
+          }
+        ]
+      }
+    ]
+  },
+  "unchanged_ids": {
+    "lexemes": [
+      "lex_the",
+      "lex_every",
+      "lex_some",
+      "lex_few",
+      "lex_no",
+      "lex_my",
+      "lex_book"
+    ],
+    "constructions": [
+      "dependent_det",
+      "dependent_internal_mod",
+      "independent_argument",
+      "independent_partitive",
+      "degree_modifier_adj"
+    ],
+    "participation_claims": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20"
+    ],
+    "scope_checks": [
+      "the_apple"
+    ]
+  }
+}

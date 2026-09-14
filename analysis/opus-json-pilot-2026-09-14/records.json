@@ -1,0 +1,712 @@
+{
+  "lexemes": [
+    {
+      "id": "lex_the",
+      "forms": [
+        "the"
+      ]
+    },
+    {
+      "id": "lex_every",
+      "forms": [
+        "every"
+      ]
+    },
+    {
+      "id": "lex_some",
+      "forms": [
+        "some"
+      ]
+    },
+    {
+      "id": "lex_few",
+      "forms": [
+        "few"
+      ]
+    },
+    {
+      "id": "lex_no",
+      "forms": [
+        "no",
+        "none"
+      ]
+    },
+    {
+      "id": "lex_my",
+      "forms": [
+        "my",
+        "mine"
+      ]
+    },
+    {
+      "id": "lex_book",
+      "forms": [
+        "book",
+        "books"
+      ]
+    }
+  ],
+  "constructions": [
+    {
+      "id": "dependent_det",
+      "description": "A phrase functions as Det before a separate target nominal."
+    },
+    {
+      "id": "dependent_internal_mod",
+      "description": "A phrase functions as internal Mod before a separate target nominal."
+    },
+    {
+      "id": "independent_argument",
+      "description": "A phrase has an ordinary subject, object, or preposition-complement use without a separate target nominal."
+    },
+    {
+      "id": "independent_partitive",
+      "description": "An independent phrase contains a partitive of-PP."
+    },
+    {
+      "id": "degree_modifier_adj",
+      "description": "A phrase functions as a degree modifier of an adjective."
+    }
+  ],
+  "participation_claims": [
+    {
+      "id": "P01",
+      "lexeme_id": "lex_the",
+      "form": "the",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "No count or number restriction."
+        },
+        {
+          "bearer": "target_nominal",
+          "requirement": "May be a nominal headed by an independent determinative, e.g. plural few in the few."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{the} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S07",
+          "quote": "Target restrictions apply to the nominal being determined or modified, including a nominal headed by an independent determinative."
+        },
+        {
+          "source_id": "S07",
+          "quote": "Thus \\mention{the} permits plural \\mention{few} in \\mention{the few}."
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "lexeme_id": "lex_the",
+      "form": "the",
+      "construction_id": "independent_argument",
+      "status": "excluded",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{the} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S05",
+          "quote": "A dash marks absence of the stated permission."
+        },
+        {
+          "source_id": "S01",
+          "quote": "The articles lack an independent argument form"
+        },
+        {
+          "source_id": "S11",
+          "quote": "The article's exclusion from argument use remains a separate condition."
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "lexeme_id": "lex_every",
+      "form": "every",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "Singular count."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Requires another nominal (no independent use)."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det"
+        },
+        {
+          "source_id": "S08",
+          "quote": "A singular count noun normally requires determination, while \\mention{every} requires another nominal and \\mention{some} doesn't."
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "lexeme_id": "lex_every",
+      "form": "every",
+      "construction_id": "dependent_internal_mod",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "Singular count."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "As Mod, occurs after a genitive Det."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Does not receive the independent-use permissions of some/few (partitives, relatives, definite determination, adjectival premodification)."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det"
+        },
+        {
+          "source_id": "S05",
+          "quote": "Det and Mod concern uses before another nominal; Mod is internal."
+        },
+        {
+          "source_id": "S09",
+          "quote": "These permissions don't transfer to \\mention{every} or the articles."
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "lexeme_id": "lex_every",
+      "form": "every",
+      "construction_id": "independent_argument",
+      "status": "excluded",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det"
+        },
+        {
+          "source_id": "S05",
+          "quote": "A dash marks absence of the stated permission."
+        },
+        {
+          "source_id": "S08",
+          "quote": "\\mention{every} requires another nominal"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "lexeme_id": "lex_some",
+      "form": "some",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "Plural count or non-count (target restriction stated for unstressed some)."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes external determination."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes partitive complements."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes relative postmodifiers."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{some} & yes & -- & yes & yes & Plural count or non-count"
+        },
+        {
+          "source_id": "S05",
+          "quote": "Unstressed \\mention{some} has the target restriction shown."
+        },
+        {
+          "source_id": "S09",
+          "quote": "In Det or internal Mod function before a target, ordinary \\mention{some} and \\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase."
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "lexeme_id": "lex_some",
+      "form": "some",
+      "construction_id": "independent_argument",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "Permits selected partitives and relatives."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Takes its number/count interpretation from the construction and domain."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{some} & yes & -- & yes & yes & Plural count or non-count"
+        },
+        {
+          "source_id": "S06",
+          "quote": "Subj and Obj denote subject and object; CompP denotes complement of a preposition."
+        },
+        {
+          "source_id": "S09",
+          "quote": "Independent \\mention{some} and \\mention{few} permit selected partitives and relatives"
+        },
+        {
+          "source_id": "S07",
+          "quote": "\\mention{few} is plural count, while \\mention{some} takes its interpretation from the construction and domain"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "lexeme_id": "lex_few",
+      "form": "few",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "Plural count."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes external determination."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes partitive complements."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes relative postmodifiers."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{few} & yes & yes & yes & yes & Plural count"
+        },
+        {
+          "source_id": "S09",
+          "quote": "In Det or internal Mod function before a target, ordinary \\mention{some} and \\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase."
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "lexeme_id": "lex_few",
+      "form": "few",
+      "construction_id": "dependent_internal_mod",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "Plural count; in the few people the target is the nominal headed by people."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Excludes external determination, partitive complements, and relative postmodifiers within few's own phrase."
+        },
+        {
+          "bearer": "outer_np",
+          "requirement": "The determiner the determines the outer nominal, not few's phrase; Mod is internal."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{few} & yes & yes & yes & yes & Plural count"
+        },
+        {
+          "source_id": "S05",
+          "quote": "Det and Mod concern uses before another nominal; Mod is internal."
+        },
+        {
+          "source_id": "S10",
+          "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}"
+        },
+        {
+          "source_id": "S09",
+          "quote": "In Det or internal Mod function before a target, ordinary \\mention{some} and \\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase."
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "lexeme_id": "lex_few",
+      "form": "few",
+      "construction_id": "independent_argument",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "Permits selected partitives and relatives."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Permits definite determination and adjectival premodification, as in the lucky few."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Is plural count."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "In the lucky few, few heads the independently determined NP."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{few} & yes & yes & yes & yes & Plural count"
+        },
+        {
+          "source_id": "S09",
+          "quote": "Independent \\mention{some} and \\mention{few} permit selected partitives and relatives; independent \\mention{few} also permits definite determination and adjectival premodification, as in \\mention{the lucky few}."
+        },
+        {
+          "source_id": "S07",
+          "quote": "\\mention{few} is plural count"
+        },
+        {
+          "source_id": "S10",
+          "quote": "in \\mention{the lucky few}, \\mention{few} heads the independently determined NP"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "lexeme_id": "lex_no",
+      "form": "no",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "No count or number restriction."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Dependent form no is selected before a nominal, as in no students."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Permits almost."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{no} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S02",
+          "quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "lexeme_id": "lex_no",
+      "form": "no",
+      "construction_id": "independent_argument",
+      "status": "excluded",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{no} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S05",
+          "quote": "A dash marks absence of the stated permission."
+        },
+        {
+          "source_id": "S02",
+          "quote": "dependent \\mention{no students} contrasts with independent \\mention{none}"
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "lexeme_id": "lex_no",
+      "form": "none",
+      "construction_id": "independent_argument",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "Independent form none is selected; target restriction not applicable."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "Permits almost."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{none} & -- & -- & yes & yes & Not applicable"
+        },
+        {
+          "source_id": "S06",
+          "quote": "Subj and Obj denote subject and object; CompP denotes complement of a preposition."
+        },
+        {
+          "source_id": "S02",
+          "quote": "dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost}"
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "lexeme_id": "lex_no",
+      "form": "none",
+      "construction_id": "independent_partitive",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "Requires the independent form none; dependent no of the students is excluded."
+        },
+        {
+          "bearer": "construction",
+          "requirement": "Form selection remains necessary, as with my/mine."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S02",
+          "quote": "The partitive \\mention{none of the students} requires the independent form; \\ungram{\\mention{no of the students}} is excluded."
+        },
+        {
+          "source_id": "S02",
+          "quote": "Form selection remains necessary, just as with \\mention{my}/\\mention{mine}."
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "lexeme_id": "lex_my",
+      "form": "my",
+      "construction_id": "dependent_det",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "target_nominal",
+          "requirement": "No count or number restriction."
+        },
+        {
+          "bearer": "own_phrase",
+          "requirement": "In the ordinary NP construction, dependent my requires a following nominal."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{my} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S01",
+          "quote": "\\mention{My} remains a noun even though, in the ordinary NP construction, it requires a following nominal."
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "lexeme_id": "lex_my",
+      "form": "mine",
+      "construction_id": "independent_argument",
+      "status": "licensed",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "Independent form mine is selected; target restriction not applicable."
+        },
+        {
+          "bearer": "possessor",
+          "requirement": "The genitive's person identifies the possessor."
+        },
+        {
+          "bearer": "possessed_referent",
+          "requirement": "The independent NP's agreement reflects the possessed entity or entities (Mine is ready vs Mine are ready)."
+        },
+        {
+          "bearer": "construction",
+          "requirement": "Ordinary Head needs a constructional agreement condition."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{mine} & -- & -- & yes & yes & Not applicable"
+        },
+        {
+          "source_id": "S03",
+          "quote": "The genitive's person identifies the possessor; the independent NP's agreement reflects the possessed entity or entities."
+        },
+        {
+          "source_id": "S03",
+          "quote": "Compare constructed \\mention{Mine is ready} (\\enquote*{my contribution}) and \\mention{Mine are ready} (\\enquote*{my slides})."
+        },
+        {
+          "source_id": "S03",
+          "quote": "Ordinary Head therefore needs a constructional agreement condition."
+        },
+        {
+          "source_id": "S01",
+          "quote": "Dependent \\mention{my} and independent \\mention{mine} belong to one pronoun paradigm."
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "lexeme_id": "lex_book",
+      "form": "book",
+      "construction_id": "independent_argument",
+      "status": "excluded",
+      "conditions": [
+        {
+          "bearer": "own_phrase",
+          "requirement": "A singular count noun normally requires determination; bare book leaves it unsatisfied."
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "S11",
+          "quote": "Bare \\ungram{\\mention{Book arrived}} fails that requirement, while \\mention{Books arrived} passes."
+        },
+        {
+          "source_id": "S08",
+          "quote": "A singular count noun normally requires determination"
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "lexeme_id": "lex_book",
+      "form": "books",
+      "construction_id": "independent_argument",
+      "status": "licensed",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "S11",
+          "quote": "Bare \\ungram{\\mention{Book arrived}} fails that requirement, while \\mention{Books arrived} passes."
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "lexeme_id": "lex_some",
+      "form": "some",
+      "construction_id": "degree_modifier_adj",
+      "status": "not_stated",
+      "conditions": [],
+      "evidence": []
+    },
+    {
+      "id": "P20",
+      "lexeme_id": "lex_my",
+      "form": "my",
+      "construction_id": "independent_argument",
+      "status": "excluded",
+      "conditions": [],
+      "evidence": [
+        {
+          "source_id": "S05",
+          "quote": "\\mention{my} & yes & -- & -- & -- & No count or number restriction"
+        },
+        {
+          "source_id": "S05",
+          "quote": "A dash marks absence of the stated permission."
+        },
+        {
+          "source_id": "S01",
+          "quote": "Dependent \\mention{my} and independent \\mention{mine} belong to one pronoun paradigm."
+        },
+        {
+          "source_id": "S02",
+          "quote": "Form selection remains necessary, just as with \\mention{my}/\\mention{mine}."
+        }
+      ]
+    }
+  ],
+  "scope_checks": [
+    {
+      "id": "the_apple",
+      "answer": "Each phrase's use permission follows its own lexical head. In the apple, the smaller article phrase (headed by the) has Det permission, while the outer NP has argument permission through apple, whose determination requirement is satisfied by the article phrase. The article's exclusion from independent argument use is a separate condition on the article phrase alone; it does not block the outer NP's argument use, since intermediate Head relations within a projection don't require a further argument permission.",
+      "evidence": [
+        {
+          "source_id": "S11",
+          "quote": "Each phrase's use permission follows its own lexical head."
+        },
+        {
+          "source_id": "S11",
+          "quote": "In \\mention{the apple}, the smaller article phrase has Det permission; the outer NP has argument permission through \\mention{apple}, whose determination requirement is satisfied."
+        },
+        {
+          "source_id": "S11",
+          "quote": "The article's exclusion from argument use remains a separate condition."
+        },
+        {
+          "source_id": "S04",
+          "quote": "Intermediate Head relations within its projection don't require a further argument permission."
+        }
+      ]
+    },
+    {
+      "id": "the_few_people",
+      "answer": "No: in the few people, the phrase headed by few is an internal Mod of the nominal headed by people, not an externally determined phrase. In Det or internal Mod function, ordinary few excludes external determination within its own phrase; the determines the outer nominal (people), and target restrictions apply to that determined nominal. By contrast, in the lucky few, few heads the independently determined NP, and independent few permits definite determination and adjectival premodification; the also permits plural few in the few, since target restrictions extend to a nominal headed by an independent determinative.",
+      "evidence": [
+        {
+          "source_id": "S10",
+          "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP."
+        },
+        {
+          "source_id": "S09",
+          "quote": "In Det or internal Mod function before a target, ordinary \\mention{some} and \\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase."
+        },
+        {
+          "source_id": "S09",
+          "quote": "independent \\mention{few} also permits definite determination and adjectival premodification, as in \\mention{the lucky few}"
+        },
+        {
+          "source_id": "S07",
+          "quote": "Target restrictions apply to the nominal being determined or modified, including a nominal headed by an independent determinative. Thus \\mention{the} permits plural \\mention{few} in \\mention{the few}."
+        },
+        {
+          "source_id": "S05",
+          "quote": "Det and Mod concern uses before another nominal; Mod is internal."
+        }
+      ]
+    }
+  ]
+}

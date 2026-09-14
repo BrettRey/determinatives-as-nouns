@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-14T21:21:50.486092+00:00",
+  "added_timeout": null,
+  "scope_queries": 110,
+  "input_directory": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/analysis/expanded-json-2026-09-14/aristotle-inputs",
+  "cli_exit_code": 0,
+  "elapsed_seconds": 554.06,
+  "finished_at": "2026-09-14T21:31:04.522209+00:00",
+  "project_id": "db165175-a8d0-4f52-9415-c0197eb9dddf",
+  "task_id": "90184e33-5901-4aab-bf32-82504f4a64e7",
+  "stream_interrupted": true,
+  "status_checked_at": "2026-09-14T21:47:15.724330+00:00"
+}

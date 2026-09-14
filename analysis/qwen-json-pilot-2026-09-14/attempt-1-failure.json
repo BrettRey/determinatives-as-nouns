@@ -1,0 +1,6 @@
+{
+  "outcome": "client_timeout",
+  "timeout_seconds": 600,
+  "records_returned": 0,
+  "note": "The original 20-query non-streaming request returned no response before the client timeout. No linguistic accuracy conclusion is available for that attempt."
+}

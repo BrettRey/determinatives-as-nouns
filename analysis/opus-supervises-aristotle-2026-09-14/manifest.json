@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "approach": "Opus reviews reused Aristotle batch, requests one correction, and accepts focused recheck; parent scripts relay CLI calls and validate outputs",
+  "seed_records": "analysis/aristotle-json-pilot-2026-09-14/records.json",
+  "aristotle_project_id": "52318017-655a-4afd-85c3-fd7eec060f0a",
+  "aristotle_initial_task_id": "d1ff4ba6-f714-45ca-a78e-f9f73210f9e4",
+  "aristotle_correction_task_id": "97ecbd67-e6f2-44f9-8f34-e1f4ddefd40e",
+  "aristotle_correction_service_elapsed": "3m 5s",
+  "opus_effort": "xhigh",
+  "opus_actual_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "opus_elapsed_seconds": 140.14,
+  "opus_reported_cost_usd": 0.572249,
+  "opus_reported_model_usage_by_round": {
+    "review-1": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 12636,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.012721,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5": {
+        "inputTokens": 2,
+        "outputTokens": 9779,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 16845,
+        "webSearchRequests": 0,
+        "costUSD": 0.412935,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 8706,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "review-2": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 8088,
+        "outputTokens": 19,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.008183,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5": {
+        "inputTokens": 2,
+        "outputTokens": 1716,
+        "cacheReadInputTokens": 1720,
+        "cacheCreationInputTokens": 9464,
+        "webSearchRequests": 0,
+        "costUSD": 0.13841,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1210,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "first_review_full_coverage": {
+    "lexemes": true,
+    "constructions": true,
+    "participation_claims": true,
+    "scope_checks": true
+  },
+  "final_decision": "accept",
+  "corrections_requested": 1,
+  "changed_record_fields": 1,
+  "unresolved": [],
+  "added_timeout": null,
+  "final_records_sha256": "56b0a3670612b96a3ca50dfebe248ee528f50759b2fc50f8624cf58b7b328aef",
+  "root_token_savings_measured": false,
+  "limitations": [
+    "Small existing batch, not bulk extraction or autonomous schema design.",
+    "Current run used parent-controlled script relays, not a persistent autonomous Opus orchestrator.",
+    "Original extraction and this first-run setup excluded from supervisory model usage.",
+    "Reported dollar figures are CLI estimates, not an assertion of subscription charges."
+  ]
+}

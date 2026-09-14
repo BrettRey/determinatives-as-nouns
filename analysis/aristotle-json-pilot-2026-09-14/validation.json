@@ -1,0 +1,18 @@
+{
+  "schema_reference_and_quote_errors": [],
+  "status_errors": [],
+  "correct_statuses": 20,
+  "total_statuses": 20,
+  "lexeme_form_entries": 7,
+  "construction_entries": 5,
+  "exact_quotes_checked": 56,
+  "scope_checks": 2,
+  "manuscript_unchanged": true,
+  "returned_inputs_unchanged": {
+    "sources.json": true,
+    "system-prompt.txt": true,
+    "prompt.json": true,
+    "schema.json": true,
+    "task.md": true
+  }
+}

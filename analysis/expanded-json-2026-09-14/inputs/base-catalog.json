@@ -1,0 +1,7 @@
+{
+  "dependent_det": "A phrase functions as Det before a separate target nominal.",
+  "dependent_internal_mod": "A phrase functions as internal Mod before a separate target nominal.",
+  "independent_argument": "A phrase has an ordinary subject, object, or preposition-complement use without a separate target nominal.",
+  "independent_partitive": "An independent phrase contains a partitive of-PP.",
+  "degree_modifier_adj": "A phrase functions as a degree modifier of an adjective."
+}

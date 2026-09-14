@@ -1,0 +1,12 @@
+{
+  "selection": "Deterministic stratified sample selected before Aristotle returns: three of the 54 supplement queries and three of the 56 further main-manuscript queries. All unresolved review cases will be inspected in addition.",
+  "seed": "expanded-json-2026-09-14-parent-sample",
+  "query_ids": [
+    "X011",
+    "X020",
+    "X044",
+    "X067",
+    "X090",
+    "X109"
+  ]
+}

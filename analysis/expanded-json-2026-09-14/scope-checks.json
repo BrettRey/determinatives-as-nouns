@@ -1,0 +1,8 @@
+{
+  "one_lexeme_split": "Do the three lexemes spelled one that the manuscript reports (determinative, anaphoric common noun, generic personal pronoun) require three separate lexeme records, or one record with several forms, given the instruction not to conflate homographs?",
+  "lots_heaps_lexeme_identity": "Do the documents state whether lots and heaps in lots better and heaps worse are forms of the quantificational lexemes lot and heap or separate lexemes, and what follows for the provisional lex_lots and lex_heaps records?",
+  "completeness_modifier_attachment": "Do the documents state an attachment site for the completeness modifiers in marginally enough and absolutely all, and can a record using the internal and peripheral modifier constructions be completed for them without supplying an unstated analysis?",
+  "search_nonfinding_vs_unstated": "For the four supplement cells where a search was run and no qualifying attestation was retained, does the fixed status vocabulary distinguish that evidential situation from a case the documents simply do not address, and where should the distinction be recorded if it does not?",
+  "predication_outside_fragment": "Given that the manuscript's fragment excludes predication from its scope while §2.3 cites predicative several and many as evidence, what scope should attach to records built on the predicative complement construction?",
+  "attestation_scope_limits": "What scope do the supplement's positive attestations support, given its statements that the searches establish selected occurrences, supply no usage rates, establish no ordering of the constructions, and do not establish each speaker's or writer's variety?"
+}

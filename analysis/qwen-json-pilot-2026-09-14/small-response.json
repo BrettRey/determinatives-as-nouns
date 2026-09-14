@@ -1,0 +1,21 @@
+{
+  "elapsed_seconds": 76.16,
+  "first_token_seconds": 23.67,
+  "content": "{\n  \"lexeme_forms\": {\n    \"lex_few\": [\n      \"dependent\",\n      \"independent\"\n    ],\n    \"lex_my\": [\n      \"dependent\"\n    ],\n    \"lex_some\": [\n      \"dependent\",\n      \"independent\"\n    ]\n  },\n  \"participation_claims\": {\n    \"few_dependent_det\": {\n      \"status\": \"not_stated\",\n      \"conditions\": \"\",\n      \"source_ids\": []\n    },\n    \"few_independent_argument\": {\n      \"status\": \"not_stated\",\n      \"conditions\": \"\",\n      \"source_ids\": []\n    },\n    \"mine_independent_argument\": {\n      \"status\": \"not_stated\",\n      \"conditions\": \"\",\n      \"source_ids\": []\n    },\n    \"some_degree_modifier_of_adjective\": {\n      \"status\": \"not_stated\",\n      \"conditions\": \"\",\n      \"source_ids\": []\n    }\n  }\n}",
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-09-14T18:20:07.000068Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 76142466667,
+    "load_duration": 11339515917,
+    "prompt_eval_count": 684,
+    "prompt_eval_duration": 12305873000,
+    "eval_count": 233,
+    "eval_duration": 52483829000
+  }
+}

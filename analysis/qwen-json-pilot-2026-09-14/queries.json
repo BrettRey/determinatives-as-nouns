@@ -1,0 +1,142 @@
+[
+  {
+    "id": "P01",
+    "form": "the",
+    "lexeme_id": "lex_the",
+    "construction_id": "dependent_det",
+    "request": "Ordinary the before a target nominal."
+  },
+  {
+    "id": "P02",
+    "form": "the",
+    "lexeme_id": "lex_the",
+    "construction_id": "independent_argument",
+    "request": "The article-headed phrase itself in ordinary independent argument use."
+  },
+  {
+    "id": "P03",
+    "form": "every",
+    "lexeme_id": "lex_every",
+    "construction_id": "dependent_det",
+    "request": "Every before a target nominal."
+  },
+  {
+    "id": "P04",
+    "form": "every",
+    "lexeme_id": "lex_every",
+    "construction_id": "dependent_internal_mod",
+    "request": "Every as internal modifier before a target nominal."
+  },
+  {
+    "id": "P05",
+    "form": "every",
+    "lexeme_id": "lex_every",
+    "construction_id": "independent_argument",
+    "request": "Every in ordinary independent argument use."
+  },
+  {
+    "id": "P06",
+    "form": "some",
+    "lexeme_id": "lex_some",
+    "construction_id": "dependent_det",
+    "request": "Unstressed some as Det before another nominal; record both target selection and restrictions within its own phrase."
+  },
+  {
+    "id": "P07",
+    "form": "some",
+    "lexeme_id": "lex_some",
+    "construction_id": "independent_argument",
+    "request": "Independent some; record dependent permissions and number/count interpretation."
+  },
+  {
+    "id": "P08",
+    "form": "few",
+    "lexeme_id": "lex_few",
+    "construction_id": "dependent_det",
+    "request": "Few as Det before another nominal; record target selection and restrictions within its own phrase."
+  },
+  {
+    "id": "P09",
+    "form": "few",
+    "lexeme_id": "lex_few",
+    "construction_id": "dependent_internal_mod",
+    "request": "Few as Mod in the few people; distinguish its own phrase from the outer NP."
+  },
+  {
+    "id": "P10",
+    "form": "few",
+    "lexeme_id": "lex_few",
+    "construction_id": "independent_argument",
+    "request": "Independent few, including the lucky few; record its dependents and number/count properties."
+  },
+  {
+    "id": "P11",
+    "form": "no",
+    "lexeme_id": "lex_no",
+    "construction_id": "dependent_det",
+    "request": "Dependent no before another nominal."
+  },
+  {
+    "id": "P12",
+    "form": "no",
+    "lexeme_id": "lex_no",
+    "construction_id": "independent_argument",
+    "request": "The form no in ordinary independent argument use."
+  },
+  {
+    "id": "P13",
+    "form": "none",
+    "lexeme_id": "lex_no",
+    "construction_id": "independent_argument",
+    "request": "The form none in ordinary independent argument use."
+  },
+  {
+    "id": "P14",
+    "form": "none",
+    "lexeme_id": "lex_no",
+    "construction_id": "independent_partitive",
+    "request": "None in none of the students; record form-selection restrictions."
+  },
+  {
+    "id": "P15",
+    "form": "my",
+    "lexeme_id": "lex_my",
+    "construction_id": "dependent_det",
+    "request": "Dependent my before another nominal."
+  },
+  {
+    "id": "P16",
+    "form": "mine",
+    "lexeme_id": "lex_my",
+    "construction_id": "independent_argument",
+    "request": "Independent mine as subject; record the distinction between possessor features and NP agreement."
+  },
+  {
+    "id": "P17",
+    "form": "book",
+    "lexeme_id": "lex_book",
+    "construction_id": "independent_argument",
+    "request": "Bare singular count book as ordinary subject, with no determiner, as in Book arrived."
+  },
+  {
+    "id": "P18",
+    "form": "books",
+    "lexeme_id": "lex_book",
+    "construction_id": "independent_argument",
+    "request": "Bare plural books as ordinary subject, as in Books arrived."
+  },
+  {
+    "id": "P19",
+    "form": "some",
+    "lexeme_id": "lex_some",
+    "construction_id": "degree_modifier_adj",
+    "request": "Can some itself modify an adjective in degree function? Use only supplied excerpts."
+  },
+  {
+    "id": "P20",
+    "form": "my",
+    "lexeme_id": "lex_my",
+    "construction_id": "independent_argument",
+    "request": "The dependent form my itself in ordinary independent argument use."
+  }
+]

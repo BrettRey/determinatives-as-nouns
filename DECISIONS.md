@@ -380,3 +380,19 @@ This supersedes the preceding pass’s appeal to a stable Nom–NP Head relation
 ## 2026-09-13 — Selective compression
 
 Brett approved the selective response to Claude’s length critique. Section 2.3 now gives the compact control comparison; its table and all 22 attestations, including their provenance and verification limits, move to `quantifier-controls.tex` and its four-page PDF. The provisional cline is removed from the argument. Section 5.3 drops the measure-phrase and compounding detour, retaining qualified informal attributive evidence without automatically restoring the earlier NP cost. Ordinary Head for independent genitives remains, with its constructional agreement condition stated explicitly and no genitive gain claimed in the conclusion. The main paper builds to 32 pages, down from 36. No new research or visual inspection was undertaken for these cuts.
+
+## 2026-09-14 — Derive Table 1 from the extracted claim set
+
+Brett asked what the September JSON extractions are good for. Table 1 of `quantifier-controls.tex` is now generated rather than hand-typed: `analysis/tools/quant_table.py` derives all 54 cells from `analysis/expanded-json-2026-09-14/records.json` and `supplement-cell-map.json`, writing `analysis/generated/quant-table.tex`, which the supplement pulls in with `\tablebody`, following the convention already used by `matrix-audit.tex` and `corpus-documentation.tex`. `make check-quant-table` verifies the committed file against the claims.
+
+The G/R/I markers come from each claim's stated evidential basis; the 22 attestation refs come from each claim's own cited example item, with the table-row quote excluded from that extraction so the check does not compare the table against a copy of itself. Four mutations (marker flip, ref relabel, S upgraded to I, row deleted) were each caught. The rendered PDF text layer is byte-identical to the previous build, so the change is presentation-neutral. Two presentation conventions are declared in the tool rather than silently normalized: the cell map orders *lot* before *plenty* where the table prints the reverse, and the row label keeps the article in *a lot* where the claim form is `lot`.
+
+The check catches drift between the table and the claim set. It is not independent validation of the markers themselves.
+
+## 2026-09-14 — Coverage audit of the claim set against the four-way taxonomy
+
+`analysis/tools/coverage.py` reports, per construction, which of the four coordinate subcategories the claim set covers; output in `analysis/coverage-2026-09-14.md`. Subcategory assignments are the analyst's, each carrying its manuscript grounding, since `records.json` has no category field on lexeme entries.
+
+Claims by subcategory: determinative 63, common noun 24, pronoun 1, proper noun 0, with an adjectival control class at 22. Every claim-set gap was checked against the manuscript before being reported, and two of the four thin constructions turned out not to be gaps at all: `dependent_det` is covered 4/4 in the manuscript at L118, which the extraction did not select, and `comparative_complement` and `dependent_internal_mod` are adjectival properties where four-way coverage is not expected. What survives the check: exactly one of the eleven constructions has a proper-noun instance anywhere in the manuscript, and the pronoun leg rests on four CGEL-cited data points. L726 already concedes that extending the matrix would need new sampling and coding.
+
+Not acted on: no manuscript change follows from this yet. The audit is a map of where the four-way argument is thin, for Brett to decide about.

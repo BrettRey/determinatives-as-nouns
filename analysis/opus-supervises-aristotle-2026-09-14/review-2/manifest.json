@@ -1,0 +1,82 @@
+{
+  "started_at": "2026-09-14T20:35:34.040798+00:00",
+  "requested_model": "opus",
+  "effort": "xhigh",
+  "candidate": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/analysis/opus-supervises-aristotle-2026-09-14/records.json",
+  "added_timeout": null,
+  "status": "complete",
+  "tool_access": "none",
+  "answer_key_supplied": false,
+  "elapsed_seconds": 20.98,
+  "exit_code": 0,
+  "finished_at": "2026-09-14T20:35:55.020491+00:00",
+  "actual_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-5"
+  ],
+  "model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 8088,
+      "outputTokens": 19,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.008183,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-opus-5": {
+      "inputTokens": 2,
+      "outputTokens": 1716,
+      "cacheReadInputTokens": 1720,
+      "cacheCreationInputTokens": 9464,
+      "webSearchRequests": 0,
+      "costUSD": 0.13841,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1210,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9464,
+    "cache_read_input_tokens": 1720,
+    "output_tokens": 1716,
+    "output_tokens_details": {
+      "thinking_tokens": 1210
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9464,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1716,
+        "cache_read_input_tokens": 1720,
+        "cache_creation_input_tokens": 9464,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9464
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "reported_cost_usd": 0.146593,
+  "decision": "accept"
+}

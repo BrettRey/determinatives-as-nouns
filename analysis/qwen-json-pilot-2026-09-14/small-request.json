@@ -1,0 +1,204 @@
+{
+  "model": "qwen3.8:27b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\"task\": \"Extract four compact participation claims for three lexemes, using only the excerpts. Treat these as construction-specific draft records. For dependent few preserve both target selection and restrictions within its own phrase. For independent few preserve number/count and permitted dependents. For mine preserve the distinct bearers of possessor person and NP agreement. For some as a degree modifier of an adjective, return not_stated if the excerpts do not establish the use. Keep each conditions string under 70 words. Supply source IDs; unknown claims must have empty source_ids and empty conditions. List only forms supported by the excerpts. Do not invent facts or references. Do not answer from background grammatical knowledge.\", \"sources\": [{\"id\": \"S01\", \"locator\": \"determinatives-as-nouns.tex:247\", \"text\": \"\\\\textit{CGEL}'s treatment of \\\\mention{my} supplies a precedent for a restricted noun form \\\\citep[470--471]{huddleston2002}. Dependent \\\\mention{my} and independent \\\\mention{mine} belong to one pronoun paradigm. \\\\mention{My} remains a noun even though, in the ordinary NP construction, it requires a following nominal. The articles lack an independent argument form; their positive evidence is integration into determinative, and their nounhood depends on the category-level argument.\"}, {\"id\": \"S03\", \"locator\": \"determinatives-as-nouns.tex:529\", \"text\": \"The genitive's person identifies the possessor; the independent NP's agreement reflects the possessed entity or entities. Compare constructed \\\\mention{Mine is ready} (\\\\enquote*{my contribution}) and \\\\mention{Mine are ready} (\\\\enquote*{my slides}). Ordinary Head therefore needs a constructional agreement condition. This extension isn't counted as a gain from determinative membership within Noun.\"}, {\"id\": \"S07\", \"locator\": \"determinatives-as-nouns.tex:568\", \"text\": \"Target restrictions apply to the nominal being determined or modified, including a nominal headed by an independent determinative. Thus \\\\mention{the} permits plural \\\\mention{few} in \\\\mention{the few}. Determinative-headed phrases also bear number and count properties: \\\\mention{few} is plural count, while \\\\mention{some} takes its interpretation from the construction and domain. The modifier \\\\mention{this} in \\\\mention{this much} expresses degree; its permission doesn't follow from demonstrative Det selection.\"}, {\"id\": \"S09\", \"locator\": \"determinatives-as-nouns.tex:612\", \"text\": \"The dependent conditions distinguish uses before another nominal from independent uses. In Det or internal Mod function before a target, ordinary \\\\mention{some} and \\\\mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase. Independent \\\\mention{some} and \\\\mention{few} permit selected partitives and relatives; independent \\\\mention{few} also permits definite determination and adjectival premodification, as in \\\\mention{the lucky few}. These permissions don't transfer to \\\\mention{every} or the articles.\"}]}"
+    }
+  ],
+  "format": {
+    "type": "object",
+    "properties": {
+      "lexeme_forms": {
+        "type": "object",
+        "properties": {
+          "lex_few": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "lex_my": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "lex_some": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "lex_few",
+          "lex_my",
+          "lex_some"
+        ],
+        "additionalProperties": false
+      },
+      "participation_claims": {
+        "type": "object",
+        "properties": {
+          "few_dependent_det": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "licensed",
+                  "excluded",
+                  "not_stated"
+                ]
+              },
+              "conditions": {
+                "type": "string"
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "S01",
+                    "S03",
+                    "S07",
+                    "S09"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "status",
+              "conditions",
+              "source_ids"
+            ],
+            "additionalProperties": false
+          },
+          "few_independent_argument": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "licensed",
+                  "excluded",
+                  "not_stated"
+                ]
+              },
+              "conditions": {
+                "type": "string"
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "S01",
+                    "S03",
+                    "S07",
+                    "S09"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "status",
+              "conditions",
+              "source_ids"
+            ],
+            "additionalProperties": false
+          },
+          "mine_independent_argument": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "licensed",
+                  "excluded",
+                  "not_stated"
+                ]
+              },
+              "conditions": {
+                "type": "string"
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "S01",
+                    "S03",
+                    "S07",
+                    "S09"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "status",
+              "conditions",
+              "source_ids"
+            ],
+            "additionalProperties": false
+          },
+          "some_degree_modifier_of_adjective": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "licensed",
+                  "excluded",
+                  "not_stated"
+                ]
+              },
+              "conditions": {
+                "type": "string"
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "S01",
+                    "S03",
+                    "S07",
+                    "S09"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "status",
+              "conditions",
+              "source_ids"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "few_dependent_det",
+          "few_independent_argument",
+          "mine_independent_argument",
+          "some_degree_modifier_of_adjective"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "lexeme_forms",
+      "participation_claims"
+    ],
+    "additionalProperties": false
+  },
+  "stream": true,
+  "think": false,
+  "keep_alive": "5m",
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1800
+  }
+}

@@ -19,3 +19,7 @@ reviews/ell-decision-*.md
 
 # Local extracts from copyrighted reference works
 notes/passes/*-source-page-*.txt
+
+# Python build artifacts
+__pycache__/
+*.pyc

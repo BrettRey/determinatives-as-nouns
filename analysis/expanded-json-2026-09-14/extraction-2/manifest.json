@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "project_id": "db165175-a8d0-4f52-9415-c0197eb9dddf",
+  "started_at": "2026-09-14T21:59:33.694929+00:00",
+  "added_timeout": null,
+  "active_correction_issues": 5,
+  "intended_changed_claims": [
+    "X012",
+    "X030",
+    "X037",
+    "X042",
+    "X067",
+    "X100",
+    "X109"
+  ],
+  "cli_exit_code": 0,
+  "watch_elapsed_seconds": 458.64,
+  "watch_finished_at": "2026-09-14T22:07:12.335466+00:00",
+  "task_id": "3ee13e27-24f2-4672-829d-208dfefccc8d",
+  "service_elapsed": "7m 36s"
+}

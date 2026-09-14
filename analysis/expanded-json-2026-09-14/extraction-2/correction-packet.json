@@ -1,0 +1,66 @@
+{
+  "issues": [
+    {
+      "id": "I1",
+      "record_id": "X012",
+      "severity": "material",
+      "finding": "The query required noting the main manuscript's constructed \"There are several\" if it bears on this cell. The manuscript states it as a constructed existential placing the independent quantifier in displaced-subject position with dummy there as subject, which bears directly on the existential/no-dependent cell for several; the record carries neither a condition nor an evidence quote for it, so a source-supported, explicitly requested item is omitted.",
+      "source_ids": [
+        "M",
+        "Q"
+      ],
+      "revision_instruction": "Add to X012 a condition recording the manuscript's constructed \"There are several\" (possible solutions under discussion; dummy there as subject; displaced-subject analysis attributed to CGEL 1391--1393 by the manuscript), kept distinct from the supplement's own I cell for the frame \"Are there several?\", and add as evidence the exact M substring \"Existentials add a construction to this comparison. With possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject\". Change nothing else in the record."
+    },
+    {
+      "id": "I3",
+      "record_id": "X030",
+      "severity": "minor",
+      "finding": "Conditions assert supplement facts that no evidence quote in the record contains: X030 (numerous refers to benefits of a college education), X042 (countless refers to investment options) and X037 (the partitive comes from academic prose). The claims are accurate against Q, but they come from running text rather than the quoted footnotes, so they cannot be verified from the records as filed.",
+      "source_ids": [
+        "Q"
+      ],
+      "revision_instruction": "Add to X030 and X042 the exact Q substring \"The final two have no NP dependent: \\mention{numerous} refers to benefits of a college education and \\mention{countless} to investment options. These contexts establish anaphoric interpretations without an overt following nominal.\", and to X037 the exact Q substring \"The \\mention{countless} partitive comes from academic prose; the \\mention{multiple} partitive from a blog discussion.\" Add evidence only; leave statuses and conditions unchanged."
+    },
+    {
+      "id": "I5",
+      "record_id": "X100",
+      "severity": "material",
+      "finding": "The source states only that CGEL categorizes quantificational plenty as \"a common noun whose use resists determination and modification\". \"Resists\" is a negative-leaning restriction that establishes no positive availability, unlike lot's \"permits only limited modification\" (X101) or the \"hardly omissible\" of-phrase cases (X015, X021), where the source wording is explicitly permissive or presupposes an available use. So the polarity of \"licensed\" is as unsupported as the ban asserted by \"excluded\" (I2). No other passage shows modification within quantificational plenty's own phrase; \"plenty big enough\" is a degree-modifier use of plenty, not modification of it.",
+      "source_ids": [
+        "M"
+      ],
+      "revision_instruction": "Set X100 status to not_stated with empty conditions and empty evidence, as the fixed schema requires. Move CGEL's \"resists ... modification\" wording and, unmerged, the parallel determination restriction into the X100 exceptions.json entry, retaining the existing exact quote. Expand that entry to state that no fixed status expresses \"resists\", that not_stated is used only to avoid asserting either polarity and does not mean the documents are silent on modification of plenty, and that the participation judgment therefore remains unresolved. This supersedes the remedy in I2."
+    },
+    {
+      "id": "I6",
+      "record_id": "X067",
+      "severity": "material",
+      "finding": "Status licensed is warranted by \"both permit almost\", but that sentence (sec:form-selection) says nothing about attachment, and no condition or evidence grounds the peripheral_mod_admission classification, which requires attachment outside the phrase's own determiner and internal nominal dependents. The manuscript's peripheral analysis is stated generally in sec:payne and illustrated with almost every, and it assigns approximatives internal attachment where they follow an external determiner on an independent cardinal (\"the almost thirty who came\"). The record thus relies on an unrecorded general analysis; almost none is written out nowhere.",
+      "source_ids": [
+        "M"
+      ],
+      "revision_instruction": "Keep status licensed and the existing conditions and evidence. Add the exact quotes \"Peripheral modifiers attach outside an NP's internal dependents.\" and \"Figure~\\ref{fig:every} places \\mention{almost} at the periphery of the NP headed by \\mention{every}.\" and add one concise condition (bearer own_phrase) attributing peripheral attachment for almost with none to the manuscript's general approximative analysis rather than to any none-specific statement, and noting that the manuscript assigns approximatives internal attachment on externally determined independent cardinals. Do not add a none-specific attachment claim; keep the residual uncertainty in the X067 exceptions entry."
+    },
+    {
+      "id": "I7",
+      "record_id": "X109",
+      "severity": "material",
+      "finding": "Bearer assignments mix levels. Condition 1 places the determination requirement of the NP with fused rich on outer_np, but condition 2 places properties of that same NP (plural NP status, plural agreement) on own_phrase, bundled with genuine fused-head AdjP properties (the adjective lacks number inflection; adverb modification, the very rich). The source attributes plurality and agreement to the NP and absence of number inflection to the adjective, so a single own_phrase condition misstates which phrase bears each property.",
+      "source_ids": [
+        "M"
+      ],
+      "revision_instruction": "Split X109's number/agreement condition into two, keeping the wording and all evidence unchanged: (a) bearer outer_np — generic human the rich is a plural NP and takes plural agreement; (b) bearer own_phrase — the fused-head adjective lacks number inflection and still takes adverb modifiers, as in the very rich. Leave condition 1 on outer_np and condition 3 as they stand, so own_phrase consistently denotes the fused-head AdjP and outer_np the containing NP."
+    }
+  ],
+  "prior_remedy_superseded": "The first review’s proposed licensed remedy for X100 is superseded by I5. Use not_stated, retaining the distinct source restrictions in exceptions.json.",
+  "remaining_limits_to_preserve": [
+    "X100 schema limitation: no fixed status expresses \"resists\". not_stated is chosen only because it asserts neither permission nor exclusion; it does not mean the documents are silent, and the restriction (plus the separate determination restriction) survives only in exceptions.json. The participation judgment for modification within quantificational plenty's own phrase remains open.",
+    "X067 grounding limitation: the documents state that no and none both permit almost but never write out almost none and give no none-specific attachment statement; the peripheral classification follows the manuscript's general approximative analysis, which elsewhere requires internal attachment for approximatives on externally determined independent cardinals. The construction vocabulary also carries no dependent/independent parameter, so the no/none function split rides only in conditions.",
+    "X109 schema limitation: the schema does not fix whether the participant phrase in independent_argument for a fused head is the AdjP headed by rich or the containing NP the rich. The instructed split assumes own_phrase = fused-head AdjP and outer_np = containing NP, matching the record's existing condition 1; if the extraction instead treats the NP as own_phrase, the determination condition must move there and outer_np must be dropped. Either way the two levels must not be bundled."
+  ],
+  "additional_quote_for_I6": {
+    "source_id": "M",
+    "quote": "Approximatives also need internal attachment where they follow an external determiner on an independent cardinal: \\mention{the almost thirty who came}."
+  },
+  "parent_relay_note": "The additional exact quote backs the cardinal exception mentioned in I6’s new condition. Include it with that record’s evidence. Preserve remaining source/schema qualifications; record the X109 own_phrase/outer_np convention in exceptions.json if needed. Do not silently treat unresolved source questions as settled."
+}

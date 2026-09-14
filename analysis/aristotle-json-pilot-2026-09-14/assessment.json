@@ -1,0 +1,37 @@
+{
+  "verdict": "Successful draft extraction on the full pilot, with two wording qualifications. No Lean formalization was needed.",
+  "manual_checks": {
+    "P06": "Preserves unstressed-some target selection and all three own-phrase exclusions.",
+    "P08_P09": "Preserves few target selection and dependent-phrase exclusions; the outer determiner is not attributed to few itself.",
+    "P07_P10": "Preserves independent partitives/relatives, independent-few definite determination and adjective premodification, and its own plural-count properties.",
+    "P12_P13_P14": "Preserves no/none as forms of one lexeme and selects none in the partitive.",
+    "P15_P16_P20": "Preserves my/mine as forms of one lexeme and excludes ordinary independent argument use of my.",
+    "P16_agreement": "Keeps possessor person distinct from the possessed entity/entities reflected in NP agreement.",
+    "P17_P18": "Correct bare-book versus bare-books classification; see determination wording qualification.",
+    "P19": "Correctly leaves the unsupported degree-modifier use of some not_stated.",
+    "scope_the_apple": "Correctly separates article-phrase Det permission from outer NP argument permission.",
+    "scope_the_few_people": "Correctly separates outer determination from dependent few and contrasts the lucky few; see terminology qualification."
+  },
+  "wording_qualifications": [
+    {
+      "location": "P18.conditions[0]",
+      "text": "Bare plural books satisfies the determination requirement that bare singular book fails.",
+      "assessment": "Correct status, but the phrasing can imply that plural books is subject to the singular-count determination requirement. More precisely, plural books is not subject to that same requirement. The source itself uses the shorthand that Books arrived passes."
+    },
+    {
+      "location": "scope_checks[the_few_people].answer, final sentence",
+      "text": "the relevant target restriction on the is only that the nominal it determines may itself be headed by an independent determinative",
+      "assessment": "This describes a permission as a restriction. A determinative-headed nominal is permitted as a target, not required. P01 correctly records no count or number restriction, so this is an explanatory wording issue."
+    }
+  ],
+  "limits": [
+    "One guided extraction run, not full-inventory reliability.",
+    "Identifiers, constructions, and questions were supplied.",
+    "Source fidelity is assessed; linguistic claims are not independently verified.",
+    "Aristotle could write and execute a builder/checker script; this is not an equal-runtime benchmark against tool-disabled Opus.",
+    "Query context remains essential: P17 concerns bare singular count book."
+  ],
+  "output_edited": false,
+  "manuscript_edited": false,
+  "lean_verification_requested": false
+}

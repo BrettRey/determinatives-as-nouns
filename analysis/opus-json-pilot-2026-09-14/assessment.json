@@ -1,0 +1,22 @@
+{
+  "verdict": "Passes this bounded extraction pilot; suitable for preparing draft records from supplied excerpts with verification.",
+  "manual_checks": {
+    "P06": "Pass: unstressed-some target selection is qualified, and the three exclusions apply within its own dependent phrase.",
+    "P08_P09": "Pass: few selects a plural-count target in dependent use; own-phrase exclusions are separated from the outer determiner in the few people.",
+    "P07_P10": "Pass: selected partitives/relatives are retained; definite determination and adjectival premodification are assigned to independent few. Its own plural-count properties are distinct from dependent target selection.",
+    "P12_P13_P14": "Pass: no/none share a lexeme, with dependent/independent form selection; partitives require none.",
+    "P15_P16_P20": "Pass: my/mine share a lexeme; ordinary independent argument use of my is excluded.",
+    "P16_agreement": "Pass: possessor person and agreement reflecting the possessed entity/entities are kept distinct.",
+    "P17_P18": "Pass for the supplied queries: bare singular count book is excluded and bare plural books is licensed.",
+    "P19": "Pass: unsupported some-as-degree-modifier remains not_stated with no fabricated evidence.",
+    "scope_the_apple": "Pass: article phrase Det permission is separate from the outer NP argument permission through apple.",
+    "scope_the_few_people": "Pass: the belongs to the outer people NP; independent few in the lucky few can have its own determiner."
+  },
+  "limits": [
+    "One run of a guided extraction task; no estimate of reliability over the full lexicon.",
+    "Identifiers, construction definitions, and queries were supplied; schema design and exhaustive discovery were not tested.",
+    "The model extracted manuscript claims; this is not independent verification of those grammatical claims.",
+    "Retain query context: P17 concerns bare singular count book, not all independent NPs headed by book. Some conditions remain prose rather than executable predicates."
+  ],
+  "output_edits": false
+}

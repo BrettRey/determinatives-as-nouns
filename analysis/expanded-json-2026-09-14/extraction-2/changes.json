@@ -1,0 +1,78 @@
+[
+  {
+    "group": "participation_claims",
+    "id": "X012",
+    "fields": [
+      "conditions",
+      "evidence"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X030",
+    "fields": [
+      "evidence"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X037",
+    "fields": [
+      "evidence"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X042",
+    "fields": [
+      "evidence"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X067",
+    "fields": [
+      "conditions",
+      "evidence"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X100",
+    "fields": [
+      "status",
+      "conditions",
+      "evidence"
+    ],
+    "status_before": "excluded",
+    "status_after": "not_stated"
+  },
+  {
+    "group": "participation_claims",
+    "id": "X109",
+    "fields": [
+      "conditions"
+    ],
+    "status_before": "licensed",
+    "status_after": "licensed"
+  },
+  {
+    "group": "scope_checks",
+    "id": "search_nonfinding_vs_unstated",
+    "fields": [
+      "answer"
+    ],
+    "status_before": null,
+    "status_after": null
+  }
+]
