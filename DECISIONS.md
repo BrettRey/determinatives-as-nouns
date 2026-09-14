@@ -396,3 +396,15 @@ The check catches drift between the table and the claim set. It is not independe
 Claims by subcategory: determinative 63, common noun 24, pronoun 1, proper noun 0, with an adjectival control class at 22. Every claim-set gap was checked against the manuscript before being reported, and two of the four thin constructions turned out not to be gaps at all: `dependent_det` is covered 4/4 in the manuscript at L118, which the extraction did not select, and `comparative_complement` and `dependent_internal_mod` are adjectival properties where four-way coverage is not expected. What survives the check: exactly one of the eleven constructions has a proper-noun instance anywhere in the manuscript, and the pronoun leg rests on four CGEL-cited data points. L726 already concedes that extending the matrix would need new sampling and coding.
 
 Not acted on: no manuscript change follows from this yet. The audit is a map of where the four-way argument is thin, for Brett to decide about.
+
+## 2026-09-14 — Add evidence_type and subcategory as a derived layer
+
+Brett asked for the two fields. They go in `analysis/claims/claims-enriched.json`, built by `analysis/claims/enrich.py`, not into the source run: `analysis/expanded-json-2026-09-14/` is a provenance bundle with recorded hashes and a documented Opus acceptance, so modifying `records.json` would invalidate its audit trail. The script verifies that every original field survives unchanged and that the source hash is the same before and after. `make claims` rebuilds the layer and the coverage report.
+
+`evidence_type` is declared-only. The supplement defines its evidential vocabulary in the caption of `tab:quant-controls`, and each of its 54 claims states which value applies, giving 22 retained attestations, 17 constructed illustrations, 9 CGEL-described, 4 searched-not-found and 2 CGEL-restricted. The 56 manuscript claims declare no basis, so their `evidence_type` is null and they carry `evidence_signals` instead: observable features of the quoted text (`cgel_cited` 35, `ungrammaticality_marked` 17, `corpus_attestation` 3, none detected 10), which overlap and are not epistemic types.
+
+The reason for that split is a failure worth recording. A first attempt classified evidence by keyword matching and returned 50 of 54 supplement claims as attestation-backed, when the declared answer is 22: every claim carries the shared NOW/COCA footnote in its evidence list, so the keywords matched boilerplate. Inferring evidence type from prose does not work on this data, which is why the field is declaration-driven and null where nothing is declared.
+
+This makes Reviewer 1's charge countable for the first time: 22 of 54 declared claims rest on an attestation, 32 do not, and only 3 of the other 56 show any corpus attestation. It also locates a gap in the extraction rather than the paper. The next extraction run should require `evidence_type` as a schema field.
+
+`subcategory` moves onto the lexeme entries with its manuscript grounding, and `analysis/tools/coverage.py` now reads it from the enriched file rather than carrying its own copy.

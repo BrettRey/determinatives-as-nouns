@@ -24,48 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 RUN = ROOT / "analysis" / "expanded-json-2026-09-14"
-
-# (subcategory, grounding).  "CGEL/paper default" marks the uncontroversial
-# determinative inventory the paper takes over without separate argument.
-SUBCATEGORY = {
-    "lex_the": ("determinative", "CGEL/paper default"),
-    "lex_a": ("determinative", "CGEL/paper default"),
-    "lex_every": ("determinative", "CGEL/paper default"),
-    "lex_some": ("determinative", "CGEL/paper default"),
-    "lex_few": ("determinative", "CGEL/paper default"),
-    "lex_no": ("determinative", "CGEL/paper default"),
-    "lex_many": ("determinative", "CGEL/paper default"),
-    "lex_much": ("determinative", "CGEL/paper default"),
-    "lex_little": ("determinative", "CGEL/paper default"),
-    "lex_several": ("determinative", "supplement: CGEL includes several among determinatives"),
-    "lex_all": ("determinative", "CGEL/paper default"),
-    "lex_both": ("determinative", "CGEL/paper default"),
-    "lex_any": ("determinative", "CGEL/paper default"),
-    "lex_enough": ("determinative", "CGEL/paper default"),
-    "lex_this": ("determinative", "CGEL/paper default"),
-    "lex_that": ("determinative", "CGEL/paper default"),
-    "lex_certain": ("determinative", "supplement: CGEL treats certain/various as marginal determinatives"),
-    "lex_various": ("determinative", "supplement: CGEL treats certain/various as marginal determinatives"),
-    "lex_anyone": ("determinative", "ms: 'anyone takes the premodifiers of its determinative base any'"),
-    "lex_something": ("determinative", "ms: 'Compound determinatives also take post-head adjectives'"),
-    "lex_ten": ("determinative", "cardinal numeral, treated with the determinative inventory"),
-    "lex_thirty": ("determinative", "cardinal numeral, treated with the determinative inventory"),
-
-    "lex_my": ("pronoun", "ms: 'Dependent my and independent mine belong to one pronoun paradigm'"),
-
-    "lex_book": ("common noun", "the paper's plain common-noun control"),
-    "lex_lot": ("common noun", "ms: CGEL categorizes quantificational plenty/lot as common nouns"),
-    "lex_lots": ("common noun", "quantificational common noun, with lot"),
-    "lex_heaps": ("common noun", "quantificational common noun, with lot"),
-    "lex_deal": ("common noun", "ms: 'Quantificational nouns occur in degree modifiers such as a great deal smaller'"),
-    "lex_plenty": ("common noun", "ms: CGEL categorizes quantificational plenty as a common noun"),
-
-    "lex_numerous": ("adjective (control)", "ms §2.3 'Quantificational adjectives and nominal independence'"),
-    "lex_multiple": ("adjective (control)", "ms §2.3"),
-    "lex_countless": ("adjective (control)", "ms §2.3"),
-    "lex_rich": ("adjective (control)", "ms: 'only the former has a noun as lexical head'"),
-    "lex_second": ("adjective (control)", "ms: 'Adjective fusion permits indefinite ordinal a second'"),
-}
+ENRICHED = ROOT / "analysis" / "claims" / "claims-enriched.json"
 
 # The four coordinate subcategories the paper's taxonomy asserts.
 FOUR = ["determinative", "common noun", "pronoun", "proper noun"]
@@ -100,12 +59,12 @@ VERIFIED = {
 
 
 def main():
-    records = json.loads((RUN / "records.json").read_text())
+    if not ENRICHED.exists():
+        sys.exit("run analysis/claims/enrich.py first")
+    records = json.loads(ENRICHED.read_text())
+    SUBCATEGORY = {l["id"]: (l["subcategory"], l["subcategory_grounding"])
+                   for l in records["lexemes"]}
     supplement = {e["query_id"] for e in json.loads((RUN / "supplement-cell-map.json").read_text())}
-
-    missing = [l["id"] for l in records["lexemes"] if l["id"] not in SUBCATEGORY]
-    if missing:
-        sys.exit(f"unassigned lexemes: {missing}")
 
     by_con = defaultdict(lambda: defaultdict(list))
     for c in records["participation_claims"]:
@@ -162,6 +121,41 @@ def main():
                "four-way; the evidence is close to two-way, with an adjectival contrast class "
                f"({totals['adjective (control)']} claims) doing more work than two of the four "
                "subcategories it is meant to sit beside.\n")
+    out.append("## Evidence type\n")
+    declared = [c for c in records["participation_claims"] if c["evidence_type"]]
+    undeclared = [c for c in records["participation_claims"] if not c["evidence_type"]]
+    et = defaultdict(int)
+    for c in declared:
+        et[c["evidence_type"]] += 1
+    out.append(f"{len(declared)} of {len(declared) + len(undeclared)} claims declare an "
+               "evidential basis. All of them are supplement claims; the supplement defines the "
+               "vocabulary in its table caption.\n")
+    out.append("| Declared evidence type | Claims |")
+    out.append("|---|---:|")
+    for k, v in sorted(et.items(), key=lambda kv: -kv[1]):
+        out.append(f"| `{k}` | {v} |")
+    out.append("")
+    attested = et.get("retained_attestation", 0)
+    out.append(f"So {attested} of the {len(declared)} declared claims rest on a retained "
+               f"attestation and {len(declared) - attested} do not. This is the countable form of "
+               "the referee's charge that the diagnostics rest on constructed examples.\n")
+
+    sig = defaultdict(int)
+    for c in undeclared:
+        for s_ in (c["evidence_signals"] or ["(none detected)"]):
+            sig[s_] += 1
+    out.append(f"The other {len(undeclared)} claims declare no basis, so they carry no "
+               "evidence_type. What is observable in their quoted evidence:\n")
+    out.append("| Detectable signal | Claims |")
+    out.append("|---|---:|")
+    for k, v in sorted(sig.items(), key=lambda kv: -kv[1]):
+        out.append(f"| `{k}` | {v} |")
+    out.append("")
+    out.append("A signal is a feature of the text, not an epistemic type, and the counts overlap. "
+               "Only 3 of these 56 show any corpus attestation. **The gap this exposes is in the "
+               "extraction, not only in the paper: the next run should require evidence_type as a "
+               "field rather than leaving it to prose.**\n")
+
     out.append("## Coverage by construction\n")
     out.append("`n/4` counts how many of the four coordinate subcategories appear. "
                "Adjective controls are listed but not counted, since the paper uses them as a "

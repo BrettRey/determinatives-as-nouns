@@ -9,7 +9,7 @@ SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
 OUTDIR = .
 
 # Targets
-.PHONY: all supplements clean distclean view help test check-quant-table
+.PHONY: all supplements clean distclean view help test check-quant-table claims
 
 # Default target: build the PDF
 all: $(MAIN).pdf
@@ -37,6 +37,19 @@ analysis/generated/quant-table.tex: analysis/expanded-json-2026-09-14/records.js
 
 check-quant-table:
 	python3 analysis/tools/quant_table.py check
+
+# The claim set gains evidence_type and subcategory in a derived layer; the
+# source run under analysis/expanded-json-2026-09-14 is a provenance bundle
+# and is never modified.
+analysis/claims/claims-enriched.json: analysis/expanded-json-2026-09-14/records.json \
+		analysis/expanded-json-2026-09-14/supplement-cell-map.json \
+		analysis/claims/enrich.py
+	python3 analysis/claims/enrich.py
+
+analysis/coverage-2026-09-14.md: analysis/claims/claims-enriched.json analysis/tools/coverage.py
+	python3 analysis/tools/coverage.py
+
+claims: analysis/claims/claims-enriched.json analysis/coverage-2026-09-14.md
 
 # Full build sequence with bibliography
 $(MAIN).pdf: $(MAIN).tex references.bib
@@ -95,4 +108,5 @@ help:
 	@echo "  make view     - Open PDF (macOS only)"
 	@echo "  make test     - Run Python specification tests"
 	@echo "  make check-quant-table - Verify Table 1 against the claim set"
+	@echo "  make claims   - Rebuild the enriched claim set and coverage report"
 	@echo "  make help     - Show this help message"
