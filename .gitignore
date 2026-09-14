@@ -23,3 +23,6 @@ notes/passes/*-source-page-*.txt
 # Python build artifacts
 __pycache__/
 *.pyc
+
+# External (AI-service) review drops: kept local, not published
+reviews/external-*/
