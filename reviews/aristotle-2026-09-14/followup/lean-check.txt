@@ -1,0 +1,22 @@
+44
+["Fragment.Form.some", "Fragment.Form.few", "Fragment.Form.none", "Fragment.Form.mine", "Fragment.Form.she",
+ "Fragment.Form.apples", "Fragment.Form.books", "Fragment.Form.the Fragment.Form.some",
+ "Fragment.Form.the Fragment.Form.few", "Fragment.Form.the Fragment.Form.none", "Fragment.Form.the Fragment.Form.mine",
+ "Fragment.Form.the Fragment.Form.she", "Fragment.Form.the Fragment.Form.apple",
+ "Fragment.Form.the Fragment.Form.apples", "Fragment.Form.the Fragment.Form.book",
+ "Fragment.Form.the Fragment.Form.books", "Fragment.Form.a Fragment.Form.apple", "Fragment.Form.a Fragment.Form.book",
+ "Fragment.Form.every Fragment.Form.apple", "Fragment.Form.every Fragment.Form.book",
+ "Fragment.Form.some Fragment.Form.few", "Fragment.Form.some Fragment.Form.apples",
+ "Fragment.Form.some Fragment.Form.books", "Fragment.Form.few Fragment.Form.few",
+ "Fragment.Form.few Fragment.Form.apples", "Fragment.Form.few Fragment.Form.books",
+ "Fragment.Form.no Fragment.Form.some", "Fragment.Form.no Fragment.Form.few", "Fragment.Form.no Fragment.Form.none",
+ "Fragment.Form.no Fragment.Form.mine", "Fragment.Form.no Fragment.Form.she", "Fragment.Form.no Fragment.Form.apple",
+ "Fragment.Form.no Fragment.Form.apples", "Fragment.Form.no Fragment.Form.book", "Fragment.Form.no Fragment.Form.books",
+ "Fragment.Form.my Fragment.Form.some", "Fragment.Form.my Fragment.Form.few", "Fragment.Form.my Fragment.Form.none",
+ "Fragment.Form.my Fragment.Form.mine", "Fragment.Form.my Fragment.Form.she", "Fragment.Form.my Fragment.Form.apple",
+ "Fragment.Form.my Fragment.Form.apples", "Fragment.Form.my Fragment.Form.book", "Fragment.Form.my Fragment.Form.books"]
+'Fragment.admissible_account_invariant' depends on axioms: [propext]
+'Fragment.article_phrase_never_argument' depends on axioms: [propext]
+'Fragment.no_article_leak' depends on axioms: [propext]
+'Fragment.overgeneration_few_few' depends on axioms: [propext]
+'Fragment.repair_effect' depends on axioms: [propext]

@@ -5,7 +5,7 @@
 LATEX = xelatex
 BIBER = biber
 MAIN = determinatives-as-nouns
-SUPPLEMENTS = matrix-audit corpus-documentation
+SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
 OUTDIR = .
 
 # Targets

@@ -357,3 +357,26 @@ Brett explicitly requested a minimal ship. Reuse the verified 34-page build and 
 Brett approved replacing §5’s rewriting-style presentation with conditions on labelled structures, while retaining the four-account comparison. Use permissions, form selection, function-conditioned dependents, and Head relations are explicit. Both ordinary-Head accounts receive equal credit for shared NP structure; the lexical-profile case bears the categorial conclusion. Constraint counts don't establish economy. Fusion retains its distinct inner-phrase restrictions and combined function relations.
 
 The fourteen previously unresolved evidence cells received targeted checks. Ten now have attestations; four report no qualifying attestation in the logged searches. This completes the bounded follow-up, not a grammaticality inventory or a test of a strict constructional cline. Brett’s proportionality correction limits further searching and broad polish at this stage. The 35-page working draft and changed-page visual checks are recorded in `reviews/2026-09-13-implementation-record.md`.
+
+## 2026-09-13 Complete the author read with four local revisions
+
+Brett approved the completed-read response: qualify applying Hudson’s nesting to the full inventory, separate the overall assessment as §5.5, explain the omitted 76 singleton and one all-zero features while preserving the provenance qualification, and state the sampling and coding requirements for extending the matrix. Such an extension remains a further empirical study; the paper makes no forecast about LLM feasibility. All six comments and the tentative footnote are addressed, with original annotations preserved and the 35-page build and changed passages verified; see `reviews/2026-09-13-completed-read-response.md`.
+
+## 2026-09-13 Apply the supported pairwise-review findings
+
+Brett sees no reason to posit two *the* lexemes. Retain the comparative use as evidence for the article’s distribution. The verified pairwise findings warrant local clarification of the structural preference and a fuller assessment of the positive pronoun–determinative connections in §6. Coordinate rank remains the preference, based on intersecting affinities with pronouns and quantificational common nouns; nesting remains coherent. This is a bounded manuscript revision, with no new matrix study or review round. The 35-page build and changed-page visual checks pass; see `reviews/fable-pairwise-2026-09-13/revisions.md`.
+
+## 2026-09-13 Strengthen comparative justification and emphasis
+
+Brett authorized focused passes after asking which would have the highest return and specifying no skills. Make the nominal preference depend explicitly on the connected properties’ reach across the determinative system, and make the ordinary-Head preference concrete through the stable Head relation of *few* across dependent configurations. Keep the alternatives and shared restrictions visible. Consolidate repeated qualifications and introduce §5’s checks through examples before notation. The evidence and formal analyses remain unchanged; length is essentially unchanged at 35 pages. See `reviews/2026-09-13-roi-passes/report.md`.
+
+## 2026-09-13 Distinguish terminology and analytical levels
+
+Brett requested a terminology pass and a philosophical category/level check. Reserve *D-noun categorization* for lexical inclusion and *D-noun analysis* for the proposed package. Distinguish immediate Head from ultimate lexical head, phrase occurrences from words in the formal conditions, and a category’s range from the properties of each member. Use *syntactic completeness* rather than *structural saturation*.
+
+This supersedes the preceding pass’s appeal to a stable Nom–NP Head relation as a distinctive benefit: all four analyses share that relation in the matched examples. The comparison concerns the full Head chain and fusion’s additional joint functions. Noun membership satisfies the proposed grammar’s lexical-category condition; ordinary headedness is a further commitment, so the taxonomy alone doesn't entail the structures. The trees and formal displays are unchanged. The verified working draft is 36 pages; see `reviews/2026-09-13-terminology-levels/report.md`.
+
+
+## 2026-09-13 — Selective compression
+
+Brett approved the selective response to Claude’s length critique. Section 2.3 now gives the compact control comparison; its table and all 22 attestations, including their provenance and verification limits, move to `quantifier-controls.tex` and its four-page PDF. The provisional cline is removed from the argument. Section 5.3 drops the measure-phrase and compounding detour, retaining qualified informal attributive evidence without automatically restoring the earlier NP cost. Ordinary Head for independent genitives remains, with its constructional agreement condition stated explicitly and no genitive gain claimed in the conclusion. The main paper builds to 32 pages, down from 36. No new research or visual inspection was undertaken for these cuts.

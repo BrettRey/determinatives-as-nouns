@@ -1,0 +1,95 @@
+\section{The matched fragment and comparative costs}\label{sec:economy}
+
+A grammatical \term{fragment} states conditions on a specified range of constructions. Each account assigns categories and Head relations to the same expressions. The conditions specify permitted functions, dependents, and combinations of forms. They describe structures directly, following the constraint-based approach outlined by \textcite{pullum2020theorizing}. Comparing their content and reuse makes the accounts' commitments explicit; counting written statements wouldn't measure grammatical economy.
+
+\subsection{Scope and use permissions}\label{sec:fragment}
+
+The fragment covers determination, internal nominal modification, ordinary subject, object, and complement-of-preposition uses, partitives, and the compound comparisons in §\ref{sec:evidence}. It admits relative postmodifiers without analysing their internal grammar. Predication, interrogative clause structure, and modification outside NP structure lie beyond its scope. Degree uses enter the wider comparison in §\ref{sec:enough}.
+
+Table~\ref{tab:permissions} separates uses before another nominal from independent argument uses. These are lexical \term{use permissions}, with separate conditions selecting the appropriate form. A permission applies to an occurrence in the specified construction. Intermediate Head relations within its projection don't require a further argument permission.
+
+\begin{table}[H]
+\centering\small
+\caption{Selected permissions and form restrictions in the fragment. Det and Mod concern uses before another nominal; Mod is internal. A dash marks absence of the stated permission. Unstressed \mention{some} has the target restriction shown.}\label{tab:permissions}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccc>{\raggedright\arraybackslash}p{4.7cm}}
+\toprule
+Form & Det & Mod & Subj & Obj / CompP & Target before another nominal \\
+\midrule
+\mention{the} & yes & -- & -- & -- & No count or number restriction \\
+\mention{a} & yes & -- & -- & -- & Singular count \\
+\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det \\
+\mention{some} & yes & -- & yes & yes & Plural count or non-count \\
+\mention{few} & yes & yes & yes & yes & Plural count \\
+\mention{no} & yes & -- & -- & -- & No count or number restriction \\
+\mention{none} & -- & -- & yes & yes & Not applicable \\
+\mention{my} & yes & -- & -- & -- & No count or number restriction \\
+\mention{mine} & -- & -- & yes & yes & Not applicable \\
+\mention{she} & -- & -- & yes & -- & Not applicable \\
+\mention{her} (plain) & -- & -- & -- & yes & Not applicable \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Subj and Obj denote subject and object; CompP denotes complement of a preposition. The \mention{no}/\mention{none} and \mention{my}/\mention{mine} pairs distinguish forms within a paradigm (§\ref{sec:form-selection}). Plain \mention{she}/\mention{her} distinguishes subject from object and prepositional-complement uses. Quotation, metalinguistic naming, and subordinate-clause uses of dependent genitives fall outside the fragment.
+
+In \mention{some apples}, \mention{some}'s phrase satisfies its Det permission and plural-count target selection. In \mention{Some left}, it satisfies its subject permission. \mention{Every apple} passes the dependent checks; independent \ungram{\mention{Every arrived}} fails its use permission.
+
+Target restrictions apply to the nominal being determined or modified, including a nominal headed by an independent determinative. Thus \mention{the} permits plural \mention{few} in \mention{the few}. Determinative-headed phrases also bear number and count properties: \mention{few} is plural count, while \mention{some} takes its interpretation from the construction and domain. The modifier \mention{this} in \mention{this much} expresses degree; its permission doesn't follow from demonstrative Det selection.
+
+\textcite[7--8]{hudson2004determiners} distinguishes dependency from external headedness. He argues that determiner and common noun depend on each other, although only one connects the phrase to its surroundings. His temporal adjunct evidence supports common-noun headedness: \mention{I saw him that day} is possible, whereas \ungram{\mention{I saw him that point in time}} isn't, despite the similar temporal meanings \citep[10--12]{hudson2004determiners}. The lexical noun matters, as well as the determiner restrictions.
+
+Reciprocal selection is compatible with this headedness. A singular count noun normally requires determination, while \mention{every} requires another nominal and \mention{some} doesn't. The noun can remain Head while both constituents impose conditions.
+
+In the external uses listed above, an expression has to pass three checks: permission for its use, selection of its form, and satisfaction of target and dependent conditions. For a phrase occurrence $x$ with external function $f$ in a surrounding structure $s$, the shared use condition collects these checks:
+
+\[
+\operatorname{admissible}(x,f,s)
+\quad\Longleftrightarrow\quad
+f\in U_{\ell(x)}\ \land\ \operatorname{Form}(x,f,s)\ \land\ C(x,f,s).
+\]
+
+Here $\ell(x)$ identifies the lexical head's lexeme and $U_{\ell(x)}$ its use permissions. $\operatorname{Form}$ checks the selected form, including independent \mention{none} in \mention{none of the students}. $C$ checks the occurrence's dependents, its target where relevant, and the other constructional conditions. The structure $s$ includes both $x$ and its surroundings; for \mention{some}'s phrase in \mention{some apples}, it includes the target \mention{apples}.
+
+\subsection{Phrase categories and structural constraints}\label{sec:det-uniform}
+
+In \mention{some apples} and \mention{Kim's apples}, the determining phrases share the NP category under D-noun with ordinary Head. Separate D can permit the same projection. For D-noun with fusion, I retain that NP category and add the combined function relations in independent uses. \textit{CGEL} instead distinguishes DP from genitive NP. It also admits restricted plain-case NPs and PPs as determiners, as in \mention{what size hat} and \mention{over thirty ties} \citep[Ch.~5, §4]{huddleston2002}.
+
+I carry this PP-determiner provision over to the three NP-projecting implementations for the present comparison. Its inclusion in the alternatives is an extrapolation.
+
+\[
+\begin{aligned}
+\text{\textit{CGEL}:} &\quad \mathrm{Det}:\{\mathrm{DP},\mathrm{NP},\mathrm{PP}\} \\
+\text{NP-projecting implementations here:} &\quad \mathrm{Det}:\{\mathrm{NP},\mathrm{PP}\}
+\end{aligned}
+\]
+
+NP projection consolidates the principal phrase types in Det function. Determinative-headed, genitive, and other licensed NPs still require separate identification. All four implementations retain at most one Det per NP and the same definiteness and target-selection conditions. In the separate-D ordinary-Head account, an NP's ultimate lexical head can be Noun or D.
+
+The ordinary-Head accounts share three structural conditions. First, an NP core has a Nom as Head and at most one Det. Second, a nominal core has a lexical Head and only the dependents permitted for that head in its construction. Third, a peripheral modifier combines with an NP whose Head relation continues to an NP, as in Figure~\ref{fig:every}. This keeps peripheral modification outside the core's Det and Nom dependents.
+
+Where a word occurrence $h$ directly fills Head in Nom, let $\operatorname{Cat}(h)$ record its primary lexical category. Subcategory distinctions remain available. The two taxonomies impose different category conditions:
+
+\[
+\begin{aligned}
+\text{D-noun, ordinary Head:} &\quad \operatorname{Cat}(h)=\mathrm{N} \\
+\text{Separate D, ordinary Head:} &\quad \operatorname{Cat}(h)\in\{\mathrm{N},\mathrm{D}\}.
+\end{aligned}
+\]
+
+Under D-noun, determinatives satisfy the first condition as members of Noun. Separate D admits them alongside Noun. Both permit the same nominal layers, selected complements, and ordered modifiers. Their agreement on phrase structure leaves the lexical grouping open to the profile argument.
+
+The dependent conditions distinguish uses before another nominal from independent uses. In Det or internal Mod function before a target, ordinary \mention{some} and \mention{few} exclude external determination, partitive complements, and relative postmodifiers within their own phrase. Independent \mention{some} and \mention{few} permit selected partitives and relatives; independent \mention{few} also permits definite determination and adjectival premodification, as in \mention{the lucky few}. These permissions don't transfer to \mention{every} or the articles.
+
+Degree-modifier selection applies across the relevant dependent and independent uses. It includes AdvPs such as \mention{very}, determinative-headed modifiers such as \mention{this} in \mention{this much}, and established NPs such as \mention{a lot} in \mention{a lot fewer}. Comparative complements, as in \mention{more than ten}, are licensed separately from partitive \mention{of}-phrases. Neither the category NP nor a general modifier slot licenses arbitrary adjectives or unrestricted complements.
+
+Postmodification permits zero or more ordered dependents, subject to the construction. The compounds permit at most one specialized post-head restrictor followed by ordinary postmodifiers: \mention{useful} precedes \mention{that I found} in \mention{something useful that I found}. They exclude external determination and a corresponding pre-head adjective. Their determinative bases supply the premodifier restrictions (§\ref{sec:compounds}).
+
+The approximatives retain the two attachment sites motivated in §\ref{sec:payne}: peripheral NP attachment in \mention{almost every} and internal attachment in externally determined \mention{the almost thirty who came}. Both ordinary-Head accounts require this distinction.
+
+Complex \mention{a few} and \mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \mention{a very few}. Their initial \mention{a} isn't an ordinary Det selecting a plural \mention{few} target. The fragment records these combinations as complex determinatives and leaves their internal analysis beyond the position contrast unspecified. Fixed \mention{many a} retains its restriction to Det function (§\ref{sec:article-membership}).
+
+The constraints also distinguish the uses of \mention{few}. In \mention{the few people}, its phrase is an internal Mod of the nominal headed by \mention{people}; in \mention{the lucky few}, \mention{few} heads the independently determined NP.
+
+Each phrase's use permission follows its own lexical head. In \mention{the apple}, the smaller article phrase has Det permission; the outer NP has argument permission through \mention{apple}, whose determination requirement is satisfied. Bare \ungram{\mention{Book arrived}} fails that requirement, while \mention{Books arrived} passes. The article's exclusion from argument use remains a separate condition.
+

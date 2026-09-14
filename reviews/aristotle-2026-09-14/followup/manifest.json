@@ -1,0 +1,14 @@
+{
+  "submitted_at": "2026-09-14T10:42:48.002567+00:00",
+  "source_sha256": "d39bcaf37aa185ba8545d6dcfa947e8d628577af601f02a1c9e71575c7267cdb",
+  "excerpt_sha256": "4ff2fa05d79e890acb894cfdf92dd622dfb835da6a2fd30594a26e418d656b8d",
+  "scope": "one corrected test of permissions on embedded determining phrases and whole NPs",
+  "local_lean": "4.33.1",
+  "project_id": "e7d692ea-2e5a-45e1-8af4-918bc6c66dad",
+  "task_id": "059202f5-d1e1-4232-af68-993fdc517e5e",
+  "status": "complete",
+  "local_lean_check": "passed",
+  "assessment": "permission separation verified in the small encoding; alleged missing constraint is already covered in source prose; repair remains incomplete",
+  "manuscript_unchanged": true,
+  "completed_at": "2026-09-14T10:57:28.869871+00:00"
+}

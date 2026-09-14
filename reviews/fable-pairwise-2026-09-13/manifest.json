@@ -1,0 +1,2201 @@
+{
+  "run": "fable-pairwise-2026-09-13",
+  "requested_by": "Brett: have fable read the sections pairwise, in all reasonable pairings; no duplication",
+  "provider": "Anthropic / Claude Code",
+  "requested_model": "fable",
+  "effort": "max",
+  "concurrency": 3,
+  "source_path": "/Users/brettreynolds/projects/LLM-CLI-projects/papers/queue/determinatives-as-nouns/determinatives-as-nouns.tex",
+  "source_snapshot": "source.tex",
+  "source_sha256": "59e21a9b520c24ac73339ff37bf818a0c04ce95e82ee6646e9063c85de66077d",
+  "source_git_commit": "f6c2884394233eb530c8aff6196f80c951f1acce",
+  "source_has_uncommitted_changes": true,
+  "created_at": "2026-09-13T15:39:29.754469+00:00",
+  "sections": [
+    {
+      "id": "1",
+      "title": "The question and the alternatives",
+      "start": 36,
+      "end": 83
+    },
+    {
+      "id": "2",
+      "title": "Grounds for a broader Noun category",
+      "start": 85,
+      "end": 316
+    },
+    {
+      "id": "3",
+      "title": "Restricted members and the scope of the grouping",
+      "start": 318,
+      "end": 348
+    },
+    {
+      "id": "4",
+      "title": "Ordinary Head, fusion, and modifier attachment",
+      "start": 350,
+      "end": 612
+    },
+    {
+      "id": "5",
+      "title": "The matched fragment and comparative costs",
+      "start": 614,
+      "end": 798
+    },
+    {
+      "id": "6",
+      "title": "Coordinate or nested subcategories",
+      "start": 800,
+      "end": 822
+    },
+    {
+      "id": "7",
+      "title": "Conclusion",
+      "start": 824,
+      "end": 832
+    },
+    {
+      "id": "A",
+      "title": "Earlier accounts and logical alternatives",
+      "start": 836,
+      "end": 870
+    }
+  ],
+  "scope": "All 28 unordered pairs among seven main sections and Appendix A. Abstract is shared orientation; back matter is excluded. One independent read per pair.",
+  "dependence_cluster": "Same Fable model/provider and generic task; overlapping source excerpts; no cross-review context. Repeated findings are not independent votes.",
+  "pairs": [
+    {
+      "pair": "1-2",
+      "sections": [
+        "1",
+        "2"
+      ],
+      "prompt_path": "1-2/prompt.md",
+      "prompt_sha256": "0d1f358e02d32866a2a067d4ebda075595ad84608b0de371ea23279069035d6e",
+      "status": "complete",
+      "prompt_characters": 59491,
+      "started_at": "2026-09-13T16:08:32.656726+00:00",
+      "session_id": "731a2b81-ed30-4769-b557-3cc7bc6d5b15",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80751,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/731a2b81-ed30-4769-b557-3cc7bc6d5b15.jsonl",
+      "low_priority_command_at": "2026-09-13T16:08:34.964029+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:14:57.809240+00:00",
+      "duration_seconds": 385.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-2/raw-response.json",
+      "raw_output_sha256": "fa0bc56f1232722fcc30e0211b96054c3448e040960190174cc6f2953baf4269",
+      "report_path": "1-2/report.md",
+      "report_sha256": "7f05d1f335700648366c0ef8774ada89c24bfa3ad8688b6887c30760c3dd5bb2",
+      "provider_log_sha256": "61c849e310541d28c39b3db34fe8b4c15726bf211a860719ca7e871495172f8b",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 23782,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 30594,
+        "output_tokens_details": {
+          "thinking_tokens": 28705
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 23782,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 30594,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 23782,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 23782
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "1bb6026104dada3fad617bb2adcbb4369f0f7bd8b2d99cd2cf123e59d2467d0e"
+    },
+    {
+      "pair": "1-3",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "prompt_path": "1-3/prompt.md",
+      "prompt_sha256": "86a5879ca0bff4e95240d73b326a4bd9ae295e4c931f21eb3a025a2398dae473",
+      "status": "complete",
+      "prompt_characters": 19018,
+      "started_at": "2026-09-13T16:14:58.245069+00:00",
+      "session_id": "32275ab2-60c2-44c0-af0a-637d46c5f5fb",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 81265,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/32275ab2-60c2-44c0-af0a-637d46c5f5fb.jsonl",
+      "low_priority_command_at": "2026-09-13T16:15:00.698258+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:18:53.699821+00:00",
+      "duration_seconds": 235.5,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-3/raw-response.json",
+      "raw_output_sha256": "bfa57e53815b9c10cdc63d30aabb1198f7cc855687c66c6f90e9d5ca6780ad00",
+      "report_path": "1-3/report.md",
+      "report_sha256": "cb615def24857b4d42b0553f17b09a7403c844dd125010e7b072e5ce7faae693",
+      "provider_log_sha256": "2b7970aad045f9fcdeb8e8537e4616807d0754913703045830e8fc07c6c16331",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 8147,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 17923,
+        "output_tokens_details": {
+          "thinking_tokens": 16015
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 8147,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 17923,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 8147,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 8147
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "6f70873eab1803375b76aebd892f689c9d3d8fb76c722eac784319c641349c5d"
+    },
+    {
+      "pair": "1-4",
+      "sections": [
+        "1",
+        "4"
+      ],
+      "prompt_path": "1-4/prompt.md",
+      "prompt_sha256": "9c52034b205f7f022d2423d04625d20592819c654d22725d8ad873f358017809",
+      "status": "complete",
+      "prompt_characters": 38846,
+      "started_at": "2026-09-13T16:16:56.664337+00:00",
+      "session_id": "67ef364d-922a-4c8f-bc2f-91212f857cab",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 81595,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/67ef364d-922a-4c8f-bc2f-91212f857cab.jsonl",
+      "low_priority_command_at": "2026-09-13T16:16:58.985621+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:24:26.510532+00:00",
+      "duration_seconds": 449.8,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-4/raw-response.json",
+      "raw_output_sha256": "673d42d3acf936ff5b47bab5b80800e109ff9ed6c32aed9133f470852426bfbb",
+      "report_path": "1-4/report.md",
+      "report_sha256": "afa015a4f8b0471ec258471b6ba9dc71feaa606692bfca77e98d4304e0a581a2",
+      "provider_log_sha256": "09ae218121dfdde07d451d45a884e0c5bdb3fe69e0f0ed47ad8f4a203bf56849",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 16831,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 35910,
+        "output_tokens_details": {
+          "thinking_tokens": 33706
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 16831,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 35910,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 16831,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 16831
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "d8cc68caf8557a51bffcdf149228d3848a7310f38b56a6b24ea39679d2c9369b"
+    },
+    {
+      "pair": "1-5",
+      "sections": [
+        "1",
+        "5"
+      ],
+      "prompt_path": "1-5/prompt.md",
+      "prompt_sha256": "decb082e976c735caafc662a48ef18930a395632d0916b9cad44220764309aca",
+      "prompt_characters": 39647,
+      "attempts": [
+        {
+          "status": "failed",
+          "started_at": "2026-09-13T15:50:39.120343+00:00",
+          "command": [
+            "claude",
+            "-p",
+            "--model",
+            "fable",
+            "--effort",
+            "max",
+            "--safe-mode",
+            "--restricted",
+            "--tools",
+            "",
+            "--strict-mcp-config",
+            "--mcp-config",
+            "{\"mcpServers\":{}}",
+            "--setting-sources",
+            "",
+            "--no-session-persistence",
+            "--output-format",
+            "json",
+            "--system-prompt",
+            "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+          ],
+          "pid": 79449,
+          "finished_at": "2026-09-13T15:50:40.732077+00:00",
+          "error": "Incomplete Fable result: exit=1, subtype=success, result=You've hit your session limit \u00b7 resets 12:20pm (America/Toronto)",
+          "duration_seconds": 1.6,
+          "raw_output_sha256": "1edfeae89c4d9eebddefa83d3c00dc84623d8f443f2e8dc50e5676f001712683",
+          "raw_output_path": "1-5/rate-limit-attempt/raw-response.json"
+        }
+      ],
+      "status": "complete",
+      "started_at": "2026-09-13T15:58:10.912101+00:00",
+      "session_id": "c6563211-232e-4583-8b9b-75d3043acccd",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 79991,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/c6563211-232e-4583-8b9b-75d3043acccd.jsonl",
+      "low_priority_command_at": "2026-09-13T15:58:13.679601+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:03:32.513061+00:00",
+      "duration_seconds": 321.6,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-5/raw-response.json",
+      "raw_output_sha256": "6aa2e35690d80df6bc2a36ea1e70615283a0aaa532086417e66147f87b8b3b36",
+      "report_path": "1-5/report.md",
+      "report_sha256": "4f433f78dec77da8edef4f22472888372bba34f33bdf7f0b8da86e9d5d936bef",
+      "provider_log_sha256": "e5f34ce6b1b29dc199d46ac3b5ed48a056bccc7899a161e14c2c8f6bafd0fcaf",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 16120,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 27159,
+        "output_tokens_details": {
+          "thinking_tokens": 24796
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 16120,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 27159,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 16120,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 16120
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "aa28e7eeeec1cd1ea1b95d5e974935b531a48551e26e2c466e0572fcabc06f8a"
+    },
+    {
+      "pair": "1-6",
+      "sections": [
+        "1",
+        "6"
+      ],
+      "prompt_path": "1-6/prompt.md",
+      "prompt_sha256": "64ec3fb45c803cf577ff907802d805d8ae1d26b233ea0c065e9d20165b36a497",
+      "status": "complete",
+      "prompt_characters": 18464,
+      "started_at": "2026-09-13T16:14:08.675015+00:00",
+      "session_id": "3a5a9979-95bc-412c-ac6f-f64890505e83",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 81165,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/3a5a9979-95bc-412c-ac6f-f64890505e83.jsonl",
+      "low_priority_command_at": "2026-09-13T16:14:11.076289+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:17:51.293404+00:00",
+      "duration_seconds": 222.6,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-6/raw-response.json",
+      "raw_output_sha256": "781927fdb691f4384ffa07cf4a73b2471072e4336c5e891df55e7af2ffa99f48",
+      "report_path": "1-6/report.md",
+      "report_sha256": "99270a4d25d2217f1412f5c8d2a42c5a24a2f58741871875382747376b80d6ad",
+      "provider_log_sha256": "e76edbad166f736283add9c243c1266cfb8e3f0f5cd84922d6cbe2ac68fbf9f8",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7924,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 17745,
+        "output_tokens_details": {
+          "thinking_tokens": 15538
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7924,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 17745,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 7924,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7924
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "7521c463475f08f22279866325376937d2f64cfa1bf30bff50d4c93871c62dd9"
+    },
+    {
+      "pair": "1-7",
+      "sections": [
+        "1",
+        "7"
+      ],
+      "prompt_path": "1-7/prompt.md",
+      "prompt_sha256": "37342ecabb31c5a02cf6fa0d84b50eae4d1d1dc9972cb257812b7b4dbe1a85f0",
+      "status": "complete",
+      "prompt_characters": 14612,
+      "started_at": "2026-09-13T16:03:33.229335+00:00",
+      "session_id": "074466aa-06f0-40da-94b1-1c225da97e87",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80362,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/074466aa-06f0-40da-94b1-1c225da97e87.jsonl",
+      "low_priority_command_at": "2026-09-13T16:03:35.949915+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:09:27.719911+00:00",
+      "duration_seconds": 354.5,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-7/raw-response.json",
+      "raw_output_sha256": "7f0edd44c0e20fda201f942cee1e0af29567f41d9c11234363fb6a1e3148abc3",
+      "report_path": "1-7/report.md",
+      "report_sha256": "6266142428a3cd8b5a4761e43dc4efb03b7b741d355c404d84e5d4c3f0549d8d",
+      "provider_log_sha256": "e18553c229892d08becbaca5426b2ac89990f3645b2488f3a485bcc18e4deab0",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6599,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 27399,
+        "output_tokens_details": {
+          "thinking_tokens": 25367
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6599,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 27399,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 6599,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 6599
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "ae80cfbd42c80b0a7121c7d77a4ff27cdcf7d06e090b76d3c72c42e8653074eb"
+    },
+    {
+      "pair": "1-A",
+      "sections": [
+        "1",
+        "A"
+      ],
+      "prompt_path": "1-A/prompt.md",
+      "prompt_sha256": "d0da048c58c31204bf651f0a4f1a33433ca0c855e8dc610269bd8caca3757dec",
+      "status": "complete",
+      "prompt_characters": 17147,
+      "started_at": "2026-09-13T16:18:56.911463+00:00",
+      "session_id": "f08ffa5a-7586-4126-a12a-e22d8ca081ba",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 81837,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/f08ffa5a-7586-4126-a12a-e22d8ca081ba.jsonl",
+      "low_priority_command_at": "2026-09-13T16:18:58.490655+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:21:14.318325+00:00",
+      "duration_seconds": 137.4,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "1-A/raw-response.json",
+      "raw_output_sha256": "a0412b3ce220efa3eeaa5a6f138514c06ac957cf6401d8e3c4293a011d6bdf9d",
+      "report_path": "1-A/report.md",
+      "report_sha256": "4c0eaebfebadaa0eaf7ae0d3703f84816e4c6502b0d7f1e3745cb060bd502501",
+      "provider_log_sha256": "532eb9a5a4e2c545c502ed3de69176a76fd71c6e5b89bc53877674c6e2cfe8df",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7687,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 11077,
+        "output_tokens_details": {
+          "thinking_tokens": 8916
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7687,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 11077,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 7687,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7687
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "3c755aa33047eef277133049acb23779c2d9e17071cda84d8d903704c74afc5c"
+    },
+    {
+      "pair": "2-3",
+      "sections": [
+        "2",
+        "3"
+      ],
+      "prompt_path": "2-3/prompt.md",
+      "prompt_sha256": "98d8843be61e4045b07b50d215d044530dfbf5aed542536bdb3f0fbfe133f79d",
+      "status": "complete",
+      "prompt_characters": 58207,
+      "started_at": "2026-09-13T15:46:49.286116+00:00",
+      "command": [
+        "claude",
+        "-p",
+        "--model",
+        "fable",
+        "--effort",
+        "max",
+        "--safe-mode",
+        "--restricted",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--output-format",
+        "json",
+        "--system-prompt",
+        "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+      ],
+      "pid": 79212,
+      "finished_at": "2026-09-13T15:52:31.150500+00:00",
+      "duration_seconds": 341.9,
+      "actual_models": [
+        "claude-haiku-4-5-20251001",
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-3/raw-response.json",
+      "raw_output_sha256": "89959aefac66edfd9b14139baf1bf2b06049508f8b7215ccd892e7c9271d253a",
+      "report_path": "2-3/report.md",
+      "report_sha256": "0e195c9a6ac348a7c84eb10d7c3aa708f9f57ad6c811d28e35f86b85bd881efc",
+      "reported_cost_usd": 1.8070069999999998,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 22047,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 26987,
+        "output_tokens_details": {
+          "thinking_tokens": 24619
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 22047,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 26987,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 22047,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 22047
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "session_id": "1db00397-5274-47cd-baae-9ed111c2c4f5",
+      "exit_code": 0
+    },
+    {
+      "pair": "2-4",
+      "sections": [
+        "2",
+        "4"
+      ],
+      "prompt_path": "2-4/prompt.md",
+      "prompt_sha256": "6e081869c2be2e80ec94db746f9fc7a765b118e2b7d9dc4926bbbe35fd1f1e3a",
+      "status": "complete",
+      "prompt_characters": 78035,
+      "started_at": "2026-09-13T15:40:32.864508+00:00",
+      "command": [
+        "claude",
+        "-p",
+        "--model",
+        "fable",
+        "--effort",
+        "max",
+        "--safe-mode",
+        "--restricted",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--output-format",
+        "json",
+        "--system-prompt",
+        "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+      ],
+      "pid": 78844,
+      "finished_at": "2026-09-13T15:46:49.281650+00:00",
+      "duration_seconds": 376.4,
+      "actual_models": [
+        "claude-haiku-4-5-20251001",
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-4/raw-response.json",
+      "raw_output_sha256": "410f7974a702a737bbdaae23563f4974e7704a46be9bc28784bf8934f0aa24e1",
+      "report_path": "2-4/report.md",
+      "report_sha256": "efa92c7cc8f57d6dc0c238457c3c2d9b2b12fe43b0a3caa35db6ec23a123599b",
+      "reported_cost_usd": 2.1867020000000004,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 30737,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 30977,
+        "output_tokens_details": {
+          "thinking_tokens": 28875
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 30737,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 30977,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 30737,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 30737
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "session_id": "a417f6ab-28a4-4cc8-9b1d-c455ad4e2127",
+      "exit_code": 0
+    },
+    {
+      "pair": "2-5",
+      "sections": [
+        "2",
+        "5"
+      ],
+      "prompt_path": "2-5/prompt.md",
+      "prompt_sha256": "9fee28ec4ed66d04f911bbad27bfe5b19786101f2bfbcdd4d899b6e593545805",
+      "status": "complete",
+      "prompt_characters": 78836,
+      "started_at": "2026-09-13T15:40:32.864205+00:00",
+      "command": [
+        "claude",
+        "-p",
+        "--model",
+        "fable",
+        "--effort",
+        "max",
+        "--safe-mode",
+        "--restricted",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--output-format",
+        "json",
+        "--system-prompt",
+        "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+      ],
+      "pid": 78843,
+      "finished_at": "2026-09-13T15:48:16.053257+00:00",
+      "duration_seconds": 463.2,
+      "actual_models": [
+        "claude-haiku-4-5-20251001",
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-5/raw-response.json",
+      "raw_output_sha256": "06040134137688d6fbd25aea64e161fa8b922fda9d5971dd6b9b2822ee4a7258",
+      "report_path": "2-5/report.md",
+      "report_sha256": "748f81b1ae1fe8f5b01d0b5303d9b66dbd4da689ecd56f98f08d820e932aebb0",
+      "reported_cost_usd": 2.553407,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 30030,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 38606,
+        "output_tokens_details": {
+          "thinking_tokens": 36625
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 30030,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 38606,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 30030,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 30030
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "session_id": "c86ad7b9-6376-4f31-838d-684900b0ed22",
+      "exit_code": 0
+    },
+    {
+      "pair": "2-6",
+      "sections": [
+        "2",
+        "6"
+      ],
+      "prompt_path": "2-6/prompt.md",
+      "prompt_sha256": "c1ff10ed3523b7182de843c370b15d100926752cc19b52fa61d70f9f32f038fd",
+      "status": "complete",
+      "prompt_characters": 57653,
+      "started_at": "2026-09-13T15:48:16.056102+00:00",
+      "command": [
+        "claude",
+        "-p",
+        "--model",
+        "fable",
+        "--effort",
+        "max",
+        "--safe-mode",
+        "--restricted",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--output-format",
+        "json",
+        "--system-prompt",
+        "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+      ],
+      "pid": 79293,
+      "finished_at": "2026-09-13T15:52:41.496586+00:00",
+      "duration_seconds": 265.5,
+      "actual_models": [
+        "claude-haiku-4-5-20251001",
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-6/raw-response.json",
+      "raw_output_sha256": "aaf6993683e34278a343ba3b7eddb3297134d78a6c7b449b23d4eeab5832c82c",
+      "report_path": "2-6/report.md",
+      "report_sha256": "7b5b971e8828571da321032f2ad14695f21936044ffd3d0caeb7691bc608937e",
+      "reported_cost_usd": 1.509013,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 21828,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 21120,
+        "output_tokens_details": {
+          "thinking_tokens": 19200
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 21828,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 21120,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 21828,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 21828
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "session_id": "c7700614-3c05-495c-a67a-70472e995b56",
+      "exit_code": 0
+    },
+    {
+      "pair": "2-7",
+      "sections": [
+        "2",
+        "7"
+      ],
+      "prompt_path": "2-7/prompt.md",
+      "prompt_sha256": "855be3e8b9d202612bdd4c67ad087334d74e07acbe2a6652a9cd4852a30829c9",
+      "status": "complete",
+      "prompt_characters": 53801,
+      "started_at": "2026-09-13T16:09:28.237779+00:00",
+      "session_id": "d1b9e51d-f6d9-48fa-bb16-f5acdbc92641",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80848,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/d1b9e51d-f6d9-48fa-bb16-f5acdbc92641.jsonl",
+      "low_priority_command_at": "2026-09-13T16:09:30.404850+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:14:05.746668+00:00",
+      "duration_seconds": 277.5,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-7/raw-response.json",
+      "raw_output_sha256": "35758f4ad288139a00c1e422f1a1d6c3ab5bf57c2852175840753d07b8b7a2ef",
+      "report_path": "2-7/report.md",
+      "report_sha256": "4897677ea86ce182307ac8a38570d979f7db0c4b3640fad3fc81129e9b42f217",
+      "provider_log_sha256": "b898e1cd21c5e70a56d5750c9af1d7c75c0ccf96867f8530e213b1b7666b9d69",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 21593,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 22613,
+        "output_tokens_details": {
+          "thinking_tokens": 20731
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 21593,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22613,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 21593,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 21593
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "6b481d32fab833bf050ad3419cb9380db4811c59a8efba5319ba7cd3d8dfc858"
+    },
+    {
+      "pair": "2-A",
+      "sections": [
+        "2",
+        "A"
+      ],
+      "prompt_path": "2-A/prompt.md",
+      "prompt_sha256": "484861a59379ba948367c2a1349673faa6f37a64a457f690bca4f02c7e414ad7",
+      "status": "complete",
+      "prompt_characters": 56336,
+      "started_at": "2026-09-13T16:21:14.950668+00:00",
+      "session_id": "df0c62f3-4245-4660-a618-a3eeca5321f2",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82013,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/df0c62f3-4245-4660-a618-a3eeca5321f2.jsonl",
+      "finished_at": "2026-09-13T16:25:13.074653+00:00",
+      "duration_seconds": 238.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "2-A/raw-response.json",
+      "raw_output_sha256": "f3426e9e7df8e5af703aa3935a42c352ce227173dfc5c922b261dfc720453e1c",
+      "report_path": "2-A/report.md",
+      "report_sha256": "b4ac67b4d254a467b1edfaf7c78f772bf1b5c63b347c3295d1b496e7c80c82fe",
+      "provider_log_sha256": "5a3162666117e353d6ee485d88dd98bd096f9e4dcee8ed2e1f95a02f97489e2a",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 22154,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 19335,
+        "output_tokens_details": {
+          "thinking_tokens": 17318
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 22154,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 19335,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 22154,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 22154
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "00cb85d1b4db8686e44d1c37c6dbc727908c3b8c481abb4b9b590443d63f572a"
+    },
+    {
+      "pair": "3-4",
+      "sections": [
+        "3",
+        "4"
+      ],
+      "prompt_path": "3-4/prompt.md",
+      "prompt_sha256": "1b4d90d2aead170d69e5549713f3f79d94b96a6c131c9f235fd6e5f5faad3710",
+      "status": "complete",
+      "prompt_characters": 37562,
+      "started_at": "2026-09-13T16:09:40.015760+00:00",
+      "session_id": "eaf7542f-2771-4e10-b098-23a6e7b0f61c",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80898,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/eaf7542f-2771-4e10-b098-23a6e7b0f61c.jsonl",
+      "low_priority_command_at": "2026-09-13T16:09:42.281428+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:16:55.179532+00:00",
+      "duration_seconds": 435.2,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "3-4/raw-response.json",
+      "raw_output_sha256": "842b37ba8a59a78dd29a90b2f5c220d0992468683d4cdaf7db69180def58d313",
+      "report_path": "3-4/report.md",
+      "report_sha256": "66b2479f0be57c743eacb918664232e015090d1ff93cce3c87b5af4023b7a828",
+      "provider_log_sha256": "ff8fc84bc5d8fe83cfa2bb644beeb41d3be7972208039ca4d36d0768c8db0cf1",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 16192,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 35845,
+        "output_tokens_details": {
+          "thinking_tokens": 33811
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 16192,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 35845,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 16192,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 16192
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "311a3df97763768e81b7dc93029bafffa9d6b549d45946fb1fc97b93ed9179d0"
+    },
+    {
+      "pair": "3-5",
+      "sections": [
+        "3",
+        "5"
+      ],
+      "prompt_path": "3-5/prompt.md",
+      "prompt_sha256": "ed2879564a1ded25e9cacd78f4c87264eb0c317585310c521f9fca486d6f1c9f",
+      "status": "complete",
+      "prompt_characters": 38363,
+      "started_at": "2026-09-13T16:04:29.416148+00:00",
+      "session_id": "69711fcf-e981-4444-984e-038ea50982cf",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80449,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/69711fcf-e981-4444-984e-038ea50982cf.jsonl",
+      "low_priority_command_at": "2026-09-13T16:04:31.553865+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:09:39.486930+00:00",
+      "duration_seconds": 310.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "3-5/raw-response.json",
+      "raw_output_sha256": "cd9edd494ab0b3a1269c8a95f2334f667738003bf8287826ef8b4fc96927e6f7",
+      "report_path": "3-5/report.md",
+      "report_sha256": "e75e81295a1e5f22e158c822bf404e631d91e99a2ba3645dbc13c960ab18866e",
+      "provider_log_sha256": "30d3c4857b93fb80dff2c86af862f7589200f720ff6af4d8cfdfaf1bd6d08a6a",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 15488,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 24703,
+        "output_tokens_details": {
+          "thinking_tokens": 22785
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 15488,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 24703,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 15488,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 15488
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "f756722528716826c445f9af31e429e38ee5258ddae2788b66b53012c17e547b"
+    },
+    {
+      "pair": "3-6",
+      "sections": [
+        "3",
+        "6"
+      ],
+      "prompt_path": "3-6/prompt.md",
+      "prompt_sha256": "03f32b1ca8b58750cb8fddcbf0707a61d22f3344498c0260f8dda81eef5c0c1d",
+      "prompt_characters": 17180,
+      "attempts": [
+        {
+          "status": "failed",
+          "started_at": "2026-09-13T15:50:37.664855+00:00",
+          "command": [
+            "claude",
+            "-p",
+            "--model",
+            "fable",
+            "--effort",
+            "max",
+            "--safe-mode",
+            "--restricted",
+            "--tools",
+            "",
+            "--strict-mcp-config",
+            "--mcp-config",
+            "{\"mcpServers\":{}}",
+            "--setting-sources",
+            "",
+            "--no-session-persistence",
+            "--output-format",
+            "json",
+            "--system-prompt",
+            "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+          ],
+          "pid": 79429,
+          "finished_at": "2026-09-13T15:50:39.118735+00:00",
+          "error": "Incomplete Fable result: exit=1, subtype=success, result=You've hit your session limit \u00b7 resets 12:20pm (America/Toronto)",
+          "duration_seconds": 1.5,
+          "raw_output_sha256": "e2d67c0ae9d4109a1c47ab0f41bf94078d57aefba827b42a0c79127689ea6a2e",
+          "raw_output_path": "3-6/rate-limit-attempt/raw-response.json"
+        }
+      ],
+      "status": "complete",
+      "service_mode": "low-priority",
+      "session_id": "6bd52fde-9ac3-4bda-90f5-afa0c1d9871b",
+      "transport": "interactive CLI",
+      "interactive_tool_session_id": 74181,
+      "low_priority_confirmed": true,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/6bd52fde-9ac3-4bda-90f5-afa0c1d9871b.jsonl",
+      "finished_at": "2026-09-13T15:59:47.349838+00:00",
+      "duration_seconds": 96.4,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "3-6/raw-response.json",
+      "raw_output_sha256": "bee2bd58c7481e958be22245526fd0f531b4eb5d5ca43e5367a2c238f33c38b0",
+      "report_path": "3-6/report.md",
+      "report_sha256": "384f910ce861671fdfd52ccfe09572cab0062934541038d56bccddffdf0af211",
+      "provider_log_sha256": "c134138343e19622f55b62a2678c7d1883f68cb49791b0d1bd81db591d88f48c",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7291,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 22565,
+        "output_tokens_details": {
+          "thinking_tokens": 20431
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7291,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22565,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 7291,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7291
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "0f89cc40bff36429c413d5878cd21c5f7ba90e08d6626a3c11902f597be9060f"
+    },
+    {
+      "pair": "3-7",
+      "sections": [
+        "3",
+        "7"
+      ],
+      "prompt_path": "3-7/prompt.md",
+      "prompt_sha256": "4d50dc8b843c9de09d4e56e2bd27e9d99a731edd6ec4df13891b21e29c62f8b0",
+      "status": "complete",
+      "prompt_characters": 13328,
+      "started_at": "2026-09-13T16:17:51.753986+00:00",
+      "session_id": "038d3247-ad13-4dd5-b2ec-3272a00bd515",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 81701,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/038d3247-ad13-4dd5-b2ec-3272a00bd515.jsonl",
+      "low_priority_command_at": "2026-09-13T16:17:52.981468+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:22:38.032420+00:00",
+      "duration_seconds": 286.3,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "3-7/raw-response.json",
+      "raw_output_sha256": "c905df5027b0767222deb166a3a28f0e17783a72b95cefb5d12d0e42a1d9ff3f",
+      "report_path": "3-7/report.md",
+      "report_sha256": "35de7677a76080d57018a5c58e82f28fe9aa22cfa9a1062fa4a5496b608873b3",
+      "provider_log_sha256": "a72777250ecd196b9ab60d41bd4815a779d613ef59b7cb9b38626e9b690ef3da",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5957,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 22190,
+        "output_tokens_details": {
+          "thinking_tokens": 20269
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5957,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22190,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 5957,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 5957
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "c29e721064783d9dbf94fa0ab9488d1f5500c89e7da8b55c9ab385f47751ef40"
+    },
+    {
+      "pair": "3-A",
+      "sections": [
+        "3",
+        "A"
+      ],
+      "prompt_path": "3-A/prompt.md",
+      "prompt_sha256": "db5827ed271d14370bc1678fc0f5d379e341c641a0374e90d7b1987bb4e3b0ea",
+      "status": "complete",
+      "prompt_characters": 15863,
+      "started_at": "2026-09-13T16:22:38.476971+00:00",
+      "session_id": "11448e11-d6bf-478b-9d55-7c2143f07e5a",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82125,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/11448e11-d6bf-478b-9d55-7c2143f07e5a.jsonl",
+      "finished_at": "2026-09-13T16:26:05.416899+00:00",
+      "duration_seconds": 206.9,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "3-A/raw-response.json",
+      "raw_output_sha256": "3f0a009c2c89a25269a10ce77c45c71e8695e396732bfc7e00f560cecb7617c3",
+      "report_path": "3-A/report.md",
+      "report_sha256": "7884e0d29850b560aa8356a73d1b262846ba15bc10db05c351597d01b4991bea",
+      "provider_log_sha256": "46d59e468aca7bc15e2810b594c0f164127b5a78ada0fd20da2a25ac07bc6405",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6522,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 17361,
+        "output_tokens_details": {
+          "thinking_tokens": 15359
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6522,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 17361,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 6522,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 6522
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "67a68af31e902cf7b9b8e93238cc7cb4c3e1932968407073fe9be7a7983ea0da"
+    },
+    {
+      "pair": "4-5",
+      "sections": [
+        "4",
+        "5"
+      ],
+      "prompt_path": "4-5/prompt.md",
+      "prompt_sha256": "7a84a6a823cf756d72a9624253eb9ec7913b28a06749d393a65605c2a9916f0a",
+      "status": "complete",
+      "prompt_characters": 58191,
+      "started_at": "2026-09-13T15:40:32.863157+00:00",
+      "command": [
+        "claude",
+        "-p",
+        "--model",
+        "fable",
+        "--effort",
+        "max",
+        "--safe-mode",
+        "--restricted",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--output-format",
+        "json",
+        "--system-prompt",
+        "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+      ],
+      "pid": 78842,
+      "finished_at": "2026-09-13T15:50:37.663273+00:00",
+      "duration_seconds": 604.8,
+      "actual_models": [
+        "claude-haiku-4-5-20251001",
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "4-5/raw-response.json",
+      "raw_output_sha256": "7d1b99e951e6964e0206d932efb548dd64794d8d33485f22c71547b5938d85e0",
+      "report_path": "4-5/report.md",
+      "report_sha256": "6c8a7f811fdedc9c783a5a00eefb792902dfbfb593174d39cfc7f98154f7dfd4",
+      "reported_cost_usd": 2.82776,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 23087,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 46973,
+        "output_tokens_details": {
+          "thinking_tokens": 44644
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 23087,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 46973,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 23087,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 23087
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "session_id": "61934327-8735-4479-933a-4d7a3a5b7f90",
+      "exit_code": 0
+    },
+    {
+      "pair": "4-6",
+      "sections": [
+        "4",
+        "6"
+      ],
+      "prompt_path": "4-6/prompt.md",
+      "prompt_sha256": "07536f80d490623b2f621dd89912c944ec873d49694ecf07820df56c7170a31a",
+      "status": "complete",
+      "prompt_characters": 37008,
+      "started_at": "2026-09-13T16:04:45.624763+00:00",
+      "session_id": "c5bb7f06-4813-4053-a0e5-f07c033d0ed9",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80507,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/c5bb7f06-4813-4053-a0e5-f07c033d0ed9.jsonl",
+      "low_priority_command_at": "2026-09-13T16:04:47.992355+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:08:31.769294+00:00",
+      "duration_seconds": 226.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "4-6/raw-response.json",
+      "raw_output_sha256": "c8dcadf0035fc0366f5a537ad33a72ccfc0c38e5e20bdce11ba3fc0771d1b56c",
+      "report_path": "4-6/report.md",
+      "report_sha256": "e8eb6e71dff18701b9f1624475754ae0c7d0a003d4f7ec5047836eaa9b5d7cfb",
+      "provider_log_sha256": "d4b16eaca4fb83386cbfdde02b5393811734ec73ce5e4fee8dfe43505b550a92",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 15978,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 17729,
+        "output_tokens_details": {
+          "thinking_tokens": 15733
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 15978,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 17729,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 15978,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 15978
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "5076f416a3f7dbae7388981a1c0c80fac17ee5869108302bc056837784242d43"
+    },
+    {
+      "pair": "4-7",
+      "sections": [
+        "4",
+        "7"
+      ],
+      "prompt_path": "4-7/prompt.md",
+      "prompt_sha256": "ec2e5ba504ef34310f077afe06f6a9f72de135d09082da8975b219003d09a37d",
+      "status": "complete",
+      "prompt_characters": 33156,
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "attempts": [
+        {
+          "pair": "4-7",
+          "sections": [
+            "4",
+            "7"
+          ],
+          "prompt_path": "4-7/prompt.md",
+          "prompt_sha256": "ec2e5ba504ef34310f077afe06f6a9f72de135d09082da8975b219003d09a37d",
+          "status": "failed",
+          "prompt_characters": 33156,
+          "started_at": "2026-09-13T16:14:06.322689+00:00",
+          "session_id": "6f8f586e-0eb5-49b7-bc09-0c35b4edadda",
+          "transport": "interactive CLI",
+          "requested_service_mode": "low-priority when session-limited",
+          "pid": 81132,
+          "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/6f8f586e-0eb5-49b7-bc09-0c35b4edadda.jsonl",
+          "low_priority_command_at": "2026-09-13T16:14:07.666040+00:00",
+          "finished_at": "2026-09-13T16:14:08.035581+00:00",
+          "error": "<local-command-stdout>Lower-priority mode isn't available right now.</local-command-stdout>"
+        }
+      ],
+      "resumed_at": "2026-09-13T16:32:41.573749+00:00",
+      "started_at": "2026-09-13T16:32:41.618535+00:00",
+      "session_id": "6c2f5011-5c22-42f0-97ca-75f83d66b59a",
+      "pid": 82826,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/6c2f5011-5c22-42f0-97ca-75f83d66b59a.jsonl",
+      "finished_at": "2026-09-13T16:38:01.504949+00:00",
+      "duration_seconds": 319.9,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "4-7/raw-response.json",
+      "raw_output_sha256": "1ee9a4f2f8d641b52ea193f16a5a0f20621e9283e25dc35e77c05adf2900a723",
+      "report_path": "4-7/report.md",
+      "report_sha256": "0deb3681dbc42c86c36bf444ddbf4be5d2e4702343690779d57b68d4552d086a",
+      "provider_log_sha256": "6beba56fb1ded8bd3545fb69b7bce2aea8bd3299a1c5855e699e1c4f7fd52d07",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 14125,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 26582,
+        "output_tokens_details": {
+          "thinking_tokens": 24627
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 14125,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 26582,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 14125,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 14125
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "6464d8d2008d58c9910bf0432f105338a1a654cbcdb4f463aa68d87f0d2dbeb5"
+    },
+    {
+      "pair": "4-A",
+      "sections": [
+        "4",
+        "A"
+      ],
+      "prompt_path": "4-A/prompt.md",
+      "prompt_sha256": "f397786ad95769fd90c5c46ca884ba3f16df79063ba701a0afd96980f6f2457e",
+      "status": "complete",
+      "prompt_characters": 35691,
+      "started_at": "2026-09-13T16:24:27.227617+00:00",
+      "session_id": "ff00328f-0b60-415b-a9d9-cb74432f9895",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82254,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/ff00328f-0b60-415b-a9d9-cb74432f9895.jsonl",
+      "finished_at": "2026-09-13T16:29:19.324954+00:00",
+      "duration_seconds": 292.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "4-A/raw-response.json",
+      "raw_output_sha256": "1de4c5ab40ab39e3fa36bf3e86fb8bf44e0917940b2e4db2bec53a04f47aebcd",
+      "report_path": "4-A/report.md",
+      "report_sha256": "bd13b64ba58c489250d25f733a89b40ac6dd32e7f89560b0c9c59c0507e2f47f",
+      "provider_log_sha256": "c31d1b5d8fa5e2ba20dea476dbc9c6778e7781ca1e9b242d1df849d35bb32be9",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 15211,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 23278,
+        "output_tokens_details": {
+          "thinking_tokens": 21178
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 15211,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 23278,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 15211,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 15211
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "b035cb91604d80bd56637e68c937106eadb158bbf3e030c0e459eb2db27a234b"
+    },
+    {
+      "pair": "5-6",
+      "sections": [
+        "5",
+        "6"
+      ],
+      "prompt_path": "5-6/prompt.md",
+      "prompt_sha256": "99149a5d7c43512e9836b218ccc50430f1d52757dce163629d299ea8d7ee5c77",
+      "prompt_characters": 37809,
+      "attempts": [
+        {
+          "status": "failed",
+          "started_at": "2026-09-13T15:50:40.733658+00:00",
+          "command": [
+            "claude",
+            "-p",
+            "--model",
+            "fable",
+            "--effort",
+            "max",
+            "--safe-mode",
+            "--restricted",
+            "--tools",
+            "",
+            "--strict-mcp-config",
+            "--mcp-config",
+            "{\"mcpServers\":{}}",
+            "--setting-sources",
+            "",
+            "--no-session-persistence",
+            "--output-format",
+            "json",
+            "--system-prompt",
+            "You are an independent academic reader reviewing two supplied sections. Perform the bounded pairwise task and return a precise Markdown report. You have no tools and no access to other reviews."
+          ],
+          "pid": 79468,
+          "finished_at": "2026-09-13T15:50:42.082196+00:00",
+          "error": "Incomplete Fable result: exit=1, subtype=success, result=You've hit your session limit \u00b7 resets 12:20pm (America/Toronto)",
+          "duration_seconds": 1.3,
+          "raw_output_sha256": "805de1038a85dc5287fbaa082c22c7762baabf906e92c0f51338622ffe15fe2f",
+          "raw_output_path": "5-6/rate-limit-attempt/raw-response.json"
+        }
+      ],
+      "status": "complete",
+      "started_at": "2026-09-13T15:58:10.915854+00:00",
+      "session_id": "a2987d3f-fef3-412d-9ab1-5b01738b18b7",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 79992,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/a2987d3f-fef3-412d-9ab1-5b01738b18b7.jsonl",
+      "low_priority_command_at": "2026-09-13T15:58:13.677040+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:04:45.141754+00:00",
+      "duration_seconds": 394.2,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "5-6/raw-response.json",
+      "raw_output_sha256": "5379d412d2bc230e473384fb75c17f62b4dc4a90abbca046f9d3afd9aa139650",
+      "report_path": "5-6/report.md",
+      "report_sha256": "1e8aa4f6a3ec9e1b7152492cd205d6a125eddb2e3d51d702ba8e9cffe0c8e21e",
+      "provider_log_sha256": "781a014fce70f8947b6c82b284731192aeccc683b71d2c3208e952b1b0e0896c",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 15268,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 32440,
+        "output_tokens_details": {
+          "thinking_tokens": 30124
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 15268,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 32440,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 15268,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 15268
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "0f4866462735b304becfee0a38c5510469b60cebd97230a776acd7b8812d7041"
+    },
+    {
+      "pair": "5-7",
+      "sections": [
+        "5",
+        "7"
+      ],
+      "prompt_path": "5-7/prompt.md",
+      "prompt_sha256": "46922e8178d0e4c10c1753b67f75de5978906cfcb661b78103265b46e4a0cb1c",
+      "status": "complete",
+      "prompt_characters": 33957,
+      "started_at": "2026-09-13T15:59:47.355205+00:00",
+      "session_id": "e61ebd51-7b63-4ceb-93d3-e1e1e60d82bd",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 80136,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/e61ebd51-7b63-4ceb-93d3-e1e1e60d82bd.jsonl",
+      "low_priority_command_at": "2026-09-13T15:59:48.819767+00:00",
+      "low_priority_confirmed": true,
+      "finished_at": "2026-09-13T16:04:28.936069+00:00",
+      "duration_seconds": 281.6,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "5-7/raw-response.json",
+      "raw_output_sha256": "a4e5d0343bdf44487bc41065ad7ef7d2cf96e0cee78159c954cdc1e1f71da2d0",
+      "report_path": "5-7/report.md",
+      "report_sha256": "a929f2a91b410cd039045db698cad51d14d1e9207c104c5ca9803bde4a794377",
+      "provider_log_sha256": "116f8476eda7e21c0fd45f154f84b637c8f9fa74a2d5df3b57313c389424fc5b",
+      "service_mode": "low-priority",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 13946,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 22538,
+        "output_tokens_details": {
+          "thinking_tokens": 20591
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 13946,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22538,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 13946,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 13946
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "f189807e0a62415df1b6b09ea662054b99d2ebd2e1afb017808583bd94d19146"
+    },
+    {
+      "pair": "5-A",
+      "sections": [
+        "5",
+        "A"
+      ],
+      "prompt_path": "5-A/prompt.md",
+      "prompt_sha256": "472fd21e0c909871a5d135d34add4a5b70bf93e86ab3b25f7146fe3d3cfd274c",
+      "status": "complete",
+      "prompt_characters": 36492,
+      "started_at": "2026-09-13T16:25:13.573743+00:00",
+      "session_id": "b8ee666b-cbfc-4fd9-bf2e-a757b6575c7f",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82341,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/b8ee666b-cbfc-4fd9-bf2e-a757b6575c7f.jsonl",
+      "finished_at": "2026-09-13T16:29:25.621844+00:00",
+      "duration_seconds": 252.1,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "5-A/raw-response.json",
+      "raw_output_sha256": "1c50dd2556c5df706987fae1a438404b3c83779877cba13d75820909fb033772",
+      "report_path": "5-A/report.md",
+      "report_sha256": "6cf6f4e517f440603f82b7d1e2f5abb1f6d69b35f9f31d1951260e001a5e01e1",
+      "provider_log_sha256": "21cef8c4421269827f7937a11b4b9f0b71abb58c524ec612a970c74d127b3a7a",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 14509,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 19057,
+        "output_tokens_details": {
+          "thinking_tokens": 17103
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 14509,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 19057,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 14509,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 14509
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "b56eba881bbfbb07a4a80a8148643fd6a2cb9b99eadbbbcf2cea996d9aade6a4"
+    },
+    {
+      "pair": "6-7",
+      "sections": [
+        "6",
+        "7"
+      ],
+      "prompt_path": "6-7/prompt.md",
+      "prompt_sha256": "65798684901d5c71e5bc0e46db898df5765f2495e2cf2aaa622ac54cfa0a3f44",
+      "status": "complete",
+      "prompt_characters": 12774,
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "attempts": [
+        {
+          "pair": "6-7",
+          "sections": [
+            "6",
+            "7"
+          ],
+          "prompt_path": "6-7/prompt.md",
+          "prompt_sha256": "65798684901d5c71e5bc0e46db898df5765f2495e2cf2aaa622ac54cfa0a3f44",
+          "status": "failed",
+          "prompt_characters": 12774,
+          "started_at": "2026-09-13T16:18:54.235739+00:00",
+          "session_id": "38de4220-cb0d-4713-9f89-3f6677c14907",
+          "transport": "interactive CLI",
+          "requested_service_mode": "low-priority when session-limited",
+          "pid": 81792,
+          "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/38de4220-cb0d-4713-9f89-3f6677c14907.jsonl",
+          "low_priority_command_at": "2026-09-13T16:18:55.540461+00:00",
+          "finished_at": "2026-09-13T16:18:56.147814+00:00",
+          "error": "<local-command-stdout>Lower-priority mode isn't available right now.</local-command-stdout>"
+        }
+      ],
+      "resumed_at": "2026-09-13T16:32:41.574404+00:00",
+      "started_at": "2026-09-13T16:32:41.615520+00:00",
+      "session_id": "440d4645-1f06-490f-98e3-ea219ae94f53",
+      "pid": 82825,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/440d4645-1f06-490f-98e3-ea219ae94f53.jsonl",
+      "finished_at": "2026-09-13T16:36:47.186623+00:00",
+      "duration_seconds": 245.6,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "6-7/raw-response.json",
+      "raw_output_sha256": "ac2e173cc4089b8b9d7c2dafb79dbd22de2ddc6d38628cf2f808efe6ba72b25f",
+      "report_path": "6-7/report.md",
+      "report_sha256": "b222d6eb297854bcf17248608444fffec01edec24b2dd8aa49c6bb4b6a8974dd",
+      "provider_log_sha256": "1029988f0144087770f25d318877b5c23e17077959facf87a0d7ecf6f265fc8d",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 5213,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 19456,
+        "output_tokens_details": {
+          "thinking_tokens": 17542
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5213,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 19456,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 5213,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 5213
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "0c4b93af8a4241a807b8da592c21426bd4e4de1ad5fc1d89e3c83fc9e083772a"
+    },
+    {
+      "pair": "6-A",
+      "sections": [
+        "6",
+        "A"
+      ],
+      "prompt_path": "6-A/prompt.md",
+      "prompt_sha256": "641f6b549cd104f7065600dfc87e9e7cd9471696e9243c29b6e38d4159d714a6",
+      "status": "complete",
+      "prompt_characters": 15309,
+      "started_at": "2026-09-13T16:26:05.857914+00:00",
+      "session_id": "4347303b-dd43-4b12-8b27-e72564566666",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82415,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/4347303b-dd43-4b12-8b27-e72564566666.jsonl",
+      "finished_at": "2026-09-13T16:30:49.361546+00:00",
+      "duration_seconds": 283.5,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "6-A/raw-response.json",
+      "raw_output_sha256": "2edcab8cf513b99cb709ad79e3a9245c3b3a792dd71e0d802001aa86a3b4daf7",
+      "report_path": "6-A/report.md",
+      "report_sha256": "5971903a5fec2a9e3ae8b2c809d6338dde624fa6a4eb381897d744ebc1043577",
+      "provider_log_sha256": "1fd97de4c853c72e22e3b772490bbf3b602e0e1ce1cd493ce81838b7d2dbb7ce",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 6299,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 22637,
+        "output_tokens_details": {
+          "thinking_tokens": 20308
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6299,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 22637,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 6299,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 6299
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "01000b713bc599f43c8d744416a3060911c03102a56bcaf365f08752807650cb"
+    },
+    {
+      "pair": "7-A",
+      "sections": [
+        "7",
+        "A"
+      ],
+      "prompt_path": "7-A/prompt.md",
+      "prompt_sha256": "8843e122a429d40328467ea7c01d5eb1d54fe0fc28d6484ba84909c135317a65",
+      "status": "complete",
+      "prompt_characters": 11457,
+      "started_at": "2026-09-13T16:29:19.746362+00:00",
+      "session_id": "c00a6adc-8aca-4d08-a690-b9d8f0343b20",
+      "transport": "interactive CLI",
+      "requested_service_mode": "low-priority when session-limited",
+      "pid": 82614,
+      "provider_log_path": "/Users/brettreynolds/.claude/projects/-Users-brettreynolds-projects-LLM-CLI-projects-papers-queue-determinatives-as-nouns/c00a6adc-8aca-4d08-a690-b9d8f0343b20.jsonl",
+      "finished_at": "2026-09-13T16:32:21.926885+00:00",
+      "duration_seconds": 182.2,
+      "actual_models": [
+        "claude-fable-5-1"
+      ],
+      "reviewer_model": "claude-fable-5-1",
+      "raw_output_path": "7-A/raw-response.json",
+      "raw_output_sha256": "80bcc7b8b7ac0e4549bd646937567bc6ef77517237f8812ae4afd40957bc90f1",
+      "report_path": "7-A/report.md",
+      "report_sha256": "11c7aae3b504cb048ba6b7211d543d62ba193c7fee23911996b98e3ac825bda2",
+      "provider_log_sha256": "25032a175266b0aaa107e53ec714469716a2e451297433f39f4816902d065d80",
+      "service_mode": "standard after reset",
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 4977,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 15337,
+        "output_tokens_details": {
+          "thinking_tokens": 13416
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 4977,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 15337,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 4977,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 4977
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "provider_log_final_sha256": "3432ac49042d597c90cb9231f78abd6292ef23ae1de2dd4f61f885f1b25e629d"
+    }
+  ],
+  "cli_version": "2.1.269 (Claude Code)",
+  "continued_at_lower_priority_authorized": true,
+  "finished_at": "2026-09-13T16:38:01.983339+00:00",
+  "verification": {
+    "completed_at": "2026-09-13T16:39:52.827720+00:00",
+    "complete_pairs": 28,
+    "failed_pairs": 0,
+    "pending_pairs": 0,
+    "parent_verified_pairs": 28,
+    "source_unchanged": true,
+    "all_prompt_report_raw_hashes_verified": true,
+    "actual_models": [
+      "claude-fable-5-1"
+    ],
+    "verification_path": "verification.md",
+    "verification_sha256": "89d725efaa13b34491affa9b3893d41ddb5b1cff5216bbb7d747166aadf305a0",
+    "synthesis_path": "synthesis.md",
+    "synthesis_sha256": "f995f4fed43b4c37519cf420af3e7a3a86e621ad3ae05a0c25ef98f6e3ce9d5b"
+  },
+  "author_review": {
+    "opened_in_roughdraft": true,
+    "done_reviewing_received": false,
+    "last_checked_at": "2026-09-13T16:52:19.747879+00:00",
+    "retained_event_check": {
+      "events": [],
+      "timedOut": true,
+      "nextSequence": 11
+    },
+    "synthesis_changed": false,
+    "review_markers_present": false,
+    "note": "The open and unbounded watch connections ended naturally with HeadersTimeoutError. A bounded replay watch found no completed-review event. No manuscript edit approval inferred.",
+    "chat_decisions": [
+      {
+        "at": "2026-09-13T20:57:01.152381+00:00",
+        "topic": "Comparative the",
+        "decision": "Retain article and comparative the as one lexeme; no adequate reason to split them has been supplied. Keep the comparative example.",
+        "status": "resolved"
+      },
+      {
+        "at": "2026-09-13T21:25:36Z",
+        "topic": "Apply remaining supported revisions",
+        "instruction": "and so...",
+        "interpretation": "Continue with the supported local revisions following the synthesis and resolved the-lexeme discussion.",
+        "status": "implemented"
+      }
+    ],
+    "current_synthesis_sha256": "25dda3321728a4abd33f243415ac056b25a906405f71d69356e30465e9ddfb6d",
+    "current_verification_sha256": "3b5da6de1e70fe66cab00139549679858ed2240a88a316f12f794d23571cce0c"
+  },
+  "implementation": {
+    "completed_at": "2026-09-13T21:39:03.553963+00:00",
+    "record": "revisions.md",
+    "record_sha256": "daf267a132de767f3790b2c0c14f75faffdf3fd43a531898fa5a1809b66ada2d",
+    "source_sha256": "31e0aae1dfb67e1829f581d4e21ca2f3ea64c1ee7692a6b73a624fdba9f45e4d",
+    "pdf_sha256": "46448c1e1fa08e839fc823f15d975304c5f10f2c578d76ee961fbe27e7522d03",
+    "pdf_pages": 35,
+    "reading_copy": "../../notes/determinatives-as-nouns-review-2026-09-13-pairwise.md",
+    "reading_copy_sha256": "cdff3e5237f0b947bda42d8d280436cd8c3aecc630c27c3b0b9998f486a858c5",
+    "visually_checked_pages": [
+      13,
+      14,
+      16,
+      23,
+      29,
+      30,
+      31,
+      32
+    ],
+    "trees_and_formal_displays_unchanged": true,
+    "citation_keys_and_labels_unchanged": true
+  }
+}

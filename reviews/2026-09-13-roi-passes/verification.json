@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-13T23:51:33.123829+00:00",
+  "checks": {
+    "trees": 11,
+    "tables": 7,
+    "formal_displays": 4,
+    "citation_commands": 117,
+    "labels": 70,
+    "numbered_example_groups": 8,
+    "footnotes": 41,
+    "raw_source_word_delta": -20
+  },
+  "source_sha256": "3801a9889f38e86b71a13af56f94432f2075ee9b9ce7b4e3ec3165ccb515346e",
+  "pdf_sha256": "d3e303a71d4eb77a88fd19d98eb150e2611925667d99fdb411ae0d6060a74300",
+  "reading_copy_sha256": "d5f82795b2c431f2c5df29fb4f6839b72427f3a3faac8aa4b6eab85b2a020391",
+  "build": "XeLaTeX; 35 pages; no unresolved references, rerun requests, overfull or underfull boxes",
+  "visual_pages": [
+    2,
+    3,
+    5,
+    6,
+    13,
+    14,
+    18,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32
+  ]
+}

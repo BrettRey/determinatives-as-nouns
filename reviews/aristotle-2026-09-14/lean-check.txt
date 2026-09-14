@@ -1,0 +1,3 @@
+'DetTaxonomy.adm_equiv' depends on axioms: [propext]
+'DetTaxonomy.divergence_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DetTaxonomy.adm'_not_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]

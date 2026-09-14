@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Brett can read the constraints revision; final polish remains for later
+next_action: Terminology and category/level passes complete; 36-page working draft verified; final polish remains for later
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,10 +28,26 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Review through §5 implemented; constraint fragment, ten new evidence cells, and figure repairs; 35-page working draft verified · status: drafting · updated: 2026-09-13 -->
+<!-- SUMMARY: Terminology and category/level passes complete; Head-chain comparison corrected; 36-page working draft verified · status: drafting · updated: 2026-09-13 -->
 
 **Last updated:** 2026-09-13
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+## 2026-09-13 Terminology and category/level passes completed
+
+Brett requested both passes. The manuscript distinguishes immediate Head from ultimate lexical head, the D-noun categorization from its full analysis, category profiles from members’ properties, and syntactic completeness from contextual interpretation. Section 5.4 now acknowledges that every compared account gives NP an immediate Nom head: the structural preference concerns the full Head chain and additional fused functions. Inheritance satisfies a category condition within the proposed grammar; classification alone doesn't supply the structures. The 36-page build and changed-page visual checks pass. Evidence and formal analyses are preserved. See the [pass record](reviews/2026-09-13-terminology-levels/report.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-13-terminology.md). Final polish remains deferred.
+
+## 2026-09-13 Focused passes completed
+
+Brett authorized the recommended passes without skills. Section 2.6 now makes the comparative weighting of nominal and adjectival connections explicit; §§5.4–5.5 give a concrete reason for structural uniformity and explain its relation to the taxonomy. Repeated qualifications are consolidated, the controls’ purpose precedes their examples, and the permission examples precede §5’s first formal condition. The 35-page build and changed-page visual checks pass. Evidence, tables, trees, formal displays, citation commands, labels, and footnotes are preserved. See the [pass record](reviews/2026-09-13-roi-passes/report.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-13-roi.md). Final polish remains deferred.
+
+## 2026-09-13 Pairwise-review revisions incorporated
+
+The supported findings from the 28 Fable pair reviews are implemented. Section 5 states the structural preference more clearly; §6 acknowledges positive pronoun–determinative parallels and weighs the common-noun connections in preferring coordinate rank. Brett retained one *the* lexeme and its comparative use as evidence. Local table, caption, scope, and terminology clarifications are applied. The 35-page XeLaTeX build and changed-page visual checks pass. See the [revision and verification record](reviews/fable-pairwise-2026-09-13/revisions.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-13-pairwise.md). Final polish remains deferred.
+
+## 2026-09-13 Completed author read incorporated
+
+Brett completed the whole-paper Roughdraft read and approved the response to its six comments and tentative footnote. The manuscript qualifies the extension of Hudson’s nesting, gives the overall assessment its own §5.5, explains the 232-to-155 feature reduction, and specifies the sampling and coding work required to extend the matrix. The 35-page XeLaTeX build passes, and the changed passages were visually checked. The original annotations are preserved. See the [response and verification record](reviews/2026-09-13-completed-read-response.md) and [fresh reading copy](notes/determinatives-as-nouns-review-2026-09-13-complete.md). Final polish remains deferred.
 
 ## 2026-09-13 Review through §5 and constraint presentation incorporated
 

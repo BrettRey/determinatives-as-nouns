@@ -1,0 +1,63 @@
+{
+  "trees": 11,
+  "formal_displays": 4,
+  "citation_commands": 117,
+  "labels": 70,
+  "footnotes": 41,
+  "numbered_example_groups": 8,
+  "table_bodies_preserved_except_one_label": 7,
+  "raw_source_word_delta": 209,
+  "date": "2026-09-13",
+  "pdf_pages": 36,
+  "visually_checked_pages": [
+    1,
+    2,
+    3,
+    5,
+    12,
+    16,
+    17,
+    18,
+    19,
+    25,
+    26,
+    29,
+    30,
+    32,
+    33
+  ],
+  "final_xelatex_log": "/tmp/dnoun-term-level-2.log",
+  "overfull_underfull_boxes": 0,
+  "unresolved_citations_references": 0,
+  "rerun_requests": 0,
+  "existing_advisories": [
+    "fancyhdr",
+    "microtype footnotes",
+    "EB Garamond bold fallback"
+  ],
+  "bibliography_files_changed": false,
+  "reading_copy": "notes/determinatives-as-nouns-review-2026-09-13-terminology.md",
+  "pandoc_warnings": 0,
+  "mechanical_term_gate": {
+    "passed": false,
+    "flags": [
+      "determinative",
+      "dependent",
+      "independent",
+      "nominal",
+      "determiner",
+      "quantifier",
+      "profile",
+      "projection"
+    ],
+    "review": "Manually assessed; report distinguishes first-use gloss flags from term drift."
+  },
+  "sha256": {
+    "determinatives-as-nouns.tex": "e2aa356bad410584a5a70b44ad408a27776107a70ed6efae20f082ab98a9bf96",
+    "determinatives-as-nouns.pdf": "ebbe7bd66bf270f04b37cf9c843d353746d3acdfebcab2ee27d7587444a81bb2",
+    "notes/determinatives-as-nouns-review-2026-09-13-terminology.md": "0b7c3a6554a52e27276e7db3a98f89b2fea830264a19daa318c9ce0c798c4ab2",
+    "reviews/2026-09-13-terminology-levels/before.tex": "3801a9889f38e86b71a13af56f94432f2075ee9b9ce7b4e3ec3165ccb515346e",
+    "reviews/2026-09-13-terminology-levels/before.pdf": "d3e303a71d4eb77a88fd19d98eb150e2611925667d99fdb411ae0d6060a74300"
+  },
+  "git_diff_check": true
+}

@@ -1,0 +1,61 @@
+{
+  "transport": "interactive CLI",
+  "result": "# Pairwise review: §3 (Restricted members and the scope of the grouping) – §5 (The matched fragment and comparative costs)\n\n§3 argues that articles, *every*, and the *no*/*none* paradigm belong within determinative (hence Noun) despite lacking ordinary independent uses, while §5 states the fragment (use permissions, form selection, structural conditions) and compares four implementations' costs; the relationship is claim-to-encoding, with §5 asserting (782) that §3's restrictions are cost-neutral.\n\n## Findings\n\n**1. QUALIFIED CONCERN — §3's positive evidence for the articles is left unmodelled by §5.**\n- §3: 330 (\"*The* also participates in degree modification… *the bigger the better*\"); 332 (\"It does connect the article with quantificational constructions beyond *a book*\"); 338 (\"*a*'s quantificational constructions and *every*'s modifier permissions cross the proposed article boundary\").\n- §5: 620 (\"Degree uses enter the wider comparison in §enough\"); 741 lists *enough*, *much*, *little*, *no*/*none* as degree uses that \"must survive recategorization\" — *the* is absent; 699 (\"Their initial *a* isn't an ordinary Det… leaves their internal analysis… unspecified\"); Table 632–633 gives the articles Det permission only.\n- Issue: the two connections §3 uses to distinguish its position from Spinillo's are exactly what §5 declines to analyse. Under NP projection, correlative *the* would be a definite NP modifying a comparative AdjP, with no parallel among the quantificational NP modifiers at 743 (*lots better*, *a great deal smaller*) — a potential cost §5.3 never weighs. The *a* connection is reduced at 699 to lexical recurrence inside a fixed complex.\n- Why it matters: §5 is where commitments are made explicit (616), and for the articles those commitments (Det permission plus a lexical exclusion) are shared by every implementation and by Spinillo's alternative. §3's case for \"integration\" (abstract, 320) thus rests on constructions the fragment doesn't touch.\n- Repair: add *the* at 741 with either an analysis or a reasoned exclusion from the comparison; at 332/338 characterise the *a* evidence as recurrence of the form in fixed complexes, matching 699. Linguistic-judgement check (not a textual contradiction): confirm the cited CGEL pages treat correlative *the* as the article rather than a distinct determinative lexeme; if the latter, 330 supports a *the*-shaped determinative, not the article's integration.\n\n**2. QUALIFIED CONCERN — Table caption conflates scope exclusion with absence of permission.**\n- §5: 626 (\"A dash excludes that use from the fragment\") vs 701 (\"*Every arrived* fails its use permission\"), 703 (\"The article's exclusion from argument use remains a separate condition\"), and 647, where genuine scope exclusions (quotation, subordinate-clause genitives) are listed separately.\n- §3: 320, 324, 346 present the restrictions as grammatical facts the structural account must respect (348).\n- Issue: read literally, the caption says the articles' independent uses are outside the fragment, which would mean §3's restrictions aren't encoded; 701–703 show the intended reading is \"no permission\".\n- Repair: caption → \"A dash marks the absence of that permission.\"\n\n**3. CONTEXT CHECK (needs §4, §payne) — *almost* as a lexical property of *every* vs general peripheral modification.**\n- §3: 336 (\"It also permits *almost*/*nearly*\"), 338 (\"*every*'s modifier permissions\").\n- §5: 678 (third condition: peripheral modifier combines with any NP), 697 (\"established peripheral NP modification\"), 784 (only the internal approximatives \"remain explicit\").\n- Issue: §3 treats *almost* as a permission distinguishing *every* from the articles; §5 treats *almost every* as a general structural option and states no condition excluding *almost* from an article-determined NP. If §4 supplies the lexical/semantic selection condition, the two are the same fact at different levels; if not, the fragment underdetermines the contrast §3 relies on. Not a demonstrated defect from this packet.\n\n**4. QUALIFIED CONCERN (minor) — cross-reference overstates §3.**\n- §5 699: \"Fixed *many a* retains its restriction to Det function (§article-membership)\". §3 332 says only \"syntactically fixed\" and that it \"doesn't establish that ordinary *a* freely accepts modifiers\"; Det-only status isn't stated. Add the phrase at 332 or drop the attribution.\n\n## Checks that pass\n\n- Table rows for *no*/*none* (637–638) and *my*/*mine* (639–640), plus 647, match §3.2 (346) and the precedent at 326 exactly; the formula's three conjuncts (658: U, Form, C) discharge 348's two distinctions and add dependents.\n- 336 (*her every move*) and 691 (\"These permissions don't transfer to *every*\") are compatible: *every* is Mod there, not the head receiving external determination (Table 634).\n- 782's cost-neutrality claim mirrors 338's argument that shared restrictions aren't independent grounds for a primary category — coherent, not circular.\n- 340's acceptance of Spinillo's complement-omission analogy for lexeme continuity sits fine with 651–653 rejecting determiner headedness.\n- Recapitulation at 647 and 699 is brief and cross-referenced; no wasteful repetition.\n\nNo coordination, authorization, or oversight risks arose in this packet.",
+  "assistant_messages": [
+    {
+      "model": "claude-fable-5-1",
+      "id": "msg_011Cf1iseBRmUZFhadpsM9DW",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "# Pairwise review: §3 (Restricted members and the scope of the grouping) – §5 (The matched fragment and comparative costs)\n\n§3 argues that articles, *every*, and the *no*/*none* paradigm belong within determinative (hence Noun) despite lacking ordinary independent uses, while §5 states the fragment (use permissions, form selection, structural conditions) and compares four implementations' costs; the relationship is claim-to-encoding, with §5 asserting (782) that §3's restrictions are cost-neutral.\n\n## Findings\n\n**1. QUALIFIED CONCERN — §3's positive evidence for the articles is left unmodelled by §5.**\n- §3: 330 (\"*The* also participates in degree modification… *the bigger the better*\"); 332 (\"It does connect the article with quantificational constructions beyond *a book*\"); 338 (\"*a*'s quantificational constructions and *every*'s modifier permissions cross the proposed article boundary\").\n- §5: 620 (\"Degree uses enter the wider comparison in §enough\"); 741 lists *enough*, *much*, *little*, *no*/*none* as degree uses that \"must survive recategorization\" — *the* is absent; 699 (\"Their initial *a* isn't an ordinary Det… leaves their internal analysis… unspecified\"); Table 632–633 gives the articles Det permission only.\n- Issue: the two connections §3 uses to distinguish its position from Spinillo's are exactly what §5 declines to analyse. Under NP projection, correlative *the* would be a definite NP modifying a comparative AdjP, with no parallel among the quantificational NP modifiers at 743 (*lots better*, *a great deal smaller*) — a potential cost §5.3 never weighs. The *a* connection is reduced at 699 to lexical recurrence inside a fixed complex.\n- Why it matters: §5 is where commitments are made explicit (616), and for the articles those commitments (Det permission plus a lexical exclusion) are shared by every implementation and by Spinillo's alternative. §3's case for \"integration\" (abstract, 320) thus rests on constructions the fragment doesn't touch.\n- Repair: add *the* at 741 with either an analysis or a reasoned exclusion from the comparison; at 332/338 characterise the *a* evidence as recurrence of the form in fixed complexes, matching 699. Linguistic-judgement check (not a textual contradiction): confirm the cited CGEL pages treat correlative *the* as the article rather than a distinct determinative lexeme; if the latter, 330 supports a *the*-shaped determinative, not the article's integration.\n\n**2. QUALIFIED CONCERN — Table caption conflates scope exclusion with absence of permission.**\n- §5: 626 (\"A dash excludes that use from the fragment\") vs 701 (\"*Every arrived* fails its use permission\"), 703 (\"The article's exclusion from argument use remains a separate condition\"), and 647, where genuine scope exclusions (quotation, subordinate-clause genitives) are listed separately.\n- §3: 320, 324, 346 present the restrictions as grammatical facts the structural account must respect (348).\n- Issue: read literally, the caption says the articles' independent uses are outside the fragment, which would mean §3's restrictions aren't encoded; 701–703 show the intended reading is \"no permission\".\n- Repair: caption → \"A dash marks the absence of that permission.\"\n\n**3. CONTEXT CHECK (needs §4, §payne) — *almost* as a lexical property of *every* vs general peripheral modification.**\n- §3: 336 (\"It also permits *almost*/*nearly*\"), 338 (\"*every*'s modifier permissions\").\n- §5: 678 (third condition: peripheral modifier combines with any NP), 697 (\"established peripheral NP modification\"), 784 (only the internal approximatives \"remain explicit\").\n- Issue: §3 treats *almost* as a permission distinguishing *every* from the articles; §5 treats *almost every* as a general structural option and states no condition excluding *almost* from an article-determined NP. If §4 supplies the lexical/semantic selection condition, the two are the same fact at different levels; if not, the fragment underdetermines the contrast §3 relies on. Not a demonstrated defect from this packet.\n\n**4. QUALIFIED CONCERN (minor) — cross-reference overstates §3.**\n- §5 699: \"Fixed *many a* retains its restriction to Det function (§article-membership)\". §3 332 says only \"syntactically fixed\" and that it \"doesn't establish that ordinary *a* freely accepts modifiers\"; Det-only status isn't stated. Add the phrase at 332 or drop the attribution.\n\n## Checks that pass\n\n- Table rows for *no*/*none* (637–638) and *my*/*mine* (639–640), plus 647, match §3.2 (346) and the precedent at 326 exactly; the formula's three conjuncts (658: U, Form, C) discharge 348's two distinctions and add dependents.\n- 336 (*her every move*) and 691 (\"These permissions don't transfer to *every*\") are compatible: *every* is Mod there, not the head receiving external determination (Table 634).\n- 782's cost-neutrality claim mirrors 338's argument that shared restrictions aren't independent grounds for a primary category — coherent, not circular.\n- 340's acceptance of Spinillo's complement-omission analogy for lexeme continuity sits fine with 651–653 rejecting determiner headedness.\n- Recapitulation at 647 and 699 is brief and cross-referenced; no wasteful repetition.\n\nNo coordination, authorization, or oversight risks arose in this packet."
+        }
+      ],
+      "container": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "stop_details": null,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 15488,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 24703,
+        "output_tokens_details": {
+          "thinking_tokens": 22785
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 15488,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 24703,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 15488,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 15488
+            },
+            "type": "message",
+            "model": null
+          }
+        ],
+        "speed": "standard"
+      },
+      "input_transformations": [],
+      "diagnostics": null,
+      "context_management": null,
+      "timestamp": "2026-09-13T16:09:38.378Z",
+      "uuid": "91dfda04-e343-43e1-843b-16ccab4b9384"
+    }
+  ]
+}

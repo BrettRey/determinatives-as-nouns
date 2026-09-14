@@ -1,0 +1,29 @@
+# Pair 1–7: §1 "The question and the alternatives" / §7 "Conclusion"
+
+§1 fixes terminology (determinative vs determiner), states the thesis and the two logically independent choices (Noun membership; ordinary vs fused Head), sets out the four-way table, the three weighing criteria and the roadmap; §7 reports the outcome of each roadmap item, so the pair is a promise–discharge bookend.
+
+No epistemic, authorization, or coordination risk is visible in this packet.
+
+## Findings
+
+**1. QUALIFIED CONCERN — coordinate rank: the thesis sentence outruns the delivered result.**
+§1 l.38: "I argue that all four are nouns: determinatives form a coordinate subcategory alongside common nouns, proper nouns, and pronouns." §7 l.832: "Coordinate rank alongside pronoun is a further preference: the comparisons here don't establish the additional shared rules that nesting would express." The conclusion grounds coordinate rank in the absence of evidence for nesting, not in positive evidence. §1 l.83 already agrees ("The further question of coordinate or nested rank"), so the friction is confined to l.38, which a reader will take as a claim the paper argues. Repair: align l.38 with l.83/l.832 ("…are nouns; I favour treating determinatives as a coordinate subcategory…"), or, if §6 supplies positive grounds, have §7 name them. CONTEXT CHECK §6 (ll.800–822).
+
+**2. QUALIFIED CONCERN — §7 restates §1's independence point instead of reporting the four-way assessment.**
+§1 l.50: "Neither commitment requires the other: a noun can have a fused Head function, and a separate determinative category (D) can permit ordinary headedness"; l.67: "The four-way comparison leaves room to assess how a categorization and a structural treatment work together." §7 l.830: "Separate D can also license ordinary headedness, and determinative nouns can participate in fusion; neither possibility removes the reason to prefer the combination argued for here." That sentence is the setup again; its only new content is the assertion that "the reason" survives, and the reason given is just "fit together." Rows 2 and 4 of Table ll.52–65 are the live competitors, and the pair never says what they cost. Repair: replace the recap with one clause per mixed row drawn from §5 (e.g. row 2's Head "licensed for both Noun and D", l.60, as duplicated licensing; row 4 as declining the regular structure Noun membership makes available). CONTEXT CHECK §5 for the actual cost statements.
+
+**3. QUALIFIED CONCERN — direction of the adjectival profile is left implicit in §7.**
+§1 l.79 casts nominal and adjectival connections as competitors judged by the same three criteria and pre-emptively allows that "a pattern concentrated in a few words can be substantial evidence" (abstract l.29 calls it a "counterweight"). §7 l.826: "The connected adjectival profile of the four gradable quantifiers deserves weight on the same terms," followed by "Broader constructional and referential connections … favour the nominal grouping." §7 never says the adjectival profile weighs *against* Noun membership or on which criterion it loses (breadth/recurrence rather than specificity); "deserves weight" is readable as support. Repair: one clause — "…is the strongest counterweight; it is concentrated where the nominal connections are broad and recurrent."
+
+**4. CONTEXT CHECK — the structural motivation changes register between the sections.**
+§1 l.48 (+fn) motivates ordinary Head by "the preference for unique parentage," confined to "the determinative's Head configuration," retaining Mod–Head fusion in *the rich*, and illustrates the Head question only with bare *take some* (ll.44–46). §7 l.830 reports the payoff as "familiar Nom–NP structure" for "bare, partitive, and externally determined determinatives," and l.832 as a rebutted cost ("doesn't establish an added cost of NP projection"); parentage is not mentioned. No contradiction, but (a) §1 under-previews that partitive and externally determined uses carry the structural case, and (b) §1 l.69 (*many* as modifier in *the many people*) plus the *the rich* footnote leave the status of *the many* open until §7 asserts ordinary Head. Check §4–5: if unique parentage is argued there, §7 should record it; if not, downgrade l.48's "preference" to description. A preview clause in §1 listing the three configurations would close (a) and (b).
+
+**5. CONTEXT CHECK — section labels.**
+§1 l.48 places Figure~\ref{fig:some} "in §\ref{sec:head-relations}", l.83 cites "§\ref{sec:evidence}" for the internal-structure comparison, and l.75 cites "§\ref{sec:det-uniform}"; the map shows a single §4. Confirm each resolves as intended (one may be a subsection). Not a demonstrated defect.
+
+## Checks that pass
+- Independence of the two choices is stated compatibly in §1 l.50, Table caption l.54 ("All keep *apples* as Head in *some apples*"), and §7 l.830.
+- Whole-profile methodology (§1 l.77, pronoun and auxiliary precedents) matches §7 l.828 ("a category with internal differences, rather than unrestricted use by every form").
+- §1 fn l.48 retaining fusion for adjectival *the rich* is consistent with §7 l.830 giving determinatives ordinary Head: on the paper's terms only Noun members head Nom.
+- The *every* restriction (§1 l.75) is covered by §7 l.832 ("retains lexical and constructional restrictions"); §7's switch to *no*/*none* and articles as exemplars is harmless.
+- Roadmap l.83 is mirrored in §7 (§2→l.826, §3→l.828, §4–5→ll.830–832, §6→l.832); no promised section goes unreported.

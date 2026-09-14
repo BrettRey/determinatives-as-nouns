@@ -1,0 +1,35 @@
+# Pairwise review: §1 (The question and the alternatives) × §5 (The matched fragment and comparative costs)
+
+§1 frames two independent choices (Noun membership; ordinary vs fused Head), lays out the four-way grid and the evaluative criteria, and promises that §5 will make the structural comparison explicit; §5 is the direct discharge of that promise, stating the constraint fragment for the four combinations on matched expressions and delivering the comparative assessment.
+
+## Findings
+
+**1. QUALIFIED CONCERN — What "regular structure strengthens the grouping" actually amounts to.**
+§1 l. 50: "that regular structure strengthens the case for the grouping"; l. 79 (recurrence criterion). §5 l. 684–685: the two ordinary-Head accounts differ only in Cat(h)=N vs Cat(h)∈{N,D}; l. 689: "Their agreement on phrase structure leaves the lexical grouping open to the profile argument"; l. 723: "under D-noun they follow from Noun membership … I take that alignment to favour D-noun"; l. 622: "Noun membership alone grants none of these permissions"; l. 796: "Reducing the number of primary categories alone wouldn't establish the preference."
+The fragment demonstrates structural *identity* between the ordinary-Head accounts, so the only structural content that could favour D-noun is the non-disjunctive Nom-Head category condition — which is hard to distinguish from the category-count parsimony l. 796 disclaims. And "follow from Noun membership" (l. 723) sits awkwardly beside l. 622: on the fragment's own terms, what follows from membership is eligibility to head Nom, nothing more. This is reconcilable (explanatory fit plus the §2 profile), not a contradiction, but since l. 50 ↔ l. 796 is the paper's central "package" claim, the reader deserves to see exactly what §5 added. Repair: at l. 723 or l. 796, state the structural contribution as reuse of the single Nom-Head condition without a disjunctive licensing statement, explicitly distinguishing it from raw category count; or downgrade "strengthens" to "is explained by".
+
+**2. QUALIFIED CONCERN — NP notation for D-headed phrases vs §1's framing.**
+§1 l. 71: "I retain noun-headed NPs"; l. 73: "DP means determinative phrase, as in CGEL"; Table row 2 (l. 60): "Ordinary Head, licensed for both Noun and D". §5 l. 665: "Separate D can permit the same projection"; l. 672: Det:{NP,PP} for the "NP-projecting implementations" including separate-D ordinary Head; l. 676: "The notation NP itself imposes no requirement that the ultimate lexical head be Noun."
+Under one alternative, a determinative phrase is an NP, not a DP, and an NP may lack a noun head. No contradiction in the author's own position (l. 71 concerns `some apples`), but §1 primes the reader for DP = determinative-headed phrase and the relaxation surfaces only at l. 676. It matters because the even comparison at l. 689 depends on this charitable, NP-projecting construction of separate D; a DP-projecting separate D would face different costs. Repair: one clause in Table tab:accounts row 2 or at l. 73 noting that the separate-D ordinary-Head implementation projects NP for comparability (§5.2).
+
+**3. QUALIFIED CONCERN (low) — §1 characterizes fused Head only as Det–Head.**
+§1 l. 46 "jointly fills determiner and Head"; Table rows 3–4 (l. 61–62) "Joint determiner and Head functions"; fn. at l. 48 retains "Mod–Head fusion in `the rich`". §5 l. 705–717 formalizes both Det–Head and Mod–Head, applying Mod–Head to `the lucky few`; Table rows 3–4 (l. 776–777) "Det–Head or Mod–Head"; l. 701 gives `few` as ordinary Head of `the lucky few`. The footnote's "the determinative's Head configuration" technically covers this, but the table under-describes, and a reader could infer from the `the rich` footnote that `the few` keeps fusion — which l. 701 denies. Repair: "Joint determiner (or modifier) and Head functions" in Table tab:accounts.
+
+**4. CONTEXT CHECK — Figure fig:few (§4).**
+§5 l. 717 says the fused Mod–Head configuration "matches Figure fig:few: the determinative phrase fills Mod in m and Head in n", while l. 701 gives the ordinary-Head analysis of the same expression. §1 l. 48 says fig:some "compares the structures". Confirm fig:few depicts the fused configuration (or both); otherwise l. 717 points to a figure showing a different structure.
+
+**5. Repetition — §1 l. 50 ↔ §5 l. 796 near-verbatim (also the abstract).**
+Recapitulation in an "Overall assessment" is defensible, and l. 796 adds two new sentences (coherent alternatives; category count insufficient). But reproducing rather than updating the thesis sentence conceals whether §5 advanced it (finding 1). Repair: report the fragment's result at l. 796 instead of restating l. 50.
+
+## Checks that pass
+
+- §1 l. 75 promise ("constraints in §det-uniform retain that restriction") discharged: `every` has no Subj/Obj permission (l. 634) and *`Every arrived` "fails its use permission" (l. 701). The encoding sits in §5.1's table while the pointer names §5.2 — trivial.
+- §1 l. 83 roadmap discharged: §5 l. 620 folds "the compound comparisons in §evidence" into the fragment; §5.4 assesses.
+- Four-way grid: Tables tab:accounts and tab:economy share row labels and order; rows 1–2 agree ("nominal projection"/"licensed for both Noun and D" ↔ "Nom–NP with Head alone"/"Nom admitting either N or D").
+- Category/function discipline (§1 l. 42, 69) carried through §5 (l. 622, 649, 741, and l. 790: "One Det function doesn't entail a limit of one determinative lexeme per NP").
+- §1 l. 67 (whole independent expression is NP under both analyses) matches §5 l. 705, 719, 721.
+- §1 fn. l. 48 (adjectival fusion retained) matches §5 caption l. 768.
+- §1 l. 77 (whole-profile comparison) matches §5 l. 622 and the heterogeneous permissions table.
+- §1 l. 71 and Table caption ("All keep `apples` as Head") align with §5 l. 651–653 (Hudson's temporal-adjunct evidence; reciprocal selection compatible with noun headedness).
+
+No epistemic, authorization, or coordination risk observed in this packet.

@@ -1,0 +1,18 @@
+{
+  "submitted_at": "2026-09-14T10:01:26.662641+00:00",
+  "source_sha256": "d39bcaf37aa185ba8545d6dcfa947e8d628577af601f02a1c9e71575c7267cdb",
+  "excerpt_sha256": "4ff2fa05d79e890acb894cfdf92dd622dfb835da6a2fd30594a26e418d656b8d",
+  "scope": "one ordinary-Head equivalence audit",
+  "inputs": [
+    "fragment.tex",
+    "task.md"
+  ],
+  "local_lean": "4.33.1",
+  "project_id": "5eef406b-d02f-4aa3-826c-6a4517e92f98",
+  "task_id": "bc08f85e-89d5-4b76-a95f-c13282fd7dcd",
+  "status": "complete_with_errors",
+  "local_lean_check": "passed",
+  "assessment": "limited value; claimed counterexample does not challenge the intended fixed-restriction comparison",
+  "manuscript_unchanged": true,
+  "completed_at": "2026-09-14T10:11:58.185957+00:00"
+}
