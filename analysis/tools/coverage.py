@@ -138,17 +138,31 @@ def main():
         out.append(f"| `{k}` | {v} |")
     out.append("")
 
+    supplement_ids = {e["query_id"] for e in
+                      json.loads((RUN / "supplement-cell-map.json").read_text())}
+    sup_att = sum(1 for c in claims if c["id"] in supplement_ids
+                  and c["evidence_type"] == "retained_attestation")
     attested = et.get("retained_attestation", 0)
     cgel = et.get("cgel_described", 0) + et.get("cgel_restricted", 0)
     constructed = et.get("constructed_illustration", 0) + et.get("constructed_ungrammatical", 0)
     own = et.get("authors_analysis", 0)
     searched = et.get("searched_not_found", 0)
-    out.append(f"So of {len(claims)} claims: **{attested} rest on a retained attestation**, "
-               f"{cgel} on CGEL's description, {constructed} on a constructed example, "
-               f"{own} on the author's own analysis, and {searched} on a search that retained "
-               "nothing. That is the countable form of the referee's charge that the diagnostics "
-               f"rest on constructed examples: {len(claims) - attested} of {len(claims)} claims "
-               "have no attestation behind them.\n")
+    out.append("> **These counts describe the extracted claim set, not the manuscript.**\n"
+               "> The 54 supplement claims are a complete enumeration of one table and can be\n"
+               "> counted. The 56 manuscript claims are a convenience sample: the extraction that\n"
+               "> produced them was asked for \"approximately 80-110 NEW participation queries\",\n"
+               "> a quota, and its own README calls the result \"a bounded selection from the full\n"
+               "> documents, not an exhaustive inventory\". No sampling frame was defined, so\n"
+               "> proportions over them do not estimate anything about the paper. The worked\n"
+               "> example of Figure 6, *the lucky few*, appears eight times in the manuscript and\n"
+               "> has no record in the set at all.\n")
+    out.append(f"Within the 54-claim supplement enumeration: {sup_att} rest on a retained "
+               f"attestation and {54 - sup_att} do not. That table was built cell by cell, so "
+               "this proportion is meaningful.\n")
+    out.append(f"Across all {len(claims)} extracted claims the labels fall out as {attested} "
+               f"attested, {cgel} CGEL-described, {constructed} constructed, {own} the author's "
+               f"own analysis, {searched} searched-not-found. Reported for completeness; do not "
+               "read the manuscript-block share as a property of the paper.\n")
 
     by_con_et = defaultdict(lambda: defaultdict(int))
     for c in claims:
@@ -165,9 +179,11 @@ def main():
         out.append(f"| `{con}` | {att} | {tot} | {att / tot:.0%} |")
     out.append("")
     naked = [c for a, t, c in rows if a == 0]
-    out.append(f"**{len(naked)} of {len(rows)} constructions have no attested claim at all**: "
-               + ", ".join(f"`{c}`" for c in naked) + ". These are the diagnostics to take "
-               "to a corpus first.\n")
+    out.append(f"{len(naked)} of {len(rows)} constructions have no attested claim *in the "
+               "extracted set*: " + ", ".join(f"`{c}`" for c in naked) + ". Every one of these "
+               "is carried mostly or wholly by the convenience sample, so this is a fact about "
+               "what was extracted. It is not a list of gaps in the paper and must not be read "
+               "as a corpus worklist.\n")
     out.append("One caveat on the extracted 56: the extraction was offered `not_determinable` "
                "and never used it. Its 54/54 on the withheld key is good evidence against "
                "confabulation, but a single label is still being forced onto evidence that is "

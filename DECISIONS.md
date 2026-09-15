@@ -428,3 +428,15 @@ Of 110 claims, 25 rest on a retained attestation and 85 do not: 42 CGEL-describe
 Two limits kept on the record. The extraction was offered `not_determinable` and never used it across 110 claims, which the held-out result argues against reading as confabulation but which is still worth noting. And a single label is forced onto mixed evidence: X061 assigns `constructed_ungrammatical` to *so numerous mistakes* while noting the contrast also carries a CGEL citation. `authors_analysis` is a category added for this run rather than drawn from the supplement's vocabulary.
 
 The run assigns evidential labels to existing claims. It does not verify the linguistic judgments and adds no new evidence to the paper.
+
+## 2026-09-14 — Correction: the manuscript-block counts were unsound
+
+The evidence-type proportions reported earlier today are withdrawn for the 56 manuscript claims. They were computed over a convenience sample and presented as findings about the paper, including a "corpus worklist" of seven constructions said to have no attested claim. That inference does not hold.
+
+The extraction that produced those 56 was asked for "approximately 80–110 NEW participation queries", a quota rather than a frame, and its own README describes the result as "a bounded selection from the full documents, not an exhaustive inventory". Proportions over an undefined sample estimate nothing. The decisive case: *the lucky few* appears eight times in the manuscript and is the worked example of Figure 6, the ordinary-Head versus fusion comparison for internal modification, and it has no record in the claim set at all. So the counts over internal modification were taken from a sample that omits the paper's central instance of it.
+
+A further error compounded it: treating `evidence_type != retained_attestation` as "unsupported". A *CGEL* citation is evidence, and *the very few people* is uncontroversial. The label records provenance, not adequacy.
+
+The 54 supplement claims are unaffected. They enumerate one table cell by cell, so proportions over them are meaningful: 22 attested, 32 not.
+
+`coverage-2026-09-14.md` now states the frame and marks the manuscript-block figures as descriptive of the extraction only. What R1 asked for stands on its own authority, not on these counts.
