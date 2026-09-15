@@ -408,3 +408,11 @@ The reason for that split is a failure worth recording. A first attempt classifi
 This makes Reviewer 1's charge countable for the first time: 22 of 54 declared claims rest on an attestation, 32 do not, and only 3 of the other 56 show any corpus attestation. It also locates a gap in the extraction rather than the paper. The next extraction run should require `evidence_type` as a schema field.
 
 `subcategory` moves onto the lexeme entries with its manuscript grounding, and `analysis/tools/coverage.py` now reads it from the enriched file rather than carrying its own copy.
+
+## 2026-09-14 — Drift detector for the claim set
+
+Refactoring Table 1 moved the table body out of `quantifier-controls.tex` into `analysis/generated/quant-table.tex`, so the supplement is now two files. All 726 quotations (659 record, 67 exception) still resolve, but only if both parts are treated as the source; against `quantifier-controls.tex` alone the ten table-row quotes fail. An earlier note in this session that the refactor had broken quote resolution was wrong: it resolves completely once the source is declared as its two parts.
+
+`analysis/claims/check_sources.py` (`make check-claims`) declares that mapping and verifies every quotation against the live files. Rewording one sentence of the supplement in a test copy failed 7 quotes across 4 claims and 3 exception notes, and the failure names them, so the check is not vacuous.
+
+This is the staleness signal the claim set otherwise lacks. It is a snapshot of a moving manuscript, and nothing previously reported when the two diverged.

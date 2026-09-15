@@ -9,7 +9,7 @@ SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
 OUTDIR = .
 
 # Targets
-.PHONY: all supplements clean distclean view help test check-quant-table claims
+.PHONY: all supplements clean distclean view help test check-quant-table claims check-claims
 
 # Default target: build the PDF
 all: $(MAIN).pdf
@@ -50,6 +50,11 @@ analysis/coverage-2026-09-14.md: analysis/claims/claims-enriched.json analysis/t
 	python3 analysis/tools/coverage.py
 
 claims: analysis/claims/claims-enriched.json analysis/coverage-2026-09-14.md
+
+# Fails when a quoted passage has been edited, moved or deleted, i.e. when the
+# claim set has gone stale against the manuscript.
+check-claims:
+	python3 analysis/claims/check_sources.py
 
 # Full build sequence with bibliography
 $(MAIN).pdf: $(MAIN).tex references.bib
@@ -109,4 +114,5 @@ help:
 	@echo "  make test     - Run Python specification tests"
 	@echo "  make check-quant-table - Verify Table 1 against the claim set"
 	@echo "  make claims   - Rebuild the enriched claim set and coverage report"
+	@echo "  make check-claims - Verify claim quotations still match the sources"
 	@echo "  make help     - Show this help message"
