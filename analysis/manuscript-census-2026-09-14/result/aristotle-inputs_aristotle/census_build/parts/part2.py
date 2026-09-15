@@ -1,0 +1,425 @@
+# -*- coding: utf-8 -*-
+# Part 2: sec:independent
+
+CGEL_LIST = r"\textit{CGEL} discusses such uses for demonstratives and quantifiers including \mention{some}, \mention{all}, \mention{both}, \mention{many}, \mention{few}, \mention{several}, \mention{each}, \mention{either}, \mention{neither}, \mention{much}, and \mention{enough}, while recording lexical restrictions and the separate forms \mention{no}/\mention{none}"
+
+CLAIMS = [
+
+("ind-001", "sec:independent", "noun phrases",
+ "subject, object, and complement-of-preposition functions",
+ "licensed", "authors_analysis",
+ r"Noun phrases can serve as subjects, objects, and complements of prepositions.",
+ "", ""),
+
+("ind-002", "sec:independent", "independent determinative expressions",
+ "subject, object, and complement-of-preposition functions",
+ "conditional", "authors_analysis",
+ r"Independent determinative expressions enter these constructions too, with the lexical restrictions illustrated below.",
+ "Subject to lexical restrictions on individual determinatives.", ""),
+
+("ind-003", "sec:independent", "the determinative inventory generally",
+ "independent use",
+ "conditional", "cgel_described",
+ r"Independent use is widespread within the determinative inventory.",
+ "Widespread but not unrestricted.", ""),
+]
+
+# CGEL's list of determinatives with independent uses: one claim per expression.
+for i, expr in enumerate([
+    r"\mention{some}", r"\mention{all}", r"\mention{both}", r"\mention{many}",
+    r"\mention{few}", r"\mention{several}", r"\mention{each}", r"\mention{either}",
+    r"\mention{neither}", r"\mention{much}", r"\mention{enough}"], start=4):
+    CLAIMS.append((
+        "ind-%03d" % i, "sec:independent", expr,
+        "independent (non-dependent) use as described by CGEL",
+        "conditional", "cgel_described", CGEL_LIST,
+        "CGEL records lexical restrictions on these independent uses.",
+        "One of the determinatives CGEL lists as having independent uses (pp. 371-372, 410-424)."))
+
+CLAIMS += [
+
+("ind-015", "sec:independent", r"\mention{no}/\mention{none}",
+ "independent use requiring the separate form",
+ "conditional", "cgel_restricted",
+ CGEL_LIST,
+ r"The independent use requires the separate form \mention{none}.", ""),
+
+("ind-016", "sec:independent", "determinatives generally",
+ "availability of independent constructions across the category",
+ "conditional", "authors_analysis",
+ r"The generalization concerns the availability of independent constructions across a lexical category, not unrestricted acceptability in every sentence frame.",
+ "Availability across the category, not acceptability in every frame.", ""),
+
+("ind-017", "sec:independent", r"\mention{all}",
+ r"predeterminer modifier in \mention{all/both the books}",
+ "licensed", "cgel_described",
+ r"\textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers",
+ "", "Footnote: material before a determiner falls outside the independent-use comparison."),
+
+("ind-018", "sec:independent", r"\mention{both}",
+ r"predeterminer modifier in \mention{all/both the books}",
+ "licensed", "cgel_described",
+ r"\textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers",
+ "", ""),
+
+("ind-019", "sec:independent", r"\mention{quite}",
+ r"peripheral modifier before \mention{a good idea}",
+ "licensed", "cgel_described",
+ r"\mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers",
+ "", ""),
+
+("ind-020", "sec:independent", r"\mention{rather}",
+ r"peripheral modifier before \mention{a good idea}",
+ "licensed", "cgel_described",
+ r"\mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers",
+ "", ""),
+
+("ind-021", "sec:independent", r"\mention{such}",
+ r"adjective before \mention{a disaster}",
+ "licensed", "cgel_described",
+ r"\mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives",
+ "", ""),
+
+("ind-022", "sec:independent", r"exclamative \mention{what}",
+ r"adjective before \mention{a disaster}",
+ "licensed", "cgel_described",
+ r"\mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives",
+ "", ""),
+
+("ind-023", "sec:independent", r"\mention{many a}",
+ "Det function only",
+ "conditional", "cgel_described",
+ r"The fixed \mention{many a} is a complex determinative restricted to Det function",
+ "Restricted to Det function; no other function licensed.", ""),
+
+("ind-024", "sec:independent", r"\mention{half}",
+ r"predeterminer modifier in \mention{half a cake}",
+ "licensed", "cgel_described",
+ r"The \mention{half} in \mention{half a cake} is a common noun used as a predeterminer modifier",
+ "", ""),
+
+("ind-025", "sec:independent", "predeterminer and peripheral constructions",
+ "evidence for independent determinative heads",
+ "excluded", "authors_analysis",
+ r"These constructions don't add evidence for independent determinative heads.",
+ "", "Explicit exclusion of these constructions from the independent-use comparison."),
+
+# Worked example set (ex:external): four expressions x three functions.
+("ind-026", "sec:independent", r"\mention{people}",
+ "subject",
+ "licensed", "constructed_illustration",
+ r"\mention{\textup{[}People\textup{]} left.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-027", "sec:independent", r"\mention{people}",
+ "object",
+ "licensed", "constructed_illustration",
+ r"\mention{I see \textup{[}people\textup{]}.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-028", "sec:independent", r"\mention{people}",
+ "complement of preposition",
+ "licensed", "constructed_illustration",
+ r"\mention{with \textup{[}people\textup{]}}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-029", "sec:independent", r"\mention{Kim}",
+ "subject",
+ "licensed", "constructed_illustration",
+ r"\mention{\textup{[}Kim\textup{]} left.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-030", "sec:independent", r"\mention{Kim}",
+ "object",
+ "licensed", "constructed_illustration",
+ r"\mention{I see \textup{[}Kim\textup{]}.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-031", "sec:independent", r"\mention{Kim}",
+ "complement of preposition",
+ "licensed", "constructed_illustration",
+ r"\mention{with \textup{[}Kim\textup{]}}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-032", "sec:independent", r"\mention{she}",
+ "subject",
+ "licensed", "constructed_illustration",
+ r"\mention{\textup{[}She\textup{]} left.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-033", "sec:independent", r"\mention{her}",
+ "object",
+ "licensed", "constructed_illustration",
+ r"\mention{I see \textup{[}her\textup{]}.}",
+ "", "Constructed example set (ex:external); accusative form selected."),
+
+("ind-034", "sec:independent", r"\mention{her}",
+ "complement of preposition",
+ "licensed", "constructed_illustration",
+ r"\mention{with \textup{[}her\textup{]}}",
+ "", "Constructed example set (ex:external); accusative form selected."),
+
+("ind-035", "sec:independent", r"independent \mention{some}",
+ "subject",
+ "licensed", "constructed_illustration",
+ r"\mention{\textup{[}Some\textup{]} left.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-036", "sec:independent", r"independent \mention{some}",
+ "object",
+ "licensed", "constructed_illustration",
+ r"\mention{I see \textup{[}some\textup{]}.}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-037", "sec:independent", r"independent \mention{some}",
+ "complement of preposition",
+ "licensed", "constructed_illustration",
+ r"\mention{with \textup{[}some\textup{]}}",
+ "", "Constructed example set (ex:external)."),
+
+("ind-038", "sec:independent", r"\mention{The rich}",
+ "nominal argument positions (fused-head AdjP)",
+ "licensed", "authors_analysis",
+ r"\mention{The rich} and \mention{the poor} can fill nominal argument positions.",
+ "", ""),
+
+("ind-039", "sec:independent", r"\mention{the poor}",
+ "nominal argument positions (fused-head AdjP)",
+ "licensed", "authors_analysis",
+ r"\mention{The rich} and \mention{the poor} can fill nominal argument positions.",
+ "", ""),
+
+("ind-040", "sec:independent", "comparative and superlative adjectives",
+ "heading expressions without a generic human interpretation",
+ "licensed", "cgel_described",
+ r"Comparative and superlative adjectives also head expressions without a generic human interpretation",
+ "", ""),
+
+("ind-041", "sec:independent", r"\mention{the most important of her criticisms}",
+ r"NP containing a partitive \mention{of}-phrase",
+ "licensed", "cgel_described",
+ r"\textit{CGEL}'s \mention{the most important of her criticisms} is an NP containing a partitive \mention{of}-phrase",
+ "", ""),
+
+("ind-042", "sec:independent", r"independent \mention{some}",
+ "one-word NP",
+ "licensed", "cgel_described",
+ r"Independent \mention{some} can form a one-word NP",
+ "", ""),
+
+("ind-043", "sec:independent", r"\mention{rich}",
+ "fused head of an NP on the generic human reading",
+ "conditional", "cgel_restricted",
+ r"an NP with \mention{rich} as fused head requires the definite article \mention{the} on the generic human reading",
+ r"Requires the definite article \mention{the} on the generic human reading.", ""),
+
+("ind-044", "sec:independent", "singular count common nouns",
+ "argument NPs",
+ "conditional", "authors_analysis",
+ r"argument NPs headed by singular count common nouns also need determination",
+ "Determination required.", ""),
+
+("ind-045", "sec:independent", r"\mention{several}",
+ "displaced subject of an existential clause",
+ "licensed", "constructed_illustration",
+ r"the constructed \mention{There are several} places the independent quantifier in displaced-subject position",
+ "", "Dummy there is the subject, following CGEL pp. 1391-1393."),
+
+("ind-046", "sec:independent", r"\mention{my}",
+ r"determiner in \mention{my preferences} (pronoun-headed NP)",
+ "licensed", "cgel_described",
+ r"In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively",
+ "", ""),
+
+("ind-047", "sec:independent", r"\mention{Kim's}",
+ r"determiner in \mention{Kim's preferences} (proper-noun-headed NP)",
+ "licensed", "cgel_described",
+ r"In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively",
+ "", ""),
+
+("ind-048", "sec:independent", r"\mention{people's}",
+ r"determiner in \mention{people's preferences} (common-noun-headed NP)",
+ "licensed", "cgel_described",
+ r"In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively",
+ "", ""),
+
+("ind-049", "sec:independent", "genitive NP determiners",
+ "combined Subject--Det function",
+ "licensed", "cgel_described",
+ r"\textit{CGEL} assigns these genitives the combined function Subject--Det",
+ "", "CGEL's analysis, pp. 472-473."),
+
+("ind-050", "sec:independent", "genitive NP determiners",
+ "Det function without the additional subject function",
+ "licensed", "authors_analysis",
+ r"I treat them as Det here, without the additional subject function.",
+ "", "The manuscript departs from CGEL on this point."),
+
+("ind-051", "sec:independent", r"\mention{someone's}",
+ r"determiner in \mention{someone's preferences}",
+ "licensed", "authors_analysis",
+ r"The compound determinative \mention{someone}, following the categorization of \textcite[§1.3]{Payne2007}, participates in \mention{someone's preferences}.",
+ "", "Compound categorization follows Payne."),
+
+("ind-052", "sec:independent", r"\mention{what size}",
+ r"plain-case NP as Det in \mention{what size shoes}",
+ "licensed", "cgel_described",
+ r"\mention{what size} in \mention{what size shoes}",
+ "", ""),
+
+("ind-053", "sec:independent", r"\mention{that size}",
+ r"plain-case NP as Det in \mention{that size shoes}",
+ "licensed", "cgel_described",
+ r"\mention{that size} in \mention{that size shoes}",
+ "", ""),
+
+("ind-054", "sec:independent", r"\mention{Sunday}",
+ r"plain-case NP as Det in \mention{Sunday morning}",
+ "licensed", "cgel_described",
+ r"and \mention{Sunday} in \mention{Sunday morning}",
+ "", ""),
+
+("ind-055", "sec:independent", "determinative phrases",
+ "determiner function as their characteristic function",
+ "licensed", "authors_analysis",
+ r"Determiner remains the characteristic function of determinative phrases.",
+ "", ""),
+
+("ind-056", "sec:independent", r"\mention{up to twenty minutes}",
+ "PP as determiner",
+ "conditional", "cgel_described",
+ r"Preposition phrases (PPs) remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks}",
+ "PP determiners are a restricted alternative.", ""),
+
+("ind-057", "sec:independent", r"\mention{between fifty and sixty tanks}",
+ "PP as determiner",
+ "conditional", "cgel_described",
+ r"Preposition phrases (PPs) remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks}",
+ "PP determiners are a restricted alternative.", ""),
+
+("ind-058", "sec:independent", "determining expressions generally",
+ "number, countability, and other selectional conditions",
+ "conditional", "authors_analysis",
+ r"Number, countability, and other selectional conditions distinguish the determining expressions.",
+ "Selection conditions differ by determining expression.", ""),
+
+("ind-059", "sec:independent", r"\mention{dog}",
+ r"nominal premodifier in \mention{dog houses}",
+ "licensed", "constructed_illustration",
+ r"Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}.",
+ "", "Common-noun modifier."),
+
+("ind-060", "sec:independent", r"\mention{Canada}",
+ r"nominal premodifier in \mention{Canada Day}",
+ "licensed", "constructed_illustration",
+ r"Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}.",
+ "", "Proper-noun modifier."),
+
+("ind-061", "sec:independent", r"\mention{herself}",
+ r"emphatic modifier in \mention{the manager herself}",
+ "licensed", "constructed_illustration",
+ r"Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}.",
+ "", "Pronoun modifier."),
+
+("ind-062", "sec:independent", r"\mention{few}",
+ r"internal modifier in \mention{the few people}",
+ "licensed", "constructed_illustration",
+ r"Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}.",
+ "", "Determinative modifier."),
+
+("ind-063", "sec:independent", r"emphatic \mention{herself}",
+ "clause adjunct",
+ "licensed", "cgel_described",
+ r"Emphatic \mention{herself} also functions as a clause adjunct in \mention{The manager detected the error herself}",
+ "", ""),
+
+("ind-064", "sec:independent", r"\mention{that day}",
+ "temporal NP adjunct",
+ "licensed", "authors_analysis",
+ r"Temporal NPs such as \mention{that day} and \mention{Sunday} supply adjuncts",
+ "", ""),
+
+("ind-065", "sec:independent", r"\mention{Sunday}",
+ "temporal NP adjunct",
+ "licensed", "authors_analysis",
+ r"Temporal NPs such as \mention{that day} and \mention{Sunday} supply adjuncts",
+ "", ""),
+
+("ind-066", "sec:independent", r"degree \mention{enough}",
+ r"adjunct in \mention{I hadn't prepared enough}",
+ "licensed", "authors_analysis",
+ r"as does degree \mention{enough} in \mention{I hadn't prepared enough}",
+ "", ""),
+
+("ind-067", "sec:independent", "common nouns",
+ r"integrated relative postmodification, as in \mention{people who came}",
+ "licensed", "cgel_described",
+ r"Common nouns freely take integrated relatives, as in \mention{people who came}",
+ "", ""),
+
+("ind-068", "sec:independent", "personal pronouns",
+ r"integrated relative postmodification, as in \mention{we who have read the report}",
+ "conditional", "cgel_restricted",
+ r"personal pronouns permit a restricted range, including \mention{we who have read the report}",
+ "Only a restricted range of relatives is permitted.", ""),
+
+("ind-069", "sec:independent", r"\mention{few}",
+ r"relative postmodification, as in \mention{few who come ever leave}",
+ "licensed", "constructed_illustration",
+ r"Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.",
+ "", ""),
+
+("ind-070", "sec:independent", r"\mention{those}",
+ r"relative postmodification, as in \mention{those who came}",
+ "licensed", "constructed_illustration",
+ r"Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.",
+ "", ""),
+
+("ind-071", "sec:independent", r"\mention{that}",
+ r"relative postmodification, as in \mention{that which remains}",
+ "licensed", "constructed_illustration",
+ r"Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.",
+ "", ""),
+
+("ind-072", "sec:independent", r"\mention{something}",
+ r"relative postmodification, as in \mention{something that you need to know}",
+ "licensed", "constructed_illustration",
+ r"Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.",
+ "", ""),
+
+("ind-073", "sec:independent", r"\mention{anyone}",
+ r"relative postmodification, as in \mention{anyone who asks}",
+ "licensed", "constructed_illustration",
+ r"Compounds also permit \mention{anyone who asks} and \mention{everything that matters}.",
+ "", ""),
+
+("ind-074", "sec:independent", r"\mention{everything}",
+ r"relative postmodification, as in \mention{everything that matters}",
+ "licensed", "constructed_illustration",
+ r"Compounds also permit \mention{anyone who asks} and \mention{everything that matters}.",
+ "", ""),
+
+("ind-075", "sec:independent", r"independent \mention{some}",
+ r"relative postmodification, as in \mention{some that I saw}",
+ "licensed", "constructed_illustration",
+ r"With books under discussion, compare \mention{some that I saw} and \mention{two that I have seen}.",
+ "Requires a contextually supplied domain.", ""),
+
+("ind-076", "sec:independent", r"independent \mention{two}",
+ r"relative postmodification, as in \mention{two that I have seen}",
+ "licensed", "constructed_illustration",
+ r"With books under discussion, compare \mention{some that I saw} and \mention{two that I have seen}.",
+ "Requires a contextually supplied domain.", ""),
+
+("ind-077", "sec:independent", "demonstratives and compounds",
+ "relative postmodification",
+ "licensed", "cgel_described",
+ r"\textit{CGEL} describes relative postmodification with demonstratives and compounds",
+ "", ""),
+
+("ind-078", "sec:independent", "compound determinatives",
+ r"post-head adjectives, as in \mention{I need something reliable and good looking}",
+ "conditional", "constructed_illustration",
+ r"Compound determinatives also take post-head adjectives, as in \mention{I need something reliable and good looking}.",
+ "The position and interpretation of these modifiers have specialized conditions.", ""),
+]

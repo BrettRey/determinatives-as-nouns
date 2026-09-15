@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claims",
+    "section_counts",
+    "responsibility_notice"
+  ],
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "section_label",
+          "expression",
+          "construction",
+          "status",
+          "evidence_type",
+          "quote"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "section_label": {
+            "type": "string"
+          },
+          "expression": {
+            "type": "string"
+          },
+          "construction": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "licensed",
+              "excluded",
+              "conditional",
+              "not_stated"
+            ]
+          },
+          "evidence_type": {
+            "type": "string",
+            "enum": [
+              "cgel_described",
+              "cgel_restricted",
+              "constructed_illustration",
+              "constructed_ungrammatical",
+              "retained_attestation",
+              "searched_not_found",
+              "authors_analysis",
+              "not_determinable"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "condition": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "section_counts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section_label",
+          "claims_recorded"
+        ],
+        "properties": {
+          "section_label": {
+            "type": "string"
+          },
+          "claims_recorded": {
+            "type": "integer"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "responsibility_notice": {
+      "type": "string"
+    }
+  }
+}

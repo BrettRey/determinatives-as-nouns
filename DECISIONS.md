@@ -440,3 +440,11 @@ A further error compounded it: treating `evidence_type != retained_attestation` 
 The 54 supplement claims are unaffected. They enumerate one table cell by cell, so proportions over them are meaningful: 22 attested, 32 not.
 
 `coverage-2026-09-14.md` now states the frame and marks the manuscript-block figures as descriptive of the extraction only. What R1 asked for stands on its own authority, not on these counts.
+
+## 2026-09-14 — Census of the manuscript's participation claims
+
+Replaces the 56-claim convenience sample as the frame for anything counted about the manuscript. 658 participation claims across all 28 sections, every quote an exact substring, declared per-section counts matching claims recorded, and all ten withheld acceptance cases reached. The acceptance list exists because the previous sample missed *the lucky few*, the worked example of Figure 6. The old sample was 8.5% of the population and not randomly drawn, so the proportions withdrawn earlier today were over that.
+
+The enumeration is validated and usable as a frame. The `evidence_type` labels on it are not: unlike the evidence-type run, which reproduced 54 withheld declared values exactly, this census has no key. A 20-claim hand audit in full manuscript context found 17 defensible, 1 questionable, 2 exposing a defect in the enum I wrote: there is no value for "described by a source other than *CGEL*", so claims reporting Payne 2010 and Spinillo 2004 fall to `not_determinable` and that label now conflates an unclear basis with a third-party one. 45 claims carry it, 17 quoting a third-party citation directly. That count is not a measurement until the enum is fixed.
+
+No proportion from this census is being reported as a finding about the paper. `authors_analysis` is the largest category, which is what a paper proposing a new categorization should look like; separating an analytical proposal from a descriptive assertion that wants a source is a judgement the census enables and does not make.

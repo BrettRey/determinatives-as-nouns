@@ -1,0 +1,15 @@
+{
+  "method": "20 claims drawn with random.seed(1729) from census.json, each read in full manuscript context and judged by hand against the evidence_type enum.",
+  "auditor": "parent session (Claude Opus 5), not the extracting model",
+  "verdicts": {
+    "defensible": ["ind-021", "cmp-011", "du-013", "frg-t032", "ap-028", "ind-034", "ap-041", "du-032", "mod-030", "am-025", "ap-014", "enu-006", "du-011", "int-001", "inh-013", "frg-t031", "pay-005"],
+    "questionable": ["inf-012"],
+    "enum_gap_not_an_error": ["am-031", "pay-031"]
+  },
+  "counts": {"defensible": 17, "questionable": 1, "enum_gap": 2, "total": 20},
+  "questionable_detail": {
+    "inf-012": "Genitive dog's labelled authors_analysis. That genitives occur across the subcategories is a descriptive fact assembled by the author, not a proposal; cgel_described or constructed_illustration fits better."
+  },
+  "enum_gap_detail": "The enum has no value for 'described by a source other than CGEL'. Claims reporting Payne 2010 (pay-031) and Spinillo 2004 (am-031) therefore fall to not_determinable, which conflates 'the source is unclear' with 'the source is a third party'. The extracting model flagged this itself in its summary. This is a defect in the schema I wrote, not in the extraction or the manuscript: the 45 not_determinable claims need re-partitioning before that count means anything.",
+  "conclusion": "The enumeration is validated and usable as a frame. The evidence_type labels are broadly defensible on this sample but carry a known systematic gap, so the not_determinable count in particular is not yet a measurement."
+}
