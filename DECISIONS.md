@@ -416,3 +416,15 @@ Refactoring Table 1 moved the table body out of `quantifier-controls.tex` into `
 `analysis/claims/check_sources.py` (`make check-claims`) declares that mapping and verifies every quotation against the live files. Rewording one sentence of the supplement in a test copy failed 7 quotes across 4 claims and 3 exception notes, and the failure names them, so the check is not vacuous.
 
 This is the staleness signal the claim set otherwise lacks. It is a snapshot of a moving manuscript, and nothing previously reported when the two diverged.
+
+## 2026-09-14 — Re-extraction assigning a required evidence_type
+
+Brett asked to rerun the extraction requiring `evidence_type`. I reused the accepted 110-claim set rather than re-deriving it: a fresh extraction would have risked regressing the seven corrections the expanded run's supervision loop settled, and that run is a hash-pinned provenance bundle. Only the missing field was requested. The bundle was not modified and its hash is recorded in the new run's manifest. If a genuine from-scratch re-extraction against a schema that requires the field from the start is wanted, that remains undone; it is a different and more expensive experiment.
+
+The 54 supplement claims declare their basis inside their own conditions, so those 50 condition strings were stripped before submission and the declared values held as a key. The extraction had to recover G/R/I/S and the attestation references from the supplement text. It reproduced all 54 correctly, every `basis_quote` is an exact substring of its cited source, and the returned responsibility notice was empty. Aristotle completed in 10m 12s. That 54/54 is the accuracy estimate for the 56 manuscript claims, which have no key.
+
+Of 110 claims, 25 rest on a retained attestation and 85 do not: 42 CGEL-described, 29 constructed, 10 the author's own analysis, 4 searched with nothing retained. Seven of the eleven constructions have no attested claim at all: `internal_mod_admission`, `peripheral_mod_admission`, `degree_modifier_nonadj`, `dependent_det`, `predicative_complement`, `comparative_complement` and `dependent_internal_mod`. That is the corpus worklist, and it answers Reviewer 1's empirical-basis charge in countable form.
+
+Two limits kept on the record. The extraction was offered `not_determinable` and never used it across 110 claims, which the held-out result argues against reading as confabulation but which is still worth noting. And a single label is forced onto mixed evidence: X061 assigns `constructed_ungrammatical` to *so numerous mistakes* while noting the contrast also carries a CGEL citation. `authors_analysis` is a category added for this run rather than drawn from the supplement's vocabulary.
+
+The run assigns evidential labels to existing claims. It does not verify the linguistic judgments and adds no new evidence to the paper.

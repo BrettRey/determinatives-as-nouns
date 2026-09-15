@@ -1,0 +1,29 @@
+{
+  "run": "evidence-type-2026-09-14",
+  "service": "Aristotle",
+  "project_id": "0e33f26b-84fe-4965-b0dc-2479d356b1e0",
+  "task_id": "e1eab78d-045b-4ed8-827c-80365e51aa67",
+  "submitted_utc": "2026-09-15T00:09:06Z",
+  "completed_utc": "2026-09-15T00:19:18Z",
+  "observed_elapsed_seconds": 612,
+  "polls": 21,
+  "source_run_reused": "analysis/expanded-json-2026-09-14",
+  "source_records_sha256": "c428cedbba8fbeab532d2e98a8f32ace468447976765004a1ba1e2103c49d673",
+  "assignments_sha256": "18e1a9a21a31294abad5ac37b185050d2d91d348e65eec5d6512341811ca22c6",
+  "claims": 110,
+  "basis_conditions_stripped": 50,
+  "withheld_key_size": 54,
+  "held_out_correct": 54,
+  "held_out_accuracy": 1.0,
+  "quotes_exact": "110/110",
+  "not_determinable_used": 0,
+  "responsibility_notice": "empty",
+  "manuscript_block_distribution": {
+    "cgel_described": 28,
+    "authors_analysis": 10,
+    "constructed_ungrammatical": 6,
+    "constructed_illustration": 6,
+    "retained_attestation": 3,
+    "cgel_restricted": 3
+  }
+}

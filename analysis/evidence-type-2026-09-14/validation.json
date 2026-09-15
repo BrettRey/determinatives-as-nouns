@@ -1,0 +1,24 @@
+{
+  "count": 110,
+  "ids_complete": true,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "duplicate_ids": [],
+  "quotes_checked": 110,
+  "quotes_exact": 110,
+  "quote_failures": [],
+  "held_out_n": 54,
+  "held_out_correct": 54,
+  "held_out_accuracy": 1.0,
+  "held_out_confusion": [],
+  "held_out_disagreements": [],
+  "manuscript_block_distribution": {
+    "cgel_described": 28,
+    "authors_analysis": 10,
+    "constructed_ungrammatical": 6,
+    "constructed_illustration": 6,
+    "retained_attestation": 3,
+    "cgel_restricted": 3
+  },
+  "manuscript_block_n": 56
+}

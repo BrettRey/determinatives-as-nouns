@@ -40,6 +40,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RUN = ROOT / "analysis" / "expanded-json-2026-09-14"
 OUT = ROOT / "analysis" / "claims" / "claims-enriched.json"
+ASSIGN = ROOT / "analysis" / "evidence-type-2026-09-14" / "assignments.json"
 
 # ---------------------------------------------------------------- subcategory
 
@@ -122,7 +123,13 @@ def main():
         sub, why = SUBCATEGORY[lex["id"]]
         out["lexemes"].append({**lex, "subcategory": sub, "subcategory_grounding": why})
 
-    counts = {"declared": 0, "undeclared": 0}
+    assigned = {}
+    if ASSIGN.exists():
+        blob = json.loads(ASSIGN.read_text())
+        for a in (blob["assignments"] if isinstance(blob, dict) else blob):
+            assigned[a["query_id"]] = a
+
+    counts = {"declared": 0, "extracted": 0, "unassigned": 0}
     for claim in records["participation_claims"]:
         basis = None
         for cond in claim["conditions"]:
@@ -143,18 +150,34 @@ def main():
                     sys.exit(f"{claim['id']}: unrecognised declared basis: {basis[:60]}")
             new["evidence_type"] = etype
             new["evidence_type_provenance"] = "declared in the supplement"
+            got = assigned.get(claim["id"])
+            if got:
+                new["evidence_type_basis_quote"] = got["basis_quote"]
+                new["evidence_type_basis_source"] = got["source_id"]
+                if got["evidence_type"] != etype:
+                    sys.exit(f"{claim['id']}: extraction disagrees with the declared basis "
+                             f"({got['evidence_type']} vs {etype}); resolve before merging")
             counts["declared"] += 1
         else:
-            blob = " ".join(e["quote"] for e in claim["evidence"]) + " " + \
+            text = " ".join(e["quote"] for e in claim["evidence"]) + " " + \
                    " ".join(c["requirement"] for c in claim["conditions"])
-            new["evidence_type"] = None
-            new["evidence_type_provenance"] = "not declared by the source"
-            new["evidence_signals"] = [name for name, pat in SIGNALS if pat.search(blob)]
-            counts["undeclared"] += 1
+            got = assigned.get(claim["id"])
+            if got:
+                new["evidence_type"] = got["evidence_type"]
+                new["evidence_type_provenance"] = "extracted 2026-09-14, no declared value"
+                new["evidence_type_basis_quote"] = got["basis_quote"]
+                new["evidence_type_basis_source"] = got["source_id"]
+                counts["extracted"] += 1
+            else:
+                new["evidence_type"] = None
+                new["evidence_type_provenance"] = "not declared and not extracted"
+                counts["unassigned"] += 1
+            new["evidence_signals"] = [name for name, pat in SIGNALS if pat.search(text)]
         out["participation_claims"].append(new)
 
     # Verify: every original field survives untouched.
-    added = {"evidence_type", "evidence_type_provenance", "evidence_signals"}
+    added = {"evidence_type", "evidence_type_provenance", "evidence_signals",
+             "evidence_type_basis_quote", "evidence_type_basis_source"}
     for old, new in zip(records["participation_claims"], out["participation_claims"]):
         stripped = {k: v for k, v in new.items() if k not in added}
         if stripped != old:
@@ -173,8 +196,8 @@ def main():
 
     print(f"wrote {OUT.relative_to(ROOT)}")
     print(f"  source records.json sha256 unchanged: {before[:16]}...")
-    print(f"  evidence_type declared: {counts['declared']}, "
-          f"not declared by the source: {counts['undeclared']}")
+    print(f"  evidence_type: {counts['declared']} declared (extraction agreed on all), "
+          f"{counts['extracted']} extracted, {counts['unassigned']} unassigned")
     return 0
 
 

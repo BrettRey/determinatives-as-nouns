@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assignments",
+    "responsibility_notice"
+  ],
+  "properties": {
+    "assignments": {
+      "type": "array",
+      "minItems": 110,
+      "maxItems": 110,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "query_id",
+          "evidence_type",
+          "source_id",
+          "basis_quote"
+        ],
+        "properties": {
+          "query_id": {
+            "type": "string"
+          },
+          "evidence_type": {
+            "type": "string",
+            "enum": [
+              "cgel_described",
+              "cgel_restricted",
+              "constructed_illustration",
+              "constructed_ungrammatical",
+              "retained_attestation",
+              "searched_not_found",
+              "authors_analysis",
+              "not_determinable"
+            ]
+          },
+          "source_id": {
+            "type": "string",
+            "enum": [
+              "M",
+              "Q"
+            ]
+          },
+          "basis_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "responsibility_notice": {
+      "type": "string"
+    }
+  }
+}

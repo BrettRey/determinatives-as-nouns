@@ -122,39 +122,57 @@ def main():
                f"({totals['adjective (control)']} claims) doing more work than two of the four "
                "subcategories it is meant to sit beside.\n")
     out.append("## Evidence type\n")
-    declared = [c for c in records["participation_claims"] if c["evidence_type"]]
-    undeclared = [c for c in records["participation_claims"] if not c["evidence_type"]]
+    claims = records["participation_claims"]
     et = defaultdict(int)
-    for c in declared:
+    prov = defaultdict(int)
+    for c in claims:
         et[c["evidence_type"]] += 1
-    out.append(f"{len(declared)} of {len(declared) + len(undeclared)} claims declare an "
-               "evidential basis. All of them are supplement claims; the supplement defines the "
-               "vocabulary in its table caption.\n")
-    out.append("| Declared evidence type | Claims |")
+        prov[c["evidence_type_provenance"]] += 1
+    out.append(f"All {len(claims)} claims now carry an evidence_type. The 54 supplement claims "
+               "declare their basis in the supplement's table; the other 56 were assigned by the "
+               "re-extraction of 2026-09-14, which reproduced all 54 declared values correctly "
+               "with them withheld.\n")
+    out.append("| Evidence type | Claims |")
     out.append("|---|---:|")
     for k, v in sorted(et.items(), key=lambda kv: -kv[1]):
         out.append(f"| `{k}` | {v} |")
     out.append("")
-    attested = et.get("retained_attestation", 0)
-    out.append(f"So {attested} of the {len(declared)} declared claims rest on a retained "
-               f"attestation and {len(declared) - attested} do not. This is the countable form of "
-               "the referee's charge that the diagnostics rest on constructed examples.\n")
 
-    sig = defaultdict(int)
-    for c in undeclared:
-        for s_ in (c["evidence_signals"] or ["(none detected)"]):
-            sig[s_] += 1
-    out.append(f"The other {len(undeclared)} claims declare no basis, so they carry no "
-               "evidence_type. What is observable in their quoted evidence:\n")
-    out.append("| Detectable signal | Claims |")
-    out.append("|---|---:|")
-    for k, v in sorted(sig.items(), key=lambda kv: -kv[1]):
-        out.append(f"| `{k}` | {v} |")
+    attested = et.get("retained_attestation", 0)
+    cgel = et.get("cgel_described", 0) + et.get("cgel_restricted", 0)
+    constructed = et.get("constructed_illustration", 0) + et.get("constructed_ungrammatical", 0)
+    own = et.get("authors_analysis", 0)
+    searched = et.get("searched_not_found", 0)
+    out.append(f"So of {len(claims)} claims: **{attested} rest on a retained attestation**, "
+               f"{cgel} on CGEL's description, {constructed} on a constructed example, "
+               f"{own} on the author's own analysis, and {searched} on a search that retained "
+               "nothing. That is the countable form of the referee's charge that the diagnostics "
+               f"rest on constructed examples: {len(claims) - attested} of {len(claims)} claims "
+               "have no attestation behind them.\n")
+
+    by_con_et = defaultdict(lambda: defaultdict(int))
+    for c in claims:
+        by_con_et[c["construction_id"]][c["evidence_type"]] += 1
+    rows = []
+    for con, d in by_con_et.items():
+        tot = sum(d.values())
+        rows.append((d.get("retained_attestation", 0), tot, con))
+    rows.sort(key=lambda r: (r[0] / r[1], -r[1]))
+    out.append("Per construction, ordered by how little attestation supports it:\n")
+    out.append("| Construction | Attested | Claims | Share |")
+    out.append("|---|---:|---:|---:|")
+    for att, tot, con in rows:
+        out.append(f"| `{con}` | {att} | {tot} | {att / tot:.0%} |")
     out.append("")
-    out.append("A signal is a feature of the text, not an epistemic type, and the counts overlap. "
-               "Only 3 of these 56 show any corpus attestation. **The gap this exposes is in the "
-               "extraction, not only in the paper: the next run should require evidence_type as a "
-               "field rather than leaving it to prose.**\n")
+    naked = [c for a, t, c in rows if a == 0]
+    out.append(f"**{len(naked)} of {len(rows)} constructions have no attested claim at all**: "
+               + ", ".join(f"`{c}`" for c in naked) + ". These are the diagnostics to take "
+               "to a corpus first.\n")
+    out.append("One caveat on the extracted 56: the extraction was offered `not_determinable` "
+               "and never used it. Its 54/54 on the withheld key is good evidence against "
+               "confabulation, but a single label is still being forced onto evidence that is "
+               "sometimes mixed (X061 marks *so numerous mistakes* constructed_ungrammatical "
+               "while noting it also carries a CGEL citation).\n")
 
     out.append("## Coverage by construction\n")
     out.append("`n/4` counts how many of the four coordinate subcategories appear. "

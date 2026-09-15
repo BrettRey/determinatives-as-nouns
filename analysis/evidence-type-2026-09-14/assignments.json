@@ -1,0 +1,775 @@
+{
+  "assignments": [
+    {
+      "query_id": "X001",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X002",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X003",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X004",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X005",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X006",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{many} & G & G & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X007",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X008",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X009",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X010",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X011",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X012",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{several} & G & \\textit{I} & G & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell. The manuscript separately offers its own constructed \\mention{There are several}; that is a different constructed example from the supplement's stated frame \\mention{Are there several?}, and neither is an attestation."
+    },
+    {
+      "query_id": "X013",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X014",
+      "evidence_type": "searched_not_found",
+      "source_id": "Q",
+      "basis_quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion.",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, carries S, glossed in the caption as 'searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment'. The closing paragraph names this cell among the four such cells."
+    },
+    {
+      "query_id": "X015",
+      "evidence_type": "cgel_restricted",
+      "source_id": "Q",
+      "basis_quote": "\\mention{certain} & G & S & R & (\\ref{ex:certain-exist-part}) & (\\ref{ex:certain-exist}) & S \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries R for this row; the caption glosses R as 'restricted there', i.e. restricted in \\textit{CGEL}, not excluded."
+    },
+    {
+      "query_id": "X016",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ea\\label{ex:certain-exist-part} \\mention{There are certain of our friends.}\\footnote{Sharad Pawar, quoted in English by Manish Tewari in \\href{https://www.deccanchronicle.com/opinion/columnists/080718/erdogans-victory-a-lesson-for-indian-oppn.html}{Deccan Chronicle}, 8 July 2018; NOW record dated 7 July and original article. The original speech language and audio weren't checked.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, cites (\\ref{ex:certain-exist-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X017",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:certain-exist} \\mention{there are certain who would not like} \\ldots\\footnote{Donald Trump, as quoted in \\href{https://www.foxnews.com/politics/trump-throws-support-behind-coronavirus-stimulus-bill-in-senate-vows-to-sign-vital-legislation-immediately}{Fox News}, 25 March 2020; NOW record dated 26 March and original article. The quotation was checked against the article, without an audio check.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, cites (\\ref{ex:certain-exist}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X018",
+      "evidence_type": "searched_not_found",
+      "source_id": "Q",
+      "basis_quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion.",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries S, glossed in the caption as 'searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment'. The closing paragraph names this cell among the four such cells."
+    },
+    {
+      "query_id": "X019",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X020",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ea\\label{ex:various-arg-rel} \\mention{think about various who had done it and who hadn't}\\footnote{Stephen Tompkinson, quoted by James Hibbs in \\href{https://www.radiotimes.com/tv/drama/stephen-tompkinson-new-detective-role-exclusive-newsupdate/}{Radio Times}, 29 April 2026; NOW and original interview. The context concerns identifying killers in detective scripts; no audio check.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, cites (\\ref{ex:various-arg-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X021",
+      "evidence_type": "cgel_restricted",
+      "source_id": "Q",
+      "basis_quote": "\\mention{various} & G & (\\ref{ex:various-arg-rel}) & R & (\\ref{ex:various-exist-part}) & S & S \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries R for this row; the caption glosses R as 'restricted there', i.e. restricted in \\textit{CGEL}, not excluded."
+    },
+    {
+      "query_id": "X022",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:various-exist-part} \\mention{There are various of Maro's own inventions}\\footnote{Erica Platter, \\href{https://www.dailymaverick.co.za/article/2019-03-08-maros-weapons-of-diet-destruction/}{Daily Maverick}, 8 March 2019; NOW and original article. The context lists cakes, with supplementary examples following the partitive.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, cites (\\ref{ex:various-exist-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X023",
+      "evidence_type": "searched_not_found",
+      "source_id": "Q",
+      "basis_quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion.",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, carries S, glossed in the caption as 'searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment'. The closing paragraph names this cell among the four such cells."
+    },
+    {
+      "query_id": "X024",
+      "evidence_type": "searched_not_found",
+      "source_id": "Q",
+      "basis_quote": "No qualifying attestation was retained for four cells: argument \\mention{certain} with a relative, bare existential \\mention{certain}, and existential \\mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion.",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries S, glossed in the caption as 'searched, with no qualifying attestation retained; this isn't an ungrammaticality judgment'. The closing paragraph names this cell among the four such cells."
+    },
+    {
+      "query_id": "X025",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-part} \\mention{numerous of its inhabitants}\\footnote{Norman Harrington, \\textit{New York Times}, 7 April 1968, as quoted in \\textit{Merriam-Webster's Dictionary of English Usage} and reproduced in Reynolds and Pullum's \\href{https://www.lel.ed.ac.uk/~gpullum/ClosedClasses.pdf}{\\enquote{New members of closed classes in English}}, §2.1.2. Verified through that draft; the newspaper original wasn't checked.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, cites (\\ref{ex:numerous-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X026",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-arg-rel} \\mention{he has heard from numerous who are \\enquote{deeply concerned}}\\footnote{\\href{https://abcnews.com/Politics/reversal-postmaster-general-dejoy-suspends-mail-handling-election/story?id=72446764}{ABC News}, 18 August 2020; NOW record dated 19 August and original article. The antecedent is Republican attorneys.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, cites (\\ref{ex:numerous-arg-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X027",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-subj} \\mention{numerous were injured}\\footnote{\\href{https://pagesix.com/2022/07/04/travis-scott-performs-in-miami-at-e11even/}{Page Six}, 4 July 2022; NOW expanded context. The clause follows a coordinated clause about people who died. Here \\mention{numerous} is the canonical subject.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, cites (\\ref{ex:numerous-subj}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X028",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-exist-part} \\mention{There are numerous of them.}\\footnote{Sunday Cyriacus Umeha, interviewed by Adamu Abuh in \\href{https://guardian.ng/politics/sunday-umeha-apc-government-is-showing-ndigbo-they-are-truly-part-and-parcel-of-nigeria/}{The Guardian (Nigeria)}, 7 June 2025; NOW and original interview. The antecedent is people from Enugu appointed to government positions.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, cites (\\ref{ex:numerous-exist-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X029",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-exist} \\mention{there are numerous who are willing to donate}\\footnote{Nana Patekar, as quoted in English by IANS in \\href{https://indianexpress.com/article/entertainment/bollywood/nana-patekars-foundation-collects-rs-80-lakh-for-drought-hit-farmers/}{The Indian Express}, 19 September 2015; NOW and original article. The original language of the speech wasn't established.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, cites (\\ref{ex:numerous-exist}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X030",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:numerous-exist-bare} \\mention{I'm aware there are numerous.}\\footnote{Danny Sapio, \\href{https://thenextweb.com/news/you-probably-dont-need-a-degree-to-be-a-ui-ux-designer}{The Next Web}, 15 December 2019; NOW record dated 29 December and original article, syndicated from \\nolinkurl{uxdesign.cc}.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, cites (\\ref{ex:numerous-exist-bare}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X031",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:multiple-part} \\mention{multiple of the fast casual eateries}\\footnote{COCA, 2012 blog discussion under \\href{http://www.tonetoatl.com/2012/08/burgerfi-bringing-its-burgers-to.html}{\\enquote{BurgerFi Bringing Its Burgers to\\ldots}}. The surrounding phrase is \\mention{in front of multiple of the fast casual eateries}. Expanded corpus context and source metadata checked; the original page wasn't available.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, cites (\\ref{ex:multiple-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X032",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:multiple-arg-rel} \\mention{according to multiple who have spoken to him}\\footnote{\\href{https://lfpress.com/pmn/news-pmn/2020-democratic-contenders-already-eyeing-top-staff-in-iowa/wcm/e9a17ae7-bcb2-420c-9141-442306ec38e4}{The London Free Press}, NOW record dated 19 November 2018, on recruiting campaign staff; concordance and source metadata checked. The original page wasn't available.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, cites (\\ref{ex:multiple-arg-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X033",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:multiple-subj} \\mention{multiple were injured}\\footnote{Ivana Saric and Herb Scribner, \\href{https://www.axios.com/2022/06/27/amtrak-train-derail-missouri}{Axios}, 27 June 2022, opening sentence; original page checked.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, cites (\\ref{ex:multiple-subj}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X034",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:multiple-exist-part} \\mention{there are multiple of them}\\footnote{Ivan Mehta, \\href{https://techcrunch.com/2022/09/16/ios-16-users-are-getting-creative-with-the-new-background-removal-feature-for-photos/}{TechCrunch}, 16 September 2022; NOW and original article. The antecedent is objects in a photo.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, cites (\\ref{ex:multiple-exist-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X035",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:multiple-exist-rel} \\mention{There are multiple that are cited in my response.}\\footnote{Zachary Loyed, public-records hearing, \\textit{State of Florida v.~Thomas Lee Gudinas}, 29 May 2025, transcript p.~7, lines 14--15; \\href{https://www.supremecourt.gov/DocketPDF/24/24-7457/363457/20250618100158557_Appendix\\%20to\\%20the\\%20Petition\\%20for\\%20Writ\\%20of\\%20Certiorari-06-18-25.pdf}{Appendix C}, PDF p.~55. Original transcript checked; \\mention{multiple} refers to cases.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, cites (\\ref{ex:multiple-exist-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X036",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ea\\label{ex:multiple-bare} \\mention{are there multiple?}\\footnote{Kira Bindrim, in a \\href{https://qz.com/india/2130303/the-big-fat-indian-wedding-is-only-getting-bigger}{Quartz podcast transcript}, 2022; NOW and original transcript. The preceding question introduces wedding dresses. NOW dates the record 22 February; the current page reports an update on 20 July.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, cites (\\ref{ex:multiple-bare}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X037",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ea\\label{ex:countless-part} \\mention{countless of their particular statements and deeds}\\footnote{Thomas Hughson, \\href{https://theologicalstudies.net/wp-content/uploads/2022/08/69.1.1.pdf\\#page=7}{\\enquote{Interpreting Vatican II: \\enquote{A New Pentecost}}}, \\textit{Theological Studies} 69 (2008), p.~9; COCA academic record, checked against the journal PDF. The NP is object of \\mention{irradiate}.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, cites (\\ref{ex:countless-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X038",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:countless-arg-rel} \\mention{paving the way for countless who followed him}\\footnote{\\href{https://www.wftv.com/entertainment/sidney-poitier/VYJKDUZBWNMX4M5UU4NM3RT52Y/}{WFTV}, NOW record dated 7 January 2022, on Sidney Poitier; concordance and source metadata checked. The original URL returned an error page.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, cites (\\ref{ex:countless-arg-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X039",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:countless-subj} \\mention{countless were left in floods of tears}\\footnote{John Murphy, \\href{https://extra.ie/2022/04/17/entertainment/movies-tv/i-bow-to-you-diy-sos-viewers-in-total-agreement-after-latest-inspirational-episode}{Extra.ie}, 17 April 2022; NOW and original article. The preceding clause mentions viewers of \\textit{DIY SOS}.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, cites (\\ref{ex:countless-subj}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X040",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:countless-exist-part} \\mention{There are countless of them out there}\\footnote{\\href{https://seekingalpha.com/article/4349886-facebooks-future-is-brighter-ever}{\\enquote{Facebook's Future Is Brighter Than Ever}}, Seeking Alpha, 25 May 2020; NOW expanded context and source metadata. The antecedent is payment apps.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, cites (\\ref{ex:countless-exist-part}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X041",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:countless-exist-rel} \\mention{There are countless who have greatly impacted their communities}\\footnote{\\href{https://metro.co.uk/2023/10/01/the-sisterhood-list-saluting-the-uk-black-women-whove-opened-doors-for-others-19558944/}{\\enquote{The Sisterhood List}}, Metro, 1 October 2023; NOW expanded context and source metadata.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, cites (\\ref{ex:countless-exist-rel}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X042",
+      "evidence_type": "retained_attestation",
+      "source_id": "Q",
+      "basis_quote": "\\ex\\label{ex:countless-exist-bare} \\mention{In fact, there are countless.}\\footnote{\\href{https://financialpost.com/personal-finance/young-money/youth-investing-personal-finance}{Financial Post}, NOW record dated 3 August 2013; complete sentence and adjacent context checked in the concordance. The original page wasn't available.}",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, cites (\\ref{ex:countless-exist-bare}); the example is retained with its footnoted provenance. The footnote naming NOW and COCA for the supplement as a whole is not what makes this cell attestation-backed: this specific example and source record are retained for it."
+    },
+    {
+      "query_id": "X043",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X044",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X045",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X046",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X047",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X048",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{a lot} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X049",
+      "evidence_type": "cgel_described",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 1, argument use with a partitive PP, carries G for this row; the caption glosses G as 'described in \\textit{CGEL}'. The supplement adds that 'The G and R cells retain the qualifications just stated'."
+    },
+    {
+      "query_id": "X050",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 2, argument use with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X051",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 3, argument use with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X052",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 4, existential displaced subject with a partitive PP, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X053",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 5, existential displaced subject with a relative clause, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X054",
+      "evidence_type": "constructed_illustration",
+      "source_id": "Q",
+      "basis_quote": "\\mention{plenty} & G & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} & \\textit{I} \\\\",
+      "note": "Table~\\ref{tab:quant-controls}, column 6, existential displaced subject with no dependent, carries \\textit{I} for this row; the caption glosses \\textit{I} as a 'constructed positive illustration in the stated frame'. No attestation is retained for this cell."
+    },
+    {
+      "query_id": "X055",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "The proposed analysis gives adverbs such as \\mention{very} and \\mention{too} internal attachment in dependent and independent uses alike. In \\mention{the very few people}, \\mention{very} modifies the Nom headed by \\mention{few}; the resulting \\mention{very few} NP functions as Mod in the larger NP. In \\mention{the very few who objected}, \\mention{few} remains ordinary Head and \\mention{very} remains internal.",
+      "note": "The internal attachment of the degree adverb is presented as the manuscript's own analysis; the caption of Table~\\ref{tab:existing} states that 'Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.' \\textit{CGEL} is cited for the degree series' selection of the four grade-inflecting determinatives, not for this attachment."
+    },
+    {
+      "query_id": "X056",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "The degree relation is unchanged, and one internal permission covers both constructions. The same analysis applies to \\mention{the very many}.",
+      "note": "The same proposed analysis is extended to \\mention{many}: 'The proposed analysis gives adverbs such as \\mention{very} and \\mention{too} internal attachment in dependent and independent uses alike.' Determinative modifier attachments are marked as analytical commitments in the caption of Table~\\ref{tab:existing}."
+    },
+    {
+      "query_id": "X057",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+      "note": "No individual example of \\mention{much} with a degree adverb of the series is given; the permission is stated as part of the proposed analysis, and the caption of Table~\\ref{tab:existing} marks determinative modifier attachments as analytical commitments."
+    },
+    {
+      "query_id": "X058",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+      "note": "As with \\mention{much}, no individual example of \\mention{little} with a degree adverb of the series is given; the permission is stated as part of the proposed analysis, whose determinative modifier attachments the caption of Table~\\ref{tab:existing} marks as analytical commitments."
+    },
+    {
+      "query_id": "X059",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "These degree modifiers also exclude non-gradable determinatives: \\ungram{\\mention{very every}}, \\ungram{\\mention{very some}}, and \\ungram{\\mention{very this}}.",
+      "note": "\\mention{Very some} is a constructed sequence marked ungrammatical by \\ungram{}; the sentence carries no corpus or \\textit{CGEL} attribution."
+    },
+    {
+      "query_id": "X060",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "These degree modifiers also exclude non-gradable determinatives: \\ungram{\\mention{very every}}, \\ungram{\\mention{very some}}, and \\ungram{\\mention{very this}}.",
+      "note": "\\mention{Very every} is a constructed sequence marked ungrammatical by \\ungram{}. This is distinct from approximative \\mention{almost every}, which the manuscript permits."
+    },
+    {
+      "query_id": "X061",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "Degree modification exposes a contrast: \\mention{so many mistakes} is possible, while \\ungram{\\mention{so numerous mistakes}} is excluded \\citep[539--540]{huddleston2002}.",
+      "note": "\\mention{So numerous mistakes} is marked ungrammatical by \\ungram{}, in contrast with the possible \\mention{so many mistakes}; the contrast carries a \\textit{CGEL} citation, but the evidential form here is the marked ungrammatical example."
+    },
+    {
+      "query_id": "X062",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}.",
+      "note": "The internal attachment of \\mention{very} inside the complex determinative \\mention{a few} is attributed to \\textit{CGEL}, which is reported to contrast it explicitly with peripheral \\mention{quite}."
+    },
+    {
+      "query_id": "X063",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}.",
+      "note": "The peripheral attachment of \\mention{quite} outside the complex determinative \\mention{a few} is attributed to \\textit{CGEL}'s explicit contrast, not to the manuscript's own attachment analysis."
+    },
+    {
+      "query_id": "X064",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "In \\mention{almost every experienced teacher}, \\mention{almost} belongs with \\mention{every}, while \\mention{experienced} modifies \\mention{teacher}. Figure~\\ref{fig:every} places \\mention{almost} at the periphery of the NP headed by \\mention{every}.",
+      "note": "\\textit{CGEL} is cited only for NP-level attachment of peripheral modifiers in general; this determinative attachment is the manuscript's. The caption of Table~\\ref{tab:existing} states: 'Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.'"
+    },
+    {
+      "query_id": "X065",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. Peripheral \\mention{hardly} follows the approximative pattern and its NP parallels in §\\ref{sec:payne}.",
+      "note": "The peripheral placement of \\mention{hardly} with \\mention{any} follows the manuscript's approximative analysis; \\textcite{payne2010} is cited for category continuity across \\mention{hardly any money} and independent \\mention{hardly any}, and the caption of Table~\\ref{tab:existing} marks determinative modifier attachments as analytical commitments."
+    },
+    {
+      "query_id": "X066",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost} \\citep[389--390]{huddleston2002}.",
+      "note": "\\textit{CGEL} is reported as having both forms permit \\mention{almost}; \\mention{practically no} also appears among the manuscript's approximative examples. The classification of that modifier as peripheral is the manuscript's own attachment analysis."
+    },
+    {
+      "query_id": "X067",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} treats them as inflectional forms of one determinative: dependent \\mention{no students} contrasts with independent \\mention{none}, while both permit \\mention{almost} \\citep[389--390]{huddleston2002}.",
+      "note": "The admission of \\mention{almost} with independent \\mention{none} is attributed to \\textit{CGEL}. No statement assigns \\mention{none} an attachment site; peripheral attachment follows the manuscript's general analysis of approximatives."
+    },
+    {
+      "query_id": "X068",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "Plain determinative-headed NPs, such as \\mention{almost ten} in \\mention{almost ten apples}, then join genitives such as \\mention{Kim's} and \\mention{my}.",
+      "note": "The peripheral treatment of \\mention{almost ten} is the manuscript's; the caption of Table~\\ref{tab:existing} states: 'Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.' The cardinal examples are also subject to the manuscript's category qualifications."
+    },
+    {
+      "query_id": "X069",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "Approximatives also need internal attachment where they follow an external determiner on an independent cardinal: \\mention{the almost thirty who came}.",
+      "note": "Internal attachment for an approximative after an external determiner on an independent cardinal is stated as a requirement of the manuscript's account ('Both ordinary-Head accounts require this distinction'), not as a \\textit{CGEL} description."
+    },
+    {
+      "query_id": "X070",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "Grade combines with degree-modifier selection and comparative complementation, as in \\mention{more than ten}. The three properties form a connected profile.",
+      "note": "\\mention{More than ten} is given as an unattributed constructed example; \\textit{CGEL} is cited in the same paragraph for the grade paradigms, not for this comparative complement example."
+    },
+    {
+      "query_id": "X071",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{The} also functions as a degree modifier. In \\mention{the bigger the better}, it modifies comparative AdjPs, as other determinatives do in \\mention{much bigger} or \\mention{no better} \\citep[1131--1132, 1135--1136]{huddleston2002}.",
+      "note": "The degree-modifier use of \\mention{the} in \\mention{the bigger the better} is presented with a \\textit{CGEL} citation."
+    },
+    {
+      "query_id": "X072",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{The} also functions as a degree modifier. In \\mention{the bigger the better}, it modifies comparative AdjPs, as other determinatives do in \\mention{much bigger} or \\mention{no better} \\citep[1131--1132, 1135--1136]{huddleston2002}.",
+      "note": "\\mention{No better} is presented, with a \\textit{CGEL} citation, as a determinative modifying a comparative AdjP; the manuscript adds that \\mention{no}/\\mention{none} likewise have uses outside NP structure, also citing \\textit{CGEL}."
+    },
+    {
+      "query_id": "X073",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} contrasts predicative \\mention{a great deal better} with \\ungram{\\mention{some a great deal better proposals}}, against permitted \\mention{some much better proposals} \\citep[551--552]{huddleston2002}.",
+      "note": "\\mention{Some much better proposals} is reported as the permitted member of \\textit{CGEL}'s contrast, in attributive position."
+    },
+    {
+      "query_id": "X074",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Quantificational nouns occur in degree modifiers such as \\mention{a great deal smaller} and \\mention{plenty big enough} \\citep[549--550]{huddleston2002}.",
+      "note": "The degree-modifier use of \\mention{a great deal} is presented with a \\textit{CGEL} citation; the frame retains \\mention{a great}."
+    },
+    {
+      "query_id": "X075",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} contrasts predicative \\mention{a great deal better} with \\ungram{\\mention{some a great deal better proposals}}, against permitted \\mention{some much better proposals} \\citep[551--552]{huddleston2002}.",
+      "note": "\\mention{Some a great deal better proposals} is marked ungrammatical by \\ungram{}. The manuscript adds that the example also juxtaposes \\mention{some} and \\mention{a}, so it doesn't isolate NP category as the cause."
+    },
+    {
+      "query_id": "X076",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} permits \\mention{She's a lot better player than me}, analysing the inner article as lost after the outer one \\citep[p.~552, n.~8]{huddleston2002}.",
+      "note": "The attributive degree use of \\mention{a lot} is reported as permitted by \\textit{CGEL}, with the inner article analysed as lost after the outer one."
+    },
+    {
+      "query_id": "X077",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers \\citep[549--550]{huddleston2002}.",
+      "note": "\\mention{Lots better} is reported as explicitly treated in \\textit{CGEL} as containing a quantificational NP modifier; the position is outside attributive position."
+    },
+    {
+      "query_id": "X078",
+      "evidence_type": "retained_attestation",
+      "source_id": "M",
+      "basis_quote": "\\mention{Some lots better ones}: \\href{https://www.uberpeople.net/threads/let-s-play-would-you-have-taken-this-trip.395130/}{Uber Drivers Forum}, verified in an indexed excerpt; author and date remain unverified.",
+      "note": "A retained informal attestation with its provenance, cited in a footnote to 'Informal attributive examples with nominal \\mention{heaps} and \\mention{lots} further qualify a categorical exclusion.' The manuscript records that author and date remain unverified and that any register restriction remains to be established."
+    },
+    {
+      "query_id": "X079",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers \\citep[549--550]{huddleston2002}.",
+      "note": "\\mention{Heaps worse} is reported as explicitly treated in \\textit{CGEL} as containing a quantificational NP modifier."
+    },
+    {
+      "query_id": "X080",
+      "evidence_type": "retained_attestation",
+      "source_id": "M",
+      "basis_quote": "\\mention{Some heaps better photo's}: \\href{https://www.aulro.com/afvb/motor-cycling/61858-my-track-day-phillip-island-motogp-track-post798794.html}{AULRO, moose, 19 August 2008, post 2}; original spelling retained.",
+      "note": "A retained informal attestation with its provenance, cited in a footnote to 'Informal attributive examples with nominal \\mention{heaps} and \\mention{lots} further qualify a categorical exclusion.' Original spelling is retained and any register restriction remains to be established."
+    },
+    {
+      "query_id": "X081",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Quantificational nouns occur in degree modifiers such as \\mention{a great deal smaller} and \\mention{plenty big enough} \\citep[549--550]{huddleston2002}.",
+      "note": "The degree-modifier use of \\mention{plenty} in \\mention{plenty big enough} is presented with a \\textit{CGEL} citation."
+    },
+    {
+      "query_id": "X082",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \\mention{good enough}, \\mention{quickly enough}, \\mention{I hadn't prepared enough}, and \\mention{enough in control} \\citep[396--397]{huddleston2002}.",
+      "note": "\\mention{Good enough} is presented with a \\textit{CGEL} citation; the analysis of \\mention{enough} there as an NP modifier of an adjective is the implementations' analysis, not the basis for the use itself."
+    },
+    {
+      "query_id": "X083",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \\mention{good enough}, \\mention{quickly enough}, \\mention{I hadn't prepared enough}, and \\mention{enough in control} \\citep[396--397]{huddleston2002}.",
+      "note": "The adverb target, \\mention{quickly enough}, is one of the uses presented with this \\textit{CGEL} citation."
+    },
+    {
+      "query_id": "X084",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \\mention{good enough}, \\mention{quickly enough}, \\mention{I hadn't prepared enough}, and \\mention{enough in control} \\citep[396--397]{huddleston2002}.",
+      "note": "The verb target, \\mention{I hadn't prepared enough}, is one of the uses presented with this \\textit{CGEL} citation; the manuscript separately describes the same occurrence as a clause adjunct."
+    },
+    {
+      "query_id": "X085",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Determinatives permit determinative premodifiers such as \\mention{this} in \\mention{this much} \\citep[393]{huddleston2002}.",
+      "note": "The determinative premodifier \\mention{this} in \\mention{this much} is presented with a \\textit{CGEL} citation. Its treatment as an internal NP modifier is the manuscript's separate attachment analysis."
+    },
+    {
+      "query_id": "X086",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Comparative determinatives also take established NP modifiers: \\mention{a lot} in \\mention{a lot fewer}, alongside \\textit{CGEL}'s \\mention{a lot more than fifty} \\citep[432]{huddleston2002}.",
+      "note": "\\textit{CGEL}'s own example \\mention{a lot more than fifty} is cited alongside the manuscript's \\mention{a lot fewer}; the internal-modifier attachment is the manuscript's separate analysis."
+    },
+    {
+      "query_id": "X087",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\mention{Enough} tests both position and external function. It precedes a nominal in \\mention{enough money} and can follow one in \\mention{money enough}; post-head \\mention{enough} can't itself be premodified, as shown by \\ungram{\\mention{money almost enough}} \\citep[396--397, 445]{huddleston2002}.",
+      "note": "The pre-nominal use \\mention{enough money} is presented with a \\textit{CGEL} citation. The post-nominal position \\mention{money enough} is a separate position."
+    },
+    {
+      "query_id": "X088",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "\\mention{Enough} tests both position and external function. It precedes a nominal in \\mention{enough money} and can follow one in \\mention{money enough}; post-head \\mention{enough} can't itself be premodified, as shown by \\ungram{\\mention{money almost enough}} \\citep[396--397, 445]{huddleston2002}.",
+      "note": "\\mention{Money almost enough} is marked ungrammatical by \\ungram{}. The exclusion is stated for premodification of post-head \\mention{enough} only."
+    },
+    {
+      "query_id": "X089",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} discusses such uses for demonstratives and quantifiers including \\mention{some}, \\mention{all}, \\mention{both}, \\mention{many}, \\mention{few}, \\mention{several}, \\mention{each}, \\mention{either}, \\mention{neither}, \\mention{much}, and \\mention{enough}, while recording lexical restrictions and the separate forms \\mention{no}/\\mention{none} \\citep[371--372, 410--424]{huddleston2002}.",
+      "note": "\\mention{Enough} is named in the list of quantifiers whose independent uses \\textit{CGEL} is reported to discuss. The constructed \\mention{Enough is enough} illustrates interpretation without an antecedent nominal phrase."
+    },
+    {
+      "query_id": "X090",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} discusses such uses for demonstratives and quantifiers including \\mention{some}, \\mention{all}, \\mention{both}, \\mention{many}, \\mention{few}, \\mention{several}, \\mention{each}, \\mention{either}, \\mention{neither}, \\mention{much}, and \\mention{enough}, while recording lexical restrictions and the separate forms \\mention{no}/\\mention{none} \\citep[371--372, 410--424]{huddleston2002}.",
+      "note": "\\mention{All} is named in the list of quantifiers whose independent uses \\textit{CGEL} is reported to discuss; the constructed \\mention{All agree} illustrates syntactic completeness. Predeterminer \\mention{all} in \\mention{all the books} falls outside the independent-use comparison."
+    },
+    {
+      "query_id": "X091",
+      "evidence_type": "retained_attestation",
+      "source_id": "M",
+      "basis_quote": "English Web Treebank, sentence \\nolinkurl{reviews-083459-0002}, verified in the \\href{https://github.com/UniversalDependencies/UD_English-EWT/blob/master/en_ewt-ud-train.conllu}{UD English EWT training data}. CGELBank supplies the syntactic annotation \\citep{reynolds2023unified}. The original review webpage wasn't identified.",
+      "note": "A corpus attestation retained with its provenance for the independent object \\mention{both} in \\mention{we wanted to test-drive both back to back}; the manuscript records that the original review webpage wasn't identified."
+    },
+    {
+      "query_id": "X092",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} describes relative postmodification with demonstratives and compounds \\citep[414, 422--423]{huddleston2002}.",
+      "note": "The manuscript lists \\mention{those who came} among its determinative examples and attributes relative postmodification with demonstratives to \\textit{CGEL}."
+    },
+    {
+      "query_id": "X093",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "A more demanding modifier comparison is \\mention{hardly anyone present}.",
+      "note": "The post-head adjective \\mention{present} is introduced through a constructed comparison, with \\textcite{Payne2007} cited for assigning \\mention{present} to nominal structure; no corpus example or \\textit{CGEL} description is given for it."
+    },
+    {
+      "query_id": "X094",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base. Peripheral \\mention{hardly} follows the approximative pattern and its NP parallels in §\\ref{sec:payne}.",
+      "note": "The peripheral attachment of \\mention{hardly} to the compound is the manuscript's ordinary-Head analysis, contrasted with \\textcite{Payne2007}'s DP assignment; the caption of Table~\\ref{tab:existing} states: 'Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.'"
+    },
+    {
+      "query_id": "X095",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition \\citep[423]{huddleston2002}.",
+      "note": "Relative postmodification of compounds, as in \\mention{anyone who asks}, is attributed to \\textit{CGEL}, which is also reported to describe relative postmodification with demonstratives and compounds."
+    },
+    {
+      "query_id": "X096",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "Compound determinatives also take post-head adjectives, as in \\mention{I need something reliable and good looking}.",
+      "note": "The post-head adjectival pattern with \\mention{something} is given through constructed examples (\\mention{I need something reliable and good looking}, \\mention{something useful that I found}) with no corpus or \\textit{CGEL} attribution for the specialized restrictor."
+    },
+    {
+      "query_id": "X097",
+      "evidence_type": "authors_analysis",
+      "source_id": "M",
+      "basis_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account. It doesn't license a corresponding pre-head adjective.",
+      "note": "The exclusion of a pre-head adjective is stated as a condition of the manuscript's compound construction, not through an example marked ungrammatical and not as a \\textit{CGEL} description."
+    },
+    {
+      "query_id": "X098",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "But \\mention{lot} also permits \\mention{a lot of delegates}, whereas \\ungram{\\mention{many of delegates}} is excluded \\citep[349]{huddleston2002}.",
+      "note": "The undetermined complement in \\mention{a lot of delegates} is presented as permitted, with a \\textit{CGEL} citation."
+    },
+    {
+      "query_id": "X099",
+      "evidence_type": "constructed_ungrammatical",
+      "source_id": "M",
+      "basis_quote": "But \\mention{lot} also permits \\mention{a lot of delegates}, whereas \\ungram{\\mention{many of delegates}} is excluded \\citep[349]{huddleston2002}.",
+      "note": "\\mention{Many of delegates} is marked ungrammatical by \\ungram{}. The partitive \\mention{many of the delegates}, with a determined complement, is not excluded."
+    },
+    {
+      "query_id": "X100",
+      "evidence_type": "cgel_restricted",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification \\citep[349--350]{huddleston2002}.",
+      "note": "\\textit{CGEL} is reported as describing quantificational \\mention{plenty} as resisting determination and modification. That is a restriction, not an exclusion, and the record's status for this cell is not_stated."
+    },
+    {
+      "query_id": "X101",
+      "evidence_type": "cgel_restricted",
+      "source_id": "M",
+      "basis_quote": "\\textit{CGEL} categorizes quantificational \\mention{plenty} as a common noun whose use resists determination and modification; \\mention{lot} requires \\mention{a} and permits only limited modification \\citep[349--350]{huddleston2002}.",
+      "note": "\\textit{CGEL} is reported as permitting only limited modification of \\mention{lot}; the documents state no inventory of the admitted modifiers."
+    },
+    {
+      "query_id": "X102",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Figure~\\ref{fig:partitive} gives the D-noun analysis, with the \\mention{of}-phrase functioning as complement within Nom, as in \\textit{CGEL}'s partitive tree \\citep[411--412]{huddleston2002}. In \\textit{CGEL}, the DP headed by \\mention{some} fills Det--Head.",
+      "note": "The independent partitive with \\mention{some} is presented as analysed in \\textit{CGEL}, whose partitive tree and Det--Head assignment for the \\mention{some} phrase the manuscript matches; the manuscript differs only in the Head relations."
+    },
+    {
+      "query_id": "X103",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Predicative \\mention{Its advantages are several} and \\mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \\citep[392, 395--396]{huddleston2002}.",
+      "note": "Predicative \\mention{Its advantages are several} is presented with a \\textit{CGEL} citation as further overlap between the determinative and adjective ranges. The manuscript's fragment places predication beyond its scope."
+    },
+    {
+      "query_id": "X104",
+      "evidence_type": "cgel_restricted",
+      "source_id": "M",
+      "basis_quote": "Predicative \\mention{Its advantages are several} and \\mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \\citep[392, 395--396]{huddleston2002}.",
+      "note": "\\mention{Their enemies were many} is 'the latter' in this sentence, and is presented, on the same \\textit{CGEL} citation, as uncommon and formal: a restriction on the use, not an exclusion."
+    },
+    {
+      "query_id": "X105",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Predicative \\mention{mine}, as in \\mention{it's mine}, can instead mean \\enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \\citep[410--411, 470--471]{huddleston2002}.",
+      "note": "The predicative use of \\mention{mine} and its 'belongs to me' reading are presented with a \\textit{CGEL} citation; the ordinary-Head treatment of it is the manuscript's separate analysis."
+    },
+    {
+      "query_id": "X106",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "The articles participate in the determinative system of definiteness, quantity, and count restrictions. In \\mention{the/a/this/every book}, they occupy the same Det position and contribute to the interpretation of the NP. \\mention{The} permits singular, plural, and non-count targets; \\mention{a} selects a singular count target and contributes individuation.",
+      "note": "The Det use of \\mention{a} and its singular count target are presented within the manuscript's \\textit{CGEL}-cited account of the articles ('Their connections extend beyond shared position, although neither has the full determinative profile \\citep[368--373]{huddleston2002}'). The fragment's permissions table records the same restriction."
+    },
+    {
+      "query_id": "X107",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "\\mention{Numerous people} and \\mention{many people} both quantify, but their syntax differs.",
+      "note": "The dependent determiner use of \\mention{many} is given through the unattributed constructed example \\mention{many people}; the manuscript's permissions table records no target restriction for \\mention{many}."
+    },
+    {
+      "query_id": "X108",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "\\mention{Numerous people} and \\mention{many people} both quantify, but their syntax differs.",
+      "note": "The attributive use of \\mention{numerous} is given through the unattributed constructed example \\mention{numerous people}, used as a semantic control. The treatment of \\mention{numerous} as a quantificational adjective is the manuscript's categorization."
+    },
+    {
+      "query_id": "X109",
+      "evidence_type": "cgel_described",
+      "source_id": "M",
+      "basis_quote": "Independent \\mention{some} can form a one-word NP, whereas an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading \\citep[417--418]{huddleston2002}.",
+      "note": "The fused-head argument use of \\mention{rich}, and its requirement of \\mention{the} on the generic human reading, are presented with a \\textit{CGEL} citation."
+    },
+    {
+      "query_id": "X110",
+      "evidence_type": "constructed_illustration",
+      "source_id": "M",
+      "basis_quote": "Adjective fusion permits indefinite ordinal \\mention{a second} \\citep[416]{huddleston2002}, giving the constructed comparison \\mention{There was a second}.",
+      "note": "The manuscript labels \\mention{There was a second} a constructed comparison; \\textit{CGEL} is cited for adjective fusion permitting the indefinite ordinal \\mention{a second}, not for the existential example."
+    }
+  ],
+  "responsibility_notice": ""
+}
