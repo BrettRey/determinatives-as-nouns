@@ -18,7 +18,9 @@ Sources were the stored, hash-verified texts from the original run, not the live
 
 ## What the field shows
 
-Of 110 claims, 25 rest on a retained attestation and 85 do not: 42 on *CGEL*'s description, 29 on a constructed example, 10 on the author's own analysis, and 4 on a search that retained nothing. Seven of the eleven constructions have no attested claim at all. The per-construction breakdown is in [the coverage report](../coverage-2026-09-14.md).
+Within the 54 supplement claims, which enumerate one table cell by cell, 22 rest on a retained attestation and 32 do not. That proportion is meaningful because the frame is complete.
+
+The 56 manuscript claims are a convenience sample of the manuscript's 658 participation claims (see [the census](../manuscript-census-2026-09-14)), drawn against a quota rather than a frame. Their evidence_type values are individually sound, but no proportion over them estimates anything about the paper. An earlier version of this file reported such proportions, including a list of constructions said to have no attested claim; those are withdrawn.
 
 ## Limits
 

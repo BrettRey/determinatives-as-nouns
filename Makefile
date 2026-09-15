@@ -46,10 +46,7 @@ analysis/claims/claims-enriched.json: analysis/expanded-json-2026-09-14/records.
 		analysis/claims/enrich.py
 	python3 analysis/claims/enrich.py
 
-analysis/coverage-2026-09-14.md: analysis/claims/claims-enriched.json analysis/tools/coverage.py
-	python3 analysis/tools/coverage.py
-
-claims: analysis/claims/claims-enriched.json analysis/coverage-2026-09-14.md
+claims: analysis/claims/claims-enriched.json
 
 # Fails when a quoted passage has been edited, moved or deleted, i.e. when the
 # claim set has gone stale against the manuscript.
@@ -113,6 +110,6 @@ help:
 	@echo "  make view     - Open PDF (macOS only)"
 	@echo "  make test     - Run Python specification tests"
 	@echo "  make check-quant-table - Verify Table 1 against the claim set"
-	@echo "  make claims   - Rebuild the enriched claim set and coverage report"
+	@echo "  make claims   - Rebuild the enriched claim set"
 	@echo "  make check-claims - Verify claim quotations still match the sources"
 	@echo "  make help     - Show this help message"

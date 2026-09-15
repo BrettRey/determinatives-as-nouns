@@ -1,0 +1,335 @@
+{
+  "rule": "not_determinable + a real citation command within 300 chars -> other_source_described (or cgel_described if only CGEL is cited); otherwise unchanged.",
+  "reclassified": 42,
+  "left_as_not_determinable": 3,
+  "detail": [
+    {
+      "id": "am-022",
+      "verdict": "other_source_described",
+      "keys": [
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "am-023",
+      "verdict": "other_source_described",
+      "keys": [
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "am-024",
+      "verdict": "other_source_described",
+      "keys": [
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "am-030",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1999",
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "am-031",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1999",
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "am-032",
+      "verdict": "other_source_described",
+      "keys": [
+        "spinillo2004reconceptualising"
+      ]
+    },
+    {
+      "id": "sat-014",
+      "verdict": "other_source_described",
+      "keys": [
+        "Payne2007"
+      ]
+    },
+    {
+      "id": "mod-033",
+      "verdict": "other_source_described",
+      "keys": [
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "pay-015",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2010"
+      ]
+    },
+    {
+      "id": "pay-016",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2010"
+      ]
+    },
+    {
+      "id": "pay-017",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2010"
+      ]
+    },
+    {
+      "id": "pay-018",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2010"
+      ]
+    },
+    {
+      "id": "pay-019",
+      "verdict": "not_determinable",
+      "keys": []
+    },
+    {
+      "id": "pay-020",
+      "verdict": "not_determinable",
+      "keys": []
+    },
+    {
+      "id": "pay-031",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2010"
+      ]
+    },
+    {
+      "id": "cmp-001",
+      "verdict": "other_source_described",
+      "keys": [
+        "Payne2007"
+      ]
+    },
+    {
+      "id": "cmp-002",
+      "verdict": "other_source_described",
+      "keys": [
+        "Payne2007"
+      ]
+    },
+    {
+      "id": "cmp-005",
+      "verdict": "other_source_described",
+      "keys": [
+        "Payne2007"
+      ]
+    },
+    {
+      "id": "cmp-009",
+      "verdict": "other_source_described",
+      "keys": [
+        "Payne2007"
+      ]
+    },
+    {
+      "id": "frg-012",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners"
+      ]
+    },
+    {
+      "id": "cost-015",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "cost-016",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "cost-017",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "cost-018",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric"
+      ]
+    },
+    {
+      "id": "cost-019",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric"
+      ]
+    },
+    {
+      "id": "cost-020",
+      "verdict": "other_source_described",
+      "keys": [
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "cost-021",
+      "verdict": "other_source_described",
+      "keys": [
+        "reynolds2026numerals"
+      ]
+    },
+    {
+      "id": "inh-001",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners",
+        "hudson2010wordgrammar"
+      ]
+    },
+    {
+      "id": "inh-002",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners",
+        "hudson2010wordgrammar"
+      ]
+    },
+    {
+      "id": "inh-003",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners"
+      ]
+    },
+    {
+      "id": "inh-004",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners"
+      ]
+    },
+    {
+      "id": "inh-005",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners"
+      ]
+    },
+    {
+      "id": "inh-006",
+      "verdict": "other_source_described",
+      "keys": [
+        "hudson2004determiners"
+      ]
+    },
+    {
+      "id": "inh-024",
+      "verdict": "other_source_described",
+      "keys": [
+        "reynolds2021"
+      ]
+    },
+    {
+      "id": "his-001",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1968",
+        "palmer1924"
+      ]
+    },
+    {
+      "id": "his-002",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1968",
+        "palmer1924",
+        "postal1966"
+      ]
+    },
+    {
+      "id": "his-003",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1968",
+        "palmer1924",
+        "postal1966"
+      ]
+    },
+    {
+      "id": "his-004",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1968",
+        "postal1966"
+      ]
+    },
+    {
+      "id": "his-005",
+      "verdict": "other_source_described",
+      "keys": [
+        "lyons1968",
+        "postal1966"
+      ]
+    },
+    {
+      "id": "his-006",
+      "verdict": "other_source_described",
+      "keys": [
+        "postal1966",
+        "sommerstein1972"
+      ]
+    },
+    {
+      "id": "his-007",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "sommerstein1972"
+      ]
+    },
+    {
+      "id": "his-008",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "sommerstein1972"
+      ]
+    },
+    {
+      "id": "his-009",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "sommerstein1972"
+      ]
+    },
+    {
+      "id": "his-010",
+      "verdict": "other_source_described",
+      "keys": [
+        "payne2013anaphoric",
+        "sommerstein1972"
+      ]
+    },
+    {
+      "id": "his-011",
+      "verdict": "not_determinable",
+      "keys": []
+    }
+  ]
+}
