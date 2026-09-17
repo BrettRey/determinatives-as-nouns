@@ -18,7 +18,7 @@
 | 0.5 to 0.8 | 53 | 29 | 39 |
 | 0.8 and above | 69 | 38 | 65 |
 
-Tokens: 238,067 in, 45,080 out for 124 claims; pricing is not published, so cost is unrecorded. Mean construction confidence 0.71.
+Tokens: 238,067 in, 45,080 out for 124 claims. Pricing is on input only and cheap (Brett, 2026-09-16), so the whole 658-claim census would be about 1.3M input tokens. Mean construction confidence 0.71.
 
 ## Reading it
 
