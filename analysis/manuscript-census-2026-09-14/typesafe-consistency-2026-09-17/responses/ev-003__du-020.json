@@ -1,0 +1,1 @@
+{"model": "jev-1.13.0", "answers": {"incompatible": {"type": "noul", "noul": 0.06}, "relation": {"type": "choice", "choice": "restatement", "confidence": 0.37, "probabilities": {"contradiction": 0.09, "restatement": 0.5, "qualification": 0.04, "different_constructions": 0.37, "unrelated": 0.0}}}, "usage": {"input_tokens": 751, "output_tokens": 83}}
