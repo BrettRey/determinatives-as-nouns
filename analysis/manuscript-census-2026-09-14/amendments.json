@@ -43,13 +43,13 @@
   }
  ],
  "inf-018": {
-  "quote": "The compounds' genitives are the NP's, not the nominal component's",
-  "previous_quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
-  "reason": "2026-09-17: the genitive hedge was replaced by the head/phrasal genitive argument (CGEL p. 479); see notes/2026-09-17-unification-hunt.md candidate 2"
+  "quote": "The compounds' genitives belong to the NP",
+  "previous_quote": "The compounds' genitives are the NP's, not the nominal component's",
+  "reason": "2026-09-17: genitive sentence reworded as a positive statement in the double-check"
  },
  "inf-019": {
-  "quote": "The compounds' genitives are the NP's, not the nominal component's",
-  "previous_quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
-  "reason": "2026-09-17: the genitive hedge was replaced by the head/phrasal genitive argument (CGEL p. 479); see notes/2026-09-17-unification-hunt.md candidate 2"
+  "quote": "The compounds' genitives belong to the NP",
+  "previous_quote": "The compounds' genitives are the NP's, not the nominal component's",
+  "reason": "2026-09-17: genitive sentence reworded as a positive statement in the double-check"
  }
 }
