@@ -539,3 +539,8 @@ Replaces the hand-written proposal that had eight wrong cells. `analysis/typical
 ## 2026-09-17 — Open: *such* and exclamative *what*, adjective (this paper, following *CGEL* p. 435) or determinative (the 2021 matrix's coding)
 
 Found while placing the articles in the 2021 clustering (`notes/2026-09-17-matrix-position.md`). The manuscript follows *CGEL* in calling *such* and exclamative *what* adjectives (§2.1, citing pp. 433–437); the 2021 matrix coded *such*, *what* and *whatever* as determinatives, and in that matrix *such* is *the*'s nearest neighbour, inside the dependent-only cluster with the articles, *every*, *no* and the *which* determinatives. The two works disagree, and the disagreement bears on the articles' coherence argument (the cluster that holds the articles contains the two items the paper calls adjectives) and on the typicality register (its only source for adjectives in predeterminer function is these two). Status: **deferred to Brett**; whichever way it goes, the paper should say so and note the change from 2021 if there is one.
+
+
+## 2026-09-17 — Correction: no such/what disagreement between the two works
+
+The entry above conflated two lexemes each. The 2021 matrix rows are determinative *such* (*such contract as may be executed*) and interrogative determinative *what* (`what_det`); the adjectives the manuscript calls adjectives after *CGEL* p. 435 are degree *such* and exclamative *what* (*such a disaster*, *what a disaster*). Brett caught it. The articles' cluster in the matrix is all determinative; the typicality register's source for adjectives in predeterminer function (the p. 435 pair) stands; nothing is deferred. `notes/2026-09-17-matrix-position.md` corrected.
