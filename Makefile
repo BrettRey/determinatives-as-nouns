@@ -25,7 +25,7 @@ $(SUPPLEMENTS:%=%.pdf): %.pdf: %.tex references.bib references-local.bib .house-
 
 matrix-audit.pdf: analysis/generated/matrix-table.tex
 corpus-documentation.pdf: analysis/generated/corpus-table.tex
-quantifier-controls.pdf: analysis/generated/quant-table.tex
+quantifier-controls.pdf: analysis/generated/quant-table.tex analysis/generated/exclusion-table.tex
 
 # Table 1 of the quantifier supplement is derived from the extracted claim set
 # (analysis/expanded-json-2026-09-14), so the markers cannot drift from the
@@ -35,8 +35,12 @@ analysis/generated/quant-table.tex: analysis/expanded-json-2026-09-14/records.js
 		analysis/tools/quant_table.py
 	python3 analysis/tools/quant_table.py build
 
+analysis/generated/exclusion-table.tex: analysis/exclusion-checks.json analysis/tools/exclusion_table.py
+	python3 analysis/tools/exclusion_table.py
+
 check-quant-table:
 	python3 analysis/tools/quant_table.py check
+	python3 analysis/tools/exclusion_table.py check
 
 # The claim set gains evidence_type and subcategory in a derived layer; the
 # source run under analysis/expanded-json-2026-09-14 is a provenance bundle

@@ -1,0 +1,87 @@
+{
+ "_about": "Corpus checks of exclusions the manuscript states; gathered by hand on COCA 2026-09-17, screened by TypeSafe, residue read (corpus/exclusion_tests/readings.md). Builds analysis/generated/exclusion-table.tex via analysis/tools/exclusion_table.py.",
+ "checks": [
+  {
+   "claim": "Independent \\mention{every} (\\ungram{\\mention{I'll take every}})",
+   "section": "sec:independent",
+   "corpus": "COCA",
+   "queries": [
+    "every [v*]"
+   ],
+   "hits": "1,095 lines read",
+   "result": "no ordinary fused-head use; \\mention{every} in ellipsis (\\mention{if not every, then almost every N}), reply fragments, and binomials (\\mention{any and every}); slips for \\mention{everyone} in informal text",
+   "handling": "claim kept for fused-head use"
+  },
+  {
+   "claim": "Degree adverb on a non-gradable determinative (\\ungram{\\mention{very every}}, \\ungram{\\mention{very some}}, \\ungram{\\mention{very this}})",
+   "section": "sec:adjectival-profile",
+   "corpus": "COCA",
+   "queries": [
+    "very every/some/this",
+    "so every/some/this"
+   ],
+   "hits": "7 lines; 22,938 (List) for \\mention{so}, all discourse \\mention{so}",
+   "result": "no qualifying line; two jocular cases (\\mention{very this}, \\mention{very this year})",
+   "handling": "holds"
+  },
+  {
+   "claim": "Reversed order (\\ungram{\\mention{very a few}}, \\ungram{\\mention{a quite few}})",
+   "section": "sec:adjectival-profile",
+   "corpus": "COCA",
+   "queries": [
+    "very a few",
+    "a quite few"
+   ],
+   "hits": "0",
+   "result": "unattested",
+   "handling": "holds"
+  },
+  {
+   "claim": "Attributive \\ungram{\\mention{so numerous mistakes}}",
+   "section": "sec:quant-controls",
+   "corpus": "COCA",
+   "queries": [
+    "so numerous [nn*]",
+    "too numerous [nn*]"
+   ],
+   "hits": "4 + 4",
+   "result": "none for \\mention{so}; three marginal web lines for \\mention{too} (\\mention{too numerous inaccuracies})",
+   "handling": "holds for \\mention{so}"
+  },
+  {
+   "claim": "Partitive \\ungram{\\mention{no of the students}}",
+   "section": "sec:modification",
+   "corpus": "COCA",
+   "queries": [
+    "no of the"
+   ],
+   "hits": "0",
+   "result": "unattested",
+   "handling": "holds"
+  },
+  {
+   "claim": "Compounds exclude an article and a pre-head adjective",
+   "section": "sec:compounds",
+   "corpus": "COCA",
+   "queries": [
+    "[at*] [j*] someone/somebody/something",
+    "[at*] someone/somebody/something"
+   ],
+   "hits": "496 + 494 lines; \\mention{special someone} 282, \\mention{certain someone} 120 (List)",
+   "result": "attested at volume and productively (\\mention{an anonymous someone}, \\mention{a furry something}, \\mention{such an anyone})",
+   "handling": "restated as the set-denoting use (article §4.5)"
+  },
+  {
+   "claim": "Singular agreement with \\mention{each of the people}",
+   "section": "sec:quant-nouns",
+   "corpus": "COCA",
+   "queries": [
+    "each of them was/were/is/are/has/have (List)",
+    "each of the [nn2*] was/were"
+   ],
+   "hits": "389 singular, 78 plural; 151 \\mention{was}, 73 \\mention{were}",
+   "result": "plural agreement in a sixth of tokens after \\mention{each of them}, in every register",
+   "handling": "restated with the rate (article §2.2)"
+  }
+ ]
+}

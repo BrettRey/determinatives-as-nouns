@@ -88,5 +88,22 @@ The additional existential examples in (\ref{ex:quant-more-existentials}) supply
 
 No qualifying attestation was retained for four cells: argument \mention{certain} with a relative, bare existential \mention{certain}, and existential \mention{various} with a relative or without a dependent. The bounded searches don't establish exclusion. These cells retain a different evidential status from the positive examples and from \textit{CGEL}'s stated restrictions.
 
+\section{Checks of stated exclusions}
+
+The article states several exclusions as starred examples. Each was checked against COCA on 17 September 2026 with the search strings in Table~\ref{tab:exclusion-checks}; the returned lines were screened by a typed-judgment model for the excluded structure and every line above the screen's floor was read. A zero or an unattested result is not an ungrammaticality judgment, and an attested structure is reported with its register. Two exclusions were restated in the article as a result; the lines, counts, and readings are preserved in the project repository under \texttt{corpus/exclusion\_tests/}.
+
+\begin{table}[H]
+\centering\small
+\caption{Corpus checks of exclusions stated in the article. Queries use English-Corpora.org syntax; \texttt{[v*]}, \texttt{[nn*]}, \texttt{[nn2*]}, \texttt{[j*]} and \texttt{[at*]} are tag families, and \texttt{/} alternates single words. Hits are lines read unless marked List.}\label{tab:exclusion-checks}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{5.2cm}}
+\toprule
+Exclusion & Query & Hits & Result; handling \\
+\midrule
+\tablebody{analysis/generated/exclusion-table.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
 \printbibliography
 \end{document}
