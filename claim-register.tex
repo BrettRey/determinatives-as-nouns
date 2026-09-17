@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage{float}
+\setlength{\headheight}{14pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\emergencystretch=1em
+\AtBeginBibliography{\emergencystretch=1em}
+\setcounter{biburlnumpenalty}{100}
+\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
+\hypersetup{pdftitle={Quantificational controls: attestations and provenance}}
+\title{Claim register: participation claims by diagnostic, lexeme, status, and basis}
+\author{Brett Reynolds}
+\date{Supplementary material, September 2026}
+\fancyhead[L]{\small\scshape Claim register}
+\usepackage{longtable}
+\begin{document}
+\maketitle
+
+\section{What this register is}
+
+This supplement lists every participation claim the article makes, by diagnostic and lexeme, with the claim's status (licensed, conditional, excluded) and the basis the article gives for it at that point in the text. It exists so that the comparison in §2 of \textit{Determinatives as nouns in English} can be inspected: for each diagnostic, which lexemes the article treats as showing the property, which as excluded, and on what evidence. It is a register of what the article asserts, not an independent survey of English, and it doesn't assess whether any claim is correct.
+
+\section{How it was made}
+
+A census of the article's sentences was produced on 14 September 2026 by a language model (Aristotle, Harmonic) reading each section and recording every claim that an expression participates in a construction, with an exact quotation; 658 claims across all 28 sections, every quotation an exact substring of the source, and ten withheld acceptance cases all reached. Each claim was then labelled with a diagnostic from a 22-item catalogue by Claude Haiku 4.5 in two passes; against 55 claims with an independent key, the label was reproduced for 51. A second model (TypeSafe jev-1.13.0) relabelled all 658 claims independently and agreed with the first on 233 of the 253 claims where it reported confidence of 0.8 or above. The basis of each claim is the article's own: an attestation footnote, a starred form, or a citation at the sentence, and otherwise the census's reading of the sentence. Claims the labelling classed as taxonomic or methodological rather than constructional (139) and claims with no single lexeme (78) are omitted here. Every quotation is re-checked against the current text of the article at each build, so the register can't drift from the prose it describes. Files, scripts, and model outputs are in the project repository under \texttt{analysis/manuscript-census-2026-09-14/}.
+
+The labels are model-assigned and the key covers a twelfth of the claims, so a row is a pointer to the sentences it counts, not a verdict. The sections column gives the article sections to read.
+
+\section{Coverage by diagnostic}
+
+Table~\ref{tab:claim-coverage} gives, for each diagnostic, the number of lexemes of each subcategory with a claim, and in parentheses how many of them are claimed licensed or conditional / excluded only.
+
+\begin{table}[H]
+\centering\small
+\caption{Lexemes with a claim, by diagnostic and subcategory; in parentheses, licensed or conditional / excluded only.}\label{tab:claim-coverage}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.7cm}*{5}{>{\centering\arraybackslash}p{1.75cm}}>{\centering\arraybackslash}p{0.9cm}}
+\toprule
+Diagnostic & determ. & common noun & proper noun & pronoun & adjective (control) & total \\
+\midrule
+\tablebody{analysis/generated/claim-coverage.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{The register}
+
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{2.15cm}>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.2cm}r}
+\caption{Participation claims by diagnostic and lexeme.}\label{tab:claim-register}\\
+\toprule
+Diagnostic & Lexeme & Subcategory & Status & Basis & Sections & Claims \\
+\midrule
+\endfirsthead
+\toprule
+Diagnostic & Lexeme & Subcategory & Status & Basis & Sections & Claims \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\tablebody{analysis/generated/claim-register.tex}
+\end{longtable}
+
+\printbibliography
+\end{document}

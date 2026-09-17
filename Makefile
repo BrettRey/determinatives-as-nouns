@@ -5,7 +5,7 @@
 LATEX = xelatex
 BIBER = biber
 MAIN = determinatives-as-nouns
-SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
+SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls claim-register
 OUTDIR = .
 
 # Targets
@@ -35,12 +35,18 @@ analysis/generated/quant-table.tex: analysis/expanded-json-2026-09-14/records.js
 		analysis/tools/quant_table.py
 	python3 analysis/tools/quant_table.py build
 
+claim-register.pdf: analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex
+
+analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex: analysis/manuscript-census-2026-09-14/census-normalized.json analysis/tools/claim_register.py
+	python3 analysis/tools/claim_register.py
+
 analysis/generated/exclusion-table.tex: analysis/exclusion-checks.json analysis/tools/exclusion_table.py
 	python3 analysis/tools/exclusion_table.py
 
 check-quant-table:
 	python3 analysis/tools/quant_table.py check
 	python3 analysis/tools/exclusion_table.py check
+	python3 analysis/tools/claim_register.py check
 
 # The claim set gains evidence_type and subcategory in a derived layer; the
 # source run under analysis/expanded-json-2026-09-14 is a provenance bundle
