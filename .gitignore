@@ -26,3 +26,4 @@ __pycache__/
 
 # External (AI-service) review drops: kept local, not published
 reviews/external-*/
+.~lock.*#
