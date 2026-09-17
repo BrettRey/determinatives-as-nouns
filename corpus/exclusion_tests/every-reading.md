@@ -19,3 +19,18 @@ Manuscript claim under test: *every* can't occur independently (Â§independent, Â
 A categorical exclusion is too strong as stated, and a referee with a corpus would say so. The paper's own framing already has the right slot: *every* is a restricted member, and the restriction is a matter of rate and reading, not absence. Independent *every* is attested in the *each*-like anaphoric reading at a very low rate in edited news prose, and much more often as an error for *everyone*. The generic subject use the manuscript stars (#*Every arrived*) is not attested in these lines at all: every residue case has an antecedent set. That distinction (anaphoric *each*-like use marginally attested; antecedent-free use not) is sharper than the current claim and better supported.
 
 The rate needs the comparison: hit counts for "each was" and "each has" are queued. Under the source-grounding law these lines are candidates until Brett has read them; the sources and dates are in the screened JSON beside this note.
+
+## COCA, `every [v*]`, 1,095 lines (saved by Brett as every.odt, 2026-09-17)
+
+TypeSafe rejected 948 and escalated 147; none accepted. The escalated lines were read in full by the screening session. Genres of the escalated set: BLOG, WEB and SPOK dominate; ACAD, NEWS and MAG contribute almost nothing beyond truncated rows, the golfer's surname, and mathematical notation with its symbols stripped (*for every , let be the density*).
+
+- **Slips for *ever*.** *have you every went*, *the best intern he had every had*, *rarely, if every, will you*. A large class in web text.
+- **Slips for *everyone*, informal.** *just about every has a recipe*, *every is crying, even the Pastor*, *I guess every has their own opinion*, *every knows a large chunk*, *we hope every has a terrific time* (SPOK 1999), *every agrees that* (SPOK 1993, likely a transcription drop). The one literary case, *the sand was gold and every was smiling* (Paris Review, 1996), reads as a nonstandard narrator.
+- **Disfluency and emphatic spelling.** *Every . HANNITY:*, *Every. Single. One.*, *Every . Day.* Speech and blogs.
+- **The linguistically real residue: independent *every* licensed by ellipsis or coordination.**
+  - *if not every, then almost every male head of household* (ACAD, Social History, 1995): coordination reduction with the nominal supplied by the second conjunct.
+  - *"But every man will want them." "Not every."* (FIC, 2002): reply fragment, the nominal recovered from the preceding turn.
+  - *Nearly any human social behaviour (if not every) can be described* (blog, 2012): parenthetical ellipsis.
+  - *open and generous to all and every* (FIC, 2015) and *the abode of god, any and every* (blog, 2012): binomial coordinations, the *each and every* pattern with *every* as the final conjunct and no nominal at all.
+
+So the COCA picture matches NOW and sharpens it. In edited written registers, *every* does not occur as an ordinary fused head; where it stands without a nominal, a nominal is recoverable from a coordinate or the prior turn, or it sits in a binomial. Informal and spoken text supply *every* for *everyone* at a low but steady rate, which is an error of omission rather than a use. The manuscript's exclusion can stand for the ordinary fused-head use it targets (#*I'll take every*), and should say so in those terms, with the ellipsis and binomial cases acknowledged; a referee who searches will find them in the first hundred lines.
