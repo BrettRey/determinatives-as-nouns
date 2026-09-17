@@ -35,9 +35,9 @@ Add to §5.5's unification paragraph: the plural cardinal (*in threes*, *in thei
 
 *Some of the wine* and *a lot of the wine*: two structures in *CGEL* (fused-head DP with partitive PP; noun with PP complement), one under D-noun, and the transparency rule ("the NP's number is the complement's") stated once for *lot*, *number*, *some*. This is already the paper's strongest positive comparison; it can be named as the first unification rather than a connection.
 
-### 6. Determiner function realized by NP alone (structural; already in §5.2)
+### 6. Determiner function: fewer realizing categories (structural; already in §5.2)
 
-*CGEL* lets Det be realized by DP or by genitive NP; D-noun by NP only (*the*, *Kim's*, *my*, *someone's*, *what size*). Already the shared-projection proposal; a unification of realization, not of a lexical phenomenon, so weaker as evidence for the taxonomy.
+*CGEL* lets Det be realized by DP, genitive NP, or PP; D-noun by NP or PP (*the*, *Kim's*, *my*, *someone's*, *what size*; PP as in the paper's §5.2). Corrected by Brett 2026-09-17: not NP alone. Already the shared-projection proposal; a reduction of realizing categories, not a rule stated once, so the weakest of the six.
 
 ## Precedent, not unification
 

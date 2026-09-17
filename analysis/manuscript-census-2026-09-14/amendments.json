@@ -41,5 +41,15 @@
    "new": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
    "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md); applies to the expanded run's evidence quotes (X093, X095, X096, X097), whose bundle is hash-pinned and not edited"
   }
- ]
+ ],
+ "inf-018": {
+  "quote": "The compounds' genitives are the NP's, not the nominal component's",
+  "previous_quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+  "reason": "2026-09-17: the genitive hedge was replaced by the head/phrasal genitive argument (CGEL p. 479); see notes/2026-09-17-unification-hunt.md candidate 2"
+ },
+ "inf-019": {
+  "quote": "The compounds' genitives are the NP's, not the nominal component's",
+  "previous_quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+  "reason": "2026-09-17: the genitive hedge was replaced by the head/phrasal genitive argument (CGEL p. 479); see notes/2026-09-17-unification-hunt.md candidate 2"
+ }
 }

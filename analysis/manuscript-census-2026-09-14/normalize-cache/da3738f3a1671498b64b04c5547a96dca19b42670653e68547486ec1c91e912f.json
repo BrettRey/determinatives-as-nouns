@@ -1,0 +1,284 @@
+{
+ "parsed": {
+  "forms": [
+   {
+    "form": "Kim",
+    "lemma": "Kim",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "apples",
+    "lemma": "apple",
+    "subcategory": "common noun",
+    "grounding": "All keep \\mention{apples} as the ultimate lexical head"
+   },
+   {
+    "form": "each",
+    "lemma": "each",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "either",
+    "lemma": "either",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "neither",
+    "lemma": "neither",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "quite",
+    "lemma": "quite",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "rather",
+    "lemma": "rather",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "such",
+    "lemma": "such",
+    "subcategory": "adjective (control)",
+    "grounding": "\\mention{such}/exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "what",
+    "lemma": "what",
+    "subcategory": "adjective (control)",
+    "grounding": "exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "half",
+    "lemma": "half",
+    "subcategory": "common noun",
+    "grounding": "The \\mention{half} in \\mention{half a cake} is a common noun used as a predeterminer modifier"
+   },
+   {
+    "form": "people",
+    "lemma": "person",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "she",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "her",
+    "lemma": "her",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "someone",
+    "lemma": "someone",
+    "subcategory": "determinative",
+    "grounding": "The compound determinative \\mention{someone}, following the categorization of"
+   },
+   {
+    "form": "Sunday",
+    "lemma": "Sunday",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "dog",
+    "lemma": "dog",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "Canada",
+    "lemma": "Canada",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "herself",
+    "lemma": "herself",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "everything",
+    "lemma": "everything",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "two",
+    "lemma": "two",
+    "subcategory": "determinative",
+    "grounding": "the whole \\mention{two hundred} fills Det"
+   },
+   {
+    "form": "tall",
+    "lemma": "tall",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "you",
+    "lemma": "you",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "very",
+    "lemma": "very",
+    "subcategory": "adverb",
+    "grounding": "The proposed analysis gives adverbs such as \\mention{very}"
+   },
+   {
+    "form": "almost",
+    "lemma": "almost",
+    "subcategory": "adverb",
+    "grounding": null
+   },
+   {
+    "form": "soccer",
+    "lemma": "soccer",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "round",
+    "lemma": "round",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "president",
+    "lemma": "president",
+    "subcategory": "common noun",
+    "grounding": "A bare-role NP such as \\mention{president}"
+   },
+   {
+    "form": "ill",
+    "lemma": "ill",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "blue",
+    "lemma": "blue",
+    "subcategory": "other",
+    "grounding": null
+   },
+   {
+    "form": "Bluer",
+    "lemma": "blue",
+    "subcategory": "other",
+    "grounding": null
+   },
+   {
+    "form": "old",
+    "lemma": "old",
+    "subcategory": "other",
+    "grounding": null
+   },
+   {
+    "form": "small",
+    "lemma": "small",
+    "subcategory": "other",
+    "grounding": null
+   },
+   {
+    "form": "it",
+    "lemma": "it",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "somebody",
+    "lemma": "somebody",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "who",
+    "lemma": "who",
+    "subcategory": "pronoun",
+    "grounding": "An interrogative object may be headed by a pronoun (\\mention{who})"
+   },
+   {
+    "form": "which",
+    "lemma": "which",
+    "subcategory": "other",
+    "grounding": null
+   },
+   {
+    "form": "nothingness",
+    "lemma": "nothingness",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "oneness",
+    "lemma": "oneness",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "red",
+    "lemma": "red",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "preferences",
+    "lemma": "preference",
+    "subcategory": "common noun",
+    "grounding": "whose ultimate lexical head is \\mention{preferences}"
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 4861,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 30150,
+  "output_tokens_details": {
+   "thinking_tokens": 28621
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4861,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 10,
+    "output_tokens": 30150,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4861,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4861
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.16490000000000002,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 197538
+}
