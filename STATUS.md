@@ -5,7 +5,7 @@ title: Determinatives as nouns in English
 stage: drafting
 external: rejected
 blocked_on: []
-updated: 2026-09-13
+updated: 2026-09-16
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Terminology and category/level passes complete; 36-page working draft verified; final polish remains for later
+next_action: Read analysis/generated/census-worklist.md and decide which constructions get corpus attestations or judgment data; final polish remains deferred
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,10 +28,14 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Terminology and category/level passes complete; Head-chain comparison corrected; 36-page working draft verified · status: drafting · updated: 2026-09-13 -->
+<!-- SUMMARY: Census normalized into a queryable layer with cross-tab and corpus worklist; two citation repairs; working draft builds · status: drafting · updated: 2026-09-16 -->
 
-**Last updated:** 2026-09-13
+**Last updated:** 2026-09-16
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+## 2026-09-16 Census normalized; corpus worklist derived
+
+The 658-claim census (14 September) now has a queryable derived layer: controlled construction ids, lexeme links with subcategory, and the mechanical basis at each sentence, in `analysis/manuscript-census-2026-09-14/census-normalized.json` (`make census`). From it, `analysis/generated/census-crosstab.md` tabulates construction by subcategory and by stated basis, and `analysis/generated/census-worklist.md` lists the 340 loci whose basis is a constructed example or the author's own analysis, grouped by construction. The census reproduces the expanded run's keyed construction id for 51 of 55 pairable keyed claims. The quotation drift detector now covers the census, and an amendments file carries reworded sentences. Two citation repairs the census flagged are in the manuscript (Payne et al. 2010: 41–42 on the modification contrast; years on every row of the rival-accounts table); the build passes. No proportion from the tables is a finding about the paper. Details in the census README and `DECISIONS.md`.
 
 ## 2026-09-13 Terminology and category/level passes completed
 

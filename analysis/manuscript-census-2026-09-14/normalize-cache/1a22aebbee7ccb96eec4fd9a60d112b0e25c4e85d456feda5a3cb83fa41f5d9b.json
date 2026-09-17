@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "ap-035",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-036",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-037",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-038",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-039",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-040",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "ap-041",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "ap-042",
+    "construction_id": "predicative_complement",
+    "other_label": null
+   },
+   {
+    "id": "ap-043",
+    "construction_id": "predicative_complement",
+    "other_label": null
+   },
+   {
+    "id": "ap-044",
+    "construction_id": "predicative_complement",
+    "other_label": null
+   },
+   {
+    "id": "ap-045",
+    "construction_id": "predicative_complement",
+    "other_label": null
+   },
+   {
+    "id": "ap-046",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-047",
+    "construction_id": "predicative_complement",
+    "other_label": null
+   },
+   {
+    "id": "ap-048",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-049",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-050",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-051",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-052",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-053",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ap-054",
+    "construction_id": "independent_argument",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 3884,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10883,
+  "output_tokens_details": {
+   "thinking_tokens": 9866
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3884,
+    "output_tokens": 10883,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.060734,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 106124
+}

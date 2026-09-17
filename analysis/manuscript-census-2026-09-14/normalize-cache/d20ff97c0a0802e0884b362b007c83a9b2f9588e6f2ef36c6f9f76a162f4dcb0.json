@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "ap-015",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-016",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-017",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-018",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-019",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-020",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-021",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-022",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-023",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-024",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-025",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-026",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-027",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-028",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-029",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-030",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-031",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-032",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-033",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ap-034",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 4174,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 12007,
+  "output_tokens_details": {
+   "thinking_tokens": 10928
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4174,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 10,
+    "output_tokens": 12007,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4174,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4174
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.07108300000000001,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 111240
+}

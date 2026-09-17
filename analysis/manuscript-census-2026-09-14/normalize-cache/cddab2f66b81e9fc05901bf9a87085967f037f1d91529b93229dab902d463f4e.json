@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "enu-005",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "enu-006",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-007",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-008",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-009",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "enu-010",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "enu-011",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-012",
+    "construction_id": "degree_modifier_nonadj",
+    "other_label": null
+   },
+   {
+    "id": "enu-013",
+    "construction_id": "degree_modifier_nonadj",
+    "other_label": null
+   },
+   {
+    "id": "enu-014",
+    "construction_id": "degree_modifier_nonadj",
+    "other_label": null
+   },
+   {
+    "id": "enu-015",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "enu-016",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "enu-017",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "enu-018",
+    "construction_id": "coordination_marker",
+    "other_label": null
+   },
+   {
+    "id": "enu-019",
+    "construction_id": "coordination_marker",
+    "other_label": null
+   },
+   {
+    "id": "enu-020",
+    "construction_id": "coordination_marker",
+    "other_label": null
+   },
+   {
+    "id": "enu-021",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-022",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-023",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   },
+   {
+    "id": "enu-024",
+    "construction_id": "degree_modifier_adj",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 4123,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10404,
+  "output_tokens_details": {
+   "thinking_tokens": 9342
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4123,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 10,
+    "output_tokens": 10404,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4123,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4123
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.06296,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 104025
+}

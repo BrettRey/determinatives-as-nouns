@@ -1,0 +1,284 @@
+{
+ "parsed": {
+  "forms": [
+   {
+    "form": "Kim",
+    "lemma": "Kim",
+    "subcategory": "proper noun",
+    "grounding": "[Kim] left."
+   },
+   {
+    "form": "apples",
+    "lemma": "apple",
+    "subcategory": "common noun",
+    "grounding": "apples as the ultimate lexical head"
+   },
+   {
+    "form": "each",
+    "lemma": "each",
+    "subcategory": "determinative",
+    "grounding": "demonstratives and quantifiers including some, all, both, many, few, several, each"
+   },
+   {
+    "form": "either",
+    "lemma": "either",
+    "subcategory": "determinative",
+    "grounding": "quantifiers including some, all, both, many, few, several, each, either, neither, much"
+   },
+   {
+    "form": "neither",
+    "lemma": "neither",
+    "subcategory": "determinative",
+    "grounding": "quantifiers including some, all, both, many, few, several, each, either, neither, much"
+   },
+   {
+    "form": "quite",
+    "lemma": "quite",
+    "subcategory": "adverb",
+    "grounding": "quite/rather before a good idea as peripheral modifiers"
+   },
+   {
+    "form": "rather",
+    "lemma": "rather",
+    "subcategory": "adverb",
+    "grounding": "quite/rather before a good idea as peripheral modifiers"
+   },
+   {
+    "form": "such",
+    "lemma": "such",
+    "subcategory": "adjective (control)",
+    "grounding": "such/exclamative what before a disaster as adjectives"
+   },
+   {
+    "form": "what",
+    "lemma": "what",
+    "subcategory": "adjective (control)",
+    "grounding": "such/exclamative what before a disaster as adjectives"
+   },
+   {
+    "form": "half",
+    "lemma": "half",
+    "subcategory": "common noun",
+    "grounding": "is a common noun used as a predeterminer modifier"
+   },
+   {
+    "form": "people",
+    "lemma": "person",
+    "subcategory": "common noun",
+    "grounding": "[People] left."
+   },
+   {
+    "form": "she",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "Pronouns and determinatives express contrasts between personal she"
+   },
+   {
+    "form": "her",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "I see [her]."
+   },
+   {
+    "form": "someone",
+    "lemma": "someone",
+    "subcategory": "determinative",
+    "grounding": "The compound determinative someone"
+   },
+   {
+    "form": "Sunday",
+    "lemma": "Sunday",
+    "subcategory": "proper noun",
+    "grounding": "Temporal NPs such as that day and Sunday"
+   },
+   {
+    "form": "dog",
+    "lemma": "dog",
+    "subcategory": "common noun",
+    "grounding": "dog houses"
+   },
+   {
+    "form": "Canada",
+    "lemma": "Canada",
+    "subcategory": "proper noun",
+    "grounding": "Canada Day"
+   },
+   {
+    "form": "herself",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "the manager herself"
+   },
+   {
+    "form": "everything",
+    "lemma": "everything",
+    "subcategory": "determinative",
+    "grounding": "Compounds also permit anyone who asks and everything that matters"
+   },
+   {
+    "form": "two",
+    "lemma": "two",
+    "subcategory": "determinative",
+    "grounding": "determinatives used as internal modifiers to fuse with Head, as in the other two"
+   },
+   {
+    "form": "tall",
+    "lemma": "tall",
+    "subcategory": "adjective (control)",
+    "grounding": "Degree very, so, and too select gradable heads: very tall and very few"
+   },
+   {
+    "form": "you",
+    "lemma": "you",
+    "subcategory": "pronoun",
+    "grounding": "CGEL treats singular and plural you as distinct lexemes"
+   },
+   {
+    "form": "very",
+    "lemma": "very",
+    "subcategory": "adverb",
+    "grounding": "The proposed analysis gives adverbs such as very and too"
+   },
+   {
+    "form": "almost",
+    "lemma": "almost",
+    "subcategory": "adverb",
+    "grounding": "In almost every student, almost approximates the quantity"
+   },
+   {
+    "form": "soccer",
+    "lemma": "soccer",
+    "subcategory": "common noun",
+    "grounding": "In a soccer/round ball, a noun-headed expression and an AdjP"
+   },
+   {
+    "form": "round",
+    "lemma": "round",
+    "subcategory": "adjective (control)",
+    "grounding": "In a soccer/round ball, a noun-headed expression and an AdjP"
+   },
+   {
+    "form": "president",
+    "lemma": "president",
+    "subcategory": "common noun",
+    "grounding": "A bare-role NP such as president is licensed"
+   },
+   {
+    "form": "ill",
+    "lemma": "ill",
+    "subcategory": "adjective (control)",
+    "grounding": "in Jones became president/ill, NP and AdjP"
+   },
+   {
+    "form": "blue",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": "The blue, old, and small examples on CGEL p. 417 all occur"
+   },
+   {
+    "form": "Bluer",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": "the attested Bluer is better establishes a bare comparative subject"
+   },
+   {
+    "form": "old",
+    "lemma": "old",
+    "subcategory": "adjective (control)",
+    "grounding": "The blue, old, and small examples on CGEL p. 417 all occur"
+   },
+   {
+    "form": "small",
+    "lemma": "small",
+    "subcategory": "adjective (control)",
+    "grounding": "The blue, old, and small examples on CGEL p. 417 all occur"
+   },
+   {
+    "form": "it",
+    "lemma": "it",
+    "subcategory": "pronoun",
+    "grounding": "non-personal it/something"
+   },
+   {
+    "form": "somebody",
+    "lemma": "somebody",
+    "subcategory": "determinative",
+    "grounding": "personal she/somebody and non-personal it/something"
+   },
+   {
+    "form": "who",
+    "lemma": "who",
+    "subcategory": "pronoun",
+    "grounding": "An interrogative object may be headed by a pronoun (who)"
+   },
+   {
+    "form": "which",
+    "lemma": "which",
+    "subcategory": "pronoun",
+    "grounding": "Relative who/which supplies another contrast"
+   },
+   {
+    "form": "nothingness",
+    "lemma": "nothingness",
+    "subcategory": "common noun",
+    "grounding": "Derivations such as nothingness and oneness are weaker"
+   },
+   {
+    "form": "oneness",
+    "lemma": "oneness",
+    "subcategory": "common noun",
+    "grounding": "Derivations such as nothingness and oneness are weaker"
+   },
+   {
+    "form": "red",
+    "lemma": "red",
+    "subcategory": "adjective (control)",
+    "grounding": "The same arrangement permits an internal modifier, as in some red apples"
+   },
+   {
+    "form": "preferences",
+    "lemma": "preference",
+    "subcategory": "common noun",
+    "grounding": "whose ultimate lexical head is preferences"
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 18,
+  "cache_creation_input_tokens": 33125,
+  "cache_read_input_tokens": 4871,
+  "output_tokens": 32332,
+  "output_tokens_details": {
+   "thinking_tokens": 27133
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 33125,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 8,
+    "output_tokens": 4587,
+    "cache_read_input_tokens": 4871,
+    "cache_creation_input_tokens": 28254,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 28254
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.23283310000000002,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 302942
+}

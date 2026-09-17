@@ -1,0 +1,18 @@
+{
+ "_about": "Quote amendments applied on top of census-repartitioned.json by normalize.py and check_sources.py. The census files are never edited; when a manuscript sentence a claim quotes is changed, the new wording and the reason go here.",
+ "pay-019": {
+  "quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute} \\citep[41--42]{payne2010}.",
+  "previous_quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute}.",
+  "reason": "2026-09-16: page citation to Payne et al. (2010: 41-42) added to the sentence; the census had flagged the claim as sourceless at the locus."
+ },
+ "pay-020": {
+  "quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute} \\citep[41--42]{payne2010}.",
+  "previous_quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute}.",
+  "reason": "2026-09-16: same sentence as pay-019."
+ },
+ "his-011": {
+  "quote": "Spinillo (\\citeyear{spinillo2004reconceptualising}) & Determinatives redistributed; \\mention{the}, \\mention{a}, and \\mention{every} retained as articles.",
+  "previous_quote": "Spinillo & Determinatives redistributed; \\mention{the}, \\mention{a}, and \\mention{every} retained as articles.",
+  "reason": "2026-09-16: year citation added to the account column of tab:rivals; the census had flagged the Spinillo row as sourceless at the locus and the rows are now uniform."
+ }
+}

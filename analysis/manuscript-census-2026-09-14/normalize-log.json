@@ -1,0 +1,2967 @@
+{
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "batch": 20,
+ "calls": [
+  {
+   "stage": "subcategory",
+   "n": 40,
+   "cached": true,
+   "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 33125,
+    "cache_read_input_tokens": 4871,
+    "output_tokens": 32332,
+    "output_tokens_details": {
+     "thinking_tokens": 27133
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 33125,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 8,
+      "output_tokens": 4587,
+      "cache_read_input_tokens": 4871,
+      "cache_creation_input_tokens": 28254,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 28254
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.23283310000000002,
+   "attempts": 1
+  },
+  {
+   "stage": "subcategory",
+   "n": 18,
+   "cached": true,
+   "usage": {
+    "input_tokens": 2848,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 19222,
+    "output_tokens_details": {
+     "thinking_tokens": 18435
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2848,
+      "output_tokens": 19222,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.101338,
+   "attempts": 1
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "fm-001",
+    "fm-002",
+    "fm-003",
+    "fm-004",
+    "fm-005",
+    "int-001",
+    "int-002",
+    "int-003",
+    "int-004",
+    "int-005",
+    "int-006",
+    "int-007",
+    "int-008",
+    "int-009",
+    "int-010",
+    "int-011",
+    "int-012",
+    "int-013",
+    "int-014",
+    "int-015"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 10194,
+    "output_tokens_details": {
+     "thinking_tokens": 9160
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3933,
+      "output_tokens": 10194,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.057347,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "int-016",
+    "int-017",
+    "int-018",
+    "int-019",
+    "int-020",
+    "int-021",
+    "ind-001",
+    "ind-002",
+    "ind-003",
+    "ind-004",
+    "ind-005",
+    "ind-006",
+    "ind-007",
+    "ind-008",
+    "ind-009",
+    "ind-010",
+    "ind-011",
+    "ind-012",
+    "ind-013",
+    "ind-014"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4994,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4876,
+    "output_tokens_details": {
+     "thinking_tokens": 3988
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4994,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 4876,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4994,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4994
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.037873,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ind-015",
+    "ind-016",
+    "ind-017",
+    "ind-018",
+    "ind-019",
+    "ind-020",
+    "ind-021",
+    "ind-022",
+    "ind-023",
+    "ind-024",
+    "ind-025",
+    "ind-026",
+    "ind-027",
+    "ind-028",
+    "ind-029",
+    "ind-030",
+    "ind-031",
+    "ind-032",
+    "ind-033",
+    "ind-034"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3881,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1619,
+    "output_tokens_details": {
+     "thinking_tokens": 981
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3881,
+      "output_tokens": 1619,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.014353000000000001,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ind-035",
+    "ind-036",
+    "ind-037",
+    "ind-038",
+    "ind-039",
+    "ind-040",
+    "ind-041",
+    "ind-042",
+    "ind-043",
+    "ind-044",
+    "ind-045",
+    "ind-046",
+    "ind-047",
+    "ind-048",
+    "ind-049",
+    "ind-050",
+    "ind-051",
+    "ind-052",
+    "ind-053",
+    "ind-054"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3893,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12077,
+    "output_tokens_details": {
+     "thinking_tokens": 11102
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3893,
+      "output_tokens": 12077,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.06667199999999998,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ind-055",
+    "ind-056",
+    "ind-057",
+    "ind-058",
+    "ind-059",
+    "ind-060",
+    "ind-061",
+    "ind-062",
+    "ind-063",
+    "ind-064",
+    "ind-065",
+    "ind-066",
+    "ind-067",
+    "ind-068",
+    "ind-069",
+    "ind-070",
+    "ind-071",
+    "ind-072",
+    "ind-073",
+    "ind-074"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3929,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 13260,
+    "output_tokens_details": {
+     "thinking_tokens": 12197
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3929,
+      "output_tokens": 13260,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.072664,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ind-075",
+    "ind-076",
+    "ind-077",
+    "ind-078",
+    "qn-001",
+    "qn-002",
+    "qn-003",
+    "qn-004",
+    "qn-005",
+    "qn-006",
+    "qn-007",
+    "qn-008",
+    "qn-009",
+    "qn-010",
+    "qn-011",
+    "qn-012",
+    "qn-013",
+    "qn-014",
+    "qn-015",
+    "qn-016"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3878,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8318,
+    "output_tokens_details": {
+     "thinking_tokens": 7319
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3878,
+      "output_tokens": 8318,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.047867,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "qn-017",
+    "qn-018",
+    "qn-019",
+    "qn-020",
+    "qn-021",
+    "qn-022",
+    "qn-023",
+    "qc-001",
+    "qc-002",
+    "qc-003",
+    "qc-004",
+    "qc-005",
+    "qc-006",
+    "qc-007",
+    "qc-008",
+    "qc-009",
+    "qc-010",
+    "qc-011",
+    "qc-012",
+    "qc-013"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3949,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 15147,
+    "output_tokens_details": {
+     "thinking_tokens": 14003
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3949,
+      "output_tokens": 15147,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.08214899999999999,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "qc-014",
+    "qc-015",
+    "qc-016",
+    "qc-017",
+    "qc-018",
+    "qc-019",
+    "ap-001",
+    "ap-002",
+    "ap-003",
+    "ap-004",
+    "ap-005",
+    "ap-006",
+    "ap-007",
+    "ap-008",
+    "ap-009",
+    "ap-010",
+    "ap-011",
+    "ap-012",
+    "ap-013",
+    "ap-014"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4102,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 13616,
+    "output_tokens_details": {
+     "thinking_tokens": 12606
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4102,
+      "output_tokens": 13616,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.07478499999999999,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ap-015",
+    "ap-016",
+    "ap-017",
+    "ap-018",
+    "ap-019",
+    "ap-020",
+    "ap-021",
+    "ap-022",
+    "ap-023",
+    "ap-024",
+    "ap-025",
+    "ap-026",
+    "ap-027",
+    "ap-028",
+    "ap-029",
+    "ap-030",
+    "ap-031",
+    "ap-032",
+    "ap-033",
+    "ap-034"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4174,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12007,
+    "output_tokens_details": {
+     "thinking_tokens": 10928
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4174,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 12007,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4174,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4174
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.07108300000000001,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ap-035",
+    "ap-036",
+    "ap-037",
+    "ap-038",
+    "ap-039",
+    "ap-040",
+    "ap-041",
+    "ap-042",
+    "ap-043",
+    "ap-044",
+    "ap-045",
+    "ap-046",
+    "ap-047",
+    "ap-048",
+    "ap-049",
+    "ap-050",
+    "ap-051",
+    "ap-052",
+    "ap-053",
+    "ap-054"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3924,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8360,
+    "output_tokens_details": {
+     "thinking_tokens": 7401
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3924,
+      "output_tokens": 8360,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.048174,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "ap-055",
+    "inf-001",
+    "inf-002",
+    "inf-003",
+    "inf-004",
+    "inf-005",
+    "inf-006",
+    "inf-007",
+    "inf-008",
+    "inf-009",
+    "inf-010",
+    "inf-011",
+    "inf-012",
+    "inf-013",
+    "inf-014",
+    "inf-015",
+    "inf-016",
+    "inf-017",
+    "inf-018",
+    "inf-019"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8481,
+    "output_tokens_details": {
+     "thinking_tokens": 7521
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3834,
+      "output_tokens": 8481,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.048589,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "inf-020",
+    "inf-021",
+    "inf-022",
+    "inf-023",
+    "inf-024",
+    "inf-025",
+    "inf-026",
+    "inf-027",
+    "inf-028",
+    "inf-029",
+    "inf-030",
+    "mem-001",
+    "mem-002",
+    "mem-003",
+    "mem-004",
+    "mem-005",
+    "mem-006",
+    "mem-007",
+    "mem-008",
+    "mem-009"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4079,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12323,
+    "output_tokens_details": {
+     "thinking_tokens": 11270
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4079,
+      "output_tokens": 12323,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.068279,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "mem-010",
+    "mem-011",
+    "mem-012",
+    "mem-013",
+    "mem-014",
+    "mem-015",
+    "mem-016",
+    "mem-017",
+    "mem-018",
+    "mem-019",
+    "mem-020",
+    "mem-021",
+    "mem-022",
+    "mem-023",
+    "mem-024",
+    "mem-025",
+    "mem-026",
+    "mem-027",
+    "mem-028",
+    "mem-029"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4675,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 18987,
+    "output_tokens_details": {
+     "thinking_tokens": 17930
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4675,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 18987,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4675,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4675
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.107481,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "mem-030",
+    "mem-031",
+    "mem-032",
+    "mem-033",
+    "mem-034",
+    "mem-035",
+    "mem-036",
+    "art-001",
+    "art-002",
+    "am-001",
+    "am-002",
+    "am-003",
+    "am-004",
+    "am-005",
+    "am-006",
+    "am-007",
+    "am-008",
+    "am-009",
+    "am-010",
+    "am-011"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3998,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7151,
+    "output_tokens_details": {
+     "thinking_tokens": 6249
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3998,
+      "output_tokens": 7151,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.042252000000000005,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "am-012",
+    "am-013",
+    "am-014",
+    "am-015",
+    "am-016",
+    "am-017",
+    "am-018",
+    "am-019",
+    "am-020",
+    "am-021",
+    "am-022",
+    "am-023",
+    "am-024",
+    "am-025",
+    "am-026",
+    "am-027",
+    "am-028",
+    "am-029",
+    "am-030",
+    "am-031"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3916,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 11116,
+    "output_tokens_details": {
+     "thinking_tokens": 10170
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3916,
+      "output_tokens": 11116,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.061913,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "am-032",
+    "am-033",
+    "fs-001",
+    "fs-002",
+    "fs-003",
+    "fs-004",
+    "fs-005",
+    "fs-006",
+    "ev-001",
+    "ev-002",
+    "ev-003",
+    "hr-001",
+    "hr-002",
+    "hr-003",
+    "hr-004",
+    "hr-005",
+    "hr-006",
+    "hr-007",
+    "hr-008",
+    "hr-009"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 22084,
+    "output_tokens_details": {
+     "thinking_tokens": 20975
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3850,
+      "output_tokens": 22084,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.116631,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "hr-010",
+    "hr-011",
+    "hr-012",
+    "hr-013",
+    "hr-014",
+    "hr-015",
+    "hr-016",
+    "hr-017",
+    "sat-001",
+    "sat-002",
+    "sat-003",
+    "sat-004",
+    "sat-005",
+    "sat-006",
+    "sat-007",
+    "sat-008",
+    "sat-009",
+    "sat-010",
+    "sat-011",
+    "sat-012"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4053,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 9725,
+    "output_tokens_details": {
+     "thinking_tokens": 8814
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4053,
+      "output_tokens": 9725,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.055236999999999994,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "sat-013",
+    "sat-014",
+    "mod-001",
+    "mod-002",
+    "mod-003",
+    "mod-004",
+    "mod-005",
+    "mod-006",
+    "mod-007",
+    "mod-008",
+    "mod-009",
+    "mod-010",
+    "mod-011",
+    "mod-012",
+    "mod-013",
+    "mod-014",
+    "mod-015",
+    "mod-016",
+    "mod-017",
+    "mod-018"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4033,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 14062,
+    "output_tokens_details": {
+     "thinking_tokens": 13411
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4033,
+      "output_tokens": 14062,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.076902,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "mod-019",
+    "mod-020",
+    "mod-021",
+    "mod-022",
+    "mod-023",
+    "mod-024",
+    "mod-025",
+    "mod-026",
+    "mod-027",
+    "mod-028",
+    "mod-029",
+    "mod-030",
+    "mod-031",
+    "mod-032",
+    "mod-033",
+    "pay-001",
+    "pay-002",
+    "pay-003",
+    "pay-004",
+    "pay-005"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4022,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 18697,
+    "output_tokens_details": {
+     "thinking_tokens": 17601
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4022,
+      "output_tokens": 18697,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.10003499999999999,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "pay-006",
+    "pay-007",
+    "pay-008",
+    "pay-009",
+    "pay-010",
+    "pay-011",
+    "pay-012",
+    "pay-013",
+    "pay-014",
+    "pay-015",
+    "pay-016",
+    "pay-017",
+    "pay-018",
+    "pay-019",
+    "pay-020",
+    "pay-021",
+    "pay-022",
+    "pay-023",
+    "pay-024",
+    "pay-025"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4235,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 20074,
+    "output_tokens_details": {
+     "thinking_tokens": 18942
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4235,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 20074,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4235,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4235
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.11160600000000001,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "pay-026",
+    "pay-027",
+    "pay-028",
+    "pay-029",
+    "pay-030",
+    "pay-031",
+    "pay-032",
+    "pay-033",
+    "pay-034",
+    "pay-035",
+    "cmp-001",
+    "cmp-002",
+    "cmp-003",
+    "cmp-004",
+    "cmp-005",
+    "cmp-006",
+    "cmp-007",
+    "cmp-008",
+    "cmp-009",
+    "cmp-010"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4104,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 10170,
+    "output_tokens_details": {
+     "thinking_tokens": 9120
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4104,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 10170,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4104,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4104
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.061698,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "cmp-011",
+    "cmp-012",
+    "cmp-013",
+    "cmp-014",
+    "cmp-015",
+    "cmp-016",
+    "cmp-017",
+    "cmp-018",
+    "cmp-019",
+    "cmp-020",
+    "gh-001",
+    "gh-002",
+    "gh-003",
+    "gh-004",
+    "gh-005",
+    "gh-006",
+    "gh-007",
+    "frg-t001",
+    "frg-t002",
+    "frg-t003"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3893,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 13445,
+    "output_tokens_details": {
+     "thinking_tokens": 12308
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3893,
+      "output_tokens": 13445,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.073517,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "frg-t004",
+    "frg-t005",
+    "frg-t006",
+    "frg-t007",
+    "frg-t008",
+    "frg-t009",
+    "frg-t010",
+    "frg-t011",
+    "frg-t012",
+    "frg-t013",
+    "frg-t014",
+    "frg-t015",
+    "frg-t016",
+    "frg-t017",
+    "frg-t018",
+    "frg-t019",
+    "frg-t020",
+    "frg-t021",
+    "frg-t022",
+    "frg-t023"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3940,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1803,
+    "output_tokens_details": {
+     "thinking_tokens": 1047
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3940,
+      "output_tokens": 1803,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.015400999999999998,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "frg-t024",
+    "frg-t025",
+    "frg-t026",
+    "frg-t027",
+    "frg-t028",
+    "frg-t029",
+    "frg-t030",
+    "frg-t031",
+    "frg-t032",
+    "frg-t033",
+    "frg-t034",
+    "frg-t035",
+    "frg-t036",
+    "frg-t037",
+    "frg-t038",
+    "frg-t039",
+    "frg-t040",
+    "frg-t041",
+    "frg-t042",
+    "frg-t043"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3901,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7769,
+    "output_tokens_details": {
+     "thinking_tokens": 6951
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3901,
+      "output_tokens": 7769,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.045133,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "frg-t044",
+    "frg-001",
+    "frg-002",
+    "frg-003",
+    "frg-004",
+    "frg-005",
+    "frg-006",
+    "frg-007",
+    "frg-008",
+    "frg-009",
+    "frg-010",
+    "frg-011",
+    "frg-012",
+    "frg-013",
+    "frg-014",
+    "frg-015",
+    "frg-016",
+    "frg-017",
+    "frg-018",
+    "frg-019"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 10163,
+    "output_tokens_details": {
+     "thinking_tokens": 8871
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3864,
+      "output_tokens": 10163,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.057044,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "frg-020",
+    "du-001",
+    "du-002",
+    "du-003",
+    "du-004",
+    "du-005",
+    "du-006",
+    "du-007",
+    "du-008",
+    "du-009",
+    "du-010",
+    "du-011",
+    "du-012",
+    "du-013",
+    "du-014",
+    "du-015",
+    "du-016",
+    "du-017",
+    "du-018",
+    "du-019"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4046,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 11912,
+    "output_tokens_details": {
+     "thinking_tokens": 11022
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4046,
+      "output_tokens": 11912,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.066163,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "du-020",
+    "du-021",
+    "du-022",
+    "du-023",
+    "du-024",
+    "du-025",
+    "du-026",
+    "du-027",
+    "du-028",
+    "du-029",
+    "du-030",
+    "du-031",
+    "du-032",
+    "du-033",
+    "du-034",
+    "du-035",
+    "du-036",
+    "du-037",
+    "du-038",
+    "du-039"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 9624,
+    "output_tokens_details": {
+     "thinking_tokens": 8489
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4089,
+      "output_tokens": 9624,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.054809000000000004,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "du-040",
+    "du-041",
+    "du-042",
+    "du-043",
+    "du-044",
+    "du-045",
+    "du-046",
+    "du-047",
+    "du-048",
+    "du-049",
+    "du-050",
+    "du-051",
+    "du-052",
+    "du-053",
+    "du-054",
+    "du-055",
+    "enu-001",
+    "enu-002",
+    "enu-003",
+    "enu-004"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3924,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 15479,
+    "output_tokens_details": {
+     "thinking_tokens": 14395
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3924,
+      "output_tokens": 15479,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.08374399999999999,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "enu-005",
+    "enu-006",
+    "enu-007",
+    "enu-008",
+    "enu-009",
+    "enu-010",
+    "enu-011",
+    "enu-012",
+    "enu-013",
+    "enu-014",
+    "enu-015",
+    "enu-016",
+    "enu-017",
+    "enu-018",
+    "enu-019",
+    "enu-020",
+    "enu-021",
+    "enu-022",
+    "enu-023",
+    "enu-024"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4163,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 13280,
+    "output_tokens_details": {
+     "thinking_tokens": 12031
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4163,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 13280,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4163,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4163
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.077415,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "enu-025",
+    "enu-026",
+    "enu-027",
+    "enu-028",
+    "enu-029",
+    "enu-030",
+    "enu-031",
+    "enu-032",
+    "enu-033",
+    "cost-001",
+    "cost-002",
+    "cost-003",
+    "cost-004",
+    "cost-005",
+    "cost-006",
+    "cost-007",
+    "cost-008",
+    "cost-009",
+    "cost-010",
+    "cost-011"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4268,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 16545,
+    "output_tokens_details": {
+     "thinking_tokens": 15513
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4268,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 16545,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4268,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4268
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.09406,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "cost-012",
+    "cost-013",
+    "cost-014",
+    "cost-015",
+    "cost-016",
+    "cost-017",
+    "cost-018",
+    "cost-019",
+    "cost-020",
+    "cost-021",
+    "cost-022",
+    "cost-023",
+    "cost-024",
+    "oa-001",
+    "oa-002",
+    "oa-003",
+    "inh-001",
+    "inh-002",
+    "inh-003",
+    "inh-004"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4128,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7352,
+    "output_tokens_details": {
+     "thinking_tokens": 6187
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4128,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 7352,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4128,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4128
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.047670000000000004,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "inh-005",
+    "inh-006",
+    "inh-007",
+    "inh-008",
+    "inh-009",
+    "inh-010",
+    "inh-011",
+    "inh-012",
+    "inh-013",
+    "inh-014",
+    "inh-015",
+    "inh-016",
+    "inh-017",
+    "inh-018",
+    "inh-019",
+    "inh-020",
+    "inh-021",
+    "inh-022",
+    "inh-023",
+    "inh-024"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3878,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8200,
+    "output_tokens_details": {
+     "thinking_tokens": 7207
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3878,
+      "output_tokens": 8200,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.047262,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "construction",
+   "ids": [
+    "con-001",
+    "con-002",
+    "con-003",
+    "con-004",
+    "con-005",
+    "con-006",
+    "his-001",
+    "his-002",
+    "his-003",
+    "his-004",
+    "his-005",
+    "his-006",
+    "his-007",
+    "his-008",
+    "his-009",
+    "his-010",
+    "his-011",
+    "his-012"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3855,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8092,
+    "output_tokens_details": {
+     "thinking_tokens": 7160
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3855,
+      "output_tokens": 8092,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.046690999999999996,
+   "attempts": 1,
+   "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+   "provider": "Anthropic via Claude CLI"
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "fm-001",
+    "fm-002",
+    "fm-003",
+    "fm-004",
+    "int-005",
+    "int-009",
+    "int-012",
+    "int-013",
+    "int-014",
+    "int-015",
+    "int-020",
+    "int-021",
+    "ind-003",
+    "ind-016",
+    "ind-025",
+    "ind-040",
+    "ind-042",
+    "ind-044",
+    "ind-055",
+    "ind-058"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3957,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7339,
+    "output_tokens_details": {
+     "thinking_tokens": 6207
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3957,
+      "output_tokens": 7339,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.042961,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "ind-067",
+    "ind-068",
+    "ind-077",
+    "qn-004",
+    "qn-009",
+    "qn-010",
+    "qn-011",
+    "qn-012",
+    "qn-013",
+    "qn-014",
+    "qn-015",
+    "qn-016",
+    "qn-020",
+    "qn-021",
+    "qn-022",
+    "qc-005",
+    "qc-013",
+    "qc-014",
+    "qc-018",
+    "qc-019"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3966,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12843,
+    "output_tokens_details": {
+     "thinking_tokens": 11683
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3966,
+      "output_tokens": 12843,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.070514,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "ap-023",
+    "ap-046",
+    "inf-017",
+    "inf-023",
+    "inf-024",
+    "inf-025",
+    "inf-026",
+    "inf-029",
+    "inf-030",
+    "mem-003",
+    "mem-004",
+    "mem-005",
+    "mem-006",
+    "mem-007",
+    "mem-008",
+    "mem-009",
+    "mem-015",
+    "mem-016",
+    "mem-017",
+    "mem-018"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4318,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8055,
+    "output_tokens_details": {
+     "thinking_tokens": 7008
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4318,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 8055,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4318,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4318
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.051595999999999996,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "mem-023",
+    "mem-024",
+    "mem-025",
+    "mem-026",
+    "mem-030",
+    "mem-031",
+    "mem-032",
+    "mem-033",
+    "mem-034",
+    "mem-035",
+    "mem-036",
+    "art-001",
+    "art-002",
+    "am-001",
+    "am-002",
+    "am-003",
+    "am-004",
+    "am-021",
+    "am-022",
+    "am-023"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4339,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12049,
+    "output_tokens_details": {
+     "thinking_tokens": 10928
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4339,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 12049,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4339,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4339
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.071634,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "am-024",
+    "am-025",
+    "am-032",
+    "am-033",
+    "hr-004",
+    "hr-009",
+    "hr-013",
+    "hr-014",
+    "sat-013",
+    "mod-004",
+    "mod-005",
+    "mod-013",
+    "mod-031",
+    "mod-033",
+    "pay-001",
+    "pay-005",
+    "pay-015",
+    "pay-016",
+    "pay-021",
+    "pay-022"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4070,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 17574,
+    "output_tokens_details": {
+     "thinking_tokens": 16360
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4070,
+      "output_tokens": 17574,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.094362,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "pay-032",
+    "gh-003",
+    "gh-006",
+    "frg-001",
+    "frg-002",
+    "frg-003",
+    "frg-004",
+    "frg-005",
+    "frg-014",
+    "frg-015",
+    "frg-016",
+    "frg-017",
+    "frg-019",
+    "frg-020",
+    "du-001",
+    "du-002",
+    "du-003",
+    "du-006",
+    "du-007",
+    "du-008"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4010,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 14934,
+    "output_tokens_details": {
+     "thinking_tokens": 13803
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4010,
+      "output_tokens": 14934,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.081047,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "du-009",
+    "du-010",
+    "du-011",
+    "du-012",
+    "du-013",
+    "du-014",
+    "du-015",
+    "du-016",
+    "du-017",
+    "du-018",
+    "du-019",
+    "du-021",
+    "du-022",
+    "du-023",
+    "du-024",
+    "du-025",
+    "du-027",
+    "du-033",
+    "du-034",
+    "du-036"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4223,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 15996,
+    "output_tokens_details": {
+     "thinking_tokens": 14881
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4223,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 15996,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4223,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4223
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.09102599999999998,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "du-051",
+    "du-052",
+    "du-055",
+    "enu-002",
+    "enu-015",
+    "enu-016",
+    "enu-017",
+    "enu-032",
+    "enu-033",
+    "cost-001",
+    "cost-002",
+    "cost-003",
+    "cost-004",
+    "cost-009",
+    "cost-010",
+    "cost-011",
+    "cost-014",
+    "cost-018",
+    "cost-019",
+    "cost-024"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4137,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12287,
+    "output_tokens_details": {
+     "thinking_tokens": 11332
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4137,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 10,
+      "output_tokens": 12287,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 4137,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4137
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.07222300000000001,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "oa-001",
+    "oa-002",
+    "oa-003",
+    "inh-001",
+    "inh-002",
+    "inh-003",
+    "inh-004",
+    "inh-005",
+    "inh-006",
+    "inh-007",
+    "inh-008",
+    "inh-009",
+    "inh-010",
+    "inh-011",
+    "inh-016",
+    "inh-017",
+    "inh-023",
+    "inh-024",
+    "con-001",
+    "con-002"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 4066,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 17269,
+    "output_tokens_details": {
+     "thinking_tokens": 16289
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 4066,
+      "output_tokens": 17269,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.09282900000000001,
+   "attempts": 1
+  },
+  {
+   "stage": "refine_taxonomic",
+   "ids": [
+    "con-003",
+    "con-004",
+    "con-005",
+    "con-006",
+    "his-001",
+    "his-002",
+    "his-003",
+    "his-004",
+    "his-005",
+    "his-006",
+    "his-007",
+    "his-008",
+    "his-009",
+    "his-010",
+    "his-011",
+    "his-012"
+   ],
+   "cached": true,
+   "usage": {
+    "input_tokens": 3864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 13507,
+    "output_tokens_details": {
+     "thinking_tokens": 12544
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 3864,
+      "output_tokens": 13507,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.073645,
+   "attempts": 1
+  }
+ ],
+ "residue_rule_assignments": 23,
+ "summary": {
+  "claims": 658,
+  "new_lexemes": 58,
+  "cost_usd_uncached": 0,
+  "construction_ids": [
+   [
+    "independent_argument",
+    139
+   ],
+   [
+    "taxonomic_or_meta",
+    116
+   ],
+   [
+    "dependent_det",
+    72
+   ],
+   [
+    "internal_mod_admission",
+    63
+   ],
+   [
+    "fused_head",
+    53
+   ],
+   [
+    "dependent_internal_mod",
+    33
+   ],
+   [
+    "peripheral_mod_admission",
+    33
+   ],
+   [
+    "degree_modifier_adj",
+    22
+   ],
+   [
+    "independent_partitive",
+    20
+   ],
+   [
+    "number_agreement",
+    16
+   ],
+   [
+    "compound_base",
+    13
+   ],
+   [
+    "external_determination",
+    13
+   ],
+   [
+    "genitive_marking",
+    12
+   ],
+   [
+    "predicative_complement",
+    12
+   ],
+   [
+    "number_inflection",
+    11
+   ],
+   [
+    "degree_modifier_nonadj",
+    10
+   ],
+   [
+    "comparative_complement",
+    6
+   ],
+   [
+    "grade_inflection",
+    4
+   ],
+   [
+    "predeterminer_mod",
+    3
+   ],
+   [
+    "coordination_marker",
+    3
+   ],
+   [
+    "existential_displaced_subject",
+    2
+   ],
+   [
+    "other",
+    2
+   ]
+  ],
+  "other_labels": [
+   [
+    "coordination structure analysis",
+    1
+   ],
+   [
+    "numeral in proper noun designation",
+    1
+   ]
+  ],
+  "subcategory": [
+   [
+    "determinative",
+    347
+   ],
+   [
+    "None",
+    78
+   ],
+   [
+    "pronoun",
+    73
+   ],
+   [
+    "common noun",
+    72
+   ],
+   [
+    "adjective (control)",
+    40
+   ],
+   [
+    "proper noun",
+    24
+   ],
+   [
+    "adverb",
+    22
+   ],
+   [
+    "preposition",
+    2
+   ]
+  ],
+  "evidence_type_reconciled": [
+   [
+    "authors_analysis",
+    325
+   ],
+   [
+    "cgel_described",
+    168
+   ],
+   [
+    "constructed_illustration",
+    70
+   ],
+   [
+    "other_source_described",
+    51
+   ],
+   [
+    "constructed_ungrammatical",
+    20
+   ],
+   [
+    "cgel_restricted",
+    15
+   ],
+   [
+    "retained_attestation",
+    8
+   ],
+   [
+    "searched_not_found",
+    1
+   ]
+  ],
+  "label_uncited_at_locus": 13,
+  "key_check": {
+   "construction": {
+    "agree": 86,
+    "disagree": 70
+   },
+   "evidence_type": {
+    "agree": 86,
+    "disagree": 70
+   },
+   "reconciled": {
+    "agree": 86,
+    "disagree": 70
+   },
+   "per_keyed_claim_any_match": {
+    "construction": "51/55",
+    "evidence_type": "46/55",
+    "reconciled": "45/55"
+   },
+   "keyed_claims_with_no_pairing": 1
+  },
+  "residue_rule_assignments": 23,
+  "refined_from_taxonomic": 195,
+  "taxonomic_remaining": 116
+ }
+}

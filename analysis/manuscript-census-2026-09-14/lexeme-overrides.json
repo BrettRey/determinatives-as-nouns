@@ -1,0 +1,13 @@
+{
+ "_about": "Manual subcategory overrides for lexemes the model labelled from census sentences; applied by normalize.py, grounding must be an exact manuscript substring.",
+ "blue": {
+  "subcategory": "adjective (control)",
+  "grounding": "Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary.",
+  "reason": "the model returned 'other'; the manuscript discusses bare colour adjectives as adjectival uses, a control class here"
+ },
+ "bluer": {
+  "subcategory": "adjective (control)",
+  "grounding": "Bare colour expressions and evaluative comparative subjects complicate a simple distributional boundary.",
+  "reason": "comparative form of blue; same passage"
+ }
+}

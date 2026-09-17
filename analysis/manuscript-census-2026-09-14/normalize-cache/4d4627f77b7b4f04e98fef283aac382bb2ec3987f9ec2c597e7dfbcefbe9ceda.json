@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "mem-030",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-031",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-032",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-033",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-034",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-035",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-036",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "art-001",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "art-002",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-001",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-002",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-003",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-004",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-005",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-006",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "am-007",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-008",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-009",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-010",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-011",
+    "construction_id": "dependent_det",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 3998,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7151,
+  "output_tokens_details": {
+   "thinking_tokens": 6249
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3998,
+    "output_tokens": 7151,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.042252000000000005,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 53771
+}

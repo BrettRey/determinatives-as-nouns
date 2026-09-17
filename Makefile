@@ -9,7 +9,7 @@ SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls
 OUTDIR = .
 
 # Targets
-.PHONY: all supplements clean distclean view help test check-quant-table claims check-claims
+.PHONY: all supplements clean distclean view help test check-quant-table claims check-claims census
 
 # Default target: build the PDF
 all: $(MAIN).pdf
@@ -52,6 +52,13 @@ claims: analysis/claims/claims-enriched.json
 # claim set has gone stale against the manuscript.
 check-claims:
 	python3 analysis/claims/check_sources.py
+
+# Normalized census layer (lexeme, subcategory, construction, basis at the locus) and
+# the tables derived from it. normalize.py caches its model calls, so a rerun is free
+# unless the census, the enriched claim set or the manuscript changed.
+census:
+	python3 analysis/manuscript-census-2026-09-14/normalize.py
+	python3 analysis/tools/census_tables.py
 
 # Full build sequence with bibliography
 $(MAIN).pdf: $(MAIN).tex references.bib
@@ -112,4 +119,5 @@ help:
 	@echo "  make check-quant-table - Verify Table 1 against the claim set"
 	@echo "  make claims   - Rebuild the enriched claim set"
 	@echo "  make check-claims - Verify claim quotations still match the sources"
+	@echo "  make census   - Rebuild the normalized census and its cross-tab and worklist"
 	@echo "  make help     - Show this help message"

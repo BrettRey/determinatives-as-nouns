@@ -18,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 RUN = ROOT / "analysis" / "expanded-json-2026-09-14"
+CENSUS = ROOT / "analysis" / "manuscript-census-2026-09-14"
 
 SOURCE_PARTS = {
     "M": ["determinatives-as-nouns.tex"],
@@ -43,7 +44,18 @@ def main():
     records = json.loads((RUN / "records.json").read_text())
     exceptions = json.loads((RUN / "exceptions.json").read_text())
 
+    census = json.loads((CENSUS / "census-repartitioned.json").read_text())
+    amend_path = CENSUS / "amendments.json"
+    amend = json.loads(amend_path.read_text()) if amend_path.exists() else {}
+    for c in census["claims"]:
+        if c["id"] in amend:
+            c["quote"] = amend[c["id"]]["quote"]
+    norm_path = CENSUS / "census-normalized.json"
+    norm = json.loads(norm_path.read_text()) if norm_path.exists() else {"lexemes": []}
     groups = [
+        ("census_claims", [(c["id"], {"source_id": "M", "quote": c["quote"]}) for c in census["claims"]]),
+        ("census_lexeme_groundings", [(l["id"], {"source_id": "M", "quote": l["subcategory_grounding"]}) for l in norm["lexemes"]
+                                      if l.get("subcategory_grounding")]),
         ("participation_claims", [(c["id"], e) for c in records["participation_claims"]
                                   for e in c["evidence"]]),
         ("scope_checks", [(s["id"], e) for s in records["scope_checks"]

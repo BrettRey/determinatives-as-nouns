@@ -27,3 +27,27 @@ Aristotle completed in 24m 28s. The terminal status `COMPLETE_WITH_ERRORS` refle
 The label distribution is reported in [validation.json](validation.json) and should not be read as a verdict on the manuscript. In particular `authors_analysis` is the largest category, which is what a paper proposing a new categorization is expected to look like: stating its own analysis is the work, not a deficiency. Distinguishing an analytical proposal from a descriptive assertion that wants a source is a judgement the census makes possible and does not itself make.
 
 The census records what the manuscript asserts and the basis it gives. It does not assess whether any claim is correct, and it adds no evidence to the paper.
+
+## Normalized layer — 16 September 2026
+
+**The census is now queryable.** [`normalize.py`](normalize.py) (`make census`) writes [census-normalized.json](census-normalized.json), a derived layer over the untouched census, giving every claim a controlled `construction_id`, `lexeme_ids` with a `subcategory`, the mechanical `basis_signals` at its sentence, and an `evidence_type_reconciled`. [`analysis/tools/census_tables.py`](../tools/census_tables.py) derives [the cross-tab](../generated/census-crosstab.md) (construction by subcategory, construction by basis) and [the corpus worklist](../generated/census-worklist.md) from it.
+
+Before this, `construction` and `expression` were free text: 507 distinct construction strings and 378 distinct expressions over 658 claims, so nothing could be cross-tabulated. The catalogue is the expanded run's 11 construction ids plus eleven added here (genitive, agreement, number and grade inflection, predeterminer, coordination marker, compound base, fused head, external determination, taxonomic/meta, other); the lexeme table is the enriched run's 34 entries plus 62 new ones. Genitive forms map to their base lexeme, compounds in *some/any/every/no* + *one/body/thing/where* are determinatives by parity with `lex_anyone`, a multiword mention resolves to its last known noun-subcategory lexeme (*the lucky few* to *few*), and two colour adjectives are set by [lexeme-overrides.json](lexeme-overrides.json) with a manuscript grounding.
+
+| Check | Result |
+|---|---:|
+| Claims with a construction id from the catalogue | 658/658 (116 remain `taxonomic_or_meta`, 2 `other`) |
+| Claims with a subcategory | 580/658 (78 are phrases or classes with no resolvable lexeme) |
+| Keyed manuscript claims (expanded run) whose construction id the census reproduces on at least one paired claim | 51/55 |
+| Same, for `evidence_type` | 46/55 |
+| Census quotations and lexeme groundings resolving against the live manuscript (`make check-claims`) | all |
+
+The construction labels come from Haiku 4.5 through the Claude CLI with structured output, tools and MCP disabled, in batches of 20, then a second pass over the 238 claims the first pass parked as `taxonomic_or_meta` (76 reassigned), then a stated rule over the census's own free-text label for the residue (23 more). Every model response is kept in `normalize-cache/` by prompt hash; the log records cost, model and provider per call. The GLM route was tried first and abandoned: at low effort it spent its whole output budget reasoning and returned no content, three times.
+
+The key comparison is an agreement measure, not a strict key. A keyed claim in the expanded run aggregates several sentences, while a census claim is one sentence, so paired claims often concern different constructions of the same lexeme and both can be right; pairwise agreement is 86/156 for `evidence_type` and 86/156 for construction, and the per-claim any-match figures above are the informative ones. The 20-claim hand audit of 14 September stands as the only direct check of the census's own labels.
+
+`evidence_type_reconciled` applies one rule: an attestation footnote at the sentence gives `retained_attestation`; `\ungram` in the quote gives `constructed_ungrammatical`; `searched_not_found` is kept; *CGEL* cited in the sentence gives `cgel_described` (`cgel_restricted` kept); another work cited in the sentence gives `other_source_described`; otherwise the census label stands. It changes 24 labels and flags 13 claims whose census label claims a source no citation in the sentence or paragraph supports. It does not touch the `constructed_illustration` versus `authors_analysis` boundary, which no mechanical signal can see.
+
+[amendments.json](amendments.json) carries the current wording of a quoted sentence when the manuscript changes it, with the reason; `normalize.py` and `check_sources.py` both apply it. The first three entries record the two citation repairs of 16 September: the Payne contrast sentence (`pay-019`, `pay-020`) now cites Payne et al. (2010: 41–42), verified against the PDF, and every account row of `tab:rivals` carries its year (`his-011`).
+
+The tables describe what the census records. They are not a verdict on the manuscript, and the worklist's 340 loci are places where an attestation or a judgment datum would change the recorded basis, not places where the claim is unsupported.

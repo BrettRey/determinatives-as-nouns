@@ -1,0 +1,2679 @@
+{
+ "keyed_manuscript_claims": 56,
+ "pairings": 156,
+ "summary": {
+  "construction": {
+   "agree": 86,
+   "disagree": 70
+  },
+  "evidence_type": {
+   "agree": 86,
+   "disagree": 70
+  },
+  "reconciled": {
+   "agree": 86,
+   "disagree": 70
+  },
+  "per_keyed_claim_any_match": {
+   "construction": "51/55",
+   "evidence_type": "46/55",
+   "reconciled": "45/55"
+  },
+  "keyed_claims_with_no_pairing": 1
+ },
+ "note": "Pairings share a quotation and the keyed form. The keyed claims aggregate several sentences, so a pairing is an agreement measure, not a strict key.",
+ "pairs": [
+  {
+   "keyed": "X012",
+   "form": "several",
+   "census": "ind-045",
+   "construction": [
+    "existential_displaced_subject",
+    "existential_displaced_subject"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "ap-007",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "ap-014",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "ap-015",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "ap-016",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "ap-017",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "pay-023",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "pay-024",
+   "construction": [
+    "internal_mod_admission",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X055",
+   "form": "few",
+   "census": "pay-034",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X056",
+   "form": "many",
+   "census": "qc-003",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X056",
+   "form": "many",
+   "census": "ap-018",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X056",
+   "form": "many",
+   "census": "pay-025",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X056",
+   "form": "many",
+   "census": "pay-034",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X057",
+   "form": "much",
+   "census": "ap-019",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X057",
+   "form": "much",
+   "census": "pay-034",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X058",
+   "form": "little",
+   "census": "ap-020",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X058",
+   "form": "little",
+   "census": "pay-034",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X059",
+   "form": "some",
+   "census": "ap-012",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X060",
+   "form": "every",
+   "census": "ap-011",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X061",
+   "form": "numerous",
+   "census": "qc-001",
+   "construction": [
+    "internal_mod_admission",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X061",
+   "form": "numerous",
+   "census": "qc-004",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X062",
+   "form": "few",
+   "census": "ap-055",
+   "construction": [
+    "internal_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X062",
+   "form": "few",
+   "census": "du-033",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X062",
+   "form": "few",
+   "census": "du-035",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X062",
+   "form": "few",
+   "census": "du-036",
+   "construction": [
+    "internal_mod_admission",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X063",
+   "form": "few",
+   "census": "ap-055",
+   "construction": [
+    "peripheral_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X064",
+   "form": "every",
+   "census": "ap-028",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X064",
+   "form": "every",
+   "census": "ap-032",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X065",
+   "form": "any",
+   "census": "ap-030",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X065",
+   "form": "any",
+   "census": "pay-016",
+   "construction": [
+    "peripheral_mod_admission",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "other_source_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "other_source_described"
+   ]
+  },
+  {
+   "keyed": "X065",
+   "form": "any",
+   "census": "pay-017",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "other_source_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "other_source_described"
+   ]
+  },
+  {
+   "keyed": "X065",
+   "form": "any",
+   "census": "pay-018",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "other_source_described"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "other_source_described"
+   ]
+  },
+  {
+   "keyed": "X065",
+   "form": "any",
+   "census": "cmp-010",
+   "construction": [
+    "peripheral_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X066",
+   "form": "no",
+   "census": "ap-031",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X066",
+   "form": "no",
+   "census": "fs-001",
+   "construction": [
+    "peripheral_mod_admission",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X066",
+   "form": "no",
+   "census": "fs-002",
+   "construction": [
+    "peripheral_mod_admission",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X066",
+   "form": "no",
+   "census": "fs-003",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X066",
+   "form": "no",
+   "census": "fs-004",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X067",
+   "form": "none",
+   "census": "fs-002",
+   "construction": [
+    "peripheral_mod_admission",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X067",
+   "form": "none",
+   "census": "fs-004",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X067",
+   "form": "none",
+   "census": "fs-005",
+   "construction": [
+    "peripheral_mod_admission",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X068",
+   "form": "ten",
+   "census": "ap-033",
+   "construction": [
+    "peripheral_mod_admission",
+    "peripheral_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X068",
+   "form": "ten",
+   "census": "hr-016",
+   "construction": [
+    "peripheral_mod_admission",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X069",
+   "form": "thirty",
+   "census": "pay-033",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X069",
+   "form": "thirty",
+   "census": "du-032",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X070",
+   "form": "more",
+   "census": "ap-005",
+   "construction": [
+    "comparative_complement",
+    "comparative_complement"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X070",
+   "form": "more",
+   "census": "du-026",
+   "construction": [
+    "comparative_complement",
+    "comparative_complement"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X071",
+   "form": "the",
+   "census": "am-014",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X072",
+   "form": "no",
+   "census": "am-016",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X072",
+   "form": "no",
+   "census": "enu-017",
+   "construction": [
+    "degree_modifier_adj",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X073",
+   "form": "much",
+   "census": "enu-028",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X074",
+   "form": "deal",
+   "census": "qn-018",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X074",
+   "form": "deal",
+   "census": "enu-022",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X074",
+   "form": "deal",
+   "census": "enu-026",
+   "construction": [
+    "degree_modifier_adj",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X074",
+   "form": "deal",
+   "census": "enu-027",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X075",
+   "form": "deal",
+   "census": "enu-026",
+   "construction": [
+    "degree_modifier_adj",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X075",
+   "form": "deal",
+   "census": "enu-027",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X076",
+   "form": "lot",
+   "census": "enu-029",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X077",
+   "form": "lots",
+   "census": "enu-024",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X078",
+   "form": "lots",
+   "census": "enu-031",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "retained_attestation",
+    "retained_attestation"
+   ],
+   "reconciled": [
+    "retained_attestation",
+    "retained_attestation"
+   ]
+  },
+  {
+   "keyed": "X079",
+   "form": "heaps",
+   "census": "enu-025",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X080",
+   "form": "heaps",
+   "census": "enu-030",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "retained_attestation",
+    "retained_attestation"
+   ],
+   "reconciled": [
+    "retained_attestation",
+    "retained_attestation"
+   ]
+  },
+  {
+   "keyed": "X081",
+   "form": "plenty",
+   "census": "qn-019",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X081",
+   "form": "plenty",
+   "census": "enu-023",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-001",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-003",
+   "construction": [
+    "degree_modifier_adj",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-004",
+   "construction": [
+    "degree_modifier_adj",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-005",
+   "construction": [
+    "degree_modifier_adj",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-011",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-012",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-013",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X082",
+   "form": "enough",
+   "census": "enu-014",
+   "construction": [
+    "degree_modifier_adj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X083",
+   "form": "enough",
+   "census": "enu-011",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X083",
+   "form": "enough",
+   "census": "enu-012",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X083",
+   "form": "enough",
+   "census": "enu-013",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X083",
+   "form": "enough",
+   "census": "enu-014",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X084",
+   "form": "enough",
+   "census": "ind-066",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X084",
+   "form": "enough",
+   "census": "enu-011",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X084",
+   "form": "enough",
+   "census": "enu-012",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X084",
+   "form": "enough",
+   "census": "enu-013",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X084",
+   "form": "enough",
+   "census": "enu-014",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X085",
+   "form": "this",
+   "census": "pay-026",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X085",
+   "form": "this",
+   "census": "frg-011",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X085",
+   "form": "this",
+   "census": "du-024",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X086",
+   "form": "lot",
+   "census": "pay-027",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X086",
+   "form": "lot",
+   "census": "pay-028",
+   "construction": [
+    "degree_modifier_nonadj",
+    "comparative_complement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X086",
+   "form": "lot",
+   "census": "du-025",
+   "construction": [
+    "degree_modifier_nonadj",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-003",
+   "construction": [
+    "dependent_det",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-004",
+   "construction": [
+    "dependent_det",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-005",
+   "construction": [
+    "dependent_det",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-011",
+   "construction": [
+    "dependent_det",
+    "degree_modifier_adj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-012",
+   "construction": [
+    "dependent_det",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-013",
+   "construction": [
+    "dependent_det",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X087",
+   "form": "enough",
+   "census": "enu-014",
+   "construction": [
+    "dependent_det",
+    "degree_modifier_nonadj"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X088",
+   "form": "enough",
+   "census": "enu-003",
+   "construction": [
+    "internal_mod_admission",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X088",
+   "form": "enough",
+   "census": "enu-004",
+   "construction": [
+    "internal_mod_admission",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X088",
+   "form": "enough",
+   "census": "enu-005",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X089",
+   "form": "enough",
+   "census": "ind-014",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X089",
+   "form": "enough",
+   "census": "sat-008",
+   "construction": [
+    "independent_argument",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X090",
+   "form": "all",
+   "census": "ind-005",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X090",
+   "form": "all",
+   "census": "ind-016",
+   "construction": [
+    "independent_argument",
+    "taxonomic_or_meta"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X090",
+   "form": "all",
+   "census": "ind-017",
+   "construction": [
+    "independent_argument",
+    "predeterminer_mod"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X090",
+   "form": "all",
+   "census": "sat-003",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X090",
+   "form": "all",
+   "census": "inh-004",
+   "construction": [
+    "independent_argument",
+    "taxonomic_or_meta"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "other_source_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "other_source_described"
+   ]
+  },
+  {
+   "keyed": "X091",
+   "form": "both",
+   "census": "sat-005",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "retained_attestation",
+    "retained_attestation"
+   ],
+   "reconciled": [
+    "retained_attestation",
+    "retained_attestation"
+   ]
+  },
+  {
+   "keyed": "X091",
+   "form": "both",
+   "census": "sat-006",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "retained_attestation",
+    "retained_attestation"
+   ],
+   "reconciled": [
+    "retained_attestation",
+    "retained_attestation"
+   ]
+  },
+  {
+   "keyed": "X092",
+   "form": "those",
+   "census": "ind-070",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X092",
+   "form": "those",
+   "census": "inf-004",
+   "construction": [
+    "independent_argument",
+    "number_inflection"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X093",
+   "form": "anyone",
+   "census": "cmp-003",
+   "construction": [
+    "internal_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X094",
+   "form": "anyone",
+   "census": "cmp-003",
+   "construction": [
+    "peripheral_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X094",
+   "form": "anyone",
+   "census": "cmp-010",
+   "construction": [
+    "peripheral_mod_admission",
+    "compound_base"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X094",
+   "form": "anyone",
+   "census": "cmp-019",
+   "construction": [
+    "peripheral_mod_admission",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X094",
+   "form": "anyone",
+   "census": "cmp-020",
+   "construction": [
+    "peripheral_mod_admission",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "authors_analysis",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "authors_analysis",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X095",
+   "form": "anyone",
+   "census": "ind-073",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X096",
+   "form": "something",
+   "census": "cmp-014",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X098",
+   "form": "lot",
+   "census": "qn-001",
+   "construction": [
+    "independent_argument",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X098",
+   "form": "lot",
+   "census": "qn-003",
+   "construction": [
+    "independent_argument",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X098",
+   "form": "lot",
+   "census": "qn-005",
+   "construction": [
+    "independent_argument",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X098",
+   "form": "lot",
+   "census": "qn-007",
+   "construction": [
+    "independent_argument",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X098",
+   "form": "lot",
+   "census": "qn-010",
+   "construction": [
+    "independent_argument",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X099",
+   "form": "many",
+   "census": "qn-002",
+   "construction": [
+    "independent_partitive",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X099",
+   "form": "many",
+   "census": "qn-004",
+   "construction": [
+    "independent_partitive",
+    "taxonomic_or_meta"
+   ],
+   "evidence_type": [
+    "constructed_ungrammatical",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "constructed_ungrammatical",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X101",
+   "form": "lot",
+   "census": "qn-016",
+   "construction": [
+    "internal_mod_admission",
+    "taxonomic_or_meta"
+   ],
+   "evidence_type": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ]
+  },
+  {
+   "keyed": "X101",
+   "form": "lot",
+   "census": "qn-017",
+   "construction": [
+    "internal_mod_admission",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "qn-006",
+   "construction": [
+    "independent_partitive",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "qn-008",
+   "construction": [
+    "independent_partitive",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "qn-013",
+   "construction": [
+    "independent_partitive",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "mod-003",
+   "construction": [
+    "independent_partitive",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "mod-005",
+   "construction": [
+    "independent_partitive",
+    "independent_partitive"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "mod-007",
+   "construction": [
+    "independent_partitive",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X102",
+   "form": "some",
+   "census": "du-016",
+   "construction": [
+    "independent_partitive",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X103",
+   "form": "several",
+   "census": "qc-008",
+   "construction": [
+    "predicative_complement",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X104",
+   "form": "many",
+   "census": "qc-009",
+   "construction": [
+    "predicative_complement",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "cgel_restricted",
+    "cgel_restricted"
+   ]
+  },
+  {
+   "keyed": "X105",
+   "form": "mine",
+   "census": "am-006",
+   "construction": [
+    "predicative_complement",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X105",
+   "form": "mine",
+   "census": "gh-001",
+   "construction": [
+    "predicative_complement",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X105",
+   "form": "mine",
+   "census": "gh-002",
+   "construction": [
+    "predicative_complement",
+    "predicative_complement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X105",
+   "form": "mine",
+   "census": "gh-003",
+   "construction": [
+    "predicative_complement",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "am-009",
+   "construction": [
+    "dependent_det",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "am-013",
+   "construction": [
+    "dependent_det",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "frg-t005",
+   "construction": [
+    "dependent_det",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "frg-t006",
+   "construction": [
+    "dependent_det",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "frg-t007",
+   "construction": [
+    "dependent_det",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X106",
+   "form": "a",
+   "census": "frg-t008",
+   "construction": [
+    "dependent_det",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X107",
+   "form": "many",
+   "census": "qc-002",
+   "construction": [
+    "dependent_det",
+    "dependent_det"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X107",
+   "form": "many",
+   "census": "qc-003",
+   "construction": [
+    "dependent_det",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X107",
+   "form": "many",
+   "census": "ap-018",
+   "construction": [
+    "dependent_det",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X108",
+   "form": "numerous",
+   "census": "qc-001",
+   "construction": [
+    "dependent_internal_mod",
+    "dependent_internal_mod"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ]
+  },
+  {
+   "keyed": "X108",
+   "form": "numerous",
+   "census": "qc-004",
+   "construction": [
+    "dependent_internal_mod",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "constructed_ungrammatical"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "constructed_ungrammatical"
+   ]
+  },
+  {
+   "keyed": "X108",
+   "form": "numerous",
+   "census": "qc-019",
+   "construction": [
+    "dependent_internal_mod",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X109",
+   "form": "rich",
+   "census": "ind-038",
+   "construction": [
+    "independent_argument",
+    "independent_argument"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "authors_analysis"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "authors_analysis"
+   ]
+  },
+  {
+   "keyed": "X109",
+   "form": "rich",
+   "census": "ind-043",
+   "construction": [
+    "independent_argument",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_restricted"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_restricted"
+   ]
+  },
+  {
+   "keyed": "X109",
+   "form": "rich",
+   "census": "qc-017",
+   "construction": [
+    "independent_argument",
+    "number_agreement"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X109",
+   "form": "rich",
+   "census": "inf-010",
+   "construction": [
+    "independent_argument",
+    "number_inflection"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X109",
+   "form": "rich",
+   "census": "inf-011",
+   "construction": [
+    "independent_argument",
+    "internal_mod_admission"
+   ],
+   "evidence_type": [
+    "cgel_described",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "cgel_described",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X110",
+   "form": "second",
+   "census": "qc-015",
+   "construction": [
+    "existential_displaced_subject",
+    "fused_head"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "cgel_described"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "cgel_described"
+   ]
+  },
+  {
+   "keyed": "X110",
+   "form": "second",
+   "census": "qc-016",
+   "construction": [
+    "existential_displaced_subject",
+    "existential_displaced_subject"
+   ],
+   "evidence_type": [
+    "constructed_illustration",
+    "constructed_illustration"
+   ],
+   "reconciled": [
+    "constructed_illustration",
+    "cgel_described"
+   ]
+  }
+ ]
+}
