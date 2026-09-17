@@ -1,0 +1,63 @@
+{
+ "construction": "exclusion_tests",
+ "query": "too numerous [nn*]",
+ "threshold": 0.8,
+ "spec_hash": "5a6151e7d193",
+ "model": "jev-latest",
+ "counts": {
+  "escalated": 3,
+  "rejected": 1
+ },
+ "fresh_requests": 4,
+ "input_tokens_fresh": 2046,
+ "lines": [
+  {
+   "n": 1,
+   "date": "2012",
+   "country": "WEB",
+   "source": "realestate.msn.com",
+   "text": "is a safety device and cost WAY more than $6 as stated There are too numerous inaccuracies in this article to list every single one! I am a Master Plumber",
+   "p_qualifies": 0.26,
+   "verdict": "escalated",
+   "left": "There are too",
+   "right": "inaccuracies in this",
+   "determiner": "none"
+  },
+  {
+   "n": 2,
+   "date": "2012",
+   "country": "WEB",
+   "source": "...ntarch1.blogspot.com",
+   "text": "to offer to you my argument why: # For too long now, too numerous people out there have been allowed a veritable destructive wide range of leeway to put",
+   "p_qualifies": 0.33,
+   "verdict": "escalated",
+   "left": "now , too",
+   "right": "people out there",
+   "determiner": "none"
+  },
+  {
+   "n": 3,
+   "date": "2012",
+   "country": "WEB",
+   "source": "...al.library.upenn.edu",
+   "text": "the one hand, he exerts himself to tell each successive member of this too numerous conspiracy, whose name is legion, why he does not think as they do",
+   "p_qualifies": 0.25,
+   "verdict": "escalated",
+   "left": "of this too",
+   "right": "conspiracy , whose",
+   "determiner": "this + too"
+  },
+  {
+   "n": 4,
+   "date": "2012",
+   "country": "BLOG",
+   "source": "meghansedgley.com",
+   "text": "the telephone along with you, thus be thoughtful which we don't have too numerous pauses whenever you're talking to her. # 3) Get her opinion about",
+   "p_qualifies": 0.13,
+   "verdict": "rejected",
+   "left": "don't have too",
+   "right": "pauses whenever you're",
+   "determiner": "none"
+  }
+ ]
+}

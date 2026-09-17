@@ -1,0 +1,1 @@
+{"model": "jev-1.13.0", "answers": {"qualifies": {"type": "noul", "noul": 0.87}, "verb_number": {"type": "choice", "choice": "plural", "confidence": 0.7, "probabilities": {"singular": 0.01, "plural": 0.8, "not_applicable": 0.19}}}, "usage": {"input_tokens": 571, "output_tokens": 60}}

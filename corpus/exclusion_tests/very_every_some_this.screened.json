@@ -1,0 +1,98 @@
+{
+ "construction": "exclusion_tests",
+ "query": "very every/some/this",
+ "threshold": 0.8,
+ "spec_hash": "d59c062a7f28",
+ "model": "jev-latest",
+ "counts": {
+  "rejected": 7
+ },
+ "fresh_requests": 7,
+ "input_tokens_fresh": 3894,
+ "lines": [
+  {
+   "n": 1,
+   "date": "2019",
+   "country": "SPOK",
+   "source": "ABC_ThisWeek",
+   "text": "city. It's been through its ups and downs. And he has been very every single day. The fact that the President doesn't acknowledge that, does",
+   "p_qualifies": 0.07,
+   "verdict": "rejected",
+   "left": "has been very",
+   "right": "single day .",
+   "determiner": "none"
+  },
+  {
+   "n": 2,
+   "date": "2012",
+   "country": "WEB",
+   "source": "zdnet.com",
+   "text": "there exists corruption in every wo/mans heart let alone large entities and this is true very every entity in the world, bar none. \" # Don't project your",
+   "p_qualifies": 0.1,
+   "verdict": "rejected",
+   "left": "exists corruption in",
+   "right": "wo / mans",
+   "determiner": "none (in)"
+  },
+  {
+   "n": 3,
+   "date": "2012",
+   "country": "WEB",
+   "source": "amandapalmer.net",
+   "text": "has to take a 9-5? # http: **32;18854;TOOLONG Trin Achronism # THIS. very this. all those screaming about exploitation are those who have lost all faith in",
+   "p_qualifies": 0.11,
+   "verdict": "rejected",
+   "left": "Trin Achronism #",
+   "right": ". very this",
+   "determiner": "none"
+  },
+  {
+   "n": 4,
+   "date": "2012",
+   "country": "BLOG",
+   "source": "miamibeach411.com",
+   "text": "TRI-Rail station. The drive to the station is a 20 minute tour through some very some very unseemly sections of Dania Beach. Or, as some would call it",
+   "p_qualifies": 0.07,
+   "verdict": "rejected",
+   "left": "minute tour through",
+   "right": "very some very",
+   "determiner": "none (through)"
+  },
+  {
+   "n": 6,
+   "date": "2009",
+   "country": "MOV",
+   "source": "Alien Earths (1)",
+   "text": "surface. - the surface. - This water This water layer would extend very This water layer would extend very layer would extend very far down, at least",
+   "p_qualifies": 0.03,
+   "verdict": "rejected",
+   "left": "surface . -",
+   "right": "water This water",
+   "determiner": "none"
+  },
+  {
+   "n": 7,
+   "date": "1997",
+   "country": "SPOK",
+   "source": "CNN_King",
+   "text": "dress, Bob? MACKIE: I do like this dress, and it's very this year. KING: Yeah, it is. MACKIE: It really is. KING",
+   "p_qualifies": 0.11,
+   "verdict": "rejected",
+   "left": "I do like",
+   "right": "dress , and",
+   "determiner": "none (like)"
+  },
+  {
+   "n": 8,
+   "date": "1995",
+   "country": "MOV",
+   "source": "Showgirls",
+   "text": "the Stardust \" Shit How's it going? Fine Tough gig, huh? Very This is my good friend, Mr. Okida, from Bangkok He's one",
+   "p_qualifies": 0.05,
+   "verdict": "rejected",
+   "left": "huh ? Very",
+   "right": "is my good",
+   "determiner": "none"
+  }
+ ]
+}
