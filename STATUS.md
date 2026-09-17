@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Run /corpus-screen gather then screen for independent_argument and internal_mod_admission (specs in tools/corpus-screen/queries); read the accepted and escalated lines; final polish remains deferred
+next_action: Read corpus/independent_argument/*.report.md for few (441 accepted, 25 escalated; 70 bare generic candidates), then continue the worklist lexeme by lexeme with /corpus-screen; final polish remains deferred
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
