@@ -172,8 +172,8 @@ def label_new_forms(new_forms, log):
                  "subcategory_grounding": g, "subcategory_provenance": f"{MODEL} 2026-09-16 from census sentences; unkeyed"}
         form = x["forms"][0].lower()
         if re.fullmatch(r"(some|any|every|no)(one|body|thing|where)", form):
-            entry.update(subcategory="determinative", subcategory_grounding=parity.get("subcategory_grounding"),
-                         subcategory_provenance="rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set")
+            entry.update(subcategory="determinative", subcategory_grounding=None,
+                         subcategory_provenance=f"rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set ({parity.get('subcategory_grounding')})")
         if form in overrides:
             o = overrides[form]
             if o.get("grounding") and o["grounding"] not in tex:

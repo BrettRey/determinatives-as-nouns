@@ -525,8 +525,8 @@
    ],
    "lemma": "someone",
    "subcategory": "determinative",
-   "subcategory_grounding": "ms: 'anyone takes the premodifiers of its determinative base any'",
-   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set"
+   "subcategory_grounding": null,
+   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set (ms: 'anyone takes the premodifiers of its determinative base any')"
   },
   {
    "id": "lex_sunday",
@@ -575,8 +575,8 @@
    ],
    "lemma": "everything",
    "subcategory": "determinative",
-   "subcategory_grounding": "ms: 'anyone takes the premodifiers of its determinative base any'",
-   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set"
+   "subcategory_grounding": null,
+   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set (ms: 'anyone takes the premodifiers of its determinative base any')"
   },
   {
    "id": "lex_two",
@@ -725,8 +725,8 @@
    ],
    "lemma": "somebody",
    "subcategory": "determinative",
-   "subcategory_grounding": "ms: 'anyone takes the premodifiers of its determinative base any'",
-   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set"
+   "subcategory_grounding": null,
+   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set (ms: 'anyone takes the premodifiers of its determinative base any')"
   },
   {
    "id": "lex_who",
@@ -955,8 +955,8 @@
    ],
    "lemma": "everybody",
    "subcategory": "determinative",
-   "subcategory_grounding": "ms: 'anyone takes the premodifiers of its determinative base any'",
-   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set"
+   "subcategory_grounding": null,
+   "subcategory_provenance": "rule 2026-09-16: compound determinative, by parity with lex_anyone in the enriched claim set (ms: 'anyone takes the premodifiers of its determinative base any')"
   },
   {
    "id": "lex_tens",

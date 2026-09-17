@@ -54,8 +54,10 @@ def main():
     norm = json.loads(norm_path.read_text()) if norm_path.exists() else {"lexemes": []}
     groups = [
         ("census_claims", [(c["id"], {"source_id": "M", "quote": c["quote"]}) for c in census["claims"]]),
+        # only lexemes normalize.py labelled carry exact manuscript groundings; the enriched
+        # run's 34 entries carry analyst notes ("CGEL/paper default"), which are not quotes
         ("census_lexeme_groundings", [(l["id"], {"source_id": "M", "quote": l["subcategory_grounding"]}) for l in norm["lexemes"]
-                                      if l.get("subcategory_grounding")]),
+                                      if l.get("subcategory_grounding") and "subcategory_provenance" in l]),
         ("participation_claims", [(c["id"], e) for c in records["participation_claims"]
                                   for e in c["evidence"]]),
         ("scope_checks", [(s["id"], e) for s in records["scope_checks"]
