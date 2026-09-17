@@ -9,7 +9,7 @@ Lines saved by Brett from COCA, screened by TypeSafe against the spec's question
 
 `each of the [nn2*] was/were`, the *were* row (46 lines): 37 escalated, none accepted, and the screen's hesitation was right, because in about half the academic lines the verb agrees with another head (*the factor loadings for each of the items were constrained*). The genuine cases, where *each of the Ns* is the subject, still number about sixteen: *Each of the murders were committed within sight of a body of water* (TV, 2018), *each of the crafts were Ababil models* (New Republic, 2014), *each of the participants were administered the survey packet* (School Counselor, 2007), *Each of the films were selected* (Roeper Review, 2002), *each of the smokers were well-aware* (NPR, 2000).
 
-What it does to the claim: as a statement about usage the exclusion is false; plural agreement with a plural partitive complement is common and reaches edited and academic prose. As a statement about the grammar (*each* is singular; the plural is agreement with the nearer or notional plural) it is defensible, and that is how the manuscript should put it, with the rate. The rate needs the List counts for the six verb forms, which were not saved; two numbers (singular versus plural totals) settle it.
+What it does to the claim: as a statement about usage the exclusion is false; plural agreement with a plural partitive complement is common and reaches edited and academic prose. As a statement about the grammar (*each* is singular; the plural is agreement with the nearer or notional plural) it is defensible, and that is how the manuscript should put it, with the rate. The rate, from the List counts in the same export: *each of them* + singular verb 389 (*is* 146, *has* 140, *was* 103) against plural 78 (*have* 46, *are* 23, *were* 9), so plural agreement in 17 percent of COCA tokens; with a plural partitive noun, *each of the Ns was* 151 against *were* 73 across 173 noun-specific strings, so 33%.
 
 ## Compounds with a pre-head adjective or an external determiner (manuscript: the compound construction excludes both)
 
@@ -38,7 +38,7 @@ What it does to the claim: the exclusion cannot stand as written. The manuscript
 | Exclusion | Verdict from COCA | Suggested handling |
 |---|---|---|
 | independent *every* | not attested as ordinary fused head; attested in ellipsis, reply fragments, binomials (*any and every*), and as a slip for *everyone* | keep, stated for fused-head use; acknowledge the ellipsis and binomial cases (see every-reading.md) |
-| singular agreement with *each of the Ns* | plural agreement common, all registers | restate as a grammatical claim about *each* with the usage rate; needs the List counts |
+| singular agreement with *each of the Ns* | plural agreement in about a sixth of COCA tokens, all registers | restate as a grammatical claim about *each* with the usage rate (17 percent after *each of them*) |
 | compounds exclude article and pre-head adjective | attested at volume, productive | restate via conversion to common noun, with diagnostics |
 | #*so numerous mistakes* | holds | keep; hedge if generalized to *too* |
 | #*very every / some / this* | holds | keep; optional footnote on jocular *very this* |
