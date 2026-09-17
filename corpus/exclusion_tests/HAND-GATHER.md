@@ -9,7 +9,9 @@ Two count-only strings need no KWIC: write the List counts into `log.md`.
 
 | Paste | Mode | Save as | Why this shape |
 |---|---|---|---|
-| `every [v*]` | KWIC, 500 | `coca_every_v.jsonl` | any verb after *every*; catches *Every has a story* without listing verbs. Expect surname and typo noise; the screen sorts it |
+| `every [v*z*]` | KWIC, 500 | `coca_every_vz.jsonl` | *every* + third-person-singular present verb (*is, has, does, goes*); the finite-verb shape independent subject *every* needs |
+| `every [v*d*]` | KWIC, 500 | `coca_every_vd.jsonl` | *every* + past-tense verb (*was, were, had, did, arrived*) |
+| `every [vm*]` | KWIC, 100 | `coca_every_vm.jsonl` | *every* + modal (*will, can, would*) |
 | `every [y*]` | KWIC, 100 | `coca_every_punct.jsonl` | *every* before punctuation: the *take every.* shape, sentence-final independent use |
 | `take every [y*]` | KWIC, 100 | `coca_take_every_punct.jsonl` | the manuscript's own starred example; `take every` alone is 24,479 hits of *take every opportunity* |
 | `each/every was/has/will` | List only | counts to `log.md` | rate comparison, six counts in one query; on NOW *every was* was 141 and *every has* 73, so the COCA counts will be small but the ratio to *each* is the point |
@@ -56,6 +58,9 @@ Two count-only strings need no KWIC: write the List counts into `log.md`.
 | `each of them was/were/is/are/has/have` | List, then KWIC of the plural rows | `coca_each_of_them_v.jsonl` | the List counts are the result: singular against plural agreement after *each of them*. KWIC only the plural rows (*were, are, have*), which are the claim-relevant ones |
 | `each of the [nn2*] was/were` | List, then KWIC of the *were* row | `coca_each_of_the_pl_v.jsonl` | plural noun in the partitive, then the verb; *were* lines are the transparency cases |
 
-## Notes on the syntax
+## Notes on the syntax (from the site's help page, help/word-phrase.asp)
+
+**Excluding a mis-tagged word.** There is no AND inside one slot: `-` negates a whole slot (the help's example is `pretty -NOUN`, *pretty* followed by a non-noun), so `every [v*] -inch` would be a three-word search. Two ways round it. Narrow the tag instead: *every inch* is mis-tagged as a base-form verb (VV0), so the finite sub-families `[v*z*]`, `[v*d*]`, `[vm*]` above exclude it and every other base-form mis-tag, and finite verbs are what the test needs anyway. Or run the broad `every [v*]` in List mode, where each string is a row, tick the rows you want and open the KWIC for the selection, leaving *every inch* unticked.
+
 
 `/` alternates single words only; a phrase alternative needs separate queries. `[v*]`, `[nn*]`, `[nn2*]`, `[j*]`, `[at*]`, `[y*]` are the CLAWS tag families (verb, noun, plural noun, adjective, article, punctuation); tagging errors are common around *every* and the compounds, which is one more reason the screen reads the line rather than trusting the tag. Lowercase searches are case-insensitive. Keep the file names above so the screen's spec finds the right question for each string.
