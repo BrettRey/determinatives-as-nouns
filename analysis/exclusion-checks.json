@@ -6,9 +6,9 @@
    "section": "sec:independent",
    "corpus": "COCA",
    "queries": [
-    "every [v*]"
+    "each/every [v*]"
    ],
-   "hits": "1,095 lines read",
+   "hits": "618 lines with \\mention{every} read (of 1,095 with \\mention{each} or \\mention{every})",
    "result": "no ordinary fused-head use; \\mention{every} in ellipsis (\\mention{if not every, then almost every N}), reply fragments, and binomials (\\mention{any and every}); slips for \\mention{everyone} in informal text",
    "handling": "claim kept for fused-head use"
   },
