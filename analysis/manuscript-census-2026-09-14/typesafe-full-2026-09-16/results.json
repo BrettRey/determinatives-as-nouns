@@ -1,0 +1,403 @@
+{
+ "model": "jev-1.13.0",
+ "threshold": 0.8,
+ "claims": 658,
+ "fresh_requests": 0,
+ "usage_fresh": {},
+ "elapsed_s": 0.0,
+ "accepted": 253,
+ "accepted_agree_haiku": 233,
+ "agreement_with_haiku_by_confidence": {
+  "0.5-0.8": {
+   "n": 254,
+   "agree": 177
+  },
+  "<0.5": {
+   "n": 151,
+   "agree": 68
+  },
+  ">=0.8": {
+   "n": 253,
+   "agree": 233
+  }
+ },
+ "haiku_taxonomic_given_confident_specific_label": 2,
+ "combined_distribution": [
+  [
+   "taxonomic_or_meta",
+   141
+  ],
+  [
+   "independent_argument",
+   132
+  ],
+  [
+   "dependent_det",
+   61
+  ],
+  [
+   "internal_mod_admission",
+   58
+  ],
+  [
+   "fused_head",
+   55
+  ],
+  [
+   "peripheral_mod_admission",
+   35
+  ],
+  [
+   "dependent_internal_mod",
+   32
+  ],
+  [
+   "degree_modifier_adj",
+   22
+  ],
+  [
+   "independent_partitive",
+   21
+  ],
+  [
+   "compound_base",
+   16
+  ],
+  [
+   "external_determination",
+   14
+  ],
+  [
+   "number_agreement",
+   12
+  ],
+  [
+   "predicative_complement",
+   11
+  ],
+  [
+   "number_inflection",
+   11
+  ],
+  [
+   "genitive_marking",
+   10
+  ],
+  [
+   "degree_modifier_nonadj",
+   10
+  ],
+  [
+   "grade_inflection",
+   4
+  ],
+  [
+   "predeterminer_mod",
+   3
+  ],
+  [
+   "comparative_complement",
+   3
+  ],
+  [
+   "coordination_marker",
+   3
+  ],
+  [
+   "existential_displaced_subject",
+   2
+  ],
+  [
+   "other",
+   2
+  ]
+ ],
+ "typesafe_distribution": [
+  [
+   "taxonomic_or_meta",
+   198
+  ],
+  [
+   "independent_argument",
+   90
+  ],
+  [
+   "dependent_det",
+   57
+  ],
+  [
+   "fused_head",
+   56
+  ],
+  [
+   "peripheral_mod_admission",
+   44
+  ],
+  [
+   "internal_mod_admission",
+   41
+  ],
+  [
+   "dependent_internal_mod",
+   32
+  ],
+  [
+   "degree_modifier_adj",
+   19
+  ],
+  [
+   "independent_partitive",
+   17
+  ],
+  [
+   "compound_base",
+   17
+  ],
+  [
+   "external_determination",
+   17
+  ],
+  [
+   "degree_modifier_nonadj",
+   13
+  ],
+  [
+   "number_agreement",
+   13
+  ],
+  [
+   "predicative_complement",
+   9
+  ],
+  [
+   "number_inflection",
+   8
+  ],
+  [
+   "genitive_marking",
+   8
+  ],
+  [
+   "coordination_marker",
+   5
+  ],
+  [
+   "predeterminer_mod",
+   4
+  ],
+  [
+   "grade_inflection",
+   4
+  ],
+  [
+   "existential_displaced_subject",
+   3
+  ],
+  [
+   "comparative_complement",
+   2
+  ],
+  [
+   "other",
+   1
+  ]
+ ],
+ "evidence_type": {
+  "ts_agree_census": 401,
+  "ts_agree_reconciled": 397,
+  "ts_distribution": [
+   [
+    "authors_analysis",
+    285
+   ],
+   [
+    "constructed_illustration",
+    170
+   ],
+   [
+    "not_determinable",
+    75
+   ],
+   [
+    "cgel_described",
+    58
+   ],
+   [
+    "other_source_described",
+    39
+   ],
+   [
+    "constructed_ungrammatical",
+    16
+   ],
+   [
+    "retained_attestation",
+    8
+   ],
+   [
+    "searched_not_found",
+    4
+   ],
+   [
+    "cgel_restricted",
+    3
+   ]
+  ]
+ },
+ "accepted_disagreements_with_haiku": [
+  [
+   "ind-038",
+   "independent_argument",
+   "fused_head",
+   0.86,
+   "nominal argument positions (fused-head AdjP)"
+  ],
+  [
+   "ind-039",
+   "independent_argument",
+   "fused_head",
+   0.86,
+   "nominal argument positions (fused-head AdjP)"
+  ],
+  [
+   "ind-068",
+   "taxonomic_or_meta",
+   "independent_argument",
+   0.87,
+   "integrated relative postmodification, as in \\mention{we who "
+  ],
+  [
+   "qn-004",
+   "taxonomic_or_meta",
+   "independent_partitive",
+   0.87,
+   "\\mention{of}-phrase with an undetermined nominal"
+  ],
+  [
+   "ap-027",
+   "peripheral_mod_admission",
+   "internal_mod_admission",
+   0.94,
+   "position inside the complex determinative, after \\mention{a}"
+  ],
+  [
+   "inf-016",
+   "genitive_marking",
+   "taxonomic_or_meta",
+   0.89,
+   "case paradigms"
+  ],
+  [
+   "hr-006",
+   "independent_argument",
+   "fused_head",
+   0.87,
+   "ordinary Head under D-noun"
+  ],
+  [
+   "hr-007",
+   "independent_argument",
+   "fused_head",
+   0.9,
+   "joint Det of NP and Head of Nom"
+  ],
+  [
+   "mod-030",
+   "internal_mod_admission",
+   "fused_head",
+   0.85,
+   "the same fusion and modifier functions under the ordinary-He"
+  ],
+  [
+   "pay-014",
+   "dependent_det",
+   "peripheral_mod_admission",
+   0.93,
+   "Det function of the NP formed by peripheral modification"
+  ],
+  [
+   "pay-019",
+   "compound_base",
+   "peripheral_mod_admission",
+   0.87,
+   "adverbial premodification of a compound"
+  ],
+  [
+   "cmp-006",
+   "fused_head",
+   "peripheral_mod_admission",
+   0.82,
+   "peripheral attachment to NP in the ordinary-Head tree"
+  ],
+  [
+   "cmp-015",
+   "internal_mod_admission",
+   "compound_base",
+   0.91,
+   "the common noun's range of ordinary postmodifiers"
+  ],
+  [
+   "cmp-016",
+   "internal_mod_admission",
+   "compound_base",
+   0.92,
+   "post-head restrictor licensed by the compound construction, "
+  ],
+  [
+   "cmp-017",
+   "internal_mod_admission",
+   "compound_base",
+   0.92,
+   "post-head restrictor licensed by the compound construction, "
+  ],
+  [
+   "du-028",
+   "internal_mod_admission",
+   "compound_base",
+   0.81,
+   "one specialized post-head restrictor followed by ordinary po"
+  ],
+  [
+   "du-032",
+   "internal_mod_admission",
+   "external_determination",
+   0.86,
+   "internal attachment under an external determiner"
+  ],
+  [
+   "du-050",
+   "fused_head",
+   "taxonomic_or_meta",
+   0.9,
+   "position in nominal structure outside the DP"
+  ],
+  [
+   "du-054",
+   "fused_head",
+   "taxonomic_or_meta",
+   0.83,
+   "bare, partitive, and externally determined expressions"
+  ],
+  [
+   "con-001",
+   "number_agreement",
+   "taxonomic_or_meta",
+   0.88,
+   "selected complements, number transparency, restricted depend"
+  ]
+ ],
+ "taxonomic_resolved": [
+  [
+   "ind-068",
+   "independent_argument",
+   0.87,
+   "integrated relative postmodification, as in \\mention{we who "
+  ],
+  [
+   "qn-004",
+   "independent_partitive",
+   0.87,
+   "\\mention{of}-phrase with an undetermined nominal"
+  ]
+ ]
+}

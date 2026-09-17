@@ -248,36 +248,13 @@ def refine_taxonomic(claims, catalogue, log):
                 c["construction_other"] = a.get("other_label") if a["construction_id"] == "other" else None
 
 
-RESIDUE_RULES = [
-    ("number_agreement", r"agreement|number transparency|number from the"),
-    ("independent_argument", r"\b(subject|object|complement of (a |the )?preposition|independent(ly)?( \(\w+\))? use|pro-form|anaphoric|argument use)\b"),
-    ("dependent_det", r"\bDet\b|determiner (use|before|function|position)|dependent (determiner )?use|as determiner"),
-    ("dependent_internal_mod", r"internal Mod|attributive"),
-    ("independent_partitive", r"partitive"),
-    ("genitive_marking", r"genitive"),
-    ("predicative_complement", r"predicative"),
-    ("fused_head", r"fused|fusion"),
-    ("compound_base", r"compound"),
-    ("predeterminer_mod", r"predeterminer"),
-    ("coordination_marker", r"coordination"),
-    ("existential_displaced_subject", r"existential"),
-    ("comparative_complement", r"\bthan\b|comparative complement"),
-    ("external_determination", r"external(ly)? determin"),
-]
-
-
-def rule_residue(claims, log):
-    """Claims still taxonomic_or_meta after two model passes: assign by the census's own free-text
-    label when exactly one rule pattern matches it. Transparent, logged, and only on the residue."""
+def map_other(claims, log):
+    """An `other` whose label names external determination is that catalogue id. No other rule:
+    a regex residue rule tried on 2026-09-16 was contradicted by an independent model on all 23
+    of its assignments (see typesafe-full-2026-09-16/), so the two model passes stand as final."""
     n = 0
     for c in claims:
-        if c["construction_id"] == "taxonomic_or_meta":
-            hits = [cid for cid, pat in RESIDUE_RULES if re.search(pat, c["construction"], re.I)]
-            if len(hits) == 1:
-                c["construction_id_pass2"], c["construction_id"] = "taxonomic_or_meta", hits[0]
-                c["construction_provenance"] = "rule 2026-09-16 on the census free-text construction label (residue after two model passes)"
-                n += 1
-        elif c["construction_id"] == "other" and c.get("construction_other") and re.search(r"external determination", c["construction_other"], re.I):
+        if c["construction_id"] == "other" and c.get("construction_other") and re.search(r"external determination", c["construction_other"], re.I):
             c["construction_id_pass2"], c["construction_id"], c["construction_other"] = "other", "external_determination", None
             c["construction_provenance"] = "rule 2026-09-16: other_label named external determination"
             n += 1
@@ -395,7 +372,7 @@ def main():
     catalogue = json.loads(json.dumps(enriched["constructions"])) + [{"id": i, "description": d, "added": "normalize.py 2026-09-16"} for i, d in EXT]
     assign_constructions(claims, catalogue, log)
     refine_taxonomic(claims, catalogue, log)
-    rule_residue(claims, log)
+    map_other(claims, log)
     for c in claims: basis(text, c)
 
     kc = key_check(claims, enriched)

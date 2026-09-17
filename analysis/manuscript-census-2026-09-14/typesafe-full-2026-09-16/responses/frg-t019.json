@@ -1,0 +1,54 @@
+{
+ "model": "jev-1.13.0",
+ "answers": {
+  "construction": {
+   "type": "choice",
+   "choice": "number_agreement",
+   "confidence": 0.25,
+   "probabilities": {
+    "compound_base": 0.0,
+    "number_agreement": 0.3,
+    "grade_inflection": 0.01,
+    "existential_displaced_subject": 0.0,
+    "independent_partitive": 0.0,
+    "external_determination": 0.0,
+    "number_inflection": 0.14,
+    "other": 0.01,
+    "internal_mod_admission": 0.01,
+    "taxonomic_or_meta": 0.23,
+    "fused_head": 0.01,
+    "dependent_det": 0.04,
+    "predicative_complement": 0.0,
+    "degree_modifier_nonadj": 0.0,
+    "peripheral_mod_admission": 0.0,
+    "comparative_complement": 0.0,
+    "coordination_marker": 0.0,
+    "predeterminer_mod": 0.0,
+    "genitive_marking": 0.0,
+    "dependent_internal_mod": 0.0,
+    "independent_argument": 0.25,
+    "degree_modifier_adj": 0.0
+   }
+  },
+  "evidence_type": {
+   "type": "choice",
+   "choice": "authors_analysis",
+   "confidence": 0.38,
+   "probabilities": {
+    "cgel_restricted": 0.01,
+    "constructed_ungrammatical": 0.0,
+    "constructed_illustration": 0.07,
+    "retained_attestation": 0.0,
+    "not_determinable": 0.43,
+    "authors_analysis": 0.45,
+    "cgel_described": 0.02,
+    "other_source_described": 0.02,
+    "searched_not_found": 0.0
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 1906,
+  "output_tokens": 361
+ }
+}

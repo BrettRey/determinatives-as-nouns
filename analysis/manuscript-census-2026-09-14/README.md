@@ -36,13 +36,13 @@ Before this, `construction` and `expression` were free text: 507 distinct constr
 
 | Check | Result |
 |---|---:|
-| Claims with a construction id from the catalogue | 658/658 (116 remain `taxonomic_or_meta`, 2 `other`) |
+| Claims with a construction id from the catalogue | 658/658 (139 remain `taxonomic_or_meta`, 2 `other`) |
 | Claims with a subcategory | 580/658 (78 are phrases or classes with no resolvable lexeme) |
 | Keyed manuscript claims (expanded run) whose construction id the census reproduces on at least one paired claim | 51/55 |
 | Same, for `evidence_type` | 46/55 |
 | Census quotations and lexeme groundings resolving against the live manuscript (`make check-claims`) | all |
 
-The construction labels come from Haiku 4.5 through the Claude CLI with structured output, tools and MCP disabled, in batches of 20, then a second pass over the 238 claims the first pass parked as `taxonomic_or_meta` (76 reassigned), then a stated rule over the census's own free-text label for the residue (23 more). Every model response is kept in `normalize-cache/` by prompt hash; the log records cost, model and provider per call. The GLM route was tried first and abandoned: at low effort it spent its whole output budget reasoning and returned no content, three times.
+The construction labels come from Haiku 4.5 through the Claude CLI with structured output, tools and MCP disabled, in batches of 20, then a second pass over the 238 claims the first pass parked as `taxonomic_or_meta` (76 reassigned). A regex rule over the census's free-text label for the residue was tried and retired the same day: [the full TypeSafe run](typesafe-full-2026-09-16/) contradicted all 23 of its assignments. Every model response is kept in `normalize-cache/` by prompt hash; the log records cost, model and provider per call. The GLM route was tried first and abandoned: at low effort it spent its whole output budget reasoning and returned no content, three times.
 
 The key comparison is an agreement measure, not a strict key. A keyed claim in the expanded run aggregates several sentences, while a census claim is one sentence, so paired claims often concern different constructions of the same lexeme and both can be right; pairwise agreement is 86/156 for `evidence_type` and 86/156 for construction, and the per-claim any-match figures above are the informative ones. The 20-claim hand audit of 14 September stands as the only direct check of the census's own labels.
 

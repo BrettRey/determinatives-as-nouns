@@ -2766,39 +2766,39 @@
    "attempts": 1
   }
  ],
- "residue_rule_assignments": 23,
+ "residue_rule_assignments": 0,
  "summary": {
   "claims": 658,
   "new_lexemes": 58,
   "cost_usd_uncached": 0,
   "construction_ids": [
    [
-    "independent_argument",
+    "taxonomic_or_meta",
     139
    ],
    [
-    "taxonomic_or_meta",
-    116
-   ],
-   [
-    "dependent_det",
-    72
+    "independent_argument",
+    135
    ],
    [
     "internal_mod_admission",
     63
    ],
    [
+    "dependent_det",
+    62
+   ],
+   [
     "fused_head",
     53
    ],
    [
-    "dependent_internal_mod",
+    "peripheral_mod_admission",
     33
    ],
    [
-    "peripheral_mod_admission",
-    33
+    "dependent_internal_mod",
+    32
    ],
    [
     "degree_modifier_adj",
@@ -2810,7 +2810,7 @@
    ],
    [
     "number_agreement",
-    16
+    13
    ],
    [
     "compound_base",
@@ -2822,11 +2822,11 @@
    ],
    [
     "genitive_marking",
-    12
+    11
    ],
    [
     "predicative_complement",
-    12
+    11
    ],
    [
     "number_inflection",
@@ -2837,15 +2837,15 @@
     10
    ],
    [
-    "comparative_complement",
-    6
-   ],
-   [
     "grade_inflection",
     4
    ],
    [
     "predeterminer_mod",
+    3
+   ],
+   [
+    "comparative_complement",
     3
    ],
    [
@@ -2960,8 +2960,8 @@
    },
    "keyed_claims_with_no_pairing": 1
   },
-  "residue_rule_assignments": 23,
+  "residue_rule_assignments": 0,
   "refined_from_taxonomic": 195,
-  "taxonomic_remaining": 116
+  "taxonomic_remaining": 139
  }
 }
