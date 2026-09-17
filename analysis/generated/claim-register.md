@@ -4,6 +4,7 @@
 
 | Diagnostic | Lexeme | Subcategory | Status | Basis | Sections | Claims |
 |---|---|---|---|---|---|---:|
+| **Functions and constructional range** | | | | | | |
 | independent argument use | *a* | determinative | excluded 4 | analysis 2, CGEL, other source | article-membership, fragment | 4 |
 | independent argument use | *all* | determinative | conditional, licensed | CGEL, constructed | independent, saturation | 2 |
 | independent argument use | *anyone* | determinative | licensed | constructed | independent | 1 |
@@ -56,6 +57,21 @@
 | independent argument use | *of* | preposition | licensed 2 | CGEL, analysis | modification | 2 |
 | independent argument use | *practically* | adverb | conditional | analysis | payne | 1 |
 | independent argument use | *virtually* | adverb | conditional | analysis | payne | 1 |
+| independent use with partitive of-PP | *a* | determinative | excluded | other source | article-membership | 1 |
+| independent use with partitive of-PP | *certain* | determinative | conditional | CGEL (restricted) | quant-controls | 1 |
+| independent use with partitive of-PP | *every* | determinative | excluded | other source | article-membership | 1 |
+| independent use with partitive of-PP | *few* | determinative | conditional | analysis | det-uniform | 1 |
+| independent use with partitive of-PP | *many* | determinative | licensed 2 | CGEL, constructed | modification, quant-nouns | 2 |
+| independent use with partitive of-PP | *no* | determinative | conditional 2, excluded | CGEL, constructed (starred), analysis | form-selection, fragment | 3 |
+| independent use with partitive of-PP | *some* | determinative | licensed 4, conditional | analysis 3, constructed 2 | det-uniform, intro, modification, quant-nouns | 5 |
+| independent use with partitive of-PP | *the* | determinative | excluded | other source | article-membership | 1 |
+| independent use with partitive of-PP | *various* | determinative | conditional | CGEL (restricted) | quant-controls | 1 |
+| independent use with partitive of-PP | *lot* | common noun | licensed 2 | CGEL 2 | quant-nouns | 2 |
+| independent use with partitive of-PP | *tens* | common noun | licensed | other source | costs | 1 |
+| independent use with partitive of-PP | *wine* | common noun | licensed, excluded | analysis 2 | evidence, modification | 2 |
+| independent use with partitive of-PP | *her* | pronoun | licensed | CGEL | independent | 1 |
+| existential displaced subject | *several* | determinative | licensed | CGEL | independent | 1 |
+| existential displaced subject | *second* | adjective (control) | licensed | CGEL | quant-controls | 1 |
 | Det before a nominal | *a* | determinative | conditional 5, licensed | CGEL 3, analysis 2, CGEL (restricted) | article-membership, det-uniform, fragment, independent | 6 |
 | Det before a nominal | *enough* | determinative | licensed | CGEL | enough | 1 |
 | Det before a nominal | *every* | determinative | licensed 4, conditional, excluded | analysis 4, constructed, CGEL | article-membership, fragment, intro, payne | 6 |
@@ -79,6 +95,44 @@
 | Det before a nominal | *my* | pronoun | licensed 2, conditional 2, excluded | CGEL 3, analysis 2 | article-membership, fragment, independent | 5 |
 | Det before a nominal | *she* | pronoun | excluded | analysis | fragment | 1 |
 | Det before a nominal | *what* | adjective (control) | licensed, conditional | CGEL 2 | det-uniform, independent | 2 |
+| internal Mod before a nominal | *a* | determinative | excluded | analysis | fragment | 1 |
+| internal Mod before a nominal | *enough* | determinative | licensed | CGEL | enough | 1 |
+| internal Mod before a nominal | *every* | determinative | conditional | analysis | fragment | 1 |
+| internal Mod before a nominal | *few* | determinative | licensed 3, conditional | analysis 2, constructed, CGEL | det-uniform, fragment, independent, modification | 4 |
+| internal Mod before a nominal | *many* | determinative | licensed | other source | intro | 1 |
+| internal Mod before a nominal | *no* | determinative | excluded 2 | analysis 2 | fragment | 2 |
+| internal Mod before a nominal | *some* | determinative | excluded | analysis | fragment | 1 |
+| internal Mod before a nominal | *the* | determinative | excluded | analysis | fragment | 1 |
+| internal Mod before a nominal | *two* | determinative | licensed 2 | other source, analysis | costs | 2 |
+| internal Mod before a nominal | *dog* | common noun | licensed | constructed | independent | 1 |
+| internal Mod before a nominal | *soccer* | common noun | licensed | constructed | adjectival-profile | 1 |
+| internal Mod before a nominal | *canada* | proper noun | licensed | constructed | independent | 1 |
+| internal Mod before a nominal | *her* | pronoun | excluded | analysis | fragment | 1 |
+| internal Mod before a nominal | *my* | pronoun | excluded 2 | analysis 2 | fragment | 2 |
+| internal Mod before a nominal | *she* | pronoun | excluded | analysis | fragment | 1 |
+| internal Mod before a nominal | *experienced* | adjective (control) | licensed | analysis | payne | 1 |
+| internal Mod before a nominal | *lucky* | adjective (control) | licensed | analysis | det-uniform | 1 |
+| internal Mod before a nominal | *numerous* | adjective (control) | licensed | constructed | quant-controls | 1 |
+| internal Mod before a nominal | *red* | adjective (control) | licensed | analysis | head-relations | 1 |
+| internal Mod before a nominal | *round* | adjective (control) | licensed | constructed | adjectival-profile | 1 |
+| predeterminer modifier | *all* | determinative | licensed | CGEL | independent | 1 |
+| predeterminer modifier | *both* | determinative | licensed | CGEL | independent | 1 |
+| predeterminer modifier | *half* | common noun | licensed | CGEL | independent | 1 |
+| marker of coordination | *both* | determinative | licensed | CGEL | enough | 1 |
+| marker of coordination | *either* | determinative | licensed | CGEL | enough | 1 |
+| marker of coordination | *neither* | determinative | licensed | CGEL | enough | 1 |
+| **Nominal connections** | | | | | | |
+| number agreement or transparency | *some* | determinative | licensed | analysis | quant-nouns | 1 |
+| number agreement or transparency | *the* | determinative | licensed 2 | constructed 2 | quant-nouns | 2 |
+| number agreement or transparency | *lot* | common noun | licensed | CGEL | quant-nouns | 1 |
+| number agreement or transparency | *people* | common noun | licensed 2, excluded 2 | constructed 2, analysis 2 | quant-nouns | 4 |
+| number agreement or transparency | *my* | pronoun | licensed 2 | constructed 2 | genitive-head | 2 |
+| number agreement or transparency | *rich* | adjective (control) | licensed | CGEL | quant-controls | 1 |
+| takes an external determiner | *few* | determinative | licensed 3, conditional 2 | analysis 3, CGEL 2 | det-uniform, evidence, inheritance, modification | 5 |
+| takes an external determiner | *the* | determinative | licensed | analysis | fragment | 1 |
+| takes an external determiner | *this* | determinative | conditional | CGEL | inheritance | 1 |
+| takes an external determiner | *two* | determinative | conditional | CGEL | inheritance | 1 |
+| takes an external determiner | *who* | pronoun | licensed | CGEL | inheritance | 1 |
 | admits an internal modifier | *a* | determinative | not_stated | CGEL | article-membership | 1 |
 | admits an internal modifier | *enough* | determinative | excluded | constructed (starred) | enough | 1 |
 | admits an internal modifier | *every* | determinative | licensed 2, excluded | constructed (starred), analysis, constructed | adjectival-profile, article-membership, enough | 3 |
@@ -108,18 +162,6 @@
 | admits an internal modifier | *almost* | adverb | licensed | other source | payne | 1 |
 | admits an internal modifier | *globally* | adverb | licensed | other source | payne | 1 |
 | admits an internal modifier | *very* | adverb | licensed 2, excluded | CGEL, constructed (starred), analysis | adjectival-profile, payne | 3 |
-| fused-head analysis | *a* | determinative | excluded | analysis | det-uniform | 1 |
-| fused-head analysis | *anyone* | determinative | licensed 2 | other source, analysis | compounds | 2 |
-| fused-head analysis | *few* | determinative | licensed 9 | analysis 8, CGEL | costs, modification, payne | 9 |
-| fused-head analysis | *some* | determinative | licensed 6, excluded | analysis 5, CGEL 2 | head-relations, intro, modification, saturation | 7 |
-| fused-head analysis | *two* | determinative | licensed | CGEL | modification | 1 |
-| fused-head analysis | *people* | common noun | licensed | CGEL | adjectival-profile | 1 |
-| fused-head analysis | *present* | common noun | licensed 3 | analysis 2, other source | compounds | 3 |
-| fused-head analysis | *survivors* | common noun | licensed | analysis | modification | 1 |
-| fused-head analysis | *my* | pronoun | licensed | CGEL | genitive-head | 1 |
-| fused-head analysis | *rich* | adjective (control) | licensed 3, conditional | analysis 2, CGEL (restricted), CGEL | adjectival-profile, independent, intro, modification | 4 |
-| fused-head analysis | *second* | adjective (control) | licensed | CGEL | quant-controls | 1 |
-| fused-head analysis | *hardly* | adverb | licensed 2 | other source, analysis | compounds | 2 |
 | admits a peripheral modifier | *a* | determinative | licensed | constructed | adjectival-profile | 1 |
 | admits a peripheral modifier | *all* | determinative | licensed 3 | CGEL 2, constructed | adjectival-profile, membership | 3 |
 | admits a peripheral modifier | *any* | determinative | licensed 3 | other source 2, constructed | adjectival-profile, payne | 3 |
@@ -134,39 +176,27 @@
 | admits a peripheral modifier | *almost* | adverb | licensed 2 | analysis 2 | adjectival-profile, payne | 2 |
 | admits a peripheral modifier | *quite* | adverb | licensed 2, excluded | CGEL 2, constructed (starred) | adjectival-profile, independent | 3 |
 | admits a peripheral modifier | *rather* | adverb | licensed | CGEL | independent | 1 |
-| internal Mod before a nominal | *a* | determinative | excluded | analysis | fragment | 1 |
-| internal Mod before a nominal | *enough* | determinative | licensed | CGEL | enough | 1 |
-| internal Mod before a nominal | *every* | determinative | conditional | analysis | fragment | 1 |
-| internal Mod before a nominal | *few* | determinative | licensed 3, conditional | analysis 2, constructed, CGEL | det-uniform, fragment, independent, modification | 4 |
-| internal Mod before a nominal | *many* | determinative | licensed | other source | intro | 1 |
-| internal Mod before a nominal | *no* | determinative | excluded 2 | analysis 2 | fragment | 2 |
-| internal Mod before a nominal | *some* | determinative | excluded | analysis | fragment | 1 |
-| internal Mod before a nominal | *the* | determinative | excluded | analysis | fragment | 1 |
-| internal Mod before a nominal | *two* | determinative | licensed 2 | other source, analysis | costs | 2 |
-| internal Mod before a nominal | *dog* | common noun | licensed | constructed | independent | 1 |
-| internal Mod before a nominal | *soccer* | common noun | licensed | constructed | adjectival-profile | 1 |
-| internal Mod before a nominal | *canada* | proper noun | licensed | constructed | independent | 1 |
-| internal Mod before a nominal | *her* | pronoun | excluded | analysis | fragment | 1 |
-| internal Mod before a nominal | *my* | pronoun | excluded 2 | analysis 2 | fragment | 2 |
-| internal Mod before a nominal | *she* | pronoun | excluded | analysis | fragment | 1 |
-| internal Mod before a nominal | *experienced* | adjective (control) | licensed | analysis | payne | 1 |
-| internal Mod before a nominal | *lucky* | adjective (control) | licensed | analysis | det-uniform | 1 |
-| internal Mod before a nominal | *numerous* | adjective (control) | licensed | constructed | quant-controls | 1 |
-| internal Mod before a nominal | *red* | adjective (control) | licensed | analysis | head-relations | 1 |
-| internal Mod before a nominal | *round* | adjective (control) | licensed | constructed | adjectival-profile | 1 |
-| independent use with partitive of-PP | *a* | determinative | excluded | other source | article-membership | 1 |
-| independent use with partitive of-PP | *certain* | determinative | conditional | CGEL (restricted) | quant-controls | 1 |
-| independent use with partitive of-PP | *every* | determinative | excluded | other source | article-membership | 1 |
-| independent use with partitive of-PP | *few* | determinative | conditional | analysis | det-uniform | 1 |
-| independent use with partitive of-PP | *many* | determinative | licensed 2 | CGEL, constructed | modification, quant-nouns | 2 |
-| independent use with partitive of-PP | *no* | determinative | conditional 2, excluded | CGEL, constructed (starred), analysis | form-selection, fragment | 3 |
-| independent use with partitive of-PP | *some* | determinative | licensed 4, conditional | analysis 3, constructed 2 | det-uniform, intro, modification, quant-nouns | 5 |
-| independent use with partitive of-PP | *the* | determinative | excluded | other source | article-membership | 1 |
-| independent use with partitive of-PP | *various* | determinative | conditional | CGEL (restricted) | quant-controls | 1 |
-| independent use with partitive of-PP | *lot* | common noun | licensed 2 | CGEL 2 | quant-nouns | 2 |
-| independent use with partitive of-PP | *tens* | common noun | licensed | other source | costs | 1 |
-| independent use with partitive of-PP | *wine* | common noun | licensed, excluded | analysis 2 | evidence, modification | 2 |
-| independent use with partitive of-PP | *her* | pronoun | licensed | CGEL | independent | 1 |
+| genitive marking | *someone* | determinative | licensed | analysis | inflection | 1 |
+| genitive marking | *dog* | common noun | licensed | analysis | inflection | 1 |
+| genitive marking | *kim* | proper noun | licensed 2 | analysis 2 | det-uniform, inflection | 2 |
+| genitive marking | *my* | pronoun | licensed 2 | analysis 2 | inflection, inheritance | 2 |
+| number inflection | *each* | determinative | excluded | analysis | inflection | 1 |
+| number inflection | *several* | determinative | excluded | analysis | inflection | 1 |
+| number inflection | *some* | determinative | excluded | analysis | inflection | 1 |
+| number inflection | *that* | determinative | licensed | CGEL | inflection | 1 |
+| number inflection | *this* | determinative | licensed | CGEL | inflection | 1 |
+| number inflection | *you* | pronoun | conditional | CGEL | inflection | 1 |
+| number inflection | *rich* | adjective (control) | licensed | CGEL | inflection | 1 |
+| base of a compound determinative | *a* | determinative | licensed 4 | CGEL 3, analysis | adjectival-profile, article-membership | 4 |
+| base of a compound determinative | *anyone* | determinative | licensed 2 | analysis 2 | compounds | 2 |
+| base of a compound determinative | *someone* | determinative | conditional | CGEL | inflection | 1 |
+| base of a compound determinative | *something* | determinative | conditional | CGEL | inflection | 1 |
+| base of a compound determinative | *present* | common noun | licensed | constructed | compounds | 1 |
+| **Adjectival profile** | | | | | | |
+| grade inflection | *few* | determinative | licensed | CGEL | adjectival-profile | 1 |
+| grade inflection | *little* | determinative | licensed | CGEL | adjectival-profile | 1 |
+| grade inflection | *many* | determinative | licensed | CGEL | adjectival-profile | 1 |
+| grade inflection | *much* | determinative | licensed | CGEL | adjectival-profile | 1 |
 | degree modifier of an adjective | *enough* | determinative | licensed 2 | analysis, CGEL | enough | 2 |
 | degree modifier of an adjective | *every* | determinative | licensed | analysis | enough | 1 |
 | degree modifier of an adjective | *much* | determinative | licensed 2 | CGEL, constructed (starred) | article-membership, enough | 2 |
@@ -179,6 +209,13 @@
 | degree modifier of an adjective | *lots* | common noun | licensed 2 | CGEL, attested | enough | 2 |
 | degree modifier of an adjective | *plenty* | common noun | licensed 2 | CGEL, analysis | enough, quant-nouns | 2 |
 | degree modifier of an adjective | *very* | adverb | licensed | analysis | det-uniform | 1 |
+| degree modifier of a non-adjective | *enough* | determinative | licensed 3, conditional | CGEL 3, analysis | enough, independent | 4 |
+| degree modifier of a non-adjective | *this* | determinative | licensed 3 | analysis 2, CGEL | det-uniform, fragment, payne | 3 |
+| degree modifier of a non-adjective | *lot* | common noun | licensed | CGEL | payne | 1 |
+| degree modifier of a non-adjective | *too* | adverb | licensed | analysis | payne | 1 |
+| degree modifier of a non-adjective | *very* | adverb | licensed | analysis | payne | 1 |
+| comparative than-complement | *many* | determinative | licensed 2 | analysis, CGEL | adjectival-profile, payne | 2 |
+| comparative than-complement | *ten* | determinative | licensed | analysis | det-uniform | 1 |
 | predicative complement | *a* | determinative | licensed, excluded | constructed, other source | adjectival-profile, article-membership | 2 |
 | predicative complement | *enough* | determinative | licensed | constructed | saturation | 1 |
 | predicative complement | *every* | determinative | excluded | other source | article-membership | 1 |
@@ -190,49 +227,16 @@
 | predicative complement | *kim* | proper noun | licensed | constructed | adjectival-profile | 1 |
 | predicative complement | *my* | pronoun | licensed | CGEL | genitive-head | 1 |
 | predicative complement | *ill* | adjective (control) | licensed | constructed | adjectival-profile | 1 |
-| number agreement or transparency | *some* | determinative | licensed | analysis | quant-nouns | 1 |
-| number agreement or transparency | *the* | determinative | licensed 2 | constructed 2 | quant-nouns | 2 |
-| number agreement or transparency | *lot* | common noun | licensed | CGEL | quant-nouns | 1 |
-| number agreement or transparency | *people* | common noun | licensed 2, excluded 2 | constructed 2, analysis 2 | quant-nouns | 4 |
-| number agreement or transparency | *my* | pronoun | licensed 2 | constructed 2 | genitive-head | 2 |
-| number agreement or transparency | *rich* | adjective (control) | licensed | CGEL | quant-controls | 1 |
-| degree modifier of a non-adjective | *enough* | determinative | licensed 3, conditional | CGEL 3, analysis | enough, independent | 4 |
-| degree modifier of a non-adjective | *this* | determinative | licensed 3 | analysis 2, CGEL | det-uniform, fragment, payne | 3 |
-| degree modifier of a non-adjective | *lot* | common noun | licensed | CGEL | payne | 1 |
-| degree modifier of a non-adjective | *too* | adverb | licensed | analysis | payne | 1 |
-| degree modifier of a non-adjective | *very* | adverb | licensed | analysis | payne | 1 |
-| base of a compound determinative | *a* | determinative | licensed 4 | CGEL 3, analysis | adjectival-profile, article-membership | 4 |
-| base of a compound determinative | *anyone* | determinative | licensed 2 | analysis 2 | compounds | 2 |
-| base of a compound determinative | *someone* | determinative | conditional | CGEL | inflection | 1 |
-| base of a compound determinative | *something* | determinative | conditional | CGEL | inflection | 1 |
-| base of a compound determinative | *present* | common noun | licensed | constructed | compounds | 1 |
-| takes an external determiner | *few* | determinative | licensed 3, conditional 2 | analysis 3, CGEL 2 | det-uniform, evidence, inheritance, modification | 5 |
-| takes an external determiner | *the* | determinative | licensed | analysis | fragment | 1 |
-| takes an external determiner | *this* | determinative | conditional | CGEL | inheritance | 1 |
-| takes an external determiner | *two* | determinative | conditional | CGEL | inheritance | 1 |
-| takes an external determiner | *who* | pronoun | licensed | CGEL | inheritance | 1 |
-| number inflection | *each* | determinative | excluded | analysis | inflection | 1 |
-| number inflection | *several* | determinative | excluded | analysis | inflection | 1 |
-| number inflection | *some* | determinative | excluded | analysis | inflection | 1 |
-| number inflection | *that* | determinative | licensed | CGEL | inflection | 1 |
-| number inflection | *this* | determinative | licensed | CGEL | inflection | 1 |
-| number inflection | *you* | pronoun | conditional | CGEL | inflection | 1 |
-| number inflection | *rich* | adjective (control) | licensed | CGEL | inflection | 1 |
-| genitive marking | *someone* | determinative | licensed | analysis | inflection | 1 |
-| genitive marking | *dog* | common noun | licensed | analysis | inflection | 1 |
-| genitive marking | *kim* | proper noun | licensed 2 | analysis 2 | det-uniform, inflection | 2 |
-| genitive marking | *my* | pronoun | licensed 2 | analysis 2 | inflection, inheritance | 2 |
-| grade inflection | *few* | determinative | licensed | CGEL | adjectival-profile | 1 |
-| grade inflection | *little* | determinative | licensed | CGEL | adjectival-profile | 1 |
-| grade inflection | *many* | determinative | licensed | CGEL | adjectival-profile | 1 |
-| grade inflection | *much* | determinative | licensed | CGEL | adjectival-profile | 1 |
-| comparative than-complement | *many* | determinative | licensed 2 | analysis, CGEL | adjectival-profile, payne | 2 |
-| comparative than-complement | *ten* | determinative | licensed | analysis | det-uniform | 1 |
-| marker of coordination | *both* | determinative | licensed | CGEL | enough | 1 |
-| marker of coordination | *either* | determinative | licensed | CGEL | enough | 1 |
-| marker of coordination | *neither* | determinative | licensed | CGEL | enough | 1 |
-| predeterminer modifier | *all* | determinative | licensed | CGEL | independent | 1 |
-| predeterminer modifier | *both* | determinative | licensed | CGEL | independent | 1 |
-| predeterminer modifier | *half* | common noun | licensed | CGEL | independent | 1 |
-| existential displaced subject | *several* | determinative | licensed | CGEL | independent | 1 |
-| existential displaced subject | *second* | adjective (control) | licensed | CGEL | quant-controls | 1 |
+| **Structural analysis** | | | | | | |
+| fused-head analysis | *a* | determinative | excluded | analysis | det-uniform | 1 |
+| fused-head analysis | *anyone* | determinative | licensed 2 | other source, analysis | compounds | 2 |
+| fused-head analysis | *few* | determinative | licensed 9 | analysis 8, CGEL | costs, modification, payne | 9 |
+| fused-head analysis | *some* | determinative | licensed 6, excluded | analysis 5, CGEL 2 | head-relations, intro, modification, saturation | 7 |
+| fused-head analysis | *two* | determinative | licensed | CGEL | modification | 1 |
+| fused-head analysis | *people* | common noun | licensed | CGEL | adjectival-profile | 1 |
+| fused-head analysis | *present* | common noun | licensed 3 | analysis 2, other source | compounds | 3 |
+| fused-head analysis | *survivors* | common noun | licensed | analysis | modification | 1 |
+| fused-head analysis | *my* | pronoun | licensed | CGEL | genitive-head | 1 |
+| fused-head analysis | *rich* | adjective (control) | licensed 3, conditional | analysis 2, CGEL (restricted), CGEL | adjectival-profile, independent, intro, modification | 4 |
+| fused-head analysis | *second* | adjective (control) | licensed | CGEL | quant-controls | 1 |
+| fused-head analysis | *hardly* | adverb | licensed 2 | other source, analysis | compounds | 2 |
