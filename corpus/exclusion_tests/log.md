@@ -18,6 +18,6 @@ Site hit rate limit after 4+ queries within 5 minutes. Requested 1-2 minute wait
 - very_this
 - so_every
 
-**Status:** Site rate-limited after 4+ queries within 5 minutes. Message: "You have done 4 queries or more in the last 5 minutes, which have taken a long time to run. Please wait 1-2 minutes before doing more searches."
+**Status:** Site blocks automated access. After initial rate limiting (4+ queries in 5 minutes), attempt to resume with paced queries triggered automation detection. Message: "It looks like you might be trying to use some type of tool to automate access to the corpora, which is strongly discouraged. Please close the browser and start again."
 
-The site blocks access to KWIC pages when query rate exceeds limit. Additional manual queries or a longer wait period (several hours) needed to complete remaining 6 searches.
+Remaining queries are gathered by hand (Brett runs the query and saves the lines); no session or IP workaround is to be used.
