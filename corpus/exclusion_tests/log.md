@@ -27,3 +27,6 @@ Zero hits on COCA: every [v*z*], every [v*d*], every [vm*], every [y*], take eve
 
 ## 2026-09-17, plural compound determinatives (COCA List, Brett)
 somethings 590, nothings 416, nobodies 318, somewheres 178, somebodies 115, anywheres 51, nowheres 44, anythings 38, anybodies 20 (total 1,770). Caveats: *nothings* is largely *sweet nothings*; *somewheres/anywheres/nowheres* are dialectal adverb forms, not plurals; *somethings* includes *thirty-somethings* (CGEL p. 1716). Plural inflection on the set-denoting compound is attested; the §4.5/§5.5 clause stands, with these counts to be footnoted.
+
+## 2026-09-17, opportunity comparison (COCA List, Brett)
+each has 1,578; each was 1,005; each will 507; every will 12; every has 8; every was 3 (total 3,113). Independent each before a finite verb is about 134 times as frequent as every; the every hits are the surnames and slips read in every-reading.md.

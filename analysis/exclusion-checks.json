@@ -6,9 +6,10 @@
    "section": "sec:independent",
    "corpus": "COCA",
    "queries": [
-    "each/every [v*]"
+    "each/every [v*]",
+    "each/every was/has/will (List)"
    ],
-   "hits": "618 lines with \\mention{every} read (of 1,095 with \\mention{each} or \\mention{every})",
+   "hits": "618 lines with \\mention{every} read (of 1,095 with \\mention{each} or \\mention{every}); List: \\mention{each} has/was/will 1,578/1,005/507 against \\mention{every} will/has/was 12/8/3",
    "result": "no ordinary fused-head use; \\mention{every} in ellipsis (\\mention{if not every, then almost every N}), reply fragments, and binomials (\\mention{any and every}); slips for \\mention{everyone} in informal text",
    "handling": "claim kept for fused-head use"
   },
