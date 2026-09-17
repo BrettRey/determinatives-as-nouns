@@ -1,0 +1,48 @@
+{
+ "construction": {
+  "type": "choice",
+  "instructions": {
+   "task": "Assign this claim about an English expression to one construction id from the criteria.",
+   "rules": "Assignment rules (they align this task with an existing keyed extraction):\n- subject, object, complement of a preposition, 'independent use', pro-form or anaphoric use, NP use without a following nominal -> independent_argument. A relative-clause postmodifier on such a phrase does not change this.\n- an independent phrase with a partitive of-PP -> independent_partitive.\n- Det or determiner before a separate nominal (the book, few doctors, some teachers) -> dependent_det. Internal Mod / attributive position before a separate nominal (numerous people, the rich man) -> dependent_internal_mod.\n- a degree adverb attached INSIDE the phrase (very few, so many, too much, how little, as few as, quite a few) -> internal_mod_admission. An adjective inside the phrase (the lucky few, poor old me, lucky you) -> internal_mod_admission.\n- an approximative or focusing adverb attached OUTSIDE (almost every, nearly all, hardly any, practically no, only you, absolutely nothing) -> peripheral_mod_admission.\n- the phrase itself modifies an adjective (a great deal better, enough good, plenty big, two years old) -> degree_modifier_adj; the phrase modifies a verb, adverb, preposition, determinative or comparative (I hadn't prepared enough, this big, a lot more) -> degree_modifier_nonadj.\n- predicative complement of a copula (they are many, that is mine) -> predicative_complement; than-phrase -> comparative_complement; existential there -> existential_displaced_subject.\n- if the sentence is about the analysis of the phrase (ordinary Head, fusion, ultimate lexical head, constraint fragment rows that only restate a permission) choose the construction the permission concerns, not fused_head, unless fusion itself is the point.\n- Use taxonomic_or_meta only when no construction is at issue. Use other only when nothing fits, and say what in other_label."
+  },
+  "criteria": {
+   "dependent_det": "A phrase functions as Det before a separate target nominal.",
+   "dependent_internal_mod": "A phrase functions as internal Mod before a separate target nominal.",
+   "independent_argument": "A phrase has an ordinary subject, object, or preposition-complement use without a separate target nominal.",
+   "independent_partitive": "An independent phrase contains a partitive of-PP.",
+   "degree_modifier_adj": "A phrase functions as a degree modifier of an adjective.",
+   "existential_displaced_subject": "A phrase functions as displaced subject in an existential there-construction, with dummy there as subject.",
+   "internal_mod_admission": "A phrase admits a modifier attached inside its own nominal projection; the query states the modifier and its position.",
+   "peripheral_mod_admission": "A phrase admits a peripheral modifier attached outside its own determiner and internal nominal dependents; the query states the modifier.",
+   "comparative_complement": "A phrase contains a comparative than-phrase complement.",
+   "degree_modifier_nonadj": "A phrase functions as a degree modifier of a non-adjectival target; the query states the target category.",
+   "predicative_complement": "A phrase functions as predicative complement of a copular verb.",
+   "genitive_marking": "The phrase takes genitive marking or has a genitive form (Kim's, my/mine, whose).",
+   "number_agreement": "The phrase controls or transmits subject-verb agreement or number (number transparency, singular/plural selection).",
+   "number_inflection": "The phrase inflects for number (plural -s) or lacks a number contrast.",
+   "grade_inflection": "The phrase has comparative or superlative inflection or a grade paradigm (fewer/fewest, more/most, less/least).",
+   "predeterminer_mod": "The phrase functions as predeterminer modifier before a determined NP (all the books, both these).",
+   "coordination_marker": "The phrase functions as a marker of coordination (both ... and, either ... or, neither ... nor).",
+   "compound_base": "The phrase is the determinative base of a compound (anyone, something, nothing) or the claim concerns a compound's modifier domain.",
+   "fused_head": "The claim concerns the fused-head analysis (fused determiner-head or modifier-head) of the phrase, or an ordinary-Head versus fusion comparison.",
+   "external_determination": "The phrase, itself determinative-headed, takes an external determiner (the few, the lucky few, a certain, the very few).",
+   "taxonomic_or_meta": "The sentence makes a taxonomic, analytical, or methodological statement about a category or class, not a claim about a specific construction.",
+   "other": "None of the above. Give other_label in a few words."
+  }
+ },
+ "evidence_type": {
+  "type": "choice",
+  "instructions": "What basis does the manuscript sentence give for this claim? Classify the stated grounds, not their strength.",
+  "criteria": {
+   "cgel_described": "the sentence reports a description or analysis from CGEL (Huddleston & Pullum 2002), usually with a citation",
+   "cgel_restricted": "the sentence reports a restriction or exclusion stated in CGEL",
+   "other_source_described": "the sentence reports a description from a source other than CGEL (Payne, Hudson, Spinillo, Lyons, Sommerstein, Palmer, Reynolds' earlier papers)",
+   "constructed_illustration": "the basis is a constructed example presented as possible or well formed",
+   "constructed_ungrammatical": "the basis is a constructed example marked ungrammatical or excluded",
+   "retained_attestation": "the basis is an attested corpus or web example, usually with a footnoted source",
+   "searched_not_found": "the sentence reports a search that returned no qualifying attestation",
+   "authors_analysis": "the sentence states the manuscript's own analysis or proposal, not a source or an example",
+   "not_determinable": "the basis cannot be determined from the sentence"
+  }
+ }
+}

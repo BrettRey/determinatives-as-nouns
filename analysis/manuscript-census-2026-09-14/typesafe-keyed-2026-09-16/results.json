@@ -1,0 +1,186 @@
+{
+ "model": "jev-1.13.0",
+ "claims_tested": 124,
+ "fresh_requests": 0,
+ "usage_fresh": {},
+ "elapsed_s": 0.0,
+ "pairings": 156,
+ "keyed_claims": 55,
+ "pairwise_agreement": {
+  "ts_construction": "76/156",
+  "haiku_construction": "86/156",
+  "ts_evidence": "42/156",
+  "census_evidence": "86/156",
+  "ts_vs_haiku_construction": "120/156"
+ },
+ "per_keyed_claim_any_match": {
+  "ts_construction": "43/55",
+  "haiku_construction": "51/55",
+  "ts_evidence": "29/55",
+  "census_evidence": "46/55"
+ },
+ "construction_confidence_buckets": {
+  "0.5-0.8": {
+   "n": 53,
+   "agree_key": 29,
+   "agree_haiku": 39
+  },
+  "<0.5": {
+   "n": 34,
+   "agree_key": 9,
+   "agree_haiku": 16
+  },
+  ">=0.8": {
+   "n": 69,
+   "agree_key": 38,
+   "agree_haiku": 65
+  }
+ },
+ "construction_distribution": {
+  "typesafe": [
+   [
+    "internal_mod_admission",
+    17
+   ],
+   [
+    "degree_modifier_adj",
+    14
+   ],
+   [
+    "taxonomic_or_meta",
+    13
+   ],
+   [
+    "degree_modifier_nonadj",
+    11
+   ],
+   [
+    "peripheral_mod_admission",
+    10
+   ],
+   [
+    "independent_argument",
+    10
+   ],
+   [
+    "dependent_det",
+    9
+   ],
+   [
+    "fused_head",
+    9
+   ],
+   [
+    "number_agreement",
+    7
+   ],
+   [
+    "independent_partitive",
+    6
+   ],
+   [
+    "predicative_complement",
+    4
+   ],
+   [
+    "dependent_internal_mod",
+    3
+   ],
+   [
+    "comparative_complement",
+    2
+   ],
+   [
+    "compound_base",
+    2
+   ],
+   [
+    "external_determination",
+    2
+   ],
+   [
+    "predeterminer_mod",
+    2
+   ],
+   [
+    "existential_displaced_subject",
+    2
+   ],
+   [
+    "number_inflection",
+    1
+   ]
+  ],
+  "haiku": [
+   [
+    "internal_mod_admission",
+    23
+   ],
+   [
+    "degree_modifier_adj",
+    16
+   ],
+   [
+    "independent_argument",
+    15
+   ],
+   [
+    "dependent_det",
+    9
+   ],
+   [
+    "peripheral_mod_admission",
+    9
+   ],
+   [
+    "fused_head",
+    8
+   ],
+   [
+    "degree_modifier_nonadj",
+    8
+   ],
+   [
+    "number_agreement",
+    7
+   ],
+   [
+    "independent_partitive",
+    6
+   ],
+   [
+    "predicative_complement",
+    5
+   ],
+   [
+    "taxonomic_or_meta",
+    4
+   ],
+   [
+    "comparative_complement",
+    3
+   ],
+   [
+    "compound_base",
+    3
+   ],
+   [
+    "dependent_internal_mod",
+    3
+   ],
+   [
+    "existential_displaced_subject",
+    2
+   ],
+   [
+    "number_inflection",
+    2
+   ],
+   [
+    "predeterminer_mod",
+    1
+   ]
+  ]
+ },
+ "mean_construction_confidence": 0.711
+}
