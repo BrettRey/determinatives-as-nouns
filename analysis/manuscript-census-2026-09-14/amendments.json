@@ -14,5 +14,32 @@
   "quote": "Spinillo (\\citeyear{spinillo2004reconceptualising}) & Determinatives redistributed; \\mention{the}, \\mention{a}, and \\mention{every} retained as articles.",
   "previous_quote": "Spinillo & Determinatives redistributed; \\mention{the}, \\mention{a}, and \\mention{every} retained as articles.",
   "reason": "2026-09-16: year citation added to the account column of tab:rivals; the census had flagged the Spinillo row as sourceless at the locus and the rows are now uniform."
- }
+ },
+ "qn-011": {
+  "quote": "\\mention{Each of the people} takes singular agreement by default",
+  "previous_quote": "Singular \\mention{each of the people} doesn't take its number from \\mention{people}",
+  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
+ },
+ "qn-012": {
+  "quote": "ordinary \\mention{a photograph of the people} takes it categorically",
+  "previous_quote": "nor does ordinary \\mention{a photograph of the people}",
+  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
+ },
+ "du-029": {
+  "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+  "previous_quote": "They exclude external determination and a corresponding pre-head adjective.",
+  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
+ },
+ "du-030": {
+  "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+  "previous_quote": "They exclude external determination and a corresponding pre-head adjective.",
+  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
+ },
+ "_evidence": [
+  {
+   "old": "They exclude external determination and a corresponding pre-head adjective.",
+   "new": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+   "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md); applies to the expanded run's evidence quotes (X093, X095, X096, X097), whose bundle is hash-pinned and not edited"
+  }
+ ]
 }

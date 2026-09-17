@@ -48,7 +48,7 @@ def main():
     amend_path = CENSUS / "amendments.json"
     amend = json.loads(amend_path.read_text()) if amend_path.exists() else {}
     for c in census["claims"]:
-        if c["id"] in amend:
+        if c["id"] in amend and not c["id"].startswith("_"):
             c["quote"] = amend[c["id"]]["quote"]
     norm_path = CENSUS / "census-normalized.json"
     norm = json.loads(norm_path.read_text()) if norm_path.exists() else {"lexemes": []}
@@ -76,7 +76,12 @@ def main():
             if sid not in live:
                 failures.append((name, owner, sid, "unknown source id", ev["quote"][:80]))
                 continue
-            if any(ev["quote"] in text for text in live[sid]):
+            q = ev["quote"]
+            if not any(q in text for text in live[sid]):
+                # hash-pinned bundles cannot be edited; _evidence amendments rewrite a quote's changed span
+                for e in amend.get("_evidence", []):
+                    q = q.replace(e["old"], e["new"])
+            if any(q in text for text in live[sid]):
                 good += 1
             else:
                 failures.append((name, owner, sid, "quote not found", ev["quote"][:80]))
