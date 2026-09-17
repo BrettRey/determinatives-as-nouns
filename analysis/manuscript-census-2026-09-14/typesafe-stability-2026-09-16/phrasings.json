@@ -1,0 +1,15 @@
+{
+ "A": "see ../typesafe-keyed-2026-09-16/questions.json (construction)",
+ "B": "Which construction from the criteria does this sentence say the expression participates in? Choose the construction the sentence's claim concerns.",
+ "C": {
+  "question": "Identify the construction the manuscript's sentence attributes to the expression.",
+  "how": [
+   "First decide whether the sentence names any construction for the expression; if it only makes a category, taxonomy or method point, choose taxonomic_or_meta.",
+   "If the expression is described as subject, object, complement of a preposition, or in independent, pro-form or anaphoric use, choose independent_argument; with a partitive of-PP, independent_partitive.",
+   "If it precedes a separate nominal as Det, choose dependent_det; as an attributive modifier, dependent_internal_mod.",
+   "If the sentence is about a modifier attached inside the expression's own phrase (very few, the lucky few), choose internal_mod_admission; attached outside (almost every, only you), peripheral_mod_admission.",
+   "If the expression itself modifies an adjective, choose degree_modifier_adj; if it modifies anything else, degree_modifier_nonadj.",
+   "Otherwise choose the closest specific construction; use other only when none fits."
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "model": "jev-1.13.0",
+ "answers": {
+  "construction": {
+   "type": "choice",
+   "choice": "internal_mod_admission",
+   "confidence": 0.54,
+   "probabilities": {
+    "other": 0.0,
+    "dependent_internal_mod": 0.0,
+    "compound_base": 0.01,
+    "comparative_complement": 0.0,
+    "predicative_complement": 0.0,
+    "grade_inflection": 0.0,
+    "genitive_marking": 0.0,
+    "degree_modifier_adj": 0.0,
+    "external_determination": 0.12,
+    "number_agreement": 0.0,
+    "degree_modifier_nonadj": 0.0,
+    "coordination_marker": 0.0,
+    "independent_partitive": 0.0,
+    "independent_argument": 0.0,
+    "predeterminer_mod": 0.0,
+    "peripheral_mod_admission": 0.13,
+    "taxonomic_or_meta": 0.14,
+    "internal_mod_admission": 0.5700000000000001,
+    "dependent_det": 0.02,
+    "fused_head": 0.0,
+    "number_inflection": 0.0,
+    "existential_displaced_subject": 0.0
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 1379,
+  "output_tokens": 247
+ }
+}

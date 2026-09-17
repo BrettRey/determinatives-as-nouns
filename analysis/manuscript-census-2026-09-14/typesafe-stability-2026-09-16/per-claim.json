@@ -1,0 +1,11188 @@
+[
+ {
+  "id": "fm-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fm-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.79
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fm-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.78
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fm-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fm-005",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.79
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-001",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.97
+  ],
+  "B": [
+   "dependent_det",
+   0.99
+  ],
+  "C": [
+   "dependent_det",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-002",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.88
+  ],
+  "B": [
+   "independent_argument",
+   0.89
+  ],
+  "C": [
+   "independent_argument",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-003",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.95
+  ],
+  "B": [
+   "independent_partitive",
+   0.99
+  ],
+  "C": [
+   "independent_partitive",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-004",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.99
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-005",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.39
+  ],
+  "B": [
+   "fused_head",
+   0.79
+  ],
+  "C": [
+   "fused_head",
+   0.65
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-006",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.96
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-007",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.86
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-008",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.62
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.38
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.47
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-010",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.94
+  ],
+  "B": [
+   "dependent_det",
+   0.93
+  ],
+  "C": [
+   "dependent_det",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-011",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "independent_argument",
+   0.96
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-012",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "independent_argument",
+   0.96
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-013",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "B": [
+   "fused_head",
+   0.52
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "int-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "fused_head",
+   0.38
+  ],
+  "B": [
+   "fused_head",
+   0.77
+  ],
+  "C": [
+   "fused_head",
+   0.66
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-015",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "fused_head",
+   0.93
+  ],
+  "C": [
+   "fused_head",
+   0.79
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "int-016",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.65
+  ],
+  "B": [
+   "fused_head",
+   0.94
+  ],
+  "C": [
+   "fused_head",
+   0.83
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-017",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.69
+  ],
+  "B": [
+   "fused_head",
+   0.94
+  ],
+  "C": [
+   "fused_head",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-018",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-019",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "fused_head",
+   0.55
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "int-020",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "int-021",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.4
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-001",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "B": [
+   "independent_argument",
+   0.87
+  ],
+  "C": [
+   "independent_argument",
+   0.92
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-002",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.55
+  ],
+  "B": [
+   "independent_argument",
+   0.97
+  ],
+  "C": [
+   "independent_argument",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "dependent_det",
+   0.41
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.59
+  ],
+  "C": [
+   "independent_argument",
+   0.71
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-004",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "B": [
+   "independent_argument",
+   0.54
+  ],
+  "C": [
+   "independent_argument",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-005",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "B": [
+   "independent_argument",
+   0.57
+  ],
+  "C": [
+   "independent_argument",
+   0.64
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-006",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "B": [
+   "independent_argument",
+   0.56
+  ],
+  "C": [
+   "independent_argument",
+   0.58
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-007",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "B": [
+   "independent_argument",
+   0.51
+  ],
+  "C": [
+   "independent_argument",
+   0.64
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-008",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "independent_argument",
+   0.53
+  ],
+  "C": [
+   "independent_argument",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-009",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "independent_argument",
+   0.62
+  ],
+  "C": [
+   "independent_argument",
+   0.57
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-010",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "B": [
+   "independent_argument",
+   0.61
+  ],
+  "C": [
+   "independent_argument",
+   0.54
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-011",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.59
+  ],
+  "B": [
+   "independent_argument",
+   0.55
+  ],
+  "C": [
+   "independent_argument",
+   0.58
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-012",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "B": [
+   "independent_argument",
+   0.53
+  ],
+  "C": [
+   "independent_argument",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-013",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "independent_argument",
+   0.48
+  ],
+  "C": [
+   "independent_argument",
+   0.48
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-014",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "C": [
+   "independent_argument",
+   0.55
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-015",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.63
+  ],
+  "B": [
+   "independent_argument",
+   0.86
+  ],
+  "C": [
+   "independent_argument",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-016",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.91
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-017",
+  "haiku": "predeterminer_mod",
+  "A": [
+   "predeterminer_mod",
+   0.93
+  ],
+  "B": [
+   "predeterminer_mod",
+   1.0
+  ],
+  "C": [
+   "predeterminer_mod",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-018",
+  "haiku": "predeterminer_mod",
+  "A": [
+   "predeterminer_mod",
+   0.94
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.99
+  ],
+  "C": [
+   "predeterminer_mod",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-019",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.8
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-020",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.89
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.93
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-021",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "dependent_internal_mod",
+   0.34
+  ],
+  "B": [
+   "dependent_det",
+   0.37
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.2
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-022",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "dependent_internal_mod",
+   0.28
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.18
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.23
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-023",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.73
+  ],
+  "B": [
+   "dependent_det",
+   0.8
+  ],
+  "C": [
+   "dependent_det",
+   0.53
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-024",
+  "haiku": "predeterminer_mod",
+  "A": [
+   "predeterminer_mod",
+   0.83
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.97
+  ],
+  "C": [
+   "predeterminer_mod",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-025",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-026",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "independent_argument",
+   0.96
+  ],
+  "C": [
+   "independent_argument",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-027",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.99
+  ],
+  "B": [
+   "independent_argument",
+   0.98
+  ],
+  "C": [
+   "independent_argument",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-028",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   0.99
+  ],
+  "C": [
+   "independent_argument",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-029",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.99
+  ],
+  "B": [
+   "independent_argument",
+   1.0
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-030",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   1.0
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-031",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   1.0
+  ],
+  "C": [
+   "independent_argument",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-032",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   0.99
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-033",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   0.99
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-034",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   1.0
+  ],
+  "C": [
+   "independent_argument",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-035",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.99
+  ],
+  "B": [
+   "independent_argument",
+   0.91
+  ],
+  "C": [
+   "independent_argument",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-036",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "independent_argument",
+   0.95
+  ],
+  "C": [
+   "independent_argument",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-037",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "independent_argument",
+   0.94
+  ],
+  "C": [
+   "independent_argument",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-038",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.86
+  ],
+  "B": [
+   "fused_head",
+   0.66
+  ],
+  "C": [
+   "fused_head",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-039",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.86
+  ],
+  "B": [
+   "fused_head",
+   0.51
+  ],
+  "C": [
+   "fused_head",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-040",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "B": [
+   "fused_head",
+   0.37
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-041",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.9
+  ],
+  "B": [
+   "independent_partitive",
+   0.96
+  ],
+  "C": [
+   "independent_partitive",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-042",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.63
+  ],
+  "B": [
+   "independent_argument",
+   0.69
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-043",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.93
+  ],
+  "B": [
+   "fused_head",
+   0.98
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-044",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-045",
+  "haiku": "existential_displaced_subject",
+  "A": [
+   "existential_displaced_subject",
+   0.99
+  ],
+  "B": [
+   "existential_displaced_subject",
+   1.0
+  ],
+  "C": [
+   "existential_displaced_subject",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-046",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.53
+  ],
+  "B": [
+   "dependent_det",
+   0.23
+  ],
+  "C": [
+   "dependent_det",
+   0.53
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-047",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.43
+  ],
+  "B": [
+   "genitive_marking",
+   0.54
+  ],
+  "C": [
+   "dependent_det",
+   0.8
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-048",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.56
+  ],
+  "B": [
+   "genitive_marking",
+   0.45
+  ],
+  "C": [
+   "dependent_det",
+   0.76
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-049",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "independent_argument",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-050",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "dependent_det",
+   0.36
+  ],
+  "C": [
+   "dependent_det",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-051",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.34
+  ],
+  "B": [
+   "genitive_marking",
+   0.55
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-052",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.88
+  ],
+  "B": [
+   "dependent_det",
+   0.96
+  ],
+  "C": [
+   "dependent_det",
+   0.83
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-053",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.92
+  ],
+  "B": [
+   "dependent_det",
+   0.96
+  ],
+  "C": [
+   "dependent_det",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-054",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.89
+  ],
+  "B": [
+   "dependent_det",
+   0.97
+  ],
+  "C": [
+   "dependent_det",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-055",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-056",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.77
+  ],
+  "B": [
+   "dependent_det",
+   0.66
+  ],
+  "C": [
+   "dependent_det",
+   0.65
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-057",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.91
+  ],
+  "B": [
+   "dependent_det",
+   0.86
+  ],
+  "C": [
+   "dependent_det",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-058",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.92
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-059",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.96
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.62
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-060",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.97
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.64
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-061",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "dependent_internal_mod",
+   0.54
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.73
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-062",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.53
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.62
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.44
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-063",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.28
+  ],
+  "B": [
+   "independent_argument",
+   0.28
+  ],
+  "C": [
+   "other",
+   0.35
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-064",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-065",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.55
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.64
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-066",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.97
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.72
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.6
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-067",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "internal_mod_admission",
+   0.43
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.95
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.8
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ind-068",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.87
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.87
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.68
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-069",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.91
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.19
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-070",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.84
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.48
+  ],
+  "C": [
+   "fused_head",
+   0.31
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-071",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.52
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.64
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.27
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ind-072",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.62
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.68
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.37
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-073",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.43
+  ],
+  "B": [
+   "compound_base",
+   0.52
+  ],
+  "C": [
+   "compound_base",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-074",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.53
+  ],
+  "B": [
+   "compound_base",
+   0.72
+  ],
+  "C": [
+   "compound_base",
+   0.45
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-075",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.56
+  ],
+  "C": [
+   "independent_argument",
+   0.34
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-076",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.49
+  ],
+  "C": [
+   "independent_argument",
+   0.26
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-077",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.32
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ind-078",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.61
+  ],
+  "B": [
+   "compound_base",
+   0.37
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qn-001",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.63
+  ],
+  "B": [
+   "independent_partitive",
+   0.71
+  ],
+  "C": [
+   "independent_partitive",
+   0.48
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-002",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.77
+  ],
+  "B": [
+   "independent_partitive",
+   0.8
+  ],
+  "C": [
+   "independent_partitive",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-003",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.74
+  ],
+  "B": [
+   "independent_partitive",
+   0.66
+  ],
+  "C": [
+   "independent_partitive",
+   0.66
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_partitive",
+   0.87
+  ],
+  "B": [
+   "independent_partitive",
+   0.86
+  ],
+  "C": [
+   "independent_partitive",
+   0.76
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-005",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.63
+  ],
+  "B": [
+   "number_agreement",
+   0.99
+  ],
+  "C": [
+   "number_agreement",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-006",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.47
+  ],
+  "B": [
+   "number_agreement",
+   0.99
+  ],
+  "C": [
+   "number_agreement",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-007",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.79
+  ],
+  "B": [
+   "number_agreement",
+   0.99
+  ],
+  "C": [
+   "number_agreement",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-008",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.7
+  ],
+  "B": [
+   "number_agreement",
+   0.98
+  ],
+  "C": [
+   "number_agreement",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-009",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.78
+  ],
+  "B": [
+   "number_agreement",
+   0.94
+  ],
+  "C": [
+   "number_agreement",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-010",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.85
+  ],
+  "B": [
+   "number_agreement",
+   0.98
+  ],
+  "C": [
+   "number_agreement",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-011",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.82
+  ],
+  "B": [
+   "number_agreement",
+   0.97
+  ],
+  "C": [
+   "number_agreement",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-012",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.63
+  ],
+  "B": [
+   "number_agreement",
+   0.96
+  ],
+  "C": [
+   "number_agreement",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-013",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.45
+  ],
+  "B": [
+   "number_agreement",
+   0.8
+  ],
+  "C": [
+   "number_agreement",
+   0.51
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-015",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.82
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-016",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.43
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.25
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "qn-017",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.28
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.32
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.24
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qn-018",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "B": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-019",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "B": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qn-020",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.58
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.39
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "qn-021",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.38
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qn-022",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.39
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qn-023",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.71
+  ],
+  "B": [
+   "independent_partitive",
+   0.93
+  ],
+  "C": [
+   "independent_partitive",
+   0.64
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-001",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.95
+  ],
+  "B": [
+   "dependent_det",
+   0.57
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.45
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-002",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_internal_mod",
+   0.58
+  ],
+  "B": [
+   "dependent_det",
+   0.71
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-003",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.9
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.5
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-004",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.47
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.64
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.84
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.55
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-006",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.35
+  ],
+  "B": [
+   "independent_partitive",
+   0.84
+  ],
+  "C": [
+   "independent_partitive",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-007",
+  "haiku": "independent_partitive",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "independent_partitive",
+   0.66
+  ],
+  "C": [
+   "independent_partitive",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-008",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.99
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-009",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.99
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-010",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "independent_argument",
+   0.98
+  ],
+  "C": [
+   "independent_argument",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-011",
+  "haiku": "independent_argument",
+  "A": [
+   "existential_displaced_subject",
+   0.63
+  ],
+  "B": [
+   "existential_displaced_subject",
+   0.47
+  ],
+  "C": [
+   "independent_argument",
+   0.85
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "qc-012",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   1.0
+  ],
+  "B": [
+   "independent_argument",
+   0.69
+  ],
+  "C": [
+   "independent_argument",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-013",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-015",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.92
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-016",
+  "haiku": "existential_displaced_subject",
+  "A": [
+   "existential_displaced_subject",
+   1.0
+  ],
+  "B": [
+   "existential_displaced_subject",
+   1.0
+  ],
+  "C": [
+   "existential_displaced_subject",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-017",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.74
+  ],
+  "B": [
+   "number_agreement",
+   0.97
+  ],
+  "C": [
+   "number_agreement",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-018",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.75
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "qc-019",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.78
+  ],
+  "B": [
+   "independent_argument",
+   0.92
+  ],
+  "C": [
+   "independent_argument",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-001",
+  "haiku": "grade_inflection",
+  "A": [
+   "grade_inflection",
+   0.9
+  ],
+  "B": [
+   "grade_inflection",
+   1.0
+  ],
+  "C": [
+   "grade_inflection",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-002",
+  "haiku": "grade_inflection",
+  "A": [
+   "grade_inflection",
+   0.96
+  ],
+  "B": [
+   "grade_inflection",
+   1.0
+  ],
+  "C": [
+   "grade_inflection",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-003",
+  "haiku": "grade_inflection",
+  "A": [
+   "grade_inflection",
+   0.93
+  ],
+  "B": [
+   "grade_inflection",
+   1.0
+  ],
+  "C": [
+   "grade_inflection",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-004",
+  "haiku": "grade_inflection",
+  "A": [
+   "grade_inflection",
+   0.92
+  ],
+  "B": [
+   "grade_inflection",
+   1.0
+  ],
+  "C": [
+   "grade_inflection",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-005",
+  "haiku": "comparative_complement",
+  "A": [
+   "comparative_complement",
+   0.92
+  ],
+  "B": [
+   "comparative_complement",
+   0.98
+  ],
+  "C": [
+   "comparative_complement",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-006",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "degree_modifier_adj",
+   0.56
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.95
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.76
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-007",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.73
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.51
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.3
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-008",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.34
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.43
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-009",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.22
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.26
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.42
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-010",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.42
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.43
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-011",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "degree_modifier_nonadj",
+   0.68
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.89
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.45
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-012",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "degree_modifier_nonadj",
+   0.56
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.76
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.31
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-013",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "degree_modifier_nonadj",
+   0.69
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.72
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.27
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-014",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.84
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.42
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.28
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-015",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.79
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.37
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.26
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-016",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.6
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.37
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.5
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-017",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.87
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.21
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-018",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "B": [
+   "grade_inflection",
+   0.86
+  ],
+  "C": [
+   "grade_inflection",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-019",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "B": [
+   "grade_inflection",
+   0.89
+  ],
+  "C": [
+   "grade_inflection",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-020",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.35
+  ],
+  "B": [
+   "grade_inflection",
+   0.83
+  ],
+  "C": [
+   "grade_inflection",
+   0.48
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-021",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.41
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.34
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-022",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.7
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.19
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-023",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-024",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.98
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.9
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-025",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.9
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-026",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.66
+  ],
+  "B": [
+   "external_determination",
+   0.35
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.25
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-027",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.94
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.71
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.53
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-028",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.19
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-029",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.22
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.36
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-030",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.18
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-031",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.4
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-032",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.55
+  ],
+  "B": [
+   "compound_base",
+   0.84
+  ],
+  "C": [
+   "compound_base",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-033",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.68
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.65
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-034",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.89
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-035",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.88
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-036",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.86
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-037",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.95
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.52
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.34
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-038",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-039",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.43
+  ],
+  "B": [
+   "fused_head",
+   0.89
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-040",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.92
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.86
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-041",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.79
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.46
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.79
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-042",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.97
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-043",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.96
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-044",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.99
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-045",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.97
+  ],
+  "B": [
+   "predicative_complement",
+   0.99
+  ],
+  "C": [
+   "predicative_complement",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-046",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.92
+  ],
+  "B": [
+   "predicative_complement",
+   0.68
+  ],
+  "C": [
+   "predicative_complement",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-047",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.96
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-048",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.84
+  ],
+  "B": [
+   "independent_argument",
+   0.97
+  ],
+  "C": [
+   "independent_argument",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-049",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.92
+  ],
+  "B": [
+   "independent_argument",
+   0.66
+  ],
+  "C": [
+   "independent_argument",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-050",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "independent_argument",
+   0.35
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-051",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.55
+  ],
+  "B": [
+   "independent_argument",
+   0.74
+  ],
+  "C": [
+   "independent_argument",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ap-052",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.56
+  ],
+  "B": [
+   "independent_argument",
+   0.23
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-053",
+  "haiku": "independent_argument",
+  "A": [
+   "dependent_internal_mod",
+   0.48
+  ],
+  "B": [
+   "other",
+   0.36
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "ap-054",
+  "haiku": "independent_argument",
+  "A": [
+   "dependent_internal_mod",
+   0.6
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.3
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ap-055",
+  "haiku": "compound_base",
+  "A": [
+   "internal_mod_admission",
+   0.58
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.4
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.54
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-001",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.66
+  ],
+  "B": [
+   "number_inflection",
+   0.92
+  ],
+  "C": [
+   "number_inflection",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-002",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.9
+  ],
+  "B": [
+   "number_inflection",
+   1.0
+  ],
+  "C": [
+   "number_inflection",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-003",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.93
+  ],
+  "B": [
+   "number_inflection",
+   0.99
+  ],
+  "C": [
+   "number_inflection",
+   0.79
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-004",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.93
+  ],
+  "B": [
+   "number_inflection",
+   0.99
+  ],
+  "C": [
+   "number_inflection",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-005",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.79
+  ],
+  "B": [
+   "number_inflection",
+   0.96
+  ],
+  "C": [
+   "number_inflection",
+   0.7
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-006",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.74
+  ],
+  "B": [
+   "number_inflection",
+   0.92
+  ],
+  "C": [
+   "number_inflection",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-007",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.5
+  ],
+  "B": [
+   "number_inflection",
+   0.85
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.59
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-008",
+  "haiku": "number_inflection",
+  "A": [
+   "number_inflection",
+   0.84
+  ],
+  "B": [
+   "number_inflection",
+   0.98
+  ],
+  "C": [
+   "number_inflection",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-009",
+  "haiku": "number_inflection",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "number_inflection",
+   0.55
+  ],
+  "C": [
+   "independent_argument",
+   0.54
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "inf-010",
+  "haiku": "number_inflection",
+  "A": [
+   "external_determination",
+   0.26
+  ],
+  "B": [
+   "number_inflection",
+   0.34
+  ],
+  "C": [
+   "external_determination",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-011",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.46
+  ],
+  "B": [
+   "external_determination",
+   0.41
+  ],
+  "C": [
+   "external_determination",
+   0.38
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-012",
+  "haiku": "genitive_marking",
+  "A": [
+   "genitive_marking",
+   0.91
+  ],
+  "B": [
+   "genitive_marking",
+   0.99
+  ],
+  "C": [
+   "genitive_marking",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-013",
+  "haiku": "genitive_marking",
+  "A": [
+   "genitive_marking",
+   0.91
+  ],
+  "B": [
+   "genitive_marking",
+   1.0
+  ],
+  "C": [
+   "genitive_marking",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-014",
+  "haiku": "genitive_marking",
+  "A": [
+   "genitive_marking",
+   0.89
+  ],
+  "B": [
+   "genitive_marking",
+   1.0
+  ],
+  "C": [
+   "genitive_marking",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-015",
+  "haiku": "genitive_marking",
+  "A": [
+   "genitive_marking",
+   0.94
+  ],
+  "B": [
+   "genitive_marking",
+   1.0
+  ],
+  "C": [
+   "genitive_marking",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-016",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.72
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-017",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-018",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.51
+  ],
+  "B": [
+   "genitive_marking",
+   0.72
+  ],
+  "C": [
+   "genitive_marking",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-019",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.63
+  ],
+  "B": [
+   "genitive_marking",
+   0.65
+  ],
+  "C": [
+   "genitive_marking",
+   0.53
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-020",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.75
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-021",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.92
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.64
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-022",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.43
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inf-023",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.92
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-024",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-025",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.64
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-026",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.75
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.83
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-027",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.61
+  ],
+  "B": [
+   "independent_argument",
+   0.68
+  ],
+  "C": [
+   "independent_argument",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-028",
+  "haiku": "independent_argument",
+  "A": [
+   "dependent_det",
+   0.52
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.3
+  ],
+  "C": [
+   "independent_argument",
+   0.37
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "inf-029",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.83
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inf-030",
+  "haiku": "other",
+  "A": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "B": [
+   "coordination_marker",
+   0.34
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-001",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "dependent_internal_mod",
+   0.47
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.6
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.36
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mem-002",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.74
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "B": [
+   "genitive_marking",
+   0.42
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.74
+  ],
+  "B": [
+   "genitive_marking",
+   0.42
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "genitive_marking",
+   0.43
+  ],
+  "C": [
+   "dependent_det",
+   0.34
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mem-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "B": [
+   "genitive_marking",
+   0.35
+  ],
+  "C": [
+   "dependent_det",
+   0.74
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mem-007",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "B": [
+   "external_determination",
+   0.59
+  ],
+  "C": [
+   "external_determination",
+   0.46
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-008",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "external_determination",
+   0.62
+  ],
+  "C": [
+   "external_determination",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "B": [
+   "external_determination",
+   0.66
+  ],
+  "C": [
+   "external_determination",
+   0.55
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-010",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.43
+  ],
+  "B": [
+   "external_determination",
+   0.72
+  ],
+  "C": [
+   "external_determination",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-011",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.36
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.4
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-012",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.36
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-013",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.32
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.4
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-014",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "B": [
+   "external_determination",
+   0.32
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-015",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.25
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.34
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-016",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "independent_argument",
+   0.23
+  ],
+  "C": [
+   "predicative_complement",
+   0.39
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mem-017",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "B": [
+   "independent_argument",
+   0.21
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.25
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-018",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "comparative_complement",
+   0.44
+  ],
+  "C": [
+   "comparative_complement",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-019",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.75
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.95
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-020",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.83
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.98
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-021",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.84
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.99
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-022",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.82
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.93
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-023",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "taxonomic_or_meta",
+   0.34
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.22
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.35
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-024",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.23
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.21
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-025",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-026",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "taxonomic_or_meta",
+   0.27
+  ],
+  "B": [
+   "external_determination",
+   0.33
+  ],
+  "C": [
+   "external_determination",
+   0.32
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-027",
+  "haiku": "number_inflection",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "number_inflection",
+   0.36
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-028",
+  "haiku": "genitive_marking",
+  "A": [
+   "genitive_marking",
+   0.43
+  ],
+  "B": [
+   "genitive_marking",
+   0.79
+  ],
+  "C": [
+   "genitive_marking",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-029",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "B": [
+   "genitive_marking",
+   0.59
+  ],
+  "C": [
+   "genitive_marking",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-030",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.82
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-031",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "B": [
+   "other",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-032",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "B": [
+   "other",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-033",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.37
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-034",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "B": [
+   "dependent_det",
+   0.55
+  ],
+  "C": [
+   "dependent_det",
+   0.55
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mem-035",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mem-036",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "art-001",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.54
+  ],
+  "B": [
+   "independent_argument",
+   0.92
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "art-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-001",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.6
+  ],
+  "B": [
+   "independent_argument",
+   0.91
+  ],
+  "C": [
+   "independent_argument",
+   0.54
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-002",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.7
+  ],
+  "B": [
+   "independent_argument",
+   0.95
+  ],
+  "C": [
+   "independent_argument",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-003",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.93
+  ],
+  "B": [
+   "independent_argument",
+   0.68
+  ],
+  "C": [
+   "independent_argument",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-004",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.6
+  ],
+  "B": [
+   "independent_argument",
+   0.68
+  ],
+  "C": [
+   "independent_argument",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-005",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-006",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.75
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-007",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.59
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-008",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.63
+  ],
+  "B": [
+   "dependent_det",
+   0.64
+  ],
+  "C": [
+   "dependent_det",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-009",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.57
+  ],
+  "B": [
+   "dependent_det",
+   0.53
+  ],
+  "C": [
+   "dependent_det",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-010",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.58
+  ],
+  "B": [
+   "dependent_det",
+   0.58
+  ],
+  "C": [
+   "dependent_det",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-011",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.78
+  ],
+  "B": [
+   "dependent_det",
+   0.65
+  ],
+  "C": [
+   "dependent_det",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-012",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "B": [
+   "number_agreement",
+   0.43
+  ],
+  "C": [
+   "dependent_det",
+   0.44
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "am-013",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.68
+  ],
+  "B": [
+   "dependent_det",
+   0.68
+  ],
+  "C": [
+   "dependent_det",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-014",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.62
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-015",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.47
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.95
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-016",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.78
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.97
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-017",
+  "haiku": "compound_base",
+  "A": [
+   "taxonomic_or_meta",
+   0.74
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.8
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-018",
+  "haiku": "compound_base",
+  "A": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "B": [
+   "compound_base",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.78
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-019",
+  "haiku": "compound_base",
+  "A": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-020",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.88
+  ],
+  "B": [
+   "dependent_det",
+   0.73
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-021",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.32
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.53
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-022",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.47
+  ],
+  "B": [
+   "independent_argument",
+   0.34
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-023",
+  "haiku": "predicative_complement",
+  "A": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "B": [
+   "predicative_complement",
+   0.55
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-024",
+  "haiku": "independent_partitive",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "dependent_det",
+   0.47
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.42
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-025",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.72
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.72
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-026",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.45
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "C": [
+   "independent_argument",
+   0.7
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-027",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.93
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.41
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.72
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-028",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.8
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.41
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.63
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-029",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.43
+  ],
+  "B": [
+   "dependent_det",
+   0.23
+  ],
+  "C": [
+   "dependent_det",
+   0.44
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "am-030",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.89
+  ],
+  "B": [
+   "dependent_det",
+   0.87
+  ],
+  "C": [
+   "dependent_det",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-031",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.78
+  ],
+  "B": [
+   "independent_argument",
+   0.48
+  ],
+  "C": [
+   "independent_argument",
+   0.43
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-032",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "dependent_det",
+   0.55
+  ],
+  "B": [
+   "dependent_det",
+   0.92
+  ],
+  "C": [
+   "dependent_det",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "am-033",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fs-001",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.95
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fs-002",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.86
+  ],
+  "B": [
+   "independent_argument",
+   0.66
+  ],
+  "C": [
+   "independent_argument",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fs-003",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.92
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.31
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.65
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "fs-004",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.76
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.19
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.56
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "fs-005",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.93
+  ],
+  "B": [
+   "independent_partitive",
+   0.95
+  ],
+  "C": [
+   "independent_partitive",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "fs-006",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.79
+  ],
+  "B": [
+   "independent_partitive",
+   0.94
+  ],
+  "C": [
+   "independent_partitive",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "ev-001",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.66
+  ],
+  "B": [
+   "fused_head",
+   0.91
+  ],
+  "C": [
+   "independent_argument",
+   0.5
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ev-002",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.45
+  ],
+  "B": [
+   "fused_head",
+   0.59
+  ],
+  "C": [
+   "fused_head",
+   0.46
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "ev-003",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.62
+  ],
+  "B": [
+   "external_determination",
+   0.73
+  ],
+  "C": [
+   "external_determination",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-001",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.22
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-002",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "internal_mod_admission",
+   0.49
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.78
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.83
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-003",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "B": [
+   "fused_head",
+   0.5
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-004",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "B": [
+   "fused_head",
+   0.51
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-005",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "B": [
+   "fused_head",
+   0.31
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-006",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.87
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-007",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.9
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-008",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.89
+  ],
+  "B": [
+   "dependent_det",
+   0.72
+  ],
+  "C": [
+   "dependent_det",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-009",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "B": [
+   "fused_head",
+   0.39
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-010",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.53
+  ],
+  "B": [
+   "dependent_det",
+   0.51
+  ],
+  "C": [
+   "dependent_det",
+   0.51
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-011",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.97
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-012",
+  "haiku": "fused_head",
+  "A": [
+   "dependent_det",
+   0.37
+  ],
+  "B": [
+   "dependent_det",
+   0.43
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.32
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-013",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-014",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.58
+  ],
+  "B": [
+   "fused_head",
+   0.55
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.72
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "hr-015",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.76
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-016",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.84
+  ],
+  "B": [
+   "dependent_det",
+   0.97
+  ],
+  "C": [
+   "dependent_det",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "hr-017",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "B": [
+   "dependent_det",
+   0.4
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-001",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.8
+  ],
+  "B": [
+   "independent_argument",
+   0.72
+  ],
+  "C": [
+   "independent_argument",
+   0.58
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-002",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.88
+  ],
+  "B": [
+   "independent_argument",
+   0.92
+  ],
+  "C": [
+   "independent_argument",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-003",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.67
+  ],
+  "B": [
+   "independent_argument",
+   0.67
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-004",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.89
+  ],
+  "B": [
+   "independent_argument",
+   0.8
+  ],
+  "C": [
+   "independent_argument",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-005",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.89
+  ],
+  "B": [
+   "independent_argument",
+   0.46
+  ],
+  "C": [
+   "independent_argument",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-006",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "independent_argument",
+   0.98
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-007",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.49
+  ],
+  "B": [
+   "independent_argument",
+   0.54
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.84
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-008",
+  "haiku": "predicative_complement",
+  "A": [
+   "taxonomic_or_meta",
+   0.37
+  ],
+  "B": [
+   "independent_argument",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.84
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-009",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.64
+  ],
+  "B": [
+   "independent_argument",
+   0.86
+  ],
+  "C": [
+   "independent_argument",
+   0.67
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "sat-010",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.68
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.79
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-011",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.63
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.82
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-012",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.43
+  ],
+  "B": [
+   "fused_head",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "sat-013",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "B": [
+   "dependent_det",
+   0.37
+  ],
+  "C": [
+   "dependent_det",
+   0.42
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "sat-014",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.88
+  ],
+  "B": [
+   "fused_head",
+   0.91
+  ],
+  "C": [
+   "fused_head",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-001",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.7
+  ],
+  "B": [
+   "independent_partitive",
+   0.45
+  ],
+  "C": [
+   "independent_partitive",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-002",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.93
+  ],
+  "B": [
+   "independent_partitive",
+   0.97
+  ],
+  "C": [
+   "independent_partitive",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-003",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.96
+  ],
+  "B": [
+   "independent_partitive",
+   0.89
+  ],
+  "C": [
+   "independent_partitive",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-004",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.53
+  ],
+  "B": [
+   "independent_partitive",
+   0.84
+  ],
+  "C": [
+   "independent_partitive",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-005",
+  "haiku": "independent_partitive",
+  "A": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "B": [
+   "fused_head",
+   0.89
+  ],
+  "C": [
+   "fused_head",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-006",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_partitive",
+   0.32
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.62
+  ],
+  "C": [
+   "independent_partitive",
+   0.21
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-007",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.48
+  ],
+  "B": [
+   "fused_head",
+   0.93
+  ],
+  "C": [
+   "fused_head",
+   0.8
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-008",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "independent_partitive",
+   0.55
+  ],
+  "C": [
+   "independent_partitive",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-009",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.74
+  ],
+  "B": [
+   "external_determination",
+   0.98
+  ],
+  "C": [
+   "external_determination",
+   0.73
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-010",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.51
+  ],
+  "B": [
+   "fused_head",
+   0.61
+  ],
+  "C": [
+   "fused_head",
+   0.71
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-011",
+  "haiku": "dependent_det",
+  "A": [
+   "external_determination",
+   0.56
+  ],
+  "B": [
+   "external_determination",
+   0.85
+  ],
+  "C": [
+   "external_determination",
+   0.56
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-012",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.88
+  ],
+  "B": [
+   "external_determination",
+   0.5
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.58
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-013",
+  "haiku": "fused_head",
+  "A": [
+   "internal_mod_admission",
+   0.6
+  ],
+  "B": [
+   "external_determination",
+   0.4
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.38
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-014",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.92
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-015",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.81
+  ],
+  "B": [
+   "fused_head",
+   0.98
+  ],
+  "C": [
+   "fused_head",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-016",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.52
+  ],
+  "B": [
+   "external_determination",
+   0.51
+  ],
+  "C": [
+   "external_determination",
+   0.38
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-017",
+  "haiku": "fused_head",
+  "A": [
+   "internal_mod_admission",
+   0.3
+  ],
+  "B": [
+   "fused_head",
+   0.52
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mod-018",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.97
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-019",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.73
+  ],
+  "B": [
+   "external_determination",
+   0.59
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.56
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-020",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.7
+  ],
+  "B": [
+   "fused_head",
+   0.76
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-021",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.63
+  ],
+  "B": [
+   "fused_head",
+   0.61
+  ],
+  "C": [
+   "dependent_det",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "mod-022",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.48
+  ],
+  "B": [
+   "fused_head",
+   0.8
+  ],
+  "C": [
+   "fused_head",
+   0.65
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-023",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.84
+  ],
+  "B": [
+   "fused_head",
+   0.94
+  ],
+  "C": [
+   "fused_head",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-024",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.48
+  ],
+  "B": [
+   "fused_head",
+   0.76
+  ],
+  "C": [
+   "fused_head",
+   0.7
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-025",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.88
+  ],
+  "B": [
+   "fused_head",
+   0.94
+  ],
+  "C": [
+   "fused_head",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-026",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.52
+  ],
+  "B": [
+   "fused_head",
+   0.61
+  ],
+  "C": [
+   "fused_head",
+   0.6
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-027",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.75
+  ],
+  "B": [
+   "fused_head",
+   0.95
+  ],
+  "C": [
+   "fused_head",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-028",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.43
+  ],
+  "B": [
+   "external_determination",
+   0.43
+  ],
+  "C": [
+   "fused_head",
+   0.35
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "mod-029",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.95
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-030",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "fused_head",
+   0.85
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-031",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.79
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.76
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-032",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "taxonomic_or_meta",
+   0.36
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.35
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "mod-033",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "fused_head",
+   0.53
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-002",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.98
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.98
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-003",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.82
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.8
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.77
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-004",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.63
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.88
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.84
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.41
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.36
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-006",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.37
+  ],
+  "B": [
+   "independent_argument",
+   0.23
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-007",
+  "haiku": "independent_argument",
+  "A": [
+   "peripheral_mod_admission",
+   0.49
+  ],
+  "B": [
+   "independent_argument",
+   0.31
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.55
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "pay-008",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.38
+  ],
+  "B": [
+   "independent_argument",
+   0.24
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-009",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "B": [
+   "dependent_det",
+   0.33
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-010",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.42
+  ],
+  "B": [
+   "dependent_det",
+   0.26
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "pay-011",
+  "haiku": "independent_argument",
+  "A": [
+   "peripheral_mod_admission",
+   0.44
+  ],
+  "B": [
+   "dependent_det",
+   0.21
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "pay-012",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.96
+  ],
+  "B": [
+   "predeterminer_mod",
+   0.28
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.69
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-013",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.63
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.48
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-014",
+  "haiku": "dependent_det",
+  "A": [
+   "peripheral_mod_admission",
+   0.93
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.82
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-015",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-016",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-017",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.87
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.62
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.55
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-018",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.76
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.35
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.53
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-019",
+  "haiku": "compound_base",
+  "A": [
+   "peripheral_mod_admission",
+   0.87
+  ],
+  "B": [
+   "compound_base",
+   0.55
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.22
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-020",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.7
+  ],
+  "B": [
+   "compound_base",
+   0.69
+  ],
+  "C": [
+   "compound_base",
+   0.43
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-021",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "internal_mod_admission",
+   0.66
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.37
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.59
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-022",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "internal_mod_admission",
+   0.54
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-023",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.85
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.68
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-024",
+  "haiku": "fused_head",
+  "A": [
+   "internal_mod_admission",
+   0.42
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.51
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-025",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.65
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.51
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.57
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-026",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "predeterminer_mod",
+   0.28
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.41
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.47
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-027",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.76
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.33
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.2
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-028",
+  "haiku": "comparative_complement",
+  "A": [
+   "degree_modifier_nonadj",
+   0.53
+  ],
+  "B": [
+   "comparative_complement",
+   0.36
+  ],
+  "C": [
+   "comparative_complement",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-029",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.55
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.77
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-030",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.48
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.63
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.52
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "pay-031",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.39
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.35
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.61
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "pay-032",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.89
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.74
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-033",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.29
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.53
+  ],
+  "C": [
+   "external_determination",
+   0.5
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "pay-034",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.5
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "pay-035",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "B": [
+   "dependent_det",
+   0.75
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cmp-001",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.72
+  ],
+  "B": [
+   "fused_head",
+   0.78
+  ],
+  "C": [
+   "fused_head",
+   0.58
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-002",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.57
+  ],
+  "B": [
+   "fused_head",
+   0.62
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cmp-003",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.96
+  ],
+  "B": [
+   "compound_base",
+   0.99
+  ],
+  "C": [
+   "compound_base",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-004",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.3
+  ],
+  "B": [
+   "compound_base",
+   0.72
+  ],
+  "C": [
+   "compound_base",
+   0.43
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-005",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.72
+  ],
+  "B": [
+   "compound_base",
+   0.85
+  ],
+  "C": [
+   "compound_base",
+   0.49
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-006",
+  "haiku": "fused_head",
+  "A": [
+   "peripheral_mod_admission",
+   0.82
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.9
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-007",
+  "haiku": "fused_head",
+  "A": [
+   "internal_mod_admission",
+   0.78
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.83
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.52
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-008",
+  "haiku": "compound_base",
+  "A": [
+   "compound_base",
+   0.51
+  ],
+  "B": [
+   "compound_base",
+   0.7
+  ],
+  "C": [
+   "compound_base",
+   0.41
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-009",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.83
+  ],
+  "B": [
+   "fused_head",
+   0.98
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-010",
+  "haiku": "compound_base",
+  "A": [
+   "fused_head",
+   0.47
+  ],
+  "B": [
+   "fused_head",
+   0.78
+  ],
+  "C": [
+   "fused_head",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-011",
+  "haiku": "external_determination",
+  "A": [
+   "compound_base",
+   0.46
+  ],
+  "B": [
+   "compound_base",
+   0.56
+  ],
+  "C": [
+   "compound_base",
+   0.4
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-012",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.47
+  ],
+  "B": [
+   "compound_base",
+   0.65
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cmp-013",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.7
+  ],
+  "B": [
+   "compound_base",
+   0.68
+  ],
+  "C": [
+   "compound_base",
+   0.36
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-014",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.43
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.46
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cmp-015",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.91
+  ],
+  "B": [
+   "compound_base",
+   0.89
+  ],
+  "C": [
+   "compound_base",
+   0.54
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-016",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.92
+  ],
+  "B": [
+   "compound_base",
+   1.0
+  ],
+  "C": [
+   "compound_base",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-017",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.92
+  ],
+  "B": [
+   "compound_base",
+   0.99
+  ],
+  "C": [
+   "compound_base",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-018",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.57
+  ],
+  "B": [
+   "compound_base",
+   0.61
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.42
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cmp-019",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.66
+  ],
+  "B": [
+   "fused_head",
+   0.78
+  ],
+  "C": [
+   "fused_head",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cmp-020",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.84
+  ],
+  "B": [
+   "fused_head",
+   1.0
+  ],
+  "C": [
+   "fused_head",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-001",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.91
+  ],
+  "B": [
+   "fused_head",
+   0.97
+  ],
+  "C": [
+   "fused_head",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-002",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.98
+  ],
+  "B": [
+   "predicative_complement",
+   1.0
+  ],
+  "C": [
+   "predicative_complement",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-003",
+  "haiku": "independent_argument",
+  "A": [
+   "fused_head",
+   0.79
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-004",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.8
+  ],
+  "B": [
+   "number_agreement",
+   0.95
+  ],
+  "C": [
+   "number_agreement",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-005",
+  "haiku": "number_agreement",
+  "A": [
+   "number_agreement",
+   0.86
+  ],
+  "B": [
+   "number_agreement",
+   0.98
+  ],
+  "C": [
+   "number_agreement",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "gh-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "genitive_marking",
+   0.33
+  ],
+  "B": [
+   "fused_head",
+   0.53
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "gh-007",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.81
+  ],
+  "B": [
+   "independent_argument",
+   0.63
+  ],
+  "C": [
+   "independent_argument",
+   0.69
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t001",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.9
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t002",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.84
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.73
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t003",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "B": [
+   "number_inflection",
+   0.46
+  ],
+  "C": [
+   "independent_argument",
+   0.49
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "frg-t004",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.59
+  ],
+  "B": [
+   "independent_argument",
+   0.86
+  ],
+  "C": [
+   "independent_argument",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t005",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.89
+  ],
+  "B": [
+   "dependent_det",
+   0.98
+  ],
+  "C": [
+   "dependent_det",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t006",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.83
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t007",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.3
+  ],
+  "B": [
+   "number_agreement",
+   0.35
+  ],
+  "C": [
+   "independent_argument",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t008",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.79
+  ],
+  "B": [
+   "independent_argument",
+   0.94
+  ],
+  "C": [
+   "independent_argument",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t009",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.94
+  ],
+  "B": [
+   "dependent_det",
+   0.76
+  ],
+  "C": [
+   "dependent_det",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t010",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.84
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.71
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t011",
+  "haiku": "independent_argument",
+  "A": [
+   "dependent_internal_mod",
+   0.26
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.45
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.29
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t012",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.46
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.41
+  ],
+  "C": [
+   "independent_argument",
+   0.57
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t013",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.91
+  ],
+  "B": [
+   "dependent_det",
+   0.91
+  ],
+  "C": [
+   "dependent_det",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t014",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.88
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.87
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t015",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.24
+  ],
+  "B": [
+   "number_inflection",
+   0.64
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t016",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.8
+  ],
+  "B": [
+   "independent_argument",
+   0.9
+  ],
+  "C": [
+   "independent_argument",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t017",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.88
+  ],
+  "B": [
+   "dependent_det",
+   0.96
+  ],
+  "C": [
+   "dependent_det",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t018",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.81
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.83
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t019",
+  "haiku": "independent_argument",
+  "A": [
+   "number_agreement",
+   0.25
+  ],
+  "B": [
+   "number_inflection",
+   0.42
+  ],
+  "C": [
+   "independent_argument",
+   0.46
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "frg-t020",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.76
+  ],
+  "B": [
+   "independent_argument",
+   0.86
+  ],
+  "C": [
+   "independent_argument",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t021",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.83
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t022",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.88
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.79
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t023",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "B": [
+   "number_inflection",
+   0.35
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t024",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.78
+  ],
+  "B": [
+   "independent_argument",
+   0.93
+  ],
+  "C": [
+   "independent_argument",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t025",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.46
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t026",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.77
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.84
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t027",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "B": [
+   "other",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.47
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t028",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.42
+  ],
+  "B": [
+   "independent_argument",
+   0.89
+  ],
+  "C": [
+   "independent_argument",
+   0.78
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t029",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.89
+  ],
+  "B": [
+   "dependent_det",
+   0.96
+  ],
+  "C": [
+   "dependent_det",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t030",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.85
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.84
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t031",
+  "haiku": "independent_argument",
+  "A": [
+   "genitive_marking",
+   0.45
+  ],
+  "B": [
+   "independent_argument",
+   0.28
+  ],
+  "C": [
+   "independent_argument",
+   0.66
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t032",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.69
+  ],
+  "B": [
+   "independent_argument",
+   0.8
+  ],
+  "C": [
+   "independent_argument",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t033",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.49
+  ],
+  "B": [
+   "dependent_det",
+   0.94
+  ],
+  "C": [
+   "dependent_det",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t034",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.82
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.7
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t035",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.57
+  ],
+  "B": [
+   "genitive_marking",
+   0.43
+  ],
+  "C": [
+   "independent_argument",
+   0.66
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t036",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.79
+  ],
+  "B": [
+   "independent_argument",
+   0.93
+  ],
+  "C": [
+   "independent_argument",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t037",
+  "haiku": "dependent_det",
+  "A": [
+   "independent_argument",
+   0.5
+  ],
+  "B": [
+   "dependent_det",
+   0.95
+  ],
+  "C": [
+   "dependent_det",
+   0.9
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-t038",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.77
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.88
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t039",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "independent_argument",
+   0.73
+  ],
+  "C": [
+   "independent_argument",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t040",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.98
+  ],
+  "B": [
+   "independent_argument",
+   0.97
+  ],
+  "C": [
+   "independent_argument",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t041",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.77
+  ],
+  "B": [
+   "dependent_det",
+   0.98
+  ],
+  "C": [
+   "dependent_det",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t042",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.83
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.88
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t043",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.85
+  ],
+  "B": [
+   "independent_argument",
+   0.73
+  ],
+  "C": [
+   "independent_argument",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-t044",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.96
+  ],
+  "B": [
+   "independent_argument",
+   0.99
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.37
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.49
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-004",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.76
+  ],
+  "B": [
+   "dependent_det",
+   0.9
+  ],
+  "C": [
+   "dependent_det",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.91
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-006",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.83
+  ],
+  "B": [
+   "dependent_det",
+   0.91
+  ],
+  "C": [
+   "dependent_det",
+   0.76
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-007",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.51
+  ],
+  "B": [
+   "independent_argument",
+   0.36
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.34
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-008",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.69
+  ],
+  "B": [
+   "dependent_det",
+   0.83
+  ],
+  "C": [
+   "dependent_det",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-009",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.94
+  ],
+  "B": [
+   "independent_argument",
+   0.97
+  ],
+  "C": [
+   "independent_argument",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-010",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.77
+  ],
+  "B": [
+   "external_determination",
+   0.8
+  ],
+  "C": [
+   "external_determination",
+   0.55
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-011",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.52
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.77
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.33
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-012",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.43
+  ],
+  "B": [
+   "independent_argument",
+   0.38
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.51
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-013",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.45
+  ],
+  "B": [
+   "independent_argument",
+   0.55
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.38
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-015",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.48
+  ],
+  "B": [
+   "dependent_det",
+   0.93
+  ],
+  "C": [
+   "dependent_det",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-016",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.6
+  ],
+  "B": [
+   "independent_argument",
+   0.73
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "frg-017",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-018",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.88
+  ],
+  "B": [
+   "independent_partitive",
+   0.99
+  ],
+  "C": [
+   "independent_partitive",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-019",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.42
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "frg-020",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-001",
+  "haiku": "dependent_det",
+  "A": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.37
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.8
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-002",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.34
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.23
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-004",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.91
+  ],
+  "B": [
+   "dependent_det",
+   0.98
+  ],
+  "C": [
+   "dependent_det",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-005",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.96
+  ],
+  "B": [
+   "dependent_det",
+   0.97
+  ],
+  "C": [
+   "dependent_det",
+   0.84
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.84
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.76
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-007",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-008",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-010",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "fused_head",
+   0.57
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-011",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-012",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-013",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "peripheral_mod_admission",
+   0.56
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.78
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.67
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-015",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "B": [
+   "fused_head",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-016",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.43
+  ],
+  "B": [
+   "dependent_det",
+   0.54
+  ],
+  "C": [
+   "dependent_det",
+   0.34
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-017",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.41
+  ],
+  "B": [
+   "dependent_det",
+   0.52
+  ],
+  "C": [
+   "dependent_det",
+   0.41
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-018",
+  "haiku": "independent_partitive",
+  "A": [
+   "internal_mod_admission",
+   0.24
+  ],
+  "B": [
+   "independent_partitive",
+   0.57
+  ],
+  "C": [
+   "independent_partitive",
+   0.26
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-019",
+  "haiku": "independent_partitive",
+  "A": [
+   "internal_mod_admission",
+   0.43
+  ],
+  "B": [
+   "external_determination",
+   0.91
+  ],
+  "C": [
+   "external_determination",
+   0.75
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-020",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.52
+  ],
+  "B": [
+   "external_determination",
+   0.99
+  ],
+  "C": [
+   "external_determination",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-021",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.61
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.3
+  ],
+  "C": [
+   "independent_argument",
+   0.53
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-022",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.39
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.32
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-023",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-024",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.33
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-025",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.66
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.36
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.85
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-026",
+  "haiku": "comparative_complement",
+  "A": [
+   "comparative_complement",
+   0.82
+  ],
+  "B": [
+   "comparative_complement",
+   0.99
+  ],
+  "C": [
+   "comparative_complement",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-027",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.83
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.63
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-028",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "compound_base",
+   0.81
+  ],
+  "B": [
+   "compound_base",
+   0.85
+  ],
+  "C": [
+   "compound_base",
+   0.5
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-029",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.47
+  ],
+  "B": [
+   "external_determination",
+   0.88
+  ],
+  "C": [
+   "external_determination",
+   0.4
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-030",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "dependent_internal_mod",
+   0.27
+  ],
+  "B": [
+   "external_determination",
+   0.29
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.29
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "du-031",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.75
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-032",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "external_determination",
+   0.86
+  ],
+  "B": [
+   "external_determination",
+   0.87
+  ],
+  "C": [
+   "external_determination",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-033",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.9
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.87
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-034",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.87
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.84
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-035",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.98
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.95
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-036",
+  "haiku": "fused_head",
+  "A": [
+   "dependent_det",
+   0.43
+  ],
+  "B": [
+   "dependent_det",
+   0.76
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-037",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.9
+  ],
+  "B": [
+   "dependent_det",
+   0.84
+  ],
+  "C": [
+   "dependent_det",
+   0.59
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-038",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.84
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.95
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-039",
+  "haiku": "independent_argument",
+  "A": [
+   "external_determination",
+   0.28
+  ],
+  "B": [
+   "external_determination",
+   0.69
+  ],
+  "C": [
+   "external_determination",
+   0.65
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-040",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.68
+  ],
+  "B": [
+   "dependent_det",
+   0.62
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-041",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.53
+  ],
+  "B": [
+   "independent_argument",
+   0.61
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-042",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.82
+  ],
+  "B": [
+   "independent_argument",
+   0.67
+  ],
+  "C": [
+   "independent_argument",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-043",
+  "haiku": "independent_argument",
+  "A": [
+   "independent_argument",
+   0.37
+  ],
+  "B": [
+   "number_agreement",
+   0.58
+  ],
+  "C": [
+   "independent_argument",
+   0.5
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-044",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.9
+  ],
+  "B": [
+   "fused_head",
+   0.99
+  ],
+  "C": [
+   "fused_head",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-045",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.92
+  ],
+  "B": [
+   "fused_head",
+   0.94
+  ],
+  "C": [
+   "fused_head",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-046",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.89
+  ],
+  "B": [
+   "fused_head",
+   0.96
+  ],
+  "C": [
+   "fused_head",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-047",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.44
+  ],
+  "B": [
+   "fused_head",
+   0.57
+  ],
+  "C": [
+   "fused_head",
+   0.62
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-048",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "internal_mod_admission",
+   0.49
+  ],
+  "B": [
+   "fused_head",
+   0.44
+  ],
+  "C": [
+   "fused_head",
+   0.33
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-049",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.54
+  ],
+  "B": [
+   "fused_head",
+   0.3
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.3
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-050",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.43
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-051",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "fused_head",
+   0.57
+  ],
+  "B": [
+   "fused_head",
+   0.32
+  ],
+  "C": [
+   "independent_argument",
+   0.43
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-052",
+  "haiku": "dependent_det",
+  "A": [
+   "fused_head",
+   0.74
+  ],
+  "B": [
+   "fused_head",
+   0.59
+  ],
+  "C": [
+   "dependent_det",
+   0.35
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "du-053",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.54
+  ],
+  "B": [
+   "fused_head",
+   0.81
+  ],
+  "C": [
+   "fused_head",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-054",
+  "haiku": "fused_head",
+  "A": [
+   "taxonomic_or_meta",
+   0.83
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "du-055",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.29
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-001",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.76
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.77
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.61
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-002",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.42
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.51
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.6
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-003",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.65
+  ],
+  "B": [
+   "dependent_det",
+   0.7
+  ],
+  "C": [
+   "dependent_det",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-004",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_det",
+   0.42
+  ],
+  "B": [
+   "dependent_det",
+   0.42
+  ],
+  "C": [
+   "dependent_det",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-005",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.21
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.75
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-006",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.54
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.27
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.5
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-007",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.54
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.32
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-008",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.59
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.4
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.52
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-009",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "other",
+   0.32
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.35
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "enu-010",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "coordination_marker",
+   0.3
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.3
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "enu-011",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.91
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.87
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-012",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.86
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.82
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-013",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.86
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.9
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.51
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-014",
+  "haiku": "degree_modifier_nonadj",
+  "A": [
+   "degree_modifier_nonadj",
+   0.95
+  ],
+  "B": [
+   "degree_modifier_nonadj",
+   0.91
+  ],
+  "C": [
+   "degree_modifier_nonadj",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-015",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-016",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "B": [
+   "independent_argument",
+   0.56
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-017",
+  "haiku": "independent_argument",
+  "A": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "B": [
+   "independent_argument",
+   0.49
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-018",
+  "haiku": "coordination_marker",
+  "A": [
+   "coordination_marker",
+   0.84
+  ],
+  "B": [
+   "coordination_marker",
+   0.99
+  ],
+  "C": [
+   "coordination_marker",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-019",
+  "haiku": "coordination_marker",
+  "A": [
+   "coordination_marker",
+   0.86
+  ],
+  "B": [
+   "coordination_marker",
+   0.99
+  ],
+  "C": [
+   "coordination_marker",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-020",
+  "haiku": "coordination_marker",
+  "A": [
+   "coordination_marker",
+   0.79
+  ],
+  "B": [
+   "coordination_marker",
+   0.99
+  ],
+  "C": [
+   "coordination_marker",
+   0.83
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-021",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "C": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-022",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "B": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "C": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-023",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.99
+  ],
+  "B": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "C": [
+   "degree_modifier_adj",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-024",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.72
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.87
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.63
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-025",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.66
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.85
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.71
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-026",
+  "haiku": "predicative_complement",
+  "A": [
+   "predicative_complement",
+   0.6
+  ],
+  "B": [
+   "predicative_complement",
+   0.97
+  ],
+  "C": [
+   "predicative_complement",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-027",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.49
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.4
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "enu-028",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.56
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.58
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.54
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-029",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.7
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.89
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-030",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.8
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.86
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-031",
+  "haiku": "degree_modifier_adj",
+  "A": [
+   "degree_modifier_adj",
+   0.45
+  ],
+  "B": [
+   "degree_modifier_adj",
+   0.73
+  ],
+  "C": [
+   "degree_modifier_adj",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-032",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.4
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "enu-033",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "taxonomic_or_meta",
+   0.43
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.47
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.52
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.52
+  ],
+  "B": [
+   "fused_head",
+   0.29
+  ],
+  "C": [
+   "dependent_det",
+   0.33
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "cost-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.53
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.36
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.4
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.4
+  ],
+  "B": [
+   "fused_head",
+   0.68
+  ],
+  "C": [
+   "fused_head",
+   0.39
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "B": [
+   "fused_head",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.31
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-005",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.74
+  ],
+  "B": [
+   "fused_head",
+   0.97
+  ],
+  "C": [
+   "fused_head",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-006",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.57
+  ],
+  "B": [
+   "fused_head",
+   0.9
+  ],
+  "C": [
+   "fused_head",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-007",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.76
+  ],
+  "B": [
+   "fused_head",
+   0.96
+  ],
+  "C": [
+   "fused_head",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-008",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.72
+  ],
+  "B": [
+   "fused_head",
+   0.91
+  ],
+  "C": [
+   "fused_head",
+   0.79
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "genitive_marking",
+   0.49
+  ],
+  "B": [
+   "fused_head",
+   0.42
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.37
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "cost-010",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-011",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "fused_head",
+   0.7
+  ],
+  "B": [
+   "fused_head",
+   0.88
+  ],
+  "C": [
+   "fused_head",
+   0.9
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-012",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.94
+  ],
+  "B": [
+   "fused_head",
+   0.97
+  ],
+  "C": [
+   "fused_head",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-013",
+  "haiku": "fused_head",
+  "A": [
+   "external_determination",
+   0.48
+  ],
+  "B": [
+   "external_determination",
+   0.82
+  ],
+  "C": [
+   "external_determination",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-014",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "fused_head",
+   0.65
+  ],
+  "C": [
+   "fused_head",
+   0.45
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-015",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.79
+  ],
+  "B": [
+   "dependent_det",
+   0.79
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-016",
+  "haiku": "other",
+  "A": [
+   "taxonomic_or_meta",
+   0.67
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-017",
+  "haiku": "independent_partitive",
+  "A": [
+   "independent_partitive",
+   0.64
+  ],
+  "B": [
+   "independent_partitive",
+   0.53
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-018",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-019",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.93
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-020",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.82
+  ],
+  "B": [
+   "dependent_det",
+   0.6
+  ],
+  "C": [
+   "dependent_det",
+   0.74
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-021",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "internal_mod_admission",
+   0.66
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.92
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-022",
+  "haiku": "dependent_det",
+  "A": [
+   "dependent_det",
+   0.73
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.73
+  ],
+  "C": [
+   "dependent_det",
+   0.5
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "cost-023",
+  "haiku": "dependent_internal_mod",
+  "A": [
+   "dependent_internal_mod",
+   0.9
+  ],
+  "B": [
+   "dependent_internal_mod",
+   0.61
+  ],
+  "C": [
+   "dependent_internal_mod",
+   0.49
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "cost-024",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.7
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "oa-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "oa-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "fused_head",
+   0.7
+  ],
+  "B": [
+   "fused_head",
+   0.93
+  ],
+  "C": [
+   "fused_head",
+   0.72
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "oa-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.91
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.56
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.83
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.5
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.9
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.44
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.54
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.64
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.96
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-007",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-008",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.73
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.33
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.81
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-010",
+  "haiku": "genitive_marking",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "genitive_marking",
+   0.69
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.8
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inh-011",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.71
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.23
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.84
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-012",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.95
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.82
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.6
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-013",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.66
+  ],
+  "B": [
+   "external_determination",
+   0.7
+  ],
+  "C": [
+   "external_determination",
+   0.23
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inh-014",
+  "haiku": "peripheral_mod_admission",
+  "A": [
+   "peripheral_mod_admission",
+   0.67
+  ],
+  "B": [
+   "peripheral_mod_admission",
+   0.99
+  ],
+  "C": [
+   "peripheral_mod_admission",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-015",
+  "haiku": "internal_mod_admission",
+  "A": [
+   "internal_mod_admission",
+   0.82
+  ],
+  "B": [
+   "internal_mod_admission",
+   0.82
+  ],
+  "C": [
+   "internal_mod_admission",
+   0.79
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-016",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.45
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.86
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-017",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.66
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-018",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.96
+  ],
+  "B": [
+   "external_determination",
+   0.99
+  ],
+  "C": [
+   "external_determination",
+   0.95
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-019",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.93
+  ],
+  "B": [
+   "external_determination",
+   0.98
+  ],
+  "C": [
+   "external_determination",
+   0.91
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-020",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.7
+  ],
+  "B": [
+   "external_determination",
+   0.97
+  ],
+  "C": [
+   "external_determination",
+   0.71
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-021",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.68
+  ],
+  "B": [
+   "external_determination",
+   0.82
+  ],
+  "C": [
+   "external_determination",
+   0.68
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-022",
+  "haiku": "external_determination",
+  "A": [
+   "external_determination",
+   0.81
+  ],
+  "B": [
+   "external_determination",
+   0.95
+  ],
+  "C": [
+   "external_determination",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "inh-023",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "coordination_marker",
+   0.21
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.57
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.42
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "inh-024",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.75
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "con-001",
+  "haiku": "number_agreement",
+  "A": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.84
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "con-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.77
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.89
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.82
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "con-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.87
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "con-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.48
+  ],
+  "B": [
+   "other",
+   0.21
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "con-005",
+  "haiku": "fused_head",
+  "A": [
+   "fused_head",
+   0.44
+  ],
+  "B": [
+   "fused_head",
+   0.6
+  ],
+  "C": [
+   "fused_head",
+   0.49
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "con-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.58
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.64
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-001",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-002",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "B": [
+   "predicative_complement",
+   0.54
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.65
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "his-003",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.62
+  ],
+  "B": [
+   "independent_argument",
+   0.25
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.61
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "his-004",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.97
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-005",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "fused_head",
+   0.33
+  ],
+  "B": [
+   "dependent_det",
+   0.26
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "his-006",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.68
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.94
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-007",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.6
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.49
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.78
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-008",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.47
+  ],
+  "B": [
+   "other",
+   0.22
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.41
+  ],
+  "kind": "all_differ"
+ },
+ {
+  "id": "his-009",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "independent_argument",
+   0.59
+  ],
+  "B": [
+   "independent_argument",
+   0.44
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.69
+  ],
+  "kind": "two_agree"
+ },
+ {
+  "id": "his-010",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.46
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.88
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.92
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-011",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.95
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.99
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   1.0
+  ],
+  "kind": "stable"
+ },
+ {
+  "id": "his-012",
+  "haiku": "taxonomic_or_meta",
+  "A": [
+   "taxonomic_or_meta",
+   0.8
+  ],
+  "B": [
+   "taxonomic_or_meta",
+   0.98
+  ],
+  "C": [
+   "taxonomic_or_meta",
+   0.85
+  ],
+  "kind": "stable"
+ }
+]

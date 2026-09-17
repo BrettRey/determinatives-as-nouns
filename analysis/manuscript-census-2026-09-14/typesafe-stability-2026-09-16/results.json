@@ -1,0 +1,128 @@
+{
+ "claims": 658,
+ "usage_fresh_input_tokens": {
+  "B": 765119,
+  "C": 900667
+ },
+ "elapsed_s": 65.0,
+ "label_stability": {
+  "stable": 412,
+  "two_agree": 201,
+  "all_differ": 45
+ },
+ "stability_by_A_confidence": {
+  "0.5-0.8": {
+   "n": 254,
+   "stable": 146
+  },
+  "<0.5": {
+   "n": 151,
+   "stable": 41
+  },
+  ">=0.8": {
+   "n": 253,
+   "stable": 225
+  }
+ },
+ "A_accepted_at_0.8": 253,
+ "A_accepted_that_flip_under_B_or_C": 28,
+ "accepted_under_all_three_phrasings": 165,
+ "agreement_with_haiku": {
+  "A": 478,
+  "majority_of_three": 469,
+  "stable_only": "347/412"
+ },
+ "mean_confidence_range_across_phrasings": 0.223,
+ "unstable_share_by_haiku_label": {
+  "taxonomic_or_meta": "50/139",
+  "independent_argument": "68/135",
+  "internal_mod_admission": "41/63",
+  "dependent_det": "14/62",
+  "fused_head": "13/53",
+  "peripheral_mod_admission": "18/33",
+  "dependent_internal_mod": "8/32",
+  "degree_modifier_adj": "5/22",
+  "independent_partitive": "7/20",
+  "number_agreement": "0/13"
+ },
+ "distribution": {
+  "A": [
+   [
+    "taxonomic_or_meta",
+    198
+   ],
+   [
+    "independent_argument",
+    90
+   ],
+   [
+    "dependent_det",
+    57
+   ],
+   [
+    "fused_head",
+    56
+   ],
+   [
+    "peripheral_mod_admission",
+    44
+   ],
+   [
+    "internal_mod_admission",
+    41
+   ]
+  ],
+  "B": [
+   [
+    "taxonomic_or_meta",
+    124
+   ],
+   [
+    "independent_argument",
+    87
+   ],
+   [
+    "fused_head",
+    79
+   ],
+   [
+    "dependent_det",
+    65
+   ],
+   [
+    "internal_mod_admission",
+    55
+   ],
+   [
+    "external_determination",
+    30
+   ]
+  ],
+  "C": [
+   [
+    "taxonomic_or_meta",
+    222
+   ],
+   [
+    "independent_argument",
+    80
+   ],
+   [
+    "dependent_det",
+    59
+   ],
+   [
+    "fused_head",
+    56
+   ],
+   [
+    "internal_mod_admission",
+    32
+   ],
+   [
+    "peripheral_mod_admission",
+    31
+   ]
+  ]
+ }
+}
