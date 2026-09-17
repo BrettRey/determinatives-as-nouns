@@ -1,0 +1,138 @@
+{
+ "_about": "For each diagnostic, whether the property is general, restricted or absent for English common nouns and for adjectives (including fused-head adjectives and the article's quantificational-adjective controls). Every non-null cell carries its source; null means no source was located and is rendered as ? in the register. Built 2026-09-17 after a first hand-written version proved wrong in eight cells; do not fill a cell without a source.",
+ "cells": {
+  "number_inflection": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Inflection row: 'Number and genitive'",
+   "adjective": "absent",
+   "adjective_source": "CGEL p. 418: 'the rich and the very poor are plural NPs with no inflectional plural marking on the head'"
+  },
+  "genitive_marking": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Inflection row",
+   "adjective": null,
+   "adjective_source": null,
+   "note": "no CGEL statement about genitive marking on adjectives located"
+  },
+  "dependent_det": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Argument / Det functions: 'genitive and restricted plain Det'",
+   "adjective": "absent",
+   "adjective_source": "article §5.2: Det realized by NP or PP"
+  },
+  "external_determination": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Accepts determination: 'Broad contrasts'",
+   "adjective": "restricted",
+   "adjective_source": "CGEL pp. 415-418, fused modifier-heads: 'The NPs are determined by the definite article' (p. 417: the rich, the very poor); ordinals with a (p. 416: a second)"
+  },
+  "independent_argument": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column: 'NP arguments'",
+   "adjective": "restricted",
+   "adjective_source": "CGEL pp. 415-418 (fused modifier-heads); quantifier supplement attestations 'numerous were injured', 'countless were left in floods of tears'"
+  },
+  "independent_partitive": {
+   "common_noun": "restricted",
+   "common_noun_source": "CGEL pp. 349-350 (lot, number, couple with partitive obliques), cited in the article",
+   "adjective": "restricted",
+   "adjective_source": "CGEL p. 416 n. 42: 'taking a partitive complement (e.g. the biggest of them)'; supplement 'numerous of them', 'multiple of the fast casual eateries'"
+  },
+  "number_agreement": {
+   "common_noun": "restricted",
+   "common_noun_source": "CGEL pp. 349-350, 411-412: quantificational lot number-transparent, cited in the article",
+   "adjective": null,
+   "adjective_source": null,
+   "note": "no statement located for fused-head adjectives (the best of them were)"
+  },
+  "dependent_internal_mod": {
+   "common_noun": "restricted",
+   "common_noun_source": "article Table 2, common-noun column, Modifier / adjunct functions: 'dog houses'",
+   "adjective": "general",
+   "adjective_source": "CGEL p. 529: attributive function"
+  },
+  "internal_mod_admission": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Internal modification: 'Productive AdjP and nominal premodifiers ... relatives'",
+   "adjective": "general",
+   "adjective_source": "CGEL p. 548: 'The use of adverbs as modifiers in AdjP structure is described in §7.2'"
+  },
+  "peripheral_mod_admission": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Peripheral modifiers: 'only the book'",
+   "adjective": null,
+   "adjective_source": null,
+   "note": "the peripheral/internal distinction is defined over NP structure; not applied to AdjP"
+  },
+  "predicative_complement": {
+   "common_noun": "general",
+   "common_noun_source": "CGEL Ch. 4 §5, predicative complements realized by NPs (page not located in this pass)",
+   "adjective": "general",
+   "adjective_source": "CGEL p. 529: predicative function"
+  },
+  "relative_postmod_admission": {
+   "common_noun": "general",
+   "common_noun_source": "article Table 2, common-noun column, Internal modification: 'relatives'",
+   "adjective": "restricted",
+   "adjective_source": "supplement attestation 'think about various who had done it'; CGEL p. 418 post-head modifier in a fused AdjP 'the pure in heart' ('very rare')"
+  },
+  "existential_displaced_subject": {
+   "common_noun": "general",
+   "common_noun_source": "CGEL Ch. 16 §6.2, the existential construction, p. 1392",
+   "adjective": "restricted",
+   "adjective_source": "supplement attestations 'there are numerous', 'In fact, there are countless'"
+  },
+  "degree_modifier_adj": {
+   "common_noun": "restricted",
+   "common_noun_source": "CGEL pp. 551-552: a great deal better, cited in the article",
+   "adjective": "absent",
+   "adjective_source": "CGEL p. 548: modifiers in AdjP structure are adverbs (§7.2); no adjective modifiers of adjectives described",
+   "note": "indirect source"
+  },
+  "degree_modifier_nonadj": {
+   "common_noun": "restricted",
+   "common_noun_source": "article §5.3 (a lot more, heaps better)",
+   "adjective": null,
+   "adjective_source": null
+  },
+  "grade_inflection": {
+   "common_noun": "absent",
+   "common_noun_source": "article Table 2, common-noun column, Inflection row lists number and genitive only",
+   "adjective": "general",
+   "adjective_source": "CGEL p. 1672 (inflectional suffixes ·er and ·est); Ch. 13 from p. 1100",
+   "note": "general for gradable adjectives"
+  },
+  "comparative_complement": {
+   "common_noun": null,
+   "common_noun_source": null,
+   "adjective": "general",
+   "adjective_source": "CGEL Ch. 13 from p. 1100 (gradable adjectives)"
+  },
+  "predeterminer_mod": {
+   "common_noun": "restricted",
+   "common_noun_source": "CGEL p. 385 n. 25: fractions 'expressed by nouns or NPs in predeterminer modifier function'",
+   "adjective": "restricted",
+   "adjective_source": "CGEL p. 435: 'The adjectives such and exclamative what occur as external modifiers' (such a disaster, what a disaster)"
+  },
+  "coordination_marker": {
+   "common_noun": null,
+   "common_noun_source": null,
+   "adjective": null,
+   "adjective_source": null,
+   "note": "both/either/neither are determinatives; no statement about nouns or adjectives"
+  },
+  "compound_base": {
+   "common_noun": "restricted",
+   "common_noun_source": "CGEL p. 1648: ascriptive noun compounds (houseboat)",
+   "adjective": null,
+   "adjective_source": null
+  },
+  "fused_head": {
+   "common_noun": null,
+   "common_noun_source": null,
+   "adjective": null,
+   "adjective_source": null,
+   "note": "an analysis, not a lexical property; not rated"
+  }
+ }
+}

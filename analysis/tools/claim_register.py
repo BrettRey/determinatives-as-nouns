@@ -27,6 +27,14 @@ BASIS = {"retained_attestation": "attested", "cgel_described": "CGEL", "cgel_res
          "constructed_illustration": "constructed", "constructed_ungrammatical": "constructed (starred)", "authors_analysis": "analysis",
          "searched_not_found": "searched, none", "not_determinable": "n/d"}
 SUBS = ["common noun", "proper noun", "pronoun", "determinative", "adjective (control)"]  # Table 2 order, controls last
+TYP = json.loads((ROOT / "analysis/typicality.json").read_text())["cells"]
+RANK = {"general": 2, "restricted": 1, "absent": 0}
+def typ(con, side):
+    return (TYP.get(con) or {}).get(side)
+def discrimination(con):
+    """positive favours Noun (property general for nouns, absent for adjectives); None when a side is unsourced"""
+    a, b = typ(con, "common_noun"), typ(con, "adjective")
+    return None if a is None or b is None else RANK[a] - RANK[b]
 # Order follows the article's argument: §2.1 functions and constructional range, §§2.2 and 2.5 nominal
 # connections, §2.4 the adjectival profile, then the structural analysis of §4. Within a block, the
 # section's own order. A diagnostic not listed here falls into a final block.
@@ -51,7 +59,7 @@ def main():
             r["claims"] += 1; r["status"][c["status"]] += 1; r["basis"][c["evidence_type_reconciled"]] += 1
             r["sections"].add(c["section_label"].replace("sec:", "")); r["sub"] = lex[lid].get("subcategory") or "other"
     present = {k[0] for k in rows}
-    grouped = [(g, [c for c in cs if c in present]) for g, cs in GROUPS]
+    grouped = [(g, sorted([c for c in cs if c in present], key=lambda c: (discrimination(c) is None, -(discrimination(c) or 0), cs.index(c)))) for g, cs in GROUPS]
     rest = sorted(c for c in present if not any(c in cs for _, cs in GROUPS))
     if rest: grouped.append(("Other", rest))
     order = [c for _, cs in grouped for c in cs]
@@ -69,9 +77,9 @@ def main():
             md.append(f"| {LABEL.get(con, con)} | *{form}* | {r['sub']} | {st} | {ba} | {secs} | {r['claims']} |")
     cov = []
     for gname, cons in grouped:
-      cov.append(f"\\multicolumn{{7}}{{l}}{{\\itshape {tex(gname)}}} \\\\")
+      cov.append(f"\\multicolumn{{9}}{{l}}{{\\itshape {tex(gname)}}} \\\\")
       for con in cons:
-          cells = []
+          cells = [tex(typ(con, "common_noun") or "?"), tex(typ(con, "adjective") or "?")]
           for s in SUBS:
               g = [(k, v) for k, v in rows.items() if k[0] == con and v["sub"] == s]
               if not g: cells.append(""); continue
