@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "analysis/manuscript-census-2026-09-14/census-normalized.json"
 OUT = ROOT / "analysis/generated"
-SUBS = ["determinative", "common noun", "proper noun", "pronoun", "adjective (control)", "other/mixed/none"]
+SUBS = ["common noun", "proper noun", "pronoun", "determinative", "adjective (control)", "other/mixed/none"]
 BASES = [("retained_attestation", "attested"), ("cgel_described", "CGEL"), ("cgel_restricted", "CGEL restr."),
          ("other_source_described", "other source"), ("constructed_ungrammatical", "constr. *"),
          ("constructed_illustration", "constr. illus."), ("authors_analysis", "author's analysis"),
@@ -36,7 +36,12 @@ def main():
     d = json.loads(SRC.read_text())
     claims = d["claims"]
     cons = [c["id"] for c in d["catalogue"]]
-    order = sorted(cons, key=lambda k: -sum(1 for c in claims if c["construction_id"] == k))
+    # same order as the claim register: the article's argument, blocks in claim_register.GROUPS, then the rest by count
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("claim_register", Path(__file__).resolve().parent / "claim_register.py")
+    cr = importlib.util.module_from_spec(spec); spec.loader.exec_module(cr)
+    listed = [k for _, ks in cr.GROUPS for k in ks if k in cons]
+    order = listed + sorted((k for k in cons if k not in listed), key=lambda k: -sum(1 for c in claims if c["construction_id"] == k))
     lexname = {l["id"]: l["forms"][0] for l in d["lexemes"]}
 
     # A: construction x subcategory (claims, distinct lexemes)

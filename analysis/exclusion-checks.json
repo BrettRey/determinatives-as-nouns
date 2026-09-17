@@ -13,6 +13,30 @@
    "handling": "claim kept for fused-head use"
   },
   {
+   "claim": "Singular agreement with \\mention{each of the people}",
+   "section": "sec:quant-nouns",
+   "corpus": "COCA",
+   "queries": [
+    "each of them was/were/is/are/has/have (List)",
+    "each of the [nn2*] was/were"
+   ],
+   "hits": "389 singular, 78 plural; 151 \\mention{was}, 73 \\mention{were}",
+   "result": "plural agreement in a sixth of tokens after \\mention{each of them}, in every register",
+   "handling": "restated with the rate (article §2.2)"
+  },
+  {
+   "claim": "Attributive \\ungram{\\mention{so numerous mistakes}}",
+   "section": "sec:quant-controls",
+   "corpus": "COCA",
+   "queries": [
+    "so numerous [nn*]",
+    "too numerous [nn*]"
+   ],
+   "hits": "4 + 4",
+   "result": "none for \\mention{so}; three marginal web lines for \\mention{too} (\\mention{too numerous inaccuracies})",
+   "handling": "holds for \\mention{so}"
+  },
+  {
    "claim": "Degree adverb on a non-gradable determinative (\\ungram{\\mention{very every}}, \\ungram{\\mention{very some}}, \\ungram{\\mention{very this}})",
    "section": "sec:adjectival-profile",
    "corpus": "COCA",
@@ -37,18 +61,6 @@
    "handling": "holds"
   },
   {
-   "claim": "Attributive \\ungram{\\mention{so numerous mistakes}}",
-   "section": "sec:quant-controls",
-   "corpus": "COCA",
-   "queries": [
-    "so numerous [nn*]",
-    "too numerous [nn*]"
-   ],
-   "hits": "4 + 4",
-   "result": "none for \\mention{so}; three marginal web lines for \\mention{too} (\\mention{too numerous inaccuracies})",
-   "handling": "holds for \\mention{so}"
-  },
-  {
    "claim": "Partitive \\ungram{\\mention{no of the students}}",
    "section": "sec:modification",
    "corpus": "COCA",
@@ -70,18 +82,7 @@
    "hits": "496 + 494 lines; \\mention{special someone} 282, \\mention{certain someone} 120 (List)",
    "result": "attested at volume and productively (\\mention{an anonymous someone}, \\mention{a furry something}, \\mention{such an anyone})",
    "handling": "restated as the set-denoting use (article §4.5)"
-  },
-  {
-   "claim": "Singular agreement with \\mention{each of the people}",
-   "section": "sec:quant-nouns",
-   "corpus": "COCA",
-   "queries": [
-    "each of them was/were/is/are/has/have (List)",
-    "each of the [nn2*] was/were"
-   ],
-   "hits": "389 singular, 78 plural; 151 \\mention{was}, 73 \\mention{were}",
-   "result": "plural agreement in a sixth of tokens after \\mention{each of them}, in every register",
-   "handling": "restated with the rate (article §2.2)"
   }
- ]
+ ],
+ "_order": "rows follow the article's sections"
 }

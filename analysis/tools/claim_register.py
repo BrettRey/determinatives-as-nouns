@@ -26,7 +26,7 @@ LABEL = {"independent_argument": "independent argument use", "independent_partit
 BASIS = {"retained_attestation": "attested", "cgel_described": "CGEL", "cgel_restricted": "CGEL (restricted)", "other_source_described": "other source",
          "constructed_illustration": "constructed", "constructed_ungrammatical": "constructed (starred)", "authors_analysis": "analysis",
          "searched_not_found": "searched, none", "not_determinable": "n/d"}
-SUBS = ["determinative", "common noun", "proper noun", "pronoun", "adjective (control)"]
+SUBS = ["common noun", "proper noun", "pronoun", "determinative", "adjective (control)"]  # Table 2 order, controls last
 # Order follows the article's argument: §2.1 functions and constructional range, §§2.2 and 2.5 nominal
 # connections, §2.4 the adjectival profile, then the structural analysis of §4. Within a block, the
 # section's own order. A diagnostic not listed here falls into a final block.
