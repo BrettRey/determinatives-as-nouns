@@ -111,8 +111,9 @@
   "predeterminer_mod": {
    "common_noun": "restricted",
    "common_noun_source": "CGEL p. 385 n. 25: fractions 'expressed by nouns or NPs in predeterminer modifier function'",
-   "adjective": "restricted",
-   "adjective_source": "CGEL p. 435: 'The adjectives such and exclamative what occur as external modifiers' (such a disaster, what a disaster)"
+   "adjective": null,
+   "adjective_source": null,
+   "note": "the p. 435 pair (degree such, exclamative what) is reanalysed as restricted determinatives in the article's §3.1 (adopted 2026-09-17); no adjective source remains"
   },
   "coordination_marker": {
    "common_noun": null,

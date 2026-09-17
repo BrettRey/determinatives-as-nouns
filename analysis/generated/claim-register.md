@@ -95,9 +95,6 @@
 | independent use with partitive of-PP | *some* | determinative | licensed 4, conditional | analysis 3, constructed 2 | det-uniform, intro, modification, quant-nouns | 5 |
 | independent use with partitive of-PP | *the* | determinative | excluded | other source | article-membership | 1 |
 | independent use with partitive of-PP | *various* | determinative | conditional | CGEL (restricted) | quant-controls | 1 |
-| predeterminer modifier | *half* | common noun | licensed | CGEL | independent | 1 |
-| predeterminer modifier | *all* | determinative | licensed | CGEL | independent | 1 |
-| predeterminer modifier | *both* | determinative | licensed | CGEL | independent | 1 |
 | internal Mod before a nominal | *dog* | common noun | licensed | constructed | independent | 1 |
 | internal Mod before a nominal | *soccer* | common noun | licensed | constructed | adjectival-profile | 1 |
 | internal Mod before a nominal | *canada* | proper noun | licensed | constructed | independent | 1 |
@@ -118,6 +115,9 @@
 | internal Mod before a nominal | *numerous* | adjective (control) | licensed | constructed | quant-controls | 1 |
 | internal Mod before a nominal | *red* | adjective (control) | licensed | analysis | head-relations | 1 |
 | internal Mod before a nominal | *round* | adjective (control) | licensed | constructed | adjectival-profile | 1 |
+| predeterminer modifier | *half* | common noun | licensed | CGEL | independent | 1 |
+| predeterminer modifier | *all* | determinative | licensed | CGEL | independent | 1 |
+| predeterminer modifier | *both* | determinative | licensed | CGEL | independent | 1 |
 | marker of coordination | *both* | determinative | licensed | CGEL | enough | 1 |
 | marker of coordination | *either* | determinative | licensed | CGEL | enough | 1 |
 | marker of coordination | *neither* | determinative | licensed | CGEL | enough | 1 |
