@@ -1,25 +1,25 @@
 {
  "keyed_manuscript_claims": 56,
- "pairings": 156,
+ "pairings": 151,
  "summary": {
   "construction": {
    "agree": 86,
-   "disagree": 70
+   "disagree": 65
   },
   "evidence_type": {
    "agree": 86,
-   "disagree": 70
+   "disagree": 65
   },
   "reconciled": {
    "agree": 86,
-   "disagree": 70
+   "disagree": 65
   },
   "per_keyed_claim_any_match": {
-   "construction": "51/55",
-   "evidence_type": "46/55",
-   "reconciled": "45/55"
+   "construction": "50/53",
+   "evidence_type": "46/53",
+   "reconciled": "45/53"
   },
-  "keyed_claims_with_no_pairing": 1
+  "keyed_claims_with_no_pairing": 3
  },
  "note": "Pairings share a quotation and the keyed form. The keyed claims aggregate several sentences, so a pairing is an agreement measure, not a strict key.",
  "pairs": [
@@ -148,7 +148,7 @@
    "census": "pay-024",
    "construction": [
     "internal_mod_admission",
-    "fused_head"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -378,91 +378,6 @@
    "reconciled": [
     "constructed_ungrammatical",
     "constructed_ungrammatical"
-   ]
-  },
-  {
-   "keyed": "X062",
-   "form": "few",
-   "census": "ap-055",
-   "construction": [
-    "internal_mod_admission",
-    "compound_base"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X062",
-   "form": "few",
-   "census": "du-033",
-   "construction": [
-    "internal_mod_admission",
-    "internal_mod_admission"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X062",
-   "form": "few",
-   "census": "du-035",
-   "construction": [
-    "internal_mod_admission",
-    "internal_mod_admission"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X062",
-   "form": "few",
-   "census": "du-036",
-   "construction": [
-    "internal_mod_admission",
-    "fused_head"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X063",
-   "form": "few",
-   "census": "ap-055",
-   "construction": [
-    "peripheral_mod_admission",
-    "compound_base"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
    ]
   },
   {
@@ -930,7 +845,7 @@
    "census": "enu-026",
    "construction": [
     "degree_modifier_adj",
-    "predicative_complement"
+    "degree_modifier_adj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -964,7 +879,7 @@
    "census": "enu-026",
    "construction": [
     "degree_modifier_adj",
-    "predicative_complement"
+    "degree_modifier_adj"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -1151,7 +1066,7 @@
    "census": "enu-004",
    "construction": [
     "degree_modifier_adj",
-    "dependent_internal_mod"
+    "other"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1406,7 +1321,7 @@
    "census": "pay-026",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1440,7 +1355,7 @@
    "census": "du-024",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "degree_modifier_adj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1474,7 +1389,7 @@
    "census": "pay-028",
    "construction": [
     "degree_modifier_nonadj",
-    "comparative_complement"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1491,7 +1406,7 @@
    "census": "du-025",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_adj"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1525,7 +1440,7 @@
    "census": "enu-004",
    "construction": [
     "dependent_det",
-    "dependent_internal_mod"
+    "other"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1644,7 +1559,7 @@
    "census": "enu-004",
    "construction": [
     "internal_mod_admission",
-    "dependent_internal_mod"
+    "other"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -2086,7 +2001,7 @@
    "census": "qn-004",
    "construction": [
     "independent_partitive",
-    "taxonomic_or_meta"
+    "other"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -2103,7 +2018,7 @@
    "census": "qn-016",
    "construction": [
     "internal_mod_admission",
-    "taxonomic_or_meta"
+    "other"
    ],
    "evidence_type": [
     "cgel_restricted",
@@ -2205,7 +2120,7 @@
    "census": "mod-005",
    "construction": [
     "independent_partitive",
-    "independent_partitive"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2222,7 +2137,7 @@
    "census": "mod-007",
    "construction": [
     "independent_partitive",
-    "fused_head"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2341,7 +2256,7 @@
    "census": "gh-003",
    "construction": [
     "predicative_complement",
-    "independent_argument"
+    "fused_head"
    ],
    "evidence_type": [
     "cgel_described",

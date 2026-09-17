@@ -346,8 +346,13 @@ def main():
     amend = json.loads((HERE / "amendments.json").read_text()) if (HERE / "amendments.json").exists() else {}
     for c in claims:
         if c["id"] in amend:
-            c["quote_previous"], c["quote"], c["quote_amended"] = c["quote"], amend[c["id"]]["quote"], amend[c["id"]]["reason"]
-    log = {"model": MODEL, "batch": BATCH, "calls": []}
+            a = amend[c["id"]]
+            c["quote_previous"], c["quote"], c["quote_amended"] = c["quote"], a["quote"], a["reason"]
+            for k in ("expression", "construction", "status"):   # a restated claim, not just a re-quoted one
+                if k in a: c[k + "_previous"], c[k] = c[k], a[k]
+    withdrawn = [c["id"] for c in claims if amend.get(c["id"], {}).get("withdrawn")]
+    claims[:] = [c for c in claims if c["id"] not in withdrawn]   # the sentence was removed; the claim has no bearer
+    log = {"model": MODEL, "batch": BATCH, "calls": [], "withdrawn": withdrawn}
 
     lexemes = json.loads(json.dumps(enriched["lexemes"]))
     new_forms = link_lexemes(claims, lexemes)

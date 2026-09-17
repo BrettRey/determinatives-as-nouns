@@ -50,6 +50,7 @@ def main():
     for c in census["claims"]:
         if c["id"] in amend and not c["id"].startswith("_"):
             c["quote"] = amend[c["id"]]["quote"]
+    census["claims"] = [c for c in census["claims"] if not amend.get(c["id"], {}).get("withdrawn")]
     norm_path = CENSUS / "census-normalized.json"
     norm = json.loads(norm_path.read_text()) if norm_path.exists() else {"lexemes": []}
     groups = [

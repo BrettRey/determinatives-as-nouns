@@ -1,0 +1,284 @@
+{
+ "parsed": {
+  "forms": [
+   {
+    "form": "Kim",
+    "lemma": "Kim",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "apples",
+    "lemma": "apple",
+    "subcategory": "common noun",
+    "grounding": "\\mention{apples} as the ultimate lexical head of \\mention{some apples}."
+   },
+   {
+    "form": "each",
+    "lemma": "each",
+    "subcategory": "determinative",
+    "grounding": "quantifiers including \\mention{some}, \\mention{all}, \\mention{both}, \\mention{few}, \\mention{several}, \\mention{each},"
+   },
+   {
+    "form": "either",
+    "lemma": "either",
+    "subcategory": "determinative",
+    "grounding": "quantifiers including \\mention{several}, \\mention{each}, \\mention{either}, \\mention{neither},"
+   },
+   {
+    "form": "neither",
+    "lemma": "neither",
+    "subcategory": "determinative",
+    "grounding": "quantifiers including \\mention{several}, \\mention{each}, \\mention{either}, \\mention{neither},"
+   },
+   {
+    "form": "quite",
+    "lemma": "quite",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "rather",
+    "lemma": "rather",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "such",
+    "lemma": "such",
+    "subcategory": "adjective (control)",
+    "grounding": "\\mention{such}/exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "what",
+    "lemma": "what",
+    "subcategory": "adjective (control)",
+    "grounding": "\\mention{such}/exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "half",
+    "lemma": "half",
+    "subcategory": "common noun",
+    "grounding": "The \\mention{half} in \\mention{half a cake} is a common noun used as a"
+   },
+   {
+    "form": "people",
+    "lemma": "person",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "she",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "Pronouns and determinatives express contrasts between personal \\mention{she}/\\mention{somebody}"
+   },
+   {
+    "form": "her",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "someone",
+    "lemma": "someone",
+    "subcategory": "determinative",
+    "grounding": "The compound determinative \\mention{someone}, following the categorization of"
+   },
+   {
+    "form": "Sunday",
+    "lemma": "Sunday",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "dog",
+    "lemma": "dog",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "Canada",
+    "lemma": "Canada",
+    "subcategory": "proper noun",
+    "grounding": null
+   },
+   {
+    "form": "herself",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "everything",
+    "lemma": "everything",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "two",
+    "lemma": "two",
+    "subcategory": "determinative",
+    "grounding": "the whole \\mention{two hundred} fills Det; internally, \\mention{two} modifies"
+   },
+   {
+    "form": "tall",
+    "lemma": "tall",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "you",
+    "lemma": "you",
+    "subcategory": "pronoun",
+    "grounding": null
+   },
+   {
+    "form": "very",
+    "lemma": "very",
+    "subcategory": "adverb",
+    "grounding": "The proposed analysis gives adverbs such as \\mention{very} and \\mention{too}"
+   },
+   {
+    "form": "almost",
+    "lemma": "almost",
+    "subcategory": "adverb",
+    "grounding": null
+   },
+   {
+    "form": "soccer",
+    "lemma": "soccer",
+    "subcategory": "common noun",
+    "grounding": "In \\mention{a soccer/round ball}, a noun-headed expression and an AdjP"
+   },
+   {
+    "form": "round",
+    "lemma": "round",
+    "subcategory": "adjective (control)",
+    "grounding": "a noun-headed expression and an AdjP share modifier function"
+   },
+   {
+    "form": "president",
+    "lemma": "president",
+    "subcategory": "common noun",
+    "grounding": "A bare-role NP such as \\mention{president} is licensed"
+   },
+   {
+    "form": "ill",
+    "lemma": "ill",
+    "subcategory": "adjective (control)",
+    "grounding": "NP and AdjP share predicative complement function"
+   },
+   {
+    "form": "blue",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "Bluer",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "old",
+    "lemma": "old",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "small",
+    "lemma": "small",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "it",
+    "lemma": "it",
+    "subcategory": "pronoun",
+    "grounding": "express contrasts between personal \\mention{she}/\\mention{somebody} and non-personal \\mention{it}/"
+   },
+   {
+    "form": "somebody",
+    "lemma": "somebody",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "who",
+    "lemma": "who",
+    "subcategory": "pronoun",
+    "grounding": "may be headed by a pronoun (\\mention{who})"
+   },
+   {
+    "form": "which",
+    "lemma": "which",
+    "subcategory": "determinative",
+    "grounding": null
+   },
+   {
+    "form": "nothingness",
+    "lemma": "nothingness",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "oneness",
+    "lemma": "oneness",
+    "subcategory": "common noun",
+    "grounding": null
+   },
+   {
+    "form": "red",
+    "lemma": "red",
+    "subcategory": "adjective (control)",
+    "grounding": "an internal modifier, as in \\mention{some red apples},"
+   },
+   {
+    "form": "preferences",
+    "lemma": "preference",
+    "subcategory": "common noun",
+    "grounding": "whose ultimate lexical head is \\mention{preferences}."
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 4887,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 28887,
+  "output_tokens_details": {
+   "thinking_tokens": 27167
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4887,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 10,
+    "output_tokens": 28887,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4887,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4887
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.15864300000000003,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 273313
+}

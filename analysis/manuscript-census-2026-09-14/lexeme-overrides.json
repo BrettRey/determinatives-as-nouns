@@ -12,12 +12,12 @@
  },
  "such": {
   "subcategory": "determinative",
-  "grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as restricted determinatives",
-  "reason": "adopted 2026-09-17: degree such reanalysed as a restricted determinative (§3.1); kind such was already determinative"
+  "grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as determinatives with these two functions",
+  "reason": "adopted 2026-09-17: degree such reanalysed as a determinative with Det and predeterminer functions (§3.1); kind such was already determinative"
  },
  "what": {
   "subcategory": "determinative",
-  "grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as restricted determinatives",
-  "reason": "adopted 2026-09-17: exclamative what reanalysed as a restricted determinative (§3.1); interrogative what already determinative"
+  "grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as determinatives with these two functions",
+  "reason": "adopted 2026-09-17: exclamative what reanalysed as a determinative with Det and predeterminer functions (§3.1); interrogative what already determinative"
  }
 }

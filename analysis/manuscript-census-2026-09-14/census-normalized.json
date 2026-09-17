@@ -2,7 +2,7 @@
  "derived_from": {
   "census-repartitioned.json": "3ed4dd9b7bd5fe21cdd572438118275ba6cc6bdad4dbc5c95fe942781f54d00c",
   "claims-enriched.json": "ec061fe7726373f47461157927590fa77062ebacb02c55932a57d25680a9e173",
-  "determinatives-as-nouns.tex": "987b86962f4d7f5e992bdc58ed08935f04b15a9246cb607175f5895720665417"
+  "determinatives-as-nouns.tex": "83084c565ae4805ff151bfa0d762fa4b92677db63a271036342101f48aa9a284"
  },
  "reconciliation_rule": "attestation footnote at the sentence -> retained_attestation; \\ungram in the quote -> constructed_ungrammatical; searched_not_found kept; CGEL cited in the sentence -> cgel_described (cgel_restricted kept); another work cited in the sentence -> other_source_described; otherwise the census label.",
  "catalogue": [
@@ -405,7 +405,7 @@
    ],
    "lemma": "apple",
    "subcategory": "common noun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "\\mention{apples} as the ultimate lexical head of \\mention{some apples}.",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -445,7 +445,7 @@
    ],
    "lemma": "quite",
    "subcategory": "adverb",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -455,7 +455,7 @@
    ],
    "lemma": "rather",
    "subcategory": "adverb",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -464,9 +464,9 @@
     "such"
    ],
    "lemma": "such",
-   "subcategory": "adjective (control)",
-   "subcategory_grounding": null,
-   "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
+   "subcategory": "determinative",
+   "subcategory_grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as determinatives with these two functions",
+   "subcategory_provenance": "override 2026-09-16: adopted 2026-09-17: degree such reanalysed as a determinative with Det and predeterminer functions (§3.1); kind such was already determinative"
   },
   {
    "id": "lex_what",
@@ -474,9 +474,9 @@
     "what"
    ],
    "lemma": "what",
-   "subcategory": "adjective (control)",
-   "subcategory_grounding": null,
-   "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
+   "subcategory": "determinative",
+   "subcategory_grounding": "I treat degree \\mention{such} and exclamative \\mention{what} as determinatives with these two functions",
+   "subcategory_provenance": "override 2026-09-16: adopted 2026-09-17: exclamative what reanalysed as a determinative with Det and predeterminer functions (§3.1); interrogative what already determinative"
   },
   {
    "id": "lex_half",
@@ -485,7 +485,7 @@
    ],
    "lemma": "half",
    "subcategory": "common noun",
-   "subcategory_grounding": "is a common noun used as a predeterminer modifier",
+   "subcategory_grounding": "The \\mention{half} in \\mention{half a cake} is a common noun used as a",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -505,7 +505,7 @@
    ],
    "lemma": "she",
    "subcategory": "pronoun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "Pronouns and determinatives express contrasts between personal \\mention{she}/\\mention{somebody}",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -545,7 +545,7 @@
    ],
    "lemma": "dog",
    "subcategory": "common noun",
-   "subcategory_grounding": "dog houses",
+   "subcategory_grounding": null,
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -555,7 +555,7 @@
    ],
    "lemma": "Canada",
    "subcategory": "proper noun",
-   "subcategory_grounding": "Canada Day",
+   "subcategory_grounding": null,
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -565,7 +565,7 @@
    ],
    "lemma": "she",
    "subcategory": "pronoun",
-   "subcategory_grounding": "the manager herself",
+   "subcategory_grounding": null,
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -585,7 +585,7 @@
    ],
    "lemma": "two",
    "subcategory": "determinative",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "the whole \\mention{two hundred} fills Det; internally, \\mention{two} modifies",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -615,7 +615,7 @@
    ],
    "lemma": "very",
    "subcategory": "adverb",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "The proposed analysis gives adverbs such as \\mention{very} and \\mention{too}",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -635,7 +635,7 @@
    ],
    "lemma": "soccer",
    "subcategory": "common noun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "In \\mention{a soccer/round ball}, a noun-headed expression and an AdjP",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -645,7 +645,7 @@
    ],
    "lemma": "round",
    "subcategory": "adjective (control)",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "a noun-headed expression and an AdjP share modifier function",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -655,7 +655,7 @@
    ],
    "lemma": "president",
    "subcategory": "common noun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "A bare-role NP such as \\mention{president} is licensed",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -665,7 +665,7 @@
    ],
    "lemma": "ill",
    "subcategory": "adjective (control)",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "NP and AdjP share predicative complement function",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -715,7 +715,7 @@
    ],
    "lemma": "it",
    "subcategory": "pronoun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "express contrasts between personal \\mention{she}/\\mention{somebody} and non-personal \\mention{it}/",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -735,7 +735,7 @@
    ],
    "lemma": "who",
    "subcategory": "pronoun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "may be headed by a pronoun (\\mention{who})",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -744,7 +744,7 @@
     "which"
    ],
    "lemma": "which",
-   "subcategory": "pronoun",
+   "subcategory": "determinative",
    "subcategory_grounding": null,
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
@@ -775,7 +775,7 @@
    ],
    "lemma": "red",
    "subcategory": "adjective (control)",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "an internal modifier, as in \\mention{some red apples},",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -785,7 +785,7 @@
    ],
    "lemma": "preference",
    "subcategory": "common noun",
-   "subcategory_grounding": null,
+   "subcategory_grounding": "whose ultimate lexical head is \\mention{preferences}.",
    "subcategory_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16 from census sentences; unkeyed"
   },
   {
@@ -2175,8 +2175,8 @@
    ],
    "phrases": [],
    "class_id": null,
-   "subcategory": "adjective (control)",
-   "construction_id": "internal_mod_admission",
+   "subcategory": "determinative",
+   "construction_id": "dependent_internal_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -2201,8 +2201,8 @@
    ],
    "phrases": [],
    "class_id": null,
-   "subcategory": "adjective (control)",
-   "construction_id": "internal_mod_admission",
+   "subcategory": "determinative",
+   "construction_id": "dependent_internal_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -2217,22 +2217,23 @@
   {
    "id": "ind-023",
    "section_label": "sec:independent",
-   "expression": "\\mention{many a}",
-   "construction": "Det function only",
+   "expression": "\\mention{many}, predeterminer in many a",
+   "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "cgel_described",
-   "quote": "The fixed \\mention{many a} is a complex determinative restricted to Det function",
+   "quote": "§\\ref{sec:article-membership} reanalyses that pair, and \\textit{CGEL}'s complex determinative \\mention{many a} \\citep[394]{huddleston2002}, as determinatives in predeterminer function",
    "condition": "Restricted to Det function; no other function licensed.",
+   "quote_previous": "The fixed \\mention{many a} is a complex determinative restricted to Det function",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "\\mention{many a}",
+   "construction_previous": "Det function only",
    "lexeme_ids": [
-    "lex_a"
+    "lex_many"
    ],
-   "phrases": [
-    "many a"
-   ],
+   "phrases": [],
    "class_id": null,
-   "lexeme_note": "phrase 'many a' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "predeterminer_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -2980,7 +2981,7 @@
    ],
    "class_id": null,
    "lexeme_note": "phrase 'what size' resolved to its last known noun-subcategory lexeme",
-   "subcategory": "adjective (control)",
+   "subcategory": "determinative",
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
@@ -3365,7 +3366,7 @@
    "phrases": [],
    "class_id": "class:common_noun",
    "subcategory": "common noun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -3391,7 +3392,7 @@
    "phrases": [],
    "class_id": "class:pronoun",
    "subcategory": "pronoun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -3610,10 +3611,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -3636,7 +3636,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "peripheral_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -3736,10 +3736,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "restriction on of-phrase",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence",
     "ungrammaticality_marked"
@@ -3873,7 +3872,6 @@
    "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -3898,7 +3896,6 @@
    "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -3915,8 +3912,10 @@
    "construction": "number transparency (taking number from the partitive complement)",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "Singular \\mention{each of the people} doesn't take its number from \\mention{people}",
+   "quote": "\\mention{Each of the people} takes singular agreement by default",
    "note": "The partitive construction itself is licensed; number transparency is not.",
+   "quote_previous": "Singular \\mention{each of the people} doesn't take its number from \\mention{people}",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
    "lexeme_ids": [
     "lex_people"
    ],
@@ -3929,7 +3928,6 @@
    "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -3942,7 +3940,9 @@
    "construction": "number transparency (taking number from the partitive complement)",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "nor does ordinary \\mention{a photograph of the people}",
+   "quote": "ordinary \\mention{a photograph of the people} takes it categorically",
+   "quote_previous": "nor does ordinary \\mention{a photograph of the people}",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
    "lexeme_ids": [
     "lex_people"
    ],
@@ -3955,7 +3955,6 @@
    "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -3978,7 +3977,6 @@
    "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -3999,10 +3997,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "external_determination",
    "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
+   "construction_provenance": "rule 2026-09-16: other_label named external determination",
+   "construction_id_pass2": "other",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -4027,10 +4025,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "resistance to modification",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -4055,10 +4052,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "required determination",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -4162,7 +4158,7 @@
    "phrases": [],
    "class_id": "class:common_noun",
    "subcategory": "common noun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -4188,7 +4184,7 @@
    "phrases": [],
    "class_id": "class:pronoun",
    "subcategory": "pronoun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -4214,7 +4210,7 @@
    "phrases": [],
    "class_id": "class:proper_noun",
    "subcategory": "proper noun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -5334,10 +5330,13 @@
    "id": "ap-024",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{very}",
-   "construction": "internal modifier within the complex determinative \\mention{a few}, as in \\mention{a very few mistakes}",
+   "construction": "internal modifier of \\mention{few}, head of the NP \\mention{a few}, as in \\mention{a very few mistakes}",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+   "quote": "\\textit{CGEL} contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}",
+   "quote_previous": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "internal modifier within the complex determinative \\mention{a few}, as in \\mention{a very few mistakes}",
    "lexeme_ids": [
     "lex_very"
    ],
@@ -5360,10 +5359,13 @@
    "id": "ap-025",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{quite}",
-   "construction": "peripheral modifier outside \\mention{a few}, as in \\mention{quite a few mistakes}",
+   "construction": "peripheral modifier of the NP \\mention{a few}, as in \\mention{quite a few mistakes}",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+   "quote": "\\textit{CGEL} contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}",
+   "quote_previous": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "peripheral modifier outside \\mention{a few}, as in \\mention{quite a few mistakes}",
    "lexeme_ids": [
     "lex_quite"
    ],
@@ -5386,11 +5388,14 @@
    "id": "ap-026",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{very}",
-   "construction": "position before \\mention{a} in the complex determinative",
+   "construction": "position before \\mention{a} in \\mention{a few}",
    "status": "excluded",
    "evidence_type": "constructed_ungrammatical",
-   "quote": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+   "quote": "the reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded",
    "note": "Marked ungrammatical.",
+   "quote_previous": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "position before \\mention{a} in the complex determinative",
    "lexeme_ids": [
     "lex_very"
    ],
@@ -5401,10 +5406,12 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_paragraph",
+    "cgel_cited_sentence",
     "ungrammaticality_marked"
    ],
-   "cited_keys_sentence": [],
+   "cited_keys_sentence": [
+    "huddleston2002"
+   ],
    "evidence_type_reconciled": "constructed_ungrammatical",
    "label_uncited_at_locus": false
   },
@@ -5412,11 +5419,14 @@
    "id": "ap-027",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{quite}",
-   "construction": "position inside the complex determinative, after \\mention{a}",
+   "construction": "position inside \\mention{a few}, after \\mention{a}",
    "status": "excluded",
    "evidence_type": "constructed_ungrammatical",
-   "quote": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+   "quote": "the reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded",
    "note": "Marked ungrammatical.",
+   "quote_previous": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "position inside the complex determinative, after \\mention{a}",
    "lexeme_ids": [
     "lex_quite"
    ],
@@ -5427,10 +5437,12 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_paragraph",
+    "cgel_cited_sentence",
     "ungrammaticality_marked"
    ],
-   "cited_keys_sentence": [],
+   "cited_keys_sentence": [
+    "huddleston2002"
+   ],
    "evidence_type_reconciled": "constructed_ungrammatical",
    "label_uncited_at_locus": false
   },
@@ -6100,10 +6112,13 @@
    "id": "ap-055",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{a} in \\mention{a few}",
-   "construction": "membership of the complex determinative, with internal and external modifier positions around it",
+   "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}, with \\mention{very} on the head and \\mention{quite} on the NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Here \\mention{a} belongs to the complex determinative; \\mention{very} occurs within it and \\mention{quite} outside it.",
+   "quote": "On the analysis of §\\ref{sec:article-membership}, \\mention{a few} is an NP with \\mention{a} in Det and \\mention{few} as head, so \\mention{very} modifies the head and \\mention{quite} modifies the NP, as in \\mention{quite a mess}.",
+   "quote_previous": "Here \\mention{a} belongs to the complex determinative; \\mention{very} occurs within it and \\mention{quite} outside it.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "membership of the complex determinative, with internal and external modifier positions around it",
    "lexeme_ids": [
     "lex_a"
    ],
@@ -6112,7 +6127,7 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -6508,8 +6523,8 @@
    "phrases": [],
    "class_id": "class:pronoun",
    "subcategory": "pronoun",
-   "construction_id": "genitive_marking",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "case inflection",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "cgel_cited_paragraph"
@@ -6530,16 +6545,13 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "case inflection",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_paragraph"
    ],
-   "cited_keys_sentence": [
-    "huddleston2002"
-   ],
+   "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
   },
@@ -6550,15 +6562,17 @@
    "construction": "genitive formation attributed to the nominal component",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+   "quote": "The compounds' genitives belong to the NP",
    "condition": "The genitive may depend on the compound's nominal component.",
+   "quote_previous": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+   "quote_amended": "2026-09-17: genitive sentence reworded as a positive statement in the double-check",
    "lexeme_ids": [
     "lex_someone"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "genitive_marking",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -6577,15 +6591,17 @@
    "construction": "genitive formation attributed to the nominal component",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+   "quote": "The compounds' genitives belong to the NP",
    "condition": "The genitive may depend on the compound's nominal component.",
+   "quote_previous": "compounds such as \\mention{someone} and \\mention{something} may owe their genitives to the nominal component",
+   "quote_amended": "2026-09-17: genitive sentence reworded as a positive statement in the double-check",
    "lexeme_ids": [
     "lex_something"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "genitive_marking",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -6743,7 +6759,7 @@
    ],
    "phrases": [],
    "class_id": null,
-   "subcategory": "pronoun",
+   "subcategory": "mixed",
    "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
@@ -6770,7 +6786,7 @@
    ],
    "phrases": [],
    "class_id": null,
-   "subcategory": "adjective (control)",
+   "subcategory": "determinative",
    "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
@@ -6880,7 +6896,7 @@
    "lexeme_note": "phrase 'two thousand and twenty-seventh' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
    "construction_id": "other",
-   "construction_other": "coordination structure analysis",
+   "construction_other": "coordination with adjectival final coordinate",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
@@ -7007,7 +7023,7 @@
    "phrases": [],
    "class_id": "class:pronoun",
    "subcategory": "pronoun",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -7031,7 +7047,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -7323,7 +7339,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "independent_partitive",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -7487,7 +7503,7 @@
    "phrases": [],
    "class_id": "class:pronoun",
    "subcategory": "pronoun",
-   "construction_id": "dependent_internal_mod",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -7511,7 +7527,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "dependent_internal_mod",
+   "construction_id": "degree_modifier_adj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -8204,23 +8220,28 @@
    "id": "am-017",
    "section_label": "sec:article-membership",
    "expression": "\\mention{a}",
-   "construction": "complex determinative \\mention{a few}",
+   "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+   "quote_previous": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "complex determinative \\mention{a few}",
    "lexeme_ids": [
     "lex_a"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_paragraph"
+    "cgel_cited_sentence"
    ],
-   "cited_keys_sentence": [],
+   "cited_keys_sentence": [
+    "huddleston2002"
+   ],
    "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
   },
@@ -8228,41 +8249,46 @@
    "id": "am-018",
    "section_label": "sec:article-membership",
    "expression": "\\mention{a}",
-   "construction": "complex determinative \\mention{a little}",
+   "construction": "Det of the NP \\mention{a little}, headed by \\mention{little}",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+   "quote_previous": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "complex determinative \\mention{a little}",
    "lexeme_ids": [
     "lex_a"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [
-    "cgel_cited_paragraph"
-   ],
+   "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": true
   },
   {
    "id": "am-019",
    "section_label": "sec:article-membership",
-   "expression": "\\mention{a}",
-   "construction": "complex determinative \\mention{many a}",
+   "expression": "\\mention{a} in many a",
+   "construction": "Det of the count singular NP that \\mention{many} modifies as predeterminer",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote": "the count singular head and singular agreement of \\mention{many a man has} come from \\mention{a} and \\mention{man}",
+   "quote_previous": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "\\mention{a}",
+   "construction_previous": "complex determinative \\mention{many a}",
    "lexeme_ids": [
     "lex_a"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "compound_base",
+   "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -8275,60 +8301,29 @@
   {
    "id": "am-020",
    "section_label": "sec:article-membership",
-   "expression": "\\mention{many a}",
-   "construction": "Det function only, as a syntactically fixed complex determinative",
+   "expression": "\\mention{many}, predeterminer in many a",
+   "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "cgel_restricted",
-   "quote": "\\textit{CGEL} treats \\mention{many a} as syntactically fixed and restricted to Det function",
+   "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
    "condition": "Restricted to Det function.",
+   "quote_previous": "\\textit{CGEL} treats \\mention{many a} as syntactically fixed and restricted to Det function",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "\\mention{many a}",
+   "construction_previous": "Det function only, as a syntactically fixed complex determinative",
    "lexeme_ids": [
-    "lex_a"
-   ],
-   "phrases": [
-    "many a"
-   ],
-   "class_id": null,
-   "lexeme_note": "phrase 'many a' resolved to its last known noun-subcategory lexeme",
-   "subcategory": "determinative",
-   "construction_id": "dependent_det",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [
-    "cgel_cited_sentence"
-   ],
-   "cited_keys_sentence": [
-    "huddleston2002"
-   ],
-   "evidence_type_reconciled": "cgel_restricted",
-   "label_uncited_at_locus": false
-  },
-  {
-   "id": "am-021",
-   "section_label": "sec:article-membership",
-   "expression": "ordinary \\mention{a}",
-   "construction": "free acceptance of modifiers",
-   "status": "not_stated",
-   "evidence_type": "authors_analysis",
-   "quote": "it doesn't establish that ordinary \\mention{a} freely accepts modifiers",
-   "note": "The manuscript declines to infer modifier permissions for ordinary \\mention{a}.",
-   "lexeme_ids": [
-    "lex_a"
+    "lex_many"
    ],
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "predeterminer_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
-   "basis_signals": [
-    "cgel_cited_sentence"
-   ],
-   "cited_keys_sentence": [
-    "huddleston2002"
-   ],
-   "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "basis_signals": [],
+   "cited_keys_sentence": [],
+   "evidence_type_reconciled": "cgel_restricted",
+   "label_uncited_at_locus": true
   },
   {
    "id": "am-022",
@@ -8534,7 +8529,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "external_determination",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -8650,7 +8645,6 @@
    "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -8826,7 +8820,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -8851,7 +8845,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'some of the wine' resolved to its last known noun-subcategory lexeme",
    "subcategory": "common noun",
-   "construction_id": "independent_partitive",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -8898,9 +8892,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "dependent_det",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "structural hierarchy",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -8985,9 +8980,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "dependent_det",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9007,7 +9003,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -9029,7 +9025,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -9052,7 +9048,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -9075,10 +9071,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "independent_argument",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9099,7 +9094,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -9146,6 +9141,7 @@
    "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9185,7 +9181,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -9257,9 +9253,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "dependent_det",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9497,6 +9494,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
@@ -9519,6 +9517,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
@@ -9544,6 +9543,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9563,7 +9563,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -9690,7 +9690,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "independent_partitive",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -9713,7 +9713,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "independent_partitive",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -9737,9 +9737,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "preposition",
-   "construction_id": "independent_argument",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -9763,9 +9764,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -9788,9 +9790,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "preposition",
-   "construction_id": "independent_argument",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9833,9 +9836,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9858,6 +9862,7 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -9877,7 +9882,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "adjective (control)",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "dependent_internal_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -9902,7 +9907,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'the lucky survivors' resolved to its last known noun-subcategory lexeme",
    "subcategory": "common noun",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -10012,9 +10017,10 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -10060,9 +10066,10 @@
    "class_id": null,
    "lexeme_note": "phrase 'the lucky few' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -10083,6 +10090,7 @@
    "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -10130,9 +10138,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "independent_argument",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "table_row"
    ],
@@ -10288,7 +10297,7 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -10342,7 +10351,7 @@
    ],
    "class_id": null,
    "subcategory": "adjective (control)",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -10365,7 +10374,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -10391,9 +10400,10 @@
    "class_id": null,
    "lexeme_note": "phrase 'the remaining three' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "other_cited_paragraph"
    ],
@@ -10421,6 +10431,7 @@
    "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "other_cited_sentence"
    ],
@@ -10576,6 +10587,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -10973,10 +10985,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "adverb",
-   "construction_id": "degree_modifier_nonadj",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -10996,10 +11007,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "adverb",
-   "construction_id": "degree_modifier_nonadj",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -11045,7 +11055,7 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -11094,7 +11104,7 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "degree_modifier_nonadj",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -11153,7 +11163,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'a lot more than fifty' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "comparative_complement",
+   "construction_id": "degree_modifier_nonadj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -11181,6 +11191,7 @@
    "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -11237,7 +11248,7 @@
    ],
    "class_id": null,
    "subcategory": "adverb",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "degree_modifier_adj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -11317,6 +11328,7 @@
    "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -11340,6 +11352,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -11500,7 +11513,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "adverb",
-   "construction_id": "fused_head",
+   "construction_id": "peripheral_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -11525,7 +11538,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "common noun",
-   "construction_id": "fused_head",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -11609,7 +11622,9 @@
    "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [],
+   "basis_signals": [
+    "cgel_cited_paragraph"
+   ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
    "label_uncited_at_locus": false
@@ -11626,10 +11641,12 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "external_determination",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [],
+   "basis_signals": [
+    "cgel_cited_paragraph"
+   ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
    "label_uncited_at_locus": false
@@ -11647,10 +11664,13 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [],
+   "construction_id_pass1": "taxonomic_or_meta",
+   "basis_signals": [
+    "cgel_cited_paragraph"
+   ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
    "label_uncited_at_locus": false
@@ -11667,10 +11687,13 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [],
+   "construction_id_pass1": "taxonomic_or_meta",
+   "basis_signals": [
+    "cgel_cited_paragraph"
+   ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
    "label_uncited_at_locus": false
@@ -11716,9 +11739,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -11742,7 +11766,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -11764,7 +11788,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -11789,7 +11813,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'something reliable and good looking' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -11911,10 +11935,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "pronoun",
-   "construction_id": "independent_argument",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -11983,7 +12006,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "genitive_marking",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -12010,6 +12033,7 @@
    "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -13136,10 +13160,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "peripheral_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -13207,7 +13230,6 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -13401,7 +13423,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'that day' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -13431,7 +13453,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'that point in time' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "independent_argument",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -13480,7 +13502,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13573,7 +13595,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "number_inflection",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13597,7 +13619,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "number_inflection",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13625,7 +13647,6 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -13650,10 +13671,9 @@
    ],
    "class_id": null,
    "subcategory": "proper noun",
-   "construction_id": "genitive_marking",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
@@ -13701,7 +13721,7 @@
    ],
    "class_id": null,
    "lexeme_note": "phrase 'what size hat' resolved to its last known noun-subcategory lexeme",
-   "subcategory": "adjective (control)",
+   "subcategory": "determinative",
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
@@ -13757,7 +13777,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13779,7 +13799,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13801,7 +13821,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13843,7 +13863,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -13982,7 +14002,6 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14006,7 +14025,6 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14030,7 +14048,6 @@
    "construction_id": "independent_partitive",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14054,7 +14071,6 @@
    "construction_id": "independent_partitive",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14163,7 +14179,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "degree_modifier_nonadj",
+   "construction_id": "degree_modifier_adj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -14189,7 +14205,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'a lot' resolved to its last known noun-subcategory lexeme",
    "subcategory": "common noun",
-   "construction_id": "degree_modifier_adj",
+   "construction_id": "degree_modifier_nonadj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -14272,7 +14288,9 @@
    "construction": "external determination",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "They exclude external determination and a corresponding pre-head adjective.",
+   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+   "quote_previous": "They exclude external determination and a corresponding pre-head adjective.",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -14292,12 +14310,14 @@
    "construction": "pre-head adjective",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "They exclude external determination and a corresponding pre-head adjective.",
+   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+   "quote_previous": "They exclude external determination and a corresponding pre-head adjective.",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "internal_mod_admission",
+   "construction_id": "compound_base",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -14358,25 +14378,26 @@
   {
    "id": "du-033",
    "section_label": "sec:det-uniform",
-   "expression": "complex \\mention{a few}",
-   "construction": "construction-specific conditions in the fragment",
-   "status": "conditional",
+   "expression": "\\mention{few} in a few",
+   "construction": "head of the NP \\mention{a few} in Det, with \\mention{a} as its own Det",
+   "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
    "condition": "Construction-specific conditions, including internal degree modifier position.",
+   "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "complex \\mention{a few}",
+   "construction_previous": "construction-specific conditions in the fragment",
+   "status_previous": "conditional",
    "lexeme_ids": [
     "lex_few"
    ],
-   "phrases": [
-    "a few"
-   ],
+   "phrases": [],
    "class_id": null,
-   "lexeme_note": "phrase 'a few' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14385,25 +14406,26 @@
   {
    "id": "du-034",
    "section_label": "sec:det-uniform",
-   "expression": "complex \\mention{a little}",
-   "construction": "construction-specific conditions in the fragment",
-   "status": "conditional",
+   "expression": "\\mention{little} in a little",
+   "construction": "head of the NP \\mention{a little} in Det, with \\mention{a} as its own Det",
+   "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
    "condition": "Construction-specific conditions.",
+   "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "complex \\mention{a little}",
+   "construction_previous": "construction-specific conditions in the fragment",
+   "status_previous": "conditional",
    "lexeme_ids": [
     "lex_little"
    ],
-   "phrases": [
-    "a little"
-   ],
+   "phrases": [],
    "class_id": null,
-   "lexeme_note": "phrase 'a little' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
+   "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14413,10 +14435,13 @@
    "id": "du-035",
    "section_label": "sec:det-uniform",
    "expression": "\\mention{a very few}",
-   "construction": "internal degree modifier position within the complex determinative",
+   "construction": "internal degree modifier position on the head \\mention{few} of \\mention{a few}",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote": "the internal degree modifier of \\mention{a very few} attaches to that head and peripheral \\mention{quite} to the NP",
+   "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "internal degree modifier position within the complex determinative",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -14438,10 +14463,14 @@
    "id": "du-036",
    "section_label": "sec:det-uniform",
    "expression": "the initial \\mention{a} of \\mention{a few}",
-   "construction": "ordinary Det selecting a plural \\mention{few} target",
-   "status": "excluded",
+   "construction": "Det of \\mention{few} within the NP \\mention{a few}, which takes plural agreement as a whole",
+   "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
+   "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+   "quote_previous": "Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "construction_previous": "ordinary Det selecting a plural \\mention{few} target",
+   "status_previous": "excluded",
    "lexeme_ids": [
     "lex_a"
    ],
@@ -14450,34 +14479,38 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "number_agreement",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
-   "basis_signals": [],
-   "cited_keys_sentence": [],
-   "evidence_type_reconciled": "authors_analysis",
+   "basis_signals": [
+    "cgel_cited_sentence"
+   ],
+   "cited_keys_sentence": [
+    "huddleston2002"
+   ],
+   "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
   },
   {
    "id": "du-037",
    "section_label": "sec:det-uniform",
-   "expression": "fixed \\mention{many a}",
-   "construction": "Det function only",
+   "expression": "\\mention{many}, predeterminer in many a",
+   "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "Fixed \\mention{many a} retains its restriction to Det function",
+   "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
    "condition": "Restricted to Det function.",
+   "quote_previous": "Fixed \\mention{many a} retains its restriction to Det function",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "expression_previous": "fixed \\mention{many a}",
+   "construction_previous": "Det function only",
    "lexeme_ids": [
-    "lex_a"
+    "lex_many"
    ],
-   "phrases": [
-    "many a"
-   ],
+   "phrases": [],
    "class_id": null,
-   "lexeme_note": "phrase 'many a' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "predeterminer_mod",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -14492,7 +14525,9 @@
    "construction": "internal Mod of the nominal headed by the common noun",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote_previous": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -14516,7 +14551,9 @@
    "construction": "Head of the independently determined NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote_previous": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -14707,7 +14744,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "external_determination",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -14731,7 +14768,7 @@
    ],
    "class_id": null,
    "subcategory": "adjective (control)",
-   "construction_id": "dependent_internal_mod",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -14791,10 +14828,9 @@
    "phrases": [],
    "class_id": "class:article",
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14813,10 +14849,9 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
+   "construction_id": "fused_head",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -14947,6 +14982,7 @@
    "construction_id": "dependent_det",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -14970,9 +15006,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_internal_mod",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "postposed internal modifier",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence"
    ],
@@ -15000,6 +15037,7 @@
    "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "cgel_cited_sentence",
     "ungrammaticality_marked"
@@ -15100,8 +15138,8 @@
    "class_id": null,
    "lexeme_note": "phrase 'completely free every Tuesday' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "AdjP structure",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "example_env"
@@ -15129,8 +15167,8 @@
    "class_id": null,
    "lexeme_note": "phrase 'very busy this week' resolved to its last known noun-subcategory lexeme",
    "subcategory": "determinative",
-   "construction_id": "internal_mod_admission",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "coordinated AdjP structure",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "example_env"
@@ -15550,7 +15588,7 @@
    "class_id": null,
    "lexeme_note": "phrase 'a great deal better' resolved to its last known noun-subcategory lexeme",
    "subcategory": "common noun",
-   "construction_id": "predicative_complement",
+   "construction_id": "degree_modifier_adj",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -15732,7 +15770,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "dependent_internal_mod",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -15851,9 +15889,10 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "table_row"
    ],
@@ -15874,9 +15913,10 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "table_row"
    ],
@@ -15897,9 +15937,10 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "table_row"
    ],
@@ -15920,9 +15961,10 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
     "table_row"
    ],
@@ -16011,9 +16053,10 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -16033,7 +16076,7 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "external_determination",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [],
@@ -16118,7 +16161,7 @@
    "class_id": null,
    "subcategory": null,
    "construction_id": "other",
-   "construction_other": "numeral in proper noun designation",
+   "construction_other": "proper-noun numeral",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "other_cited_sentence"
@@ -16276,7 +16319,7 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_internal_mod",
+   "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
@@ -16695,7 +16738,6 @@
    "construction_id": "genitive_marking",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -16715,10 +16757,9 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "dependent-independent form distinction in quantifiers",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -17085,7 +17126,7 @@
    "phrases": [],
    "class_id": "class:common_noun",
    "subcategory": "common noun",
-   "construction_id": "number_agreement",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -17151,8 +17192,8 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "paradigmatic form-selection conditions",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [],
@@ -17172,7 +17213,7 @@
    "phrases": [],
    "class_id": "class:determinative",
    "subcategory": "determinative",
-   "construction_id": "fused_head",
+   "construction_id": "taxonomic_or_meta",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -17345,7 +17386,7 @@
    ],
    "class_id": null,
    "subcategory": null,
-   "construction_id": "taxonomic_or_meta",
+   "construction_id": "independent_argument",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
@@ -17438,8 +17479,8 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "pronoun",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "count restriction on anaphoric reference",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [
@@ -17470,8 +17511,8 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "pronoun",
-   "construction_id": "taxonomic_or_meta",
-   "construction_other": null,
+   "construction_id": "other",
+   "construction_other": "mass reference of anaphoric form",
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "construction_id_pass1": "taxonomic_or_meta",
    "basis_signals": [

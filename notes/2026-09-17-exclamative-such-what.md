@@ -31,3 +31,7 @@ Two things *CGEL* also says bear on the decision. Criterion (a) admits \enquote{
 ## Recommendation
 
 Adopt: degree *such* and exclamative *what* as restricted determinatives, *such a* and *what a* as complex determinatives beside *many a*, with one paragraph in §3.1 stating the change and its grounds. It costs a sentence in §2.1 and gains a cleaner restricted-member class whose defining property (dependent-only use, article-requiring for count singulars) the 2021 clustering already shows.
+
+## Addendum (later the same day): the complex forms dissolve
+
+Brett asked whether complex determinatives hold up under the D-noun analysis at all. They don't, and the recommendation above is superseded on that point. *CGEL*'s semantic hinge is positive vs negative paucal (p. 391), neutralised under any definite determiner (pp. 393–394), so the polarity belongs to the Det slot; *a good/fair/select few* and *the/those few* are the replacements and expansions *CGEL* itself uses against a complex *a number of* (pp. 351–352); and *such* is already a predeterminer in *CGEL*'s inventory (p. 331). Result: *a few* and *a little* are NPs in Det with *a* as their own Det (as genitive Dets already are), *many a*, *such a*, and *what a* are determinatives in predeterminer function on an *a*-NP, and degree *such* and exclamative *what* are plain determinatives with Det and predeterminer functions. Full record in DECISIONS.md (2026-09-17, "No complex determinatives").

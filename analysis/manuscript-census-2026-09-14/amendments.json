@@ -1,5 +1,5 @@
 {
- "_about": "Quote amendments applied on top of census-repartitioned.json by normalize.py and check_sources.py. The census files are never edited; when a manuscript sentence a claim quotes is changed, the new wording and the reason go here.",
+ "_about": "Quote amendments applied on top of census-repartitioned.json by normalize.py and check_sources.py. The census files are never edited; when a manuscript sentence a claim quotes is changed, the new wording and the reason go here. Since 2026-09-17 an entry may also restate the claim (expression, construction, status keys, each recorded beside its *_previous value) or withdraw it (withdrawn: true) when the restated sentence no longer makes the censused claim.",
  "pay-019": {
   "quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute} \\citep[41--42]{payne2010}.",
   "previous_quote": "It also preserves their contrast between adverbial premodification, as in \\mention{almost anybody}, and adjectival postmodification, as in \\mention{nothing absolute}.",
@@ -40,6 +40,21 @@
    "old": "They exclude external determination and a corresponding pre-head adjective.",
    "new": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
    "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md); applies to the expanded run's evidence quotes (X093, X095, X096, X097), whose bundle is hash-pinned and not edited"
+  },
+  {
+   "old": "With the complex determinative \\mention{a few}, modifier position distinguishes two kinds of attachment. \\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+   "new": "With \\mention{a few}, modifier position distinguishes two attachment sites.",
+   "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md; applies to the expanded run's evidence quotes (X062)"
+  },
+  {
+   "old": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions. Here \\mention{a} belongs to the complex determinative; \\mention{very} occurs within it and \\mention{quite} outside it.",
+   "new": "the reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded",
+   "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md; applies to the expanded run's evidence quotes (X062)"
+  },
+  {
+   "old": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}. Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
+   "new": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+   "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md; applies to the expanded run's evidence quotes (X062)"
   }
  ],
  "inf-018": {
@@ -51,5 +66,120 @@
   "quote": "The compounds' genitives belong to the NP",
   "previous_quote": "The compounds' genitives are the NP's, not the nominal component's",
   "reason": "2026-09-17: genitive sentence reworded as a positive statement in the double-check"
+ },
+ "ind-023": {
+  "quote": "§\\ref{sec:article-membership} reanalyses that pair, and \\textit{CGEL}'s complex determinative \\mention{many a} \\citep[394]{huddleston2002}, as determinatives in predeterminer function",
+  "previous_quote": "The fixed \\mention{many a} is a complex determinative restricted to Det function",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{many}, predeterminer in many a",
+  "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)"
+ },
+ "ap-024": {
+  "quote": "\\textit{CGEL} contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}",
+  "previous_quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "internal modifier of \\mention{few}, head of the NP \\mention{a few}, as in \\mention{a very few mistakes}"
+ },
+ "ap-025": {
+  "quote": "\\textit{CGEL} contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes} \\citep[p.~392, (61)]{huddleston2002}",
+  "previous_quote": "\\textit{CGEL} explicitly contrasts internal \\mention{very} in \\mention{a very few mistakes} with peripheral \\mention{quite} in \\mention{quite a few mistakes}",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "peripheral modifier of the NP \\mention{a few}, as in \\mention{quite a few mistakes}"
+ },
+ "ap-026": {
+  "quote": "the reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded",
+  "previous_quote": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "position before \\mention{a} in \\mention{a few}"
+ },
+ "ap-027": {
+  "quote": "the reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded",
+  "previous_quote": "The reversed orders \\ungram{\\mention{very a few}} and \\ungram{\\mention{a quite few}} are excluded in these constructions.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "position inside \\mention{a few}, after \\mention{a}"
+ },
+ "ap-055": {
+  "quote": "On the analysis of §\\ref{sec:article-membership}, \\mention{a few} is an NP with \\mention{a} in Det and \\mention{few} as head, so \\mention{very} modifies the head and \\mention{quite} modifies the NP, as in \\mention{quite a mess}.",
+  "previous_quote": "Here \\mention{a} belongs to the complex determinative; \\mention{very} occurs within it and \\mention{quite} outside it.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}, with \\mention{very} on the head and \\mention{quite} on the NP"
+ },
+ "am-017": {
+  "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+  "previous_quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}"
+ },
+ "am-018": {
+  "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+  "previous_quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "Det of the NP \\mention{a little}, headed by \\mention{little}"
+ },
+ "am-019": {
+  "quote": "the count singular head and singular agreement of \\mention{many a man has} come from \\mention{a} and \\mention{man}",
+  "previous_quote": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{a} in many a",
+  "construction": "Det of the count singular NP that \\mention{many} modifies as predeterminer"
+ },
+ "am-020": {
+  "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
+  "previous_quote": "\\textit{CGEL} treats \\mention{many a} as syntactically fixed and restricted to Det function",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{many}, predeterminer in many a",
+  "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)"
+ },
+ "am-021": {
+  "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+  "previous_quote": "it doesn't establish that ordinary \\mention{a} freely accepts modifiers",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "du-033": {
+  "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+  "previous_quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{few} in a few",
+  "construction": "head of the NP \\mention{a few} in Det, with \\mention{a} as its own Det",
+  "status": "licensed"
+ },
+ "du-034": {
+  "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+  "previous_quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{little} in a little",
+  "construction": "head of the NP \\mention{a little} in Det, with \\mention{a} as its own Det",
+  "status": "licensed"
+ },
+ "du-035": {
+  "quote": "the internal degree modifier of \\mention{a very few} attaches to that head and peripheral \\mention{quite} to the NP",
+  "previous_quote": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "internal degree modifier position on the head \\mention{few} of \\mention{a few}"
+ },
+ "du-036": {
+  "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+  "previous_quote": "Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "construction": "Det of \\mention{few} within the NP \\mention{a few}, which takes plural agreement as a whole",
+  "status": "licensed"
+ },
+ "du-037": {
+  "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
+  "previous_quote": "Fixed \\mention{many a} retains its restriction to Det function",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+  "expression": "\\mention{many}, predeterminer in many a",
+  "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)"
+ },
+ "du-038": {
+  "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+  "previous_quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md"
+ },
+ "du-039": {
+  "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+  "previous_quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+  "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md"
  }
 }

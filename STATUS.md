@@ -5,7 +5,7 @@ title: Determinatives as nouns in English
 stage: drafting
 external: rejected
 blocked_on: []
-updated: 2026-09-16
+updated: 2026-09-17
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -28,7 +28,7 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Census normalized into a queryable layer with cross-tab and corpus worklist; two citation repairs; working draft builds · status: drafting · updated: 2026-09-16 -->
+<!-- SUMMARY: Complex determinatives dissolved (a few = external determination, many a/such a/what a = predeterminer modification); census amendments can restate or withdraw claims; corpus exclusion checks and claim register in place · status: drafting · updated: 2026-09-17 -->
 
 **Last updated:** 2026-09-16
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
