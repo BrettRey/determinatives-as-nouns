@@ -20,7 +20,9 @@ A categorical exclusion is too strong as stated, and a referee with a corpus wou
 
 The rate needs the comparison: hit counts for "each was" and "each has" are queued. Under the source-grounding law these lines are candidates until Brett has read them; the sources and dates are in the screened JSON beside this note.
 
-## COCA, `every [v*]`, 1,095 lines (saved by Brett as every.odt, 2026-09-17)
+## COCA, `each/every [v*]`, 1,095 lines of which 618 contain *every* (saved by Brett as every.odt, 2026-09-17)
+
+Correction: the export was the alternation query, not `every [v*]` alone; the *each* lines were rejected by the screen and don't bear on the reading below. Figures elsewhere in this note that say 1,095 refer to the whole export.
 
 TypeSafe rejected 948 and escalated 147; none accepted. The escalated lines were read in full by the screening session. Genres of the escalated set: BLOG, WEB and SPOK dominate; ACAD, NEWS and MAG contribute almost nothing beyond truncated rows, the golfer's surname, and mathematical notation with its symbols stripped (*for every , let be the density*).
 
