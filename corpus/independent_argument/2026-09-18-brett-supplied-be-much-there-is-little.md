@@ -18,3 +18,14 @@ NOW (date, country, source):
 - 22-02-26 NZ autocar.co.nz: "'s more to do with the CVT than turbo lag, of which there is little ."
 
 Reading: the COCA set is mostly predicative *much* with a quantity-denoting subject (*it*, *pay*, *the hurt*, *he* as "not much of a president"), the case Solt (2015: (77)) marks acceptable, plus existential displaced-subject *much*; the NOW set is existential *little*. Both are independent NP uses of the two words.
+
+## Second batch, same day: modified much and little in predicative function (COCA, hand-pasted, unscreened)
+
+Three displays: `became/become too much to V` (ENTRIES: 45), `seem(s/ed) too/so much/little to ...` (46), and `seem(s/ed) so/too little` (28). Reading: the first set is uniformly predicative *too much* with a non-amount subject (*the pain*, *the burden of debt*, *his gaze*, *mistakes*) and an infinitival licensed by *too*; the second is mostly predicative *too much to hope for / ask / bear* and *so little to give*, but includes degree-adjunct *seem so much to be X* (not predicative; excluded); the third mixes the determinative (*there seems so little left*, *seemed too little, too late*, *8 GB might seem too little*) with the adjective *little* 'small' (*the sailing boat seemed so little*, *she seemed so little and scared*), which a query on the form can't separate.
+
+Lines cited in the article (year, genre, source):
+- 2007 NEWS AssocPress: "he opted for the hip replacement surgery a year ago after the pain and immobility became too much to bear."
+- 2012 WEB amazon.com: "by 2008 the burden of debt became too much to bear and the debt supercycle came to an end."
+- 2005 FIC Bk:OtherwiseEngaged: "sympathy seemed too much to hope for in her currently beaten-down state"
+- 2008 FIC Bk:BitingBulletJaz: "All it took was everything I had. And it seemed so little to give."
+- 2015 NEWS Denver: "Hamill said that these steps might seem too little, too late."
