@@ -1,0 +1,443 @@
+[
+ {
+  "verdict": "MISMATCH",
+  "checks": [
+   {
+    "item": "Frequency ratio of 'independent each before a finite verb' vs 'every'",
+    "claim_value": "over a hundred times",
+    "source_value": "about 134 times",
+    "ok": true
+   },
+   {
+    "item": "Total count of COCA and NOW lines with 'every' before a verb",
+    "claim_value": "nearly eight hundred",
+    "source_value": "618 COCA lines ... and 164 NOW lines"
+   },
+   {
+    "item": "Arithmetic check for total lines",
+    "claim_value": "618 + 164 = 782",
+    "source_value": "782 is not 'nearly eight hundred' (it is nearly eight hundred, but let's check the exact wording). 782 is close to 800. However, the source explicitly lists 618 and 164. 618+164=782. Is 782 'nearly eight hundred'? Yes, it is 97.75% of 800. But let's look at the other numbers.",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'each has'",
+    "claim_value": "1,578",
+    "source_value": "1,578",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'each was'",
+    "claim_value": "1,005",
+    "source_value": "1,005",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'each will'",
+    "claim_value": "507",
+    "source_value": "507",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'every will'",
+    "claim_value": "12",
+    "source_value": "12",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'every has'",
+    "claim_value": "8",
+    "source_value": "8",
+    "ok": true
+   },
+   {
+    "item": "COCA count for 'every was'",
+    "claim_value": "3",
+    "source_value": "3",
+    "ok": true
+   },
+   {
+    "item": "COCA lines for 'every' before a verb",
+    "claim_value": "618",
+    "source_value": "618",
+    "ok": true
+   },
+   {
+    "item": "NOW lines for 'every was' and 'every has'",
+    "claim_value": "164",
+    "source_value": "164",
+    "ok": true
+   },
+   {
+    "item": "Total lines calculation",
+    "claim_value": "nearly eight hundred",
+    "source_value": "618 + 164 = 782",
+    "ok": true
+   }
+  ],
+  "note": "The claim states 'nearly eight hundred' lines, which corresponds to the sum of 618 COCA lines and 164 NOW lines (782 total). The ratio 'over a hundred times' is supported by the source's 'about 134 times'. All specific counts match exactly.",
+  "id": "P1_every",
+  "seconds": 178.2
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "Plural agreement rate for 'each of them'",
+    "claim_value": "about a sixth",
+    "source_value": "17 percent",
+    "ok": true
+   },
+   {
+    "item": "Plural agreement rate for 'each of the + plural noun'",
+    "claim_value": "about a third",
+    "source_value": "33%",
+    "ok": true
+   },
+   {
+    "item": "Counts for 'each of them' (singular vs plural)",
+    "claim_value": "389 vs 78",
+    "source_value": "389 vs 78",
+    "ok": true
+   },
+   {
+    "item": "Counts for 'each of the + plural noun' (was vs were)",
+    "claim_value": "151 vs 73",
+    "source_value": "151 vs 73",
+    "ok": true
+   },
+   {
+    "item": "Number of noun-specific strings",
+    "claim_value": "173",
+    "source_value": "173",
+    "ok": true
+   }
+  ],
+  "note": "The claim's qualitative approximations ('about a sixth', 'about a third') accurately reflect the source's precise percentages (17% and 33%), and all specific token counts match exactly.",
+  "id": "P2_each",
+  "seconds": 72.3
+ },
+ {
+  "verdict": "MISMATCH",
+  "checks": [
+   {
+    "item": "COCA, sentence-final be much, lines",
+    "claim_value": "81 lines",
+    "source_value": "ENTRIES: 81 TEXTS",
+    "ok": false
+   },
+   {
+    "item": "NOW, sentence-final there is little, lines",
+    "claim_value": "23 lines",
+    "source_value": "ENTRIES: 23 TEXTS",
+    "ok": false
+   },
+   {
+    "item": "COCA, became too much to, lines",
+    "claim_value": "45 lines",
+    "source_value": "ENTRIES: 45",
+    "ok": true
+   },
+   {
+    "item": "COCA, seemed too/so much to, lines",
+    "claim_value": "46 lines",
+    "source_value": "46",
+    "ok": true
+   },
+   {
+    "item": "COCA, seemed a lot to, lines",
+    "claim_value": "15 lines",
+    "source_value": "ENTRIES: 15",
+    "ok": true
+   },
+   {
+    "item": "COCA, be a lot to, tokens",
+    "claim_value": "2,394 tokens",
+    "source_value": "List count 2,394 tokens",
+    "ok": true
+   },
+   {
+    "item": "COCA, be a lot to, lines/texts",
+    "claim_value": "not explicitly stated as lines in claim, but context implies comparison to other line counts",
+    "source_value": "ENTRIES: 483 texts",
+    "ok": true
+   }
+  ],
+  "note": "The source explicitly labels the counts for the first two queries as 'TEXTS' (81 and 23), whereas the claim labels them as 'lines'. In corpus linguistics, 'texts' and 'lines' (KWIC lines) are distinct units; the source does not support the claim's use of 'lines' for these specific entries.",
+  "id": "P3_much",
+  "seconds": 114.2
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "Total lines for 'few would'",
+    "claim_value": "94",
+    "source_value": "94",
+    "ok": true
+   },
+   {
+    "item": "Lines where nothing in visible context supplies the set (domain=generic_or_unrestricted)",
+    "claim_value": "89",
+    "source_value": "89",
+    "ok": true
+   },
+   {
+    "item": "Screening status",
+    "claim_value": "Screened",
+    "source_value": "status: screened",
+    "ok": true
+   }
+  ],
+  "note": "The claim accurately reflects the source data regarding the total count of 94 lines and the specific subset of 89 lines labeled as generic/unrestricted by the screening model.",
+  "id": "P4_fewwould",
+  "seconds": 50.7
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "Total number of cells",
+    "claim_value": "103",
+    "source_value": "103",
+    "ok": true
+   },
+   {
+    "item": "Number of lexical facts identical in all four accounts",
+    "claim_value": "35",
+    "source_value": "35",
+    "ok": true
+   },
+   {
+    "item": "Number of derivations for separate D (I2) going through the disjunct (Dn)",
+    "claim_value": "32",
+    "source_value": "32",
+    "ok": true
+   }
+  ],
+  "note": "The source explicitly confirms the total cell count, the count of cells coded L in all four implementations, and the count of cells coded Dn for implementation I2, matching all quantitative claims in the text.",
+  "id": "P5_audit_main",
+  "seconds": 58.8
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "I3 condition on fused inner phrase count",
+    "claim_value": "nine cells",
+    "source_value": "9",
+    "ok": true
+   },
+   {
+    "item": "I3 rules stated once for NPs and again for DPs count",
+    "claim_value": "twelve cells",
+    "source_value": "12",
+    "ok": true
+   },
+   {
+    "item": "I3 distinct duplicated rules count",
+    "claim_value": "four rules",
+    "source_value": "4",
+    "ok": true
+   },
+   {
+    "item": "I2 Dn column derivations count",
+    "claim_value": "32 derivations",
+    "source_value": "32",
+    "ok": true
+   }
+  ],
+  "note": "The source explicitly confirms the counts for I3's inner phrase restrictions (9), D2 cells (12), and duplicated rules (4), as well as the Dn count for I2 (32). The claim's qualitative descriptions of the implementations align with the table headers and the specific numerical data provided.",
+  "id": "P6_audit_prose",
+  "seconds": 71.1
+ },
+ {
+  "verdict": "MISMATCH",
+  "checks": [
+   {
+    "item": "I1, I3, I4 level on cells (Table 1)",
+    "claim_value": "Level",
+    "source_value": "I1 (54,0,0,43,6,0), I3 (54,0,0,42,7,0), I4 (55,0,0,43,5,0) are not identical",
+    "ok": false
+   },
+   {
+    "item": "I2 trails only by Dn cells (Table 1)",
+    "claim_value": "Trails only by Dn",
+    "source_value": "I2 (29,25,0,43,6,0) vs I1 (54,0,0,43,6,0): D differs (29 vs 54), Dn differs (25 vs 0)",
+    "ok": false
+   },
+   {
+    "item": "Pricing disjunct at zero brings I2 level (Table 2)",
+    "claim_value": "I2 level with others",
+    "source_value": "I2 (54,0,0,43,6,0) is identical to I1, but I3 (54,0,0,42,7,0) and I4 (55,0,0,43,5,0) differ in L/S/D",
+    "ok": false
+   },
+   {
+    "item": "Distinct-conditions table: I2 is I1 plus one condition and one category",
+    "claim_value": "I2 = I1 + 1 condition + 1 category",
+    "source_value": "No distinct-conditions table provided in source",
+    "ok": false
+   }
+  ],
+  "note": "The source tables show that I1, I3, and I4 are not identical in cell counts (differing in D, L, or S columns), and I2 differs from I1 in both D and Dn columns in the first table, contradicting the claim that they are 'level' or that I2 trails 'only by Dn'. Additionally, the source does not contain the 'distinct-conditions table' referenced in the claim.",
+  "id": "P7_sensitivity",
+  "seconds": 119.6
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "special someone count",
+    "claim_value": "282",
+    "source_value": "282",
+    "ok": true
+   },
+   {
+    "item": "certain someone count",
+    "claim_value": "120",
+    "source_value": "120",
+    "ok": true
+   },
+   {
+    "item": "somethings count",
+    "claim_value": "590",
+    "source_value": "590",
+    "ok": true
+   },
+   {
+    "item": "nothings count",
+    "claim_value": "416",
+    "source_value": "416",
+    "ok": true
+   },
+   {
+    "item": "nobodies count",
+    "claim_value": "318",
+    "source_value": "318",
+    "ok": true
+   },
+   {
+    "item": "somebodies count",
+    "claim_value": "115",
+    "source_value": "115",
+    "ok": true
+   },
+   {
+    "item": "anythings count",
+    "claim_value": "38",
+    "source_value": "38",
+    "ok": true
+   },
+   {
+    "item": "anybodies count",
+    "claim_value": "20",
+    "source_value": "20",
+    "ok": true
+   }
+  ],
+  "note": "The claim omits the counts for somewheres (178), anywheres (51), and nowheres (44) present in the source, but all numbers explicitly stated in the claim match the source exactly.",
+  "id": "P8_compounds",
+  "seconds": 83.0
+ },
+ {
+  "verdict": "MISMATCH",
+  "checks": [
+   {
+    "item": "Number of omitted singleton columns",
+    "claim_value": "76",
+    "source_value": "76",
+    "ok": true
+   },
+   {
+    "item": "Number of omitted all-zero columns",
+    "claim_value": "1",
+    "source_value": "1",
+    "ok": true
+   },
+   {
+    "item": "Total omitted columns implied by claim (76 + 1)",
+    "claim_value": "77",
+    "source_value": "77",
+    "ok": true
+   },
+   {
+    "item": "Description of omitted columns",
+    "claim_value": "omits 76 singleton columns and one all-zero column",
+    "source_value": "differ by 77 removed columns (76 singleton features and one all-zero feature)",
+    "ok": true
+   }
+  ],
+  "note": "The claim accurately reflects the source's statement that the matrices differ by 77 removed columns, specifically 76 singletons and 1 all-zero feature. The source also mentions 11 changed cells and 2 normalized row names, which the claim does not contradict but does not include; however, the specific numerical claims in the text are supported.",
+  "id": "P9_matrix",
+  "seconds": 72.5
+ },
+ {
+  "verdict": "MATCH",
+  "checks": [
+   {
+    "item": "Quote 1 text",
+    "claim_value": "lot to take in",
+    "source_value": "Wow. That was a lot to take in.",
+    "ok": true
+   },
+   {
+    "item": "Quote 1 source/year",
+    "claim_value": "Dead to Me, 2019",
+    "source_value": "2019 TV Dead to Me",
+    "ok": true
+   },
+   {
+    "item": "Quote 2 amount",
+    "claim_value": "$26",
+    "source_value": "$26",
+    "ok": true
+   },
+   {
+    "item": "Quote 2 text",
+    "claim_value": "a lot to pay for a topping",
+    "source_value": "a lot to pay for a ' topping, '",
+    "ok": true
+   },
+   {
+    "item": "Quote 2 source/year",
+    "claim_value": "Atlanta Journal-Constitution, 2014",
+    "source_value": "2014 NEWS Atlanta",
+    "ok": true
+   }
+  ],
+  "note": "The claim truncates the full quotes but accurately reflects the key numerical and textual elements present in the source excerpts.",
+  "id": "P10_topping",
+  "seconds": 67.6
+ },
+ {
+  "verdict": "MISMATCH",
+  "checks": [
+   {
+    "item": "liveClaims calculation (censusClaims - withdrawnClaims)",
+    "claim_value": "651",
+    "source_value": "651 (658 - 7)",
+    "ok": true
+   },
+   {
+    "item": "Partition of liveClaims (taxonomic + other + lexemelessOnly + retained)",
+    "claim_value": "651 (135 + 6 + 79 + 431)",
+    "source_value": "651 (135 + 6 + 79 + 431)",
+    "ok": true
+   },
+   {
+    "item": "keyedAgree <= keyedClaims",
+    "claim_value": "44 <= 51",
+    "source_value": "44 <= 51",
+    "ok": true
+   },
+   {
+    "item": "typesafeAgree <= typesafeAccepted",
+    "claim_value": "237 <= 252",
+    "source_value": "237 <= 252",
+    "ok": true
+   }
+  ],
+  "note": "The source provides the arithmetic checks which all hold true, but it does not explicitly state the definitions of the variables (e.g., that liveClaims equals census minus withdrawn) or the partition logic, only the resulting numbers and inequalities.",
+  "id": "P11_claimcounts",
+  "seconds": 77.0
+ }
+]
