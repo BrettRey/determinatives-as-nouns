@@ -87,7 +87,37 @@ def main():
         return "; ".join(f"{fl} ({', '.join(gs)})" for fl, gs in d.items()) or "--"
     for i, lab in J["implementations"]:
         s.append(f"{i} & {tex(by_family(stip[i]))} & {tex(by_family(twice[i]))} \\\\")
-    s += ["\\bottomrule", "\\end{tabular}", "\\end{table}"]
+    s += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
+    # distinct conditions and duplicated rules per implementation
+    s += ["\\begin{table}[H]\\centering\\small", "\\caption{Distinct conditions stated for a construction alone, and distinct rules stated twice, per implementation. One condition may cover several cells.}\\label{tab:rules}",
+          "\\begin{tabular}{lrr>{\\raggedright\\arraybackslash}p{7.6cm}}", "\\toprule", "Implementation & Conditions & Rules stated twice & The conditions \\\\", "\\midrule"]
+    for i, lab in J["implementations"]:
+        conds = set()
+        for key, per in J.get("cell_conditions", {}).items():
+            if i in per and key in J["cells"]: conds.update(per[i].split("+"))
+        dups = set(per[i] for per in J.get("cell_duplications", {}).values() if i in per)
+        s.append(f"{i} & {len(conds)} & {len(dups)} & {tex(', '.join(sorted(c.replace('_', ' ') for c in conds)))} \\\\")
+    s += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
+    # sensitivity: the second-round report's principles, with and without the disjunct priced at zero
+    def recode(cells, free_dn):
+        out = {}
+        for key, c in cells.items():
+            codes = list(c["codes"]); fam = key.split("|")[0]
+            if key in J["sensitivity"]["lexical_precedence_cells"]: codes = ["L"] * 4
+            if fam in ("partitive", "relative"): codes = [("D" if x == "S" else x) for x in codes]
+            codes = [("D" if x == "D2" else x) for x in codes]
+            if free_dn: codes = [("D" if x == "Dn" else x) for x in codes]
+            out[key] = codes
+        return out
+    for label, free in (("the report's principles (1)--(4)", False), ("the same with the disjunct priced at zero (5)", True)):
+        rc = recode(J["cells"], free); cnt = {i: collections.Counter() for i in IMPL}
+        for codes in rc.values():
+            for i, code in zip(IMPL, codes): cnt[i][code] += 1
+        s += ["\\begin{table}[H]\\centering\\small", f"\\caption{{Sensitivity: cells by class under {label}.}}",
+              "\\begin{tabular}{lrrrrrr}", "\\toprule", "Implementation & D & Dn & D2 & L & S & U \\\\", "\\midrule"]
+        for i, lab in J["implementations"]:
+            c = cnt[i]; s.append(f"{i} & {c['D']} & {c['Dn']} & {c['D2']} & {c['L']} & {c['S']} & {c['U']} \\\\")
+        s += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
     OUT_SUM.write_text("\n".join(s) + "\n")
     print(f"cells {ncells}; differ {len(differ)}; " + "; ".join(f"{i} D{per_impl[i]['D']} Dn{per_impl[i]['Dn']} D2:{per_impl[i]['D2']} L{per_impl[i]['L']} S{per_impl[i]['S']} U{per_impl[i]['U']}" for i in IMPL))
 

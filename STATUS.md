@@ -28,7 +28,7 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Second Elicit triage fully applied (coverage audit, §5.5 restated, abstract, Table 2 blocks, register counts, novelty, evidential standard, four-questions §2.7 with Solt and Van Eynde, secondary-use rule, L&A footnote); Haiku labelling with re-call guard · status: drafting · updated: 2026-09-18 -->
+<!-- SUMMARY: Second-round Elicit report applied; §5.5 economy claim restated on the three costs of a separate category; audit has precedence rule, condition inventory, and sensitivity tables; corpus lines for predicative much/little/a lot placed; open: human second coder for disputed audit cells, reynolds2014 bib metadata · status: drafting · updated: 2026-09-18 -->
 
 **Last updated:** 2026-09-16
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).

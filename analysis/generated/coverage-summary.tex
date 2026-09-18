@@ -4,10 +4,10 @@
 \toprule
 Implementation & D & Dn & D2 & L & S & U \\
 \midrule
-I1: D-noun, ordinary Head & 64 & 0 & 0 & 36 & 3 & 0 \\
-I2: Separate D, ordinary Head & 29 & 32 & 1 & 36 & 5 & 0 \\
-I3: Separate D, fused Head & 41 & 0 & 12 & 35 & 15 & 0 \\
-I4: D-noun, fused Head & 56 & 0 & 0 & 36 & 11 & 0 \\
+I1: D-noun, ordinary Head & 61 & 0 & 0 & 36 & 6 & 0 \\
+I2: Separate D, ordinary Head & 28 & 32 & 1 & 36 & 6 & 0 \\
+I3: Separate D, fused Head & 40 & 0 & 12 & 35 & 16 & 0 \\
+I4: D-noun, fused Head & 53 & 0 & 0 & 36 & 14 & 0 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -60,8 +60,6 @@ predeterminer modification and the former complex determinatives & the articles 
 predeterminer modification and the former complex determinatives & demonstratives, such, and the wh-forms & D & Dn & D & D \\
 predeterminer modification and the former complex determinatives & the general quantifiers & D & Dn & D & D \\
 predeterminer modification and the former complex determinatives & the gradable four & D & Dn & S & D \\
-the secondary set-denoting use & cardinals & D & S & S & D \\
-the secondary set-denoting use & compound determinatives & D & S & S & D \\
 \end{longtable}}
 
 \begin{table}[H]\centering\small
@@ -70,10 +68,53 @@ the secondary set-denoting use & compound determinatives & D & S & S & D \\
 \toprule
 Account & Stated for the construction alone & Stated twice \\
 \midrule
-I1 & internal modifiers (cardinals); the compound construction (compound determinatives); number agreement (my/mine) & -- \\
-I2 & internal modifiers (cardinals); the compound construction (compound determinatives); number agreement (my/mine); the secondary set-denoting use (cardinals, compound determinatives) & genitive marking (compound determinatives) \\
-I3 & partitive of-PP (no/none, the general quantifiers, the gradable four, cardinals); internal modifiers (cardinals); relative postmodification (demonstratives, such, and the wh-forms, the general quantifiers, the gradable four, cardinals, compound determinatives); the compound construction (compound determinatives); predeterminer modification and the former complex determinatives (the articles, the gradable four); the secondary set-denoting use (cardinals, compound determinatives) & peripheral modifiers (every, no/none, the general quantifiers, cardinals, compound determinatives); number agreement (the general quantifiers, the gradable four); genitive marking (compound determinatives); degree use outside the NP (the articles, no/none, the general quantifiers, the gradable four) \\
-I4 & partitive of-PP (no/none, the general quantifiers, the gradable four, cardinals); internal modifiers (cardinals); relative postmodification (demonstratives, such, and the wh-forms, the general quantifiers, the gradable four, cardinals, compound determinatives); the compound construction (compound determinatives) & -- \\
+I1 & internal modifiers (cardinals); the compound construction (compound determinatives); number agreement (my/mine); the secondary set-denoting use (cardinals, compound determinatives, proper nouns) & -- \\
+I2 & internal modifiers (cardinals); the compound construction (compound determinatives); number agreement (my/mine); the secondary set-denoting use (cardinals, compound determinatives, proper nouns) & genitive marking (compound determinatives) \\
+I3 & partitive of-PP (no/none, the general quantifiers, the gradable four, cardinals); internal modifiers (cardinals); relative postmodification (demonstratives, such, and the wh-forms, the general quantifiers, the gradable four, cardinals, compound determinatives); the compound construction (compound determinatives); predeterminer modification and the former complex determinatives (the articles, the gradable four); the secondary set-denoting use (cardinals, compound determinatives, proper nouns) & peripheral modifiers (every, no/none, the general quantifiers, cardinals, compound determinatives); number agreement (the general quantifiers, the gradable four); genitive marking (compound determinatives); degree use outside the NP (the articles, no/none, the general quantifiers, the gradable four) \\
+I4 & partitive of-PP (no/none, the general quantifiers, the gradable four, cardinals); internal modifiers (cardinals); relative postmodification (demonstratives, such, and the wh-forms, the general quantifiers, the gradable four, cardinals, compound determinatives); the compound construction (compound determinatives); the secondary set-denoting use (cardinals, compound determinatives, proper nouns) & -- \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\begin{table}[H]\centering\small
+\caption{Distinct conditions stated for a construction alone, and distinct rules stated twice, per implementation. One condition may cover several cells.}\label{tab:rules}
+\begin{tabular}{lrr>{\raggedright\arraybackslash}p{7.6cm}}
+\toprule
+Implementation & Conditions & Rules stated twice & The conditions \\
+\midrule
+I1 & 4 & 0 & cardinal two sites, compound restrictor, mine agreement, secondary use rule \\
+I2 & 5 & 1 & cardinal two sites, compound restrictor, conversion rule, mine agreement, secondary use rule \\
+I3 & 6 & 4 & cardinal two sites, complex listing, compound restrictor, conversion rule, inner phrase restriction, secondary use rule \\
+I4 & 4 & 0 & cardinal two sites, compound restrictor, inner phrase restriction, secondary use rule \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Sensitivity: cells by class under the report's principles (1)--(4).}
+\begin{tabular}{lrrrrrr}
+\toprule
+Implementation & D & Dn & D2 & L & S & U \\
+\midrule
+I1 & 54 & 0 & 0 & 43 & 6 & 0 \\
+I2 & 29 & 25 & 0 & 43 & 6 & 0 \\
+I3 & 54 & 0 & 0 & 42 & 7 & 0 \\
+I4 & 55 & 0 & 0 & 43 & 5 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Sensitivity: cells by class under the same with the disjunct priced at zero (5).}
+\begin{tabular}{lrrrrrr}
+\toprule
+Implementation & D & Dn & D2 & L & S & U \\
+\midrule
+I1 & 54 & 0 & 0 & 43 & 6 & 0 \\
+I2 & 54 & 0 & 0 & 43 & 6 & 0 \\
+I3 & 54 & 0 & 0 & 42 & 7 & 0 \\
+I4 & 55 & 0 & 0 & 43 & 5 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

@@ -187,7 +187,7 @@
 | admits a peripheral modifier | *rather* | adverb | licensed | CGEL | independent | 1 |
 | genitive marking | *dog* | common noun | licensed | analysis | inflection | 1 |
 | genitive marking | *kim* | proper noun | licensed | analysis | inflection | 1 |
-| genitive marking | *my* | pronoun | licensed 4 | analysis 2, CGEL 2 | article-membership, inflection, inheritance | 4 |
+| genitive marking | *my* | pronoun | licensed 4 | analysis 2, other source 2 | article-membership, inflection, inheritance | 4 |
 | genitive marking | *no* | determinative | conditional | CGEL | article-membership | 1 |
 | genitive marking | *someone* | determinative | licensed, conditional | analysis, CGEL | inflection | 2 |
 | genitive marking | *something* | determinative | conditional | CGEL | inflection | 1 |

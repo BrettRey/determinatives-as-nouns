@@ -1232,30 +1232,175 @@
   },
   "secondary|compounds": {
    "codes": [
-    "D",
     "S",
     "S",
-    "D"
+    "S",
+    "S"
    ],
-   "note": "a special someone, such an anyone, the somebodies: a secondary use within Noun, the one CGEL gives proper nouns (I1, I4); conversion of a determinative to a noun, a rule the grammar has to add (I2, I3; CGEL p. 423 n. 43), §4.5 and §5.5."
+   "note": "a special someone, such an anyone, the somebodies: the secondary-use rule of §4.5, one rule over Noun (I1, I4); the same rule for nouns plus a conversion rule from D (I2, I3; CGEL p. 423 n. 43), §4.5 and §5.5."
   },
   "secondary|proper": {
    "codes": [
-    "D",
-    "D",
-    "D",
-    "D"
+    "S",
+    "S",
+    "S",
+    "S"
    ],
-   "note": "an Ophelia, the Smiths: CGEL's own secondary use within Noun (p. 521)."
+   "note": "an Ophelia, the Smiths: CGEL's own secondary use within Noun (p. 521), the same rule in every account."
   },
   "secondary|cardinals": {
    "codes": [
-    "D",
     "S",
     "S",
-    "D"
+    "S",
+    "S"
    ],
-   "note": "in threes, in their hundreds: the same secondary use (I1, I4); CGEL's 'secondary use in which they inflect for number and hence belong in the noun category' is a change of category (I2, I3), §5.5."
+   "note": "in threes, in their hundreds: the same rule (I1, I4); CGEL's 'secondary use in which they inflect for number and hence belong in the noun category' is a change of category, a second rule (I2, I3), §5.5."
   }
+ },
+ "conditions": {
+  "inner_phrase_restriction": "the fused inner phrase excludes external determination, partitives, restrictors, and relatives; licensed dependents attach outside it (§5.2)",
+  "cardinal_two_sites": "approximatives attach internally after an external determiner and peripherally otherwise (§4.4)",
+  "compound_restrictor": "the compound's post-head restrictor: position, non-recursion, no external determination, no pre-head adjective (§4.5)",
+  "mine_agreement": "agreement of independent mine with the possessed entity (§4.6)",
+  "complex_listing": "a few, a little, a great many, many a listed as complex determinatives with sui generis structure (CGEL pp. 392–394)",
+  "secondary_use_rule": "the set-denoting secondary use and its dependents (§4.5)",
+  "conversion_rule": "conversion of a determinative to a noun for the set-denoting use (CGEL p. 423 n. 43)"
+ },
+ "duplications": {
+  "peripheral_np_dp": "peripheral modification stated for NP and again for DP",
+  "transparency_np_dp": "number transparency stated for number-transparent nouns and again for fused-head DPs",
+  "degree_np_dp": "degree modification of adjectives stated for NP modifiers and again for DP modifiers",
+  "genitive_domain": "the head-genitive definition extended from Noun heads to D heads"
+ },
+ "cell_conditions": {
+  "partitive|no_none": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "partitive|quantifiers": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "partitive|gradable": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "partitive|cardinals": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "relative|gradable": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "relative|demonstratives": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "relative|quantifiers": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "relative|cardinals": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "relative|compounds": {
+   "I3": "inner_phrase_restriction",
+   "I4": "inner_phrase_restriction"
+  },
+  "int_mod|cardinals": {
+   "I1": "cardinal_two_sites",
+   "I2": "cardinal_two_sites",
+   "I3": "cardinal_two_sites",
+   "I4": "cardinal_two_sites"
+  },
+  "compound|compounds": {
+   "I1": "compound_restrictor",
+   "I2": "compound_restrictor",
+   "I3": "compound_restrictor",
+   "I4": "compound_restrictor"
+  },
+  "agreement|my_mine": {
+   "I1": "mine_agreement",
+   "I2": "mine_agreement"
+  },
+  "predeterminer|gradable": {
+   "I3": "complex_listing"
+  },
+  "predeterminer|articles": {
+   "I3": "complex_listing"
+  },
+  "secondary|compounds": {
+   "I1": "secondary_use_rule",
+   "I4": "secondary_use_rule",
+   "I2": "secondary_use_rule+conversion_rule",
+   "I3": "secondary_use_rule+conversion_rule"
+  },
+  "secondary|cardinals": {
+   "I1": "secondary_use_rule",
+   "I4": "secondary_use_rule",
+   "I2": "secondary_use_rule+conversion_rule",
+   "I3": "secondary_use_rule+conversion_rule"
+  },
+  "secondary|proper": {
+   "I1": "secondary_use_rule",
+   "I4": "secondary_use_rule",
+   "I2": "secondary_use_rule+conversion_rule",
+   "I3": "secondary_use_rule+conversion_rule"
+  }
+ },
+ "cell_duplications": {
+  "periph_mod|every": {
+   "I3": "peripheral_np_dp"
+  },
+  "periph_mod|no_none": {
+   "I3": "peripheral_np_dp"
+  },
+  "periph_mod|quantifiers": {
+   "I3": "peripheral_np_dp"
+  },
+  "periph_mod|cardinals": {
+   "I3": "peripheral_np_dp"
+  },
+  "periph_mod|compounds": {
+   "I3": "peripheral_np_dp"
+  },
+  "agreement|quantifiers": {
+   "I3": "transparency_np_dp"
+  },
+  "agreement|gradable": {
+   "I3": "transparency_np_dp"
+  },
+  "degree_outside|quantifiers": {
+   "I3": "degree_np_dp"
+  },
+  "degree_outside|gradable": {
+   "I3": "degree_np_dp"
+  },
+  "degree_outside|articles": {
+   "I3": "degree_np_dp"
+  },
+  "degree_outside|no_none": {
+   "I3": "degree_np_dp"
+  },
+  "genitive|compounds": {
+   "I2": "genitive_domain",
+   "I3": "genitive_domain"
+  }
+ },
+ "precedence": "A cell records the mechanism by which the implementation covers the licensed use. Lexical permissions, target selection, forms, and inflection are held fixed across the four implementations and are coded L only where the fact is nothing but such a permission or exclusion; where a licensed use is covered by a rule, the rule's class is recorded even though the permission is presupposed. S and D2 codes count cells; the distinct conditions and duplicated rules behind them are listed separately, since a condition stated once may apply in several cells.",
+ "sensitivity": {
+  "lexical_precedence_cells": [
+   "int_mod|gradable",
+   "ext_det|gradable",
+   "ext_det|cardinals",
+   "degree_outside|articles",
+   "degree_outside|quantifiers",
+   "degree_outside|no_none",
+   "degree_outside|gradable"
+  ],
+  "about": "The alternative coding principles of the second-round report: (1) lexical licensing takes precedence, so cells that depend on a lexeme-specific permission are L in every implementation; (2) the fused inner-phrase restriction is one general rule, so the partitive and relative cells under fusion are D; (3) a typed schema over nominal projections replaces each D2 duplication, so D2 becomes D; (4) the secondary use is a construction-specific rule in every account (already so coded); (5) the disjunctive head condition is priced at zero, so Dn becomes D."
  }
 }

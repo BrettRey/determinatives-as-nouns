@@ -2,7 +2,7 @@
  "derived_from": {
   "census-repartitioned.json": "3ed4dd9b7bd5fe21cdd572438118275ba6cc6bdad4dbc5c95fe942781f54d00c",
   "claims-enriched.json": "ec061fe7726373f47461157927590fa77062ebacb02c55932a57d25680a9e173",
-  "determinatives-as-nouns.tex": "38406afac77948c8ae9f10b6f35bd30a60fbb8530421cc57f3a6a5fc68d73260"
+  "determinatives-as-nouns.tex": "be578675bcab7d216e08d56eea3ff53d8521422add86f2a1e6d4bc50382354a7"
  },
  "reconciliation_rule": "attestation footnote at the sentence -> retained_attestation; \\ungram in the quote -> constructed_ungrammatical; searched_not_found kept; CGEL cited in the sentence -> cgel_described (cgel_restricted kept); another work cited in the sentence -> other_source_described; otherwise the census label.",
  "catalogue": [
@@ -7847,10 +7847,12 @@
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "cgel_cited_paragraph",
-    "other_cited_paragraph"
+    "other_cited_sentence"
    ],
-   "cited_keys_sentence": [],
-   "evidence_type_reconciled": "cgel_described",
+   "cited_keys_sentence": [
+    "reynolds2014determinatives"
+   ],
+   "evidence_type_reconciled": "other_source_described",
    "label_uncited_at_locus": false
   },
   {
@@ -7872,10 +7874,12 @@
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
     "cgel_cited_paragraph",
-    "other_cited_paragraph"
+    "other_cited_sentence"
    ],
-   "cited_keys_sentence": [],
-   "evidence_type_reconciled": "cgel_described",
+   "cited_keys_sentence": [
+    "reynolds2014determinatives"
+   ],
+   "evidence_type_reconciled": "other_source_described",
    "label_uncited_at_locus": false
   },
   {
