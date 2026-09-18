@@ -36,3 +36,10 @@ All fifteen are predicative *a lot* with an infinitival (*a lot to ask / put on 
 - 2019 NEWS The Detroit News: "These prices appear extremely high -- and as a first-year festival seems a lot to ask of the public"
 - 1994 MOV The Sum of Us: "Cuddle up to. Doesn't seem a lot to ask, does it?"
 - 2003 ACAD Lancet: "This payment still seemed a lot to me for a one-day stay"
+
+## Fourth batch: `[be] a lot to ...` (COCA, ENTRIES: 483, first 100 shown, hand-pasted, unscreened)
+
+Two patterns at volume: existential *there's a lot to do / talk about / be said for* (displaced subject with an infinitival) and predicative *it's a lot to take in / ask / handle*, *$26 is a lot to pay*, *that's a lot to give up*. Lines cited in the article:
+- 2019 TV Dead to Me: "Wow. That was a lot to take in."
+- 2014 NEWS Atlanta: "Admittedly, $26 is a lot to pay for a ' topping, ' but the portion was generous"
+- 2019 FIC SouthernRev: "There was a lot to do after Luke left."
