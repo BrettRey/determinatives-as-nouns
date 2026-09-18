@@ -29,3 +29,10 @@ Lines cited in the article (year, genre, source):
 - 2005 FIC Bk:OtherwiseEngaged: "sympathy seemed too much to hope for in her currently beaten-down state"
 - 2008 FIC Bk:BitingBulletJaz: "All it took was everything I had. And it seemed so little to give."
 - 2015 NEWS Denver: "Hamill said that these steps might seem too little, too late."
+
+## Third batch: `seem(s/ed) a lot to ...` (COCA, ENTRIES: 15, hand-pasted, unscreened)
+
+All fifteen are predicative *a lot* with an infinitival (*a lot to ask / put on / expect / hope / save the world*) or a PP (*a lot to me*). Lines cited in the article:
+- 2019 NEWS The Detroit News: "These prices appear extremely high -- and as a first-year festival seems a lot to ask of the public"
+- 1994 MOV The Sum of Us: "Cuddle up to. Doesn't seem a lot to ask, does it?"
+- 2003 ACAD Lancet: "This payment still seemed a lot to me for a one-day stay"
