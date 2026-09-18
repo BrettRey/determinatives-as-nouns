@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage{float}
+\setlength{\headheight}{14pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\emergencystretch=1em
+\AtBeginBibliography{\emergencystretch=1em}
+\setcounter{biburlnumpenalty}{100}
+\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
+\hypersetup{pdftitle={Coverage audit: how the four implementations cover the fragment's constructions}}
+\title{Coverage audit: how the four implementations cover the fragment's constructions}
+\author{Brett Reynolds}
+\date{Supplementary material, September 2026}
+\fancyhead[L]{\small\scshape Coverage audit}
+\usepackage{longtable}
+\begin{document}
+\maketitle
+
+\section{What this audit is}
+
+The article's §5 compares four implementations of the same facts: the D-noun categorization with ordinary Head (I1), a separate determinative category with ordinary Head (I2), a separate category with \textit{CGEL}'s fusion of functions (I3), and the D-noun categorization with fusion (I4). It states which conditions the accounts share and which are specific to one of them, and it says that counting written statements wouldn't measure economy. A reader of that comparison can still ask where each account's conditions live. This audit answers that question cell by cell. For each construction family the fragment covers, and for each lexeme group the article distinguishes, it records how each implementation covers the facts: by a general rule of that grammar (D), by a general rule that applies only because the grammar admits a determinative as the lexical head of Nom and NP (Dn), by a rule the grammar has to state once for nouns and again for determinatives, or once for NP and again for DP (D2), by a fact stored on the lexeme (L), by a condition stated for that construction alone (S), or not at all (U).
+
+The classifications are the author's, made by hand from the fragment's stated conditions and the sections cited beside each cell; they are the analysis, not data. Beside each cell the audit prints the number of participation claims the claim register records for that family and group, as licensed/conditional/excluded, so that a cell's classification can be checked against what the article asserts there. Cells with no claim and no analysis in the article are left out; the article's analysis, not the register, decides which cells exist.
+
+\section{The four implementations and their primitives}
+
+The classes count rules, not primitives. The primitives differ too, and Table~\ref{tab:prim} lists them, since a rule that is general in one grammar may be general only because that grammar has a primitive the other lacks.
+
+\begin{table}[H]\centering\small
+\caption{Primitives of the four implementations.}\label{tab:prim}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}}
+\toprule
+ & I1 & I2 & I3 & I4 \\
+\midrule
+Lexical categories & Noun, four subcategories & Noun (three) and D & Noun (three) and D & Noun, four subcategories \\
+Category condition on lexical Heads in Nom & N & N or D & N or D & N \\
+Phrase types in Det & NP, PP & NP, PP & DP, NP, PP & NP, PP \\
+Head configurations for independent determinatives & ordinary Head & ordinary Head & Det--Head and Mod--Head fusion & Det--Head and Mod--Head fusion \\
+Adjectival Mod--Head fusion (\mention{the rich}) & yes & yes & yes & yes \\
+Restrictions stated on the fused inner phrase & none & none & yes & yes \\
+Complex determinatives listed & none & none & \mention{a few}, \mention{a little}, \mention{many a}, \mention{a great many} & none \\
+Conversion rule for the set-denoting use & none & yes & yes & none \\
+Domain of the head-genitive definition & Noun heads & Noun and D heads & Noun and D heads & Noun heads \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Results}
+
+\tablebody{analysis/generated/coverage-summary.tex}
+
+The fusion accounts (I3, I4) state where partitives and relative clauses attach, outside the fused phrase, as a condition on that construction, and \textit{CGEL}'s grammar (I3) states the peripheral-modifier, number-transparency, and degree-modifier rules once for NPs and again for DPs. Separate D with ordinary Head (I2) avoids both, and the Dn column records how: 32 of its derivations hold only because the grammar admits a determinative as the lexical head of Nom and NP. In \textit{CGEL}'s terms that is what makes a word a noun, so the admission is the D-noun categorization written as a disjunction on the category condition, with a separate category that then does no work in the syntax. With the admission made, three cells still separate Noun membership from a separate D under either Head analysis: the secondary set-denoting use of compounds and cardinals, which a separate D covers by a conversion rule, and the head-genitive definition, which it has to extend to D heads. The lexical facts (use permissions, target selection, forms, inflection) are the same in all four.
+
+The audit therefore locates the economy the article claims. It is the economy of ordinary Head with NP projection, and ordinary Head for a determinative is Noun membership in the syntax. A separate D can borrow the projection by the Dn admission, at the price of a category that the syntax no longer uses and of the conversion rule and the extended genitive definition; the D-noun categorization states the same treatment once. The article's §5.5 states the comparison in these terms.
+
+\section{The grid}
+
+\tablebody{analysis/generated/coverage-audit.tex}
+
+\section{Limits}
+
+The grid covers the fragment's constructions and nothing outside them: predication, interrogative clause structure, coordination, and modification outside NP structure are not classified, as the article's §5.1 says of the fragment itself. The classes are coarse by design; a D under one implementation and a D under another can rest on different primitives (Table~\ref{tab:prim}), and the summary counts should be read with that table. The classifications are contestable at the cell, and the JSON file (\texttt{analysis/coverage-audit.json}) is written so that a reader can change one cell and regenerate the tables (\texttt{analysis/tools/coverage\_audit.py}).
+
+\end{document}

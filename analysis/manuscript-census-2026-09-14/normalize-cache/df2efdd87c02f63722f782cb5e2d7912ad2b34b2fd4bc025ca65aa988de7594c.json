@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "ind-015",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ind-016",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ind-017",
+    "construction_id": "predeterminer_mod",
+    "other_label": null
+   },
+   {
+    "id": "ind-018",
+    "construction_id": "predeterminer_mod",
+    "other_label": null
+   },
+   {
+    "id": "ind-019",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-020",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-021",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-022",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-023",
+    "construction_id": "predeterminer_mod",
+    "other_label": null
+   },
+   {
+    "id": "ind-024",
+    "construction_id": "predeterminer_mod",
+    "other_label": null
+   },
+   {
+    "id": "ind-025",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ind-026",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-027",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-028",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-029",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-030",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-031",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-032",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-033",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "ind-034",
+    "construction_id": "independent_argument",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4898,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1401,
+  "output_tokens_details": {
+   "thinking_tokens": 722
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4898,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1401,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4898,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4898
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.036044,
+ "model": "Claude Sonnet 5 (claude CLI --model claude-sonnet-5, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 13566
+}

@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "du-026",
+    "construction_id": "comparative_complement",
+    "other_label": null
+   },
+   {
+    "id": "du-027",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "du-028",
+    "construction_id": "compound_base",
+    "other_label": null
+   },
+   {
+    "id": "du-029",
+    "construction_id": "external_determination",
+    "other_label": null
+   },
+   {
+    "id": "du-030",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "du-031",
+    "construction_id": "peripheral_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "du-032",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "du-033",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "du-034",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "du-035",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "du-036",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "du-037",
+    "construction_id": "predeterminer_mod",
+    "other_label": null
+   },
+   {
+    "id": "du-038",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "du-039",
+    "construction_id": "external_determination",
+    "other_label": null
+   },
+   {
+    "id": "du-040",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "du-041",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "du-042",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "du-043",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "du-044",
+    "construction_id": "fused_head",
+    "other_label": null
+   },
+   {
+    "id": "du-045",
+    "construction_id": "fused_head",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2974,
+  "cache_read_input_tokens": 2367,
+  "output_tokens": 4320,
+  "output_tokens_details": {
+   "thinking_tokens": 3684
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2974,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4320,
+    "cache_read_input_tokens": 2367,
+    "cache_creation_input_tokens": 2974,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2974
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.05833139999999999,
+ "model": "Claude Sonnet 5 (claude CLI --model claude-sonnet-5, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 37282
+}

@@ -3,8 +3,8 @@
  "pairings": 143,
  "summary": {
   "construction": {
-   "agree": 74,
-   "disagree": 69
+   "agree": 72,
+   "disagree": 71
   },
   "evidence_type": {
    "agree": 83,
@@ -15,7 +15,7 @@
    "disagree": 59
   },
   "per_keyed_claim_any_match": {
-   "construction": "44/51",
+   "construction": "45/51",
    "evidence_type": "43/51",
    "reconciled": "43/51"
   },
@@ -148,7 +148,7 @@
    "census": "pay-024",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "fused_head"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -777,7 +777,7 @@
    "census": "enu-017",
    "construction": [
     "degree_modifier_adj",
-    "taxonomic_or_meta"
+    "independent_argument"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1015,7 +1015,7 @@
    "census": "enu-005",
    "construction": [
     "degree_modifier_adj",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1389,7 +1389,7 @@
    "census": "enu-005",
    "construction": [
     "dependent_det",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1508,7 +1508,7 @@
    "census": "enu-005",
    "construction": [
     "internal_mod_admission",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -1542,7 +1542,7 @@
    "census": "sat-008",
    "construction": [
     "independent_argument",
-    "independent_argument"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2035,7 +2035,7 @@
    "census": "mod-007",
    "construction": [
     "independent_partitive",
-    "taxonomic_or_meta"
+    "dependent_det"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2103,7 +2103,7 @@
    "census": "am-006",
    "construction": [
     "predicative_complement",
-    "independent_argument"
+    "genitive_marking"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2154,7 +2154,7 @@
    "census": "gh-003",
    "construction": [
     "predicative_complement",
-    "fused_head"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2188,7 +2188,7 @@
    "census": "am-013",
    "construction": [
     "dependent_det",
-    "dependent_det"
+    "number_agreement"
    ],
    "evidence_type": [
     "cgel_described",

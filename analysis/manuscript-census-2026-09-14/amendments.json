@@ -140,6 +140,11 @@
    "old": "Both D-noun implementations share this grouping of cardinals and the three \\mention{one} lexemes.",
    "new": "These remain distinct under the D-noun categorization, but all belong within primary Noun.",
    "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.",
+   "new": "The modifiers row records which modifiers occur; where they attach is the analysis of §\\ref{sec:payne}.",
+   "reason": "2026-09-18: Table 2's caption no longer flags the attachment cells; the intro sentence carries the point; expanded-run evidence span mapped old -> new"
   }
  ],
  "inf-018": {
@@ -496,5 +501,76 @@
   "quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}",
   "previous_quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}, with item-specific conditions",
   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "mem-002": {
+  "quote": "\\mention{all} in \\mention{all we who signed up} is peripheral, rather than an internal pronoun modifier",
+  "previous_quote": "\\mention{all} in \\mention{all we who signed up} is peripheral, rather than an internal pronoun modifier",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md; the all-we example was removed with its table cell and the claim withdrawn",
+  "withdrawn": true
+ },
+ "mem-011": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Internal modification & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives & Restricted AdjP and nominal premodifiers; embellishments & Restricted AdjP premodifiers and relative postmodifiers & Degree AdvP on four quantifiers; approximatives on cardinals; NP and determinative-headed modifiers; \\mention{the lucky few}; relatives",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-012": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Internal modification & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives & Restricted AdjP and nominal premodifiers; embellishments & Restricted AdjP premodifiers and relative postmodifiers & Degree AdvP on four quantifiers; approximatives on cardinals; NP and determinative-headed modifiers; \\mention{the lucky few}; relatives",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-013": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Internal modification & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives & Restricted AdjP and nominal premodifiers; embellishments & Restricted AdjP premodifiers and relative postmodifiers & Degree AdvP on four quantifiers; approximatives on cardinals; NP and determinative-headed modifiers; \\mention{the lucky few}; relatives",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-014": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Internal modification & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives & Restricted AdjP and nominal premodifiers; embellishments & Restricted AdjP premodifiers and relative postmodifiers & Degree AdvP on four quantifiers; approximatives on cardinals; NP and determinative-headed modifiers; \\mention{the lucky few}; relatives",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-019": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Peripheral modifiers & \\mention{only the book} & \\mention{even Kim} & \\mention{only you}; \\mention{all we who signed up} & \\mention{almost every}; \\mention{hardly any}; \\mention{almost ten}",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-020": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Peripheral modifiers & \\mention{only the book} & \\mention{even Kim} & \\mention{only you}; \\mention{all we who signed up} & \\mention{almost every}; \\mention{hardly any}; \\mention{almost ten}",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-021": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Peripheral modifiers & \\mention{only the book} & \\mention{even Kim} & \\mention{only you}; \\mention{all we who signed up} & \\mention{almost every}; \\mention{hardly any}; \\mention{almost ten}",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "mem-022": {
+  "quote": "Modifiers admitted & Productive AdjP and nominal premodifiers, including determinative-headed phrases; relatives; peripheral \\mention{only the book} & Restricted AdjP and nominal premodifiers; embellishments; peripheral \\mention{even Kim} & Restricted AdjP premodifiers and relative postmodifiers; peripheral \\mention{only you} & Degree AdvPs on the four gradable quantifiers; approximatives (\\mention{almost every}, \\mention{hardly any}, \\mention{almost ten}); NP and determinative-headed degree modifiers; adjectives after an external determiner (\\mention{the lucky few}); relatives \\\\",
+  "previous_quote": "Peripheral modifiers & \\mention{only the book} & \\mention{even Kim} & \\mention{only you}; \\mention{all we who signed up} & \\mention{almost every}; \\mention{hardly any}; \\mention{almost ten}",
+  "reason": "2026-09-18: Table 2 rebuilt in blocks with one modifiers row; §5.5 restated on the coverage audit; see DECISIONS.md"
+ },
+ "fm-002": {
+  "quote": "The adjectival profile of grade and degree modification is confined to \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little}.",
+  "previous_quote": "The adjectival profile of grade, degree modification, and comparative complementation is confined to \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little}.",
+  "reason": "2026-09-18: abstract cut to about 150 words; see DECISIONS.md"
+ },
+ "fm-003": {
+  "quote": "The word \\mention{some} remains determinative in both.",
+  "previous_quote": "In \\mention{take some apples} and \\mention{take some}, \\mention{some} belongs to the same category.",
+  "reason": "2026-09-18: abstract redrafted (NBER shape); see DECISIONS.md"
+ },
+ "fm-004": {
+  "quote": "The articles and \\mention{every} belong through their integration into the determinative system.",
+  "previous_quote": "The articles and \\mention{every}, which lack independent uses, belong through their integration into the determinative system.",
+  "reason": "2026-09-18: abstract cut to about 150 words; see DECISIONS.md"
+ },
+ "fm-005": {
+  "quote": "I replace the grammar's fusion of determiner and Head functions with ordinary Head relations: the determinative heads a nominal that heads the noun phrase.",
+  "previous_quote": "I replace the grammar's fusion of determiner and Head functions with ordinary Head relations: the determinative heads a nominal that heads the noun phrase, as any noun does.",
+  "reason": "2026-09-18: abstract cut to about 150 words; see DECISIONS.md"
+ },
+ "fm-001": {
+  "quote": "share partitives, number transparency, and restricted dependents with the quantifiers",
+  "previous_quote": "they share complement patterns, number transparency, and restricted dependents with parts of the determinative inventory",
+  "reason": "2026-09-18: abstract redrafted (NBER shape); see DECISIONS.md"
  }
 }

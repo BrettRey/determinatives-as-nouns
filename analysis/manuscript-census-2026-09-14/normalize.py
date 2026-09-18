@@ -65,7 +65,7 @@ def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 
 
 def orx(system, prompt, max_tokens=None, schema=None):
-    """Call Haiku 4.5 through the Claude CLI with structured output. Cached by prompt hash."""
+    """Call Haiku 4.5 through the Claude CLI with structured output. Cached by prompt hash. A Sonnet 5 trial on 2026-09-18 (default and xhigh effort) matched the key on 41/51 against Haiku's 50/53 and was not adopted; Haiku's occasional short batch is handled by the single re-call in assign_constructions."""
     key = hashlib.sha256((MODEL + system + prompt + json.dumps(schema, sort_keys=True)).encode()).hexdigest()
     hit = CACHE / f"{key}.json"
     if hit.exists():
@@ -76,7 +76,7 @@ def orx(system, prompt, max_tokens=None, schema=None):
                "--strict-mcp-config", "--mcp-config", '{"mcpServers":{}}', "--setting-sources", "",
                "--no-session-persistence", "--output-format", "json", "--json-schema", json.dumps(schema),
                "--system-prompt", system]
-        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=600)
+        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=900)
         try:
             env = json.loads(r.stdout)
             parsed = env.get("structured_output")
@@ -204,15 +204,28 @@ def assign_constructions(claims, catalogue, log):
         res, cached = orx(system, prompt, schema=schema)
         got = {a["id"]: a for a in res["parsed"]["assignments"]}
         want = [c["id"] for c in b]
-        missing = [i for i in want if i not in got]
-        bad = [i for i in want if i in got and got[i].get("construction_id") not in ids]
-        if missing or bad:
-            sys.exit(f"batch {want[0]}..{want[-1]}: missing={missing} bad={bad}")
+        missing = [i for i in want if i not in got or got[i].get("construction_id") not in ids]
+        if missing:
+            # Haiku occasionally drops the last items of a batch (three times in ~90 calls, 2026-09-17/18):
+            # one fresh call for the missing claims only, then the batch's cache entry is rewritten complete.
+            sub = [c for c in b if c["id"] in missing]
+            prompt2 = json.dumps([{"id": c["id"], "expression": c["expression"], "construction": c["construction"], "quote": c["quote"], "note": c.get("note")} for c in sub], ensure_ascii=False) + "\n(Every id above must appear exactly once in assignments.)"
+            res2, cached2 = orx(system, prompt2, schema=schema)
+            for a in res2["parsed"]["assignments"]:
+                if a["id"] in missing and a.get("construction_id") in ids: got[a["id"]] = a
+            still = [i for i in want if i not in got or got[i].get("construction_id") not in ids]
+            if still:
+                sys.exit(f"batch {want[0]}..{want[-1]}: still missing after one re-call: {still}")
+            res = {"parsed": {"assignments": [got[i] for i in want]}, "usage": res.get("usage"), "cost_usd": (res.get("cost_usd") or 0) + (res2.get("cost_usd") or 0),
+                   "model": res.get("model"), "provider": res.get("provider"), "attempts": res.get("attempts"), "duration_ms": res.get("duration_ms"),
+                   "recall": {"missing": missing, "cached": cached2, "usage": res2.get("usage"), "cost_usd": res2.get("cost_usd")}}
+            key = hashlib.sha256((MODEL + system + prompt + json.dumps(schema, sort_keys=True)).encode()).hexdigest()
+            (CACHE / f"{key}.json").write_text(json.dumps(res, indent=1))
         return b, got, cached, res
 
     with cf.ThreadPoolExecutor(max_workers=4) as ex:
         for b, got, cached, res in ex.map(run, batches):
-            log["calls"].append({"stage": "construction", "ids": [c["id"] for c in b], "cached": cached, "usage": res.get("usage"), "cost_usd": res.get("cost_usd"), "attempts": res.get("attempts"), "model": res.get("model"), "provider": res.get("provider")})
+            log["calls"].append({"stage": "construction", "ids": [c["id"] for c in b], "cached": cached, "usage": res.get("usage"), "cost_usd": res.get("cost_usd"), "attempts": res.get("attempts"), "recall": res.get("recall"), "model": res.get("model"), "provider": res.get("provider")})
             for c in b:
                 a = got[c["id"]]
                 c["construction_id"] = a["construction_id"]

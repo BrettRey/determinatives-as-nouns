@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "analysis/manuscript-census-2026-09-14/census-normalized.json"
 OUT = ROOT / "analysis/generated"
+OUT_COUNTS = OUT / "claim-counts.tex"
 LABEL = {"independent_argument": "independent argument use", "independent_partitive": "independent use with partitive of-PP",
          "dependent_det": "Det before a nominal", "dependent_internal_mod": "internal Mod before a nominal",
          "internal_mod_admission": "admits an internal modifier", "peripheral_mod_admission": "admits a peripheral modifier",
@@ -46,6 +47,23 @@ GROUPS = [("Functions and constructional range", ["independent_argument", "indep
 
 def tex(s):
     return s.replace("&", "\\&").replace("%", "\\%").replace("_", "\\_").replace("#", "\\#")
+
+
+def write_counts(d):
+    """Macros for the wrapper's method paragraph: the inclusion-exclusion accounting, the key check, the labelling model, and TypeSafe's agreement with the current labels."""
+    cen = json.loads((ROOT / "analysis/manuscript-census-2026-09-14/census-repartitioned.json").read_text())["claims"]
+    log = json.loads((ROOT / "analysis/manuscript-census-2026-09-14/normalize-log.json").read_text())
+    cl = d["claims"]; tax = [c for c in cl if c["construction_id"] == "taxonomic_or_meta"]; oth = [c for c in cl if c["construction_id"] == "other"]
+    nolex = [c for c in cl if not c["lexeme_ids"]]; overlap = [c for c in nolex if c["construction_id"] in ("taxonomic_or_meta", "other")]
+    ret = [c for c in cl if c["construction_id"] not in ("taxonomic_or_meta", "other") and c["lexeme_ids"]]
+    kc = log["summary"]["key_check"]["per_keyed_claim_any_match"]["construction"].split("/")
+    ts = json.loads((ROOT / "analysis/manuscript-census-2026-09-14/typesafe-full-2026-09-16/census-typesafe.json").read_text())["claims"]
+    cur = {c["id"]: c["construction_id"] for c in cl}
+    acc = [c for c in ts if c.get("accepted_at_0.8") and c["id"] in cur]; agree = [c for c in acc if c["typesafe_construction_id"] == cur[c["id"]]]
+    macros = {"censusClaims": len(cen), "withdrawnClaims": len(log.get("withdrawn", [])), "liveClaims": len(cl), "taxonomicClaims": len(tax), "otherClaims": len(oth),
+              "lexemelessOnly": len(nolex) - len(overlap), "lexemelessOverlap": len(overlap), "retainedClaims": len(ret), "claimPairs": sum(len(c["lexeme_ids"]) for c in ret),
+              "keyedClaims": kc[1], "keyedAgree": kc[0], "labelModel": log["model"].split(" (")[0], "typesafeAccepted": len(acc), "typesafeAgree": len(agree)}
+    OUT_COUNTS.write_text("".join(f"\\providecommand{{\\{k}}}{{{v}}}\n" for k, v in macros.items()))
 
 
 def main():
@@ -94,6 +112,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     (OUT / "claim-register.tex").write_text(body_reg); (OUT / "claim-coverage.tex").write_text(body_cov)
     (OUT / "claim-register.md").write_text("\n".join(md) + "\n")
+    write_counts(d)
     print(f"register rows {len(reg)}; coverage rows {len(cov)}; claims covered {sum(r['claims'] for r in rows.values())}")
 
 

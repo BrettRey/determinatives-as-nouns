@@ -1,0 +1,1261 @@
+{
+ "_about": "Coverage-class audit of the matched fragment (article §5). Each cell classifies how each of the four implementations of Table 1 covers one construction family for one lexeme group. Classifications are the author's, made by hand from the fragment's stated conditions and the sections cited in the notes; the claim counts beside each cell come from the claim register (census-normalized.json) and are not judgments. Codes: see classes. Dn marks a derivation that a separate D obtains only by admitting a determinative as the lexical head of nominal structure.",
+ "implementations": [
+  [
+   "I1",
+   "D-noun, ordinary Head"
+  ],
+  [
+   "I2",
+   "Separate D, ordinary Head"
+  ],
+  [
+   "I3",
+   "Separate D, fused Head"
+  ],
+  [
+   "I4",
+   "D-noun, fused Head"
+  ]
+ ],
+ "classes": {
+  "D": "derived by a general rule of that grammar",
+  "Dn": "derived by a general rule only because the grammar admits a determinative as the lexical head of Nom and NP, the structure that defines Noun in CGEL's terms; the D-noun categorization stated as a disjunction",
+  "D2": "derived by a rule the grammar states once for nouns and again for determinatives (or for NP and again for DP)",
+  "L": "a fact stored on the lexeme (a use permission, a form, a selection, an inflectional paradigm), the same in every account",
+  "S": "a condition stated for this construction alone",
+  "U": "not covered by the analysis; an attested fact left undescribed"
+ },
+ "groups": [
+  {
+   "id": "articles",
+   "label": "the articles (the, a)",
+   "lexemes": [
+    "lex_the",
+    "lex_a"
+   ]
+  },
+  {
+   "id": "every",
+   "label": "every",
+   "lexemes": [
+    "lex_every"
+   ]
+  },
+  {
+   "id": "no_none",
+   "label": "no/none",
+   "lexemes": [
+    "lex_no"
+   ]
+  },
+  {
+   "id": "my_mine",
+   "label": "my/mine",
+   "lexemes": [
+    "lex_my"
+   ]
+  },
+  {
+   "id": "demonstratives",
+   "label": "demonstratives, such, and the wh-forms (this, that, such, which, what)",
+   "lexemes": [
+    "lex_this",
+    "lex_that",
+    "lex_such",
+    "lex_which",
+    "lex_what"
+   ]
+  },
+  {
+   "id": "quantifiers",
+   "label": "the general quantifiers (some, all, any, both, each, either, neither, several, enough, certain, various)",
+   "lexemes": [
+    "lex_some",
+    "lex_all",
+    "lex_any",
+    "lex_both",
+    "lex_each",
+    "lex_either",
+    "lex_neither",
+    "lex_several",
+    "lex_enough",
+    "lex_certain",
+    "lex_various"
+   ]
+  },
+  {
+   "id": "gradable",
+   "label": "the gradable four (few, many, much, little)",
+   "lexemes": [
+    "lex_few",
+    "lex_many",
+    "lex_much",
+    "lex_little"
+   ]
+  },
+  {
+   "id": "cardinals",
+   "label": "cardinals (two, ten, thirty)",
+   "lexemes": [
+    "lex_two",
+    "lex_ten",
+    "lex_thirty"
+   ]
+  },
+  {
+   "id": "compounds",
+   "label": "compound determinatives (someone, anyone, everything, ...)",
+   "lexemes": [
+    "lex_anyone",
+    "lex_everybody",
+    "lex_everything",
+    "lex_somebody",
+    "lex_someone",
+    "lex_something"
+   ]
+  },
+  {
+   "id": "pronouns",
+   "label": "pronouns (she, her, it, one, who, you)",
+   "lexemes": [
+    "lex_she",
+    "lex_her",
+    "lex_herself",
+    "lex_it",
+    "lex_one",
+    "lex_who",
+    "lex_you"
+   ]
+  },
+  {
+   "id": "common",
+   "label": "common nouns, including quantificational lot, plenty, heaps",
+   "lexemes": [
+    "lex_apples",
+    "lex_book",
+    "lex_deal",
+    "lex_dog",
+    "lex_half",
+    "lex_heaps",
+    "lex_lot",
+    "lex_lots",
+    "lex_people",
+    "lex_plenty",
+    "lex_preferences",
+    "lex_president",
+    "lex_soccer",
+    "lex_survivors",
+    "lex_teacher",
+    "lex_tens",
+    "lex_wine"
+   ]
+  },
+  {
+   "id": "proper",
+   "label": "proper nouns (Kim, Sunday, Canada)",
+   "lexemes": [
+    "lex_kim",
+    "lex_sunday",
+    "lex_canada"
+   ]
+  },
+  {
+   "id": "adjectives",
+   "label": "adjective controls (rich, numerous, second, blue, ...)",
+   "lexemes": [
+    "lex_blue",
+    "lex_bluer",
+    "lex_countless",
+    "lex_experienced",
+    "lex_ill",
+    "lex_lucky",
+    "lex_multiple",
+    "lex_numerous",
+    "lex_old",
+    "lex_red",
+    "lex_rich",
+    "lex_round",
+    "lex_second",
+    "lex_small",
+    "lex_tall"
+   ]
+  }
+ ],
+ "families": [
+  {
+   "id": "det_use",
+   "label": "Det before a nominal",
+   "constructions": [
+    "dependent_det"
+   ],
+   "section": "sec:independent",
+   "short": "Det use"
+  },
+  {
+   "id": "mod_use",
+   "label": "internal Mod before a nominal",
+   "constructions": [
+    "dependent_internal_mod"
+   ],
+   "section": "sec:modification",
+   "short": "internal Mod use"
+  },
+  {
+   "id": "indep_arg",
+   "label": "independent argument use, including the existential",
+   "constructions": [
+    "independent_argument",
+    "existential_displaced_subject"
+   ],
+   "section": "sec:saturation",
+   "short": "independent argument use"
+  },
+  {
+   "id": "partitive",
+   "label": "independent use with a partitive of-PP",
+   "constructions": [
+    "independent_partitive"
+   ],
+   "section": "sec:modification",
+   "short": "partitive of-PP"
+  },
+  {
+   "id": "ext_det",
+   "label": "external determination of an independent use",
+   "constructions": [
+    "external_determination"
+   ],
+   "section": "sec:modification",
+   "short": "external determination"
+  },
+  {
+   "id": "int_mod",
+   "label": "internal modifiers admitted",
+   "constructions": [
+    "internal_mod_admission"
+   ],
+   "section": "sec:payne",
+   "short": "internal modifiers"
+  },
+  {
+   "id": "periph_mod",
+   "label": "peripheral modifiers admitted",
+   "constructions": [
+    "peripheral_mod_admission"
+   ],
+   "section": "sec:payne",
+   "short": "peripheral modifiers"
+  },
+  {
+   "id": "relative",
+   "label": "relative postmodification",
+   "constructions": [
+    "relative_postmod_admission"
+   ],
+   "section": "sec:independent",
+   "short": "relative postmodification"
+  },
+  {
+   "id": "compound",
+   "label": "the compound construction: base permissions and the post-head restrictor",
+   "constructions": [
+    "compound_base"
+   ],
+   "section": "sec:compounds",
+   "short": "the compound construction"
+  },
+  {
+   "id": "form_sel",
+   "label": "dependent and independent forms (no/none, my/mine)",
+   "constructions": [],
+   "section": "sec:form-selection",
+   "short": "dependent/independent forms"
+  },
+  {
+   "id": "agreement",
+   "label": "number agreement and transparency",
+   "constructions": [
+    "number_agreement"
+   ],
+   "section": "sec:quant-nouns",
+   "short": "number agreement"
+  },
+  {
+   "id": "inflection",
+   "label": "number and grade inflection",
+   "constructions": [
+    "number_inflection",
+    "grade_inflection"
+   ],
+   "section": "sec:inflection",
+   "short": "number and grade inflection"
+  },
+  {
+   "id": "genitive",
+   "label": "genitive marking",
+   "constructions": [
+    "genitive_marking"
+   ],
+   "section": "sec:inflection",
+   "short": "genitive marking"
+  },
+  {
+   "id": "degree_outside",
+   "label": "degree modification outside the NP; comparative complements; predicative use",
+   "constructions": [
+    "degree_modifier_adj",
+    "degree_modifier_nonadj",
+    "comparative_complement",
+    "predicative_complement"
+   ],
+   "section": "sec:enough",
+   "short": "degree use outside the NP"
+  },
+  {
+   "id": "predeterminer",
+   "label": "predeterminer modification and the former complex determinatives",
+   "constructions": [
+    "predeterminer_mod"
+   ],
+   "section": "sec:article-membership",
+   "short": "predeterminer modification and the former complex determinatives"
+  },
+  {
+   "id": "secondary",
+   "label": "the secondary set-denoting use",
+   "constructions": [],
+   "section": "sec:compounds",
+   "short": "the secondary set-denoting use"
+  }
+ ],
+ "cells": {
+  "det_use|articles": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Det use permission and target selection (a: singular count) are lexical in every account; the phrase in Det is an NP under I1, I2, and I4 and a DP under I3 (primitives table)."
+  },
+  "det_use|every": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "as the articles; the Mod use after a genitive Det is a separate lexical permission (internal Mod family)."
+  },
+  "det_use|no_none": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "the dependent form no is selected by the Det use (forms family)."
+  },
+  "det_use|my_mine": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "a genitive NP in Det, the general realization; the my/mine form selection is lexical (forms family)."
+  },
+  "det_use|demonstratives": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Det use permission; agreement with the target is the demonstratives' inflection (inflection family)."
+  },
+  "det_use|quantifiers": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Det use permission with target restrictions (some: plural or non-count; each: singular count)."
+  },
+  "det_use|gradable": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Det use permission with target restrictions (few: plural count; much: non-count)."
+  },
+  "det_use|cardinals": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Det use with plural targets above one; complex cardinals fill Det as phrases (§5.4)."
+  },
+  "det_use|compounds": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "only as genitive NPs (someone's preferences): the general genitive-Det realization."
+  },
+  "det_use|pronouns": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "genitive NPs (my preferences, her preferences) fill Det by the general genitive-Det realization; plain-case pronouns don't."
+  },
+  "det_use|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "genitive NPs (people's preferences) by the general realization; plain-case NPs (what size shoes, Sunday morning) by a restricted construction that every account states separately."
+  },
+  "det_use|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "genitive NPs (Kim's preferences); Sunday morning is the restricted plain-case construction."
+  },
+  "mod_use|every": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "Mod after a genitive Det (her every move): a lexical permission."
+  },
+  "mod_use|gradable": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "the few people, her many virtues: a lexical permission for Mod use; CGEL gives few Mod after a definite determiner (p. 392)."
+  },
+  "mod_use|cardinals": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "these two hundred books, the remaining three: Mod use of cardinals."
+  },
+  "mod_use|quantifiers": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "several, certain, various as modifiers (its several advantages): lexical."
+  },
+  "mod_use|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "nominal premodifiers (dog houses): general."
+  },
+  "mod_use|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "Canada Day: general nominal premodification, restricted for names."
+  },
+  "mod_use|adjectives": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "attributive AdjPs: general."
+  },
+  "indep_arg|articles": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "no independent argument use: the lexeme lacks the use permission in every account."
+  },
+  "indep_arg|every": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "excluded by the lexeme's permissions in every account; the corpus check is tabled in the quantifier supplement."
+  },
+  "indep_arg|no_none": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "none as the independent form (forms family); the use is licensed by the ordinary Head chain (I1, I2) or by Det–Head fusion (I3, I4). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|my_mine": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "mine: ordinary Head (I1, I2) or fusion with an understood nominal (I3, I4); the agreement condition is in the agreement family."
+  },
+  "indep_arg|demonstratives": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "independent this/that; which and what as interrogative heads. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "some, all, both, each, several, enough independently, and the existential There are several: ordinary Head (I1, I2) or Det–Head fusion (I3, I4). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "few and many independently, including bare few with no set under discussion (§4.2). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|cardinals": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "independent two, ten; the almost thirty who came is in the external-determination family. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|compounds": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "someone, anyone as NPs; under I3 the DP–Nom structure of Payne 2007. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "indep_arg|pronouns": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "the noun-headed NP without a determiner (She left)."
+  },
+  "indep_arg|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "bare plurals and non-counts; singular count arguments require determination, a condition every account states."
+  },
+  "indep_arg|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "primary naming uses (Kim left)."
+  },
+  "indep_arg|adjectives": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "the rich by adjectival Mod–Head fusion, retained in all four; bare numerous, multiple, countless are attested overlaps the article leaves unanalysed (§2.3), so a U would be right for them alone."
+  },
+  "partitive|every": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "no partitive use (each of, not every of): lexical."
+  },
+  "partitive|no_none": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "none of the students: the of-PP is a complement in the Nom that none heads (I1, I2); under fusion it attaches outside the DP, which the inner-phrase restriction has to state (§5.2). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "partitive|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "some of the wine, many of them: complement in the Nom the determinative heads (I1, I2); outside the fused DP by a stated restriction (I3, I4), §5.2. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "partitive|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "few of them, many of the delegates: as for the general quantifiers. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "partitive|cardinals": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "two of them: as above. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "partitive|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "a lot of the wine, a number of protesters: complement of the head noun in every account (CGEL's own analysis of a number of, pp. 351–352)."
+  },
+  "ext_det|articles": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "excluded: the permissions of independent few don't transfer to the articles (§5.2)."
+  },
+  "ext_det|every": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "excluded, as the articles."
+  },
+  "ext_det|quantifiers": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "excluded (the some, the all): lexical."
+  },
+  "ext_det|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "the few, the lucky few: Det plus a Nom headed by few (I1, I2); Mod–Head fusion, the adjectival configuration (I3, I4), with the exclusion of a determiner inside the fused phrase stated among the inner-phrase restrictions (§5.2). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "ext_det|cardinals": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "the two, these three, the almost thirty who came: as for few. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "ext_det|compounds": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "excluded as determinatives by the compound construction; the set-denoting a special someone is the secondary use."
+  },
+  "ext_det|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "normally excluded; poor old me is a restricted case."
+  },
+  "ext_det|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "the general case."
+  },
+  "ext_det|proper": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "restricted in primary naming uses; the Smiths and an Ophelia are the secondary use."
+  },
+  "ext_det|adjectives": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "the rich, the idle rich: adjectival Mod–Head fusion in all four."
+  },
+  "int_mod|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "degree AdvPs select the gradable four (a lexical selection) and attach inside the Nom (I1, I2) or inside the DP (I3, I4); one permission covers the very few people and the very few who objected in every account. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "int_mod|cardinals": {
+   "codes": [
+    "S",
+    "S",
+    "S",
+    "S"
+   ],
+   "note": "approximatives attach internally after an external determiner (the almost thirty who came) and peripherally otherwise (almost ten): a two-site condition every account states (§4.4)."
+  },
+  "int_mod|quantifiers": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "degree modifiers excluded for the non-gradable determinatives (very some): lexical selection."
+  },
+  "int_mod|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "poor old me: restricted AdjP premodification."
+  },
+  "int_mod|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "productive AdjP and nominal premodification."
+  },
+  "int_mod|proper": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "restricted premodification (architect Norman Foster)."
+  },
+  "int_mod|adjectives": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "very tall: degree modification of adjectives."
+  },
+  "periph_mod|every": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "almost every: NP-peripheral attachment by the general rule for peripheral modifiers, with lexical selection (I1, I2, I4); a modifier inside the DP under CGEL, so the same fact needs the DP-modifier rule beside the NP-peripheral rule that covers only you (I3), §4.4. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "periph_mod|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "nearly all, hardly any: as for every. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "periph_mod|no_none": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "practically no: as for every. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "periph_mod|cardinals": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "almost ten: as for every. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "periph_mod|compounds": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "hardly anyone: peripheral to the NP that anyone heads (I1, I2, I4); in DP structure under Payne 2007 (I3). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "periph_mod|pronouns": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "only you, all we who signed up: NP-peripheral in every account."
+  },
+  "periph_mod|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "only the book, almost the whole class."
+  },
+  "periph_mod|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "even Kim."
+  },
+  "relative|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "few who come ever leave: an ordinary postmodifier of the Nom that few heads (I1, I2); attaches outside the fused DP, which the inner-phrase restriction states (I3, I4). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "relative|demonstratives": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "those who came, that which remains: as for few. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "relative|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "some that I saw: as above. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "relative|cardinals": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "two that I have seen: as above. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "relative|compounds": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "S"
+   ],
+   "note": "anyone who asks, something that you need to know: as above, and ordered after the restrictor (compound family). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "relative|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "we who have read the report: a restricted range, lexical."
+  },
+  "relative|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "people who came: general."
+  },
+  "compound|compounds": {
+   "codes": [
+    "S",
+    "S",
+    "S",
+    "S"
+   ],
+   "note": "the post-head restrictor's position and non-recursion, the exclusion of external determination, and the exclusion of a pre-head adjective are conditions of the compound construction in every account (§4.5); the premodifier permissions inherited from the base (hardly any, hardly anyone) are general in all four."
+  },
+  "compound|quantifiers": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "the base supplies the compound's premodifier permissions (almost anybody from almost any): inheritance from the base in every account."
+  },
+  "form_sel|no_none": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "inflectional forms of one lexeme selected by the use; the partitive requires none: lexical."
+  },
+  "form_sel|my_mine": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "my/mine: as no/none."
+  },
+  "form_sel|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "she/her: case selected by function."
+  },
+  "agreement|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "some of the people were: the transparency rule for quantificational heads, stated once over Nom heads (I1) or once over {N, D} heads (I2); CGEL states it for the number-transparent nouns and again for the fused-head partitive (I3); under I4 the rule for nouns covers some. each of the people takes singular agreement by default, a lexical fact in every account. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "agreement|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "many of them were; a few takes plural agreement in fused-head use: as for the general quantifiers. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "agreement|my_mine": {
+   "codes": [
+    "S",
+    "S",
+    "D",
+    "D"
+   ],
+   "note": "Mine is ready / Mine are ready: ordinary Head needs a constructional agreement condition (§4.6); fusion takes the number from the understood nominal (I3, I4)."
+  },
+  "agreement|demonstratives": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "this/these agree with the target: the lexeme's inflection."
+  },
+  "agreement|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "a lot of the work was, a lot of the people were: the number-transparent nouns (CGEL §5.3.3), in every account."
+  },
+  "inflection|demonstratives": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "number inflection of two lexemes: lexical in every account; the paradigm parallels nominal number."
+  },
+  "inflection|gradable": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "grade inflection (few/fewer/fewest): lexical; shared with adjectives."
+  },
+  "inflection|cardinals": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "plural cardinals (in threes) are the secondary use (below)."
+  },
+  "inflection|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "case and reflexive forms."
+  },
+  "inflection|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "count nouns inflect for number: a general rule with lexical exceptions."
+  },
+  "inflection|proper": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "restricted number (the Smiths) is the secondary use (below)."
+  },
+  "genitive|compounds": {
+   "codes": [
+    "D",
+    "D2",
+    "D2",
+    "D"
+   ],
+   "note": "everyone's, everyone else's: the head-genitive definition, 'the inflection of the head noun' (CGEL p. 479), covers a compound within Noun (I1, I4); with a separate D the definition has to be extended to D heads (I2, I3), §2.5."
+  },
+  "genitive|pronouns": {
+   "codes": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "note": "my/mine, her: suppletive genitive forms."
+  },
+  "genitive|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "dog's, the King of England's: head and phrasal genitives."
+  },
+  "genitive|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "Kim's, Edward's."
+  },
+  "degree_outside|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "enough modifying adjectives, adverbs, verbs, and PPs (good enough, quickly enough): an NP modifier under the three NP-projecting implementations, under the permission that covers a great deal smaller and lots better (I1, I2, I4); a DP modifier that needs its own permission beside the NP permission (I3), §5.3. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "degree_outside|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "much bigger, a lot fewer: as for enough; the comparative complement in more than ten is licensed separately in every account (lexical), and predicative Their enemies were many is a restricted lexical fact. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "degree_outside|articles": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "the bigger the better: the as a degree modifier of comparative AdjPs, as much bigger and no better; an NP modifier (I1, I2, I4) or a DP modifier (I3). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "degree_outside|no_none": {
+   "codes": [
+    "D",
+    "Dn",
+    "D2",
+    "D"
+   ],
+   "note": "no better: as the bigger. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "degree_outside|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "a great deal smaller, lots better, heaps worse, three years old: NP modifiers of adjectives in every account (CGEL pp. 549–550)."
+  },
+  "predeterminer|quantifiers": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "all the books, both the copies: a predeterminer modifier realized by the determinative's phrase in every account (a DP in CGEL, an NP here). Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "predeterminer|gradable": {
+   "codes": [
+    "D",
+    "Dn",
+    "S",
+    "D"
+   ],
+   "note": "a few, a little, a great many: an NP in Det with its own Det, as genitive Dets already are (I1, I2, I4); many a: many in predeterminer function on an a-NP. CGEL lists a few, a little, many a, and a great many as complex determinatives with a sui generis internal structure (I3), §3.1. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "predeterminer|demonstratives": {
+   "codes": [
+    "D",
+    "Dn",
+    "D",
+    "D"
+   ],
+   "note": "such a mess, what a mess: degree such and exclamative what in predeterminer function (I1, I2, I4); adjectives in the same function under CGEL (I3). The difference is the category, not the machinery. Under I2 the derivation goes through the admission of D as a head of Nom and NP."
+  },
+  "predeterminer|articles": {
+   "codes": [
+    "L",
+    "L",
+    "S",
+    "L"
+   ],
+   "note": "a in a few, many a, such a: the article's ordinary Det use with count-singular selection (I1, I2, I4); part of a listed unit under I3."
+  },
+  "predeterminer|common": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "half a cake, and the fractions: nouns and NPs in predeterminer function in every account (CGEL p. 385 n. 25)."
+  },
+  "secondary|compounds": {
+   "codes": [
+    "D",
+    "S",
+    "S",
+    "D"
+   ],
+   "note": "a special someone, such an anyone, the somebodies: a secondary use within Noun, the one CGEL gives proper nouns (I1, I4); conversion of a determinative to a noun, a rule the grammar has to add (I2, I3; CGEL p. 423 n. 43), §4.5 and §5.5."
+  },
+  "secondary|proper": {
+   "codes": [
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "an Ophelia, the Smiths: CGEL's own secondary use within Noun (p. 521)."
+  },
+  "secondary|cardinals": {
+   "codes": [
+    "D",
+    "S",
+    "S",
+    "D"
+   ],
+   "note": "in threes, in their hundreds: the same secondary use (I1, I4); CGEL's 'secondary use in which they inflect for number and hence belong in the noun category' is a change of category (I2, I3), §5.5."
+  }
+ }
+}

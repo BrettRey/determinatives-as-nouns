@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "mem-016",
+    "construction_id": "other",
+    "other_label": "complementation profile (PPs/clauses)"
+   },
+   {
+    "id": "mem-017",
+    "construction_id": "other",
+    "other_label": "complementation profile (PPs/clauses)"
+   },
+   {
+    "id": "mem-018",
+    "construction_id": "independent_partitive",
+    "other_label": null
+   },
+   {
+    "id": "mem-025",
+    "construction_id": "other",
+    "other_label": "emphatic reflexive modifier/adjunct"
+   },
+   {
+    "id": "mem-027",
+    "construction_id": "number_inflection",
+    "other_label": null
+   },
+   {
+    "id": "mem-028",
+    "construction_id": "genitive_marking",
+    "other_label": null
+   },
+   {
+    "id": "mem-029",
+    "construction_id": "genitive_marking",
+    "other_label": null
+   },
+   {
+    "id": "mem-032",
+    "construction_id": "other",
+    "other_label": "interrogative/relative construction"
+   },
+   {
+    "id": "mem-034",
+    "construction_id": "other",
+    "other_label": "interrogative/relative forms"
+   },
+   {
+    "id": "mem-035",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "mem-036",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "art-002",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-025",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "am-032",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "am-033",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "hr-001",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "hr-013",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "hr-014",
+    "construction_id": "fused_head",
+    "other_label": null
+   },
+   {
+    "id": "mod-013",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "mod-019",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4639,
+  "cache_read_input_tokens": 655,
+  "output_tokens": 3385,
+  "output_tokens_details": {
+   "thinking_tokens": 2689
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4639,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3385,
+    "cache_read_input_tokens": 655,
+    "cache_creation_input_tokens": 4639,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4639
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.05513999999999999,
+ "model": "Claude Sonnet 5 (claude CLI --model claude-sonnet-5 --effort xhigh, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 29742
+}

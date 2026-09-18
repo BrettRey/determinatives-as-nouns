@@ -1,0 +1,140 @@
+{
+ "parsed": {
+  "forms": [
+   {
+    "form": "of",
+    "lemma": "of",
+    "subcategory": "preposition",
+    "grounding": "[{\\synnode{Head}{P}}, head edge [\\mention{of}]]"
+   },
+   {
+    "form": "lucky",
+    "lemma": "lucky",
+    "subcategory": "adjective (control)",
+    "grounding": "The ordinary adjective \\mention{lucky} separately modifies $m$."
+   },
+   {
+    "form": "survivors",
+    "lemma": "survivor",
+    "subcategory": "common noun",
+    "grounding": "\\mention{survivors}: Head"
+   },
+   {
+    "form": "even",
+    "lemma": "even",
+    "subcategory": "adverb",
+    "grounding": "Focusing \\mention{even} and \\mention{just}"
+   },
+   {
+    "form": "just",
+    "lemma": "just",
+    "subcategory": "adverb",
+    "grounding": "Focusing \\mention{even} and \\mention{just}"
+   },
+   {
+    "form": "nearly",
+    "lemma": "nearly",
+    "subcategory": "adverb",
+    "grounding": "approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}"
+   },
+   {
+    "form": "hardly",
+    "lemma": "hardly",
+    "subcategory": "adverb",
+    "grounding": "approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}"
+   },
+   {
+    "form": "virtually",
+    "lemma": "virtually",
+    "subcategory": "adverb",
+    "grounding": "approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}"
+   },
+   {
+    "form": "practically",
+    "lemma": "practically",
+    "subcategory": "adverb",
+    "grounding": "approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}"
+   },
+   {
+    "form": "experienced",
+    "lemma": "experienced",
+    "subcategory": "adjective (control)",
+    "grounding": "while \\mention{experienced} modifies \\mention{teacher}"
+   },
+   {
+    "form": "too",
+    "lemma": "too",
+    "subcategory": "adverb",
+    "grounding": "adverbs such as \\mention{very} and \\mention{too}"
+   },
+   {
+    "form": "globally",
+    "lemma": "globally",
+    "subcategory": "adverb",
+    "grounding": "adverbs can postmodify common nouns, as in \\mention{the changes globally to the climate}"
+   },
+   {
+    "form": "teacher",
+    "lemma": "teacher",
+    "subcategory": "common noun",
+    "grounding": "whose ultimate head is \\mention{teacher}"
+   },
+   {
+    "form": "present",
+    "lemma": "present",
+    "subcategory": "adjective (control)",
+    "grounding": null
+   },
+   {
+    "form": "everybody",
+    "lemma": "everybody",
+    "subcategory": "determinative",
+    "grounding": "while the determinative base supplies its premodifier permissions."
+   },
+   {
+    "form": "tens",
+    "lemma": "ten",
+    "subcategory": "common noun",
+    "grounding": "common-noun numerals such as \\mention{tens} in \\mention{tens of pens}"
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2968,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6753,
+  "output_tokens_details": {
+   "thinking_tokens": 5655
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2968,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6753,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2968,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2968
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.08153200000000001,
+ "model": "Claude Sonnet 5 (claude CLI --model claude-sonnet-5 --effort xhigh, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 56084
+}

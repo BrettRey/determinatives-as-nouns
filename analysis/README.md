@@ -60,3 +60,7 @@ The prepared `public-matrix-correction.txt` remains unposted. The archived publi
 ## Claim set and census (September 2026)
 
 `expanded-json-2026-09-14/` holds the accepted 110-claim extraction that generates Table 1 of the quantifier supplement (`make check-quant-table`); `evidence-type-2026-09-14/` its keyed evidence labels; `claims/claims-enriched.json` the merged layer. `manuscript-census-2026-09-14/` holds the 658-claim census of the manuscript's participation claims and, since 16 September, its normalized layer (`census-normalized.json`, `make census`) with the derived cross-tab and corpus worklist in `generated/`. `make check-claims` verifies every quotation in all of them against the live manuscript and supplement. See each directory's README; no proportion from any of them is a finding about the paper.
+
+## Coverage audit (2026-09-18)
+
+`coverage-audit.json` holds the hand-classified grid (construction family × lexeme group × implementation, codes D/D2/L/S/U with a note and section per cell); `tools/coverage_audit.py` generates `generated/coverage-audit.tex` and `generated/coverage-summary.tex` for the supplement `coverage-audit.tex`, attaching register claim counts to each cell; `check` mode verifies the committed files.

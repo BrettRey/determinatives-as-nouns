@@ -5,7 +5,7 @@
 LATEX = xelatex
 BIBER = biber
 MAIN = determinatives-as-nouns
-SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls claim-register
+SUPPLEMENTS = matrix-audit corpus-documentation quantifier-controls claim-register coverage-audit
 OUTDIR = .
 
 # Targets
@@ -35,9 +35,12 @@ analysis/generated/quant-table.tex: analysis/expanded-json-2026-09-14/records.js
 		analysis/tools/quant_table.py
 	python3 analysis/tools/quant_table.py build
 
-claim-register.pdf: analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex
+claim-register.pdf: analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex analysis/generated/claim-counts.tex
+coverage-audit.pdf: analysis/generated/coverage-audit.tex analysis/generated/coverage-summary.tex
+analysis/generated/coverage-audit.tex analysis/generated/coverage-summary.tex: analysis/coverage-audit.json analysis/manuscript-census-2026-09-14/census-normalized.json analysis/tools/coverage_audit.py
+	python3 analysis/tools/coverage_audit.py
 
-analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex: analysis/manuscript-census-2026-09-14/census-normalized.json analysis/tools/claim_register.py
+analysis/generated/claim-register.tex analysis/generated/claim-coverage.tex analysis/generated/claim-counts.tex: analysis/manuscript-census-2026-09-14/census-normalized.json analysis/tools/claim_register.py
 	python3 analysis/tools/claim_register.py
 
 analysis/generated/exclusion-table.tex: analysis/exclusion-checks.json analysis/tools/exclusion_table.py
@@ -47,6 +50,7 @@ check-quant-table:
 	python3 analysis/tools/quant_table.py check
 	python3 analysis/tools/exclusion_table.py check
 	python3 analysis/tools/claim_register.py check
+	python3 analysis/tools/coverage_audit.py check
 
 # The claim set gains evidence_type and subcategory in a derived layer; the
 # source run under analysis/expanded-json-2026-09-14 is a provenance bundle
