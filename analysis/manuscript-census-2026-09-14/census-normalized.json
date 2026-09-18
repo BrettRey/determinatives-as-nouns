@@ -2,7 +2,7 @@
  "derived_from": {
   "census-repartitioned.json": "3ed4dd9b7bd5fe21cdd572438118275ba6cc6bdad4dbc5c95fe942781f54d00c",
   "claims-enriched.json": "ec061fe7726373f47461157927590fa77062ebacb02c55932a57d25680a9e173",
-  "determinatives-as-nouns.tex": "7609aa62fa3555bcd5f1a056e49b0362b48814db54e0b0f460d68426c6e410cb"
+  "determinatives-as-nouns.tex": "c2f900fdcd34488c0e6b44deb01c3e20d124842732ea6c8d6e9c7d379a783b32"
  },
  "reconciliation_rule": "attestation footnote at the sentence -> retained_attestation; \\ungram in the quote -> constructed_ungrammatical; searched_not_found kept; CGEL cited in the sentence -> cgel_described (cgel_restricted kept); another work cited in the sentence -> other_source_described; otherwise the census label.",
  "catalogue": [
