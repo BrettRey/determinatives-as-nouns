@@ -110,6 +110,36 @@
    "old": "\\mention{The rich} and \\mention{the poor} can fill nominal argument positions.",
    "new": "\\mention{The rich} and \\mention{the poor} are nominal arguments",
    "reason": "2026-09-17: editorial scar-tissue pass; span-level map so that it composes with the other maps applied in sequence"
+  },
+  {
+   "old": "These modify the quantity expressed by the head. Under the proposed analysis, they're internal NP modifiers within its nominal projection, with permissions specific to the head and construction.",
+   "new": "These modify the quantity expressed by the head. Under the proposed analysis, they're internal NP modifiers within its nominal projection.",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence quote mapped old -> new"
+  },
+  {
+   "old": " The lexical, constructional, and register conditions remain a descriptive question for all four accounts.",
+   "new": "",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "that difference would favour DP projection.",
+   "new": "that would favour DP projection",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "that difference would favour DP projection",
+   "new": "that would favour DP projection",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "The cardinal examples are subject to the category qualifications in §§\\ref{sec:evidence} and~\\ref{sec:costs}.",
+   "new": "It doesn't independently decide whether \\mention{three} is determinative or has a common-noun use: \\textcite{reynolds2026numerals} argues for both uses of cardinals.",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "Both D-noun implementations share this grouping of cardinals and the three \\mention{one} lexemes.",
+   "new": "These remain distinct under the D-noun categorization, but all belong within primary Noun.",
+   "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; expanded-run evidence span mapped old -> new"
   }
  ],
  "inf-018": {
@@ -389,5 +419,82 @@
   "quote": "\\textit{CGEL} also treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
   "previous_quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
   "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "ind-002": {
+  "quote": "Independent determinative expressions enter these constructions too.",
+  "previous_quote": "Independent determinative expressions enter these constructions too, with the lexical restrictions illustrated below.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "qc-018": {
+  "quote": "The categorial significance of independent use depends on its combination with degree syntax, determination, and dependents.",
+  "previous_quote": "The categorial significance of independent use depends on its combination with degree syntax, determination, and dependents.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "pay-006": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-007": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-008": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-009": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-010": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-011": {
+  "quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses.",
+  "previous_quote": "Focusing \\mention{even} and \\mention{just}, and approximatives such as \\mention{nearly}, \\mention{hardly}, \\mention{virtually}, and \\mention{practically}, likewise have NP uses, subject to their own scope and selectional restrictions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "pay-029": {
+  "quote": "Under the proposed analysis, they're internal NP modifiers within its nominal projection.",
+  "previous_quote": "Under the proposed analysis, they're internal NP modifiers within its nominal projection, with permissions specific to the head and construction.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "con-006": {
+  "quote": "Attributive degree modification still requires a fuller account of lexical, constructional, and register conditions.",
+  "previous_quote": "Attributive degree modification still requires a fuller account of lexical, constructional, and register conditions.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "enu-033": {
+  "quote": "If degree determinatives systematically permit attributive uses excluded for established nominal modifiers, that would favour DP projection",
+  "previous_quote": "If degree determinatives systematically permit attributive uses excluded for established nominal modifiers, that difference would favour DP projection.",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "inh-014": {
+  "quote": "Both groups permit peripheral NP modifiers",
+  "previous_quote": "Both groups permit peripheral NP modifiers, subject to lexical selection",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "inh-018": {
+  "quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}",
+  "previous_quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}, with item-specific conditions",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "inh-019": {
+  "quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}",
+  "previous_quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}, with item-specific conditions",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
+ },
+ "inh-020": {
+  "quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}",
+  "previous_quote": "Determinatives allow \\mention{the few}, \\mention{the two}, and \\mention{these three}, with item-specific conditions",
+  "reason": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md"
  }
 }

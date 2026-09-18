@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "frg-t009",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "frg-t010",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "frg-t011",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t012",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t013",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "frg-t014",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "frg-t015",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t016",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t017",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "frg-t018",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "frg-t019",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t020",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t021",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "frg-t022",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "frg-t023",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t024",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t025",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "frg-t026",
+    "construction_id": "dependent_internal_mod",
+    "other_label": null
+   },
+   {
+    "id": "frg-t027",
+    "construction_id": "independent_argument",
+    "other_label": null
+   },
+   {
+    "id": "frg-t028",
+    "construction_id": "independent_argument",
+    "other_label": null
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 3936,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2710,
+  "output_tokens_details": {
+   "thinking_tokens": 1916
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3936,
+    "output_tokens": 2710,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.019918,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 24856
+}

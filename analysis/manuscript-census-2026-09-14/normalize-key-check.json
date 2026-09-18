@@ -3,8 +3,8 @@
  "pairings": 143,
  "summary": {
   "construction": {
-   "agree": 78,
-   "disagree": 65
+   "agree": 74,
+   "disagree": 69
   },
   "evidence_type": {
    "agree": 83,
@@ -148,7 +148,7 @@
    "census": "pay-024",
    "construction": [
     "internal_mod_admission",
-    "fused_head"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -199,7 +199,7 @@
    "census": "ap-018",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "grade_inflection"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -250,7 +250,7 @@
    "census": "ap-019",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "grade_inflection"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -284,7 +284,7 @@
    "census": "ap-020",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "grade_inflection"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -318,7 +318,7 @@
    "census": "ap-012",
    "construction": [
     "internal_mod_admission",
-    "degree_modifier_nonadj"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -335,7 +335,7 @@
    "census": "ap-011",
    "construction": [
     "internal_mod_admission",
-    "degree_modifier_nonadj"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -777,7 +777,7 @@
    "census": "enu-017",
    "construction": [
     "degree_modifier_adj",
-    "degree_modifier_nonadj"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -998,7 +998,7 @@
    "census": "enu-004",
    "construction": [
     "degree_modifier_adj",
-    "internal_mod_admission"
+    "dependent_internal_mod"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1015,7 +1015,7 @@
    "census": "enu-005",
    "construction": [
     "degree_modifier_adj",
-    "internal_mod_admission"
+    "other"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1253,7 +1253,7 @@
    "census": "pay-026",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1270,7 +1270,7 @@
    "census": "frg-011",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1372,7 +1372,7 @@
    "census": "enu-004",
    "construction": [
     "dependent_det",
-    "internal_mod_admission"
+    "dependent_internal_mod"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1389,7 +1389,7 @@
    "census": "enu-005",
    "construction": [
     "dependent_det",
-    "internal_mod_admission"
+    "other"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1491,7 +1491,7 @@
    "census": "enu-004",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "dependent_internal_mod"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -1508,7 +1508,7 @@
    "census": "enu-005",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "other"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -1542,7 +1542,7 @@
    "census": "sat-008",
    "construction": [
     "independent_argument",
-    "predicative_complement"
+    "independent_argument"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1763,7 +1763,7 @@
    "census": "cmp-019",
    "construction": [
     "peripheral_mod_admission",
-    "compound_base"
+    "fused_head"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -1814,7 +1814,7 @@
    "census": "cmp-014",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "compound_base"
    ],
    "evidence_type": [
     "constructed_illustration",
@@ -2018,7 +2018,7 @@
    "census": "mod-005",
    "construction": [
     "independent_partitive",
-    "fused_head"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2154,7 +2154,7 @@
    "census": "gh-003",
    "construction": [
     "predicative_complement",
-    "genitive_marking"
+    "fused_head"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2307,7 +2307,7 @@
    "census": "ap-018",
    "construction": [
     "dependent_det",
-    "internal_mod_admission"
+    "grade_inflection"
    ],
    "evidence_type": [
     "constructed_illustration",

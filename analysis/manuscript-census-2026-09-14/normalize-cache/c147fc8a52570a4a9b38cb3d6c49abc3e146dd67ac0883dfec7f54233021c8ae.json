@@ -1,0 +1,144 @@
+{
+ "parsed": {
+  "assignments": [
+   {
+    "id": "ind-050",
+    "construction_id": "dependent_det",
+    "other_label": null
+   },
+   {
+    "id": "ind-055",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ind-058",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ind-067",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-068",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "ind-077",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "qn-014",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qn-015",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qn-020",
+    "construction_id": "internal_mod_admission",
+    "other_label": null
+   },
+   {
+    "id": "qn-021",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qn-022",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qc-005",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qc-013",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "qc-014",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-023",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "ap-038",
+    "construction_id": "fused_head",
+    "other_label": null
+   },
+   {
+    "id": "ap-039",
+    "construction_id": "fused_head",
+    "other_label": null
+   },
+   {
+    "id": "ap-046",
+    "construction_id": "taxonomic_or_meta",
+    "other_label": null
+   },
+   {
+    "id": "inf-016",
+    "construction_id": "other",
+    "other_label": "case_paradigms"
+   },
+   {
+    "id": "inf-017",
+    "construction_id": "other",
+    "other_label": "case_inflection"
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 3978,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 11833,
+  "output_tokens_details": {
+   "thinking_tokens": 10622
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3978,
+    "output_tokens": 11833,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.06549799999999999,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 119668
+}

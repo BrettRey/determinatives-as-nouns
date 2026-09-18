@@ -1,5 +1,5 @@
 # Editorial scar tissue pass, 2026-09-17
-<!-- SUMMARY: Registered pass editorial-scar-tissue on determinatives-as-nouns.tex; 46 edits applied in six clusters, one cluster (hedging cadence) deferred for a read-alongside pass · status: applied, uncommitted at time of writing · updated: 2026-09-17 -->
+<!-- SUMMARY: Registered pass editorial-scar-tissue on determinatives-as-nouns.tex; 46 edits applied in six clusters, one cluster (hedging cadence) deferred for a read-alongside pass · status: clusters 1–5, 7 committed at ccb91ed; cluster 6 applied 2026-09-18 · updated: 2026-09-18 -->
 
 Procedure: `passes/registry/editorial-scar-tissue.yaml`, after the five tells in `.claude/rules/writing-style.md` ("Revise for the end-reader, not the conversation"). Whole manuscript read (814 lines) after a grep for revision traces (no longer / still / retain; contrastive negation; "X alone doesn't establish"; scope disclaimers; back-references; hedges). Line numbers are those of the pre-edit text at commit 179e9e5.
 
@@ -55,3 +55,13 @@ Hedging cadence, to be judged sentence by sentence with the author: "subject to 
 ## Apparatus
 
 Twenty census quotes re-pointed through `amendments.json`; three claims withdrawn (inf-029, inf-030, mod-020) because their sentences are gone. Drift check, register, and builds rerun.
+
+## Cluster 6 applied (2026-09-18)
+
+Brett read the deferred list alongside a second opinion and agreed the cuts below; the three remaining "neither ... nor" constructions stay, since each asserts something exact (L265, L630, L744 at ccb91ed) and none is a hedge.
+- "subject to lexical restrictions" and variants: cut at L95, L471, L495, L752, L754; kept at L97 (reports what *CGEL* records), L388 (Payne's fusion conditions), L632 (a fragment condition).
+- Sealing sentence L160 ("The categorial significance of independent use depends on...") cut.
+- Cardinal hedge stated once at L465 (first sentence, with the numerals citation); cut at L206 (table note), L465 second sentence, and L720 ("Both D-noun implementations share this grouping").
+- Attributive-degree caveat: §5.3 (L684) loses "remain a descriptive question for all four accounts" and folds the conditional into one sentence ("that would favour DP projection, a question of phrase structure rather than of membership within Noun"); the conclusion (L768) loses its attributive sentence and ends on one line: coordinate rank is a further preference, since the comparisons connect determinatives with both pronouns and quantificational common nouns.
+
+Apparatus: 13 census claims re-quoted, 2 withdrawn (qc-018, con-006); 6 expanded-run evidence spans mapped.
