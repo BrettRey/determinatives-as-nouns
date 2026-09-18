@@ -2,7 +2,7 @@
  "derived_from": {
   "census-repartitioned.json": "3ed4dd9b7bd5fe21cdd572438118275ba6cc6bdad4dbc5c95fe942781f54d00c",
   "claims-enriched.json": "ec061fe7726373f47461157927590fa77062ebacb02c55932a57d25680a9e173",
-  "determinatives-as-nouns.tex": "c2f900fdcd34488c0e6b44deb01c3e20d124842732ea6c8d6e9c7d379a783b32"
+  "determinatives-as-nouns.tex": "38406afac77948c8ae9f10b6f35bd30a60fbb8530421cc57f3a6a5fc68d73260"
  },
  "reconciliation_rule": "attestation footnote at the sentence -> retained_attestation; \\ungram in the quote -> constructed_ungrammatical; searched_not_found kept; CGEL cited in the sentence -> cgel_described (cgel_restricted kept); another work cited in the sentence -> other_source_described; otherwise the census label.",
  "catalogue": [
@@ -4746,7 +4746,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -4772,7 +4773,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -4798,7 +4800,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -4824,7 +4827,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -4850,7 +4854,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_paragraph"
+    "cgel_cited_paragraph",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
@@ -15133,7 +15138,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15159,7 +15165,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15185,7 +15192,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15212,7 +15220,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15238,7 +15247,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15264,7 +15274,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15290,7 +15301,8 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_paragraph"
    ],
    "cited_keys_sentence": [
     "huddleston2002"
@@ -15317,10 +15329,12 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_sentence"
    ],
    "cited_keys_sentence": [
-    "huddleston2002"
+    "huddleston2002",
+    "reynolds2024why"
    ],
    "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
@@ -15344,10 +15358,12 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_sentence"
    ],
    "cited_keys_sentence": [
-    "huddleston2002"
+    "huddleston2002",
+    "reynolds2024why"
    ],
    "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
@@ -15371,10 +15387,12 @@
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
    "basis_signals": [
-    "cgel_cited_sentence"
+    "cgel_cited_sentence",
+    "other_cited_sentence"
    ],
    "cited_keys_sentence": [
-    "huddleston2002"
+    "huddleston2002",
+    "reynolds2024why"
    ],
    "evidence_type_reconciled": "cgel_described",
    "label_uncited_at_locus": false
