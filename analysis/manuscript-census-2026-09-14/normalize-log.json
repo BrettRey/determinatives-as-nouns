@@ -1706,7 +1706,7 @@
     "du-024",
     "du-025"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4104,
@@ -2553,7 +2553,7 @@
     "du-010",
     "du-011"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 3969,
     "cache_creation_input_tokens": 0,
@@ -2614,7 +2614,7 @@
     "cost-003",
     "cost-004"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4264,
@@ -2675,7 +2675,7 @@
     "inh-009",
     "inh-010"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 4078,
     "cache_creation_input_tokens": 0,
@@ -2736,7 +2736,7 @@
     "his-011",
     "his-012"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4107,
@@ -2787,7 +2787,7 @@
  "summary": {
   "claims": 651,
   "new_lexemes": 56,
-  "cost_usd_uncached": 0.3825,
+  "cost_usd_uncached": 0,
   "construction_ids": [
    [
     "taxonomic_or_meta",
