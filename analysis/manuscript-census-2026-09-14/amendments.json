@@ -55,6 +55,61 @@
    "old": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}. Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
    "new": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
    "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md; applies to the expanded run's evidence quotes (X062)"
+  },
+  {
+   "old": "Existentials add a construction to this comparison. With possible solutions under discussion, the constructed \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject",
+   "new": "Existentials add a construction to this comparison. With possible solutions under discussion, \\mention{There are several} places the independent quantifier in displaced-subject position; dummy \\mention{there} is the subject",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "\\textit{CGEL} already assigns them NP-level attachment",
+   "new": "\\textit{CGEL} assigns them NP-level attachment",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+   "new": "\\textit{CGEL} also treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "\\textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition",
+   "new": "\\textit{CGEL} gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "Compare the constructed \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement, against \\mention{A lot of the work was finished} and \\mention{Some of the work was finished}, with singular agreement. The whole subject NP's number depends on the complement of \\mention{of}. \\textit{CGEL} calls quantificational \\mention{lot} \\term{number-transparent}",
+   "new": "Compare \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement, against \\mention{A lot of the work was finished} and \\mention{Some of the work was finished}, with singular agreement. The whole subject NP's number depends on the complement of \\mention{of}. \\textit{CGEL} calls quantificational \\mention{lot} \\term{number-transparent}",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "Adjective fusion permits indefinite ordinal \\mention{a second} \\citep[416]{huddleston2002}, giving the constructed comparison \\mention{There was a second}.",
+   "new": "Adjective fusion permits indefinite ordinal \\mention{a second} \\citep[416]{huddleston2002}, as in \\mention{There was a second}.",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "Existential occurrence doesn't decide the structural analysis either.",
+   "new": "Existentials admit fused-head AdjPs too.",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "NPs already modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}. \\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+   "new": "NPs modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}. \\textit{CGEL} also treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+   "reason": "2026-09-17: editorial scar-tissue pass; applies to the expanded run's evidence quotes (hash-pinned bundle, mapped old -> new)"
+  },
+  {
+   "old": "NPs already modify adjectives in",
+   "new": "NPs modify adjectives in",
+   "reason": "2026-09-17: editorial scar-tissue pass; span-level map so that it composes with the other maps applied in sequence"
+  },
+  {
+   "old": "Independent uses containing fused-head adjective phrases (AdjPs) prevent a simple inference from these positions to nounhood.",
+   "new": "Fused-head adjective phrases (AdjPs) fill the same positions.",
+   "reason": "2026-09-17: editorial scar-tissue pass; span-level map so that it composes with the other maps applied in sequence"
+  },
+  {
+   "old": "\\mention{The rich} and \\mention{the poor} can fill nominal argument positions.",
+   "new": "\\mention{The rich} and \\mention{the poor} are nominal arguments",
+   "reason": "2026-09-17: editorial scar-tissue pass; span-level map so that it composes with the other maps applied in sequence"
   }
  ],
  "inf-018": {
@@ -181,5 +236,158 @@
   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
   "previous_quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
   "reason": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md"
+ },
+ "int-020": {
+  "quote": "\\textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents",
+  "previous_quote": "\\textit{CGEL} already includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "ind-038": {
+  "quote": "\\mention{The rich} and \\mention{the poor} are nominal arguments",
+  "previous_quote": "\\mention{The rich} and \\mention{the poor} can fill nominal argument positions.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "ind-039": {
+  "quote": "\\mention{The rich} and \\mention{the poor} are nominal arguments",
+  "previous_quote": "\\mention{The rich} and \\mention{the poor} can fill nominal argument positions.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "ind-040": {
+  "quote": "comparative and superlative adjectives head expressions without a generic human interpretation",
+  "previous_quote": "Comparative and superlative adjectives also head expressions without a generic human interpretation",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "ind-045": {
+  "quote": "\\mention{There are several} places the independent quantifier in displaced-subject position",
+  "previous_quote": "the constructed \\mention{There are several} places the independent quantifier in displaced-subject position",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "qn-005": {
+  "quote": "Compare \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement",
+  "previous_quote": "Compare the constructed \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "qn-006": {
+  "quote": "Compare \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement",
+  "previous_quote": "Compare the constructed \\mention{A lot of the people were waiting} and \\mention{Some of the people were waiting}, with plural agreement",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "qc-016": {
+  "quote": "as in \\mention{There was a second}",
+  "previous_quote": "giving the constructed comparison \\mention{There was a second}",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "inf-029": {
+  "quote": "Derivations such as \\mention{nothingness} and \\mention{oneness} are weaker category diagnostics: \\mention{-ness} also attaches to adjectives and other bases",
+  "previous_quote": "Derivations such as \\mention{nothingness} and \\mention{oneness} are weaker category diagnostics: \\mention{-ness} also attaches to adjectives and other bases",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "inf-030": {
+  "quote": "\\textcite[§§5.4--5.5]{reynolds2026numerals} derives fractional nouns from cardinal nouns and treats \\mention{two thousand and twenty-seventh} as a coordination whose final coordinate is adjectival",
+  "previous_quote": "\\textcite[§§5.4--5.5]{reynolds2026numerals} derives fractional nouns from cardinal nouns and treats \\mention{two thousand and twenty-seventh} as a coordination whose final coordinate is adjectival",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "hr-015": {
+  "quote": "The genitive NP \\mention{Kim's} fills Det in \\mention{Kim's preferences}",
+  "previous_quote": "The genitive NP \\mention{Kim's} already fills Det in \\mention{Kim's preferences}",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "sat-013": {
+  "quote": "Applying that structure to \\mention{Some left} preserves the same division between a complete NP and its context-dependent reference.",
+  "previous_quote": "The dependent use of \\mention{some} doesn't by itself require a Det function inside every independent occurrence.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "sat-014": {
+  "quote": "one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions",
+  "previous_quote": "In \\textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "mod-014": {
+  "quote": "\\textit{CGEL} permits determinatives used as internal modifiers to fuse with Head, as in \\mention{the other two} and \\mention{these few here}",
+  "previous_quote": "\\textit{CGEL} explicitly permits determinatives used as internal modifiers to fuse with Head, as in \\mention{the other two} and \\mention{these few here}",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "mod-015": {
+  "quote": "\\textit{CGEL} permits determinatives used as internal modifiers to fuse with Head, as in \\mention{the other two} and \\mention{these few here}",
+  "previous_quote": "\\textit{CGEL} explicitly permits determinatives used as internal modifiers to fuse with Head, as in \\mention{the other two} and \\mention{these few here}",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "mod-018": {
+  "quote": "In the fusion analysis, its DP fills Mod--Head, the machinery of adjectival fusion.",
+  "previous_quote": "In the fusion analysis, its DP fills Mod--Head.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "mod-020": {
+  "quote": "it requires neither a silent noun nor conversion",
+  "previous_quote": "it requires neither a silent noun nor conversion",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md; the sentence was removed and the claim withdrawn",
+  "withdrawn": true
+ },
+ "mod-032": {
+  "quote": "\\mention{The remaining three} extends the modifier pattern to cardinals.",
+  "previous_quote": "The constructed \\mention{the remaining three} extends the modifier pattern to cardinals.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "pay-005": {
+  "quote": "\\textit{CGEL} assigns them NP-level attachment",
+  "previous_quote": "\\textit{CGEL} already assigns them NP-level attachment",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "pay-030": {
+  "quote": "\\textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in \\mention{the changes globally to the climate}.",
+  "previous_quote": "\\textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in the constructed \\mention{the changes globally to the climate}.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "cmp-015": {
+  "quote": "\\textit{CGEL} gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition",
+  "previous_quote": "\\textit{CGEL} explicitly gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "gh-004": {
+  "quote": "Compare \\mention{Mine is ready} (\\enquote*{my contribution}) and \\mention{Mine are ready} (\\enquote*{my slides}).",
+  "previous_quote": "Compare constructed \\mention{Mine is ready} (\\enquote*{my contribution}) and \\mention{Mine are ready} (\\enquote*{my slides}).",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "gh-005": {
+  "quote": "Compare \\mention{Mine is ready} (\\enquote*{my contribution}) and \\mention{Mine are ready} (\\enquote*{my slides}).",
+  "previous_quote": "Compare constructed \\mention{Mine is ready} (\\enquote*{my contribution}) and \\mention{Mine are ready} (\\enquote*{my slides}).",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "gh-006": {
+  "quote": "Ordinary Head needs a constructional agreement condition.",
+  "previous_quote": "Ordinary Head therefore needs a constructional agreement condition.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "du-009": {
+  "quote": "all four implementations have at most one Det per NP with the same definiteness and target-selection conditions",
+  "previous_quote": "All four implementations retain at most one Det per NP and the same definiteness and target-selection conditions.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "enu-021": {
+  "quote": "NPs modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "previous_quote": "NPs already modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "enu-022": {
+  "quote": "NPs modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "previous_quote": "NPs already modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "enu-023": {
+  "quote": "NPs modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "previous_quote": "NPs already modify adjectives in \\mention{three years old}, \\mention{a great deal smaller}, and \\mention{plenty big enough}.",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "enu-024": {
+  "quote": "\\textit{CGEL} also treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+  "previous_quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
+ },
+ "enu-025": {
+  "quote": "\\textit{CGEL} also treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+  "previous_quote": "\\textit{CGEL} also explicitly treats \\mention{lots better} and \\mention{heaps worse} as containing quantificational NP modifiers",
+  "reason": "2026-09-17: editorial scar-tissue pass (reviewer-facing defences cut; 'constructed'/'already'/'explicitly' tags dropped under the §1 convention); see DECISIONS.md"
  }
 }

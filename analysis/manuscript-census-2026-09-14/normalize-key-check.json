@@ -1,25 +1,25 @@
 {
  "keyed_manuscript_claims": 56,
- "pairings": 151,
+ "pairings": 143,
  "summary": {
   "construction": {
-   "agree": 86,
+   "agree": 78,
    "disagree": 65
   },
   "evidence_type": {
-   "agree": 86,
-   "disagree": 65
+   "agree": 83,
+   "disagree": 60
   },
   "reconciled": {
-   "agree": 86,
-   "disagree": 65
+   "agree": 84,
+   "disagree": 59
   },
   "per_keyed_claim_any_match": {
-   "construction": "50/53",
-   "evidence_type": "46/53",
-   "reconciled": "45/53"
+   "construction": "44/51",
+   "evidence_type": "43/51",
+   "reconciled": "43/51"
   },
-  "keyed_claims_with_no_pairing": 3
+  "keyed_claims_with_no_pairing": 5
  },
  "note": "Pairings share a quotation and the keyed form. The keyed claims aggregate several sentences, so a pairing is an agreement measure, not a strict key.",
  "pairs": [
@@ -148,7 +148,7 @@
    "census": "pay-024",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "fused_head"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -318,7 +318,7 @@
    "census": "ap-012",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -335,7 +335,7 @@
    "census": "ap-011",
    "construction": [
     "internal_mod_admission",
-    "internal_mod_admission"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -777,7 +777,7 @@
    "census": "enu-017",
    "construction": [
     "degree_modifier_adj",
-    "independent_argument"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -825,27 +825,10 @@
   {
    "keyed": "X074",
    "form": "deal",
-   "census": "enu-022",
-   "construction": [
-    "degree_modifier_adj",
-    "degree_modifier_adj"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X074",
-   "form": "deal",
    "census": "enu-026",
    "construction": [
     "degree_modifier_adj",
-    "degree_modifier_adj"
+    "predicative_complement"
    ],
    "evidence_type": [
     "cgel_described",
@@ -879,7 +862,7 @@
    "census": "enu-026",
    "construction": [
     "degree_modifier_adj",
-    "degree_modifier_adj"
+    "predicative_complement"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -925,23 +908,6 @@
    ]
   },
   {
-   "keyed": "X077",
-   "form": "lots",
-   "census": "enu-024",
-   "construction": [
-    "degree_modifier_adj",
-    "degree_modifier_adj"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "cgel_described"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "cgel_described"
-   ]
-  },
-  {
    "keyed": "X078",
    "form": "lots",
    "census": "enu-031",
@@ -956,23 +922,6 @@
    "reconciled": [
     "retained_attestation",
     "retained_attestation"
-   ]
-  },
-  {
-   "keyed": "X079",
-   "form": "heaps",
-   "census": "enu-025",
-   "construction": [
-    "degree_modifier_adj",
-    "degree_modifier_adj"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "cgel_described"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "cgel_described"
    ]
   },
   {
@@ -1007,23 +956,6 @@
    "reconciled": [
     "cgel_described",
     "cgel_described"
-   ]
-  },
-  {
-   "keyed": "X081",
-   "form": "plenty",
-   "census": "enu-023",
-   "construction": [
-    "degree_modifier_adj",
-    "degree_modifier_adj"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
    ]
   },
   {
@@ -1066,7 +998,7 @@
    "census": "enu-004",
    "construction": [
     "degree_modifier_adj",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1321,7 +1253,7 @@
    "census": "pay-026",
    "construction": [
     "degree_modifier_nonadj",
-    "internal_mod_admission"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1355,7 +1287,7 @@
    "census": "du-024",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_adj"
+    "degree_modifier_nonadj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1406,7 +1338,7 @@
    "census": "du-025",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "degree_modifier_adj"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1440,7 +1372,7 @@
    "census": "enu-004",
    "construction": [
     "dependent_det",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1559,7 +1491,7 @@
    "census": "enu-004",
    "construction": [
     "internal_mod_admission",
-    "other"
+    "internal_mod_admission"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -1831,7 +1763,7 @@
    "census": "cmp-019",
    "construction": [
     "peripheral_mod_admission",
-    "fused_head"
+    "compound_base"
    ],
    "evidence_type": [
     "authors_analysis",
@@ -1930,23 +1862,6 @@
   {
    "keyed": "X098",
    "form": "lot",
-   "census": "qn-005",
-   "construction": [
-    "independent_argument",
-    "number_agreement"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "constructed_illustration"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "constructed_illustration"
-   ]
-  },
-  {
-   "keyed": "X098",
-   "form": "lot",
    "census": "qn-007",
    "construction": [
     "independent_argument",
@@ -2001,7 +1916,7 @@
    "census": "qn-004",
    "construction": [
     "independent_partitive",
-    "other"
+    "independent_partitive"
    ],
    "evidence_type": [
     "constructed_ungrammatical",
@@ -2018,7 +1933,7 @@
    "census": "qn-016",
    "construction": [
     "internal_mod_admission",
-    "other"
+    "external_determination"
    ],
    "evidence_type": [
     "cgel_restricted",
@@ -2044,23 +1959,6 @@
    "reconciled": [
     "cgel_restricted",
     "cgel_restricted"
-   ]
-  },
-  {
-   "keyed": "X102",
-   "form": "some",
-   "census": "qn-006",
-   "construction": [
-    "independent_partitive",
-    "number_agreement"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "constructed_illustration"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "constructed_illustration"
    ]
   },
   {
@@ -2120,7 +2018,7 @@
    "census": "mod-005",
    "construction": [
     "independent_partitive",
-    "taxonomic_or_meta"
+    "fused_head"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2256,7 +2154,7 @@
    "census": "gh-003",
    "construction": [
     "predicative_complement",
-    "fused_head"
+    "genitive_marking"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2474,23 +2372,6 @@
   {
    "keyed": "X109",
    "form": "rich",
-   "census": "ind-038",
-   "construction": [
-    "independent_argument",
-    "independent_argument"
-   ],
-   "evidence_type": [
-    "cgel_described",
-    "authors_analysis"
-   ],
-   "reconciled": [
-    "cgel_described",
-    "authors_analysis"
-   ]
-  },
-  {
-   "keyed": "X109",
-   "form": "rich",
    "census": "ind-043",
    "construction": [
     "independent_argument",
@@ -2567,23 +2448,6 @@
    "evidence_type": [
     "constructed_illustration",
     "cgel_described"
-   ],
-   "reconciled": [
-    "constructed_illustration",
-    "cgel_described"
-   ]
-  },
-  {
-   "keyed": "X110",
-   "form": "second",
-   "census": "qc-016",
-   "construction": [
-    "existential_displaced_subject",
-    "existential_displaced_subject"
-   ],
-   "evidence_type": [
-    "constructed_illustration",
-    "constructed_illustration"
    ],
    "reconciled": [
     "constructed_illustration",

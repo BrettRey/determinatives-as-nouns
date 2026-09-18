@@ -1,0 +1,284 @@
+{
+ "parsed": {
+  "forms": [
+   {
+    "form": "Kim",
+    "lemma": "Kim",
+    "subcategory": "proper noun",
+    "grounding": "\\mention{\\textup{[}Kim\\textup{]} left.}"
+   },
+   {
+    "form": "apples",
+    "lemma": "apple",
+    "subcategory": "common noun",
+    "grounding": "the word \\mention{apples} heads Nom, and that Nom heads NP."
+   },
+   {
+    "form": "each",
+    "lemma": "each",
+    "subcategory": "determinative",
+    "grounding": "\\mention{few}, \\mention{several}, \\mention{each}, \\mention{either},"
+   },
+   {
+    "form": "either",
+    "lemma": "either",
+    "subcategory": "determinative",
+    "grounding": "\\mention{several}, \\mention{each}, \\mention{either}, \\mention{neither},"
+   },
+   {
+    "form": "neither",
+    "lemma": "neither",
+    "subcategory": "determinative",
+    "grounding": "\\mention{each}, \\mention{either}, \\mention{neither}, \\mention{much},"
+   },
+   {
+    "form": "quite",
+    "lemma": "quite",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "rather",
+    "lemma": "rather",
+    "subcategory": "adverb",
+    "grounding": "\\mention{quite}/\\mention{rather} before \\mention{a good idea} as peripheral modifiers"
+   },
+   {
+    "form": "such",
+    "lemma": "such",
+    "subcategory": "adjective (control)",
+    "grounding": "\\mention{such}/exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "what",
+    "lemma": "what",
+    "subcategory": "adjective (control)",
+    "grounding": "\\mention{such}/exclamative \\mention{what} before \\mention{a disaster} as adjectives"
+   },
+   {
+    "form": "half",
+    "lemma": "half",
+    "subcategory": "common noun",
+    "grounding": "The \\mention{half} in \\mention{half a cake} is a common noun"
+   },
+   {
+    "form": "people",
+    "lemma": "person",
+    "subcategory": "common noun",
+    "grounding": "\\mention{\\textup{[}People\\textup{]} left.}"
+   },
+   {
+    "form": "she",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "\\mention{\\textup{[}She\\textup{]} left.}"
+   },
+   {
+    "form": "her",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "\\mention{I see \\textup{[}her\\textup{]}.}"
+   },
+   {
+    "form": "someone",
+    "lemma": "someone",
+    "subcategory": "determinative",
+    "grounding": "The compound determinative \\mention{someone}, following the categorization of"
+   },
+   {
+    "form": "Sunday",
+    "lemma": "Sunday",
+    "subcategory": "proper noun",
+    "grounding": "and \\mention{Sunday} in \\mention{Sunday morning}"
+   },
+   {
+    "form": "dog",
+    "lemma": "dog",
+    "subcategory": "common noun",
+    "grounding": "Genitives occur across the proposed subcategories: \\mention{dog's},"
+   },
+   {
+    "form": "Canada",
+    "lemma": "Canada",
+    "subcategory": "proper noun",
+    "grounding": "Compare the modifiers in \\mention{dog houses}, \\mention{Canada Day},"
+   },
+   {
+    "form": "herself",
+    "lemma": "she",
+    "subcategory": "pronoun",
+    "grounding": "Emphatic \\mention{herself} also functions as a clause adjunct"
+   },
+   {
+    "form": "everything",
+    "lemma": "everything",
+    "subcategory": "determinative",
+    "grounding": "Compounds also permit \\mention{anyone who asks} and \\mention{everything that matters}."
+   },
+   {
+    "form": "two",
+    "lemma": "two",
+    "subcategory": "determinative",
+    "grounding": "In \\mention{two hundred books}, the whole \\mention{two hundred} fills Det;"
+   },
+   {
+    "form": "tall",
+    "lemma": "tall",
+    "subcategory": "adjective (control)",
+    "grounding": "Degree \\mention{very}, \\mention{so}, and \\mention{too} select gradable heads: \\mention{very tall}"
+   },
+   {
+    "form": "you",
+    "lemma": "you",
+    "subcategory": "pronoun",
+    "grounding": "\\textit{CGEL} treats singular and plural \\mention{you} as distinct lexemes,"
+   },
+   {
+    "form": "very",
+    "lemma": "very",
+    "subcategory": "adverb",
+    "grounding": "The proposed analysis gives adverbs such as \\mention{very} and \\mention{too}"
+   },
+   {
+    "form": "almost",
+    "lemma": "almost",
+    "subcategory": "adverb",
+    "grounding": "They also analyse \\mention{almost} as modifying the attributive nominal \\mention{textbook}"
+   },
+   {
+    "form": "soccer",
+    "lemma": "soccer",
+    "subcategory": "common noun",
+    "grounding": "In \\mention{a soccer/round ball}, a noun-headed expression and an AdjP"
+   },
+   {
+    "form": "round",
+    "lemma": "round",
+    "subcategory": "adjective (control)",
+    "grounding": "In \\mention{a soccer/round ball}, a noun-headed expression and an AdjP"
+   },
+   {
+    "form": "president",
+    "lemma": "president",
+    "subcategory": "common noun",
+    "grounding": "A bare-role NP such as \\mention{president} is licensed"
+   },
+   {
+    "form": "ill",
+    "lemma": "ill",
+    "subcategory": "adjective (control)",
+    "grounding": "in \\mention{Jones became president/ill}, NP and AdjP share predicative complement"
+   },
+   {
+    "form": "blue",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": "The \\mention{blue}, \\mention{old}, and \\mention{small} examples on \\textit{CGEL}"
+   },
+   {
+    "form": "Bluer",
+    "lemma": "blue",
+    "subcategory": "adjective (control)",
+    "grounding": "the attested \\mention{Bluer is better} establishes a bare comparative subject"
+   },
+   {
+    "form": "old",
+    "lemma": "old",
+    "subcategory": "adjective (control)",
+    "grounding": "The \\mention{blue}, \\mention{old}, and \\mention{small} examples on \\textit{CGEL}"
+   },
+   {
+    "form": "small",
+    "lemma": "small",
+    "subcategory": "adjective (control)",
+    "grounding": "The \\mention{blue}, \\mention{old}, and \\mention{small} examples on \\textit{CGEL}"
+   },
+   {
+    "form": "it",
+    "lemma": "it",
+    "subcategory": "pronoun",
+    "grounding": "non-personal \\mention{it}/\\mention{something}."
+   },
+   {
+    "form": "somebody",
+    "lemma": "somebody",
+    "subcategory": "pronoun",
+    "grounding": "personal \\mention{she}/\\mention{somebody} and non-personal"
+   },
+   {
+    "form": "who",
+    "lemma": "who",
+    "subcategory": "pronoun",
+    "grounding": "An interrogative object may be headed by a pronoun (\\mention{who}) or a common"
+   },
+   {
+    "form": "which",
+    "lemma": "which",
+    "subcategory": "determinative",
+    "grounding": "\\mention{who}) or a common noun (\\mention{which book})"
+   },
+   {
+    "form": "red",
+    "lemma": "red",
+    "subcategory": "adjective (control)",
+    "grounding": "The same arrangement permits an internal modifier, as in \\mention{some red apples},"
+   },
+   {
+    "form": "preferences",
+    "lemma": "preference",
+    "subcategory": "common noun",
+    "grounding": "whose ultimate lexical head is \\mention{preferences}."
+   },
+   {
+    "form": "one",
+    "lemma": "one",
+    "subcategory": "pronoun",
+    "grounding": "Generic pronoun \\mention{one}, as in \\mention{One shouldn't judge}, provides"
+   },
+   {
+    "form": "wine",
+    "lemma": "wine",
+    "subcategory": "common noun",
+    "grounding": "In the partitive, \\mention{wine} is embedded inside the \\mention{of}-phrase,"
+   }
+  ]
+ },
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 4943,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 23032,
+  "output_tokens_details": {
+   "thinking_tokens": 20890
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4943,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 10,
+    "output_tokens": 23032,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4943,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4943
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.129536,
+ "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
+ "provider": "Anthropic via Claude CLI",
+ "attempts": 1,
+ "duration_ms": 224530
+}
