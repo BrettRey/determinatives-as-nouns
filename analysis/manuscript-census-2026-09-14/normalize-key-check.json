@@ -3,8 +3,8 @@
  "pairings": 143,
  "summary": {
   "construction": {
-   "agree": 72,
-   "disagree": 71
+   "agree": 71,
+   "disagree": 72
   },
   "evidence_type": {
    "agree": 83,
@@ -15,7 +15,7 @@
    "disagree": 59
   },
   "per_keyed_claim_any_match": {
-   "construction": "45/51",
+   "construction": "44/51",
    "evidence_type": "43/51",
    "reconciled": "43/51"
   },
@@ -1287,7 +1287,7 @@
    "census": "du-024",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_nonadj"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -1338,7 +1338,7 @@
    "census": "du-025",
    "construction": [
     "degree_modifier_nonadj",
-    "degree_modifier_adj"
+    "taxonomic_or_meta"
    ],
    "evidence_type": [
     "cgel_described",
@@ -2154,7 +2154,7 @@
    "census": "gh-003",
    "construction": [
     "predicative_complement",
-    "taxonomic_or_meta"
+    "fused_head"
    ],
    "evidence_type": [
     "cgel_described",

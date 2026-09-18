@@ -106,7 +106,7 @@
     "int-014",
     "int-015"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 3924,
     "cache_creation_input_tokens": 0,
@@ -1706,14 +1706,14 @@
     "du-024",
     "du-025"
    ],
-   "cached": true,
+   "cached": false,
    "usage": {
     "input_tokens": 10,
-    "cache_creation_input_tokens": 4105,
+    "cache_creation_input_tokens": 4104,
     "cache_read_input_tokens": 0,
-    "output_tokens": 10212,
+    "output_tokens": 16851,
     "output_tokens_details": {
-     "thinking_tokens": 9119
+     "thinking_tokens": 15832
     },
     "server_tool_use": {
      "web_search_requests": 0,
@@ -1721,26 +1721,26 @@
     },
     "service_tier": "standard",
     "cache_creation": {
-     "ephemeral_1h_input_tokens": 4105,
+     "ephemeral_1h_input_tokens": 4104,
      "ephemeral_5m_input_tokens": 0
     },
     "inference_geo": "not_available",
     "iterations": [
      {
       "input_tokens": 10,
-      "output_tokens": 10212,
+      "output_tokens": 16851,
       "cache_read_input_tokens": 0,
-      "cache_creation_input_tokens": 4105,
+      "cache_creation_input_tokens": 4104,
       "cache_creation": {
        "ephemeral_5m_input_tokens": 0,
-       "ephemeral_1h_input_tokens": 4105
+       "ephemeral_1h_input_tokens": 4104
       },
       "type": "message"
      }
     ],
     "speed": "standard"
    },
-   "cost_usd": 0.061901000000000005,
+   "cost_usd": 0.095093,
    "attempts": 1,
    "recall": null,
    "model": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled)",
@@ -2248,7 +2248,7 @@
     "ind-067",
     "ind-068"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 3932,
     "cache_creation_input_tokens": 0,
@@ -2309,7 +2309,7 @@
     "mem-006",
     "mem-007"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4107,
@@ -2370,7 +2370,7 @@
     "hr-004",
     "hr-005"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 4058,
     "cache_creation_input_tokens": 0,
@@ -2431,7 +2431,7 @@
     "mod-011",
     "mod-013"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4203,
@@ -2492,7 +2492,7 @@
     "pay-035",
     "cmp-015"
    ],
-   "cached": false,
+   "cached": true,
    "usage": {
     "input_tokens": 10,
     "cache_creation_input_tokens": 4156,
@@ -2555,12 +2555,12 @@
    ],
    "cached": false,
    "usage": {
-    "input_tokens": 3970,
+    "input_tokens": 3969,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 10819,
+    "output_tokens": 19144,
     "output_tokens_details": {
-     "thinking_tokens": 9661
+     "thinking_tokens": 18070
     },
     "server_tool_use": {
      "web_search_requests": 0,
@@ -2574,8 +2574,8 @@
     "inference_geo": "not_available",
     "iterations": [
      {
-      "input_tokens": 3970,
-      "output_tokens": 10819,
+      "input_tokens": 3969,
+      "output_tokens": 19144,
       "cache_read_input_tokens": 0,
       "cache_creation_input_tokens": 0,
       "cache_creation": {
@@ -2587,7 +2587,7 @@
     ],
     "speed": "standard"
    },
-   "cost_usd": 0.060387,
+   "cost_usd": 0.10203,
    "attempts": 1
   },
   {
@@ -2597,11 +2597,6 @@
     "du-013",
     "du-014",
     "du-015",
-    "du-016",
-    "du-017",
-    "du-018",
-    "du-019",
-    "du-020",
     "du-021",
     "du-022",
     "du-023",
@@ -2612,16 +2607,21 @@
     "enu-002",
     "enu-009",
     "enu-010",
-    "enu-032"
+    "enu-032",
+    "enu-033",
+    "cost-001",
+    "cost-002",
+    "cost-003",
+    "cost-004"
    ],
    "cached": false,
    "usage": {
     "input_tokens": 10,
-    "cache_creation_input_tokens": 4288,
+    "cache_creation_input_tokens": 4264,
     "cache_read_input_tokens": 0,
-    "output_tokens": 20571,
+    "output_tokens": 11354,
     "output_tokens_details": {
-     "thinking_tokens": 19361
+     "thinking_tokens": 10271
     },
     "server_tool_use": {
      "web_search_requests": 0,
@@ -2629,36 +2629,31 @@
     },
     "service_tier": "standard",
     "cache_creation": {
-     "ephemeral_1h_input_tokens": 4288,
+     "ephemeral_1h_input_tokens": 4264,
      "ephemeral_5m_input_tokens": 0
     },
     "inference_geo": "not_available",
     "iterations": [
      {
       "input_tokens": 10,
-      "output_tokens": 20571,
+      "output_tokens": 11354,
       "cache_read_input_tokens": 0,
-      "cache_creation_input_tokens": 4288,
+      "cache_creation_input_tokens": 4264,
       "cache_creation": {
        "ephemeral_5m_input_tokens": 0,
-       "ephemeral_1h_input_tokens": 4288
+       "ephemeral_1h_input_tokens": 4264
       },
       "type": "message"
      }
     ],
     "speed": "standard"
    },
-   "cost_usd": 0.114096,
+   "cost_usd": 0.067944,
    "attempts": 1
   },
   {
    "stage": "refine_taxonomic",
    "ids": [
-    "enu-033",
-    "cost-001",
-    "cost-002",
-    "cost-003",
-    "cost-004",
     "cost-009",
     "cost-010",
     "cost-011",
@@ -2673,16 +2668,21 @@
     "inh-002",
     "inh-003",
     "inh-004",
-    "inh-005"
+    "inh-005",
+    "inh-006",
+    "inh-007",
+    "inh-008",
+    "inh-009",
+    "inh-010"
    ],
    "cached": false,
    "usage": {
-    "input_tokens": 10,
-    "cache_creation_input_tokens": 4166,
+    "input_tokens": 4078,
+    "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 18152,
+    "output_tokens": 11789,
     "output_tokens_details": {
-     "thinking_tokens": 17111
+     "thinking_tokens": 10747
     },
     "server_tool_use": {
      "web_search_requests": 0,
@@ -2690,36 +2690,31 @@
     },
     "service_tier": "standard",
     "cache_creation": {
-     "ephemeral_1h_input_tokens": 4166,
+     "ephemeral_1h_input_tokens": 0,
      "ephemeral_5m_input_tokens": 0
     },
     "inference_geo": "not_available",
     "iterations": [
      {
-      "input_tokens": 10,
-      "output_tokens": 18152,
+      "input_tokens": 4078,
+      "output_tokens": 11789,
       "cache_read_input_tokens": 0,
-      "cache_creation_input_tokens": 4166,
+      "cache_creation_input_tokens": 0,
       "cache_creation": {
        "ephemeral_5m_input_tokens": 0,
-       "ephemeral_1h_input_tokens": 4166
+       "ephemeral_1h_input_tokens": 0
       },
       "type": "message"
      }
     ],
     "speed": "standard"
    },
-   "cost_usd": 0.10162500000000001,
+   "cost_usd": 0.06545800000000002,
    "attempts": 1
   },
   {
    "stage": "refine_taxonomic",
    "ids": [
-    "inh-006",
-    "inh-007",
-    "inh-008",
-    "inh-009",
-    "inh-010",
     "inh-011",
     "inh-016",
     "inh-017",
@@ -2734,48 +2729,7 @@
     "his-003",
     "his-004",
     "his-006",
-    "his-007"
-   ],
-   "cached": false,
-   "usage": {
-    "input_tokens": 4068,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 15628,
-    "output_tokens_details": {
-     "thinking_tokens": 14665
-    },
-    "server_tool_use": {
-     "web_search_requests": 0,
-     "web_fetch_requests": 0
-    },
-    "service_tier": "standard",
-    "cache_creation": {
-     "ephemeral_1h_input_tokens": 0,
-     "ephemeral_5m_input_tokens": 0
-    },
-    "inference_geo": "not_available",
-    "iterations": [
-     {
-      "input_tokens": 4068,
-      "output_tokens": 15628,
-      "cache_read_input_tokens": 0,
-      "cache_creation_input_tokens": 0,
-      "cache_creation": {
-       "ephemeral_5m_input_tokens": 0,
-       "ephemeral_1h_input_tokens": 0
-      },
-      "type": "message"
-     }
-    ],
-    "speed": "standard"
-   },
-   "cost_usd": 0.084633,
-   "attempts": 1
-  },
-  {
-   "stage": "refine_taxonomic",
-   "ids": [
+    "his-007",
     "his-008",
     "his-009",
     "his-010",
@@ -2784,12 +2738,12 @@
    ],
    "cached": false,
    "usage": {
-    "input_tokens": 3053,
-    "cache_creation_input_tokens": 0,
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 4107,
     "cache_read_input_tokens": 0,
-    "output_tokens": 8654,
+    "output_tokens": 8261,
     "output_tokens_details": {
-     "thinking_tokens": 8087
+     "thinking_tokens": 7209
     },
     "server_tool_use": {
      "web_search_requests": 0,
@@ -2797,26 +2751,26 @@
     },
     "service_tier": "standard",
     "cache_creation": {
-     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4107,
      "ephemeral_5m_input_tokens": 0
     },
     "inference_geo": "not_available",
     "iterations": [
      {
-      "input_tokens": 3053,
-      "output_tokens": 8654,
+      "input_tokens": 10,
+      "output_tokens": 8261,
       "cache_read_input_tokens": 0,
-      "cache_creation_input_tokens": 0,
+      "cache_creation_input_tokens": 4107,
       "cache_creation": {
        "ephemeral_5m_input_tokens": 0,
-       "ephemeral_1h_input_tokens": 0
+       "ephemeral_1h_input_tokens": 4107
       },
       "type": "message"
      }
     ],
     "speed": "standard"
    },
-   "cost_usd": 0.047738,
+   "cost_usd": 0.051997999999999996,
    "attempts": 1
   }
  ],
@@ -2833,19 +2787,19 @@
  "summary": {
   "claims": 651,
   "new_lexemes": 56,
-  "cost_usd_uncached": 0.8189,
+  "cost_usd_uncached": 0.3825,
   "construction_ids": [
    [
     "taxonomic_or_meta",
-    130
+    135
    ],
    [
     "independent_argument",
-    130
+    127
    ],
    [
     "dependent_det",
-    67
+    65
    ],
    [
     "internal_mod_admission",
@@ -2853,7 +2807,7 @@
    ],
    [
     "fused_head",
-    53
+    54
    ],
    [
     "peripheral_mod_admission",
@@ -2861,11 +2815,11 @@
    ],
    [
     "dependent_internal_mod",
-    29
+    30
    ],
    [
     "degree_modifier_adj",
-    22
+    20
    ],
    [
     "independent_partitive",
@@ -2880,6 +2834,10 @@
     15
    ],
    [
+    "number_inflection",
+    13
+   ],
+   [
     "genitive_marking",
     13
    ],
@@ -2888,20 +2846,16 @@
     12
    ],
    [
-    "number_inflection",
-    11
-   ],
-   [
     "predicative_complement",
     10
    ],
    [
     "grade_inflection",
-    9
+    8
    ],
    [
     "degree_modifier_nonadj",
-    8
+    7
    ],
    [
     "predeterminer_mod",
@@ -3029,8 +2983,8 @@
   "label_uncited_at_locus": 15,
   "key_check": {
    "construction": {
-    "agree": 72,
-    "disagree": 71
+    "agree": 71,
+    "disagree": 72
    },
    "evidence_type": {
     "agree": 83,
@@ -3041,14 +2995,14 @@
     "disagree": 59
    },
    "per_keyed_claim_any_match": {
-    "construction": "45/51",
+    "construction": "44/51",
     "evidence_type": "43/51",
     "reconciled": "43/51"
    },
    "keyed_claims_with_no_pairing": 5
   },
   "residue_rule_assignments": 0,
-  "refined_from_taxonomic": 185,
-  "taxonomic_remaining": 130
+  "refined_from_taxonomic": 180,
+  "taxonomic_remaining": 135
  }
 }

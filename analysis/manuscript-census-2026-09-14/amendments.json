@@ -145,6 +145,11 @@
    "old": "Determinative modifier attachments are analytical commitments; interrogative and relative forms follow \\textit{CGEL}'s inventory.",
    "new": "The modifiers row records which modifiers occur; where they attach is the analysis of §\\ref{sec:payne}.",
    "reason": "2026-09-18: Table 2's caption no longer flags the attachment cells; the intro sentence carries the point; expanded-run evidence span mapped old -> new"
+  },
+  {
+   "old": "English Web Treebank, sentence \\nolinkurl{reviews-083459-0002}, verified in the \\href{https://github.com/UniversalDependencies/UD_English-EWT/blob/master/en_ewt-ud-train.conllu}{UD English EWT training data}. CGELBank supplies the syntactic annotation \\citep{reynolds2023unified}. The original review webpage wasn't identified.",
+   "new": "English Web Treebank, sentence \\nolinkurl{reviews-083459-0002}, verified in the \\href{https://github.com/UniversalDependencies/UD_English-EWT/blob/master/en_ewt-ud-train.conllu}{UD English EWT training data}. CGELBank supplies the syntactic annotation \\citep{reynolds2023unified}. The attestation is the treebank sentence; the review it came from isn't recoverable.",
+   "reason": "2026-09-18: second Elicit triage, cheap batch (novelty, evidential standard, reach, four-questions subsection, secondary-use rule, category condition); see DECISIONS.md"
   }
  ],
  "inf-018": {
@@ -572,5 +577,10 @@
   "quote": "share partitives, number transparency, and restricted dependents with the quantifiers",
   "previous_quote": "they share complement patterns, number transparency, and restricted dependents with parts of the determinative inventory",
   "reason": "2026-09-18: abstract redrafted (NBER shape); see DECISIONS.md"
+ },
+ "du-006": {
+  "quote": "I carry this PP-determiner provision over to the three NP-projecting implementations for this comparison.",
+  "previous_quote": "I carry this PP-determiner provision over to the three NP-projecting implementations for the present comparison.",
+  "reason": "2026-09-18: house-style self-reference fix (the present X -> this X)"
  }
 }

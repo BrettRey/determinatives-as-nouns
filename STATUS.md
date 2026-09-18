@@ -28,7 +28,7 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Coverage audit built (fifth supplement) and §5.5 restated on it; abstract redrafted; labelling moved to Sonnet 5; register counts generated; second Elicit triage open in reviews/external-2026-09-18/ · status: drafting · updated: 2026-09-18 -->
+<!-- SUMMARY: Second Elicit triage fully applied (coverage audit, §5.5 restated, abstract, Table 2 blocks, register counts, novelty, evidential standard, four-questions §2.7 with Solt and Van Eynde, secondary-use rule, L&A footnote); Haiku labelling with re-call guard · status: drafting · updated: 2026-09-18 -->
 
 **Last updated:** 2026-09-16
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).

@@ -14,12 +14,12 @@
 | Det before a nominal | *she* | pronoun | excluded | analysis | fragment | 1 |
 | Det before a nominal | *a* | determinative | licensed 5, excluded, conditional | CGEL 4, analysis 2, other source | adjectival-profile, article-membership, fragment | 7 |
 | Det before a nominal | *enough* | determinative | licensed | CGEL | enough | 1 |
-| Det before a nominal | *every* | determinative | licensed 4, excluded 2, conditional | analysis 4, constructed, CGEL, other source | article-membership, fragment, intro, payne | 7 |
+| Det before a nominal | *every* | determinative | licensed 4, excluded, conditional | analysis 3, constructed, CGEL, other source | article-membership, fragment, intro, payne | 6 |
 | Det before a nominal | *few* | determinative | licensed 2, conditional, excluded | analysis 4 | det-uniform, fragment, modification | 4 |
 | Det before a nominal | *little* | determinative | licensed | analysis | det-uniform | 1 |
 | Det before a nominal | *many* | determinative | licensed | constructed | quant-controls | 1 |
 | Det before a nominal | *no* | determinative | licensed, conditional, excluded | analysis 2, CGEL | form-selection, fragment | 3 |
-| Det before a nominal | *some* | determinative | licensed 7, conditional 2, excluded | analysis 6, CGEL 2, constructed, other source | article-membership, det-uniform, fragment, head-relations, intro, modification | 10 |
+| Det before a nominal | *some* | determinative | licensed 7, conditional, excluded | analysis 5, CGEL 2, constructed, other source | article-membership, det-uniform, fragment, head-relations, intro, modification | 9 |
 | Det before a nominal | *someone* | determinative | licensed | other source | independent | 1 |
 | Det before a nominal | *ten* | determinative | licensed 2 | analysis, other source | costs, head-relations | 2 |
 | Det before a nominal | *that* | determinative | licensed | CGEL | independent | 1 |
@@ -37,9 +37,9 @@
 | independent argument use | *sunday* | proper noun | licensed | analysis | independent | 1 |
 | independent argument use | *her* | pronoun | licensed 3, excluded | constructed 2, analysis 2 | fragment, independent | 4 |
 | independent argument use | *herself* | pronoun | licensed | CGEL | independent | 1 |
-| independent argument use | *it* | pronoun | licensed 2 | analysis, other source | historical, inflection | 2 |
+| independent argument use | *it* | pronoun | licensed | analysis | inflection | 1 |
 | independent argument use | *my* | pronoun | excluded 2, licensed 2 | analysis 4 | fragment | 4 |
-| independent argument use | *one* | pronoun | licensed, excluded | constructed, other source | historical, saturation | 2 |
+| independent argument use | *one* | pronoun | licensed | constructed | saturation | 1 |
 | independent argument use | *she* | pronoun | licensed 4, excluded | analysis 3, constructed, CGEL | fragment, independent, inflection, saturation | 5 |
 | independent argument use | *who* | pronoun | licensed 2 | analysis 2 | inflection | 2 |
 | independent argument use | *a* | determinative | excluded 3 | analysis 2, CGEL | article-membership, fragment | 3 |
@@ -58,7 +58,7 @@
 | independent argument use | *neither* | determinative | conditional | CGEL | independent | 1 |
 | independent argument use | *no* | determinative | licensed 4, excluded 2, conditional | analysis 4, CGEL 2, CGEL (restricted) | enough, form-selection, fragment, independent | 7 |
 | independent argument use | *several* | determinative | conditional | CGEL | independent | 1 |
-| independent argument use | *some* | determinative | licensed 15, conditional | constructed 8, analysis 5, CGEL 2, other source | article-membership, fragment, independent, intro, saturation | 16 |
+| independent argument use | *some* | determinative | licensed 14, conditional | constructed 8, analysis 4, CGEL 2, other source | article-membership, fragment, independent, intro, saturation | 15 |
 | independent argument use | *somebody* | determinative | licensed | analysis | inflection | 1 |
 | independent argument use | *something* | determinative | licensed 2 | constructed, analysis | independent, inflection | 2 |
 | independent argument use | *that* | determinative | licensed 4, excluded | constructed 2, analysis, other source, constructed (starred) | fragment, independent | 5 |
@@ -127,8 +127,9 @@
 | **Nominal connections** | | | | | | |
 | number inflection | *you* | pronoun | conditional | CGEL | inflection | 1 |
 | number inflection | *each* | determinative | excluded | analysis | inflection | 1 |
+| number inflection | *few* | determinative | licensed | analysis | fragment | 1 |
 | number inflection | *several* | determinative | excluded | analysis | inflection | 1 |
-| number inflection | *some* | determinative | excluded | analysis | inflection | 1 |
+| number inflection | *some* | determinative | excluded, conditional | analysis 2 | fragment, inflection | 2 |
 | number inflection | *that* | determinative | licensed | CGEL | inflection | 1 |
 | number inflection | *this* | determinative | licensed | CGEL | inflection | 1 |
 | number inflection | *rich* | adjective (control) | licensed | CGEL | inflection | 1 |
@@ -198,7 +199,7 @@
 | **Adjectival profile** | | | | | | |
 | degree modifier of an adjective | *deal* | common noun | licensed 2, excluded | CGEL, analysis, constructed (starred) | enough, quant-nouns | 3 |
 | degree modifier of an adjective | *heaps* | common noun | licensed 2 | CGEL, attested | enough | 2 |
-| degree modifier of an adjective | *lot* | common noun | licensed 2 | analysis, CGEL | det-uniform, enough | 2 |
+| degree modifier of an adjective | *lot* | common noun | licensed | CGEL | enough | 1 |
 | degree modifier of an adjective | *lots* | common noun | licensed 2 | CGEL, attested | enough | 2 |
 | degree modifier of an adjective | *plenty* | common noun | licensed 2 | CGEL, analysis | enough, quant-nouns | 2 |
 | degree modifier of an adjective | *enough* | determinative | licensed 2 | analysis, CGEL | enough | 2 |
@@ -207,7 +208,6 @@
 | degree modifier of an adjective | *no* | determinative | licensed | CGEL | article-membership | 1 |
 | degree modifier of an adjective | *the* | determinative | licensed | CGEL | article-membership | 1 |
 | degree modifier of an adjective | *this* | determinative | licensed | analysis | enough | 1 |
-| degree modifier of an adjective | *very* | adverb | licensed | analysis | det-uniform | 1 |
 | predicative complement | *deal* | common noun | licensed | constructed (starred) | enough | 1 |
 | predicative complement | *president* | common noun | licensed 2 | constructed, CGEL | adjectival-profile | 2 |
 | predicative complement | *kim* | proper noun | licensed | constructed | adjectival-profile | 1 |
@@ -225,13 +225,12 @@
 | degree modifier of a non-adjective | *lot* | common noun | licensed | CGEL | payne | 1 |
 | degree modifier of a non-adjective | *enough* | determinative | licensed 3, conditional | CGEL 3, analysis | enough, independent | 4 |
 | degree modifier of a non-adjective | *many* | determinative | licensed | CGEL | payne | 1 |
-| degree modifier of a non-adjective | *this* | determinative | licensed | analysis | det-uniform | 1 |
 | comparative than-complement | *many* | determinative | licensed | analysis | adjectival-profile | 1 |
 | comparative than-complement | *ten* | determinative | licensed | analysis | det-uniform | 1 |
 | **Structural analysis** | | | | | | |
 | fused-head analysis | *apples* | common noun | licensed | other source | intro | 1 |
 | fused-head analysis | *people* | common noun | licensed | CGEL | adjectival-profile | 1 |
-| fused-head analysis | *my* | pronoun | licensed | CGEL | genitive-head | 1 |
+| fused-head analysis | *my* | pronoun | licensed 2 | CGEL, analysis | genitive-head | 2 |
 | fused-head analysis | *anyone* | determinative | licensed 3 | analysis 2, other source | compounds | 3 |
 | fused-head analysis | *few* | determinative | licensed 10 | analysis 9, CGEL | costs, modification, payne | 10 |
 | fused-head analysis | *some* | determinative | licensed 9, excluded | analysis 8, CGEL 2 | evidence, head-relations, intro, saturation | 10 |
