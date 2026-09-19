@@ -1,4 +1,5 @@
 # *few would*: the 94 NOW lines, for reading
+<!-- SUMMARY: blind reading copy of the 94 screened NOW lines for *few would* · status: read by Brett 2026-09-18: 82 no set, 5 set supplied (3 clear, 2 uncertain), 7 undecidable; screener agreed on 4 of its 5 positives (disagreements: 7, 67) · updated: 2026-09-18 -->
 
 The question for each line: **does anything in the visible context tell you which set *few* is drawn from?** A set is supplied when the surrounding text names or implies the group (*of the 200 applicants, few would ...*; *among economists, few would ...*; an earlier noun phrase that *few* picks up). It is not supplied when *few* means people in general, or the relevant people, with nothing in view to restrict it (*few would dispute that ...*).
 
