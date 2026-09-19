@@ -49,7 +49,7 @@ The resulting local functions are Det 297, Mod 18, Det–Head 65, Marker 1, Flat
 
 The corpus supplies, for example, `test-drive both` following `two different Honda models`, `so many tell lies` after `politicians or lawyers`, and `something reliable and good looking`. The first two have available restrictions in the retained sentence; they are not evidence of an antecedent-free reading. The third attests postmodification of a compound, not the disputed premodification in `the lucky few`. The sample contains no D-token occurrence of bare `few`, `either` or `neither`. Its gaps cannot establish ungrammaticality, and it does not estimate productivity across the full determinative inventory.
 
-CGELBank's recorded categories and fusion analyses are the objects being inventoried. They cannot independently confirm those analyses or their proposed replacements. The current article retains one CGELBank attestation, `I need something reliable and good looking`, with a source pointer to the corpus supplement. The annotation inventory and its limitations remain in this documentation and the corpus supplement.
+CGELBank's recorded categories and fusion analyses are the objects being inventoried. They cannot independently confirm those analyses or their proposed replacements. The article cites two sentences in their grammatical contexts. The annotation inventory and its limitations remain in this documentation and the corpus supplement.
 
 ## Publication status
 

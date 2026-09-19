@@ -1,0 +1,1019 @@
+{
+  "claim_counts": {
+    "computed": {
+      "censusClaims": 658,
+      "withdrawnClaims": 9,
+      "liveClaims": 649,
+      "taxonomicClaims": 135,
+      "otherClaims": 9,
+      "lexemelessOnly": 79,
+      "lexemelessOverlap": 98,
+      "retainedClaims": 426,
+      "claimPairs": 440,
+      "keyedClaims": 51,
+      "keyedAgree": 44,
+      "typesafeAccepted": 250,
+      "typesafeAgree": 235
+    },
+    "macro_mismatches": {},
+    "catalogue": 22,
+    "source_keyed_pairing_limit": "44/51 is any matching construction among paired keyed claims; five of the 56 keyed claims had no pairing."
+  },
+  "coverage": {
+    "cells": 103,
+    "all_four_L": 35,
+    "base": {
+      "I1": {
+        "L": 36,
+        "D": 61,
+        "S": 6
+      },
+      "I2": {
+        "L": 36,
+        "D": 28,
+        "Dn": 32,
+        "S": 6,
+        "D2": 1
+      },
+      "I3": {
+        "L": 35,
+        "D": 40,
+        "S": 16,
+        "D2": 12
+      },
+      "I4": {
+        "L": 36,
+        "D": 53,
+        "S": 14
+      }
+    },
+    "sensitivity": {
+      "I1": {
+        "L": 43,
+        "D": 54,
+        "S": 6
+      },
+      "I2": {
+        "L": 43,
+        "D": 29,
+        "Dn": 25,
+        "S": 6
+      },
+      "I3": {
+        "L": 42,
+        "D": 54,
+        "S": 7
+      },
+      "I4": {
+        "L": 43,
+        "D": 55,
+        "S": 5
+      }
+    },
+    "Dn_as_D": {
+      "I1": {
+        "L": 43,
+        "D": 54,
+        "S": 6
+      },
+      "I2": {
+        "L": 43,
+        "D": 54,
+        "S": 6
+      },
+      "I3": {
+        "L": 42,
+        "D": 54,
+        "S": 7
+      },
+      "I4": {
+        "L": 43,
+        "D": 55,
+        "S": 5
+      }
+    },
+    "I3_inner_phrase_cells": 9,
+    "distinct_conditions": {
+      "I1": [
+        "cardinal_two_sites",
+        "compound_restrictor",
+        "mine_agreement",
+        "secondary_use_rule"
+      ],
+      "I2": [
+        "cardinal_two_sites",
+        "compound_restrictor",
+        "conversion_rule",
+        "mine_agreement",
+        "secondary_use_rule"
+      ],
+      "I3": [
+        "cardinal_two_sites",
+        "complex_listing",
+        "compound_restrictor",
+        "conversion_rule",
+        "inner_phrase_restriction",
+        "secondary_use_rule"
+      ],
+      "I4": [
+        "cardinal_two_sites",
+        "compound_restrictor",
+        "inner_phrase_restriction",
+        "secondary_use_rule"
+      ]
+    }
+  },
+  "corpus_counts": {
+    "few_reading": {
+      "no_set": 82,
+      "supplied": 5,
+      "undecidable": 7
+    },
+    "few_supplied_ids": [
+      7,
+      35,
+      57,
+      69,
+      87
+    ],
+    "few_undecidable_ids": [
+      17,
+      38,
+      46,
+      67,
+      72,
+      79,
+      91
+    ],
+    "every_COCA_rows": 1095,
+    "every_COCA_rows_containing_every": 618,
+    "every_NOW_rows": {
+      "every_was": 96,
+      "every_has": 68
+    },
+    "each_singular": 389,
+    "each_plural": 78,
+    "each_plural_share": 0.1670235546038544,
+    "each_noun_were_raw_share": 0.32589285714285715,
+    "each_opportunity": 3090,
+    "every_opportunity": 23,
+    "so_List_total": 22938,
+    "be_a_lot_List_total": 2394
+  },
+  "matrix_articles": [
+    {
+      "variant": "public155",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "public155",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "public155",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "appendix154",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "appendix154",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "appendix154",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working232",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working232",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working232",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working_appendix231",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working_appendix231",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "working_appendix231",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "no_word_component_columns",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "no_word_component_columns",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "no_word_component_columns",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax50",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax50",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax50",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax_without_four_analysis_labels",
+      "word": "a",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax_without_four_analysis_labels",
+      "word": "every",
+      "reference": "1",
+      "cluster": "1"
+    },
+    {
+      "variant": "syntax_without_four_analysis_labels",
+      "word": "the",
+      "reference": "1",
+      "cluster": "1"
+    }
+  ],
+  "matrix_single_start_summary": {
+    "public155": {
+      "n": 100,
+      "min": 75,
+      "max": 132,
+      "equal129": 8
+    },
+    "appendix154": {
+      "n": 100,
+      "min": 75,
+      "max": 132,
+      "equal129": 6
+    },
+    "working232": {
+      "n": 100,
+      "min": 90,
+      "max": 132,
+      "equal129": 5
+    },
+    "working_appendix231": {
+      "n": 100,
+      "min": 90,
+      "max": 132,
+      "equal129": 5
+    },
+    "no_word_component_columns": {
+      "n": 100,
+      "min": 75,
+      "max": 131,
+      "equal129": 8
+    },
+    "syntax50": {
+      "n": 100,
+      "min": 69,
+      "max": 133,
+      "equal129": 0
+    },
+    "syntax_without_four_analysis_labels": {
+      "n": 100,
+      "min": 69,
+      "max": 117,
+      "equal129": 0
+    }
+  },
+  "CGELBank": {
+    "denominators": {
+      "trees": 220,
+      "lexical_nodes": 3390,
+      "D_tokens": 387
+    },
+    "concordance_rows": 387,
+    "fields": [
+      "file",
+      "sent_id",
+      "node",
+      "form",
+      "lemma",
+      "correction",
+      "local_function",
+      "local_category",
+      "parent_category",
+      "local_phrase",
+      "parent_phrase",
+      "nearest_np_function",
+      "nearest_np",
+      "chain",
+      "sentence"
+    ],
+    "function_counts": {
+      "Det": 297,
+      "Mod": 18,
+      "Det-Head": 65,
+      "Marker": 1,
+      "Flat": 4,
+      "Coordinate": 2
+    },
+    "function_mismatches": {},
+    "table_mismatches": [],
+    "selected_table_rows": [
+      {
+        "lemma": "the",
+        "tokens": "129",
+        "Det": "129",
+        "Det_Head": "0",
+        "other": "0"
+      },
+      {
+        "lemma": "a",
+        "tokens": "90",
+        "Det": "89",
+        "Det_Head": "0",
+        "other": "1"
+      },
+      {
+        "lemma": "every",
+        "tokens": "3",
+        "Det": "3",
+        "Det_Head": "0",
+        "other": "0"
+      },
+      {
+        "lemma": "this",
+        "tokens": "28",
+        "Det": "21",
+        "Det_Head": "7",
+        "other": "0"
+      },
+      {
+        "lemma": "that",
+        "tokens": "12",
+        "Det": "5",
+        "Det_Head": "7",
+        "other": "0"
+      },
+      {
+        "lemma": "some",
+        "tokens": "5",
+        "Det": "3",
+        "Det_Head": "2",
+        "other": "0"
+      },
+      {
+        "lemma": "all",
+        "tokens": "11",
+        "Det": "3",
+        "Det_Head": "5",
+        "other": "3"
+      },
+      {
+        "lemma": "both",
+        "tokens": "4",
+        "Det": "2",
+        "Det_Head": "1",
+        "other": "1"
+      },
+      {
+        "lemma": "many",
+        "tokens": "3",
+        "Det": "0",
+        "Det_Head": "1",
+        "other": "2"
+      },
+      {
+        "lemma": "a few",
+        "tokens": "2",
+        "Det": "1",
+        "Det_Head": "1",
+        "other": "0"
+      },
+      {
+        "lemma": "each",
+        "tokens": "2",
+        "Det": "0",
+        "Det_Head": "1",
+        "other": "1"
+      },
+      {
+        "lemma": "enough",
+        "tokens": "6",
+        "Det": "2",
+        "Det_Head": "1",
+        "other": "3"
+      }
+    ]
+  },
+  "bibliography": {
+    "determinatives-as-nouns.tex": {
+      "keys": [
+        "Huddleston2021",
+        "Payne2007",
+        "VanEynde_2007_BigMess",
+        "abney1987",
+        "bruening2020nominal",
+        "huddleston2002",
+        "hudson2004determiners",
+        "hudson2010wordgrammar",
+        "lenchukahmed2014determinatives",
+        "lyons1968",
+        "lyons1999",
+        "palmer1924",
+        "payne2010",
+        "payne2013anaphoric",
+        "postal1966",
+        "pullum2020theorizing",
+        "pullummiller2022nps",
+        "pullumwilson1977",
+        "reynolds2013determiners",
+        "reynolds2014determinatives",
+        "reynolds2021",
+        "reynolds2024why",
+        "reynolds2025proformgender",
+        "reynolds2026numerals",
+        "solt2015qadjectives",
+        "sommerstein1972",
+        "spinillo2000determiners",
+        "spinillo2004reconceptualising",
+        "vaneynde2003determiner"
+      ],
+      "missing": [],
+      "missing_fields": {}
+    },
+    "claim-register.tex": {
+      "keys": [],
+      "missing": [],
+      "missing_fields": {}
+    },
+    "coverage-audit.tex": {
+      "keys": [
+        "rissanen1978mdl"
+      ],
+      "missing": [],
+      "missing_fields": {}
+    },
+    "matrix-audit.tex": {
+      "keys": [
+        "huddleston2002",
+        "reynolds2021",
+        "reynolds2021matrixpublic"
+      ],
+      "missing": [],
+      "missing_fields": {}
+    },
+    "quantifier-controls.tex": {
+      "keys": [
+        "huddleston2002"
+      ],
+      "missing": [],
+      "missing_fields": {}
+    },
+    "corpus-documentation.tex": {
+      "keys": [
+        "reynolds2023unified"
+      ],
+      "missing": [],
+      "missing_fields": {}
+    }
+  },
+  "main_labels": {
+    "undefined": [],
+    "duplicate_labels": []
+  },
+  "matrix_lineage": {
+    "computed": {
+      "word_forms": 138,
+      "working_features": 232,
+      "public_features": 155,
+      "removed_features": 77,
+      "removed_all_zero": 1,
+      "removed_singletons": 76,
+      "shared_feature_cell_changes": 11,
+      "name_changes": {
+        "somewhat_424": "somewhat",
+        "such_435": "such"
+      },
+      "retained_singletons": [
+        "each_other"
+      ]
+    },
+    "mismatches": {},
+    "categories": {
+      "determinative": 73,
+      "pronoun": 65
+    },
+    "hashes": {
+      "matrix155-lingbuzz.csv": "a15af082a6bc5dbe24bcf57475c35cad1b00c2dc7e17af584db1841bf7abddf7",
+      "matrix232-recovered.csv": "03315e4a7ab1d4236bda445eede45a7eecc6926be0aad29955d37a23d2fa364d",
+      "wordlist-first-cut-source.csv": "037e12b17cf0f54c0f8e32b1d0db3a575c0b85ff6686c6615049af06d9dce050"
+    }
+  },
+  "matrix_summary_mismatches": [],
+  "matrix_disco_arithmetic": [
+    {
+      "variant": "public155",
+      "component_sum_error": 0.0,
+      "F_error": -2.6645352591003757e-14,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "appendix154",
+      "component_sum_error": -6.821210263296962e-13,
+      "F_error": 4.973799150320701e-14,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "working232",
+      "component_sum_error": -5.684341886080802e-14,
+      "F_error": 1.9539925233402755e-14,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "working_appendix231",
+      "component_sum_error": 1.1368683772161603e-13,
+      "F_error": -1.5987211554602254e-14,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "no_word_component_columns",
+      "component_sum_error": -5.684341886080802e-14,
+      "F_error": -4.618527782440651e-14,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "syntax50",
+      "component_sum_error": 6.252776074688882e-13,
+      "F_error": 7.105427357601002e-15,
+      "p": "0.001",
+      "permutations": "999"
+    },
+    {
+      "variant": "syntax_without_four_analysis_labels",
+      "component_sum_error": -6.252776074688882e-13,
+      "F_error": 3.552713678800501e-14,
+      "p": "0.001",
+      "permutations": "999"
+    }
+  ],
+  "bibliographic_resolution": {
+    "files": [
+      "references.bib",
+      "references-local.bib"
+    ],
+    "cited_count": 32,
+    "missing": [],
+    "duplicate_used_keys": [],
+    "missing_basic_fields": {},
+    "cited_keys": [
+      "Huddleston2021",
+      "Payne2007",
+      "VanEynde_2007_BigMess",
+      "abney1987",
+      "bruening2020nominal",
+      "huddleston2002",
+      "hudson2004determiners",
+      "hudson2010wordgrammar",
+      "lenchukahmed2014determinatives",
+      "lyons1968",
+      "lyons1999",
+      "palmer1924",
+      "payne2010",
+      "payne2013anaphoric",
+      "postal1966",
+      "pullum2020theorizing",
+      "pullummiller2022nps",
+      "pullumwilson1977",
+      "reynolds2013determiners",
+      "reynolds2014determinatives",
+      "reynolds2021",
+      "reynolds2021matrixpublic",
+      "reynolds2023unified",
+      "reynolds2024why",
+      "reynolds2025proformgender",
+      "reynolds2026numerals",
+      "rissanen1978mdl",
+      "solt2015qadjectives",
+      "sommerstein1972",
+      "spinillo2000determiners",
+      "spinillo2004reconceptualising",
+      "vaneynde2003determiner"
+    ]
+  },
+  "initial_census_integrity": {
+    "sections": 28,
+    "nonmatching_original_quotes": [],
+    "acceptance_cases": 10,
+    "acceptance_case_matches": {
+      "the lucky few": [
+        "mem-011",
+        "mem-012",
+        "mem-013",
+        "mem-014",
+        "ev-001",
+        "ev-002",
+        "ev-003",
+        "mod-012",
+        "mod-013",
+        "mod-027",
+        "mod-028",
+        "du-018",
+        "du-019",
+        "du-020",
+        "du-038",
+        "du-039",
+        "inh-013"
+      ],
+      "the very few": [
+        "pay-023",
+        "pay-024"
+      ],
+      "almost every experienced teacher": [
+        "pay-012",
+        "pay-013"
+      ],
+      "poor old me": [
+        "inh-012"
+      ],
+      "Kim's preferences": [
+        "ind-046",
+        "ind-047",
+        "ind-048",
+        "hr-015",
+        "hr-017"
+      ],
+      "the Smiths": [
+        "inf-002"
+      ],
+      "only you": [
+        "mem-019",
+        "mem-020",
+        "mem-021",
+        "mem-022",
+        "pay-002",
+        "pay-003",
+        "pay-004"
+      ],
+      "the idle rich": [
+        "mod-029",
+        "mod-030"
+      ],
+      "the few people": [
+        "ind-059",
+        "ind-060",
+        "ind-061",
+        "ind-062",
+        "mem-023",
+        "mem-024",
+        "mem-025",
+        "mem-026",
+        "du-038",
+        "du-039"
+      ],
+      "so many mistakes": [
+        "qc-003"
+      ]
+    }
+  },
+  "source_map": {
+    "claim_counts": [
+      "analysis/manuscript-census-2026-09-14/census-repartitioned.json",
+      "analysis/manuscript-census-2026-09-14/census-normalized.json",
+      "analysis/manuscript-census-2026-09-14/normalize-key-check.json",
+      "analysis/manuscript-census-2026-09-14/typesafe-full-2026-09-16/census-typesafe.json",
+      "analysis/generated/claim-counts.tex"
+    ],
+    "coverage": [
+      "analysis/coverage-audit.json",
+      "analysis/generated/coverage-summary.tex",
+      "analysis/generated/coverage-audit.tex"
+    ],
+    "matrix": [
+      "analysis/data/source-manifest.json",
+      "analysis/data/matrix155-lingbuzz.csv",
+      "analysis/data/matrix232-recovered.csv",
+      "analysis/data/wordlist-first-cut-source.csv",
+      "analysis/results/disco-sensitivity.csv",
+      "analysis/results/kgroups-single-starts.csv",
+      "analysis/results/kgroups-summary.csv",
+      "analysis/results/kgroups-assignments.csv",
+      "analysis/reproduce_matrix.R",
+      "analysis/generated/matrix-table.tex"
+    ],
+    "CGELBank": [
+      "analysis/results/corpus-concordance.csv",
+      "analysis/results/corpus-denominators.csv",
+      "analysis/results/corpus-manifest.json",
+      "analysis/generated/corpus-table.tex"
+    ],
+    "corpus_counts": [
+      "corpus/exclusion_tests/log.md",
+      "corpus/exclusion_tests/readings.md",
+      "corpus/exclusion_tests/every_v.screened.json",
+      "corpus/exclusion_tests/every_was.screened.json",
+      "corpus/exclusion_tests/every_has.screened.json",
+      "corpus/independent_argument/few_would.reading.md",
+      "corpus/independent_argument/2026-09-18-brett-supplied-be-much-there-is-little.md"
+    ]
+  },
+  "generator_checks_before_repairs": {
+    "claim_register": "passed",
+    "coverage_audit": "passed",
+    "exclusion_table": "passed"
+  },
+  "additional_corpus_counts": {
+    "so_numerous_nn": {
+      "file": "corpus/exclusion_tests/so_numerous_nn.screened.json",
+      "rows": 4
+    },
+    "too_numerous_nn": {
+      "file": "corpus/exclusion_tests/too_numerous_nn.screened.json",
+      "rows": 4
+    },
+    "very_every_some_this": {
+      "file": "corpus/exclusion_tests/very_every_some_this.screened.json",
+      "rows": 7
+    },
+    "at_j_someone_somebody_something": {
+      "file": "corpus/exclusion_tests/at_j_someone_somebody_something.screened.json",
+      "rows": 496
+    },
+    "at_someone_somebody_something": {
+      "file": "corpus/exclusion_tests/at_someone_somebody_something.screened.json",
+      "rows": 494
+    }
+  },
+  "hand_supplied_batches": {
+    "file": "corpus/independent_argument/2026-09-18-brett-supplied-be-much-there-is-little.md",
+    "COCA_described_be_much": 81,
+    "NOW_described_there_is_little": 23,
+    "became_become_too_much_to": 45,
+    "seem_forms_too_so_much_little_to": 46,
+    "seem_forms_a_lot_to": 15,
+    "be_forms_a_lot_to_List": 2394,
+    "verdict": "Totals match the source record; descriptive batch labels broadened and distinguished from exact queries and counts of qualifying uses."
+  },
+  "post_repair_verification": {
+    "exact_current_quotes": 649,
+    "baseline_stale_quotes_repaired": 12,
+    "new_quote_reanchored": 1,
+    "attestation_basis_corrections": 1,
+    "coverage_cells": 103,
+    "coverage_codes_changed": 0,
+    "proper_name_conversion_condition_removed_for": [
+      "I2",
+      "I3"
+    ],
+    "query_descriptions_corrected": true,
+    "new_analyses_or_model_calls": 0,
+    "PDF_build_or_inspection": false,
+    "unchanged_sections": {
+      "introduction": true,
+      "conclusion": true
+    },
+    "final_generator_checks": "claim_register, coverage_audit, exclusion_table: passed",
+    "git_diff_check": "passed",
+    "paragraph_review_decision": "Only the two supplement methods paragraphs over 200 words were split, per Brett; other length suggestions were not applied.",
+    "final_hashes": {
+      "determinatives-as-nouns.tex": "a319a186b9ecbad647a66b0ba44299f14562020d7494ce193ee15d024e26e4a0",
+      "claim-register.tex": "747b3836c2da47ac75bacf9cf362d355311c565a957acd5065f9124859176a71",
+      "coverage-audit.tex": "b616b9ffdbf457e9daac2896382c910c6355bc8ceb7436998e61a24be7ba275d",
+      "quantifier-controls.tex": "573466664308304df9a0f9dcb9d561618d841a046cacd0a13d10e64686e5426f"
+    }
+  },
+  "matrix_output_claims": {
+    "DISCO": {
+      "source": "analysis/results/disco-sensitivity.csv",
+      "claims": [
+        {
+          "variant": "public155",
+          "features": "155",
+          "between": "30.582860830185",
+          "within": "356.416065635533",
+          "total": "386.998926465718",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "11.6697014358449",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "appendix154",
+          "features": "154",
+          "between": "30.6154079081293",
+          "within": "355.69995016674",
+          "total": "386.31535807487",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "11.7056397493274",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "working232",
+          "features": "232",
+          "between": "30.070568216015",
+          "within": "364.498309774688",
+          "total": "394.568877990703",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "11.2197976443457",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "working_appendix231",
+          "features": "231",
+          "between": "30.0995514612781",
+          "within": "363.800592172274",
+          "total": "393.900143633552",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "11.2521504549816",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "no_word_component_columns",
+          "features": "105",
+          "between": "31.484663060217",
+          "within": "338.37712516485",
+          "total": "369.861788225067",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "12.6542660769503",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "syntax50",
+          "features": "50",
+          "between": "16.5664561467266",
+          "within": "232.710888136159",
+          "total": "249.277344282885",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "9.681704427326",
+          "p": "0.001",
+          "permutations": "999"
+        },
+        {
+          "variant": "syntax_without_four_analysis_labels",
+          "features": "46",
+          "between": "11.8749399566824",
+          "within": "224.546209636694",
+          "total": "236.421149593377",
+          "df_between": "1",
+          "df_within": "136",
+          "F": "7.19224714022911",
+          "p": "0.001",
+          "permutations": "999"
+        }
+      ],
+      "verdict": "Exact match to saved output; arithmetic and displayed rounding checked."
+    },
+    "clustering": {
+      "source": "analysis/results/kgroups-summary.csv",
+      "claims": [
+        {
+          "variant": "public155",
+          "features": "155",
+          "single_start_min": "75",
+          "single_start_median": "128",
+          "single_start_max": "132",
+          "single_start_equal_129": "8",
+          "best_of_100_matched": "125",
+          "total": "138",
+          "objective": "354.462265327234",
+          "iterations": "3"
+        },
+        {
+          "variant": "appendix154",
+          "features": "154",
+          "single_start_min": "75",
+          "single_start_median": "128",
+          "single_start_max": "132",
+          "single_start_equal_129": "6",
+          "best_of_100_matched": "125",
+          "total": "138",
+          "objective": "353.759748007252",
+          "iterations": "3"
+        },
+        {
+          "variant": "working232",
+          "features": "232",
+          "single_start_min": "90",
+          "single_start_median": "127.5",
+          "single_start_max": "132",
+          "single_start_equal_129": "5",
+          "best_of_100_matched": "125",
+          "total": "138",
+          "objective": "362.61040136463",
+          "iterations": "3"
+        },
+        {
+          "variant": "working_appendix231",
+          "features": "231",
+          "single_start_min": "90",
+          "single_start_median": "127",
+          "single_start_max": "132",
+          "single_start_equal_129": "5",
+          "best_of_100_matched": "125",
+          "total": "138",
+          "objective": "361.925607784275",
+          "iterations": "3"
+        },
+        {
+          "variant": "no_word_component_columns",
+          "features": "105",
+          "single_start_min": "75",
+          "single_start_median": "128",
+          "single_start_max": "131",
+          "single_start_equal_129": "8",
+          "best_of_100_matched": "131",
+          "total": "138",
+          "objective": "336.433310928443",
+          "iterations": "9"
+        },
+        {
+          "variant": "syntax50",
+          "features": "50",
+          "single_start_min": "69",
+          "single_start_median": "105",
+          "single_start_max": "133",
+          "single_start_equal_129": "0",
+          "best_of_100_matched": "120",
+          "total": "138",
+          "objective": "229.69192226605",
+          "iterations": "6"
+        },
+        {
+          "variant": "syntax_without_four_analysis_labels",
+          "features": "46",
+          "single_start_min": "69",
+          "single_start_median": "96",
+          "single_start_max": "117",
+          "single_start_equal_129": "0",
+          "best_of_100_matched": "97",
+          "total": "138",
+          "objective": "218.7677428799",
+          "iterations": "3"
+        }
+      ],
+      "verdict": "Exact match to saved output; arithmetic and displayed rounding checked."
+    }
+  }
+}

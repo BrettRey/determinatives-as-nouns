@@ -35,3 +35,8 @@ Adopt: degree *such* and exclamative *what* as restricted determinatives, *such 
 ## Addendum (later the same day): the complex forms dissolve
 
 Brett asked whether complex determinatives hold up under the D-noun analysis at all. They don't, and the recommendation above is superseded on that point. *CGEL*'s semantic hinge is positive vs negative paucal (p. 391), neutralised under any definite determiner (pp. 393–394), so the polarity belongs to the Det slot; *a good/fair/select few* and *the/those few* are the replacements and expansions *CGEL* itself uses against a complex *a number of* (pp. 351–352); and *such* is already a predeterminer in *CGEL*'s inventory (p. 331). Result: *a few* and *a little* are NPs in Det with *a* as their own Det (as genitive Dets already are), *many a*, *such a*, and *what a* are determinatives in predeterminer function on an *a*-NP, and degree *such* and exclamative *what* are plain determinatives with Det and predeterminer functions. Full record in DECISIONS.md (2026-09-17, "No complex determinatives").
+
+
+## Correction, 19 September 2026
+
+The external-determination analysis in the 17 September addendum misrepresented Brett's intended structure and is superseded. In *a few mistakes*, *few* heads the phrase in Det and *a* is a peripheral modifier of the outer NP; in independent *a few*, *a* modifies the NP headed by *few*. The parallel analysis applies to *a little* and *a great many*. The ordinary singular-count restriction on determiner *a* does not apply to this restricted modifier use. The predeterminer analyses of *many a*, *such a*, and *what a* remain. See the reviewed correction in `notes/2026-09-19-peripheral-a-correction.md`.

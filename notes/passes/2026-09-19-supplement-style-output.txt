@@ -1,0 +1,69 @@
+
+Found 6 potential style violation(s):
+
+
+=== claim-register.tex ===
+  Line 24: Uncontracted pronoun + auxiliary 'It is' - prefer 'it's'
+    This supplement records participation claims identified in the census of 14 S...
+
+=== coverage-audit.tex ===
+  Line 25: Uncontracted pronoun + auxiliary 'they are' - prefer 'they're'
+    The classifications are the author's, made by hand from the article's stated ...
+  Line 33: Uncontracted pronoun + auxiliary 'that is' - prefer 'that's'
+    The classes count rules, not primitives. The primitives differ too, and Table...
+  Line 54: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    In I3, a determinative heads a DP, which fills Head in the further nominal st...
+
+=== quantifier-controls.tex ===
+  Line 132: [warning] Noticeable 'The X is Y' paragraph-opener cadence (3; lines 93, 124, 132) - vary if not defining, contrasting, or pivoting
+    The article states several exclusions as starred examples. Each was ch; The C...
+  Line 93: Uncontracted negative auxiliary 'is not' - prefer 'isn't' unless contrast/emphasis requires the full form
+    The article states several exclusions as starred examples. Each was checked a...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- quantifier-controls.tex ---
+    Line 84: AI pattern: possible false range; verify the endpoints form a real scale
+      \ex\label{ex:numerous-exist-part} \mention{There are numerous of them.}\footnote{Sunday Cyriacus ...
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- claim-register.tex ---
+    20 sentences | median 30 | mean 30.4 | middle half 20-36 (16 words)
+         1-9  #####                       1    5%
+       10-14  ##########                  2   10%
+       15-19  ##########                  2   10%
+       20-24  ##############              3   15%
+       25-29  #####                       1    5%
+       30-34  ###################         4   20%
+       35-39  ##########                  2   10%
+         40+  ########################    5   25%
+    [note] 20 sentences is too small a sample to judge rhythm; numbers only
+
+  --- coverage-audit.tex ---
+    46 sentences | median 18 | mean 20.4 | middle half 11-27 (16 words)
+         1-9  ######################      9   20%
+       10-14  #################           7   15%
+       15-19  ########################   10   22%
+       20-24  ##############              6   13%
+       25-29  ############                5   11%
+       30-34  ##############              6   13%
+       35-39  ##                          1    2%
+         40+  #####                       2    4%
+
+  --- quantifier-controls.tex ---
+    116 sentences | median 14 | mean 15.1 | middle half 9-20 (11 words)
+         1-9  ########################   32   28%
+       10-14  #####################      28   24%
+       15-19  ####################       26   22%
+       20-24  ###########                15   13%
+       25-29  #######                     9    8%
+       30-34  ##                          3    3%
+       35-39  #                           1    1%
+         40+  ##                          2    2%
+

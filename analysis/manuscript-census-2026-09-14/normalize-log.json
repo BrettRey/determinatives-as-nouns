@@ -2781,7 +2781,9 @@
   "mem-002",
   "am-021",
   "mod-020",
-  "con-006"
+  "con-006",
+  "sat-005",
+  "sat-006"
  ],
  "residue_rule_assignments": 0,
  "summary": {
@@ -2799,7 +2801,7 @@
    ],
    [
     "dependent_det",
-    65
+    62
    ],
    [
     "internal_mod_admission",
@@ -2850,6 +2852,10 @@
     10
    ],
    [
+    "other",
+    9
+   ],
+   [
     "grade_inflection",
     8
    ],
@@ -2859,10 +2865,6 @@
    ],
    [
     "predeterminer_mod",
-    6
-   ],
-   [
-    "other",
     6
    ],
    [
@@ -2879,6 +2881,10 @@
    ]
   ],
   "other_labels": [
+   [
+    "peripheral NP modifier use",
+    3
+   ],
    [
     "interrogative/relative pronoun forms",
     1
@@ -2957,7 +2963,7 @@
    ],
    [
     "constructed_illustration",
-    70
+    69
    ],
    [
     "other_source_described",
@@ -2973,14 +2979,14 @@
    ],
    [
     "retained_attestation",
-    8
+    7
    ],
    [
     "searched_not_found",
     1
    ]
   ],
-  "label_uncited_at_locus": 15,
+  "label_uncited_at_locus": 16,
   "key_check": {
    "construction": {
     "agree": 71,
@@ -3004,5 +3010,37 @@
   "residue_rule_assignments": 0,
   "refined_from_taxonomic": 180,
   "taxonomic_remaining": 135
- }
+ },
+ "amendment_updates": [
+  {
+   "date": "2026-09-19",
+   "claim_ids": [
+    "ap-055",
+    "am-017",
+    "am-018",
+    "du-033",
+    "du-034",
+    "du-035",
+    "du-036",
+    "du-038",
+    "du-039"
+   ],
+   "basis": "Brett's correction to peripheral a; nine affected records updated without rerunning the census."
+  },
+  {
+   "date": "2026-09-19",
+   "claim_ids": [
+    "sat-005",
+    "sat-006"
+   ],
+   "basis": "2026-09-19: Brett approved cutting the Honda example, its lead-in, and its provenance footnote as redundant. The attestation remains in the corpus documentation, but is no longer a claim in the article."
+  }
+ ],
+ "maintenance": [
+  {
+   "date": "2026-09-19",
+   "action": "Pre-publication repairs: 13 quote anchors aligned with current source (12 already stale at review baseline), one retired section pointer updated, and ind-078 reconciled as retained_attestation after its source footnote was restored. Construction labels, lexeme links, and live/retained claim counts unchanged.",
+   "record": "../../notes/passes/2026-09-19-prepublication-reanchors.json"
+  }
+ ]
 }

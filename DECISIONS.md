@@ -647,3 +647,19 @@ Four repairs: §1's "What's new here" narrowed to "Relative to those accounts, w
 ## 2026-09-18 — Charitable-engagement pass applied
 
 The positions criticized since the 9 September pass (separate D under the three-cost argument and its cross-cutting-feature defence, *CGEL* on complex determinatives and *such*/*what*, Lenchuk and Ahmed 2014, Solt 2015, Van Eynde 2003) were re-read against their sources under Dennett's four rules. Three wordings changed: *CGEL* "conceding" to "recording", "must treat the compound case as conversion" to "treats" (which p. 423 does), and a sentence granting Lenchuk and Ahmed that the 2013 tests alone settle neither of their points. Artifact: `notes/passes/2026-09-18-charitable-engagement.md`.
+
+
+## 2026-09-19 — Correcting *a few*: peripheral *a*, determining *few*
+
+Brett corrected the 17 September analysis: “I see few as the Determiner with a as a peripheral modifier”, then instructed “fix it”. The earlier external-determination analysis was a misunderstanding. The companion correction note was reviewed in Roughdraft. In *a few mistakes*, *few* heads the NP in Det and *a* is peripheral to the outer NP headed by *mistakes*. Independent *a few* has peripheral *a* on the NP headed by *few*. The parallel cases *a little* and *a great many* receive the same analysis.
+
+The singular-count condition belongs to *a* in Det function. Peripheral *a* has a restricted modifier permission, including the head-specific modifier conditions in *a great many* and the ordering of peripheral *quite* before *a*. Plural agreement of independent *a few* follows from *few*, without a new transparency claim. *The few mistakes* retains Det *the* and internal modifier *few*; *many a*, *such a*, and *what a* retain their predeterminer analyses.
+
+The manuscript's modification discussion, article discussion, fragment, economy discussion, and conclusion are corrected, along with the corresponding coverage-audit notes and current census quotations. Original census and model outputs remain provenance. This supersedes the external-determination part of the 17 September decision, including its inference from genitive determiners and its claim that the combinations of *a few* follow from ordinary indefinite-article NP structure. The broader census refresh and declaration-based audit redesign remain separate work.
+
+
+## 2026-09-19 — Register scope and the separate-D feature alternative
+
+The register description now identifies the September 14 census plus amendments and distinguishes quotation checks from checks for new or omitted claims. The census itself wasn't refreshed.
+
+The economy comparison now admits a nominal feature assigned once to Noun and once to D, with inheritance. That formulation can share the head condition, head-genitive definition, and secondary-use schema; category change for D inputs remains explicit if CGEL's output categories are retained. The audit's existing four implementations and codes are unchanged. Its new compact comparison separates the feature alternative from the stated I2. This supersedes the 18 September claim of a strict cost advantage against every separate-D formulation: neither per-lexeme feature assignments nor wholly separate rules are necessary, and no common encoding has established that stronger ranking. The nominal profile remains the argument for giving the shared domain lexical-category status. Abstract, relevant body passages, conclusion, and supplement are aligned with that distinction.

@@ -22,11 +22,7 @@
 
 The article's §5 compares four implementations of the same facts: the D-noun categorization with ordinary Head (I1), a separate determinative category with ordinary Head (I2), a separate category with \textit{CGEL}'s fusion of functions (I3), and the D-noun categorization with fusion (I4). It states which conditions the accounts share and which are specific to one of them. This audit records how each implementation covers the construction families and lexeme groups in the fragment and selected wider comparisons: by a general rule of that grammar (D), by a general rule that applies only because the grammar admits a determinative as the lexical head of Nom and NP (Dn), by a rule the grammar has to state once for nouns and again for determinatives, or once for NP and again for DP (D2), by a fact stored on the lexeme (L), by a condition stated for that construction alone (S), or not at all (U).
 
-The classifications are the author's, made by hand from the article's stated conditions and the sections cited beside each cell; they are the analysis, not data. The precedence rule is this: a cell records the mechanism by which the implementation covers the licensed use. Shared lexical permissions, target selection, forms, and inflection are held fixed across the four implementations. A lexical fact is coded L where it's a permission or exclusion alone; where a licensed use is covered by a rule, the rule's class is recorded even though the permission is presupposed.
-
-S and D2 codes count cells; the distinct conditions and duplicated rules behind them are listed separately (Table~\ref{tab:rules}), since a condition stated once may apply in several cells. The comparison concerns the rules and facts each account has to state for the audited constructions. The minimum description length principle motivates assessing complete representations \citep{rissanen1978mdl}, but this audit doesn't define a common encoding or estimate an MDL score.
-
-Beside each cell the audit prints the number of participation claims the claim register records for that family and group, as licensed/conditional/excluded, so that a cell's classification can be checked against what the article asserts there. Cells with no claim and no analysis in the article are left out; the article's analysis, not the register, decides which cells exist.
+The classifications are the author's, made by hand from the article's stated conditions and the sections cited beside each cell; they are the analysis, not data. The precedence rule is this: a cell records the mechanism by which the implementation covers the licensed use. Shared lexical permissions, target selection, forms, and inflection are held fixed across the four implementations. A lexical fact is coded L where it's a permission or exclusion alone; where a licensed use is covered by a rule, the rule's class is recorded even though the permission is presupposed. S and D2 codes count cells; the distinct conditions and duplicated rules behind them are listed separately (Table~\ref{tab:rules}), since a condition stated once may apply in several cells. The comparison concerns the rules and facts each account has to state for the audited constructions. The minimum description length principle motivates assessing complete representations \citep{rissanen1978mdl}, but this audit doesn't define a common encoding or estimate an MDL score. Beside each cell the audit prints the number of participation claims the claim register records for that family and group, as licensed/conditional/excluded, so that a cell's classification can be checked against what the article asserts there. Cells with no claim and no analysis in the article are left out; the article's analysis, not the register, decides which cells exist.
 
 \section{The four implementations and their primitives}
 
@@ -39,7 +35,7 @@ The classes count rules, not primitives. The primitives differ too, and Table~\r
  & I1 & I2 & I3 & I4 \\
 \midrule
 Lexical categories & Noun, four subcategories & Noun (three) and D & Noun (three) and D & Noun, four subcategories \\
-Category condition on words directly heading Nom & N & N or D & N & N \\
+Category condition on lexical Heads in Nom & N & N or D & N or D & N \\
 Phrase types in Det & NP, PP & NP, PP & DP, NP, PP & NP, PP \\
 Head configurations for independent determinatives & ordinary Head & ordinary Head & Det--Head and Mod--Head fusion & Det--Head and Mod--Head fusion \\
 Adjectival Mod--Head fusion (\mention{the rich}) & yes & yes & yes & yes \\
@@ -50,8 +46,6 @@ Domain of the head-genitive definition & Noun heads & Noun and D heads & Noun an
 \bottomrule
 \end{tabular}
 \end{table}
-
-In I3, a determinative heads a DP, which fills Head in the further nominal structure; D doesn't directly head Nom. The category condition on words directly heading Nom is therefore N, as in I1 and I4.
 
 \section{Results}
 

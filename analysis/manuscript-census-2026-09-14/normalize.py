@@ -361,7 +361,7 @@ def main():
         if c["id"] in amend:
             a = amend[c["id"]]
             c["quote_previous"], c["quote"], c["quote_amended"] = c["quote"], a["quote"], a["reason"]
-            for k in ("expression", "construction", "status"):   # a restated claim, not just a re-quoted one
+            for k in ("expression", "construction", "status", "section_label"):   # a restated claim, not just a re-quoted one
                 if k in a: c[k + "_previous"], c[k] = c[k], a[k]
     withdrawn = [c["id"] for c in claims if amend.get(c["id"], {}).get("withdrawn")]
     claims[:] = [c for c in claims if c["id"] not in withdrawn]   # the sentence was removed; the claim has no bearer
@@ -391,6 +391,13 @@ def main():
     assign_constructions(claims, catalogue, log)
     refine_taxonomic(claims, catalogue, log)
     map_other(claims, log)
+    # Explicit corrections to a claim's construction label survive regeneration.
+    for c in claims:
+        a = amend.get(c["id"], {})
+        if "construction_id" in a:
+            c["construction_id_previous"] = c["construction_id"]
+            for k in ("construction_id", "construction_other", "construction_provenance"):
+                c[k] = a[k]
     for c in claims: basis(text, c)
 
     kc = key_check(claims, enriched)

@@ -60,6 +60,7 @@ def main():
         ("census_lexeme_groundings", [(l["id"], {"source_id": "M", "quote": l["subcategory_grounding"]}) for l in norm["lexemes"]
                                       if l.get("subcategory_grounding") and "subcategory_provenance" in l]),
         ("participation_claims", [(c["id"], e) for c in records["participation_claims"]
+                                  if not amend.get(c["id"], {}).get("withdrawn")
                                   for e in c["evidence"]]),
         ("scope_checks", [(s["id"], e) for s in records["scope_checks"]
                           for e in s.get("evidence", [])]),

@@ -1347,8 +1347,8 @@
     "secondary|proper": {
       "I1": "secondary_use_rule",
       "I4": "secondary_use_rule",
-      "I2": "secondary_use_rule",
-      "I3": "secondary_use_rule"
+      "I2": "secondary_use_rule+conversion_rule",
+      "I3": "secondary_use_rule+conversion_rule"
     }
   },
   "cell_duplications": {

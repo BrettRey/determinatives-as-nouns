@@ -3,7 +3,7 @@
  "checks": [
   {
    "claim": "Independent \\mention{every} (\\ungram{\\mention{I'll take every}})",
-   "section": "sec:article-membership",
+   "section": "sec:independent",
    "corpus": "COCA",
    "queries": [
     "each/every [v*]",
@@ -22,8 +22,8 @@
     "each of the [nn2*] was/were"
    ],
    "hits": "389 singular, 78 plural; 151 \\mention{was}, 73 \\mention{were}",
-   "result": "plural verb forms in about a sixth of the specified query hits after \\mention{each of them}; plural agreement attested in edited prose as well as speech",
-   "handling": "restated with the query proportion (article §2.1)"
+   "result": "plural agreement in a sixth of tokens after \\mention{each of them}, in edited prose as well as speech",
+   "handling": "restated with the rate (article §2.1)"
   },
   {
    "claim": "Attributive \\ungram{\\mention{so numerous mistakes}}",
@@ -45,9 +45,9 @@
     "very every/some/this",
     "so every/some/this"
    ],
-   "hits": "7 \\mention{very} lines read; 22,938 (List) for \\mention{so}; contexts not retained for review",
-   "result": "no qualifying line among the \\mention{very} contexts; two jocular cases (\\mention{very this}, \\mention{very this year})",
-   "handling": "holds for \\mention{very}"
+   "hits": "7 lines; 22,938 (List) for \\mention{so}, all discourse \\mention{so}",
+   "result": "no qualifying line; two jocular cases (\\mention{very this}, \\mention{very this year})",
+   "handling": "holds"
   },
   {
    "claim": "Reversed order (\\ungram{\\mention{very a few}}, \\ungram{\\mention{a quite few}})",
@@ -63,7 +63,7 @@
   },
   {
    "claim": "Partitive \\ungram{\\mention{no of the students}}",
-   "section": "sec:form-selection",
+   "section": "sec:modification",
    "corpus": "COCA",
    "queries": [
     "no of the"
@@ -85,5 +85,5 @@
    "handling": "restated as the set-denoting use (article §6.1)"
   }
  ],
- "_order": "rows retain the original audit sequence; section pointers follow the current article"
+ "_order": "rows follow the article's sections"
 }

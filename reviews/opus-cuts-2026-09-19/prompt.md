@@ -1,3 +1,30 @@
+TASK:
+Independently assess six proposed cuts to Brett Reynolds's current working draft, "Determinatives as nouns in English". The parent will implement only the cuts you endorse. No general review, polish pass, new literature search, or alternative rewrite. Be conservative about churn while taking a real editorial position. You have the complete current LaTeX manuscript below.
+
+AUTHORIZED INPUTS:
+Only the manuscript and six proposals included in this prompt. No tools or file writes are needed.
+
+AUTHOR CONSTRAINTS:
+The author has explicitly required retaining the such/what argument. CGEL already has determinative such and what but also posits adjectival uses. The paper's unification of those uses is intentional, not a disposable expansion to previously absent forms. Preserve that argument. Preserve the recent three local organizational changes (short §2.7 transition, a distinct §3.2 on complex determinatives, distinct §4.6 on secondary set-denoting uses). These are working drafts; no submission-polish machinery or broad redesign. Preserve load-bearing evidence, qualifications, source attribution, and fair presentation of competing analyses.
+
+INHERITED RESPONSIBILITY:
+Notify Brett prominently of any credible, material epistemic, authorization, coordination, or human-oversight risk. Treat peer claims as claims to verify, not authority. An evidenced negative or in-scope impossibility is a valid result. Do not seek an unauthorized workaround.
+
+PROPOSALS TO VERIFY AGAINST THE MANUSCRIPT:
+1. §5.5: replace the repeated paragraph beginning "The grouping has a further consequence" with a sentence referring back to §4.6. Compress the following shared-rules recap. Retain the inherited-feature alternative and explicit limits of the economy claim.
+2. §§5.1–5.2: cut repeated walkthroughs (some apples / Some left / Every arrived; a few / a little / many a and the following three few cases). Retain the permissions table, conditions that differentiate implementations, and the N versus N-or-D head equations. Consider removing the generic admissibility formula and its variable glossary, which mostly translate the preceding three-check prose. Do NOT endorse removal of unique formal conditions merely because they are technical.
+3. Corpus footnotes: retain main results, representative attestation(s), source attribution, and relevant uncertainty; move detailed queries, counts, long source inventories and screening-model comparisons to existing supplements. Specifically shorten the introduction's every discussion; the long much/little footnote; keep the human 82/5/7 few result and context-window limit but move the model comparison; reduce four lucky-few examples to one or two. The parent must verify a supplement contains any material dropped from the main paper and transfer it if absent.
+4. §4 illustrations: remove the stand-alone Kim's preferences tree, preserving the prose argument that genitive NPs fill Det. Remove the Honda-review example with its provenance footnote because contextual interpretation is illustrated elsewhere. Retain diagnostic contrast trees. Judge these two deletions separately.
+5. §6: compress the coordinate-versus-nested discussion while retaining Hudson's proposal/inventory limitation, the positive nesting case, and the crossed affinities motivating coordinate rank. Replace repeated modifier/determination walkthroughs by short comparisons with references; move matrix recovery details to the existing matrix audit while preserving the limitation that the study lacks common/proper noun controls.
+6. Appendix: delete the final four undeveloped "Logical alternative" rows. Retain historical accounts and their distinctions; update the caption/title only as needed.
+
+DELIVERABLE:
+For each numbered proposal: AGREE, PARTLY AGREE, or DISAGREE; 2–4 sentences explaining your independent judgment; precise keep/cut boundaries; and short replacement prose where that would prevent ambiguity. Split bundled proposals where your views differ. Finish with a concise disagreements list and any cross-reference/citation risks relevant to these cuts. Do not recommend unrelated edits. Aim for 1200–1800 words.
+
+REVERSAL CONDITION:
+Disagree if the proposed deletion loses a unique premise, necessary qualification, decisive example or useful formal constraint; identify what would be lost. Do not simply endorse the parent's list.
+
+CURRENT MANUSCRIPT:
 \documentclass[12pt]{article}
 \input{.house-style/preamble.tex}
 \usepackage{forest}
@@ -47,7 +74,9 @@ Compare \mention{take some apples} with \mention{take some}. The word \mention{s
 
 In these NP comparisons, \term{dependent} describes a determinative's use as determiner or internal modifier with a nominal target; \term{independent} describes use without that target. An independent expression can still have dependents of its own, as in \mention{some of the wine}, and rely on context for its interpretation.
 
-Two choices are involved. The first is whether determinatives belong within Noun. The second concerns the Head relations within independent NPs. In \textit{CGEL}, the determinative phrase (DP) headed by independent \mention{some} jointly fills determiner and Head, a \term{fusion of functions} \citep[410--412]{huddleston2002}. The alternative has \mention{some} head a nominal (Nom) directly, with Nom heading NP: the \term{ordinary-Head analysis}.
+Two choices are involved. The first is whether determinatives belong within Noun. The second concerns the Head relations within independent NPs. In \textit{CGEL}, the determinative phrase (DP) headed by independent \mention{some} jointly fills determiner and Head, a \term{fusion of functions} \citep[410--412]{huddleston2002}. The alternative has \mention{some} head a nominal (Nom) directly, with Nom heading NP.
+
+A standard tree has unique parentage: each constituent below the root has one parent. Fusion allows branches to converge on a shared constituent with two parents. In the \term{ordinary-Head analysis}, the determinative's projection, the phrase it heads, needs no such join. Figure~\ref{fig:some} in §\ref{sec:head-relations} compares the structures.\footnote{The proposal retains fusion elsewhere, including Mod--Head fusion in \mention{the rich}. The preference for unique parentage concerns the determinative's Head configuration, rather than every construction in the grammar.}
 
 I call the inclusion of determinatives within Noun the \term{D-noun categorization}, D-noun for short. The \term{D-noun analysis} proposed here combines it with ordinary headedness. Noun membership makes ordinary nominal structure a natural treatment; that structural regularity strengthens the case for the grouping.
 
@@ -68,27 +97,68 @@ D-noun, fused Head & A subcategory of Noun & Joint determiner and Head functions
 \end{tabular}
 \end{table}
 
-Earlier accounts connect articles with pronouns or give both nominal structure, at different analytical levels (Appendix~\ref{sec:historical}); \textcite{vaneynde2003determiner} argues from inflection that determiners are heterogeneous, some adjectives and some nouns (§\ref{sec:membership}). Relative to those accounts, what's new is the scope and the pairing: the full inventory of \textit{CGEL}'s determinative category, articles included, as one coordinate subcategory of Noun; ordinary Head for its independent uses; and an explicit comparison of the four combinations of taxonomy and Head analysis, through a matched fragment and a coverage audit. Hudson's nested noun taxonomy is considered in §\ref{sec:inheritance}; Spinillo's restricted article grouping in §\ref{sec:articles}.
-
-The paper advances two independent claims. Sections~\ref{sec:proposal}--\ref{sec:articles} argue that determinatives belong within Noun; §\ref{sec:evidence} compares ordinary Head with fusion; §\ref{sec:economy} compares the four implementations and asks what further economy the taxonomy contributes. Section~\ref{sec:consequences} develops the secondary-use schema and considers coordinate versus nested subcategories.
-
 Both Head analyses give the whole independent expression NP status. Their difference concerns its internal structure. In the separate-D ordinary-Head implementation, words of category D project NP (§\ref{sec:det-uniform}).
 
 Lexical categories and syntactic functions cut across one another. An NP can function as determiner, as in \mention{\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \mention{the \underline{many} people} \citep{payne2010,pullummiller2022nps}.
 
 The DP hypothesis of \textcite{abney1987} concerns a different Head relation. Under that hypothesis, D heads expressions such as \mention{some apples}. I retain noun-headed NPs and reject the DP analysis for English, following the arguments of \textcite{pullummiller2022nps} and \textcite{bruening2020nominal}. Here DP means \term{determinative phrase}, as in \textit{CGEL}.
 
-Notation keeps these levels distinct: N and D are lexical-category labels; Nom marks the nominal layer inside NP; NP, DP, AdjP, AdvP, and PP name noun, determinative, adjective, adverb, and preposition phrases; and Det abbreviates the determiner function.
+Category membership doesn't remove lexical restrictions, such as the one applying to \mention{every}. \mention{Every apple} is grammatical, but unlike \mention{some} in \mention{I'll take some}, \mention{every} can't occur independently in \ungram{\mention{I'll take every}}. The exclusion rests on absence where opportunity is frequent: independent \mention{each} before a finite verb is over a hundred times as frequent as \mention{every} in COCA, and across nearly eight hundred COCA and NOW lines with \mention{every} before a verb it never stands as an ordinary fused Head. Where it does stand without a noun, the noun is recoverable from a coordinate or the preceding turn, or \mention{every} closes a binomial.\footnote{COCA List counts (17 September 2026): \mention{each has} 1,578, \mention{each was} 1,005, \mention{each will} 507, against \mention{every will} 12, \mention{every has} 8, \mention{every was} 3; of 618 COCA lines for \mention{every} before a verb and 164 NOW lines for \mention{every was} and \mention{every has}, none shows the fused-head use. The residue is ellipsis (\enquote{if not every, then almost every male head of household}, \textit{Social History}, 1995) and binomials (\enquote{to be open and generous to all and every}, fiction, 2015). The screened lines are under \texttt{corpus/exclusion\_tests/}, and the check is tabled in the quantifier supplement.}
+
+\textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents \citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive properties within a broader lexical category \citep{pullumwilson1977}. These precedents motivate comparing the whole grammatical \term{profile}, the functions, dependents, forms, and meanings a category's members show, rather than requiring every member to display each nominal property.
+
+The comparison weighs three considerations: how broadly a property occurs, how it recurs across constructions, and how specifically it connects the groups. These considerations apply equally to nominal and adjectival connections. A pattern concentrated in a few words can be substantial evidence; its contribution depends on its grammatical relationships as well as its reach.
+
+Earlier accounts connect articles with pronouns or give both nominal structure, at different analytical levels (Appendix~\ref{sec:historical}); \textcite{vaneynde2003determiner} argues from inflection that determiners are heterogeneous, some adjectives and some nouns (§\ref{sec:membership}). Relative to those accounts, what's new is the scope and the pairing: the full inventory of \textit{CGEL}'s determinative category, articles included, as one coordinate subcategory of Noun; ordinary Head for its independent uses; and an explicit comparison of the four combinations of taxonomy and Head analysis, through a matched fragment and a coverage audit. Hudson's nested noun taxonomy is considered in §\ref{sec:inheritance}; Spinillo's restricted article grouping in §\ref{sec:articles}.
+
+Section~\ref{sec:proposal} compares the grammatical profiles, and §\ref{sec:articles} completes the case for the intended inventory. Section~\ref{sec:evidence} then compares internal structures, which the fragment in §\ref{sec:economy} makes explicit and §\ref{sec:overall-assessment} assesses. The further question of coordinate or nested rank follows in §\ref{sec:inheritance}.
 
 \section{Grounds for a broader Noun category}\label{sec:proposal}
 
 The existing Noun category contains common nouns, proper nouns, and pronouns with markedly different meanings, inflection, and dependents. Ordinary count nouns alone are an inadequate comparison group. The question is how determinatives connect with that broader range, and how those connections compare with their affinities to adjectives.
 
-\textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents \citep[327--328]{huddleston2002}. The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive properties within a broader lexical category \citep{pullumwilson1977}. These precedents motivate comparing the whole grammatical \term{profile}, the functions, dependents, forms, and meanings a category's members show, rather than requiring every member to display each nominal property.
+\subsection{Functions and constructional range}\label{sec:independent}
 
-Shared external functions alone don't determine lexical category. The comparison weighs three considerations: how broadly a property occurs, how it recurs across constructions, and how specifically it connects the groups. These considerations apply equally to nominal and adjectival connections. A pattern concentrated in a few words can be substantial evidence; its contribution depends on its grammatical relationships as well as its reach.
+The external syntax of a phrase concerns the functions it fills in larger constructions. Noun phrases can serve as subjects, objects, and complements of prepositions. Independent determinative expressions enter these constructions too.
 
-Four kinds of evidence recur in this comparison, and they establish different things. A \textit{CGEL} description records an established possibility; a starred form records a judgment; a positive attestation records an occurrence, in a register and a context; and a bounded search with no result records absence where opportunity was frequent, which supports an exclusion in proportion to the opportunity. The category comparison rests on the constructions established in the first two ways and on their recurrence across the inventory; attestations and searches inform, or motivate a restatement of, individual exclusions.
+Independent use is widespread within the determinative inventory. \textit{CGEL} discusses such uses for demonstratives and quantifiers including \mention{some}, \mention{all}, \mention{both}, \mention{many}, \mention{few}, \mention{several}, \mention{each}, \mention{either}, \mention{neither}, \mention{much}, and \mention{enough}, while recording lexical restrictions and the separate forms \mention{no}/\mention{none} \citep[371--372, 410--424]{huddleston2002}. The generalization concerns the availability of independent constructions across a lexical category, not unrestricted acceptability in every sentence frame.\footnote{Material before a determiner falls outside the independent-use comparison. \textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers, \mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers, and \mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives \citep[433--437]{huddleston2002}; §\ref{sec:complex-determinatives} reanalyses that pair, and \textit{CGEL}'s complex determinative \mention{many a} \citep[394]{huddleston2002}, as determinatives in predeterminer function. The \mention{half} in \mention{half a cake} is a common noun used as a predeterminer modifier \citep[434]{huddleston2002}. These constructions don't add evidence for independent determinative heads.}
+
+In (\ref{ex:external}), compare the bracketed NPs as subjects, objects, and complements of prepositions. Assume that a woman named Kim and a group of people are already under discussion.
+
+\begin{samepage}
+
+\ea\label{ex:external}
+\ea \mention{\textup{[}People\textup{]} left.}\qquad \mention{I see \textup{[}people\textup{]}.}\qquad \mention{with \textup{[}people\textup{]}}
+\ex \mention{\textup{[}Kim\textup{]} left.}\qquad \mention{I see \textup{[}Kim\textup{]}.}\qquad \mention{with \textup{[}Kim\textup{]}}
+\ex \mention{\textup{[}She\textup{]} left.}\qquad \mention{I see \textup{[}her\textup{]}.}\qquad \mention{with \textup{[}her\textup{]}}
+\ex \mention{\textup{[}Some\textup{]} left.}\qquad \mention{I see \textup{[}some\textup{]}.}\qquad \mention{with \textup{[}some\textup{]}}
+\z\z
+
+\end{samepage}
+
+Fused-head adjective phrases (AdjPs) fill the same positions. \mention{The rich} and \mention{the poor} are nominal arguments, and comparative and superlative adjectives head expressions without a generic human interpretation: \textit{CGEL}'s \mention{the most important of her criticisms} is an NP containing a partitive \mention{of}-phrase \citep[332--333, 416--423]{huddleston2002}.
+
+Independent \mention{some} can form a one-word NP, whereas an NP with \mention{rich} as fused Head requires the definite article \mention{the} on the generic human reading \citep[417--418]{huddleston2002}. That's a local contrast: argument NPs headed by singular count common nouns also need determination.
+
+Existentials add a construction to this comparison. With possible solutions under discussion, \mention{There are several} places the independent quantifier in displaced-subject position; dummy \mention{there} is the subject \citep[1391--1393]{huddleston2002}. Attested \mention{there is little} and \mention{there hasn't been much} place \mention{little} and \mention{much} there too (§\ref{sec:adjectival-profile}). Section~\ref{sec:quant-controls} compares this use with quantity words near the adjective--determinative boundary, distinguishing expressions with partitive or relative dependents from those interpreted through context alone.
+
+Determiner function also cuts across the existing noun subcategories. In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.}
+
+The compound determinative \mention{someone}, following the categorization of \textcite[§1.3]{Payne2007}, participates in \mention{someone's preferences}. Plain-case NPs also fill Det: \mention{what size} in \mention{what size shoes}, \mention{that size} in \mention{that size shoes}, and \mention{Sunday} in \mention{Sunday morning} \citep[356]{huddleston2002}.
+
+Determiner remains the characteristic function of determinative phrases. This specialization could support a separate primary category. Its tasks are themselves closely connected with nominal reference: Det marks definiteness and often contributes quantification \citep[354--359]{huddleston2002}. The issue is whether that specialization warrants a primary boundary or a distinction within Noun.
+
+The existing NP determiners provide a positive comparison. In \mention{Kim's preferences}, the embedded NP supplies an identifying anchor through its own referent; \mention{Sunday} and \mention{what size} specify a day or a dimension. Determinatives' deictic and quantitative specifications fit this nominal pattern. I take that fit to support treating their specialization in Det as a distinction within Noun.
+
+Preposition phrases (PPs) remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks} \citep[356]{huddleston2002}. Number, countability, and other selectional conditions distinguish the determining expressions.
+
+Modifier and adjunct functions also cut across the four noun groups. Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}. Emphatic \mention{herself} also functions as a clause adjunct in \mention{The manager detected the error herself} \citep[1496--1497]{huddleston2002}. Temporal NPs such as \mention{that day} and \mention{Sunday} supply adjuncts, as does degree \mention{enough} in \mention{I hadn't prepared enough} (§\ref{sec:enough}). These are shared functions with construction-specific distributions.
+
+Relative-clause postmodification supplies a further constructional comparison. Common nouns freely take integrated relatives, as in \mention{people who came}; personal pronouns permit a restricted range, including \mention{we who have read the report} \citep[430]{huddleston2002}. Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.
+
+Compounds also permit \mention{anyone who asks} and \mention{everything that matters}. With books under discussion, compare \mention{some that I saw} and \mention{two that I have seen}. \textit{CGEL} describes relative postmodification with demonstratives and compounds \citep[414, 422--423]{huddleston2002}.
+
+Compound determinatives also take post-head adjectives, as in \mention{I need something reliable and good looking}. The position and interpretation of these modifiers have specialized conditions (§\ref{sec:compounds}).
 
 \subsection{The connection from quantificational common nouns}\label{sec:quant-nouns}
 
@@ -96,13 +166,25 @@ Quantificational common nouns make the connection more specific than shared quan
 
 Agreement provides another connection. Compare \mention{A lot of the people were waiting} and \mention{Some of the people were waiting}, with plural agreement, against \mention{A lot of the work was finished} and \mention{Some of the work was finished}, with singular agreement. The whole subject NP's number depends on the complement of \mention{of}. \textit{CGEL} calls quantificational \mention{lot} \term{number-transparent} \citep[349--350, 411--412]{huddleston2002}.
 
-\mention{Each of the people} takes singular agreement by default, and ordinary \mention{a photograph of the people} takes it categorically, so neither is number-transparent in \textit{CGEL}'s sense. The contrast isn't absolute, though. Plural agreement after \mention{each of them} is well attested; plural verb forms account for about a sixth of the relevant COCA query hits. Plural agreement also occurs after \mention{each of the} with a plural noun, including in edited prose.\footnote{COCA List counts (\href{https://www.english-corpora.org/coca/}{english-corpora.org/coca}, 17 September 2026): \mention{each of them} + \mention{is/has/was} 389, + \mention{have/are/were} 78; \mention{each of the} + plural noun + \mention{was} 151, + \mention{were} 73 over 173 noun-specific strings, a share inflated by sentences in which the verb agrees with another head. Attestations: \enquote{Each of them have had a career that is the stuff of dreams} (\textit{USA Today}, 2018); \enquote{Each of the participants were administered the survey packet} (COCA academic text labelled \textit{SchoolCounsel}, 2007); \enquote{Each of the films were selected from a collection of family films} (\textit{Roeper Review}, 2002). Queries and screened lines are in the project repository under \texttt{corpus/exclusion\_tests/}.} That variation is agreement with the nearer or notional plural, the pattern familiar from \mention{a number of the people were}, and it leaves \mention{each} singular; with \mention{some of the people}, by contrast, plural agreement is the only option. Number transparency specifically connects quantificational \mention{lot} with number-neutral \mention{some}.
+\mention{Each of the people} takes singular agreement by default, and ordinary \mention{a photograph of the people} takes it categorically, so neither is number-transparent in \textit{CGEL}'s sense. The contrast isn't absolute, though. Plural agreement after \mention{each of them} occurs in about a sixth of COCA tokens, and after \mention{each of the} with a plural noun in about a third, in edited prose as well as speech.\footnote{COCA List counts (\href{https://www.english-corpora.org/coca/}{english-corpora.org/coca}, 17 September 2026): \mention{each of them} + \mention{is/has/was} 389, + \mention{have/are/were} 78; \mention{each of the} + plural noun + \mention{was} 151, + \mention{were} 73 over 173 noun-specific strings, a share inflated by sentences in which the verb agrees with another head. Attestations: \enquote{Each of them have had a career that is the stuff of dreams} (\textit{USA Today}, 2018); \enquote{Each of the participants were administered the survey packet} (COCA academic text labelled \textit{SchoolCounsel}, 2007); \enquote{Each of the films were selected from a collection of family films} (\textit{Roeper Review}, 2002). Queries and screened lines are in the project repository under \texttt{corpus/exclusion\_tests/}.} That variation is agreement with the nearer or notional plural, the pattern familiar from \mention{a number of the people were}, and it leaves \mention{each} singular; with \mention{some of the people}, by contrast, plural agreement is the only option. Number transparency specifically connects quantificational \mention{lot} with number-neutral \mention{some}.
 
 Restricted dependents also occur on the common-noun side. \textit{CGEL} categorizes quantificational \mention{plenty} as a common noun whose use resists determination and modification; \mention{lot} requires \mention{a} and permits only limited modification \citep[349--350]{huddleston2002}. Established common nouns thus approach the determinative profile as determinatives approach theirs.
 
 The connection also extends beyond argument NPs. Quantificational nouns occur in degree modifiers such as \mention{a great deal smaller} and \mention{plenty big enough} \citep[549--550]{huddleston2002}. Section~\ref{sec:enough} compares these with determinative degree modifiers, including their attributive distribution. Meaning, complementation, agreement, and restricted dependents give the proposed grouping a specific basis within established Noun.
 
 Common nouns also permit a wider range of PP and clausal complements, whereas pronouns and primary naming uses of proper nouns have much more restricted dependents \citep[429--430, 439--443, 517--521]{huddleston2002}. The shared partitive in \mention{a lot/some of the wine} connects these different complement systems.
+
+\subsection{Quantificational adjectives and nominal independence}\label{sec:quant-controls}
+
+\mention{Numerous people} and \mention{many people} both quantify, but their syntax differs. Degree modification exposes a contrast: \mention{so many mistakes} is possible, while \ungram{\mention{so numerous mistakes}} is excluded \citep[539--540]{huddleston2002}. Quantity meaning and prenominal position provide a semantic control for the nominal comparison. Independent use tests whether their further distributions sustain the distinction.
+
+\textit{CGEL}'s boundary cuts through this semantic range. It includes \mention{several} among determinatives and treats quantificational \mention{certain} and \mention{various} as marginal members, partly on the evidence of partitives. Their \mention{of}-phrases are hardly omissible, with speaker and register restrictions on the partitive uses \citep[392--393, 411--413]{huddleston2002}. Predicative \mention{Its advantages are several} and \mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \citep[392, 395--396]{huddleston2002}.
+
+Independent uses extend to \mention{numerous}, \mention{multiple}, and \mention{countless}. Attested examples include subject \mention{numerous were injured}, anaphoric \mention{are there multiple?}, and \mention{paving the way for countless who followed him}, where a relative postmodifies the complement of \mention{for}.\footnote{The accompanying \href{run:quantifier-controls.pdf}{\textit{Quantificational controls: attestations and provenance}} preserves the comparison table, attestations, source locations, and verification limits. Descriptions in \textit{CGEL}, constructed comparisons, positive attestations, and searches with no qualifying result are distinguished. A second table there records corpus checks of the exclusions this paper states, with the search strings, hit counts, and outcomes.} These selected occurrences establish overlap, without establishing equal acceptability or frequency. Assigning every independent quantity word to determinative would make independent use a circular category diagnostic.
+
+Four kinds of evidence recur in this comparison, and they establish different things. A \textit{CGEL} description records an established possibility; a starred form records a judgment; a positive attestation records an occurrence, in a register and a context; and a bounded search with no result records absence where opportunity was frequent, which supports an exclusion in proportion to the opportunity. The category comparison rests on the constructions established in the first two ways and on their recurrence across the inventory; attestations and searches inform, or motivate a restatement of, individual exclusions.
+
+Existentials admit fused-head AdjPs too. Adjective fusion permits indefinite ordinal \mention{a second} \citep[416]{huddleston2002}, as in \mention{There was a second}. Plural agreement likewise occurs with adjective-containing \mention{the rich}, whose adjective lacks number inflection \citep[418]{huddleston2002}. The number transparency of \mention{some} and \mention{a lot} in §\ref{sec:quant-nouns} supplies a more specific comparison, with explicit count and non-count domains.
 
 \subsection{The connected adjectival profile}\label{sec:adjectival-profile}
 
@@ -126,9 +208,9 @@ NP grammar also distinguishes predicative and argument uses. A bare-role NP such
 
 \textcite{solt2015qadjectives} treats \mention{few}, \mention{many}, \mention{much}, and \mention{little} as adjectives of quantity and gives them one semantics, as gradable predicates of sets of degrees, across the quantificational, predicative, attributive, differential, and adverbial uses the class shows.
 
-\mention{Much} and \mention{little} take the predicative use only with an amount-denoting subject, her \mention{Ten gallons is not much} against \ungram{\mention{John's patience is much}}, and that's the case usage supplies at volume: COCA's sentence-final \mention{be much} is mostly \mention{it won't be much}, \mention{pay won't be much}, \mention{the hurt can not be much}, beside existential \mention{there hasn't been much}, and NOW has existential \mention{there is little}, all of them independent NP uses.
+\mention{Much} and \mention{little} take the predicative use only with an amount-denoting subject, her \mention{Ten gallons is not much} against \ungram{\mention{John's patience is much}}, and that's the case usage supplies at volume: COCA's sentence-final \mention{be much} is mostly \mention{it won't be much}, \mention{pay won't be much}, \mention{the hurt cannot be much}, beside existential \mention{there hasn't been much}, and NOW has existential \mention{there is little}, all of them independent NP uses.
 
-With a degree modifier the subject condition lapses: \mention{the pain and immobility became too much to bear}, \mention{sympathy seemed too much to hope for}, \mention{it seemed so little to give}, the flexibility of modified \mention{much} that \textcite{reynolds2024why} notes and the pattern of a quantity NP in predicative function, as in \mention{a first-year festival seems a lot to ask of the public} and \textit{CGEL}'s \mention{Kim isn't much of an actor} \citep[395]{huddleston2002}.\footnote{COCA, sentence-final \mention{be much}, 81 entries (18 September 2026): \mention{it won't be much} (\textit{Denver Post}, 1997), \mention{pay won't be much} (\textit{Ruben's Place}, 2012), \mention{the hurt can not be much} (\textit{Shakespeare in Love}, 1998), and \mention{there hasn't been much} (\textit{CBS This Morning}, 2014). NOW, sentence-final \mention{there is little}, 23 entries: Reuters (2011) and \textit{Globe and Mail} (2026). Sources for the predicative corpus examples: \mention{pain and immobility}, Associated Press (2007); \mention{sympathy}, \textit{Otherwise Engaged} (2005); \mention{so little to give}, \textit{Biting the Bullet} (2008); \mention{a first-year festival}, \textit{Detroit News} (2019). Lines supplied by hand and unscreened; full records and further examples are in the \href{run:quantifier-controls.pdf}{quantifier supplement}.}
+With a degree modifier the subject condition lapses: \mention{the pain and immobility became too much to bear}, \mention{sympathy seemed too much to hope for}, \mention{it seemed so little to give}, the flexibility of modified \mention{much} that \textcite{reynolds2024why} notes and the pattern of a quantity NP in predicative function, as in \mention{a first-year festival seems a lot to ask of the public} and \textit{CGEL}'s \mention{Kim isn't much of an actor} \citep[395]{huddleston2002}.\footnote{COCA, sentence-final \mention{be much}, 81 entries (18 September 2026): \enquote{It won't be much} (\textit{Denver Post}, 1997); \enquote{Pay won't be much} (\textit{Ruben's Place}, 2012); \enquote{There hasn't been much} (\textit{CBS This Morning}, 2014). NOW, sentence-final \mention{there is little}, 23 entries: \enquote{industry sources say there is little} (Reuters, 2011); \enquote{past the 90-minute mark, there is little} (\textit{Globe and Mail}, 2026). COCA, \mention{became too much to}, 45 entries, and \mention{seemed too/so much to}, 46 entries: \enquote{the pain and immobility became too much to bear} (Associated Press, 2007); \enquote{the burden of debt became too much to bear} (amazon.com, 2012); \enquote{sympathy seemed too much to hope for} (\textit{Otherwise Engaged}, 2005); \enquote{it seemed so little to give} (\textit{Biting the Bullet}, 2008). COCA, \mention{seemed a lot to}, 15 entries: \enquote{as a first-year festival seems a lot to ask of the public} (\textit{Detroit News}, 2019); \enquote{Doesn't seem a lot to ask, does it?} (\textit{The Sum of Us}, 1994); and \mention{be a lot to}, 2,394 tokens across the forms of \mention{be} (List count), split between existential \enquote{There was a lot to do after Luke left} (\textit{Southern Review}, 2019) and predicative \enquote{That was a lot to take in} (\textit{Dead to Me}, 2019), \enquote{\$26 is a lot to pay for a \enquote{topping}} (\textit{Atlanta Journal-Constitution}, 2014). Lines supplied by hand and unscreened; the record is under \texttt{corpus/independent\_argument/}.}
 
 That unity is the semantic side of this adjectival profile, and it sits as well with Noun as with Adjective: the same four carry the nominal profile of §\ref{sec:quant-nouns}.
 
@@ -155,57 +237,6 @@ Pro-form gender \citep{reynolds2025proformgender} connects these ways of referri
 Interrogative and relative properties are distinct from functions such as object. An interrogative object may be headed by a pronoun (\mention{who}) or a common noun (\mention{which book}); the latter obtains its interrogative property from a dependent.
 
 Inflection and reference provide partial connections, with different reach. Demonstrative number directly compares forms of determinative lexemes with nominal number paradigms; compound genitives follow the head and phrasal pattern of noun-headed NPs. The \mention{no}/\allowbreak\mention{none} alternation concerns form selection, discussed with restricted membership in §\ref{sec:form-selection}.
-
-\subsection{Functions and constructional range}\label{sec:independent}
-
-NPs serve as subjects, objects, and complements of prepositions; independent determinative expressions share these functions.
-
-Independent use is widespread within the determinative inventory. \textit{CGEL} discusses such uses for demonstratives and quantifiers including \mention{some}, \mention{all}, \mention{both}, \mention{many}, \mention{few}, \mention{several}, \mention{each}, \mention{either}, \mention{neither}, \mention{much}, and \mention{enough}, while recording lexical restrictions and the separate forms \mention{no}/\mention{none} \citep[371--372, 410--424]{huddleston2002}. The generalization concerns the availability of independent constructions across a lexical category, not unrestricted acceptability in every sentence frame.\footnote{Material before a determiner falls outside the independent-use comparison. \textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers, \mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers, and \mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives \citep[433--437]{huddleston2002}; §\ref{sec:complex-determinatives} reanalyses that pair, and \textit{CGEL}'s complex determinative \mention{many a} \citep[394]{huddleston2002}, as determinatives in predeterminer function. The \mention{half} in \mention{half a cake} is a common noun used as a predeterminer modifier \citep[434]{huddleston2002}. These constructions don't add evidence for independent determinative heads.}
-
-With Kim and a group of people under discussion, compare the bracketed NPs in (\ref{ex:external}).
-
-\begin{samepage}
-
-\ea\label{ex:external}
-\ea \mention{\textup{[}People\textup{]} left.}\qquad \mention{I see \textup{[}people\textup{]}.}\qquad \mention{with \textup{[}people\textup{]}}
-\ex \mention{\textup{[}Kim\textup{]} left.}\qquad \mention{I see \textup{[}Kim\textup{]}.}\qquad \mention{with \textup{[}Kim\textup{]}}
-\ex \mention{\textup{[}She\textup{]} left.}\qquad \mention{I see \textup{[}her\textup{]}.}\qquad \mention{with \textup{[}her\textup{]}}
-\ex \mention{\textup{[}Some\textup{]} left.}\qquad \mention{I see \textup{[}some\textup{]}.}\qquad \mention{with \textup{[}some\textup{]}}
-\z\z
-
-\end{samepage}
-
-NPs containing fused-head adjective phrases (AdjPs) fill the same positions. \mention{The rich} and \mention{the poor} are nominal arguments, and comparative and superlative adjectives head expressions without a generic human interpretation: \textit{CGEL}'s \mention{the most important of her criticisms} is an NP containing a partitive \mention{of}-phrase \citep[332--333, 416--423]{huddleston2002}.
-
-Independent \mention{some} can form a one-word NP, whereas an NP with \mention{rich} as fused Head requires the definite article \mention{the} on the generic human reading \citep[417--418]{huddleston2002}. Singular count common nouns also need determination in argument NPs.
-
-With possible solutions under discussion, \mention{There are several} places the independent quantifier in displaced-subject position; dummy \mention{there} is the subject \citep[1391--1393]{huddleston2002}. Attested \mention{there is little} and \mention{there hasn't been much} place \mention{little} and \mention{much} there too (§\ref{sec:adjectival-profile}). Section~\ref{sec:quant-controls} tests the contrast with quantificational adjectives.
-
-Determiner function also cuts across the existing noun subcategories. In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}. I treat them as Det here, without the additional subject function.}
-
-The compound determinative \mention{someone}, following the categorization of \textcite[§1.3]{Payne2007}, participates in \mention{someone's preferences}. Plain-case NPs also fill Det: \mention{what size} in \mention{what size shoes}, \mention{that size} in \mention{that size shoes}, and \mention{Sunday} in \mention{Sunday morning} \citep[356]{huddleston2002}.
-
-Determiner remains the characteristic function of determinative phrases. This specialization could support a separate primary category. Its tasks are themselves closely connected with nominal reference: Det marks definiteness and often contributes quantification \citep[354--359]{huddleston2002}. The existing NP determiners supply a nominal comparison. In \mention{Kim's preferences}, the embedded NP supplies an identifying anchor through its own referent; \mention{Sunday} and \mention{what size} specify a day or a dimension. Determinatives' deictic and quantitative specifications fit this nominal pattern. I take that fit to support treating their specialization in Det as a distinction within Noun.
-
-Preposition phrases (PPs) remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks} \citep[356]{huddleston2002}. Number, countability, and other selectional conditions distinguish the determining expressions.
-
-Compare the modifiers in \mention{dog houses}, \mention{Canada Day}, \mention{the manager herself}, and \mention{the few people}. Emphatic \mention{herself} also functions as a clause adjunct in \mention{The manager detected the error herself} \citep[1496--1497]{huddleston2002}. Temporal NPs such as \mention{that day} and \mention{Sunday} supply adjuncts, as does degree \mention{enough} in \mention{I hadn't prepared enough} (§\ref{sec:enough}).
-
-Common nouns freely take integrated relatives, as in \mention{people who came}; personal pronouns permit a restricted range, including \mention{we who have read the report} \citep[430]{huddleston2002}. Determinative examples include \mention{few who come ever leave}, \mention{those who came}, \mention{that which remains}, and \mention{something that you need to know}.
-
-Compounds also permit \mention{anyone who asks} and \mention{everything that matters}. With books under discussion, compare \mention{some that I saw} and \mention{two that I have seen}. \textit{CGEL} describes relative postmodification with demonstratives and compounds \citep[414, 422--423]{huddleston2002}.
-
-Compound determinatives also take post-head adjectives, as in \mention{I need something reliable and good looking}.\footnote{Attested in CGELBank; the accompanying \href{run:corpus-documentation.pdf}{\textit{corpus supplement}} identifies the source sentence and its annotation.} The position and interpretation of these modifiers have specialized conditions (§\ref{sec:compounds}).
-
-\subsection{Quantificational adjectives and nominal independence}\label{sec:quant-controls}
-
-\mention{Numerous people} and \mention{many people} both quantify, but their syntax differs. Degree modification exposes a contrast: \mention{so many mistakes} is possible, while \ungram{\mention{so numerous mistakes}} is excluded \citep[539--540]{huddleston2002}. Quantity meaning and prenominal position provide a semantic control for the nominal comparison. Independent use tests whether their further distributions sustain the distinction.
-
-\textit{CGEL}'s boundary cuts through this semantic range. It includes \mention{several} among determinatives and treats quantificational \mention{certain} and \mention{various} as marginal members, partly on the evidence of partitives. Their \mention{of}-phrases are hardly omissible, with speaker and register restrictions on the partitive uses \citep[392--393, 411--413]{huddleston2002}. Predicative \mention{Its advantages are several} and \mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \citep[392, 395--396]{huddleston2002}.
-
-Independent uses extend to \mention{numerous}, \mention{multiple}, and \mention{countless}. Attested examples include subject \mention{numerous were injured}, anaphoric \mention{are there multiple?}, and \mention{paving the way for countless who followed him}, where a relative postmodifies the complement of \mention{for}.\footnote{The accompanying \href{run:quantifier-controls.pdf}{\textit{Quantificational controls: attestations and provenance}} preserves the comparison table, attestations, source locations, and verification limits. Descriptions in \textit{CGEL}, constructed comparisons, positive attestations, and searches with no qualifying result are distinguished. A second table there records corpus checks of the exclusions this paper states, with the search strings, hit counts, and outcomes.} These selected occurrences establish overlap, without establishing equal acceptability or frequency. Assigning every independent quantity word to determinative would make independent use a circular category diagnostic.
-
-Existentials admit fused-head AdjPs too. Adjective fusion permits indefinite ordinal \mention{a second} \citep[416]{huddleston2002}, as in \mention{There was a second}. Plural agreement likewise occurs with adjective-containing \mention{the rich}, whose adjective lacks number inflection \citep[418]{huddleston2002}. The number transparency of \mention{some} and \mention{a lot} in §\ref{sec:quant-nouns} supplies a more specific comparison, with explicit count and non-count domains.
 
 \subsection{Weighing the profiles}\label{sec:membership}
 
@@ -244,7 +275,7 @@ The nominal and adjectival comparisons each involve connected properties. On the
 
 \textcite{vaneynde2003determiner} argues from Italian and Dutch that determiners form no category of their own: those that inflect and agree like prenominal adjectives are adjectives, and genitives and non-agreeing pronouns are nouns. The criterion is inflectional agreement shared with adjectives, and English has none to share, since its adjectives don't agree.
 
-The inflection English does have points two ways, demonstrative number toward nouns and grade toward adjectives (§§\ref{sec:adjectival-profile}--\ref{sec:inflection}), and his criterion, applied to English by extrapolation (he applies it to Italian and Dutch, and cites English only for the marking contrast), would make the gradable four adjectives and the rest nouns. That's the split I decline here, because the four also share partitive patterns, restricted dependents, and degree uses with quantificational common nouns.
+The inflection English does have points two ways, demonstrative number toward nouns and grade toward adjectives (§§\ref{sec:adjectival-profile}--\ref{sec:inflection}), and his criterion, applied to English by extrapolation (he applies it to Italian and Dutch, and cites English only for the marking contrast), would make the gradable four adjectives and the rest nouns. That's the split I decline here, because the four carry the partitive, transparency, and dependent patterns of the nominal profile as well.
 
 His own treatment keeps determiner status apart from lexical category, as a marking value a functor contributes to the phrase it selects, so that an adjective and a pronoun can both be determiners without sharing a category; the question here is the different one of what category a word has when it heads the NP itself. Appendix~\ref{sec:historical} lists the alternative beside the others.
 
@@ -256,7 +287,7 @@ I favour Noun membership because it brings the words with these recurring nomina
 
 Four questions about these words are separable, and the comparison above answers one of them. The lexical category is the question of this section: Noun. The projection, ordinary Head or fusion, is the question of §\ref{sec:evidence}, and a grammar can answer it either way for either category (Table~\ref{tab:accounts}).
 
-The semantic type is a third. The unified semantics of \mention{few}, \mention{many}, \mention{much}, and \mention{little} is compatible with either Noun or Adjective (§\ref{sec:adjectival-profile}). The construction is a fourth: \mention{such a} and \mention{what a} are lexical selection, not the Big Mess construction (\mention{how long a bridge}; §\ref{sec:complex-determinatives}).
+The semantic type is a third. The unified semantics of \mention{few}, \mention{many}, \mention{much}, and \mention{little} is compatible with either Noun or Adjective (§\ref{sec:adjectival-profile}). The construction is a fourth: \mention{such a} and \mention{what a} are lexical selection, not the Big Mess construction (§\ref{sec:complex-determinatives}).
 
 The broader Noun grouping still needs an account of restricted members. Their inclusion depends on how they participate in the determinative system.
 
@@ -277,8 +308,6 @@ The articles participate in the determinative system of definiteness, quantity, 
 \mention{A} also has a restricted peripheral modifier use. In \mention{a few mistakes}, \mention{few} heads the NP in Det, while \mention{a} modifies the larger NP headed by \mention{mistakes}. In independent \mention{a few}, \mention{a} modifies the NP headed by \mention{few}. The singular-count target restriction belongs to \mention{a}'s Det use; its peripheral use selects a quantificational construction. Section~\ref{sec:complex-determinatives} develops this analysis and contrasts it with predeterminer modification in \mention{many a}.
 
 \textcite[153--158]{spinillo2004reconceptualising} (earlier \citealp{spinillo2000determiners}) instead retains \mention{the}, \mention{a}, and \mention{every} as an expanded article category and redistributes other determinatives among adjectives and pronouns \citep[194--195]{spinillo2004reconceptualising}. Her grounds include dependence on a following nominal, lack of predicative and partitive uses, and limited descriptive content. She also recognizes differences within the article trio.
-
-Category membership doesn't remove lexical restrictions, such as the one applying to \mention{every}. \mention{Every apple} is grammatical, but unlike \mention{some} in \mention{I'll take some}, \mention{every} can't occur independently in \ungram{\mention{I'll take every}}. The exclusion rests on absence where opportunity is frequent: in the screened COCA and NOW lines, \mention{every} never stands as an ordinary fused Head, despite frequent independent \mention{each} before a finite verb. Where it does stand without a noun, the noun is recoverable from a coordinate or the preceding turn, or \mention{every} closes a binomial.\footnote{COCA List counts (17 September 2026): \mention{each has/was/will} 3,090 against 23 for \mention{every has/was/will}. None of 618 COCA lines for \mention{every} before a verb and 164 NOW lines for \mention{every was/has} shows an ordinary fused-head use. Residues include \enquote{if not every, then almost every male head of household} (\textit{Social History}, 1995) and \enquote{to be open and generous to all and every} (fiction, 2015). Full queries and records are in the \href{run:quantifier-controls.pdf}{quantifier supplement}.}
 
 \mention{Every} connects with independent \mention{each} through universal quantification and singular count selection. It also permits \mention{almost}/\mention{nearly} and occurs after genitives in \mention{her every move}. \textcite[156--158]{spinillo2004reconceptualising} recognizes these differences from \mention{the} and \mention{a}, as well as the articles' greater phonological dependence.
 
@@ -306,7 +335,7 @@ The same structure covers \mention{what a mess} and \mention{many a man}, which 
 
 Neither \mention{many a} nor \mention{what a} has an independent use: predeterminer \mention{many} and \mention{what} require a following \mention{a}-NP. With peripheral \mention{a}, \mention{few} and \mention{many} retain their independent uses as well as their Det uses before another nominal \citep[394]{huddleston2002}. That \mention{few} can't replace \mention{many} (\ungram{\mention{few a man}}) is lexical, as predeterminer membership is anyway (\ungram{\mention{most the books}}).
 
-So \mention{many a} stands to \mention{many} as \mention{such a} to \mention{such} and \mention{what a} to \mention{what}. Each word has Det function with plural or non-count heads (\mention{many men}, \mention{such promise}, \mention{what fools}) and predeterminer function with an indefinite-article NP, where the modifier is an NP, as \textit{CGEL}'s fractions are \citep[385 n.~25]{huddleston2002}, or an AdjP (\mention{how large a piece}). Neither degree \mention{such} nor exclamative \mention{what} has grade or degree modification (\ungram{\mention{sucher}}, \ungram{\mention{a very such mess}}), and exclamative \mention{what} has no predicative use.
+So \mention{many a} stands to \mention{many} as \mention{such a} to \mention{such} and \mention{what a} to \mention{what}. Each word has Det function with plural or non-count heads (\mention{many men}, \mention{such promise}, \mention{what fools}) and predeterminer function with an indefinite-article NP, where the modifier is an NP, as \textit{CGEL}'s fractions are \citep[385 n.~25]{huddleston2002}, or an AdjP (\mention{how large a piece}). No adjectival property remains: neither word has grade or degree modification (\ungram{\mention{sucher}}, \ungram{\mention{a very such mess}}), and exclamative \mention{what} has no predicative use.
 
 \textcite[§5]{VanEynde_2007_BigMess} draws the same line from the other side: \mention{such a} and \mention{what a} aren't instances of the Big Mess construction (\mention{how long a bridge}), since \mention{what} and \mention{such} \enquote{are invariably lexical} and \enquote{lexically select a nominal which is either unmarked or introduced by the indefinite article}. I treat degree \mention{such} and exclamative \mention{what} as determinatives with these two functions; the kind sense of \mention{such} (\mention{such contract as may be executed}, \mention{many such problems}) is the determinative \mention{such} of \textit{CGEL}'s inventory. With peripheral \mention{a} in \mention{a few} and predeterminer \mention{many} in \mention{many a}, no complex determinatives remain in this account; \textit{CGEL}'s other members of that class, cardinals above a hundred, are the subject of \textcite{reynolds2026numerals}.
 
@@ -314,7 +343,7 @@ So \mention{many a} stands to \mention{many} as \mention{such a} to \mention{suc
 
 \mention{No}/\mention{none} illustrates a restriction on forms within a paradigm. \textit{CGEL} treats them as inflectional forms of one determinative: dependent \mention{no students} contrasts with independent \mention{none}, while both permit \mention{almost} \citep[389--390]{huddleston2002}. The partitive \mention{none of the students} requires the independent form; \ungram{\mention{no of the students}} is excluded. Form selection remains necessary, just as with \mention{my}/\mention{mine}.
 
-The broader grouping preserves two distinctions: between members' permitted constructions, and between the forms selected within a paradigm. Whether independent expressions have ordinary Head or fusion remains a separate question.
+The broader grouping preserves two distinctions: between members' permitted constructions, and between the forms selected within a paradigm.
 
 \section{Ordinary Head, fusion, and modifier attachment}\label{sec:evidence}
 
@@ -325,8 +354,6 @@ The D-noun analysis pairs the proposed categorization with ordinary Head. This s
 A \term{nominal} (Nom) contains a head and its internal dependents, excluding an external determiner. In \mention{some apples}, the word \mention{apples} heads Nom, and that Nom heads NP. The same arrangement permits an internal modifier, as in \mention{some red apples}, without making the determining phrase part of the Nom.
 
 Head is the function of an immediate constituent within a phrase. The \term{ultimate lexical head} is the word reached by following Head relations through the intervening phrase layers. Thus \mention{apples} is the ultimate lexical head of \mention{some apples}, although the NP's immediate Head is Nom. Both accounts also have \mention{some} as the ultimate lexical head of independent \mention{some}.
-
-A standard tree has unique parentage: each constituent below the root has one parent. Fusion allows branches to converge on a shared constituent with two parents. In the ordinary-Head analysis, the determinative's projection, the phrase it heads, needs no such join. Figure~\ref{fig:some} compares the structures.\footnote{The proposal retains fusion elsewhere, including Mod--Head fusion in \mention{the rich}. The preference for unique parentage concerns the determinative's Head configuration, rather than every construction in the grammar.}
 
 Under D-noun, a determinative can head this Nom--NP structure too. Figure~\ref{fig:some} compares the accounts for \mention{take some apples} and \mention{take some}. The dependent expression still has \mention{apples} as its ultimate head. Independent \mention{some} has ordinary Head under D-noun; in \textit{CGEL}, its DP jointly fills Det of NP and Head of Nom.
 
@@ -390,11 +417,30 @@ Independent\par\smallskip
 
 In this grammar, \term{inheritance} applies constraints stated for Noun to its subcategories, subject to their lexical and constructional restrictions. Ordinary headedness supplies the direct Nom--NP projection used here. A separate-D ordinary-Head grammar can license the same structure by admitting both Noun and D.
 
-The genitive NP \mention{Kim's} fills Det in \mention{Kim's preferences}, whose ultimate lexical head is \mention{preferences}. Ordinary determinative headedness gives \mention{some} that phrase type in Det and object uses alike. Plain determinative-headed NPs, such as \mention{almost ten} in \mention{almost ten apples}, then join genitives such as \mention{Kim's} and \mention{my}. The fragment compares the remaining selectional conditions (§\ref{sec:det-uniform}).
+The genitive NP \mention{Kim's} fills Det in \mention{Kim's preferences}, as Figure~\ref{fig:genitive} shows. Ordinary determinative headedness gives \mention{some} that phrase type in Det and object uses alike. Plain determinative-headed NPs, such as \mention{almost ten} in \mention{almost ten apples}, then join genitives such as \mention{Kim's} and \mention{my}. The fragment compares the remaining selectional conditions (§\ref{sec:det-uniform}).
+
+\begin{figure}[H]
+\centering
+\begin{forest} nominal tree
+[NP
+ [{\synnode{Det}{NP[gen]}}
+  [{\synnode{Head}{Nom}}, head edge
+   [{\synnode{Head}{N\textsubscript{proper}}}, head edge [\mention{Kim's}]]]]
+ [{\synnode{Head}{Nom}}, head edge
+  [{\synnode{Head}{N\textsubscript{common}}}, head edge [\mention{preferences}]]]]
+\end{forest}
+\caption{The genitive NP \mention{Kim's} functions as determiner in the larger NP \mention{Kim's preferences}, whose ultimate lexical head is \mention{preferences}. The representation abstracts from the internal realization of genitive marking.}\label{fig:genitive}
+\end{figure}
 
 \subsection{Syntactic completeness and contextual interpretation}\label{sec:saturation}
 
-With a group of people under discussion, \mention{Some left}, \mention{Many came}, and \mention{All agree} illustrate \term{syntactic completeness}: an argument expression can be complete without another overt head or determiner. Bare \mention{few} shows the same with no group under discussion: \mention{few would dare underestimate Aaron Finch's men} and \mention{few have had the opportunity to digest its contents}.\footnote{NOW: \textit{Daily Times} (Pakistan), 20 October 2022; \textit{New York Times}, 4 March 2022. Brett Reynolds read all 94 NOW lines for \mention{few would}: 82 have nothing in the visible context that supplies the set, 5 have it (\enquote{letting 1,000 flowers bloom and hoping a few would pan out}, \textit{Computerworld}, 2021), and 7 can't be decided from the window. The records and screening-model comparison are in the \href{run:quantifier-controls.pdf}{quantifier supplement}.} In \mention{I'll take some}, the relevant substance or set may still be supplied by discourse or the situation. Ordinary pronouns also depend on context.
+With a group of people under discussion, \mention{Some left}, \mention{Many came}, and \mention{All agree} illustrate \term{syntactic completeness}: an argument expression can be complete without another overt head or determiner. Bare \mention{few} shows the same with no group under discussion: \mention{few would dare underestimate Aaron Finch's men} and \mention{few have had the opportunity to digest its contents}.\footnote{NOW: \textit{Daily Times} (Pakistan), 20 October 2022; \textit{New York Times}, 4 March 2022. Also \enquote{Everyone can have the ability to do this, but few have the durability to do it} (\textit{Los Angeles Times}, 27 September 2021). Of 94 NOW lines for \mention{few would}, read in full, 82 have nothing in the visible context that supplies the set, 5 have it (\enquote{letting 1,000 flowers bloom and hoping a few would pan out}, \textit{Computerworld}, 2021), and 7 can't be decided from the window; the screening model had labelled 89 and 5, agreeing on four of the five. Lines and reading under \texttt{corpus/independent\_argument/}.} In \mention{I'll take some}, the relevant substance or set may still be supplied by discourse or the situation. Ordinary pronouns also depend on context.
+
+In the following web-review sentence, \mention{two different Honda models} supplies the domain for the independent object \mention{both}:\footnote{English Web Treebank, sentence \nolinkurl{reviews-083459-0002}, verified in the \href{https://github.com/UniversalDependencies/UD_English-EWT/blob/master/en_ewt-ud-train.conllu}{UD English EWT training data}. CGELBank supplies the syntactic annotation \citep{reynolds2023unified}. The attestation is the treebank sentence; the review it came from isn't recoverable.}
+
+\ea\label{ex:attested-both}
+\mention{Went there yesterday: we are trying to decide between two different Honda models, so we wanted to test-drive both back to back.}
+\z
 
 Generalizing expressions such as \mention{Many are called, few are chosen} and \mention{Enough is enough} need no previously uttered common-noun phrase. Interpretation can instead depend on the situation or a generic restriction. Generic pronoun \mention{one}, as in \mention{One shouldn't judge}, provides a parallel without a required overt antecedent.
 
@@ -423,7 +469,7 @@ Figure~\ref{fig:partitive} gives the D-noun analysis, with the \mention{of}-phra
 \caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the outer NP to \mention{some}. The common noun \mention{wine} is inside the complement PP and doesn't head the whole expression. The inner NP is abbreviated.}\label{fig:partitive}
 \end{figure}
 
-Independent \mention{few} and certain other indefinite determinatives permit definite determination. Under D-noun, \mention{few} heads an ordinary NP both alone and in \mention{the few}, where \mention{the} fills Det. Adding an optional adjective gives \mention{the lucky few}, with the same Head and dependent functions as \mention{the lucky survivors}.\footnote{\mention{The lucky few} is attested as an independent argument with a relative: \enquote{Are you one of the lucky few who found powdered infant formula?} (\textit{National Observer}, 3 October 2022); \enquote{is among the lucky few who already have that permanent freedom} (\textit{Business Insider}, 11 February 2021). Both from NOW, 17 September 2026; further examples are in the \href{run:quantifier-controls.pdf}{quantifier supplement}.}
+Independent \mention{few} and certain other indefinite determinatives permit definite determination. Under D-noun, \mention{few} heads an ordinary NP both alone and in \mention{the few}, where \mention{the} fills Det. Adding an optional adjective gives \mention{the lucky few}, with the same Head and dependent functions as \mention{the lucky survivors}.\footnote{\mention{The lucky few} is well attested as an independent argument with a relative: \enquote{Are you one of the lucky few who found powdered infant formula?} (\textit{National Observer}, 3 October 2022); \enquote{is among the lucky few who already have that permanent freedom} (\textit{Business Insider}, 11 February 2021); \enquote{Obialor is one of the lucky few who was able to reclaim the moment} (YNaija, 11 September 2020); likewise \enquote{I am of the privileged few who can afford to take time off} (\textit{The Guardian}, 1 September 2022). All from NOW, 17 September 2026; screened lines under \texttt{corpus/independent\_argument/}.}
 
 \textit{CGEL} permits determinatives used as internal modifiers to fuse with Head, as in \mention{the other two} and \mention{these few here} \citep[415--416]{huddleston2002}. Its analysis of \mention{the few mistakes} assigns \mention{the} to Det and \mention{few} to Mod \citep[392]{huddleston2002}. That dependent use supplies the counterpart for a Mod--Head analysis of independent \mention{few} after an external determiner.
 
@@ -551,6 +597,22 @@ The same division applies to \mention{someone} and \mention{everybody}: the comp
 
 Both accounts separate the modifier domains structurally: fusion uses the DP--Nom boundary, and ordinary headedness uses the NP--Nom boundary. Their constituent groupings differ: ordinary Head groups \mention{anyone present} in the inner NP, whereas fusion groups \mention{hardly anyone} in DP.
 
+\subsection{Secondary set-denoting uses}\label{sec:secondary-use}
+
+The compounds also have a secondary set-denoting use, in which they take an article, a pre-head adjective, and plural inflection: lexicalized \mention{a special someone} and \mention{a certain someone}, and productively \mention{an anonymous someone}, \mention{the responsible someone}, \mention{a furry something}, and \mention{such an anyone}.\footnote{COCA: \mention{special someone} 282 tokens and \mention{certain someone} 120 (List counts, 17 September 2026); \enquote{if an anonymous someone with very little solid evidence on his/her claims can get basically every major media outlet} (\textit{Mashable}, 2017); \enquote{The responsible someone has to collect the rents} (\textit{Confrontation}, 2014); \enquote{a furry something swinging indelicately from its mouth. The something plopped wetly into her bowl} (\textit{Analog}, 2002), where the next sentence takes \mention{the}; \enquote{Not anyone. And if I cld think of such an anyone, I would go out there} (\textit{Bones}, 2010, transcript spelling). The plural forms are common: COCA List counts (17 September 2026) give \mention{somethings} 590, \mention{nothings} 416, \mention{nobodies} 318, \mention{somebodies} 115, \mention{anythings} 38, and \mention{anybodies} 20; the \mention{-wheres} forms are left out as dialectal adverbs. Screened lines under \texttt{corpus/exclusion\_tests/}.}
+
+\textit{CGEL} records \mention{a nobody} and \mention{a little something} as nouns formed by conversion \citep[423, n.~43]{huddleston2002}. Under the D-noun analysis no category change is involved: the use is the one \textit{CGEL} gives proper nouns in \mention{an Ophelia} and \mention{the Smiths}, where the name comes to \enquote{denote the set of people bearing this name} and then \enquote{takes a full range of dependents, including determiners and restrictive modifiers} \citep[521]{huddleston2002}.
+
+In both subcategories the article and the pre-head adjective follow from what the noun now denotes, a kind or an individual of the quantifier's description, and quantificational force is gone: \mention{an anybody} is a person of no particular standing. The quantifier and its nominal echo can share a text: \enquote{anybody could have competed. I qualified as an anybody} (\textit{Skiing}, 1992, COCA). One process thus covers two subcategories where \textit{CGEL} needs conversion for one and a secondary use for the other.
+
+\textit{CGEL} makes the same move a third time for cardinal numerals, which are \enquote{primarily determinatives but they have a secondary use in which they inflect for number and hence belong in the noun category}: \mention{in threes}, \mention{in their hundreds} \citep[385]{huddleston2002}. Within Noun the plural cardinal is the same secondary use again, with no category to change; \textcite{reynolds2026numerals} supplies the separate case that cardinals have both uses.
+
+The rule can be stated once, with its input class stated: a Noun lexeme whose primary use identifies or quantifies over individuals, a name, a compound determinative, or a cardinal, has a secondary use in which it denotes the set of individuals fitting its description, the bearers of the name, the persons or things of the quantifier's description, the groups of the cardinal's size, and in that use it takes the common noun's dependents, an article, a pre-head adjective, plural inflection, and restrictive modifiers.
+
+The articles and \mention{every} have no such use (\ungram{\mention{an every}}); whether the personal pronouns do (\mention{the hes and shes}) I leave open. Within Noun the rule has three inputs. With separate D and \textit{CGEL}'s output categories, the compound and cardinal inputs change category; a shared schema can still state their common behaviour (§\ref{sec:overall-assessment}).\footnote{Whether the set-denoting use still admits the post-head restrictor (\mention{a certain someone special}) is a judgment I haven't tested; the corpus lines show article and pre-head adjective without it.}
+
+Locative compounds before a noun (\mention{an anywhere operation}) are the ordinary noun-as-modifier use and take their article from the head noun.
+
 \subsection{Independent genitives}\label{sec:genitive-head}
 
 \textit{CGEL} also uses fusion with nouns. Anaphoric \mention{mine}, understood as \enquote*{my car}, combines the possessive relation with an understood nominal description and receives a fused analysis. Predicative \mention{mine}, as in \mention{it's mine}, can instead mean \enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \citep[410--411, 470--471]{huddleston2002}. A suitable context may permit either reading.
@@ -559,29 +621,9 @@ The proposed analysis gives \mention{mine} ordinary Head in both anaphoric and p
 
 The genitive's person identifies the possessor; the independent NP's agreement follows the possessed entity or entities. Compare \mention{Mine is ready} (\enquote*{my contribution}) and \mention{Mine are ready} (\enquote*{my slides}). Ordinary Head needs a constructional agreement condition.
 
-Ordinary Head gives the independent determinatives one Head chain while preserving their distinct modifier conditions. Both taxonomies can use that structure; §\ref{sec:economy} asks whether Noun membership contributes further economy.
-
 \section{The matched fragment and comparative costs}\label{sec:economy}
 
 A grammatical \term{fragment} states conditions on a specified range of constructions. Each account assigns categories and Head relations to the same expressions. The conditions specify permitted functions, dependents, and combinations of forms. They describe structures directly, following the constraint-based approach outlined by \textcite{pullum2020theorizing}. Comparing their content and reuse makes the accounts' commitments explicit.
-
-Table~\ref{tab:economy} compares the four implementations. It distinguishes Head configurations, modifier conditions, and taxonomic consequences. The inventory, constructions, and readings remain fixed.
-
-\begin{table}[H]
-\centering\small
-\caption{Four implementations compared. The lexical and constructional restrictions and adjectival fusion are held fixed. Extending ordinary Head to independent genitives adds a constructional agreement condition (§\ref{sec:genitive-head}). Cardinal and \mention{one} groupings are consequences of the categorization.}\label{tab:economy}
-\setlength{\tabcolsep}{3pt}
-\begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{2.65cm}}
-\toprule
-Account & Independent determinatives & Modifier conditions & Taxonomic consequences \\
-\midrule
-D-noun, ordinary Head & Nom--NP with Head alone across bare, partitive, and externally determined uses. & Peripheral NP premodifiers; head-specific internal modifiers. Degree determinatives project NP. & D within Noun. Cardinal uses and the three \mention{one} lexemes are grouped there. \\
-Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis. & D remains separate from nominal counterparts. \\
-Separate D, fused Head & DP fills Det--Head or Mod--Head in nominal structure. & DP--Nom separates premodifiers and postmodifiers. Degree determinatives project DP. & Same primary-category divisions as separate D with ordinary Head. \\
-D-noun, fused Head & A projected NP fills Det--Head or Mod--Head in additional nominal structure. & Premodifiers within the fused NP; postmodifiers in the outer Nom. Degree determinatives project NP. & Same Noun grouping as the proposed analysis. \\
-\bottomrule
-\end{tabular}
-\end{table}
 
 \subsection{Scope and use permissions}\label{sec:fragment}
 
@@ -614,13 +656,23 @@ Form & Det & Mod & Subj & Obj / CompP & Target before another nominal \\
 
 Subj and Obj denote subject and object; CompP denotes complement of a preposition. The table's Mod column concerns internal modification. Peripheral \mention{a}, licensed with \mention{few}, \mention{little}, and modified \mention{many}, has a separate modifier permission (§\ref{sec:complex-determinatives}); the singular-count target shown applies only to its Det use. The \mention{no}/\mention{none} and \mention{my}/\mention{mine} pairs distinguish forms within a paradigm (§\ref{sec:form-selection}). Plain \mention{she}/\mention{her} distinguishes subject from object and prepositional-complement uses. Quotation, metalinguistic naming, and subordinate-clause uses of dependent genitives fall outside the fragment.
 
+In \mention{some apples}, \mention{some}'s phrase satisfies its Det permission and plural-count target selection. In \mention{Some left}, it satisfies its subject permission. \mention{Every apple} passes the dependent checks; independent \ungram{\mention{Every arrived}} fails its use permission.
+
 Target restrictions apply to the nominal being determined or modified, including a nominal headed by an independent determinative. Thus \mention{the} permits plural \mention{few} in \mention{the few}. Determinative-headed phrases also bear number and count properties: \mention{few} is plural count, while \mention{some} takes its interpretation from the construction and domain. The modifier \mention{this} in \mention{this much} expresses degree; its permission doesn't follow from demonstrative Det selection.
 
 \textcite[7--8]{hudson2004determiners} distinguishes dependency from external headedness. He argues that determiner and common noun depend on each other, although only one connects the phrase to its surroundings. His temporal adjunct evidence supports common-noun headedness: \mention{I saw him that day} is possible, whereas \ungram{\mention{I saw him that point in time}} isn't, despite the similar temporal meanings \citep[10--12]{hudson2004determiners}. The lexical noun matters, as well as the determiner restrictions.
 
 Reciprocal selection is compatible with this headedness. A singular count noun normally requires determination, while \mention{every} requires another nominal and \mention{some} doesn't. The noun can remain Head while both constituents impose conditions.
 
-In the external uses listed above, an expression has to pass three checks: permission for its use, selection of its form, and satisfaction of target and dependent conditions. An occurrence is admissible in an external function just when all three checks succeed. Permissions are indexed to the lexeme of the phrase's lexical head. The form and condition checks may consult the surrounding structure, including the target: independent \mention{none} is selected in \mention{none of the students}, and \mention{apples} is the target for \mention{some}'s phrase in \mention{some apples}.
+In the external uses listed above, an expression has to pass three checks: permission for its use, selection of its form, and satisfaction of target and dependent conditions. For a phrase occurrence $x$ with external function $f$ in a surrounding structure $s$, the shared use condition collects these checks:
+
+\[
+\operatorname{admissible}(x,f,s)
+\quad\Longleftrightarrow\quad
+f\in U_{\ell(x)}\ \land\ \operatorname{Form}(x,f,s)\ \land\ C(x,f,s).
+\]
+
+Here $\ell(x)$ identifies the lexical head's lexeme and $U_{\ell(x)}$ its use permissions. $\operatorname{Form}$ checks the selected form, including independent \mention{none} in \mention{none of the students}. $C$ checks the occurrence's dependents, its target where relevant, and the other constructional conditions. The structure $s$ includes both $x$ and its surroundings; for \mention{some}'s phrase in \mention{some apples}, it includes the target \mention{apples}.
 
 \subsection{Phrase categories and structural constraints}\label{sec:det-uniform}
 
@@ -637,7 +689,7 @@ I carry this PP-determiner provision over to the three NP-projecting implementat
 
 NP projection consolidates the principal phrase types in Det function; determinative-headed, genitive, and other licensed NPs are identified separately, and all four implementations have at most one Det per NP with the same definiteness and target-selection conditions. In the separate-D ordinary-Head account, an NP's ultimate lexical head can be Noun or D.
 
-The ordinary-Head accounts share three structural conditions. First, an NP core has a Nom as Head and at most one Det. Second, a nominal core has a lexical Head and only the dependents permitted for that head in its construction. Third, peripheral modification forms an NP with the modifier as dependent and another NP as Head, as in Figure~\ref{fig:every}. This keeps peripheral modification outside the core's Det and Nom dependents.
+The ordinary-Head accounts share three structural conditions. First, an NP core has a Nom as Head and at most one Det. Second, a nominal core has a lexical Head and only the dependents permitted for that head in its construction. Third, a peripheral modifier combines with an NP whose Head relation continues to an NP, as in Figure~\ref{fig:every}. This keeps peripheral modification outside the core's Det and Nom dependents.
 
 Where a word occurrence $h$ directly fills Head in Nom, let $\operatorname{Cat}(h)$ record its primary lexical category. Subcategory distinctions remain available. The two taxonomies impose different category conditions:
 
@@ -658,11 +710,13 @@ Postmodification permits zero or more ordered dependents, subject to the constru
 
 The approximatives retain the two attachment sites motivated in §\ref{sec:payne}: peripheral NP attachment in \mention{almost every} and internal attachment in externally determined \mention{the almost thirty who came}. Both ordinary-Head accounts require this distinction.
 
-The fragment incorporates the peripheral-\mention{a} conditions for \mention{a few}, \mention{a little}, and \mention{a great many}, including the obligatory modifier, and predeterminer \mention{many} in \mention{many a}, restricted to dependent use (§\ref{sec:complex-determinatives}).
+In \mention{a few mistakes} and \mention{a little water}, the NP headed by \mention{few} or \mention{little} fills Det and \mention{a} modifies the outer NP peripherally (§\ref{sec:complex-determinatives}). The same modifier attaches to an independent NP headed by \mention{few} or \mention{little}. Internal \mention{very} modifies \mention{few} in \mention{a very few}; peripheral \mention{quite} precedes \mention{a} in \mention{quite a few}. The lexical permission for peripheral \mention{a} includes modified \mention{many}, with the modifier obligatory in \mention{a great many}. \mention{Many a} is \mention{many} in predeterminer function on an \mention{a}-NP, which keeps it to dependent use (§\ref{sec:complex-determinatives}).
+
+The constraints also distinguish the uses of \mention{few}. In \mention{the few people}, its phrase is an internal Mod of the nominal headed by \mention{people}; in \mention{a few people}, \mention{few} heads the NP in Det and \mention{a} modifies the outer NP peripherally; in \mention{the lucky few}, \mention{few} heads the independently determined NP.
 
 Each phrase's use permission follows its own lexical head. In \mention{the apple}, the smaller article phrase has Det permission; the outer NP has argument permission through \mention{apple}, whose determination requirement is satisfied. Bare \ungram{\mention{Book arrived}} fails that requirement, while \mention{Books arrived} passes. The article's exclusion from argument use remains a separate condition.
 
-The fusion accounts retain these use, form, selection, and ordering conditions but assign different Head relations. Let $p$ be the independent NP, $m$ its Head Nom, and $x$ the shared determinative phrase. Let $n$ be the additional Nom in the Mod--Head configuration. Write $\operatorname{Head}(p,m)$ for \enquote*{$m$ fills Head in $p$}, and likewise for Det and Mod. The two configurations satisfy the following relations:
+The fusion accounts retain these use, form, selection, and ordering conditions but assign different Head relations. Let $p$ be the independent NP, $m$ its Head Nom, and $x$ the shared determinative phrase. Write $\operatorname{Head}(p,m)$ for \enquote*{$m$ fills Head in $p$}, and likewise for Det and Mod. The two configurations satisfy the following relations:
 
 \[
 \begin{aligned}
@@ -670,7 +724,7 @@ The fusion accounts retain these use, form, selection, and ordering conditions b
  &\operatorname{Head}(p,m),\quad \operatorname{Det}(p,x),\quad \operatorname{Head}(m,x); \\
 \text{Mod--Head:}\quad
  &\operatorname{Head}(p,m),\quad \operatorname{Mod}(m,x),\\
- &\operatorname{Head}(m,n),\quad \operatorname{Head}(n,x).
+ &\operatorname{Head}(m,n),\quad \operatorname{Head}(n,x),\qquad \operatorname{Cat}(n)=\mathrm{Nom}.
 \end{aligned}
 \]
 
@@ -683,6 +737,7 @@ Under D-noun with fusion, $x$ is the NP projected by the determinative noun. The
 Ordinary headedness uses the determinative's NP directly for bare, partitive, and externally determined expressions. In the fusion accounts, its DP or NP occupies the further nominal structure just specified. Section~\ref{sec:overall-assessment} assesses the relation between the taxonomy and the shared structure.
 
 Nesting determinative inside pronoun would add pronoun to the inheritance path from Noun without changing this fragment's judgments. Applying Hudson's nesting to the full determinative inventory used here is an extrapolation; §\ref{sec:inheritance} discusses the inventory differences.
+
 
 \subsection{Degree uses outside noun phrases}\label{sec:enough}
 
@@ -707,6 +762,24 @@ Informal attributive examples with nominal \mention{heaps} and \mention{lots} fu
 
 \subsection{Comparison of the four implementations}\label{sec:costs}
 
+Table~\ref{tab:economy} compares the four implementations. It distinguishes Head configurations, modifier conditions, and taxonomic consequences. The inventory, constructions, and readings remain fixed.
+
+\begin{table}[H]
+\centering\small
+\caption{Four implementations compared. The lexical and constructional restrictions and adjectival fusion are held fixed. Extending ordinary Head to independent genitives adds a constructional agreement condition (§\ref{sec:genitive-head}). Cardinal and \mention{one} groupings are consequences of the categorization.}\label{tab:economy}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{2.65cm}}
+\toprule
+Account & Independent determinatives & Modifier conditions & Taxonomic consequences \\
+\midrule
+D-noun, ordinary Head & Nom--NP with Head alone across bare, partitive, and externally determined uses. & Peripheral NP premodifiers; head-specific internal modifiers. Degree determinatives project NP. & D within Noun. Cardinal uses and the three \mention{one} lexemes are grouped there. \\
+Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis. & D remains separate from nominal counterparts. \\
+Separate D, fused Head & DP fills Det--Head or Mod--Head in nominal structure. & DP--Nom separates premodifiers and postmodifiers. Degree determinatives project DP. & Same primary-category divisions as separate D with ordinary Head. \\
+D-noun, fused Head & A projected NP fills Det--Head or Mod--Head in additional nominal structure. & Premodifiers within the fused NP; postmodifiers in the outer Nom. Degree determinatives project NP. & Same Noun grouping as the proposed analysis. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 The articles' restrictions, \mention{no}/\mention{none} form selection, the compound restrictor conditions, and the differences among existing noun subcategories in determination and modification (Table~\ref{tab:existing}) are the same under all four implementations.
 
 Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative conditions (§\ref{sec:payne}). For compounds, this NP--Nom boundary preserves the modifier-domain contrast that fusion expresses through its inner phrase and outer Nom (§\ref{sec:compounds}).
@@ -725,7 +798,7 @@ Complex cardinals also separate category from function. In \mention{two hundred 
 
 The D-noun analysis combines the two preferences. The lexical comparison favours Noun membership because nominal connections recur across more of the determinative system (§\ref{sec:membership}). The structural comparison favours the direct Head chain across the licensed uses (§\ref{sec:costs}). Within the proposed grammar, determinatives then meet the same Noun condition on lexical Heads in Nom as the existing subcategories (§\ref{sec:det-uniform}). That category condition expresses the grouping supported by the profile.
 
-Separate D with ordinary Head licenses the same structures by admitting N or D. The coverage audit (fifth supplement) compares four specified implementations across the fragment and selected wider comparisons, including degree uses (§\ref{sec:enough}). It records the mechanism that covers each construction family and lexeme group. Of its 103 cells, 35 are lexical facts identical in all four accounts. The fusion accounts state where partitives and relatives attach as constructional conditions, and \textit{CGEL}'s peripheral-modifier, number-transparency, and degree-modifier rules distinguish NPs from DPs.
+Separate D with ordinary Head licenses the same structures by admitting N or D. The coverage audit (fifth supplement) compares four specified implementations, recording the mechanism that covers each construction family and lexeme group. Of 103 cells, 35 are lexical facts identical in all four accounts. The fusion accounts state where partitives and relatives attach as constructional conditions, and \textit{CGEL}'s peripheral-modifier, number-transparency, and degree-modifier rules distinguish NPs from DPs.
 
 Both ordinary-Head accounts consolidate these rules. D-noun does so by reclassification, retaining the Noun condition on lexical Heads in Nom. The stated separate-D implementation adds D to that condition; the audit's 32 Dn cells record applications of this single condition. It also retains the category change for secondary uses and extends the head-genitive definition to D. These are commitments of the implementation compared, rather than costs established for every separate-D grammar.
 
@@ -733,35 +806,13 @@ A separate-D account could instead assign a nominal feature once to Noun and onc
 
 The feature would identify the same broad domain as the proposed Noun category while retaining the primary Noun--D boundary. I favour Noun membership because the profile comparison independently supports that grouping (§\ref{sec:membership}); the category then states the domain of the shared grammar directly. The audit shows what the four implementations state, but doesn't establish a strict description-length advantage over the feature formulation. The secondary use and the former complex determinatives weren't among the diagnostics of §\ref{sec:proposal}; they're additional consequences, not tests set in advance.
 
-The secondary set-denoting use of §\ref{sec:secondary-use} covers names, compound determinatives, and cardinals within Noun. With \textit{CGEL}'s categories the compound and cardinal inputs change category; a separate-D account can share the schema as just described.
+The grouping has a further consequence. Compound determinatives and proper nouns share a secondary set-denoting use in which the word takes an article, a pre-head adjective, and plural inflection (§\ref{sec:secondary-use}): \mention{a special someone} and \mention{such an anyone} beside \mention{an Ophelia} and \mention{the Smiths}. \textit{CGEL} describes the proper-noun case as a secondary use within Noun and treats the compound case as conversion to another category \citep[423, 521]{huddleston2002}. Within Noun, one secondary use covers both, and the article and the adjective follow from what the word now denotes. With \textit{CGEL}'s category assignments, the compound case changes category. The subcategory analysis expresses the shared use within Noun; a separate-D account can share its schema as described above.
 
-Several rules \textit{CGEL} states separately for nouns and determinatives can likewise be stated once: number transparency for \mention{lot}, \mention{number}, and \mention{some} (§\ref{sec:quant-nouns}); NP and determinative degree modifiers of adjectives (§\ref{sec:enough}); peripheral attachment in \mention{almost every} and \mention{only you} (§\ref{sec:payne}); and the head genitive in \mention{everyone's} and \mention{Edward's} (§\ref{sec:inflection}).
-
-The complex determinatives reduce to peripheral \mention{a} and predeterminer \mention{many} (§\ref{sec:complex-determinatives}). These generalizations are available under either ordinary-Head taxonomy: the proposed account states their domain through Noun membership, the separate-D alternative through the inherited feature. The profile of §\ref{sec:proposal} supplies the case for lexical-category status.
+The same pattern recurs where this paper has so far spoken of connections. The transparency rule for partitives is stated once for \mention{lot}, \mention{number}, and \mention{some} (§\ref{sec:quant-nouns}); one condition covers NP and determinative degree modifiers of adjectives (§\ref{sec:enough}); one peripheral attachment covers \mention{almost every} and \mention{only you} (§\ref{sec:payne}); and one definition of the head genitive covers \mention{everyone's} and \mention{Edward's} (§\ref{sec:inflection}). Each is a rule \textit{CGEL} states separately for nouns and for determinatives, and its complex determinatives dissolve into two of the account's existing constructions, peripheral modification by \mention{a} in \mention{a few} and predeterminer modification by \mention{many} in \mention{many a} (§\ref{sec:complex-determinatives}). These generalizations are available under either ordinary-Head taxonomy. The proposed account states their shared domain through Noun membership; the separate-D alternative can state it through the inherited feature. The profile of §\ref{sec:proposal} supplies the case for giving this domain lexical-category status.
 
 If determinative-headed and genitive expressions require different structural constraints after their independently motivated restrictions are held fixed, the shared-projection proposal in §\ref{sec:det-uniform} loses its advantage. That would favour separate phrase types. Retaining a separate primary D requires the further case that the category boundary captures the recurring differences better than a determinative subcategory within Noun.
 
-\section{Consequences and remaining taxonomic choices}\label{sec:consequences}
-
-The grouping permits one schema for the secondary uses of names, compound determinatives, and cardinals. Whether determinative and pronoun should form an intermediate category is a further choice.
-
-\subsection{Secondary set-denoting uses}\label{sec:secondary-use}
-
-Compound determinatives have a secondary set-denoting use, in which they take an article, a pre-head adjective, and plural inflection: lexicalized \mention{a special someone} and \mention{a certain someone}, and productively \mention{an anonymous someone}, \mention{the responsible someone}, \mention{a furry something}, and \mention{such an anyone}.\footnote{COCA: \mention{special someone} 282 tokens and \mention{certain someone} 120 (List counts, 17 September 2026); \enquote{if an anonymous someone with very little solid evidence on his/her claims can get basically every major media outlet} (\textit{Mashable}, 2017); \enquote{The responsible someone has to collect the rents} (\textit{Confrontation}, 2014); \enquote{a furry something swinging indelicately from its mouth. The something plopped wetly into her bowl} (\textit{Analog}, 2002), where the next sentence takes \mention{the}; \enquote{Not anyone. And if I cld think of such an anyone, I would go out there} (\textit{Bones}, 2010, transcript spelling). The plural forms are common: COCA List counts (17 September 2026) give \mention{somethings} 590, \mention{nothings} 416, \mention{nobodies} 318, \mention{somebodies} 115, \mention{anythings} 38, and \mention{anybodies} 20; the \mention{-wheres} forms are left out as dialectal adverbs. Screened lines under \texttt{corpus/exclusion\_tests/}.}
-
-\textit{CGEL} records \mention{a nobody} and \mention{a little something} as nouns formed by conversion \citep[423, n.~43]{huddleston2002}. Under the D-noun analysis no category change is involved: the use is the one \textit{CGEL} gives proper nouns in \mention{an Ophelia} and \mention{the Smiths}, where the name comes to \enquote{denote the set of people bearing this name} and then \enquote{takes a full range of dependents, including determiners and restrictive modifiers} \citep[521]{huddleston2002}.
-
-In both subcategories the article and the pre-head adjective follow from what the noun now denotes, a kind or an individual of the quantifier's description, and quantificational force is gone: \mention{an anybody} is a person of no particular standing. The quantifier and its nominal echo can share a text: \enquote{anybody could have competed. I qualified as an anybody} (\textit{Skiing}, 1992, COCA). One process thus covers two subcategories where \textit{CGEL} needs conversion for one and a secondary use for the other.
-
-\textit{CGEL} makes the same move a third time for cardinal numerals, which are \enquote{primarily determinatives but they have a secondary use in which they inflect for number and hence belong in the noun category}: \mention{in threes}, \mention{in their hundreds} \citep[385]{huddleston2002}. Within Noun the plural cardinal is the same secondary use again, with no category to change; \textcite{reynolds2026numerals} supplies the separate case that cardinals have both uses.
-
-The rule can be stated once, with its input class stated: a Noun lexeme whose primary use identifies or quantifies over individuals, a name, a compound determinative, or a cardinal, has a secondary use in which it denotes the set of individuals fitting its description, the bearers of the name, the persons or things of the quantifier's description, the groups of the cardinal's size, and in that use it takes the common noun's dependents, an article, a pre-head adjective, plural inflection, and restrictive modifiers.
-
-The articles and \mention{every} have no such use (\ungram{\mention{an every}}); whether the personal pronouns do (\mention{the hes and shes}) I leave open. Within Noun the rule has three inputs. With separate D and \textit{CGEL}'s output categories, the compound and cardinal inputs change category; a shared schema can still state their common behaviour (§\ref{sec:overall-assessment}).\footnote{Whether the set-denoting use still admits the post-head restrictor (\mention{a certain someone special}) is a judgment I haven't tested; the corpus lines show article and pre-head adjective without it.}
-
-Locative compounds before a noun (\mention{an anywhere operation}) are the ordinary noun-as-modifier use and take their article from the head noun.
-
-\subsection{Coordinate or nested subcategories}\label{sec:inheritance}
+\section{Coordinate or nested subcategories}\label{sec:inheritance}
 
 Including determinatives within Noun leaves a further question: where within Noun do they belong? In the proposed hierarchy, common noun, proper noun, pronoun, and determinative are four coordinate subcategories. Hudson puts his determiner category inside pronoun, which is itself inside Noun. Both group the relevant determinatives with nouns. They differ in whether pronouns and determinatives form an intermediate category that excludes common and proper nouns.
 
@@ -771,15 +822,17 @@ Hudson's criteria centre on licensing a singular count common noun and on mutual
 
 The intermediate category would be useful if it supported grammatical generalizations applying to pronouns and determinatives together. Coordinate rank permits unequal similarities among the noun subcategories. The issue is whether their shared properties warrant another level in the lexical hierarchy.
 
-\textcite{reynolds2021} compares 138 word forms through properties recorded as present or absent, such as accepting \mention{almost}. Its unsupervised clustering groups forms by these similarities without being given their category labels. The groups broadly resemble the pronoun and determinative inventories, though the outcome varies with initialization and feature selection.\footnote{The public 155-feature file differs from a recovered 232-feature working matrix, which isn't authenticated as the published input; the accompanying \href{run:matrix-audit.pdf}{\textit{matrix audit}} documents the differences, reproduction, and sensitivity.} But the study contains no common or proper nouns, and extending the comparison to the open categories would require new sampling, feature selection, and coding. Distinguishing the two groups establishes neither their taxonomic rank nor the proposed superordinate category; the examples discussed here aren't representative samples of the open categories.
+\textcite{reynolds2021} compares 138 word forms through properties recorded as present or absent, such as accepting \mention{almost}. Its unsupervised clustering groups forms by these similarities without being given their category labels. The groups broadly resemble the pronoun and determinative inventories, though the outcome varies with initialization and feature selection.\footnote{Relative to a recovered 232-feature working matrix, the public 155-feature file omits 76 singleton columns and one all-zero column. The accompanying \href{run:matrix-audit.pdf}{\textit{Replication audit of the English determinative--pronoun feature matrix}} documents the remaining coding differences, reproduces the published statistical decomposition, and examines sensitivity. The recovered matrix isn't authenticated as the published input; the public file is preserved unchanged.} But the study contains no common or proper nouns. Distinguishing the two groups therefore establishes neither their taxonomic rank nor the proposed superordinate category.
+
+Adding common nouns, proper nouns, and adjectives would require new sampling, feature selection, and coding across all groups. The examples discussed here aren't representative samples of the open categories.
 
 The grammatical case for nesting includes shared lexical properties (Table~\ref{tab:existing}). Pronouns and determinatives both have closed inventories, and both include gender-sensitive forms and interrogative or relative forms. The contrasts \mention{she}/\mention{it} and \mention{somebody}/\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal (§\ref{sec:inflection}). These connections are more specific than their general dependence on context.
 
 The \mention{my}/\mention{mine} and \mention{no}/\mention{none} paradigms supply a further grammatical parallel (§\ref{sec:form-selection}). In ordinary NP uses, both distinguish dependent and independent forms. The parallel has limited lexical reach, but it supplies positive evidence for the proposed intermediate grouping.
 
-Modifier selection gives mixed support: restricted adjectival modification in \mention{poor old me} \citep[429--430]{huddleston2002} has a counterpart in \mention{the lucky few}. Both groups permit peripheral NP modifiers (§\ref{sec:payne}), while the four gradable quantifiers also permit the internal degree-AdvP series (§\ref{sec:adjectival-profile}).
+Modifier selection gives mixed support. Personal pronouns permit restricted adjectival modification, as in \mention{poor old me} \citep[429--430]{huddleston2002}; compare determinative \mention{the lucky few}. Both groups permit peripheral NP modifiers (§\ref{sec:payne}). The four gradable quantifiers also permit the internal degree-AdvP series discussed in §\ref{sec:adjectival-profile}.
 
-Personal pronouns and primary naming uses of proper nouns both resist free determination \citep[429--430, 517, 519--520]{huddleston2002}. Determinatives allow \mention{the few}, \mention{the two}, and \mention{these three}; \textit{CGEL} gives \mention{these few here} and \mention{the many who did} \citep[415--416]{huddleston2002}.
+Determination gives weaker support for an exclusive pronoun--determinative grouping. Personal pronouns and primary naming uses of proper nouns both resist free determination \citep[429--430, 517, 519--520]{huddleston2002}. Determinatives allow \mention{the few}, \mention{the two}, and \mention{these three}; \textit{CGEL} gives \mention{these few here} and \mention{the many who did} \citep[415--416]{huddleston2002}. These distributions show how restrictions intersect across the noun subcategories.
 
 I retain coordinate rank because the closer affinities cross the proposed intermediate boundary. Partitives, number transparency, restricted dependents, and degree uses connect determinatives with quantificational common nouns (§\ref{sec:quant-nouns}), while reference and selected form alternations connect them with pronouns. The coordinate analysis records both connections within Noun and preserves the distinct organization of each subcategory: person, case, and reflexivity in much of the pronoun system; quantification, determination, and degree in much of the determinative system.
 
@@ -791,21 +844,19 @@ I propose including English determinatives within Noun. The strongest positive c
 
 The grouping includes restricted members through their integration into the determinative system. Articles participate in its contrasts in definiteness, quantity, and count selection; \mention{no}/\mention{none} retains its form-selection conditions.
 
-The ordinary-Head analysis uses the same chain in bare, partitive, and externally determined expressions: the word heads Nom, and Nom heads NP. The taxonomic and structural choices complement each other: the nominal profile supports grouping determinatives with nouns, and that grouping satisfies the proposed grammar's category condition on lexical Heads in Nom. The coverage audit distinguishes the stated separate-D implementation from an alternative that shares nominal conditions through an inherited feature. The latter can express the shared domain too; the profile comparison supplies the case for treating that domain as Noun.
-
-Under D-noun, the three specified inputs~-- names (\mention{an Ophelia}), compound determinatives (\mention{a special someone}), and cardinals (\mention{in threes})~-- share one secondary-use schema without a change of primary category (§\ref{sec:secondary-use}, §\ref{sec:overall-assessment}). The complex determinatives \mention{a few} and \mention{many a} dissolve into peripheral modification by \mention{a} and predeterminer modification by \mention{many} (§\ref{sec:complex-determinatives}).
+The ordinary-Head analysis uses the same chain in bare, partitive, and externally determined expressions: the word heads Nom, and Nom heads NP. The taxonomic and structural choices complement each other: the nominal profile supports grouping determinatives with nouns, and that grouping satisfies the proposed grammar's category condition on lexical Heads in Nom. The coverage audit distinguishes the stated separate-D implementation from an alternative that shares nominal conditions through an inherited feature. The latter can express the shared domain too; the profile comparison supplies the case for treating that domain as Noun. The grouping also unifies three secondary uses that \textit{CGEL} keeps apart: the set-denoting compound (\mention{a special someone}), the set-denoting proper noun (\mention{an Ophelia}), and the plural cardinal (\mention{in threes}) fall under one process once all three are nouns (§\ref{sec:secondary-use}, §\ref{sec:overall-assessment}), and the complex determinatives \mention{a few} and \mention{many a} dissolve into peripheral modification by \mention{a} and predeterminer modification by \mention{many} (§\ref{sec:complex-determinatives}).
 
 Coordinate rank alongside pronoun is a further preference, since the comparisons connect determinatives with both pronouns and quantificational common nouns.
 
 \appendix
 
-\section{Earlier accounts}\label{sec:historical}
+\section{Earlier accounts and logical alternatives}\label{sec:historical}
 
-Keeping a word in one category across dependent and independent uses leaves its taxonomic position open. As \textcite[232--235]{lyons1968} observes, distribution can be compared at different levels: two expressions may belong together at one level and differ at a more specific level. Table~\ref{tab:rivals} distinguishes the selected authors' proposals and their analytical levels.
+Keeping a word in one category across dependent and independent uses leaves its taxonomic position open. As \textcite[232--235]{lyons1968} observes, distribution can be compared at different levels: two expressions may belong together at one level and differ at a more specific level. Table~\ref{tab:rivals} distinguishes the selected authors' proposals, their analytical levels, and further logical alternatives.
 
 \begin{table}[H]
 \centering\small
-\caption{Selected accounts. The earlier proposals differ in scope and representational level; they don't all specify a surface taxonomy.}\label{tab:rivals}
+\caption{Selected accounts and logical alternatives. The earlier proposals differ in scope and representational level; they don't all specify a surface taxonomy. The final four rows map further possibilities beyond the developed comparisons.}\label{tab:rivals}
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{6.2cm}>{\raggedright\arraybackslash}p{3.05cm}}
 \toprule
@@ -820,6 +871,10 @@ Hudson (\citeyear{hudson2004determiners}) & His determiner category within prono
 Van Eynde (\citeyear{vaneynde2003determiner}) & Determiners categorially heterogeneous on inflection and agreement: those that inflect like prenominal adjectives are adjectives; genitives and non-agreeing pronouns are nouns (Italian, Dutch; see §\ref{sec:membership}). & Lexical taxonomy, cross-linguistic \\
 Spinillo (\citeyear{spinillo2004reconceptualising}) & Determinatives redistributed; \mention{the}, \mention{a}, and \mention{every} retained as articles. & Lexical recategorization \\
 D-noun categorization & Common noun, proper noun, pronoun, and determinative coordinate within Noun. & Proposed taxonomy \\
+Logical alternative & Noun, pronoun, and determinative separate. & For comparison \\
+Logical alternative & Determinative within Noun; pronoun separate. & For comparison \\
+Logical alternative & Pronoun within determinative, which is within Noun. & For comparison \\
+Logical alternative & Pronoun within proper noun; determinative within common noun. & For comparison \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -834,7 +889,7 @@ These predecessors challenge a fundamental article--pronoun separation but don't
 
 \section*{Data and analysis materials}
 
-The accompanying supplements are \href{run:matrix-audit.pdf}{\textit{Replication audit of the English determinative--pronoun feature matrix}}, \href{run:corpus-documentation.pdf}{\textit{CGELBank concordance and extraction notes}}, \href{run:quantifier-controls.pdf}{\textit{Quantificational controls: attestations and provenance}}, \href{run:claim-register.pdf}{\textit{Claim register: participation claims by diagnostic, lexeme, status, and basis}}, which records the participation claims identified by the documented census and subsequent amendments, with their diagnostic, lexeme, status, and stated basis, so that the comparison in §\ref{sec:membership} can be inspected lexeme by lexeme, and \href{run:coverage-audit.pdf}{\textit{Coverage audit: the fragment and selected wider comparisons}}, which records how the four implementations cover the fragment and selected wider comparisons (§\ref{sec:economy}). The \texttt{analysis/} and \texttt{corpus/} directories preserve their input files, provenance records, scripts, numerical outputs, and sentence concordance. The analysis README identifies the files and reproduction procedures.
+The accompanying supplements are \href{run:matrix-audit.pdf}{\textit{Replication audit of the English determinative--pronoun feature matrix}}, \href{run:corpus-documentation.pdf}{\textit{CGELBank concordance and extraction notes}}, \href{run:quantifier-controls.pdf}{\textit{Quantificational controls: attestations and provenance}}, \href{run:claim-register.pdf}{\textit{Claim register: participation claims by diagnostic, lexeme, status, and basis}}, which lists this article's participation claims by diagnostic and lexeme, with status and stated basis, so that the comparison in §\ref{sec:membership} can be inspected lexeme by lexeme, and \href{run:coverage-audit.pdf}{\textit{Coverage audit: how the four implementations cover the fragment's constructions}}, which classifies, for every construction family and lexeme group of §\ref{sec:economy}, how each implementation covers the facts. The \texttt{analysis/} directory preserves their input files, provenance records, scripts, numerical outputs, and sentence concordance. Its README identifies the files and reproduction procedures.
 
 \clearpage
 \printbibliography

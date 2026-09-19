@@ -36,9 +36,9 @@ def discrimination(con):
     """positive favours Noun (property general for nouns, absent for adjectives); None when a side is unsourced"""
     a, b = typ(con, "common_noun"), typ(con, "adjective")
     return None if a is None or b is None else RANK[a] - RANK[b]
-# Order follows the article's argument: §2.1 functions and constructional range, §§2.2 and 2.5 nominal
-# connections, §2.4 the adjectival profile, then the structural analysis of §4. Within a block, the
-# section's own order. A diagnostic not listed here falls into a final block.
+# Blocks group §2.4 functions and constructional range, §§2.1 and 2.3 nominal
+# connections, §2.2 the adjectival profile, and the structural analysis of §4.
+# A diagnostic not listed here falls into a final block.
 GROUPS = [("Functions and constructional range", ["independent_argument", "independent_partitive", "existential_displaced_subject", "dependent_det", "dependent_internal_mod", "predeterminer_mod", "coordination_marker"]),
           ("Nominal connections", ["number_agreement", "external_determination", "internal_mod_admission", "peripheral_mod_admission", "relative_postmod_admission", "genitive_marking", "number_inflection", "compound_base"]),
           ("Adjectival profile", ["grade_inflection", "degree_modifier_adj", "degree_modifier_nonadj", "comparative_complement", "predicative_complement"]),

@@ -1,0 +1,137 @@
+{
+  "files": {
+    "determinatives-as-nouns.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 4,
+      "examples_z": 4
+    },
+    "matrix-audit.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 0,
+      "examples_z": 0
+    },
+    "corpus-documentation.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 2,
+      "examples_z": 2
+    },
+    "quantifier-controls.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 8,
+      "examples_z": 8
+    },
+    "claim-register.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 0,
+      "examples_z": 0
+    },
+    "coverage-audit.tex": {
+      "duplicate_labels": [],
+      "undefined_refs": [],
+      "unclosed_environments": [],
+      "environment_errors": [],
+      "brace_depth": 0,
+      "premature_close_brace": false,
+      "examples_ea": 0,
+      "examples_z": 0,
+      "included_label_resolution": {
+        "tab:rules": "analysis/generated/coverage-summary.tex"
+      }
+    }
+  },
+  "paragraphs_over_100": [
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 99,
+      "words": 117,
+      "text": "Each of the people takes singular agreement by default, and ordinary a photograph of the people takes it categorically, so neither is number-transparent in CGEL's sense. The contrast isn't absolute, though. Plural agreement after each of them is well attested; plural verb forms account for about a sixth of the relevant COCA query hits. Plural agreement also occurs after each of the with a plural noun, including in edited prose. That variation is agreement with the nearer or notional plural, the pattern familiar from a number of the people were, and it leaves each singular; with some of the people, by contrast, plural agreement is the only option. Number transparency specifically connects quantificational lot with number-neutral some."
+    },
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 147,
+      "words": 108,
+      "text": "Case gives a further partial connection. Genitives occur across the proposed subcategories: dog's, Kim's, my, and someone's. Personal pronouns have fuller case paradigms. Most determinatives lack case inflection. The compounds' genitives belong to the NP: CGEL lists everyone's beside Edward's among head genitives, marked by the inflection of the head noun, and everyone else's and somebody local's beside the King of England's among phrasal genitives, with the suffix after the postmodifier . On CGEL's categorization the head of everyone's is a determinative, so that definition is stretched at this point; within Noun it isn't. This supports the compounds' nominal affinity more directly than the category's membership as a whole."
+    },
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 271,
+      "words": 136,
+      "text": "CGEL's treatment of my supplies a precedent for a restricted noun form . Dependent my and independent mine belong to one pronoun paradigm. My remains a noun even though, in the ordinary NP construction, it requires a following nominal. The articles lack an independent argument form; their positive evidence is integration into determinative, and their nounhood depends on the category-level argument. The inference has two stages. The first places the articles within the determinative category: they fill the Det position the unrestricted members fill, take part in its contrasts of definiteness, quantity, and count selection, and sit inside the determinative cluster of the 2021 matrix (\u00a7). The second places that category within Noun by the profile of \u00a7. The criterion for a restricted member is the first stage; nothing in it asks the articles for a use they lack."
+    },
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 311,
+      "words": 113,
+      "text": " draws the same line from the other side: such a and what a aren't instances of the Big Mess construction (how long a bridge), since what and such are invariably lexical and lexically select a nominal which is either unmarked or introduced by the indefinite article. I treat degree such and exclamative what as determinatives with these two functions; the kind sense of such (such contract as may be executed, many such problems) is the determinative such of CGEL's inventory. With peripheral a in a few and predeterminer many in many a, no complex determinatives remain in this account; CGEL's other members of that class, cardinals above a hundred, are the subject of ."
+    },
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 700,
+      "words": 102,
+      "text": "Enough also modifies adjectives, adverbs, verbs, and some PPs: good enough, quickly enough, I hadn't prepared enough, and enough in control . The degree determinatives much and little, and no/none, likewise have uses outside NP structure .  surveys the determinatives that modify AdjPs, AdvPs, and PPs (more, less, enough, that, much, a little, all) and finds their distribution idiosyncratic lexeme by lexeme, as adjective intensifiers are generally, with no pattern that sets any of them apart as an adverb; the modifying phrases take modifiers of their own (far fewer, much more, so much), the internal structure an NP headed by a determinative supplies."
+    },
+    {
+      "file": "determinatives-as-nouns.tex",
+      "line": 837,
+      "words": 123,
+      "text": "The accompanying supplements are run:matrix-audit.pdfReplication audit of the English determinative--pronoun feature matrix, run:corpus-documentation.pdfCGELBank concordance and extraction notes, run:quantifier-controls.pdfQuantificational controls: attestations and provenance, run:claim-register.pdfClaim register: participation claims by diagnostic, lexeme, status, and basis, which records the participation claims identified by the documented census and subsequent amendments, with their diagnostic, lexeme, status, and stated basis, so that the comparison in \u00a7 can be inspected lexeme by lexeme, and run:coverage-audit.pdfCoverage audit: the fragment and selected wider comparisons, which records how the four implementations cover the fragment and selected wider comparisons (\u00a7). The analysis/ and corpus/ directories preserve their input files, provenance records, scripts, numerical outputs, and sentence concordance. The analysis README identifies the files and reproduction procedures."
+    },
+    {
+      "file": "quantifier-controls.tex",
+      "line": 128,
+      "words": 106,
+      "text": "NOW: Daily Times (Pakistan), 20 October 2022; New York Times, 4 March 2022. Also Everyone can have the ability to do this, but few have the durability to do it (Los Angeles Times, 27 September 2021). Of 94 NOW lines for few would, read in full by Brett Reynolds, 82 have nothing in the visible context that supplies the set, 5 have it (letting 1,000 flowers bloom and hoping a few would pan out, Computerworld, 2021), and 7 can't be decided from the window; the screening model had labelled 89 and 5, agreeing on four of the five. Lines and reading under corpus/independent\\_argument/."
+    },
+    {
+      "file": "claim-register.tex",
+      "line": 24,
+      "words": 101,
+      "text": "This supplement records participation claims identified in the census of 14 September 2026, with subsequent amendments, by diagnostic and lexeme, with the claim's status (licensed, conditional, excluded) and the basis the article gives for it at that point in the text. It exists so that the comparison in \u00a72 of Determinatives as nouns in English can be inspected: for each diagnostic, which lexemes the article treats as showing the property, which as excluded, and on what evidence. It is a register of what the article asserts, not an independent survey of English, and it doesn't assess whether any claim is correct."
+    },
+    {
+      "file": "claim-register.tex",
+      "line": 28,
+      "words": 300,
+      "text": "A census of the article's sentences was produced on 14 September 2026 by a language model (Aristotle, Harmonic) reading each section and recording claims that an expression participates in a construction, with an exact quotation:  claims across all 28 sections, every quotation an exact substring of the source, and ten withheld acceptance cases all reached. The census is model-identified: the acceptance cases and the keyed claims below test recall of known claims and agreement of labels, not the rate of omitted or spurious claims, which no human audit has estimated. Each claim was then labelled with a diagnostic from a 22-item catalogue by  in two passes; against the  independently keyed claims paired with census claims, the label was reproduced for . A second model (TypeSafe jev-1.13.0) labelled all  claims independently on 16 September 2026; on the  claims where it reported confidence of 0.8 or above, it agrees with the current labels on . The basis of each claim is the article's own: an attestation footnote, a starred form, or a citation at the sentence, and otherwise the census's reading of the sentence. Since the census,  claims have been withdrawn with the sentences they quoted (listed with the reasons in amendments.json), leaving . Of these,  are classed as taxonomic or methodological rather than constructional,  are labelled only other, and a further  have no resolvable lexeme ( more lexeme-less claims fall in the first two classes); the register covers the remaining  claims as  claim--lexeme pairs, since a claim that names two lexemes appears once under each. The quotation check tests the recorded wording against the current article. It detects wording changes, but doesn't detect new or omitted claims; the register isn't an exhaustive inventory of the current draft. Files, scripts, and model outputs are in the project repository under analysis/manuscript-census-2026-09-14/."
+    },
+    {
+      "file": "coverage-audit.tex",
+      "line": 23,
+      "words": 152,
+      "text": "The article's \u00a75 compares four implementations of the same facts: the D-noun categorization with ordinary Head (I1), a separate determinative category with ordinary Head (I2), a separate category with CGEL's fusion of functions (I3), and the D-noun categorization with fusion (I4). It states which conditions the accounts share and which are specific to one of them. This audit records how each implementation covers the construction families and lexeme groups in the fragment and selected wider comparisons: by a general rule of that grammar (D), by a general rule that applies only because the grammar admits a determinative as the lexical head of Nom and NP (Dn), by a rule the grammar has to state once for nouns and again for determinatives, or once for NP and again for DP (D2), by a fact stored on the lexeme (L), by a condition stated for that construction alone (S), or not at all (U)."
+    },
+    {
+      "file": "coverage-audit.tex",
+      "line": 25,
+      "words": 219,
+      "text": "The classifications are the author's, made by hand from the article's stated conditions and the sections cited beside each cell; they are the analysis, not data. The precedence rule is this: a cell records the mechanism by which the implementation covers the licensed use. Shared lexical permissions, target selection, forms, and inflection are held fixed across the four implementations. A lexical fact is coded L where it's a permission or exclusion alone; where a licensed use is covered by a rule, the rule's class is recorded even though the permission is presupposed. S and D2 codes count cells; the distinct conditions and duplicated rules behind them are listed separately (Table~), since a condition stated once may apply in several cells. The comparison concerns the rules and facts each account has to state for the audited constructions. The minimum description length principle motivates assessing complete representations , but this audit doesn't define a common encoding or estimate an MDL score. Beside each cell the audit prints the number of participation claims the claim register records for that family and group, as licensed/conditional/excluded, so that a cell's classification can be checked against what the article asserts there. Cells with no claim and no analysis in the article are left out; the article's analysis, not the register, decides which cells exist."
+    }
+  ],
+  "paragraph_review_outcome": "Readability triage only: the two methods paragraphs over 200 words were split after review. Brett explicitly declined strict length enforcement.",
+  "status": "Completed source audit; no PDF build or inspection."
+}

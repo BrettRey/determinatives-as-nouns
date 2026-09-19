@@ -98,7 +98,7 @@ def main():
         dups = set(per[i] for per in J.get("cell_duplications", {}).values() if i in per)
         s.append(f"{i} & {len(conds)} & {len(dups)} & {tex(', '.join(sorted(c.replace('_', ' ') for c in conds)))} \\\\")
     s += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
-    # sensitivity: the second-round report's principles, with and without the disjunct priced at zero
+    # Sensitivity under alternative coding conventions, with and without Dn recoded as D.
     def recode(cells, free_dn):
         out = {}
         for key, c in cells.items():
@@ -109,11 +109,12 @@ def main():
             if free_dn: codes = [("D" if x == "Dn" else x) for x in codes]
             out[key] = codes
         return out
-    for label, free in (("the report's principles (1)--(4)", False), ("the same with the disjunct priced at zero (5)", True)):
+    for caption, free in (("Sensitivity under alternative coding conventions: lexical licensing takes precedence; the fused inner-phrase restriction is counted once; typed schemas replace duplicated rules; and the secondary use is construction-specific in every account.", False),
+                          ("Sensitivity under the same alternative coding conventions, additionally treating the N or D head condition as a general rule (Dn recoded as D).", True)):
         rc = recode(J["cells"], free); cnt = {i: collections.Counter() for i in IMPL}
         for codes in rc.values():
             for i, code in zip(IMPL, codes): cnt[i][code] += 1
-        s += ["\\begin{table}[H]\\centering\\small", f"\\caption{{Sensitivity: cells by class under {label}.}}",
+        s += ["\\begin{table}[H]\\centering\\small", f"\\caption{{{caption}}}",
               "\\begin{tabular}{lrrrrrr}", "\\toprule", "Implementation & D & Dn & D2 & L & S & U \\\\", "\\midrule"]
         for i, lab in J["implementations"]:
             c = cnt[i]; s.append(f"{i} & {c['D']} & {c['Dn']} & {c['D2']} & {c['L']} & {c['S']} & {c['U']} \\\\")

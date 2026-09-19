@@ -2,7 +2,7 @@
  "derived_from": {
   "census-repartitioned.json": "3ed4dd9b7bd5fe21cdd572438118275ba6cc6bdad4dbc5c95fe942781f54d00c",
   "claims-enriched.json": "ec061fe7726373f47461157927590fa77062ebacb02c55932a57d25680a9e173",
-  "determinatives-as-nouns.tex": "be578675bcab7d216e08d56eea3ff53d8521422add86f2a1e6d4bc50382354a7"
+  "determinatives-as-nouns.tex": "a319a186b9ecbad647a66b0ba44299f14562020d7494ce193ee15d024e26e4a0"
  },
  "reconciliation_rule": "attestation footnote at the sentence -> retained_attestation; \\ungram in the quote -> constructed_ungrammatical; searched_not_found kept; CGEL cited in the sentence -> cgel_described (cgel_restricted kept); another work cited in the sentence -> other_source_described; otherwise the census label.",
  "catalogue": [
@@ -1204,7 +1204,7 @@
    "construction": "ordinary Head of a nominal (Nom) which heads NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The alternative has \\mention{some} head a nominal (Nom) directly, with Nom heading NP.",
+   "quote": "The alternative has \\mention{some} head a nominal (Nom) directly, with Nom heading NP: the \\term{ordinary-Head analysis}.",
    "lexeme_ids": [
     "lex_some"
    ],
@@ -1223,7 +1223,7 @@
   },
   {
    "id": "int-006",
-   "section_label": "sec:intro",
+   "section_label": "sec:head-relations",
    "expression": "\\mention{the rich}",
    "construction": "Mod--Head fusion",
    "status": "licensed",
@@ -1336,7 +1336,7 @@
   },
   {
    "id": "int-010",
-   "section_label": "sec:intro",
+   "section_label": "sec:article-membership",
    "expression": "\\mention{every}",
    "construction": "determiner before a singular count nominal, as in \\mention{every apple}",
    "status": "licensed",
@@ -1358,7 +1358,7 @@
   },
   {
    "id": "int-011",
-   "section_label": "sec:intro",
+   "section_label": "sec:article-membership",
    "expression": "\\mention{some}",
    "construction": "independent object, as in \\mention{I'll take some}",
    "status": "licensed",
@@ -1380,7 +1380,7 @@
   },
   {
    "id": "int-012",
-   "section_label": "sec:intro",
+   "section_label": "sec:article-membership",
    "expression": "\\mention{every}",
    "construction": "independent (object) use without a following nominal",
    "status": "excluded",
@@ -1570,7 +1570,7 @@
   },
   {
    "id": "int-020",
-   "section_label": "sec:intro",
+   "section_label": "sec:proposal",
    "expression": "pronouns",
    "construction": "NP functions supporting inclusion within Noun",
    "status": "licensed",
@@ -1628,7 +1628,7 @@
    "construction": "subject, object, and complement-of-preposition functions",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Noun phrases can serve as subjects, objects, and complements of prepositions.",
+   "quote": "NPs serve as subjects, objects, and complements of prepositions",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -1648,7 +1648,7 @@
    "construction": "subject, object, and complement-of-preposition functions",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "Independent determinative expressions enter these constructions too.",
+   "quote": "NPs serve as subjects, objects, and complements of prepositions; independent determinative expressions share these functions.",
    "condition": "Subject to lexical restrictions on individual determinatives.",
    "quote_previous": "Independent determinative expressions enter these constructions too, with the lexical restrictions illustrated below.",
    "quote_amended": "2026-09-18: hedging-cadence edits (cluster 6 of the editorial scar-tissue pass); see DECISIONS.md",
@@ -2211,10 +2211,10 @@
    "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "cgel_described",
-   "quote": "§\\ref{sec:article-membership} reanalyses that pair, and \\textit{CGEL}'s complex determinative \\mention{many a} \\citep[394]{huddleston2002}, as determinatives in predeterminer function",
+   "quote": "§\\ref{sec:complex-determinatives} reanalyses that pair, and \\textit{CGEL}'s complex determinative \\mention{many a} \\citep[394]{huddleston2002}, as determinatives in predeterminer function",
    "condition": "Restricted to Det function; no other function licensed.",
    "quote_previous": "The fixed \\mention{many a} is a complex determinative restricted to Det function",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged.",
    "expression_previous": "\\mention{many a}",
    "construction_previous": "Det function only",
    "lexeme_ids": [
@@ -2737,7 +2737,7 @@
    "construction": "fused head of an NP on the generic human reading",
    "status": "conditional",
    "evidence_type": "cgel_restricted",
-   "quote": "an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading",
+   "quote": "an NP with \\mention{rich} as fused Head requires the definite article \\mention{the} on the generic human reading",
    "condition": "Requires the definite article \\mention{the} on the generic human reading.",
    "lexeme_ids": [
     "lex_rich"
@@ -2755,7 +2755,9 @@
     "huddleston2002"
    ],
    "evidence_type_reconciled": "cgel_restricted",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "ind-044",
@@ -2764,7 +2766,7 @@
    "construction": "argument NPs",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "argument NPs headed by singular count common nouns also need determination",
+   "quote": "Singular count common nouns also need determination in argument NPs.",
    "condition": "Determination required.",
    "lexeme_ids": [],
    "phrases": [],
@@ -3644,10 +3646,13 @@
    "construction_id": "internal_mod_admission",
    "construction_other": null,
    "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [],
+   "basis_signals": [
+    "attestation_footnote"
+   ],
    "cited_keys_sentence": [],
-   "evidence_type_reconciled": "constructed_illustration",
-   "label_uncited_at_locus": false
+   "evidence_type_reconciled": "retained_attestation",
+   "label_uncited_at_locus": false,
+   "basis_note": "2026-09-19: source footnote restored at this sentence, identifying the attestation documented in corpus-documentation.tex."
   },
   {
    "id": "qn-001",
@@ -6108,12 +6113,12 @@
    "id": "ap-055",
    "section_label": "sec:adjectival-profile",
    "expression": "\\mention{a} in \\mention{a few}",
-   "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}, with \\mention{very} on the head and \\mention{quite} on the NP",
+   "construction": "peripheral NP modification: modifier use of a",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "On the analysis of §\\ref{sec:article-membership}, \\mention{a few} is an NP with \\mention{a} in Det and \\mention{few} as head, so \\mention{very} modifies the head and \\mention{quite} modifies the NP, as in \\mention{quite a mess}.",
+   "quote": "Both \\mention{a} and \\mention{quite} are peripheral modifiers of the larger NP, with \\mention{quite} preceding \\mention{a}.",
    "quote_previous": "Here \\mention{a} belongs to the complex determinative; \\mention{very} occurs within it and \\mention{quite} outside it.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September.",
    "construction_previous": "membership of the complex determinative, with internal and external modifier positions around it",
    "lexeme_ids": [
     "lex_a"
@@ -6123,15 +6128,17 @@
    ],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id": "other",
+   "construction_other": "peripheral NP modifier use",
+   "construction_provenance": "Author correction, 2026-09-19: a functions as peripheral modifier; the catalogue's peripheral_mod_admission describes a host admitting a modifier, not the modifier's own function.",
    "basis_signals": [
     "cgel_cited_paragraph"
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "expression_previous": "\\mention{a} in \\mention{a few}",
+   "construction_id_previous": "dependent_det"
   },
   {
    "id": "inf-001",
@@ -8135,12 +8142,12 @@
    "id": "am-017",
    "section_label": "sec:article-membership",
    "expression": "\\mention{a}",
-   "construction": "Det of the NP \\mention{a few}, headed by \\mention{few}",
+   "construction": "peripheral NP modification: modifier use of a",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+   "quote": "In \\mention{a few mistakes}, \\mention{few} heads the NP in Det, while \\mention{a} modifies the larger NP headed by \\mention{mistakes}.",
    "quote_previous": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September.",
    "construction_previous": "complex determinative \\mention{a few}",
    "lexeme_ids": [
     "lex_a"
@@ -8148,28 +8155,26 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [
-    "cgel_cited_sentence"
-   ],
-   "cited_keys_sentence": [
-    "huddleston2002"
-   ],
+   "construction_id": "other",
+   "construction_other": "peripheral NP modifier use",
+   "construction_provenance": "Author correction, 2026-09-19: a functions as peripheral modifier; the catalogue's peripheral_mod_admission describes a host admitting a modifier, not the modifier's own function.",
+   "basis_signals": [],
+   "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": true,
+   "expression_previous": "\\mention{a}",
+   "construction_id_previous": "dependent_det"
   },
   {
    "id": "am-018",
    "section_label": "sec:article-membership",
    "expression": "\\mention{a}",
-   "construction": "Det of the NP \\mention{a little}, headed by \\mention{little}",
+   "construction": "peripheral NP modification: modifier use of a on an independent quantifier",
    "status": "licensed",
    "evidence_type": "cgel_described",
-   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+   "quote": "In independent \\mention{a few}, \\mention{a} modifies the NP headed by \\mention{few}.",
    "quote_previous": "\\mention{A} also enters the complex determinatives \\mention{a few}, \\mention{a little}, and \\mention{many a}.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September.",
    "construction_previous": "complex determinative \\mention{a little}",
    "lexeme_ids": [
     "lex_a"
@@ -8177,17 +8182,19 @@
    "phrases": [],
    "class_id": null,
    "subcategory": "determinative",
-   "construction_id": "dependent_det",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
+   "construction_id": "other",
+   "construction_other": "peripheral NP modifier use",
+   "construction_provenance": "Author correction, 2026-09-19: a functions as peripheral modifier; the catalogue's peripheral_mod_admission describes a host admitting a modifier, not the modifier's own function.",
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": true
+   "label_uncited_at_locus": true,
+   "expression_previous": "\\mention{a}",
+   "construction_id_previous": "dependent_det"
   },
   {
    "id": "am-019",
-   "section_label": "sec:article-membership",
+   "section_label": "sec:complex-determinatives",
    "expression": "\\mention{a} in many a",
    "construction": "Det of the count singular NP that \\mention{many} modifies as predeterminer",
    "status": "licensed",
@@ -8211,19 +8218,20 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:article-membership"
   },
   {
    "id": "am-020",
-   "section_label": "sec:article-membership",
+   "section_label": "sec:det-uniform",
    "expression": "\\mention{many}, predeterminer in many a",
    "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "cgel_restricted",
-   "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
+   "quote": "predeterminer \\mention{many} in \\mention{many a}, restricted to dependent use (§\\ref{sec:complex-determinatives}).",
    "condition": "Restricted to Det function.",
    "quote_previous": "\\textit{CGEL} treats \\mention{many a} as syntactically fixed and restricted to Det function",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "expression_previous": "\\mention{many a}",
    "construction_previous": "Det function only, as a syntactically fixed complex determinative",
    "lexeme_ids": [
@@ -8238,7 +8246,8 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "cgel_restricted",
-   "label_uncited_at_locus": true
+   "label_uncited_at_locus": true,
+   "section_label_previous": "sec:article-membership"
   },
   {
    "id": "am-022",
@@ -9167,7 +9176,7 @@
    "construction": "ultimate lexical head of \\mention{Kim's preferences}",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The genitive NP \\mention{Kim's} functions as determiner in the larger NP \\mention{Kim's preferences}, whose ultimate lexical head is \\mention{preferences}.",
+   "quote": "The genitive NP \\mention{Kim's} fills Det in \\mention{Kim's preferences}, whose ultimate lexical head is \\mention{preferences}.",
    "note": "Figure fig:genitive caption.",
    "lexeme_ids": [
     "lex_preferences"
@@ -9182,7 +9191,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The genitive NP \\mention{Kim's} functions as determiner in the larger NP \\mention{Kim's preferences}, whose ultimate lexical head is \\mention{preferences}.",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "sat-001",
@@ -9274,57 +9285,6 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "constructed_illustration",
-   "label_uncited_at_locus": false
-  },
-  {
-   "id": "sat-005",
-   "section_label": "sec:saturation",
-   "expression": "\\mention{both}",
-   "construction": "independent object with an antecedent-supplied domain",
-   "status": "licensed",
-   "evidence_type": "retained_attestation",
-   "quote": "\\mention{two different Honda models} supplies the domain for the independent object \\mention{both}",
-   "note": "Attested web-review sentence from the English Web Treebank.",
-   "lexeme_ids": [
-    "lex_both"
-   ],
-   "phrases": [],
-   "class_id": null,
-   "subcategory": "determinative",
-   "construction_id": "independent_argument",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [
-    "other_cited_paragraph",
-    "attestation_footnote"
-   ],
-   "cited_keys_sentence": [],
-   "evidence_type_reconciled": "retained_attestation",
-   "label_uncited_at_locus": false
-  },
-  {
-   "id": "sat-006",
-   "section_label": "sec:saturation",
-   "expression": "\\mention{both}",
-   "construction": "independent object in the attested sentence",
-   "status": "licensed",
-   "evidence_type": "retained_attestation",
-   "quote": "\\mention{Went there yesterday: we are trying to decide between two different Honda models, so we wanted to test-drive both back to back.}",
-   "note": "The attested example itself, verified in UD English EWT.",
-   "lexeme_ids": [
-    "lex_both"
-   ],
-   "phrases": [],
-   "class_id": null,
-   "subcategory": "determinative",
-   "construction_id": "independent_argument",
-   "construction_other": null,
-   "construction_provenance": "Claude Haiku 4.5 (claude CLI --model haiku, tools and MCP disabled) 2026-09-16; compared with the expanded run's keyed claims (see normalize-key-check.json)",
-   "basis_signals": [
-    "example_env"
-   ],
-   "cited_keys_sentence": [],
-   "evidence_type_reconciled": "retained_attestation",
    "label_uncited_at_locus": false
   },
   {
@@ -11251,7 +11211,7 @@
    "construction": "internal AdvP degree series across dependent and independent uses",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+   "quote": "The internal AdvP conditions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
    "lexeme_ids": [
     "lex_few",
     "lex_many",
@@ -11268,7 +11228,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "pay-035",
@@ -11548,7 +11510,7 @@
    "construction": "nominal projection inherited from Noun",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base.",
+   "quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier conditions from its determinative base.",
    "lexeme_ids": [
     "lex_anyone"
    ],
@@ -11563,7 +11525,9 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cmp-011",
@@ -11572,7 +11536,7 @@
    "construction": "external determination",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+   "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -11585,7 +11549,9 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cmp-012",
@@ -11594,7 +11560,7 @@
    "construction": "internal post-head restrictor",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+   "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
    "condition": "Same position and non-recursion conditions as the fusion account.",
    "lexeme_ids": [],
    "phrases": [],
@@ -11608,7 +11574,9 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cmp-013",
@@ -11695,7 +11663,7 @@
    "construction": "post-head restrictor licensed by the compound construction, premodifiers by the determinative base",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+   "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
    "lexeme_ids": [
     "lex_someone"
    ],
@@ -11708,7 +11676,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cmp-017",
@@ -11717,7 +11687,7 @@
    "construction": "post-head restrictor licensed by the compound construction, premodifiers by the determinative base",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+   "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
    "lexeme_ids": [
     "lex_everybody"
    ],
@@ -11730,7 +11700,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cmp-018",
@@ -13208,7 +13180,7 @@
    "construction": "Det permission with plural-count target selection",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{some apples}, \\mention{some}'s phrase satisfies its Det permission and plural-count target selection.",
+   "quote": "\\mention{some} & yes & -- & yes & yes & Plural count or non-count \\\\",
    "lexeme_ids": [
     "lex_some"
    ],
@@ -13223,7 +13195,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "In \\mention{some apples}, \\mention{some}'s phrase satisfies its Det permission and plural-count target selection.",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "frg-007",
@@ -13232,7 +13206,7 @@
    "construction": "subject permission",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{Some left}, it satisfies its subject permission.",
+   "quote": "\\mention{some} & yes & -- & yes & yes & Plural count or non-count \\\\",
    "lexeme_ids": [
     "lex_some"
    ],
@@ -13247,7 +13221,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "In \\mention{Some left}, it satisfies its subject permission.",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "frg-008",
@@ -13256,7 +13232,7 @@
    "construction": "dependent determiner use",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "\\mention{Every apple} passes the dependent checks",
+   "quote": "\\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det \\\\",
    "lexeme_ids": [
     "lex_every"
    ],
@@ -13272,7 +13248,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "\\mention{Every apple} passes the dependent checks",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "frg-009",
@@ -13281,7 +13259,7 @@
    "construction": "subject use, as in \\ungram{\\mention{Every arrived}}",
    "status": "excluded",
    "evidence_type": "constructed_ungrammatical",
-   "quote": "independent \\ungram{\\mention{Every arrived}} fails its use permission",
+   "quote": "\\mention{every} & yes & yes & -- & -- & Singular count; Mod after genitive Det \\\\",
    "note": "Marked ungrammatical.",
    "lexeme_ids": [
     "lex_every"
@@ -13297,7 +13275,9 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "constructed_ungrammatical",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "independent \\ungram{\\mention{Every arrived}} fails its use permission",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "frg-010",
@@ -13507,7 +13487,7 @@
    "construction": "form selection in the partitive",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "$\\operatorname{Form}$ checks the selected form, including independent \\mention{none} in \\mention{none of the students}.",
+   "quote": "independent \\mention{none} is selected in \\mention{none of the students}",
    "condition": "The independent form must be selected.",
    "lexeme_ids": [
     "lex_no"
@@ -13523,7 +13503,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "$\\operatorname{Form}$ checks the selected form, including independent \\mention{none} in \\mention{none of the students}.",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "frg-019",
@@ -13871,7 +13853,7 @@
    "construction": "combination with an NP whose Head relation continues to an NP",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "Third, a peripheral modifier combines with an NP whose Head relation continues to an NP, as in Figure~\\ref{fig:every}.",
+   "quote": "Third, peripheral modification forms an NP with the modifier as dependent and another NP as Head, as in Figure~\\ref{fig:every}.",
    "condition": "The modified NP's Head relation must continue to an NP.",
    "lexeme_ids": [],
    "phrases": [],
@@ -13884,7 +13866,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "Third, a peripheral modifier combines with an NP whose Head relation continues to an NP, as in Figure~\\ref{fig:every}.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "du-014",
@@ -14236,9 +14220,9 @@
    "construction": "external determination",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:secondary-use} (\\mention{a special someone}) falls outside the construction.",
    "quote_previous": "They exclude external determination and a corresponding pre-head adjective.",
-   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md) 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged.",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -14258,9 +14242,9 @@
    "construction": "pre-head adjective",
    "status": "excluded",
    "evidence_type": "authors_analysis",
-   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:compounds} (\\mention{a special someone}) falls outside the construction.",
+   "quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:secondary-use} (\\mention{a special someone}) falls outside the construction.",
    "quote_previous": "They exclude external determination and a corresponding pre-head adjective.",
-   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)",
+   "quote_amended": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md) 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged.",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -14325,15 +14309,15 @@
   },
   {
    "id": "du-033",
-   "section_label": "sec:det-uniform",
+   "section_label": "sec:article-membership",
    "expression": "\\mention{few} in a few",
-   "construction": "head of the NP \\mention{a few} in Det, with \\mention{a} as its own Det",
+   "construction": "determiner function of few in a few mistakes, with a peripheral to the outer NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+   "quote": "In \\mention{a few mistakes}, \\mention{few} heads the NP in Det, while \\mention{a} modifies the larger NP headed by \\mention{mistakes}.",
    "condition": "Construction-specific conditions, including internal degree modifier position.",
    "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September. 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "expression_previous": "complex \\mention{a few}",
    "construction_previous": "construction-specific conditions in the fragment",
    "status_previous": "conditional",
@@ -14349,19 +14333,20 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-034",
-   "section_label": "sec:det-uniform",
+   "section_label": "sec:complex-determinatives",
    "expression": "\\mention{little} in a little",
-   "construction": "head of the NP \\mention{a little} in Det, with \\mention{a} as its own Det",
+   "construction": "determiner function of little in a little water, with a peripheral to the outer NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "\\mention{A few} and \\mention{a little} are NPs in Det with \\mention{a} as their own Det and \\mention{few} or \\mention{little} as head (§\\ref{sec:article-membership})",
+   "quote": "\\mention{A little} and \\mention{a great many} have the same peripheral \\mention{a}. Before another nominal, \\mention{little} and \\mention{many} head the determining phrases; independently, they head the NPs that \\mention{a} modifies.",
    "condition": "Construction-specific conditions.",
    "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September. 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "expression_previous": "complex \\mention{a little}",
    "construction_previous": "construction-specific conditions in the fragment",
    "status_previous": "conditional",
@@ -14377,18 +14362,19 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-035",
-   "section_label": "sec:det-uniform",
+   "section_label": "sec:adjectival-profile",
    "expression": "\\mention{a very few}",
-   "construction": "internal degree modifier position on the head \\mention{few} of \\mention{a few}",
+   "construction": "internal degree modification of few by very",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "the internal degree modifier of \\mention{a very few} attaches to that head and peripheral \\mention{quite} to the NP",
+   "quote": "On the analysis of §\\ref{sec:complex-determinatives}, \\mention{few} heads the phrase in Det and \\mention{very} modifies it internally. Both \\mention{a} and \\mention{quite} are peripheral modifiers of the larger NP, with \\mention{quite} preceding \\mention{a}.",
    "quote_previous": "Complex \\mention{a few} and \\mention{a little} have construction-specific conditions, including the position of internal degree modifiers in \\mention{a very few}.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "construction_previous": "internal degree modifier position within the complex determinative",
    "lexeme_ids": [
     "lex_few"
@@ -14405,22 +14391,23 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-036",
-   "section_label": "sec:det-uniform",
-   "expression": "the initial \\mention{a} of \\mention{a few}",
-   "construction": "Det of \\mention{few} within the NP \\mention{a few}, which takes plural agreement as a whole",
+   "section_label": "sec:complex-determinatives",
+   "expression": "\\mention{few} in \\mention{a few}",
+   "construction": "plural agreement of independent few, with peripheral a",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "\\mention{a few mistakes} has \\mention{a few} in Det, an NP with \\mention{a} as its Det and \\mention{few} as its head",
+   "quote": "Independent \\mention{a few} takes plural agreement",
    "quote_previous": "Their initial \\mention{a} isn't an ordinary Det selecting a plural \\mention{few} target.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September.",
    "construction_previous": "ordinary Det selecting a plural \\mention{few} target",
    "status_previous": "excluded",
    "lexeme_ids": [
-    "lex_a"
+    "lex_few"
    ],
    "phrases": [
     "a few"
@@ -14437,7 +14424,10 @@
     "huddleston2002"
    ],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "expression_previous": "the initial \\mention{a} of \\mention{a few}",
+   "lexeme_note": "2026-09-19: the agreement claim concerns few; a is peripheral.",
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-037",
@@ -14446,10 +14436,10 @@
    "construction": "predeterminer modifier of an indefinite-article NP (dependent use only)",
    "status": "conditional",
    "evidence_type": "authors_analysis",
-   "quote": "\\mention{Many a} is \\mention{many} in predeterminer function on an \\mention{a}-NP, which keeps it to dependent use (§\\ref{sec:article-membership})",
+   "quote": "predeterminer \\mention{many} in \\mention{many a}, restricted to dependent use (§\\ref{sec:complex-determinatives}).",
    "condition": "Restricted to Det function.",
    "quote_previous": "Fixed \\mention{many a} retains its restriction to Det function",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md 2026-09-19: local reorganization; subsection cross-reference or claim location updated, with the claim unchanged. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "expression_previous": "fixed \\mention{many a}",
    "construction_previous": "Det function only",
    "lexeme_ids": [
@@ -14468,14 +14458,14 @@
   },
   {
    "id": "du-038",
-   "section_label": "sec:det-uniform",
+   "section_label": "sec:independent",
    "expression": "\\mention{few} in \\mention{the few people}",
    "construction": "internal Mod of the nominal headed by the common noun",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote": "Compare the modifiers in \\mention{dog houses}, \\mention{Canada Day}, \\mention{the manager herself}, and \\mention{the few people}.",
    "quote_previous": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -14490,18 +14480,19 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-039",
-   "section_label": "sec:det-uniform",
+   "section_label": "sec:modification",
    "expression": "\\mention{few} in \\mention{the lucky few}",
    "construction": "Head of the independently determined NP",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{a few people}, \\mention{few} heads the NP in Det; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
+   "quote": "Independent \\mention{few} and certain other indefinite determinatives permit definite determination. Under D-noun, \\mention{few} heads an ordinary NP both alone and in \\mention{the few}, where \\mention{the} fills Det. Adding an optional adjective gives \\mention{the lucky few}, with the same Head and dependent functions as \\mention{the lucky survivors}.",
    "quote_previous": "In \\mention{the few people}, its phrase is an internal Mod of the nominal headed by \\mention{people}; in \\mention{the lucky few}, \\mention{few} heads the independently determined NP.",
-   "quote_amended": "2026-09-17: complex determinatives dissolved into external determination (a few) and predeterminer modification (many a); see DECISIONS.md",
+   "quote_amended": "2026-09-19: Brett corrected the analysis to peripheral a and determining few; reviewed correction in notes/2026-09-19-peripheral-a-correction.md; supersedes external determination introduced on 17 September. 2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged.",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -14516,7 +14507,8 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "section_label_previous": "sec:det-uniform"
   },
   {
    "id": "du-040",
@@ -15750,7 +15742,7 @@
   },
   {
    "id": "cost-001",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "independent determinatives under D-noun with ordinary Head",
    "construction": "Nom--NP with Head alone across bare, partitive, and externally determined uses",
    "status": "licensed",
@@ -15774,7 +15766,7 @@
   },
   {
    "id": "cost-002",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "modifiers of determinatives under D-noun with ordinary Head",
    "construction": "peripheral NP premodifiers and head-specific internal modifiers; degree determinatives project NP",
    "status": "conditional",
@@ -15799,12 +15791,12 @@
   },
   {
    "id": "cost-003",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "independent determinatives under separate D with ordinary Head",
    "construction": "the same structures, with Nom admitting either N or D as lexical Head",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+   "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
    "note": "Implementation comparison table row.",
    "lexeme_ids": [],
    "phrases": [],
@@ -15819,16 +15811,18 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cost-004",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "modifiers of determinatives under separate D with ordinary Head",
    "construction": "the same internal and peripheral permissions and degree projection",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+   "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
    "note": "Implementation comparison table row.",
    "lexeme_ids": [],
    "phrases": [],
@@ -15843,11 +15837,13 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cost-005",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "independent determinatives under separate D with fusion",
    "construction": "DP filling Det--Head or Mod--Head in nominal structure",
    "status": "licensed",
@@ -15870,7 +15866,7 @@
   },
   {
    "id": "cost-006",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "modifiers of determinatives under separate D with fusion",
    "construction": "premodifiers and postmodifiers separated by the DP--Nom boundary; degree determinatives project DP",
    "status": "licensed",
@@ -15893,7 +15889,7 @@
   },
   {
    "id": "cost-007",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "independent determinatives under D-noun with fusion",
    "construction": "a projected NP filling Det--Head or Mod--Head in additional nominal structure",
    "status": "licensed",
@@ -15916,7 +15912,7 @@
   },
   {
    "id": "cost-008",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "modifiers of determinatives under D-noun with fusion",
    "construction": "premodifiers within the fused NP; postmodifiers in the outer Nom; degree determinatives project NP",
    "status": "licensed",
@@ -15939,7 +15935,7 @@
   },
   {
    "id": "cost-009",
-   "section_label": "sec:costs",
+   "section_label": "sec:economy",
    "expression": "independent genitives under ordinary Head",
    "construction": "a constructional agreement condition",
    "status": "conditional",
@@ -15962,12 +15958,12 @@
   },
   {
    "id": "cost-010",
-   "section_label": "sec:costs",
+   "section_label": "sec:payne",
    "expression": "both ordinary-Head accounts",
    "construction": "distinguishing peripheral NP modifiers from internal degree and cardinal approximative permissions",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative permissions",
+   "quote": "Both ordinary-Head accounts can represent that difference by distinguishing NP-peripheral modification from modification inside Nom.",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": null,
@@ -15979,7 +15975,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative permissions",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "cost-011",
@@ -16644,7 +16642,7 @@
    "construction": "contrast encoded by the lexical head",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+   "quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal",
    "lexeme_ids": [
     "lex_she",
     "lex_it"
@@ -16659,7 +16657,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "inh-009",
@@ -16668,7 +16668,7 @@
    "construction": "contrast encoded by the lexical head",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+   "quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal",
    "lexeme_ids": [
     "lex_somebody",
     "lex_something"
@@ -16683,7 +16683,9 @@
    "basis_signals": [],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+   "quote_amended": "2026-09-19 pre-publication repair: align the recorded quotation with the current source after reviewed local wording changes; the participation claim and construction coding are unchanged."
   },
   {
    "id": "inh-010",
@@ -16738,7 +16740,7 @@
    "construction": "adjectival modification, as in \\mention{poor old me}",
    "status": "conditional",
    "evidence_type": "cgel_described",
-   "quote": "Personal pronouns permit restricted adjectival modification, as in \\mention{poor old me}",
+   "quote": "Modifier selection gives mixed support: restricted adjectival modification in \\mention{poor old me} \\citep[429--430]{huddleston2002} has a counterpart in \\mention{the lucky few}.",
    "condition": "Restricted.",
    "lexeme_ids": [],
    "phrases": [],
@@ -16754,7 +16756,9 @@
     "huddleston2002"
    ],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "Personal pronouns permit restricted adjectival modification, as in \\mention{poor old me}",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "inh-013",
@@ -16763,7 +16767,7 @@
    "construction": "adjectival modification",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "compare determinative \\mention{the lucky few}",
+   "quote": "Modifier selection gives mixed support: restricted adjectival modification in \\mention{poor old me} \\citep[429--430]{huddleston2002} has a counterpart in \\mention{the lucky few}.",
    "lexeme_ids": [
     "lex_few"
    ],
@@ -16783,7 +16787,9 @@
     "huddleston2002"
    ],
    "evidence_type_reconciled": "cgel_described",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "compare determinative \\mention{the lucky few}",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "inh-014",
@@ -16817,7 +16823,7 @@
    "construction": "internal degree-AdvP series",
    "status": "licensed",
    "evidence_type": "authors_analysis",
-   "quote": "The four gradable quantifiers also permit the internal degree-AdvP series discussed in §\\ref{sec:adjectival-profile}.",
+   "quote": "the four gradable quantifiers also permit the internal degree-AdvP series (§\\ref{sec:adjectival-profile}).",
    "lexeme_ids": [],
    "phrases": [],
    "class_id": "class:quantifier",
@@ -16830,7 +16836,9 @@
    ],
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
-   "label_uncited_at_locus": false
+   "label_uncited_at_locus": false,
+   "quote_previous": "The four gradable quantifiers also permit the internal degree-AdvP series discussed in §\\ref{sec:adjectival-profile}.",
+   "quote_amended": "2026-09-19: Opus-agreed compression; quotation re-anchored to the retained statement or permissions-table row. The claim, status, construction coding, and evidence classification are unchanged."
   },
   {
    "id": "inh-016",
@@ -17566,6 +17574,56 @@
    "cited_keys_sentence": [],
    "evidence_type_reconciled": "authors_analysis",
    "label_uncited_at_locus": false
+  }
+ ],
+ "amendment_updates": [
+  {
+   "date": "2026-09-19",
+   "claim_ids": [
+    "ap-055",
+    "am-017",
+    "am-018",
+    "du-033",
+    "du-034",
+    "du-035",
+    "du-036",
+    "du-038",
+    "du-039"
+   ],
+   "basis": "Brett's correction to peripheral a; nine affected records updated without rerunning the census."
+  },
+  {
+   "date": "2026-09-19",
+   "claim_ids": [
+    "sat-005",
+    "sat-006"
+   ],
+   "basis": "2026-09-19: Brett approved cutting the Honda example, its lead-in, and its provenance footnote as redundant. The attestation remains in the corpus documentation, but is no longer a claim in the article."
+  },
+  {
+   "date": "2026-09-19",
+   "claim_ids": [
+    "cost-001",
+    "cost-002",
+    "cost-003",
+    "cost-004",
+    "cost-005",
+    "cost-006",
+    "cost-007",
+    "cost-008",
+    "cost-009",
+    "du-038",
+    "ind-001",
+    "ind-002",
+    "ind-044",
+    "int-005",
+    "int-006",
+    "int-010",
+    "int-011",
+    "int-012",
+    "int-020"
+   ],
+   "basis": "2026-09-19: authorized selective reorganization following the Elicit assessment; wording or location updated, with the participation claim and its coding unchanged."
   }
  ]
 }

@@ -1,0 +1,102 @@
+{
+  "quotation_changes": [
+    {
+      "id": "ind-043",
+      "old_quote": "an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading",
+      "new_quote": "an NP with \\mention{rich} as fused Head requires the definite article \\mention{the} on the generic human reading",
+      "old_section": "sec:independent",
+      "new_section": "sec:independent"
+    },
+    {
+      "id": "pay-034",
+      "old_quote": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+      "new_quote": "The internal AdvP conditions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+      "old_section": "sec:payne",
+      "new_section": "sec:payne"
+    },
+    {
+      "id": "cmp-010",
+      "old_quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base.",
+      "new_quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier conditions from its determinative base.",
+      "old_section": "sec:compounds",
+      "new_section": "sec:compounds"
+    },
+    {
+      "id": "cmp-011",
+      "old_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+      "new_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
+      "old_section": "sec:compounds",
+      "new_section": "sec:compounds"
+    },
+    {
+      "id": "cmp-012",
+      "old_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+      "new_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
+      "old_section": "sec:compounds",
+      "new_section": "sec:compounds"
+    },
+    {
+      "id": "cmp-016",
+      "old_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+      "new_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
+      "old_section": "sec:compounds",
+      "new_section": "sec:compounds"
+    },
+    {
+      "id": "cmp-017",
+      "old_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+      "new_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
+      "old_section": "sec:compounds",
+      "new_section": "sec:compounds"
+    },
+    {
+      "id": "du-013",
+      "old_quote": "Third, a peripheral modifier combines with an NP whose Head relation continues to an NP, as in Figure~\\ref{fig:every}.",
+      "new_quote": "Third, peripheral modification forms an NP with the modifier as dependent and another NP as Head, as in Figure~\\ref{fig:every}.",
+      "old_section": "sec:det-uniform",
+      "new_section": "sec:det-uniform"
+    },
+    {
+      "id": "cost-003",
+      "old_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+      "new_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
+      "old_section": "sec:economy",
+      "new_section": "sec:economy"
+    },
+    {
+      "id": "cost-004",
+      "old_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+      "new_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
+      "old_section": "sec:economy",
+      "new_section": "sec:economy"
+    },
+    {
+      "id": "cost-010",
+      "old_quote": "Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative permissions",
+      "new_quote": "Both ordinary-Head accounts can represent that difference by distinguishing NP-peripheral modification from modification inside Nom.",
+      "old_section": "sec:costs",
+      "new_section": "sec:payne"
+    },
+    {
+      "id": "inh-008",
+      "old_quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+      "new_quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal",
+      "old_section": "sec:inheritance",
+      "new_section": "sec:inheritance"
+    },
+    {
+      "id": "inh-009",
+      "old_quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
+      "new_quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal",
+      "old_section": "sec:inheritance",
+      "new_section": "sec:inheritance"
+    }
+  ],
+  "basis_change": {
+    "id": "ind-078",
+    "from": "constructed_illustration",
+    "to": "retained_attestation",
+    "reason": "Restored source footnote at the sentence."
+  },
+  "current_exact_quotes": 649
+}
