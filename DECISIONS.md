@@ -643,3 +643,7 @@ The pass found one real drift: §5.1 reserves *permission* for the lexical use p
 ## 2026-09-18 — Negative-claims audit applied
 
 Four repairs: §1's "What's new here" narrowed to "Relative to those accounts, what's new is"; §3.1's grade and degree negatives for *such* and *what* given as starred forms; §4.5's "The articles, *every*, and the personal pronouns aren't attested in [the set-denoting use]" replaced, since no search had been run and *a he* / *the hes and shes* exist, by a judgment for the articles and *every* and an open question for the pronouns; §2.7's "(he doesn't apply it)" for Van Eynde 2003 made precise (Italian and Dutch; English cited only for the MARKING contrast). Inward search recorded in the artifact; no outward search, the novelty claim being about the named accounts. Artifact: `notes/passes/2026-09-18-negative-claims.md`.
+
+## 2026-09-18 — Charitable-engagement pass applied
+
+The positions criticized since the 9 September pass (separate D under the three-cost argument and its cross-cutting-feature defence, *CGEL* on complex determinatives and *such*/*what*, Lenchuk and Ahmed 2014, Solt 2015, Van Eynde 2003) were re-read against their sources under Dennett's four rules. Three wordings changed: *CGEL* "conceding" to "recording", "must treat the compound case as conversion" to "treats" (which p. 423 does), and a sentence granting Lenchuk and Ahmed that the 2013 tests alone settle neither of their points. Artifact: `notes/passes/2026-09-18-charitable-engagement.md`.
