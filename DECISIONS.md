@@ -631,3 +631,7 @@ Repairs applied (Brett: "as usual, your options are inscrutable", so decided her
 ## 2026-09-18 — *few would*: Brett read the 94 lines; the footnote states the reading
 
 The numbers audit found the §4.2 footnote stating a screener label as an observation. Brett read the 94 NOW lines blind (`corpus/independent_argument/few_would.reading.md`): 82 with no set supplied in the visible context, 5 with one, 7 undecidable. The footnote now gives those figures as a reading and records that the screening model's split (89 and 5) agreed on four of the five positives. Reading files (`.md` and Brett's `.ott` copy) kept beside the screened set.
+
+## 2026-09-18 — Quote audit clean; level-category audit applied; bookkeeping passes recorded
+
+Quote audit: 14 source quotations verbatim with pages confirmed (the *CGEL* ones through the gate script; Van Eynde 2007 in the sidecar; Palmer 1924 p. 24 read on HathiTrust's 1924 scan, where the Internet Archive copy turned out to be Blandford's 1969 rewrite with "qualifiers" for "modifiers"); 24 corpus lines verbatim in their saved files. Level-category audit: no unmarked shift between *CGEL* record, judgment, attestation, bounded search, model label, and analysis; four bearer-predicate wordings repaired. External-review-triage (the two Elicit rounds) and build-integrity recorded in the ledger. validate-bib dispatched.
