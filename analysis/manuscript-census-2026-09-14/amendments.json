@@ -155,6 +155,36 @@
    "old": "The genitive's person identifies the possessor; the independent NP's agreement reflects the possessed entity or entities.",
    "new": "The genitive's person identifies the possessor; the independent NP's agreement follows the possessed entity or entities.",
    "reason": "2026-09-18: level-category audit replaced 'reflects' with 'follows'; evidence span mapped old -> new"
+  },
+  {
+   "old": "one internal permission covers both constructions",
+   "new": "one internal condition covers both constructions",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+  },
+  {
+   "old": "The internal AdvP permissions at issue",
+   "new": "The internal AdvP conditions at issue",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+  },
+  {
+   "old": "its premodifier permissions from its determinative base",
+   "new": "its premodifier conditions from its determinative base",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+  },
+  {
+   "old": "internal post-head restrictor permission",
+   "new": "internal post-head restrictor condition",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+  },
+  {
+   "old": "the determinative base supplies its premodifier permissions",
+   "new": "the determinative base supplies its premodifier conditions",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+  },
+  {
+   "old": "\\mention{rich} as fused head requires",
+   "new": "\\mention{rich} as fused Head requires",
+   "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
   }
  ],
  "inf-018": {
@@ -597,5 +627,55 @@
   "quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are carried by the lexical head, whereas descriptions and names shape referent construal",
   "previous_quote": "The contrasts \\mention{she}/\\mention{it} and \\mention{somebody}/\\mention{something} are encoded by the lexical head, whereas descriptions and names shape referent construal",
   "reason": "2026-09-18: level-category audit replaced 'encoded by' with 'carried by'; claim unchanged"
+ },
+ "cmp-010": {
+  "quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier conditions from its determinative base.",
+  "previous_quote": "In the ordinary-Head tree, \\mention{anyone} inherits nominal projection from Noun and its premodifier permissions from its determinative base.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cmp-011": {
+  "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
+  "previous_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cmp-012": {
+  "quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor condition, with the same position and non-recursion conditions as the fusion account.",
+  "previous_quote": "The compound construction independently excludes external determination and supplies the internal post-head restrictor permission, with the same position and non-recursion conditions as the fusion account.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cmp-016": {
+  "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
+  "previous_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cmp-017": {
+  "quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier conditions.",
+  "previous_quote": "The same division applies to \\mention{someone} and \\mention{everybody}: the compound construction licenses the post-head restrictor, while the determinative base supplies its premodifier permissions.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cost-003": {
+  "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
+  "previous_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cost-004": {
+  "quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral conditions and degree projection as the proposed analysis.",
+  "previous_quote": "Separate D, ordinary Head & Same structures, with Nom admitting either N or D as lexical Head. & Same internal and peripheral permissions and degree projection as the proposed package.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "cost-010": {
+  "quote": "Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative conditions",
+  "previous_quote": "Both ordinary-Head accounts distinguish peripheral NP modifiers from the internal degree and cardinal approximative permissions",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "ind-043": {
+  "quote": "an NP with \\mention{rich} as fused Head requires the definite article \\mention{the} on the generic human reading",
+  "previous_quote": "an NP with \\mention{rich} as fused head requires the definite article \\mention{the} on the generic human reading",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
+ },
+ "pay-034": {
+  "quote": "The internal AdvP conditions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+  "previous_quote": "The internal AdvP permissions at issue are thus the degree series on \\mention{few}, \\mention{many}, \\mention{much}, and \\mention{little} across dependent and independent uses, and approximatives on externally determined independent cardinals.",
+  "reason": "2026-09-18: terminological-hygiene pass (permission reserved for use permissions, dependents are conditions; package -> analysis; head condition -> category condition; fused Head); claim unchanged"
  }
 }
