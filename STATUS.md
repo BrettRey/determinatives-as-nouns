@@ -2,7 +2,7 @@
 slug: determinatives-as-nouns
 kind: paper
 title: Determinatives as nouns in English
-stage: drafting
+stage: draft
 external: rejected
 blocked_on: []
 updated: 2026-09-18
