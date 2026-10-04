@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\input{.house-style/preamble.tex}
+\usepackage{xurl}
+\usepackage{float}
+\setlength{\headheight}{14pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\emergencystretch=1em
+\AtBeginBibliography{\emergencystretch=1em}
+\setcounter{biburlnumpenalty}{100}
+\newcommand{\tablebody}[1]{\csname @@input\endcsname #1 }
+\hypersetup{pdftitle={Coverage audit: the fragment and selected wider comparisons}}
+\title{Coverage audit: the fragment and selected wider comparisons}
+\author{Brett Reynolds}
+\date{Supplementary material, September 2026}
+\fancyhead[L]{\small\scshape Coverage audit}
+\usepackage{longtable}
+\begin{document}
+\maketitle
+
+\section{What this audit is}
+
+The article's §5 compares four implementations of the same facts: the D-noun categorization with ordinary Head (I1), a separate determinative category with ordinary Head (I2), a separate category with \textit{CGEL}'s fusion of functions (I3), and the D-noun categorization with fusion (I4). It states which conditions the accounts share and which are specific to one of them. This audit records how each implementation covers the construction families and lexeme groups in the fragment and selected wider comparisons: by a general rule of that grammar (D), by a general rule that applies only because the grammar admits a determinative as the lexical head of Nom and NP (Dn), by a rule the grammar has to state once for nouns and again for determinatives, or once for NP and again for DP (D2), by a fact stored on the lexeme (L), by a condition stated for that construction alone (S), or not at all (U).
+
+The classifications are the author's, made by hand from the article's stated conditions and the sections cited beside each cell; they are the analysis, not data. The precedence rule is this: a cell records the mechanism by which the implementation covers the licensed use. Shared lexical permissions, target selection, forms, and inflection are held fixed across the four implementations. A lexical fact is coded L where it's a permission or exclusion alone; where a licensed use is covered by a rule, the rule's class is recorded even though the permission is presupposed.
+
+S and D2 codes count cells; the distinct conditions and duplicated rules behind them are listed separately (Table~\ref{tab:rules}), since a condition stated once may apply in several cells. The comparison concerns the rules and facts each account has to state for the audited constructions. The minimum description length principle motivates assessing complete representations \citep{rissanen1978mdl}, but this audit doesn't define a common encoding or estimate an MDL score.
+
+Beside each cell the audit prints the number of participation claims the claim register records for that family and group, as licensed/conditional/excluded, so that a cell's classification can be checked against what the article asserts there. Cells with no claim and no analysis in the article are left out; the article's analysis, not the register, decides which cells exist.
+
+\section{The four implementations and their primitives}
+
+The classes count rules, not primitives. The primitives differ too, and Table~\ref{tab:prim} lists them, since a rule that is general in one grammar may be general only because that grammar has a primitive the other lacks.
+
+\begin{table}[H]\centering\small
+\caption{Primitives of the four specified implementations.}\label{tab:prim}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}}
+\toprule
+ & I1 & I2 & I3 & I4 \\
+\midrule
+Lexical categories & Noun, four subcategories & Noun (three) and D & Noun (three) and D & Noun, four subcategories \\
+Category condition on words directly heading Nom & N & N or D & N & N \\
+Phrase types in Det & NP, PP & NP, PP & DP, NP, PP & NP, PP \\
+Head configurations for independent determinatives & ordinary Head & ordinary Head & Det--Head and Mod--Head fusion & Det--Head and Mod--Head fusion \\
+Adjectival Mod--Head fusion (\mention{the rich}) & yes & yes & yes & yes \\
+Restrictions stated on the fused inner phrase & none & none & yes & yes \\
+Complex determinatives listed & none & none & \mention{a few}, \mention{a little}, \mention{many a}, \mention{a great many} & none \\
+Conversion rule for the set-denoting use & none & yes & yes & none \\
+Domain of the head-genitive definition & Noun heads & Noun and D heads & Noun and D heads & Noun heads \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In I3, a determinative heads a DP, which fills Head in the further nominal structure; D doesn't directly head Nom. The category condition on words directly heading Nom is therefore N, as in I1 and I4.
+
+\section{Results}
+
+\tablebody{analysis/generated/coverage-summary.tex}
+
+Fusion is held fixed for adjectives (\mention{the rich}) in all four implementations. \textit{CGEL} (I3) uses it for independent determinatives too, with one condition on the fused inner phrase (nine cells) and rules stated for NPs and DPs separately (twelve cells, four rules). Both ordinary-Head implementations remove this use. I1 reclassifies determinatives within Noun; I2 admits N or D as lexical Head in Nom. Its 32 Dn cells record uses of that one condition.
+
+The stated I2 also retains conversion to Noun in the secondary use and extends the head-genitive definition to D. Those choices aren't obligatory in every separate-D formulation. A nominal feature could be assigned once to Noun and once to D, with inheritance within each category. Table~\ref{tab:feature-alternative} compares how that alternative and I1 express the shared grammar, holding the lexical restrictions and input-specific interpretations fixed.
+
+\begin{table}[H]\centering\small
+\caption{Shared declarations under I1 and a separate-D feature formulation. The latter isn't separately coded in the grid.}\label{tab:feature-alternative}
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{4.4cm}}
+\toprule
+Declaration & I1 & Separate D with a nominal feature \\
+\midrule
+Shared domain & Noun, with four subcategories & Noun (three subcategories) and D each bear the feature; their members inherit it \\
+Lexical Head in Nom & Noun & Bearer of the nominal feature \\
+Head-genitive definition & One definition over Noun heads & One definition over heads bearing the feature \\
+Secondary use & One schema with the three stated inputs; primary Noun retained & One schema with the same inputs; D inputs change category if \textit{CGEL}'s output categories are retained \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The feature's extension matches that of the broader Noun category. It permits shared conditions without assignments to individual lexemes or a separate semantic process for each primary category. I1 expresses this domain through the Noun category supported by the article's profile comparison; the alternative retains the primary boundary and supplies a shared feature. A strict description-length ranking would require a common encoding and costs for both representations. The present audit doesn't supply that ranking.
+
+For the former complex determinatives, I1, I2, and I4 state a restricted peripheral-modifier permission for \mention{a}, with head-specific modifier selection and ordering; I3 lists the complex expressions. This permission is recorded in the article cell, rather than treated as an ordinary Det use of \mention{a}.
+
+The sensitivity tables apply alternative coding conventions: lexical licensing first, the inner-phrase restriction counted once, typed schemas in place of duplicated rules, and the secondary use treated as a construction-specific rule in every account. Under those conventions I1, I3, and I4 fall within one cell of each other; recoding Dn as D also brings I2 level with I1. This shows the dependence of the cell totals on the coding. Table~\ref{tab:rules} inventories the listed conditions and duplicated rules, not the cost of category nodes or features. The feature alternative makes sharing explicit without treating its definition as costless.
+
+\section{The grid}
+
+\tablebody{analysis/generated/coverage-audit.tex}
+
+\section{Limits}
+
+The grid covers the fragment and selected wider comparisons, including degree modification outside NP structure, comparative complementation, and predicative uses. These entries don't extend the formal fragment specified in the article's §5.1. Interrogative clause structure and coordination remain outside the audit.
+
+The classes are coarse by design; a D under one implementation and a D under another can rest on different primitives (Table~\ref{tab:prim}), and the summary counts should be read with that table. The classifications are contestable at the cell, and the JSON file (\texttt{analysis/coverage-audit.json}) is written so that a reader can change one cell and regenerate the tables (\texttt{analysis/tools/coverage\_audit.py}).
+
+\printbibliography
+
+\end{document}

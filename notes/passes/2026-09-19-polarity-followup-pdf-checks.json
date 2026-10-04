@@ -1,0 +1,71 @@
+{
+  "determinatives-as-nouns": {
+    "mtime_pdf": 1789854978.717709,
+    "mtime_tex": 1789854946.253974,
+    "found": {
+      "Conventional polarity behaviour": [
+        15
+      ],
+      "The dashes for every": [
+        25
+      ],
+      "Reducing fusion": [
+        20
+      ]
+    },
+    "pages": 37,
+    "pdf_newer_than_source": true,
+    "source_sha256": "85383cfaf0dc97fdf776566c691e78f129aae2d9adf8b6c080ed17adb8701976",
+    "pdf_sha256": "15fd50e02d54612e525b950574e221d130484b60dc7c7577ac79571fd5a5dff7",
+    "targeted_pages_visually_checked": true,
+    "unresolved_build_messages": []
+  },
+  "quantifier-controls": {
+    "mtime_pdf": 1789854984.3076892,
+    "mtime_tex": 1789852283.9481232,
+    "found": {
+      "Every has a story": [
+        6
+      ]
+    },
+    "pages": 7,
+    "pdf_newer_than_source": true,
+    "source_sha256": "19e8a45eeb188ad062199c9380a06bb00d56c1e1a970ada30fba545185846eb8",
+    "pdf_sha256": "a336afe75c3c149d8cc7769b3bcc74f3c3de96b0a43bb2552bd3add907998777",
+    "targeted_pages_visually_checked": true,
+    "unresolved_build_messages": []
+  },
+  "claim-register": {
+    "mtime_pdf": 1789854988.9835215,
+    "mtime_tex": 1789840139.440924,
+    "found": {
+      "423": [
+        1
+      ],
+      "437": [
+        1
+      ]
+    },
+    "pages": 17,
+    "pdf_newer_than_source": true,
+    "source_sha256": "747b3836c2da47ac75bacf9cf362d355311c565a957acd5065f9124859176a71",
+    "pdf_sha256": "f99639e0d2f7185615b74cbbce94cf266122986144aed64e10b6a4d42af5ff22",
+    "targeted_pages_visually_checked": true,
+    "unresolved_build_messages": []
+  },
+  "coverage-audit": {
+    "mtime_pdf": 1789854994.6929557,
+    "mtime_tex": 1789852283.9482331,
+    "found": {
+      "The grid doesn\u2019t score": [
+        15
+      ]
+    },
+    "pages": 16,
+    "pdf_newer_than_source": true,
+    "source_sha256": "e1ae3470a78549e971063298618afff66bfdd850650e54c82ba9db592b36c193",
+    "pdf_sha256": "6acaf3ef2a8447816f90c023a030a8a1f2ab456c7097a5ee6776266f479a82d9",
+    "targeted_pages_visually_checked": true,
+    "unresolved_build_messages": []
+  }
+}

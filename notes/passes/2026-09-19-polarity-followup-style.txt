@@ -1,0 +1,58 @@
+
+Found 6 potential style violation(s):
+
+
+=== determinatives-as-nouns.tex ===
+  Line 301: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 263, 293, 301, 407, 415, ...) - vary if not defining, contrasting, or pivoting
+    The semantic type is a third. The unified semantics of few, many, much; The a...
+  Line 498: [warning] Noticeable argumentative-object paragraph-opener cadence (6; lines 73, 269, 293, 498, 522, 572) - vary by making the move directly where possible
+    The paper advances two separable claims. Sections sec:proposal--sec:ar; The c...
+  Line 119: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    Overlap with adjectives likewise needs phrase levels kept distinct. Both \men...
+  Line 526: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \textcite[42--47]{payne2010} establish that adverbs can postmodify common nou...
+  Line 721: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    When \mention{enough} modifies \mention{good} in \mention{good enough}, the t...
+  Line 806: Oxford spelling: 'unsupervised' -> 'unsupervized'
+    \textcite{reynolds2021} compares 138 word forms through properties recorded a...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    Line 129: AI pattern: coordinate evaluation tacked onto a claim
+      \mention{Much} and \mention{little} take the predicative use only with an amount-denoting subject...
+    Line 279: AI pattern: while maintaining/preserving trade-off frame
+      \mention{The} also functions as a degree modifier. In \mention{the bigger the better}, it modifie...
+    Line 437: AI pattern: possible false range; verify the endpoints form a real scale
+      \caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the o...
+    Line 562: AI pattern: while maintaining/preserving trade-off frame
+      The relative clauses in §\ref{sec:independent} are ordinary postmodifiers, distinct from the spec...
+    Line 582: AI pattern: while maintaining/preserving trade-off frame
+      In the first, \mention{Helen's} is understood as Helen's performance, and the following \mention{...
+    Line 590: AI pattern: while maintaining/preserving trade-off frame
+      Ordinary Head gives the independent determinatives one Head chain while preserving their distinct...
+    Line 766: AI pattern: while maintaining/preserving trade-off frame
+      The feature would identify the same broad domain as the proposed Noun category while retaining th...
+
+  --- determinatives-as-nouns.tex ---
+    Line 210: AI phrase cluster - 6 signature phrase hits across 6 lines
+      "overall" x5 [lines 683,715,756,792,...]; "paving the way" x1 [lines 210]
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    840 sentences | median 15 | mean 16.8 | middle half 10-20 (10 words)
+         1-9  #################         170   20%
+       10-14  ########################  239   28%
+       15-19  ###################       188   22%
+       20-24  #############             128   15%
+       25-29  #####                      51    6%
+       30-34  ###                        25    3%
+       35-39  #                          13    2%
+         40+  ###                        26    3%
+

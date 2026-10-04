@@ -1,0 +1,86 @@
+#45 l.214 pages [517--518]: Proper names permit nominal premodifiers such as \mention{architect Norman Foster} \citep[517--518]{huddleston2002}.
+
+#46 l.269 pages [371--372, 410--411]: \mention{Every} is restricted too, while \mention{no} has the distinct independent form \mention{none} \citep[371--372, 410--411]{huddleston2002}.
+
+#47 l.271 pages [470--471]: \textit{CGEL}'s treatment of \mention{my} supplies a precedent for a restricted noun form \citep[470--471]{huddleston2002}.\footnote{\textcite{lenchukahmed2014determinatives} objected to \textcite{reynolds2013determiners} that its determinative tests make \mention{my}, \mention{your}, and \mention{his} determinatives, and that the partitive test admits \mention{few}, \mention{many}, and \mention{several} while their count and number restrictions contradict it; \textcite{reynolds2014determinatives} replied.
+
+#48 l.273 pages [368--373]: Their connections extend beyond shared position, although neither has the full determinative profile \citep[368--373]{huddleston2002}.
+
+#49 l.275 pages [1131--1132, 1135--1136]: In \mention{the bigger the better}, it modifies comparative AdjPs, as other determinatives do in \mention{much bigger} or \mention{no better} \citep[1131--1132, 1135--1136]{huddleston2002}.
+
+#50 l.293 pages [392, 394]: \textit{CGEL} lists \mention{a few}, \mention{a little}, and \mention{a great many} as complex determinatives while recording that \mention{a few} \enquote{admits \mention{very}, \mention{good}, and \mention{fair}} and calling the internal structure \enquote{sui generis} \citep[392, 394]{huddleston2002}.
+
+#51 l.293 pages [351--352]: Its case against a complex quantifier \mention{a number of} appeals to the potential for replacement and expansion \citep[351--352]{huddleston2002}.
+
+#52 l.293 pages [392]: Expansion is available here too: \mention{a good few}, \mention{a fair few}, and \mention{a select few} beside \mention{a very few}.\footnote{\mention{A good few} and \mention{a fair few} are \textit{CGEL}'s \citep[392]{huddleston2002}.
+
+#53 l.295 pages [394]: The modifier in \mention{a great many} is obligatory \citep[394]{huddleston2002}.
+
+#54 l.295 pages [391]: Definite \mention{the few mistakes} retains Det \mention{the} and internal modifier \mention{few} \citep[391]{huddleston2002}.
+
+#55 l.297 pages [394]: Independent \mention{a few} takes plural agreement \citep[394]{huddleston2002}.
+
+#56 l.297 pages [392]: Its distribution remains restricted: \mention{several} permits definite determiners as a modifier \citep[392]{huddleston2002} but excludes peripheral \mention{a}.
+
+#57 l.299 pages [392]: \textit{CGEL} records that \mention{quite}, \mention{not}, and \mention{only} combine readily with \mention{a few}, in contrast to \mention{several} \citep[392]{huddleston2002}.
+
+#58 l.299 pages [391]: The lower bound of three for \mention{a few} \citep[391]{huddleston2002} remains a convention of the phrase; \textit{CGEL} itself declines to let semantic motivation alone establish a complex unit \citep[621]{huddleston2002}.
+
+#59 l.299 pages [621]: The lower bound of three for \mention{a few} \citep[391]{huddleston2002} remains a convention of the phrase; \textit{CGEL} itself declines to let semantic motivation alone establish a complex unit \citep[621]{huddleston2002}.
+
+#60 l.301 pages [539--540]: \textit{CGEL} classes them as adjectives because exclamative \mention{what} \enquote{fails all of the determinative criteria (a)--(c)}: it combines with \mention{a}, licenses no count singular head without it, and has no partitive use \citep[539--540]{huddleston2002}.
+
+#61 l.303 pages [331]: \textit{CGEL}'s inventory of predeterminer modifiers includes \mention{all}, \mention{both}, fractions, multipliers, \enquote{a small range of adjectives (e.g.\ \mention{such} in [ic])}, and AdjPs such as \mention{how large a piece}, and \enquote{a predeterminer modifier normally precedes a determiner} \citep[331]{huddleston2002}.
+
+#62 l.305 pages [394]: The same structure covers \mention{what a mess} and \mention{many a man}, which \textit{CGEL} treats as a \enquote{syntactically inert} complex determinative \citep[394]{huddleston2002}.
+
+#63 l.307 pages [394]: With peripheral \mention{a}, \mention{few} and \mention{many} retain their independent uses as well as their Det uses before another nominal \citep[394]{huddleston2002}.
+
+#64 l.309 pages [385 n.~25]: Each word has Det function with plural or non-count heads (\mention{many men}, \mention{such promise}, \mention{what fools}) and predeterminer function with an indefinite-article NP, where the modifier is an NP, as \textit{CGEL}'s fractions are \citep[385 n.~25]{huddleston2002}, or an AdjP (\mention{how large a piece}).
+
+#65 l.315 pages [389--390]: \textit{CGEL} treats them as inflectional forms of one determinative: dependent \mention{no students} contrasts with independent \mention{none}, while both permit \mention{almost} \citep[389--390]{huddleston2002}.
+
+#66 l.411 pages [411--412]: Figure~\ref{fig:partitive} gives the D-noun analysis, with the \mention{of}-phrase functioning as complement within Nom, as in \textit{CGEL}'s partitive tree \citep[411--412]{huddleston2002}.
+
+#67 l.428 pages [415--416]: \textit{CGEL} permits determinatives used as internal modifiers to fuse with Head, as in \mention{the other two} and \mention{these few here} \citep[415--416]{huddleston2002}.
+
+#68 l.428 pages [392]: Its analysis of \mention{the few mistakes} assigns \mention{the} to Det and \mention{few} to Mod \citep[392]{huddleston2002}.
+
+#69 l.486 pages [430--431]: \textit{CGEL} assigns them NP-level attachment \citep[430--431]{huddleston2002}.
+
+#70 l.510 pages [393]: Determinatives permit determinative premodifiers such as \mention{this} in \mention{this much} \citep[393]{huddleston2002}.
+
+#71 l.510 pages [432]: Comparative determinatives also take established NP modifiers: \mention{a lot} in \mention{a lot fewer}, alongside \textit{CGEL}'s \mention{a lot more than fifty} \citep[432]{huddleston2002}.
+
+#72 l.548 pages [423]: \textit{CGEL} gives compounds the common noun's range of ordinary postmodifiers while preserving this ordering condition \citep[423]{huddleston2002}.
+
+#73 l.556 pages [410--411, 470--471]: Predicative \mention{mine}, as in \mention{it's mine}, can instead mean \enquote*{belongs to me}: it expresses the relation directly, without an understood nominal head \citep[410--411, 470--471]{huddleston2002}.
+
+#74 l.627 pages [Ch.~5, §4]: It also admits restricted plain-case NPs and PPs as determiners, as in \mention{what size hat} and \mention{over thirty ties} \citep[Ch.~5, §4]{huddleston2002}.
+
+#75 l.691 pages [396--397, 445]: It precedes a nominal in \mention{enough money} and can follow one in \mention{money enough}; post-head \mention{enough} can't itself be premodified, as shown by \ungram{\mention{money almost enough}} \citep[396--397, 445]{huddleston2002}.
+
+#76 l.700 pages [396--397]: \mention{Enough} also modifies adjectives, adverbs, verbs, and some PPs: \mention{good enough}, \mention{quickly enough}, \mention{I hadn't prepared enough}, and \mention{enough in control} \citep[396--397]{huddleston2002}.
+
+#77 l.700 pages [390, 395--397]: The degree determinatives \mention{much} and \mention{little}, and \mention{no}/\mention{none}, likewise have uses outside NP structure \citep[390, 395--397]{huddleston2002}.
+
+#78 l.700 pages [1305, 1308]: \textcite{reynolds2024why} surveys the determinatives that modify AdjPs, AdvPs, and PPs (\mention{more}, \mention{less}, \mention{enough}, \mention{that}, \mention{much}, \mention{a little}, \mention{all}) and finds their distribution idiosyncratic lexeme by lexeme, as adjective intensifiers are generally, with no pattern that sets any of them apart as an adverb; the modifying phrases take modifiers of their own (\mention{far fewer}, \mention{much more}, \mention{so much}), the internal structure an NP headed by a determinative supplies.\footnote{\mention{Both}, \mention{either}, and \mention{neither} also serve as markers of coordination \citep[1305, 1308]{huddleston2002}.
+
+#79 l.702 pages [549--550]: \textit{CGEL} also treats \mention{lots better} and \mention{heaps worse} as containing quantificational NP modifiers \citep[549--550]{huddleston2002}.
+
+#80 l.704 pages [551--552]: \textit{CGEL} contrasts predicative \mention{a great deal better} with \ungram{\mention{some a great deal better proposals}}, against permitted \mention{some much better proposals} \citep[551--552]{huddleston2002}.
+
+#81 l.704 pages [p.~552, n.~8]: \textit{CGEL} permits \mention{She's a lot better player than me}, analysing the inner article as lost after the outer one \citep[p.~552, n.~8]{huddleston2002}.
+
+#82 l.752 pages [423, n.~43]: \textit{CGEL} records \mention{a nobody} and \mention{a little something} as nouns formed by conversion \citep[423, n.~43]{huddleston2002}.
+
+#83 l.752 pages [521]: Under the D-noun analysis no category change is involved: the use is the one \textit{CGEL} gives proper nouns in \mention{an Ophelia} and \mention{the Smiths}, where the name comes to \enquote{denote the set of people bearing this name} and then \enquote{takes a full range of dependents, including determiners and restrictive modifiers} \citep[521]{huddleston2002}.
+
+#84 l.756 pages [385]: \textit{CGEL} makes the same move a third time for cardinal numerals, which are \enquote{primarily determinatives but they have a secondary use in which they inflect for number and hence belong in the noun category}: \mention{in threes}, \mention{in their hundreds} \citep[385]{huddleston2002}.
+
+#85 l.780 pages [429--430]: Modifier selection gives mixed support: restricted adjectival modification in \mention{poor old me} \citep[429--430]{huddleston2002} has a counterpart in \mention{the lucky few}.
+
+#86 l.782 pages [429--430, 517, 519--520]: Personal pronouns and primary naming uses of proper nouns both resist free determination \citep[429--430, 517, 519--520]{huddleston2002}.
+
+#87 l.782 pages [415--416]: Determinatives allow \mention{the few}, \mention{the two}, and \mention{these three}; \textit{CGEL} gives \mention{these few here} and \mention{the many who did} \citep[415--416]{huddleston2002}.
+

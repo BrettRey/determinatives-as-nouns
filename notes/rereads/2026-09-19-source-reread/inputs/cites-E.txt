@@ -1,0 +1,32 @@
+[reynolds2024why] l.109 : \textit{CGEL} excepts \mention{more} and \mention{less} before adjectives and adverbs, which it classes as adverbs \citep[395, 1123]{huddleston2002}; \textcite{reynolds2024why} shows the contrasts with \mention{much} and \mention{little} that the exception denies, so the paradigm holds across their uses.
+
+[solt2015qadjectives] l.127 : \textcite{solt2015qadjectives} treats \mention{few}, \mention{many}, \mention{much}, and \mention{little} as adjectives of quantity and gives them one semantics, as gradable predicates of sets of degrees, across the quantificational, predicative, attributive, differential, and adverbial uses the class shows.
+
+[reynolds2024why] l.131 : With a degree modifier the subject condition lapses: \mention{the pain and immobility became too much to bear}, \mention{sympathy seemed too much to hope for}, \mention{it seemed so little to give}, the flexibility of modified \mention{much} that \textcite{reynolds2024why} notes and the pattern of a quantity NP in predicative function, as in \mention{a first-year festival seems a lot to ask of the public} and \textit{CGEL}'s \mention{Kim isn't much of an actor} \citep[395]{huddleston2002}.\footnote{COCA, sentence-final \mention{be much}, 81 entries (18 September 2026): \mention{it won't be much} (\textit{Denver Post}, 1997), \mention{pay won't be much} (\textit{Ruben's Place}, 2012), \mention{the hurt can not be much} (\textit{Shakespeare in Love}, 1998), and \mention{there hasn't been much} (\textit{CBS This Morning}, 2014).
+
+[reynolds2024why] l.135 : \textcite{reynolds2024why} explains why \mention{much} and \mention{more} differ in what they modify from the scale structure of the heads, without a category difference between them, following \textcite[61]{payne2010} on why complementary distribution alone doesn't assign category.
+
+[reynolds2025proformgender] l.153 : Pro-form gender \citep{reynolds2025proformgender} connects these ways of referring.
+
+[lenchukahmed2014determinatives] l.271 : \textit{CGEL}'s treatment of \mention{my} supplies a precedent for a restricted noun form \citep[470--471]{huddleston2002}.\footnote{\textcite{lenchukahmed2014determinatives} objected to \textcite{reynolds2013determiners} that its determinative tests make \mention{my}, \mention{your}, and \mention{his} determinatives, and that the partitive test admits \mention{few}, \mention{many}, and \mention{several} while their count and number restrictions contradict it; \textcite{reynolds2014determinatives} replied.
+
+[reynolds2013determiners] l.271 : \textit{CGEL}'s treatment of \mention{my} supplies a precedent for a restricted noun form \citep[470--471]{huddleston2002}.\footnote{\textcite{lenchukahmed2014determinatives} objected to \textcite{reynolds2013determiners} that its determinative tests make \mention{my}, \mention{your}, and \mention{his} determinatives, and that the partitive test admits \mention{few}, \mention{many}, and \mention{several} while their count and number restrictions contradict it; \textcite{reynolds2014determinatives} replied.
+
+[reynolds2014determinatives] l.271 : \textit{CGEL}'s treatment of \mention{my} supplies a precedent for a restricted noun form \citep[470--471]{huddleston2002}.\footnote{\textcite{lenchukahmed2014determinatives} objected to \textcite{reynolds2013determiners} that its determinative tests make \mention{my}, \mention{your}, and \mention{his} determinatives, and that the partitive test admits \mention{few}, \mention{many}, and \mention{several} while their count and number restrictions contradict it; \textcite{reynolds2014determinatives} replied.
+
+[reynolds2014determinatives] l.271 : Within Noun the first objection concerns the boundary between two subcategories, and the paradigm decides it: \mention{my} belongs with \mention{I}, \mention{me}, and \mention{mine} by person, number, and case, and that organization outweighs the functional diagnostics for this internal boundary, as \textcite{reynolds2014determinatives} argued; the partitive's restrictions are the lexical target conditions of §\ref{sec:fragment}, which no single test carries.} Dependent \mention{my} and independent \mention{mine} belong to one pronoun paradigm.
+
+[reynolds2026numerals] l.311 : With peripheral \mention{a} in \mention{a few} and predeterminer \mention{many} in \mention{many a}, no complex determinatives remain in this account; \textit{CGEL}'s other members of that class, cardinals above a hundred, are the subject of \textcite{reynolds2026numerals}.
+
+[reynolds2026numerals] l.480 : It doesn't independently decide whether \mention{three} is determinative or has a common-noun use: \textcite{reynolds2026numerals} argues for both uses of cardinals.
+
+[reynolds2024why] l.700 : \textcite{reynolds2024why} surveys the determinatives that modify AdjPs, AdvPs, and PPs (\mention{more}, \mention{less}, \mention{enough}, \mention{that}, \mention{much}, \mention{a little}, \mention{all}) and finds their distribution idiosyncratic lexeme by lexeme, as adjective intensifiers are generally, with no pattern that sets any of them apart as an adverb; the modifying phrases take modifiers of their own (\mention{far fewer}, \mention{much more}, \mention{so much}), the internal structure an NP headed by a determinative supplies.\footnote{\mention{Both}, \mention{either}, and \mention{neither} also serve as markers of coordination \citep[1305, 1308]{huddleston2002}.
+
+[reynolds2026numerals] l.718 : \textcite{reynolds2026numerals} distinguishes determinative numerals such as \mention{ten} in \mention{ten men}, proper-noun cases such as \mention{10} in \mention{Room 10}, and common-noun numerals such as \mention{tens} in \mention{tens of pens}.
+
+[reynolds2026numerals] l.722 [§4]: In \mention{two hundred books}, the whole \mention{two hundred} fills Det; internally, \mention{two} modifies the magnitude head \mention{hundred} \citep[§4]{reynolds2026numerals}.
+
+[reynolds2026numerals] l.756 : Within Noun the plural cardinal is the same secondary use again, with no category to change; \textcite{reynolds2026numerals} supplies the separate case that cardinals have both uses.
+
+[reynolds2021] l.774 : \textcite{reynolds2021} compares 138 word forms through properties recorded as present or absent, such as accepting \mention{almost}.
+

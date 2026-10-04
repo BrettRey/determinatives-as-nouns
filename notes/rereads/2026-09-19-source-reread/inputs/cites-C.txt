@@ -1,0 +1,38 @@
+[Huddleston2021] l.44 : I use \term{determinative} for the category containing articles, demonstratives, and quantifiers such as \mention{the}, \mention{this}, \mention{some}, \mention{every}, and \mention{many}.\footnote{For a fuller inventory, see the online \href{https://www.cambridge.org/highereducation/api/resources/2AC8DF5CA558F8A6FCDFACD0EAF8EA08}{\enquote{List of determinatives in English}} accompanying \textcite{Huddleston2021}.} I reserve \term{determiner} for the syntactic function within the noun phrase (NP) characteristically performed by phrases headed by these words.
+
+[payne2010] l.77 : An NP can function as determiner, as in \mention{\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \mention{the \underline{many} people} \citep{payne2010,pullummiller2022nps}.
+
+[pullummiller2022nps] l.77 : An NP can function as determiner, as in \mention{\underline{Kim's} book}, and a determinative-headed phrase can function as modifier, as in \mention{the \underline{many} people} \citep{payne2010,pullummiller2022nps}.
+
+[abney1987] l.79 : The DP hypothesis of \textcite{abney1987} concerns a different Head relation.
+
+[pullummiller2022nps] l.79 : I retain noun-headed NPs and reject the DP analysis for English, following the arguments of \textcite{pullummiller2022nps} and \textcite{bruening2020nominal}.
+
+[bruening2020nominal] l.79 : I retain noun-headed NPs and reject the DP analysis for English, following the arguments of \textcite{pullummiller2022nps} and \textcite{bruening2020nominal}.
+
+[pullumwilson1977] l.87 : The inclusion of auxiliaries within Verb supplies a further precedent for preserving distinctive properties within a broader lexical category \citep{pullumwilson1977}.
+
+[payne2010] l.135 [61]: \textcite{reynolds2024why} explains why \mention{much} and \mention{more} differ in what they modify from the scale structure of the heads, without a category difference between them, following \textcite[61]{payne2010} on why complementary distribution alone doesn't assign category.
+
+[Payne2007] l.186 [§1.3]: The compound determinative \mention{someone}, following the categorization of \textcite[§1.3]{Payne2007}, participates in \mention{someone's preferences}.
+
+[Payne2007] l.403 : Fusion represents the same complete expression differently: in \textcite{Payne2007}, one constituent jointly realizes Head and a dependent function, subject to structural and adjacency conditions.
+
+[payne2010] l.506 [40--42]: \textcite[40--42]{payne2010} defend keeping \mention{few}, \mention{any}, and related forms in one lexical category across dependent and independent uses.
+
+[payne2010] l.506 [41--42]: It also preserves their contrast between adverbial premodification, as in \mention{almost anybody}, and adjectival postmodification, as in \mention{nothing absolute} \citep[41--42]{payne2010}.
+
+[payne2010] l.512 [42--47]: \textcite[42--47]{payne2010} establish that adverbs can postmodify common nouns, as in \mention{the changes globally to the climate}.
+
+[payne2010] l.512 [p.~75, n.~3]: They also analyse \mention{almost} as modifying the attributive nominal \mention{textbook} in \mention{an almost textbook case} \citep[p.~75, n.~3]{payne2010}.
+
+[Payne2007] l.518 [581--583]: \textcite[581--583]{Payne2007} assign \mention{hardly} to DP structure and \mention{present} to nominal structure.
+
+[Payne2007] l.543 [p.~582, (13d)]: In the fusion tree, DP fills Det of NP and Head of Nom, following \textcite[p.~582, (13d)]{Payne2007}.
+
+[pullum2020theorizing] l.566 : They describe structures directly, following the constraint-based approach outlined by \textcite{pullum2020theorizing}.
+
+[payne2013anaphoric] l.720 [797--798]: \textcite[797--798]{payne2013anaphoric} distinguish three lexemes spelled \mention{one}: determinative, anaphoric common noun, and generic personal pronoun.
+
+[payne2013anaphoric] l.831 [797--798]: His English comparison includes the count restriction on anaphoric \mention{one}, whereas \mention{it} can refer to a quantity of a substance.\footnote{\textcite[797--798]{payne2013anaphoric} analyse anaphoric \mention{one} as a common count noun, distinct from determinative \mention{one} and personal pronoun \mention{one}.}
+

@@ -2,16 +2,17 @@
  "_about": "Corpus checks of exclusions the manuscript states; gathered by hand on COCA 2026-09-17, screened by TypeSafe, residue read (corpus/exclusion_tests/readings.md). Builds analysis/generated/exclusion-table.tex via analysis/tools/exclusion_table.py.",
  "checks": [
   {
-   "claim": "Independent \\mention{every} (\\ungram{\\mention{I'll take every}})",
+   "claim": "Ordinary dependence of \\mention{every}",
    "section": "sec:article-membership",
-   "corpus": "COCA",
+   "corpus": "COCA and NOW",
    "queries": [
     "each/every [v*]",
-    "each/every was/has/will (List)"
+    "each/every was/has/will (List)",
+    "NOW: every was; every has"
    ],
-   "hits": "618 lines with \\mention{every} read (of 1,095 with \\mention{each} or \\mention{every}); List: \\mention{each} has/was/will 1,578/1,005/507 against \\mention{every} will/has/was 12/8/3",
-   "result": "no ordinary fused-head use; \\mention{every} in ellipsis (\\mention{if not every, then almost every N}), reply fragments, and binomials (\\mention{any and every}); slips for \\mention{everyone} in informal text",
-   "handling": "claim kept for fused-head use"
+   "hits": "618 lines with \\mention{every} read (of 1,095 with \\mention{each} or \\mention{every}); List: \\mention{each} has/was/will 1,578/1,005/507 against \\mention{every} will/has/was 12/8/3; NOW: 164 saved lines (96 for \\mention{every was}, 68 for \\mention{every has})",
+   "result": "COCA includes ellipsis, reply fragments, and binomials; NOW has three anaphoric candidates in published prose, two confirmed on publication pages and one differing from the currently indexed source (\\mention{Each})",
+   "handling": "complete-absence claim withdrawn; fragment limited to the ordinary dependent pattern; productivity of the anaphoric use unsettled; totals are not rates"
   },
   {
    "claim": "Singular agreement with \\mention{each of the people}",

@@ -1,0 +1,17 @@
+--- before/quantifier-controls.tex
++++ quantifier-controls.tex
+@@ -111,7 +111,13 @@
+ 
+ \subsection{Independent uses of \mentionhead{every}}
+ 
+-COCA List counts (17 September 2026): \mention{each has} 1,578, \mention{each was} 1,005, \mention{each will} 507, against \mention{every will} 12, \mention{every has} 8, \mention{every was} 3; of 618 COCA lines for \mention{every} before a verb and 164 NOW lines for \mention{every was} and \mention{every has}, none shows the fused-head use. The residue is ellipsis (\enquote{if not every, then almost every male head of household}, \textit{Social History}, 1995) and binomials (\enquote{to be open and generous to all and every}, fiction, 2015). The screened lines are under \texttt{corpus/exclusion\_tests/}, and the check is tabled in the quantifier supplement.
++COCA List counts (17 September 2026): \mention{each has} 1,578, \mention{each was} 1,005, \mention{each will} 507, against \mention{every will} 12, \mention{every has} 8, \mention{every was} 3. The saved material contains 618 COCA lines with \mention{every} before a verb and 164 NOW lines for \mention{every was} and \mention{every has}. These are search totals, not matched opportunities for independent use or an estimate of its grammatical rate.
++
++The NOW material contains three anaphoric candidates in published prose. \enquote{Every has a story} remains on the \href{https://patch.com/california/temecula/attention-detail-monument-refresh-underway-across-all-temecula-city-parks}{\textit{Patch} publication page} (30 July 2025), in a paragraph about the city's parks. \enquote{Every has different blocking mechanics} remains on the \href{https://www.theguardian.com/sport/2024/feb/09/super-bowl-chiefs-49ers-travis-kelce-tony-romo}{\textit{Guardian} page} (9 February 2024). Both were checked on 19 September 2026. The occurrences disprove the earlier report of complete absence; their productivity and status in standard usage remain unsettled.
++
++The third candidate, \enquote{Every has its strengths}, differs from the currently indexed \href{https://www.news24.com/life/motoring/new-models/toyota-launches-new-corolla-in-sa-why-it-took-so-long-for-the-car-to-be-introduced-20200501-2}{\textit{News24} article} (1 May 2020), which has \mention{Each}. Direct opening was blocked, but search returned the article text. The source discrepancy is unresolved; the saved concordance is retained. The original screening outputs and the corrected reading are under \texttt{corpus/exclusion\_tests/}.
++
++The COCA reading also records ellipsis (\enquote{if not every, then almost every male head of household}, \textit{Social History}, 1995), reply fragments, and binomials (\enquote{to be open and generous to all and every}, fiction, 2015). Those constructions don't exhaust the saved NOW evidence. The article treats dependence as the ordinary pattern while acknowledging the anaphoric occurrences; the formal fragment represents that ordinary pattern.
+ 
+ \subsection{Predicative quantity expressions}
+ 

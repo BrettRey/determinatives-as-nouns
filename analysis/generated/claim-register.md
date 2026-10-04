@@ -49,11 +49,11 @@
 | independent argument use | *each* | determinative | conditional, licensed | CGEL, analysis | article-membership, independent | 2 |
 | independent argument use | *either* | determinative | conditional | CGEL | independent | 1 |
 | independent argument use | *enough* | determinative | conditional | CGEL | independent | 1 |
-| independent argument use | *every* | determinative | excluded 5, licensed | constructed (starred) 2, CGEL 2, analysis 2 | article-membership, fragment, inflection | 6 |
+| independent argument use | *every* | determinative | excluded 4, conditional | analysis 2, attested, CGEL, constructed (starred) | article-membership, fragment | 5 |
 | independent argument use | *everything* | determinative | licensed | constructed | independent | 1 |
 | independent argument use | *few* | determinative | licensed 7, conditional | analysis 5, constructed 2, CGEL | fragment, genitive-head, independent, modification, saturation | 8 |
 | independent argument use | *little* | determinative | licensed | CGEL | enough | 1 |
-| independent argument use | *many* | determinative | licensed 2, conditional | CGEL 2, constructed | independent, inflection, saturation | 3 |
+| independent argument use | *many* | determinative | conditional, licensed | CGEL, constructed | independent, saturation | 2 |
 | independent argument use | *much* | determinative | conditional, licensed | CGEL 2 | enough, independent | 2 |
 | independent argument use | *neither* | determinative | conditional | CGEL | independent | 1 |
 | independent argument use | *no* | determinative | licensed 4, excluded 2, conditional | analysis 4, CGEL 2, CGEL (restricted) | enough, form-selection, fragment, independent | 7 |
@@ -63,7 +63,6 @@
 | independent argument use | *something* | determinative | licensed 2 | constructed, analysis | independent, inflection | 2 |
 | independent argument use | *that* | determinative | licensed 4, excluded | constructed 2, analysis, other source, constructed (starred) | fragment, independent | 5 |
 | independent argument use | *the* | determinative | excluded 3, licensed, conditional | analysis 3, CGEL 2 | article-membership, det-uniform, fragment, independent | 5 |
-| independent argument use | *this* | determinative | licensed | CGEL | inflection | 1 |
 | independent argument use | *two* | determinative | licensed | constructed | independent | 1 |
 | independent argument use | *what* | determinative | licensed | analysis | inflection | 1 |
 | independent argument use | *which* | determinative | licensed | analysis | inflection | 1 |

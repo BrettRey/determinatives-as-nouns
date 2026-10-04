@@ -517,7 +517,7 @@
         "L",
         "L"
       ],
-      "note": "excluded by the lexeme's permissions in every account; the corpus check is tabled in the quantifier supplement."
+      "note": "The fragment represents every's ordinary dependent pattern in all four accounts. The saved NOW material contains anaphoric occurrences (two confirmed on publication pages, one source variant); those lie outside this fragment. This cell is not an empirical absence claim; see the quantifier supplement."
     },
     "indep_arg|no_none": {
       "codes": [
@@ -1402,5 +1402,11 @@
       "degree_outside|gradable"
     ],
     "about": "Alternative coding conventions: (1) lexical licensing takes precedence, so cells that depend on a lexeme-specific permission are L in every implementation; (2) the fused inner-phrase restriction is one general rule, so the partitive and relative cells under fusion are D; (3) a typed schema over nominal projections replaces each D2 duplication, so D2 becomes D; (4) the secondary use is a construction-specific rule in every account (already so coded); (5) the N or D head condition is treated as a general rule, so Dn becomes D."
+  },
+  "_scope_corrections_2026_09_19": {
+    "independent_every": "Ordinary dependent pattern only; anaphoric publication occurrences acknowledged, productivity unsettled.",
+    "retained_fusion": "Nominal nylon and double constructions are held fixed alongside adjectival fusion, but are not scored cells.",
+    "genitives": "Simple determinative genitive restrictions and anaphoric genitive agreement/complement conditions are not scored cells; comparative costs are discussed qualitatively.",
+    "polarity": "Positive interpretation of a few/a little is a convention of the peripheral-a construction, not measured by the cell totals."
   }
 }

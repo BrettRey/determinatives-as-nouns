@@ -1,6 +1,16 @@
 # Reading of the independent-*every* hits
 <!-- SUMMARY: hand reading of the 164 NOW lines for "every was" and "every has": mostly surnames, a car, a novel, and slips for everyone; a small residue of edited prose with every in the each-like reading after an antecedent set · status: read by Claude, not yet by Brett · updated: 2026-09-17 -->
 
+## Correction after source check, 19 September 2026
+
+The concluding comparison of COCA with NOW below is superseded. It contradicted this note's own three NOW candidates. Two of those strings remain on their publication pages: *Every has a story* ([Patch](https://patch.com/california/temecula/attention-detail-monument-refresh-underway-across-all-temecula-city-parks), 30 July 2025) and *Every has different blocking mechanics* ([The Guardian](https://www.theguardian.com/sport/2024/feb/09/super-bowl-chiefs-49ers-travis-kelce-tony-romo), 9 February 2024). The third, *Every has its strengths*, differs from the currently indexed [News24 article](https://www.news24.com/life/motoring/new-models/toyota-launches-new-corolla-in-sa-why-it-took-so-long-for-the-car-to-be-introduced-20200501-2), which has *Each*. Direct opening of News24 was blocked; search returned its article text. Whether the source changed or the saved text differs for another reason is unresolved.
+
+These publication occurrences withdraw the claimed empirical absence. They don't establish productivity or exclude editorial omission. Dependence remains the ordinary pattern represented in the formal fragment. The search totals aren't matched opportunities and don't measure a grammatical rate. The original concordances, model screens, and the historical reading below are preserved. Labels such as “clear cases” and “errors” below are the earlier adjudication, not conclusions newly established by this source check.
+
+Brett reviewed the analytical correction in `notes/passes/2026-09-19-four-analytical-findings.md`; Codex checked the relevant saved lines and publication sources. The manuscript and quantifier supplement now acknowledge both confirmed strings and the source variant.
+
+## Historical reading (17 September; superseded where noted)
+
 Manuscript claim under test: *every* can't occur independently (§independent, §fragment: #*I'll take every*, #*Every arrived*). Strings: "every was" (141 hits, 96 lines saved), "every has" (73 hits, 68 lines). TypeSafe accepted none and rejected 58; the 106 escalated lines were read in full by the screening session, not by Brett.
 
 ## What the hits are

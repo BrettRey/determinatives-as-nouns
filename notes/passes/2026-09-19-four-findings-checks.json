@@ -1,0 +1,44 @@
+{
+  "live_quotes": 649,
+  "missing_quotes": [],
+  "missing_section_labels": [],
+  "source_mechanics": {
+    "determinatives-as-nouns.tex": {
+      "brace_balance": 0,
+      "environment_errors": [],
+      "review_markup_absent": true
+    },
+    "quantifier-controls.tex": {
+      "brace_balance": 0,
+      "environment_errors": [],
+      "review_markup_absent": true
+    },
+    "coverage-audit.tex": {
+      "brace_balance": 0,
+      "environment_errors": [],
+      "review_markup_absent": true
+    }
+  },
+  "missing_refs": [],
+  "duplicate_labels": [],
+  "missing_citation_keys": [],
+  "reclassified_claims_in_key_check": [],
+  "generator_checks": {
+    "claim_register.py": {
+      "exit_code": 0,
+      "output": ""
+    },
+    "coverage_audit.py": {
+      "exit_code": 0,
+      "output": "cells 103; differ 35; I1 D61 Dn0 D2:0 L36 S6 U0; I2 D28 Dn32 D2:1 L36 S6 U0; I3 D40 Dn0 D2:12 L35 S16 U0; I4 D53 Dn0 D2:0 L36 S14 U0"
+    },
+    "exclusion_table.py": {
+      "exit_code": 0,
+      "output": ""
+    }
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "output": ""
+  }
+}

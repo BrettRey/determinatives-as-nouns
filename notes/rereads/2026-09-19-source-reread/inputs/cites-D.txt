@@ -1,0 +1,52 @@
+[vaneynde2003determiner] l.71 : Earlier accounts connect articles with pronouns or give both nominal structure, at different analytical levels (Appendix~\ref{sec:historical}); \textcite{vaneynde2003determiner} argues from inflection that determiners are heterogeneous, some adjectives and some nouns (§\ref{sec:membership}).
+
+[vaneynde2003determiner] l.245 : \textcite{vaneynde2003determiner} argues from Italian and Dutch that determiners form no category of their own: those that inflect and agree like prenominal adjectives are adjectives, and genitives and non-agreeing pronouns are nouns.
+
+[spinillo2004reconceptualising] l.279 [153--158]: \textcite[153--158]{spinillo2004reconceptualising} (earlier \citealp{spinillo2000determiners}) instead retains \mention{the}, \mention{a}, and \mention{every} as an expanded article category and redistributes other determinatives among adjectives and pronouns \citep[194--195]{spinillo2004reconceptualising}.
+
+[spinillo2000determiners] l.279 : \textcite[153--158]{spinillo2004reconceptualising} (earlier \citealp{spinillo2000determiners}) instead retains \mention{the}, \mention{a}, and \mention{every} as an expanded article category and redistributes other determinatives among adjectives and pronouns \citep[194--195]{spinillo2004reconceptualising}.
+
+[spinillo2004reconceptualising] l.279 [194--195]: \textcite[153--158]{spinillo2004reconceptualising} (earlier \citealp{spinillo2000determiners}) instead retains \mention{the}, \mention{a}, and \mention{every} as an expanded article category and redistributes other determinatives among adjectives and pronouns \citep[194--195]{spinillo2004reconceptualising}.
+
+[spinillo2004reconceptualising] l.283 [156--158]: \textcite[156--158]{spinillo2004reconceptualising} recognizes these differences from \mention{the} and \mention{a}, as well as the articles' greater phonological dependence.
+
+[spinillo2004reconceptualising] l.287 [140--144]: \textcite[140--144]{spinillo2004reconceptualising} draws an analogy with verbs and prepositions whose complements can be omitted.
+
+[lyons1999] l.289 [331--336]: The argument is synchronic: the development of definite articles from demonstratives and of articles expressing cardinality from numerals \citep[331--336]{lyons1999} bears on content and use, not on the categorization.
+
+[VanEynde_2007_BigMess] l.311 [§5]: \textcite[§5]{VanEynde_2007_BigMess} draws the same line from the other side: \mention{such a} and \mention{what a} aren't instances of the Big Mess construction (\mention{how long a bridge}), since \mention{what} and \mention{such} \enquote{are invariably lexical} and \enquote{lexically select a nominal which is either unmarked or introduced by the indefinite article}.
+
+[hudson2004determiners] l.619 [7--8]: \textcite[7--8]{hudson2004determiners} distinguishes dependency from external headedness.
+
+[hudson2004determiners] l.619 [10--12]: His temporal adjunct evidence supports common-noun headedness: \mention{I saw him that day} is possible, whereas \ungram{\mention{I saw him that point in time}} isn't, despite the similar temporal meanings \citep[10--12]{hudson2004determiners}.
+
+[hudson2010wordgrammar] l.768 [253--254]: \textcite[253--254]{hudson2010wordgrammar} makes taxonomic inclusion explicit.
+
+[hudson2004determiners] l.768 [9--10]: His noun category contains common noun, proper noun, and pronoun; what he calls a determiner is a pronoun whose \term{valency} permits the relevant common-noun dependent \citep[9--10]{hudson2004determiners}.
+
+[hudson2004determiners] l.770 [9--10]: He sets aside \mention{all}, cardinal numerals, and quantifiers restricted to plural or non-count nouns \citep[9--10]{hudson2004determiners}.
+
+[lyons1968] l.804 [232--235]: As \textcite[232--235]{lyons1968} observes, distribution can be compared at different levels: two expressions may belong together at one level and differ at a more specific level.
+
+[palmer1924] l.814 : Palmer (\citeyear{palmer1924}) & Determinative adjectives grouped with pronouns. & Lexical grouping; inclusive Noun unspecified \\
+
+[postal1966] l.815 : Postal (\citeyear{postal1966}) & Personal pronouns analysed as articles, with deeper noun features. & Intermediate and underlying representations \\
+
+[sommerstein1972] l.816 : Sommerstein (\citeyear{sommerstein1972}) & Definite article and personal pronouns given NP structure. & Underlying representation \\
+
+[lyons1968] l.817 : Lyons (\citeyear{lyons1968}) & Articles, demonstratives, and personal pronouns linked by definiteness and deixis. & Semantic relationship \\
+
+[hudson2004determiners] l.819 : Hudson (\citeyear{hudson2004determiners}) & His determiner category within pronoun, which is within noun (see §\ref{sec:inheritance}). & Lexical taxonomy \\
+
+[vaneynde2003determiner] l.820 : Van Eynde (\citeyear{vaneynde2003determiner}) & Determiners categorially heterogeneous on inflection and agreement: those that inflect like prenominal adjectives are adjectives; genitives and non-agreeing pronouns are nouns (Italian, Dutch; see §\ref{sec:membership}). & Lexical taxonomy, cross-linguistic \\
+
+[spinillo2004reconceptualising] l.821 : Spinillo (\citeyear{spinillo2004reconceptualising}) & Determinatives redistributed; \mention{the}, \mention{a}, and \mention{every} retained as articles. & Lexical recategorization \\
+
+[palmer1924] l.827 [24]: \textcite[24]{palmer1924} proposed placing \enquote{determinative adjectives} with pronouns.
+
+[lyons1968] l.827 [279]: \textcite[279]{lyons1968} adds a semantic connection: articles, demonstratives, and personal pronouns share definiteness and deictic contrasts.
+
+[postal1966] l.829 : \textcite{postal1966} develops the article--pronoun connection through English reflexives and combinations such as \mention{we men}.
+
+[sommerstein1972] l.831 [197--203]: \textcite[197--203]{sommerstein1972} argues in the opposite direction, giving the definite article and personal pronouns underlying NP structure.
+

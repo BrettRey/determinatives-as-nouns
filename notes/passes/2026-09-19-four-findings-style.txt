@@ -1,0 +1,121 @@
+
+Found 6 potential style violation(s):
+
+
+=== determinatives-as-nouns.tex ===
+  Line 301: [warning] Noticeable 'The X is Y' paragraph-opener cadence (8; lines 263, 293, 301, 405, 413, ...) - vary if not defining, contrasting, or pivoting
+    The semantic type is a third. The unified semantics of few, many, much; The a...
+  Line 496: [warning] Noticeable argumentative-object paragraph-opener cadence (6; lines 73, 269, 293, 496, 520, 570) - vary by making the move directly where possible
+    The paper advances two separable claims. Sections sec:proposal--sec:ar; The c...
+  Line 119: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    Overlap with adjectives likewise needs phrase levels kept distinct. Both \men...
+  Line 524: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    \textcite[42--47]{payne2010} establish that adverbs can postmodify common nou...
+  Line 715: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    When \mention{enough} modifies \mention{good} in \mention{good enough}, the t...
+  Line 800: Oxford spelling: 'unsupervised' -> 'unsupervized'
+    \textcite{reynolds2021} compares 138 word forms through properties recorded a...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    Line 129: AI pattern: coordinate evaluation tacked onto a claim
+      \mention{Much} and \mention{little} take the predicative use only with an amount-denoting subject...
+    Line 279: AI pattern: while maintaining/preserving trade-off frame
+      \mention{The} also functions as a degree modifier. In \mention{the bigger the better}, it modifie...
+    Line 435: AI pattern: possible false range; verify the endpoints form a real scale
+      \caption{\mention{Some of the wine} under the D-noun analysis. The Head relations lead from the o...
+    Line 560: AI pattern: while maintaining/preserving trade-off frame
+      The relative clauses in §\ref{sec:independent} are ordinary postmodifiers, distinct from the spec...
+    Line 580: AI pattern: while maintaining/preserving trade-off frame
+      In the first, \mention{Helen's} is understood as Helen's performance, and the following \mention{...
+    Line 588: AI pattern: while maintaining/preserving trade-off frame
+      Ordinary Head gives the independent determinatives one Head chain while preserving their distinct...
+    Line 760: AI pattern: while maintaining/preserving trade-off frame
+      The feature would identify the same broad domain as the proposed Noun category while retaining th...
+
+  --- determinatives-as-nouns.tex ---
+    Line 210: AI phrase cluster - 6 signature phrase hits across 6 lines
+      "overall" x5 [lines 677,709,750,786,...]; "paving the way" x1 [lines 210]
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- determinatives-as-nouns.tex ---
+    836 sentences | median 15 | mean 16.8 | middle half 10-20 (10 words)
+         1-9  #################         169   20%
+       10-14  ########################  239   29%
+       15-19  ###################       188   22%
+       20-24  #############             127   15%
+       25-29  #####                      50    6%
+       30-34  ##                         24    3%
+       35-39  #                          13    2%
+         40+  ###                        26    3%
+
+
+
+Found 2 potential style violation(s):
+
+
+=== quantifier-controls.tex ===
+  Line 138: [warning] Noticeable 'The X is Y' paragraph-opener cadence (3; lines 93, 130, 138) - vary if not defining, contrasting, or pivoting
+    The article states several exclusions as starred examples. Each was ch; The C...
+  Line 93: Uncontracted negative auxiliary 'is not' - prefer 'isn't' unless contrast/emphasis requires the full form
+    The article states several exclusions as starred examples. Each was checked a...
+
+============================================================
+AI VOICE CHECK
+============================================================
+
+  --- quantifier-controls.tex ---
+    Line 84: AI pattern: possible false range; verify the endpoints form a real scale
+      \ex\label{ex:numerous-exist-part} \mention{There are numerous of them.}\footnote{Sunday Cyriacus ...
+
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- quantifier-controls.tex ---
+    128 sentences | median 14 | mean 14.8 | middle half 9-18 (9 words)
+         1-9  ########################   35   27%
+       10-14  #####################      31   24%
+       15-19  #####################      30   23%
+       20-24  ############               17   13%
+       25-29  #######                    10    8%
+       30-34  ##                          3    2%
+       35-39  #                           1    1%
+         40+  #                           1    1%
+
+
+
+Found 3 potential style violation(s):
+
+
+=== coverage-audit.tex ===
+  Line 25: Uncontracted pronoun + auxiliary 'they are' - prefer 'they're'
+    The classifications are the author's, made by hand from the article's stated ...
+  Line 33: Uncontracted pronoun + auxiliary 'that is' - prefer 'that's'
+    The classes count rules, not primitives. The primitives differ too, and Table...
+  Line 54: Hackneyed connective/adverb 'therefore' - prefer simple coordinators
+    In I3, a determinative heads a DP, which fills Head in the further nominal st...
+
+============================================================
+SENTENCE LENGTH
+============================================================
+
+  --- coverage-audit.tex ---
+    51 sentences | median 18 | mean 20.4 | middle half 12-27 (15 words)
+         1-9  ####################        9   18%
+       10-14  #################           8   16%
+       15-19  ########################   11   22%
+       20-24  #################           8   16%
+       25-29  #############               6   12%
+       30-34  #############               6   12%
+       35-39  ##                          1    2%
+         40+  ####                        2    4%
+

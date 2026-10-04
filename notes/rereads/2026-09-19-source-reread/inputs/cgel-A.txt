@@ -1,0 +1,88 @@
+#1 l.42 pages [none]: I adopt the general framework of \textit{The Cambridge grammar of the English language} (\textit{CGEL}; \citealp{huddleston2002}).
+
+#2 l.50 pages [410--412]: In \textit{CGEL}, the determinative phrase (DP) headed by independent \mention{some} jointly fills determiner and Head, a \term{fusion of functions} \citep[410--412]{huddleston2002}.
+
+#3 l.54 pages [420--421]: \textit{CGEL} discusses the limits of ellipsis as a general account \citep[420--421]{huddleston2002}.}
+
+#4 l.87 pages [327--328]: \textit{CGEL} includes pronouns within Noun on the basis of their phrases' functions, despite differences from common and proper nouns in inflection and dependents \citep[327--328]{huddleston2002}.
+
+#5 l.95 pages [349]: But \mention{lot} also permits \mention{a lot of delegates}, whereas \ungram{\mention{many of delegates}} is excluded \citep[349]{huddleston2002}.
+
+#6 l.97 pages [349--350, 411--412]: \textit{CGEL} calls quantificational \mention{lot} \term{number-transparent} \citep[349--350, 411--412]{huddleston2002}.
+
+#7 l.101 pages [349--350]: \textit{CGEL} categorizes quantificational \mention{plenty} as a common noun whose use resists determination and modification; \mention{lot} requires \mention{a} and permits only limited modification \citep[349--350]{huddleston2002}.
+
+#8 l.103 pages [549--550]: Quantificational nouns occur in degree modifiers such as \mention{a great deal smaller} and \mention{plenty big enough} \citep[549--550]{huddleston2002}.
+
+#9 l.105 pages [429--430, 439--443, 517--521]: Common nouns also permit a wider range of PP and clausal complements, whereas pronouns and primary naming uses of proper nouns have much more restricted dependents \citep[429--430, 439--443, 517--521]{huddleston2002}.
+
+#10 l.109 pages [391--395]: They distinguish plain, comparative, and superlative forms: \mention{few}/\allowbreak\mention{fewer}/\allowbreak\mention{fewest}, \mention{many}/\allowbreak\mention{more}/\allowbreak\mention{most}, and corresponding paradigms for \mention{little} and \mention{much} \citep[391--395]{huddleston2002}.
+
+#11 l.109 pages [395, 1123]: \textit{CGEL} excepts \mention{more} and \mention{less} before adjectives and adverbs, which it classes as adverbs \citep[395, 1123]{huddleston2002}; \textcite{reynolds2024why} shows the contrasts with \mention{much} and \mention{little} that the exception denies, so the paradigm holds across their uses.
+
+#12 l.111 pages [393--395, 431--432]: These degree patterns select \mention{few}, \mention{many}, \mention{much}, and \mention{little}, the four determinatives that inflect for grade \citep[393--395, 431--432]{huddleston2002}.\footnote{The restriction concerns this degree series.
+
+#13 l.111 pages [432]: \textit{CGEL} also records modifiers of completeness, including \mention{marginally enough} and \mention{absolutely all}, with different selectional ranges \citep[432]{huddleston2002}.
+
+#14 l.113 pages [p.~392, (61)]: \textit{CGEL} contrasts internal \mention{very} in \mention{a very few mistakes} with peripheral \mention{quite} in \mention{quite a few mistakes} \citep[p.~392, (61)]{huddleston2002}; the reversed orders \ungram{\mention{very a few}} and \ungram{\mention{a quite few}} are excluded.
+
+#15 l.121 pages [536]: \textit{CGEL} excludes specifying \mention{be} clauses from its noun--adjective diagnostic because phrases from other categories occur in them too \citep[536]{huddleston2002}.
+
+#16 l.125 pages [328]: A bare-role NP such as \mention{president} is licensed in \mention{I'd like to be president}, but requires determination in the corresponding object use \mention{I'd like to meet the president} \citep[328]{huddleston2002}.
+
+#17 l.131 pages [395]: With a degree modifier the subject condition lapses: \mention{the pain and immobility became too much to bear}, \mention{sympathy seemed too much to hope for}, \mention{it seemed so little to give}, the flexibility of modified \mention{much} that \textcite{reynolds2024why} notes and the pattern of a quantity NP in predicative function, as in \mention{a first-year festival seems a lot to ask of the public} and \textit{CGEL}'s \mention{Kim isn't much of an actor} \citep[395]{huddleston2002}.\footnote{COCA, sentence-final \mention{be much}, 81 entries (18 September 2026): \mention{it won't be much} (\textit{Denver Post}, 1997), \mention{pay won't be much} (\textit{Ruben's Place}, 2012), \mention{the hurt can not be much} (\textit{Shakespeare in Love}, 1998), and \mention{there hasn't been much} (\textit{CBS This Morning}, 2014).
+
+#18 l.137 pages [236]: I interpret it as evaluating a degree of blueness; subjects needn't be NPs \citep[236]{huddleston2002}.}
+
+#19 l.141 pages [373, 521]: Demonstratives likewise distinguish \mention{this}/\mention{these} and \mention{that}/\mention{those} \citep[373, 521]{huddleston2002}.
+
+#20 l.143 pages [486]: \textit{CGEL} treats singular and plural \mention{you} as distinct lexemes, differentiated overtly only by the reflexive forms \mention{yourself} and \mention{yourselves} \citep[486]{huddleston2002}.
+
+#21 l.145 pages [418]: Generic human \mention{the rich}, by contrast, is a plural NP whose adjective lacks number inflection and still takes adverb modifiers: \mention{the very rich} \citep[418]{huddleston2002}.
+
+#22 l.147 pages [479]: The compounds' genitives belong to the NP: \textit{CGEL} lists \mention{everyone's} beside \mention{Edward's} among head genitives, marked by \enquote{the inflection of the head noun}, and \mention{everyone else's} and \mention{somebody local's} beside \mention{the King of England's} among phrasal genitives, with the suffix after the postmodifier \citep[479]{huddleston2002}.
+
+#23 l.149 pages [358--360, 370--405, 425--428, 515--521]: They range from deictic \mention{this} to quantitative \mention{many} and universal \mention{every} \citep[358--360, 370--405, 425--428, 515--521]{huddleston2002}.
+
+#24 l.153 pages [397--399]: I leave that internal boundary open here; \textit{CGEL}'s inventory suffices for this comparison \citep[397--399]{huddleston2002}.}
+
+#25 l.163 pages [371--372, 410--424]: \textit{CGEL} discusses such uses for demonstratives and quantifiers including \mention{some}, \mention{all}, \mention{both}, \mention{many}, \mention{few}, \mention{several}, \mention{each}, \mention{either}, \mention{neither}, \mention{much}, and \mention{enough}, while recording lexical restrictions and the separate forms \mention{no}/\mention{none} \citep[371--372, 410--424]{huddleston2002}.
+
+#26 l.163 pages [433--437]: \textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers, \mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers, and \mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives \citep[433--437]{huddleston2002}; §\ref{sec:complex-determinatives} reanalyses that pair, and \textit{CGEL}'s complex determinative \mention{many a} \citep[394]{huddleston2002}, as determinatives in predeterminer function.
+
+#27 l.163 pages [394]: \textit{CGEL} treats \mention{all}/\mention{both} in \mention{all/both the books} as predeterminer modifiers, \mention{quite}/\mention{rather} before \mention{a good idea} as peripheral modifiers, and \mention{such}/exclamative \mention{what} before \mention{a disaster} as adjectives \citep[433--437]{huddleston2002}; §\ref{sec:complex-determinatives} reanalyses that pair, and \textit{CGEL}'s complex determinative \mention{many a} \citep[394]{huddleston2002}, as determinatives in predeterminer function.
+
+#28 l.163 pages [434]: The \mention{half} in \mention{half a cake} is a common noun used as a predeterminer modifier \citep[434]{huddleston2002}.
+
+#29 l.178 pages [332--333, 416--423]: \mention{The rich} and \mention{the poor} are nominal arguments, and comparative and superlative adjectives head expressions without a generic human interpretation: \textit{CGEL}'s \mention{the most important of her criticisms} is an NP containing a partitive \mention{of}-phrase \citep[332--333, 416--423]{huddleston2002}.
+
+#30 l.180 pages [417--418]: Independent \mention{some} can form a one-word NP, whereas an NP with \mention{rich} as fused Head requires the definite article \mention{the} on the generic human reading \citep[417--418]{huddleston2002}.
+
+#31 l.182 pages [1391--1393]: With possible solutions under discussion, \mention{There are several} places the independent quantifier in displaced-subject position; dummy \mention{there} is the subject \citep[1391--1393]{huddleston2002}.
+
+#32 l.184 pages [354--355, 470--471]: In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}.
+
+#33 l.184 pages [472--473]: In \mention{my preferences}, \mention{Kim's preferences}, and \mention{people's preferences}, the determiner is an NP ultimately headed by a pronoun, a proper noun, and a common noun respectively \citep[354--355, 470--471]{huddleston2002}.\footnote{\textit{CGEL} assigns these genitives the combined function Subject--Det \citep[472--473]{huddleston2002}.
+
+#34 l.186 pages [356]: Plain-case NPs also fill Det: \mention{what size} in \mention{what size shoes}, \mention{that size} in \mention{that size shoes}, and \mention{Sunday} in \mention{Sunday morning} \citep[356]{huddleston2002}.
+
+#35 l.188 pages [354--359]: Its tasks are themselves closely connected with nominal reference: Det marks definiteness and often contributes quantification \citep[354--359]{huddleston2002}.
+
+#36 l.190 pages [356]: Preposition phrases (PPs) remain a restricted alternative, as in \mention{up to twenty minutes} and \mention{between fifty and sixty tanks} \citep[356]{huddleston2002}.
+
+#37 l.192 pages [1496--1497]: Emphatic \mention{herself} also functions as a clause adjunct in \mention{The manager detected the error herself} \citep[1496--1497]{huddleston2002}.
+
+#38 l.194 pages [430]: Common nouns freely take integrated relatives, as in \mention{people who came}; personal pronouns permit a restricted range, including \mention{we who have read the report} \citep[430]{huddleston2002}.
+
+#39 l.196 pages [414, 422--423]: \textit{CGEL} describes relative postmodification with demonstratives and compounds \citep[414, 422--423]{huddleston2002}.
+
+#40 l.202 pages [539--540]: Degree modification exposes a contrast: \mention{so many mistakes} is possible, while \ungram{\mention{so numerous mistakes}} is excluded \citep[539--540]{huddleston2002}.
+
+#41 l.204 pages [392--393, 411--413]: Their \mention{of}-phrases are hardly omissible, with speaker and register restrictions on the partitive uses \citep[392--393, 411--413]{huddleston2002}.
+
+#42 l.204 pages [392, 395--396]: Predicative \mention{Its advantages are several} and \mention{Their enemies were many} provide further overlap, though the latter is uncommon and formal \citep[392, 395--396]{huddleston2002}.
+
+#43 l.208 pages [416]: Adjective fusion permits indefinite ordinal \mention{a second} \citep[416]{huddleston2002}, as in \mention{There was a second}.
+
+#44 l.208 pages [418]: Plural agreement likewise occurs with adjective-containing \mention{the rich}, whose adjective lacks number inflection \citep[418]{huddleston2002}.
+
