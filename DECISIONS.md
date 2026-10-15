@@ -769,3 +769,12 @@ Query strings confirmed from Brett's search history now appear in the footnotes:
 2026-10-15 — Glossa ruled out for the split papers (Brett: "I'm not rewriting for Glossa"). The publisher's AI policy prohibits AI generation of the main argument or of most of an article's text (flagged in `submission/venue-decision-2026-09-07.md`), and Brett won't do an author-led rewrite to meet it. Order of JL submission between the two determinatives papers is still undecided.
 
 2026-10-15 — Glossa clarified (Brett): "Glossa's probably out for me, unless it's a co-authored paper with someone who doesn't want AI use, like Amie." So Glossa is out for both split papers. It stays open only for a co-authored paper written without AI. Brett leans to ELL for the structural paper and JL for the taxonomic paper; venue records are being drafted under `submission/`.
+
+2026-10-15 — Split sequencing and process (Brett: "proceed", after Codex's second opinion, `reviews/external-codex-venue-20261015/`). The structural paper is written first and goes to JL first. The taxonomic paper follows; Corela (December call) or JL afterwards is still open. Brett's process rules for the split:
+1. Write the two new abstracts and conclusions first, before moving prose. Each states a contribution that doesn't require accepting the other paper.
+2. Then allocate the existing sections, rebuild the transitions, and audit every cross-reference for a premise that has accidentally moved out.
+3. Keep a single underlying evidence repository (this one: `corpus/`, `analysis/`), with each paper given its own guide to the relevant records.
+4. Give each extended analysis one main home; repeat definitions and a few essential examples where self-containment requires them.
+5. No "Part I / Part II" titles.
+
+Codex's corrections are adopted for the structural paper: *the some who* defeats CGEL's stated licensing condition but doesn't by itself exclude conversion, a construction-specific account, or a revised fusion condition, so the paper must show why those repairs fail.
