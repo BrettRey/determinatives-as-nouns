@@ -732,3 +732,11 @@ The coverage audit records that the simple-D genitive restriction, independent-g
 - Line 75 keeps "strengthens the case for the grouping" and names the rival's price: licensing ordinary Head for both Noun and D (Table 1).
 - §5.5 and the conclusion: *names* → *proper nouns*. The conclusion scopes the complex-determinative sentence to ordinary Heads and adds the two patterns.
 (2) §6.1 rule stated by a property (carries its own description of the individuals), with the pronoun prediction noted. *The few/many/some* are placed as the independent use: they describe a quantity and keep quantificational force. (3) §5.3: CGEL [37] (p. 549) degree determinatives and degree *all* "as in NP structure" (*I feel all the better for it*), with a 90-token COCA footnote. Linter fix: "runs from … to …" became "lists ten …, among them". (4) §2.1 footnote: 62 of 75 saved plural lines have a tensed plural verb agreeing with *each of them*. The split is Claude's reading; the 13 excluded lines are listed in M2 (`2026-09-19-measurement-construction-audit.md`). (5) §3.3 exclamative *what* kept, with CGEL p. 920 ("occurs only as modifier in NP structure") and the point that CGEL classes it as an adjective (p. 540) though it lacks the predicative function of central adjectives (p. 528). Terminology: tensed/non-tensed, not finite/non-finite.
+
+2026-10-15 — Numbers-audit fixes applied (Brett: "apply 1, 2, 5, 6"; Codex/GPT-6 audit, verified by Claude; `notes/passes/2026-10-15-numbers-audit.md`).
+- §3.2: complex determinatives "spelled as more than one word" (*a great many* is three).
+- §2.2 footnote: the 12 non-subject predicative *too little, too late* lines are "predicative in other frames, 8 of them complements of *as*" (only 8 of 12 predicate the phrase of an object).
+- §4 footnote: *few would*, "3 have it and 2 probably do" (Brett's `[x]?` marks).
+- §6.1 footnote: the plural compound counts flagged as unscreened form counts (*sweet nothings*, *thirty-somethings*).
+
+Open, waiting on COCA searches: a record for the two *become those* lines (line 161), and a matched *[be] a little much* count for "commoner *a bit much*".
