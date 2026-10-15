@@ -1,5 +1,5 @@
 # Negative claims, 15 October 2026
-<!-- SUMMARY: report-only negative-claims pass over determinatives-as-nouns.tex since af63c84, then one full read; 66 negatives examined; 3 wrong as worded against the cited sources (some "has no modifier use"; which/what "neither mark definiteness"; "a common noun that refers to the speaker can't bind a first-person reflexive"), 9 to narrow or evidence, 4 optional carried from 19 Sep, 50 standing · status: report, not applied · updated: 2026-10-15 -->
+<!-- SUMMARY: report-only negative-claims pass over determinatives-as-nouns.tex since af63c84, then one full read; 66 negatives examined; 3 wrong as worded against the cited sources (some "has no modifier use"; which/what "neither mark definiteness"; "a common noun that refers to the speaker can't bind a first-person reflexive"), 9 to narrow or evidence, 4 optional carried from 19 Sep, 50 standing · status: all items applied 2026-10-15 (Brett: "apply all of them. You read the lines") · updated: 2026-10-15 -->
 
 > Saved verbatim by the parent session from the subagent's final report (Claude Opus 5.5 subagent, general-purpose; subagents cannot write report files). The parent verified W1–W3 against *CGEL* pp. 357, 385, 539 and Halm (52) before presenting.
 

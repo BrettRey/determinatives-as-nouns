@@ -742,3 +742,24 @@ The coverage audit records that the simple-D genitive restriction, independent-g
 Open, waiting on COCA searches: a record for the two *become those* lines (line 161), and a matched *[be] a little much* count for "commoner *a bit much*".
 
 2026-10-15 — "Commoner *a bit much*" now rests on a matched comparison. A form of *be* precedes *a bit much* 370 times and *a little much* 151 times (Brett's frequency lists), and the §2.2 footnote gives both. The two *become those* examples (line 161) are confirmed as COCA strings by frequency list (BECOME THOSE WHO 3, BECOME THOSE THAT 1); their KWIC lines are still to be saved.
+
+2026-10-15 — Negative-claims audit applied in full (Brett: "apply all of them. You read the lines"). Report: `notes/passes/2026-10-15-negative-claims.md`; W1–W3 verified by Claude against CGEL pp. 357, 385, 539 and Halm (52).
+
+Wrong as worded, now corrected:
+- (W1) *some* "has no modifier use" → "no internal-modifier use" in the abstract, the table, §4.3 (twice) and the conclusion. CGEL p. 385 gives *some* modifier uses (*some more*, %*some better*). The p. 410 quotation, which describes *some sausages*, is replaced by p. 539: *some* is among the determinatives that "cannot combine with the articles", a criterion *the some who* breaks as worded.
+- (W2) Line 236: the *wh*-determinatives "don't quantify, and the definiteness they mark comes from the clause type" (CGEL p. 357, "indefinite as interrogatives, definite as relatives"). Interrogative *who* is cited to p. 1462. "The outliers line up" is kept; "don't quantify" is Brett's own claim.
+- (W3) §6.1 and the conclusion: "a singular common noun that refers to the speaker" (Halm's (52a) shows a plural imposter binding *ourselves*).
+
+Narrowed or evidenced:
+- *the some people*: the 50 displayed of 53.
+- The COCA *the some* footnote names the *the some of the* lines, spam, and the five contrast-reading lines that the iWeb comparison tests.
+- *he's and she's* "wasn't searched".
+- The *seem*/*become much* queries are named.
+- *is a bit much*: 10 questions or tags noted.
+- Reynolds 2024 narrowed to *more* and *less*.
+- *a photograph of the people* takes singular "as well", not "categorically". Census amendment qn-012 updated; register 1,422/1,422.
+- The 81-line batch is cited as the 4 October `[be] much .` run.
+
+Classification (item 6): footnotes now state that the October corpus lines (*the some*, *the real you*, *too little, too late*, *is a bit much*, and the 4 October sets) were classified by Claude Opus 5.5, with the readings saved with the lines. The page-1 AI-use note now covers the September and October revisions, adds Claude Opus 5.5 and "the classification of corpus lines", and adds GPT-6 as a numbers checker.
+
+Query strings confirmed from Brett's search history now appear in the footnotes: `[v*] a bit much`, `is a bit much`, `[be] a little much`, `[be] all the better`, `the [j*] me`, `the [j*] you`, `the real you [be]`. History saved as `corpus/2026-10-15-search-history.md`.

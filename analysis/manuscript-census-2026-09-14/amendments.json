@@ -21,9 +21,9 @@
   "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
  },
  "qn-012": {
-  "quote": "ordinary \\mention{a photograph of the people} takes it categorically",
-  "previous_quote": "nor does ordinary \\mention{a photograph of the people}",
-  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md)"
+  "quote": "ordinary \\mention{a photograph of the people} takes it as well",
+  "previous_quote": "ordinary \\mention{a photograph of the people} takes it categorically",
+  "reason": "2026-09-17: restated after the COCA exclusion tests (see corpus/exclusion_tests/readings.md). 2026-10-15: 'categorically' dropped (negative-claims audit N9, Brett: 'apply all of them'); no search backed a categorical claim. The claim (excluded from number transparency) is unchanged."
  },
  "du-029": {
   "previous_quote": "They exclude external determination and a corresponding pre-head adjective as determinatives; the set-denoting use of §\\ref{sec:secondary-use} (\\mention{a special someone}) falls outside the construction.",
