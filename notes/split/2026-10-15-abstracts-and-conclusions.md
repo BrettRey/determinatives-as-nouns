@@ -38,7 +38,7 @@ The structural paper's project is `papers/drafting/ordinary-heads-for-english-de
 1. **⚑ Answer the repairs Codex named:** conversion, a construction-specific rule, a revised licensing condition. The conversion answer can borrow from the taxonomic material (*the few*/*the many*/*the some* keep quantificational force), stated briefly here so the paper stands alone.
 2. **Engage the noun-ellipsis / empty-noun literature as a rival:** inward check first, then a light `/hyperresearch` pass.
 3. **Run the main comparison with D separate,** and put the full four-way audit in an appendix or supplement.
-4. **Cite Payne, Huddleston & Pullum 2007** (*JL* 43, fusion of functions; in the central bib, not yet cited). It's the analysis this paper argues against, in the same journal.
+4. **Payne, Huddleston & Pullum 2007** (*JL* 43, fusion of functions) is the analysis this paper argues against, in the same journal. It is already cited four times in the combined manuscript (`Payne2007`); an earlier note here said "not yet cited", which came from a search that missed `\textcite`. It should be cited early in the structural paper, as the JL precedent.
 
 ---
 
