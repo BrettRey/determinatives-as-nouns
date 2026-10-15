@@ -37,3 +37,5 @@ One predicative line is negated: "by BP to the White House to help residents is 
 ## Caveat
 
 It's an idiom, a coordination of *too little* and *too late* evaluated as a whole. A referee can say it doesn't show what *too little* does on its own. The answer is that its first coordinate gets the evaluative reading *too much* gets (*The makeup was too much*): the subject is an act judged insufficient, not a quantity.
+
+Added 15 October for the quote audit: line 98, *USA Today* (NEWS, 2007), verbatim from Brett's paste: "authors of the forthcoming Senate bill, derided the move as too little , too late." The manuscript quotes it as *derided the move as too little, too late*, closing up COCA's space before the comma, as elsewhere.

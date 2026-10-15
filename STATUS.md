@@ -5,7 +5,7 @@ title: Determinatives as nouns in English
 stage: draft
 external: rejected
 blocked_on: []
-updated: 2026-09-18
+updated: 2026-10-15
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: Read corpus/independent_argument/*.report.md for few (441 accepted, 25 escalated; 70 bare generic candidates), then continue the worklist lexeme by lexeme with /corpus-screen; final polish remains deferred
+next_action: 'Brett: decide venue and one paper or two (Ox Alpha: lead with the complex-determinative decomposition; GLM-5.3: lead with ordinary Head); then the whole-paper passes (reader, coherence, projectibility, charitable-engagement). Fact-check passes run 2026-10-15 (build, bib, quotes recorded; numbers via Codex and negative claims via subagent returning).'
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,10 +28,22 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: Second-round Elicit report applied; §5.5 economy claim restated on the three costs of a separate category; audit has precedence rule, condition inventory, and sensitivity tables; corpus lines for predicative much/little/a lot placed; open: human second coder for disputed audit cells, reynolds2014 bib metadata · status: drafting · updated: 2026-09-18 -->
+<!-- SUMMARY: content revised 4–15 Oct (predicative much/little, pronoun input to the secondary-use schema with third-person agreement and Halm's reflexive split, the some as an ordinary-Head case fusion can't license, schema stated by a property, grouping's credit stated exactly); fact-check passes run; open: venue and one paper or two, then whole-paper passes · status: drafting · updated: 2026-10-15 -->
 
-**Last updated:** 2026-09-16
+**Last updated:** 2026-10-15
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+## 2026-10-04 to 2026-10-15 Content revisions; fact-check passes
+
+COCA, NOW and iWeb lines were gathered by hand by Brett and saved under `corpus/`. Changes:
+- **§2.2:** predicative *much* is restricted by polarity, not by its subject (*too much*, *a little much*, the commoner *a bit much*). *Little* has the counterpart *too little, too late*, whose 120 predicative lines in a 199-line sample have act and measure subjects.
+- **§4.3:** *the some who* is an ordinary-Head case fusion can't license, since CGEL gives dependent *some* "just the determiner function" (p. 410). It parallels CGEL's exceptional *the both of us*. A *the some who* row was added to the matched-heads table.
+- **§6.1:** personal pronouns are a fourth input to the secondary-use schema (*a he or a she*, *ten mes*, *the real me*). The verb treats the NP as third person; reflexives keep the pronoun's person (Halm 2021, now in `references-local.bib`). That favours a secondary use over CGEL's conversion. The rule is now stated by a property, and *the few*, *the many* and *the some* are placed as the independent use.
+- **Step 1 redo (Brett's "argue before retreating"):** the abstract, line 75 and the conclusion state exactly what Noun membership buys. §5.3 adds CGEL's degree *all* "as in NP structure". §3.3 keeps the exclamative *what* clause, now sourced to CGEL p. 920.
+
+Outside perspectives came from GLM-5.3 and Ox Alpha, saved under `reviews/external-muse-20261015/`. Muse failed on quota.
+
+Fact-check passes on 15 October: build-integrity, validate-bib and quote-audit are recorded; numbers (Codex) and negative claims (subagent) are still to come. The whole-paper passes wait for the venue decision. Details are in `DECISIONS.md` and `notes/passes/2026-10-15-*`.
 
 ## 2026-09-16 Census normalized; corpus worklist derived
 
