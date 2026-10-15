@@ -740,3 +740,5 @@ The coverage audit records that the simple-D genitive restriction, independent-g
 - §6.1 footnote: the plural compound counts flagged as unscreened form counts (*sweet nothings*, *thirty-somethings*).
 
 Open, waiting on COCA searches: a record for the two *become those* lines (line 161), and a matched *[be] a little much* count for "commoner *a bit much*".
+
+2026-10-15 — "Commoner *a bit much*" now rests on a matched comparison. A form of *be* precedes *a bit much* 370 times and *a little much* 151 times (Brett's frequency lists), and the §2.2 footnote gives both. The two *become those* examples (line 161) are confirmed as COCA strings by frequency list (BECOME THOSE WHO 3, BECOME THOSE THAT 1); their KWIC lines are still to be saved.

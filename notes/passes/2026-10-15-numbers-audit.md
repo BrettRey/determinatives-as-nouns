@@ -1,6 +1,6 @@
 # Numbers audit, 15 October 2026
 
-<!-- SUMMARY: numbers-audit pass run by GPT-6 via Codex (second model) on determinatives-as-nouns.tex at 2e586d1; 80 grouped entries; 2 mismatches and 1 missing record confirmed, 4 uncertain items resolved or narrowed; proposed fixes await Brett · status: fixes 1, 2, 5 (item 7), 6 (item 8) applied 2026-10-15; items 3 and 5 (data) open · updated: 2026-10-15 -->
+<!-- SUMMARY: numbers-audit pass run by GPT-6 via Codex (second model) on determinatives-as-nouns.tex at 2e586d1; 80 grouped entries; 2 mismatches and 1 missing record confirmed, 4 uncertain items resolved or narrowed; proposed fixes await Brett · status: fixes 1, 2, 5 (item 7), 6 (item 8) applied 2026-10-15; item 5 resolved (370 vs 151, footnote updated); item 3 partly (strings confirmed, lines pending) · updated: 2026-10-15 -->
 
 Auditor: GPT-6 through `tools/codex/bin/codex-readonly`, as the registry procedure requires (a model other than the one that wrote the numbers). The raw output, prompt and manifest are in `reviews/external-codex-numbers-20261015/` (kept local, not published). Codex checked 80 grouped entries: every number added since `af63c84` (19 September) and, by its own account, essentially all other numerical claims in prose and footnotes. Table cells checked by `quant_table.py` and `exclusion_table.py` were out of scope. Claude (this session) verified each non-MATCH item against the manuscript and records.
 
@@ -59,3 +59,5 @@ Nothing is applied yet.
 ## Applied, 15 October (Brett: "apply 1, 2, 5, 6")
 
 Brett's numbering follows the chat list, which maps to this note as: chat 1 = item 1, chat 2 = item 2, chat 5 = item 7, chat 6 = item 8. All four are applied. Item 8's caveat went after the counts, as its own sentence ("These are unscreened form counts: …"), not after "common", so that "these" has something to refer to. Still open: item 3 (the *become those* record) and item 5 (matched *a little much* count), both waiting on COCA searches.
+
+Later the same day: item 5 resolved. `[be] a little much` gives 151 against 370 for *be* + *a bit much*. The §2.2 footnote now gives both: "a form of *be* precedes *a bit much* 370 times and *a little much* 151". Item 3 is partly resolved. A frequency list confirms both *become those* strings (BECOME THOSE WHO 3, BECOME THOSE THAT 1), recorded in `corpus/independent_argument/2026-10-15-brett-supplied-become-those.md`. The KWIC lines with sources are still to be pasted.

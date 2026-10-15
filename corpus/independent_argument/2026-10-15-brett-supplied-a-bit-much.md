@@ -35,3 +35,7 @@ Classification is Claude's.
   - *Washington Post* (NEWS, 2008): "Don Jos in a company of this size is a bit much for him now" (the role)
   - reason.com (BLOG, 2012): "I'll agree that Dawkins is a bit much" (a person)
   - *Newsweek* (MAG, 2007): "to say that 1968 didn't produce much film " worth remembering " is a bit much"
+
+## Matched comparison: `[be] a little much` (frequency list, 15 October)
+
+For the numbers audit (Codex flagged the comparison as unmatched), Brett ran `[be] a little much` without the sentence-final restriction: 'S 42 · IS 35 · WAS 31 · BE 31 · ARE 4 · BEEN 3 · 'RE 2 · WERE 1 · BEING 1 · 'M 1 · total 151. The matched *a bit much* figure is 370 (the *be*-forms in the list above). So *a bit much* is about 2.5 times as frequent after *be* as *a little much*. Counts unscreened.
