@@ -53,3 +53,31 @@ In both lists, the pronoun in its secondary use takes third-person singular agre
 - THE NEW ME 54, *San Francisco Chronicle* (NEWS, 2005): "The old me rarely left the office. The new me rarely went in."
 
 Reading: *you* in its primary use takes plural verb forms (*you are*, *you do*) and is second person. In the secondary use, *the real you* takes *does*, *is*, *lives*, and *he*. The NP is third person singular, headed by a count noun. That fits *CGEL*'s statement that *he* and *she* in *Is it a he or a she?* "are common nouns, not pronouns" (p. 429, n. 46), and it fits §6.1's schema. The description the pronoun brings is its referent (the speaker, the addressee); its grammatical person doesn't come along.
+
+## Agreement check: `the real you` + *is*/*are* (14 lines)
+
+Brett pasted 14 lines. With *the real you* as the subject, the verb is *is* or *'s* in 10 (2, 3, 5, 6, 7, 8, 11, 12, 13, 14) and *are* in none. The other 4 aren't agreement with *the real you*: 1, *the real [thing] you are seeing* (relative clause); 4, *the people who love the real you are gon na be here* (*are* agrees with *the people*); 9, *Rediscovering the real you is a continuing journey* (gerund subject); 10, *the fact that people don't know the real you is your strongest asset* (*is* agrees with *the fact*). Examples: *The real you is still alive back on Earth* (*Analog*, 2019); *Can I assume that the real you is talking to me?* (*Fantasy & Science Fiction*, 2013); *the real you is not down there* (*Woman House*, 1997); *the real you 's a bummer* (*For Love of the Game*, 1999).
+
+## Literature search: earlier mention of third person with *the* + adjective + pronoun (15 October 2026)
+
+Searched:
+- *CGEL* (`00-CGEL.md`, grep for *the real me/you*, *the new/old me/you*, *poor me*, *silly you*, *lucky you*)
+- Quirk et al. 1985, Postal 1969, Lyons 1999, Déchaine & Wiltschko 2002, Abney 1987 (grep for the same strings plus *a he or a she*, *imposter*)
+- the literature folder through qmd (lex *"the real me"*, *"the real you"*, *"the old me"*/*"the new me"*, *imposters*, *modified pronouns*, plus a semantic query)
+- the web (8 queries: *"the real you is"* + agreement; *"the real me"*/*"the old me"* syntax; Collins & Postal *Imposters* + those strings; *"the younger me"* + person agreement; Language Log/StackExchange; Wales 1996; Halm; *determined pronouns*)
+
+Found:
+
+- **Halm, Tamás. 2021. *Virtual performatives in English: The outlines of a syntactic analysis*.** Manuscript, lingbuzz/006012, June 2021. Read in full text (scratchpad copy, not in the repo). A version appeared as "Modified pronouns and split agreement: the syntax of virtual performatives", *NELS 52* proceedings (GLSA, 2022), pp. 319–329. That version is restricted on the repository (real.mtak.hu/175355) and hasn't been read.
+  - **The prior mention.** Halm's Table 1 (p. 29 of the PDF) gives *the*+adj+*me*: verbal agreement 3SG, pronominal agreement 1SG; *the*+adj+*you*: 3SG and 2SG; *the*+adj+*him/her* and *the*+adj+proper name: 3SG and 3SG.
+  - Attested examples (pp. 13–14, 19): *The 30 year old me misses the 20 year old me*; *A younger me would be much more inclined to take the risk and back myself*; *The 12-year-old me is kicking myself*; *the 16 year old you*; *the adventurous him*.
+  - **Analysis.** *The* "is lexically specified as third person". Verbal agreement reads D, while reflexives and possessives read the pronoun (after Cardinaletti & Starke 1999).
+  - **Exception** (§4.3.1, p. 30). When two stages of the speaker are contrasted, the pronoun for the less prominent stage switches to 3SG: *The 17 year-old me was … pretty fucking awesome and I owe her a lot*.
+  - **Against an imposter analysis** (pp. 18–19). With imposters (Collins & Postal 2012), reflexives alternate (*the present authors … ourselves/themselves*), but in the Det+Adj+Pronoun construction "there is no alternation and the phi-features of the reflexive strictly correspond to that of the embedded pronoun".
+- **Related but the reverse case:** Collins & Postal 2012, *Imposters* (third-person NPs referring to speaker or addressee: *this reporter*); Kaiser, Nichols & Wang, "Experimenting with imposters" (ZASPiL), which doesn't mention *the real me*.
+- ***CGEL*:** p. 429 n. 46 (*a he or a she*, common nouns) and p. 430 (*Lucky you!*, *poor old me*: adjectives with core pronouns, "not as subject (*Poor you have got the night shift again)"). Nothing on agreement with *the* + adjective + pronoun. Quirk et al. 1985 §6.20 has *Is it a he or a she?*, nothing on agreement.
+
+Bearing on our data:
+- Our *he*/*her* lines (*someday the real you will wish he knew*, *I took the old me, and I crumpled her up*, *the new me whacks off when he feels horny*) all contrast two stages or versions, Halm's exception.
+- Our verb-agreement lines (*Does the real you smell*, *the real you is* 10 to 0 against *are*) match his 3SG verbal agreement.
+- The §6.1 paragraph's "as a common noun's is" holds for the verb. It doesn't hold for reflexives outside the contrast case: *the 12-year-old me is kicking myself*, where *Daddy is enjoying \*myself* is out (Halm's (52c)).
