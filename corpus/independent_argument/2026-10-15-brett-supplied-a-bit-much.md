@@ -2,7 +2,7 @@
 
 <!-- SUMMARY: 454 tokens of verb + a bit much across 36 types; 434 predicative (be 370, seem 44, get 10, become 6, feel 2, remain 1, considered 1); about six times the 69 lines of [be] a little much; unscreened · status: record; readings Claude's · updated: 2026-10-15 -->
 
-Provenance: Brett ran the search by hand and pasted the frequency list (strings and counts, no lines). The string isn't in what was pasted; going by the output it was a verb tag plus *a bit much* (MIDWINTER and FAWN are mistagged as verbs). Brett to confirm. The counts are unscreened.
+Provenance: Brett ran the search by hand and pasted the frequency list (strings and counts, no lines). Query strings, confirmed from Brett's COCA search history (15 October): `[v*] a bit much` (LIST, all sections; MIDWINTER and FAWN are mistagged as verbs); the 96-line screen is `is a bit much`; the matched count is `[be] a little much`. The counts are unscreened.
 
 ## Counts by verb (summed from the list)
 

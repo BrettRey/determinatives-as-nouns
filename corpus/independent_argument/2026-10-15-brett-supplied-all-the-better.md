@@ -2,7 +2,7 @@
 
 <!-- SUMMARY: 90 tokens of a be-form + all the better (is 23, 's 19, be 15, are 14, 're 8, was 6, am 3, were 1, been 1); determinatives all and the both grading a comparative adjective in predicative function, as CGEL describes (pp. 377, 549) · status: record; unscreened counts · updated: 2026-10-15 -->
 
-Provenance: Brett ran the search by hand and pasted the frequency list (no lines). The string isn't in what was pasted; going by the output it was a *be* tag plus *all the better*. Brett's original example was *it's all better*.
+Provenance: Brett ran the search by hand and pasted the frequency list (no lines). Query string, confirmed from Brett's COCA search history (15 October): `[be] all the better` (LIST). Brett's original example was *it's all better*.
 
 Counts: IS ALL THE BETTER 23 · 'S 19 · BE 15 · ARE 14 · 'RE 8 · WAS 6 · AM 3 · WERE 1 · BEEN 1 · total 90.
 

@@ -2,7 +2,7 @@
 
 <!-- SUMMARY: three COCA frequency lists for the + ADJ + me/you/him (me 656, you 5,727 mostly correlatives, him 63) plus screens: the new me 99/100 the use, the real you 193/198; in the secondary use the pronoun takes third-person singular agreement and anaphors (Does the real you smell, the new me ... when he) · status: record; readings Claude's · updated: 2026-10-15 -->
 
-Provenance: Brett ran three searches by hand and pasted the frequency lists (strings and counts only, no KWIC lines). The strings aren't in what was pasted; going by the output they were *the* + adjective tag + pronoun, roughly `the ADJ me`, `the ADJ you`, `the ADJ him` (Brett to confirm). The counts are unscreened: no lines have been read.
+Provenance: Brett ran three searches by hand and pasted the frequency lists (strings and counts only, no KWIC lines). Query strings, confirmed from Brett's COCA search history (15 October): `the [j*] me`, `the [j*] you`, `the [j*] him` (LIST, all sections); screens `the new me` and `the real you`; agreement check `the real you [be]`. The counts are unscreened: no lines have been read.
 
 ## the ADJ me (6 types, 656 tokens)
 

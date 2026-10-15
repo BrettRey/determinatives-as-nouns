@@ -2,7 +2,7 @@
 
 <!-- SUMMARY: test of the secondary-use schema's excluded side: an each, 10 lines, none set-denoting; the some, 197 lines, mostly noise, with five clear set-denoting lines in COCA (three contrast frames, two re-mentions: the some who say it, the some of us who can); collocate searches found nothing new; NOW the some who 10 tokens, unscreened · status: record; readings Claude's, not yet Brett's · updated: 2026-10-15 -->
 
-Provenance: Brett ran both searches by hand on english-corpora.org and pasted the KWIC displays without query strings or totals; the strings are inferred from the lines (`an each`, `the some`). `an each`: 10 lines (1–10). `the some`: one display page, 197 lines numbered to 200 (30, 53, 60 absent). Only the relevant lines are copied here, verbatim, to keep within the COCA user agreement. Readings are Claude's.
+Provenance: Brett ran both searches by hand on english-corpora.org and pasted the KWIC displays without query strings or totals; query strings confirmed from Brett's search history (15 October): COCA `an each` and `the some` (LIST); follow-ups COCA `the some who`, `the some + many` and `the some + all` (COLL), `the some of * who`, `* the some who *`, `* * the some who * *`, and the context searches `drove the some into Louisiana` and `as the some say`; iWeb `the some people/who`, `the some who`, `the some of us who`, `as the some say`; NOW `the some who`, `the some who *`, and `the same who` (the last not reported to Claude). `an each`: 10 lines (1–10). `the some`: one display page, 197 lines numbered to 200 (30, 53, 60 absent). Only the relevant lines are copied here, verbatim, to keep within the COCA user agreement. Readings are Claude's.
 
 ## an each (10 lines)
 
