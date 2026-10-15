@@ -115,3 +115,7 @@ Untested: the *little* half. The `[be] little .` set (same date) can't be filter
 
 ### become-much
 - 1, Denver (NEWS, 2002): "for my son,' he says.' I didn't think it would become much . But when my father did things, he did things right, and"
+
+## Follow-up, 15 October 2026: `too little , too late`
+
+Brett ran the string by hand: 403 tokens (frequency display only, no lines). The count says nothing yet about function: the string also covers standalone fragments and headlines (*Too little, too late.*) and attributive uses, as well as predicative ones with a subject.
