@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: 'Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: allocation map for both papers, rebuild the comparison with D separate, new section answering the three repairs, noun-ellipsis engagement, then transitions, cross-refs, EVIDENCE guide, venue record, JL compliance, passes; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; venue after the structural paper is out); (3) housekeeping batch: payload check and push, fusion-project remote, /push-bib at polish.'
+next_action: 'Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: full draft done 15 Oct (fusion repo 86e79bf: repairs, once/twice/thrice, silent nouns, introduction, EVIDENCE.md); next Brett reads it, then the passes he picks, library copies of Lobeck 1995 ch. 4, Günther 2018, Kester 1996, the venue record and JL compliance; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; venue after the structural paper is out); (3) housekeeping batch: payload check and push, fusion-project remote, /push-bib at polish.'
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
