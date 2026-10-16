@@ -87,3 +87,7 @@ Places where a paragraph relies on something that will sit in the other paper:
 4. *Once*, *twice*, *thrice*.
 5. §3.2–3.3 decomposition; §5.1–5.4 parts.
 6. Transitions, cross-reference audit against the table above, EVIDENCE.md.
+
+## Applied to the structural paper (15 October)
+
+Assembled in `fusion-of-functions-revisited` at commit `9b04532`. Mechanical changes only: N\textsubscript{D} → D (7), "D-noun analysis" → "ordinary-Head analysis" in text and captions, four-implementation wording → two analyses, supplement links → the evidence repository on GitHub. The build's undefined references were the cross-reference audit; all 13 are resolved: `sec:payne` → `sec:attachment`; `sec:adjectival-profile`, `sec:quant-controls`, `sec:quant-nouns`, `sec:secondary-use`, `sec:overall-assessment` dropped with the T-only sentences that used them; `sec:article-membership` replaced by an inline *Every has a story* source; `sec:form-selection` by CGEL pp. 389–390, 470–471. FLAG comments mark the new sections (repairs, *once*, ellipsis, introduction) and the passages still argued from Noun membership (§5.2 category conditions, the *\*many's* paragraph).
