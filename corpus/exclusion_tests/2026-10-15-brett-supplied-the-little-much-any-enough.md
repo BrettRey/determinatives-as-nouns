@@ -1,5 +1,5 @@
 # Hand-supplied lines: COCA `the little that`, `the much that`, `the any`, `the enough`, and *the* + determinative + *of*, 15 October 2026
-<!-- SUMMARY: test 3 data (inventory of the repairs). the little that: 96 lines, all independent little with a quantity reading; the much that: 1 literary hit, and plain much is polarity-restricted (CGEL p. 393), so the much case can't discriminate; the any: 94 lines, no independent use (labels, names, slips); the enough: 35 lines, 3 conversions (abstract "sufficiency"), no independent use; the both of: 1437, 99% personal pronouns; the all of me that's broken (1 line, fiction); test 2 strings all null · status: record; readings Claude's · updated: 2026-10-15 -->
+<!-- SUMMARY: test 3 data (inventory of the repairs). the little that: 96 lines, all independent little with a quantity reading; the much that: 1 literary hit, and plain much is polarity-restricted (CGEL p. 393), so the much case can't discriminate; the any: 94 lines, no independent use (labels, names, slips); the enough: 35 lines, 3 conversions (abstract "sufficiency"), no independent use; the much of: 24 lines, slips for much of the X; the all of: 98 lines, 16 deliberate uses, mostly a 'totality' noun (the all of me, the all of it), 3 quantificational (the all of me that's broken; that wasn't the all of us); the both of: 1437, 99% personal pronouns; test 2 strings all null · status: record; readings Claude's · updated: 2026-10-15 -->
 
 Provenance: Brett ran the searches designed in `notes/split/2026-10-15-tests-2-and-3.md` in COCA by hand, some of them broadened, and pasted three KWIC displays, two frequency lists, two expanded contexts, and his search history (strings below are from the history; entries 45–57 in `corpus/2026-10-15-search-history.md`). Only the relevant sentences are quoted, with COCA's token spacing normalized (*girl ’ s* as *girl's*). Classification is Claude's (Claude Opus 5.5). Line numbers are those of the pasted displays.
 
@@ -11,7 +11,7 @@ Provenance: Brett ran the searches designed in `notes/split/2026-10-15-tests-2-a
 | `the much that` | 1 line, the one also in the `the little that` display (Brett, correcting an earlier report of zero) |
 | `the any/enough` | `the any`: 94 lines pasted (numbered 1–96; 42 and 51 not in the paste); `the enough`: 35 lines pasted (numbered 1–36; 15 not in the paste) |
 | `the much/little/all/any/bot...` (truncated in the history display) | THE BOTH OF 1433, THE ALL OF 81, THE MUCH OF 26, THE ANY OF 17 (total 1557) |
-| `the much/all of` | two expanded contexts pasted (below); the other lines not pasted |
+| `the much/all of` | two expanded contexts, then the KWIC displays: *the much of* 24 lines (numbered 1–27; 11, 14, 23 not in the paste), *the all of* 98 lines (numbered 1–100; 51, 71 not in the paste). The display counts differ from the frequency list (26, 81); the screens use the displays |
 | `the both of *` | frequency list, total 1437 (below) |
 | `the much/little/all/any tha...` (truncated) | no further hits reported |
 | `the much which`, `the all who` | no hits, per Brett; not in the pasted history |
@@ -64,10 +64,41 @@ The three are conversions with an abstract reading, "sufficiency" or "adequacy":
 
 So 1424 of 1437 (99%) have a personal pronoun after *of*, as CGEL says: "The partitive oblique is restricted to personal pronouns: *\*the both of the students*" (p. 377). The 13 others are unscreened (no lines pasted).
 
-## `the much/all of`: two expanded contexts
+## `the much of` (24 lines)
 
-- "Can you fix the all of me that's broken? Can you find the all of me that's lost?" (fiction; source details not in the paste). Independent *all* after *the*, with a partitive of a personal pronoun and a restrictive relative, the frame of *the some of us who*. CGEL doesn't discuss *the all*; a search of `literature/00-CGEL.md` for "the all" finds only *the all version* (of an example) and *the all wool*.
-- "what does this really have to do with the much of anything now?" (spoken transcript, a guest on a call-in programme). A blend of *have to do with much of anything*, where *much* is licensed by the rhetorical question; *the* looks like a slip. Not counted.
+- **Slips for *much of the X* (21):** 1–3, 5–10, 12, 13, 15–18, 20–22, 24, 25, 27, as in "the much of the problem disappears" (13, WEB 2012) and "for the much of the season" (2, MAG 2018). One per source, in edited prose (*WashPost*, ESPN) as well as speech, beside the very common *much of the X*: this looks like editing residue (a revised *the bulk of*, *the majority of*) or a spoken blend. Not counted.
+- **Blend (1):** "what does this really have to do with the much of anything now?" (26, SPOK 1996), *much* licensed by the rhetorical question.
+- **Verse (1):** "The much of privileged kinsmen and store Of fresh protections make the rest all poor." (4, a literature site; source not identified). Nominal *much*, "abundance".
+- **Probable typo (1):** "hangs out in the much of victimhood" (19), presumably *muck*.
+
+No line has independent *much* after *the* with a quantity reading.
+
+## `the all of` (98 lines)
+
+- **Names and titles (18):** *All of Me* tour (14), *All of My Purple Life* (17), *All Of This (Has To End)* (21, 24), *All of Us* (25, 28), *All of the Lights* (29), *All of A Kind Family* (32), *The All of the Above President* (37–46).
+- **Compound modifiers (2):** *the all of the above policy* (18), *the all of government, all of community approach* (56).
+- **Slips, restarts, garbled and machine-translated text (56):** *the all of* for *all of*, as in "designs the all of the sets" (11) and "the all of the sudden" (9); restarts *the- all of* (92, 93, 97, 98); spam and translation (74, 75, 83, 86, 90).
+- **Unclear (3):** "I pedaled over to the all of it" (16, scrambled text); "specs shouldn't be the all of phones" (31, perhaps a blend with *be-all*); "That is the all of the it" (91, an alien character's speech).
+- **Translation (2, one text):** "supposing moment the all of space finite to be" (20, 48), beside "the unbounded all" in the same line: *the all* is "the universe".
+- **Deliberate uses, "totality" reading (13 lines, 12 sources):**
+  - "Like, no one is seeing the all of me." (1, SPOK 2019)
+  - "covered the all of him like a great big oak bough" (4, FIC 2018)
+  - "until the all of things are ravaged" (6, MOV 2018)
+  - "The all of it." (7, MOV 2018; 96, MOV 1993)
+  - "Yet, when she did, the all of him came rushing back." (12, FIC 2015)
+  - "you must find some way to live within the all of it" (13, MAG 2015)
+  - "floating across the all of us" (19, MAG 2012)
+  - "the good, the bad, the ugly, the all of it" (77, SPOK 2011)
+  - "Had the knife sought the All of Me, sought to set the All of Me to running red?" (78, 79, FIC 2008)
+  - "He accepts the whole me, the all of me, the person I am to myself" (82, FIC 2004)
+  - "you assume that God is the all of it" (87, SPOK 2000)
+- **Deliberate uses, quantificational reading (3 lines, 2 sources):**
+  - "Can you fix the all of me that's broken? Can you find the all of me that's lost?" (80, 81, FIC 2006)
+  - "And sure that wasn't the all of us either." (88, FIC 2000, Irish setting)
+
+The totality uses name a whole, as the noun *all* does in *give it your all* (Claude's example, not from a source). Line 82 sets *the all of me* in apposition to *the whole me*. They pattern with the conversions above (*somes*, label *any*, nominal *enough*): they name an entity and don't quantify over parts. The three quantificational lines are the ones that match *the some of us who*: *the* + quantifier + partitive pronoun, restricted by a relative clause (80, 81) or by context (88).
+
+Incidental: line 88 continues "There were a good few Irish recruits in the English regiments", an attestation of *a good few* (structural paper, decomposition of *a few*), and line 82's *the whole me* is the secondary-use schema with a pronoun (taxonomic paper, *the real me*).
 
 ## Bearing
 
@@ -76,9 +107,9 @@ So 1424 of 1437 (99%) have a personal pronoun after *of*, as CGEL says: "The par
 3. ***Enough* gives no independent use either.** Fusion has no licence after *the* anyway: "The sufficiency determinatives are not permitted in pre-head modifier position" (CGEL p. 397). The three hits are conversions and don't count as fused or ordinary-Head uses of the determinative.
 4. **What conversion looks like.** The label uses of *any* (3, 5, 14) and the abstract nominal *enough* (28, 29, 36) join *somes* (`2026-10-15-brett-supplied-somes.md`): converted determinatives name a category or a property and don't quantify. *The some who say it* keeps its quantificational reading ("those of the people who say it"). This is further evidence against the conversion repair for *the some who* (structural paper).
 5. ***Both*.** 1437 hits for *the both of* in COCA is far from marginal (CGEL p. 377: "used by some speakers in informal style"), but 99% of them have a personal pronoun after *of*. A frequent construction fixed to one frame is what a listed exception is for, so *the both of us* costs fusion little and doesn't help the argument that exceptions become the rule.
-6. ***All*.** One fictional line, *the all of me that's broken*, in the same frame as *the some of us who*. Like *some*, it would need a fused modifier-head without, as far as CGEL says, an internal-modifier use. One line from one writer can't carry an argument.
+6. ***All*.** *The all of* is a real expressive pattern (16 deliberate lines from 14 sources, 1993–2019, spoken and written), far commoner than *the some who*. But most of it is the totality noun, which a conversion analysis handles. Only two sources quantify (*the all of me that's broken*, *that wasn't the all of us*), in the frame of *the some of us who*; they'd need a fused modifier-head with no internal-modifier use that CGEL records (CGEL doesn't discuss *the all*). Two writers can support *some*, not replace it.
 7. **Test 2.** The five coordination strings returned nothing in COCA, so the corpus gives no evidence either way. The constituency test now depends on judgments.
 
 ## Where test 3 stands
 
-The inventory doesn't yield the argument the design note hoped for. *Much* is confounded, *both* is a fixed frame, *all* has one line, and the controls give nothing. That leaves *some* as the one productive dissociation (`2026-10-15-brett-supplied-an-each-the-some.md`), which is where the structural paper's argument already stood. What the inventory does show is that the *some* case isn't an artefact of the search: the controls stay empty, and the conversions found (*somes*, label *any*, nominal *enough*) don't look like *the some who*.
+The inventory doesn't yield the argument the design note hoped for. *Much* is confounded (and *the much of* is slips), *both* is a fixed frame, *all* is mostly a totality noun with two quantificational writers, and the controls give nothing. That leaves *some* as the one productive dissociation (`2026-10-15-brett-supplied-an-each-the-some.md`), which is where the structural paper's argument already stood. What the inventory does show is that the *some* case isn't an artefact of the search: the controls stay empty, and the conversions found (*somes*, label *any*, nominal *enough*, totality *all*) don't look like *the some who*. Brett's decision (15 October): keep this as a footnote or appendix check.
