@@ -43,6 +43,7 @@ Newest first, numbered on from the table above. Strings truncated in the site's 
 
 | # | Corpus | String | Type | Used in |
 |---|---|---|---|---|
+| 58 | COCA | five forms + `'s` (`the latter`, `the former`, `the other`, `the poor`, `the rich`); exact string and totals to confirm | KWIC | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md` (498 lines) |
 | 45 | COCA | `the both of *` | LIST | `exclusion_tests/2026-10-15-brett-supplied-the-little-much-any-enough.md` (1437) |
 | 46 | COCA | `the much/all of` | LIST | same (two expanded contexts) |
 | 47 | COCA | `the much that` | LIST | same (1 line) |
@@ -56,4 +57,3 @@ Newest first, numbered on from the table above. Strings truncated in the site's 
 | 55 | COCA | `the any/enough` | LIST | same (94 + 35 lines) |
 | 56 | COCA | `the much/little/all/any/bot...` | LIST | same (frequency list, 1557) |
 | 57 | COCA | `the much/little/all/any tha...` | LIST | same |
-| 58 | COCA | five forms + `'s` (`the latter`, `the former`, `the other`, `the poor`, `the rich`); exact string and totals to confirm | KWIC | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md` (498 lines) |
