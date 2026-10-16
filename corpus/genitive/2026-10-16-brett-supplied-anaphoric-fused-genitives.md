@@ -1,7 +1,7 @@
 # Genitives on anaphoric and generic fused heads (COCA, 16 Oct 2026)
-<!-- SUMMARY: classification of 498 COCA lines for the latter/former/other/poor/rich + 's, gathered by hand by Brett; anaphoric fused heads take the genitive freely and the poor's is attested in edited prose, so a silent head doesn't explain *some's · status: done (two batches); query strings and the many result to confirm · updated: 2026-10-16 -->
+<!-- SUMMARY: classification of 498 COCA lines for the latter/former/other/poor/rich + 's, gathered by hand by Brett; anaphoric fused heads take the genitive freely and the poor's is attested in edited prose, so a silent head doesn't explain *some's · status: done (two batches) · updated: 2026-10-16 -->
 
-**Source.** COCA concordance pasted by Brett Reynolds on 16 Oct 2026: 500 numbered lines (184 and 474 absent from the paste, so 498), dated 2019 back to 1990, covering the five forms the reading note proposed (`notes/2026-10-16-ellipsis-readings.md` in the fusion repo). The exact query string, and whether the display is a capped sample, are still to confirm. The KWIC lines aren't stored here; the line-by-line labels are in `2026-10-16-anaphoric-fused-genitives.labels.txt` (line number, form, label). Classification by Claude (Opus 5.5), reading each line.
+**Source.** COCA concordance pasted by Brett Reynolds on 16 Oct 2026: 500 numbered lines (184 and 474 absent from the paste, so 498), dated 2019 back to 1990, covering the five forms the reading note proposed (`notes/2026-10-16-ellipsis-readings.md` in the fusion repo). Query: COCA `the latter/former/other/poo...` (LIST; the display truncates the string), run twice. The 500-line display is probably a cap, so the counts below come from the lines shown, not from corpus totals. The KWIC lines aren't stored here; the line-by-line labels are in `2026-10-16-anaphoric-fused-genitives.labels.txt` (line number, form, label). Classification by Claude (Opus 5.5), reading each line.
 
 **Labels.** G = genitive on the fused head (head or independent genitive). C = contraction of *is*/*has* (*the other 's a moron*). E = slip for plural *others'* (*the other 's will think*). N = not the construction: the noun *Other* (*the Other 's humanity*) or a name (*Little Sisters of the Poor 's*, *the Rich 's* department store and ship).
 
@@ -34,9 +34,9 @@
 
 ## Batch 2: the follow-up queries (pasted by Brett, 16 Oct 2026)
 
-**`the few 's`**: 2 lines, both names: *the Few 's SUV* (surname; CNN 2015) and *the FEW 's statement* (the *Französisches Etymologisches Wörterbuch*; *Hispanic Review* 1993). A third line, *the few one's that's right here* (*State Property*, 2002), came with the paste; it has *one's* for *ones*, so it isn't the construction. No genitive on *the few*. Nothing was shown for `the many 's`; whether it returned zero hits is to confirm.
+**`the few/many 's`**: 2 lines, both names: *the Few 's SUV* (surname; CNN 2015) and *the FEW 's statement* (the *Französisches Etymologisches Wörterbuch*; *Hispanic Review* 1993). A third line, *the few one's that's right here* (*State Property*, 2002), came with the paste; it has *one's* for *ones*, so it isn't the construction. No genitive on *the few*. The query was `the few/many 's`, so *the many* returned no lines.
 
-**`each 's`, `either 's`, `neither 's`**: 67 lines. Labels are in `2026-10-16-each-either-neither-few-many.labels.txt`; N = *Mount Either* (a name) or a hyphenated *either-more's* / *either-she's*.
+**`each/either/neither 's`**: 67 lines. Labels are in `2026-10-16-each-either-neither-few-many.labels.txt`; N = *Mount Either* (a name) or a hyphenated *either-more's* / *either-she's*.
 
 | Form | G | C | N | Of the G lines, in edited written prose (FIC, MAG, NEWS, ACAD) |
 |---|---|---|---|---|

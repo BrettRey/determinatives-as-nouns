@@ -43,9 +43,9 @@ Newest first, numbered on from the table above. Strings truncated in the site's 
 
 | # | Corpus | String | Type | Used in |
 |---|---|---|---|---|
-| 60 | COCA | `each/either/neither 's` (exact string to confirm) | KWIC | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md`, batch 2 (67 lines) |
-| 59 | COCA | `the few 's`; `the many 's` (exact strings and the *many* result to confirm) | KWIC | same, batch 2 (2 + 1 lines) |
-| 58 | COCA | five forms + `'s` (`the latter`, `the former`, `the other`, `the poor`, `the rich`); exact string and totals to confirm | KWIC | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md` (498 lines) |
+| 60 | COCA | `each/either/neither 's` | LIST | same, batch 2 (67 lines) |
+| 59 | COCA | `the few/many 's` | LIST | same, batch 2 (2 lines, both names; none for *the many*) |
+| 58 | COCA | `the latter/former/other/poo...` (run twice) | LIST | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md` (498 lines shown; probably capped at 500) |
 | 45 | COCA | `the both of *` | LIST | `exclusion_tests/2026-10-15-brett-supplied-the-little-much-any-enough.md` (1437) |
 | 46 | COCA | `the much/all of` | LIST | same (two expanded contexts) |
 | 47 | COCA | `the much that` | LIST | same (1 line) |
