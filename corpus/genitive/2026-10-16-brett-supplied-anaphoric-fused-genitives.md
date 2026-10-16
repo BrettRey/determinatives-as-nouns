@@ -46,11 +46,11 @@
 
 **Examples:**
 
-- *each*: "and especially each 's reliance on " professionalism. "" (*Armed Forces & Society* 1996, l. 58); "the highlight of each 's day" (*Atlantic* 1995, l. 59)
+- *each*: "and especially each 's reliance on " professionalism. "" (COCA source *ArmedForces*, ACAD 1996, l. 58); "the highlight of each 's day" (*Atlantic* 1995, l. 59)
 - *either*: "won't substantially increase either 's share of its market" (*TIME* 2000, l. 56); "without reference to either 's sexuality" (*New Republic* 2015, l. 7)
 - *neither*: "Neither 's numbers are all that encouraging" (*Washington Post* 2014, l. 10); "Neither 's coaching ability will be affected" (*Houston Chronicle* 1994, l. 63)
 
-**Outcome.** This is the first branch of point 5. The simple determinatives *each*, *either*, *neither* take the genitive in edited prose, so the gap isn't a property of determinative-headed NPs, whether fused, silent-headed or ordinary. *The few* has none (and *the many* none shown). The forms that lack it are the quantity expressions on *CGEL*'s list (*all*, *many*, *few*, *some*; p. 420). The forms that have it pick out individuals: distributive *each*, *either*, *neither*, and anaphoric *latter*, *former*, *other*. The generic class (*the poor*) is marginal. On this reading the gap is semantic. Every account has to state it, and none derives it from structure.
+**Outcome.** This is the first branch of point 5. The simple determinatives *each*, *either*, *neither* take the genitive in edited prose, so the gap isn't a property of determinative-headed NPs, whether fused, silent-headed or ordinary. *The few* has none (and *the many* none shown). The forms that lack it are the quantity expressions on *CGEL*'s list (*all*, *many*, *few*, *some*; p. 420). The forms that have it are distributive or anaphoric singulars: *each*, *either*, *neither*, *latter*, *former*, *other*. The generic class (*the poor*) is marginal. The two groups differ in two ways at once, quantity against individuation and plural against singular, so these data don't say which factor the gap follows. They do show it isn't category or structure. Every account has to state it, and none derives it from structure. The paper names the set and not the factor.
 
 - **Fusion.** *CGEL*'s case-matching reason fails for fused determiner-heads themselves: *each*, *either*, *neither* are fused determiner-heads in *CGEL*'s analysis, and they take the genitive. That adds to the compounds (p. 479) and *the latter's*.
 - **Silent nouns.** The concession in the fusion paper's §10 goes.
