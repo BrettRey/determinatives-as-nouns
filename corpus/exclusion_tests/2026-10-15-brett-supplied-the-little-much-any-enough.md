@@ -77,7 +77,7 @@ No line has independent *much* after *the* with a quantity reading.
 
 - **Names and titles (18):** *All of Me* tour (14), *All of My Purple Life* (17), *All Of This (Has To End)* (21, 24), *All of Us* (25, 28), *All of the Lights* (29), *All of A Kind Family* (32), *The All of the Above President* (37–46).
 - **Compound modifiers (2):** *the all of the above policy* (18), *the all of government, all of community approach* (56).
-- **Slips, restarts, garbled and machine-translated text (56):** *the all of* for *all of*, as in "designs the all of the sets" (11) and "the all of the sudden" (9); restarts *the- all of* (92, 93, 97, 98); spam and translation (74, 75, 83, 86, 90).
+- **Slips, restarts, garbled and machine-translated text (57):** *the all of* for *all of*, as in "designs the all of the sets" (11) and "the all of the sudden" (9); restarts *the- all of* (92, 93, 97, 98); spam and translation (74, 75, 83, 86, 90).
 - **Unclear (3):** "I pedaled over to the all of it" (16, scrambled text); "specs shouldn't be the all of phones" (31, perhaps a blend with *be-all*); "That is the all of the it" (91, an alien character's speech).
 - **Translation (2, one text):** "supposing moment the all of space finite to be" (20, 48), beside "the unbounded all" in the same line: *the all* is "the universe".
 - **Deliberate uses, "totality" reading (13 lines, 12 sources):**
