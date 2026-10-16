@@ -43,6 +43,8 @@ Newest first, numbered on from the table above. Strings truncated in the site's 
 
 | # | Corpus | String | Type | Used in |
 |---|---|---|---|---|
+| 64 | COCA | `a lucky/fortunate/chosen [mc*]` (as described; exact string not pasted) | LIST | `premodification/2026-10-16-brett-supplied-adj-few.md` (15) |
+| 63 | COCA | `another` + *few/little/much/many/some* (exact string not pasted) | LIST | same (1573) |
 | 62 | COCA | `these/those/my some who` (as described by Brett; exact string not pasted) | KWIC | `premodification/2026-10-16-brett-supplied-adj-few.md` (1 line, metalinguistic) |
 | 61 | COCA | `lucky/chosen/fortunate/remaining/priveledged few` (forms from the frequency list; exact string not pasted) | LIST + KWIC | same (607 in list; 368 lines pasted) |
 | 60 | COCA | `each/either/neither 's` | LIST | same, batch 2 (67 lines) |

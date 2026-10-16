@@ -44,3 +44,35 @@ No singular agreement turned up.
 ## Second query: *some* after a demonstrative or genitive
 
 Brett ran `these/those/my some who` (his description: "only a single hit"). The hit, from a 2011 web comment on pronunciation: "I guess I'm amongst those some who consider it worthy of the obelus". It echoes the dictionary's "considered by some to be questionable" quoted just above, so *some* is metalinguistic here. So no clean instance of independent *some* after a demonstrative or genitive turns up, and the query can't show whether *the some who* is specific to *the*. It is recorded here because it was run alongside the *few* query.
+
+## Third and fourth queries: what the *a* + adjective slot combines with (frequency lists only)
+
+**`another` + quantity word** (COCA frequency list pasted by Brett; exact string not pasted). Totals by form, summing over tag variants:
+
+| Form | Count | Note |
+|---|---|---|
+| *another few* | 850 | |
+| *another little* | 655 | mostly adjective *little* (*another little girl*); tags JJ, JJ_DA1, RR and others |
+| *another much* | 43 | tagged RR in most variants, so probably *another much larger* etc. |
+| *another some* | 13 | |
+| *another many* | 12 | |
+
+*Another* takes *few* freely and *many* hardly at all. That matches *CGEL*'s "[A further few/∗many volunteers] were needed" and its statement that with *another*, *a further*, *a good* "A plural head is permitted only if it is quantified by a numeral or by few" (p. 353, [69]–[70]). Lines weren't inspected, so the *many*/*some* residue is unclassified.
+
+**`a lucky/fortunate/chosen [mc*]`** (frequency list; total 15):
+
+| Form | Count |
+|---|---|
+| *a lucky seven* | 5 |
+| *a lucky one* | 2 |
+| *a chosen one* | 2 |
+| *a lucky 55*, *200*, *9*, *13*, *11* | 1 each |
+| *a fortunate two* | 1 |
+
+*Lucky seven* is probably the idiom, and *one* the pronoun, so at most six or so are *a* + adjective + numeral in the sense of *a lucky few*. Against 90 *a* + ADJ + *few* lines in the KWIC sample alone, the slot belongs to *few*: *a* + adjective is productive with *few* and marginal with cardinals.
+
+**Bearing.**
+- The adjective after peripheral *a* is phrasal (*A very lucky few*, CNN 2005, l. 249; *a very fortunate few*, CNN 2005, l. 247; *a, dare I say, lucky few*, NPR 2003, l. 264) and productive with *few*.
+- *CGEL* already has adjectives inside *a few* (*a good few*, *a fair few*), but as a short list. A fusion account has to open that slot to phrasal adjectives.
+- Ordinary Head has to let peripheral *a*, itself licensed with *few* (and *little*, *many* in *a great many*), license the adjective.
+- Either way the statement is specific to *few*.
