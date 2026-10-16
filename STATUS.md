@@ -13,7 +13,7 @@ venue: none
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: 'Brett: decide venue and one paper or two (Ox Alpha: lead with the complex-determinative decomposition; GLM-5.3: lead with ordinary Head); then the whole-paper passes (reader, coherence, projectibility, charitable-engagement). Fact-check passes run 2026-10-15 (build, bib, quotes recorded; numbers via Codex and negative claims via subagent returning).'
+next_action: 'Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: allocation map for both papers, rebuild the comparison with D separate, new section answering the three repairs, noun-ellipsis engagement, then transitions, cross-refs, EVIDENCE guide, venue record, JL compliance, passes; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; venue after the structural paper is out); (3) housekeeping batch: payload check and push, fusion-project remote, /push-bib at polish.'
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -28,10 +28,16 @@ claim:
 ---
 
 # STATUS
-<!-- SUMMARY: content revised 4–15 Oct (predicative much/little, pronoun input to the secondary-use schema with third-person agreement and Halm's reflexive split, the some as an ordinary-Head case fusion can't license, schema stated by a property, grouping's credit stated exactly); fact-check passes run; open: venue and one paper or two, then whole-paper passes · status: drafting · updated: 2026-10-15 -->
+<!-- SUMMARY: splitting into two papers (15 Oct): structural "Fusion of functions revisited" (papers/drafting/fusion-of-functions-revisited, to JL first) and taxonomic "Determinatives as nouns in English" (determinatives-as-nouns-taxonomic.tex); abstracts and conclusions drafted; Codex's two new arguments tested and dropped (test 3 a footnote, test 2 can't discriminate); now: allocation map, then the structural body · status: drafting · updated: 2026-10-15 -->
 
 **Last updated:** 2026-10-15
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
+
+## 2026-10-15 Split; new arguments tested; priorities set
+
+The manuscript splits into a structural paper (*Fusion of functions revisited: Independent determinatives in English*, `../../drafting/fusion-of-functions-revisited/`, JL first) and a taxonomic one (`determinatives-as-nouns-taxonomic.tex`, Corela or held for JL). Both have abstracts and conclusions; bodies are placeholders. This file remains the combined manuscript and the shared evidence repository.
+
+Codex's two proposed arguments were tested with Brett's COCA searches and dropped: the inventory of repairs is a footnote check (`corpus/exclusion_tests/2026-10-15-brett-supplied-the-little-much-any-enough.md`), and the constituency test can't discriminate because CGEL's NP-peripheral *hardly* (p. 437) gives fusion both groupings (`notes/split/2026-10-15-tests-2-and-3.md`). Priority order is in `next_action`.
 
 ## 2026-10-04 to 2026-10-15 Content revisions; fact-check passes
 
