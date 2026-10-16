@@ -778,3 +778,7 @@ Query strings confirmed from Brett's search history now appear in the footnotes:
 5. No "Part I / Part II" titles.
 
 Codex's corrections are adopted for the structural paper: *the some who* defeats CGEL's stated licensing condition but doesn't by itself exclude conversion, a construction-specific account, or a revised fusion condition, so the paper must show why those repairs fail.
+
+2026-10-15 — Structural paper titled *Fusion of functions revisited: Independent determinatives in English* (Brett, choosing from four options). The old working title made no sense. The new one echoes Payne, Huddleston & Pullum 2007 (*JL*), the analysis it argues against. Project renamed to `papers/drafting/fusion-of-functions-revisited/`.
+
+2026-10-15 — Brett chose two of Codex's proposed new arguments (`reviews/external-codex-gaps-20261015/`). (2) A constituency test for the structural paper: ordinary Head groups *[hardly [anyone present]]* and fusion groups *[[hardly anyone] present]*, to be told apart with coordination or displacement diagnostics. (3) An inventory-wide test of the repairs: externally determined independent quantifiers that have no internal-modifier use (*the some who*, *the both of us*, …). If the pattern recurs, a one-off exception won't do. Designs to follow in `notes/split/`.

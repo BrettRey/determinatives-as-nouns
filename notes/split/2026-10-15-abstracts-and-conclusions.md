@@ -10,13 +10,13 @@ Brett's rules for the split (DECISIONS, 2026-10-15):
 
 Everything below is drafted from the combined manuscript's text. **Sentences marked ⚑ commit a paper to an argument that doesn't exist in the draft yet.**
 
-The structural paper's project is `papers/drafting/ordinary-heads-for-english-determinatives/`, created from the template; no prose has been moved.
+The structural paper's project is `papers/drafting/fusion-of-functions-revisited/`, created from the template; no prose has been moved.
 
 ---
 
 ## A. Structural paper (to *Journal of Linguistics* first)
 
-**Working title:** *Ordinary heads for English determinatives*
+**Working title:** *Fusion of functions revisited: Independent determinatives in English*
 
 **Independence test:** the paper holds CGEL's separate determinative category fixed. A reader who rejects "determinatives are nouns" can accept all of it.
 
