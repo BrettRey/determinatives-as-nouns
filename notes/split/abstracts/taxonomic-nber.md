@@ -1,0 +1,5 @@
+# Determinatives as nouns in English (NBER-style abstract)
+
+Draft, 2026-10-15. Plain-language version: question, finding, consequence; no citations.
+
+Is *the* a noun? Grammars of English usually treat determinatives (*the*, *some*, *every*, *few*) as a word class of their own. I argue that they are a fourth kind of noun, alongside common nouns, proper nouns, and pronouns. Comparing their whole grammatical profile with those of nouns and adjectives, I find links to nouns running through the class: quantity nouns like *lot* and *number* pattern with *some* and *many*, *this* and *that* inflect for number, and *everyone* takes the possessive *'s*. Adjective-like behaviour is confined to four words. Counting determinatives as nouns lets a single rule cover uses such as *an Ophelia*, *a he or a she*, *a special someone*, and *in threes*, and corpus evidence bears out the rule's prediction for pronouns. Keeping determinatives as a separate class requires a boundary that none of these shared rules uses. The classification holds whichever way a grammar analyses the internal structure of these phrases.
