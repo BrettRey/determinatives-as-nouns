@@ -27,3 +27,7 @@ __pycache__/
 # External (AI-service) review drops: kept local, not published
 reviews/external-*/
 .~lock.*#
+
+# Venue strategy for the 2026-10-15 split: kept local (Brett, 16 Oct), stripped from unpushed history
+submission/venue-decision-2026-10-15-*.md
+submission/venue-research-2026-10-15/
