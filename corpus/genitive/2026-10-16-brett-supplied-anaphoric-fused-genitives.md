@@ -1,5 +1,5 @@
 # Genitives on anaphoric and generic fused heads (COCA, 16 Oct 2026)
-<!-- SUMMARY: classification of 498 COCA lines for the latter/former/other/poor/rich + 's, gathered by hand by Brett; anaphoric fused heads take the genitive freely and the poor's is attested in edited prose, so a silent head doesn't explain *some's · status: done; exact query string and totals to confirm; follow-up queries proposed · updated: 2026-10-16 -->
+<!-- SUMMARY: classification of 498 COCA lines for the latter/former/other/poor/rich + 's, gathered by hand by Brett; anaphoric fused heads take the genitive freely and the poor's is attested in edited prose, so a silent head doesn't explain *some's · status: done (two batches); query strings and the many result to confirm · updated: 2026-10-16 -->
 
 **Source.** COCA concordance pasted by Brett Reynolds on 16 Oct 2026: 500 numbered lines (184 and 474 absent from the paste, so 498), dated 2019 back to 1990, covering the five forms the reading note proposed (`notes/2026-10-16-ellipsis-readings.md` in the fusion repo). The exact query string, and whether the display is a capped sample, are still to confirm. The KWIC lines aren't stored here; the line-by-line labels are in `2026-10-16-anaphoric-fused-genitives.labels.txt` (line number, form, label). Classification by Claude (Opus 5.5), reading each line.
 
@@ -31,3 +31,27 @@
    - If *each's*, *either's* or *neither's* turn up in edited prose, the gap is referential. Ordinary Head and the silent noun both have to state it, and the concession to silent nouns goes without ordinary Head gaining anything.
    - If they're absent along with *the few's* and *the many's*, the category reading survives: simple determinatives lack the genitive while adjectival fused heads have it.
    - Neither reading goes into the paper on the current data.
+
+## Batch 2: the follow-up queries (pasted by Brett, 16 Oct 2026)
+
+**`the few 's`**: 2 lines, both names: *the Few 's SUV* (surname; CNN 2015) and *the FEW 's statement* (the *Französisches Etymologisches Wörterbuch*; *Hispanic Review* 1993). A third line, *the few one's that's right here* (*State Property*, 2002), came with the paste; it has *one's* for *ones*, so it isn't the construction. No genitive on *the few*. Nothing was shown for `the many 's`; whether it returned zero hits is to confirm.
+
+**`each 's`, `either 's`, `neither 's`**: 67 lines. Labels are in `2026-10-16-each-either-neither-few-many.labels.txt`; N = *Mount Either* (a name) or a hyphenated *either-more's* / *either-she's*.
+
+| Form | G | C | N | Of the G lines, in edited written prose (FIC, MAG, NEWS, ACAD) |
+|---|---|---|---|---|
+| *each 's* | 12 | – | – | 5 |
+| *either 's* | 17 | 11 | 4 | 6 |
+| *neither 's* | 6 | 17 | – | 2 |
+
+**Examples:**
+
+- *each*: "and especially each 's reliance on " professionalism. "" (*Armed Forces & Society* 1996, l. 58); "the highlight of each 's day" (*Atlantic* 1995, l. 59)
+- *either*: "won't substantially increase either 's share of its market" (*TIME* 2000, l. 56); "without reference to either 's sexuality" (*New Republic* 2015, l. 7)
+- *neither*: "Neither 's numbers are all that encouraging" (*Washington Post* 2014, l. 10); "Neither 's coaching ability will be affected" (*Houston Chronicle* 1994, l. 63)
+
+**Outcome.** This is the first branch of point 5. The simple determinatives *each*, *either*, *neither* take the genitive in edited prose, so the gap isn't a property of determinative-headed NPs, whether fused, silent-headed or ordinary. *The few* has none (and *the many* none shown). The forms that lack it are the quantity expressions on *CGEL*'s list (*all*, *many*, *few*, *some*; p. 420). The forms that have it pick out individuals: distributive *each*, *either*, *neither*, and anaphoric *latter*, *former*, *other*. The generic class (*the poor*) is marginal. On this reading the gap is semantic. Every account has to state it, and none derives it from structure.
+
+- **Fusion.** *CGEL*'s case-matching reason fails for fused determiner-heads themselves: *each*, *either*, *neither* are fused determiner-heads in *CGEL*'s analysis, and they take the genitive. That adds to the compounds (p. 479) and *the latter's*.
+- **Silent nouns.** The concession in the fusion paper's §10 goes.
+- **Ordinary Head.** It gains nothing specific. It states the gap as the other two must.
