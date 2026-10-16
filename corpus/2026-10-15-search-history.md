@@ -56,3 +56,4 @@ Newest first, numbered on from the table above. Strings truncated in the site's 
 | 55 | COCA | `the any/enough` | LIST | same (94 + 35 lines) |
 | 56 | COCA | `the much/little/all/any/bot...` | LIST | same (frequency list, 1557) |
 | 57 | COCA | `the much/little/all/any tha...` | LIST | same |
+| 58 | COCA | five forms + `'s` (`the latter`, `the former`, `the other`, `the poor`, `the rich`); exact string and totals to confirm | KWIC | `genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md` (498 lines) |
