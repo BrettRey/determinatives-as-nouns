@@ -36,3 +36,23 @@ Pasted by Brett from the site's search-history page. Newest first. Duplicate row
 | 41 | COCA | `an all` | LIST | not reported (exclusion attempt) |
 | 42, 44 | COCA | `an each` | LIST | same (10 lines) |
 | 43 | COCA | `a most` | LIST | not reported; Brett: returns *a most dire situation* |
+
+## Later entries (test 3 and test 2), pasted by Brett
+
+Newest first, numbered on from the table above. Strings truncated in the site's display are marked `...`.
+
+| # | Corpus | String | Type | Used in |
+|---|---|---|---|---|
+| 45 | COCA | `the both of *` | LIST | `exclusion_tests/2026-10-15-brett-supplied-the-little-much-any-enough.md` (1437) |
+| 46 | COCA | `the much/all of` | LIST | same (two expanded contexts) |
+| 47 | COCA | `the much that` | LIST | same (1 line) |
+| 48 | COCA | `the little that` | LIST | same (96 lines) |
+| 49 | COCA | `nearly every* * and *every*` | LIST | same (test 2; no hits) |
+| 50 | COCA | `hardly any* * or any*` | LIST | same (test 2; no hits) |
+| 51 | COCA | `hardly anyone * or any*` | LIST | same (test 2; no hits) |
+| 52 | COCA | `hardly anyone * or anyone` | LIST | same (test 2; no hits) |
+| 53 | COCA | `almost everything * and eve...` | LIST | same (test 2; no hits) |
+| 54 | COCA | `almost everyone * and everyone` | LIST | same (test 2; no hits) |
+| 55 | COCA | `the any/enough` | LIST | same (94 + 35 lines) |
+| 56 | COCA | `the much/little/all/any/bot...` | LIST | same (frequency list, 1557) |
+| 57 | COCA | `the much/little/all/any tha...` | LIST | same |
