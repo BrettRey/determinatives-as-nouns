@@ -814,3 +814,5 @@ Codex's corrections are adopted for the structural paper: *the some who* defeats
 2026-10-16 — Terminology (Brett): tree relations are parent, child, sibling, not mother, daughter, sister, except inside quotations. Applied to the structural paper (fusion repo).
 
 2026-10-16 — Terminology (Brett): a syntactic function is called a function, not a job, role, use, slot, or position. Dependent, independent, and secondary use stay, as CGEL's terms for kinds of use. Semantic and syntactic properties aren't listed as parallel items. Applied to both papers.
+
+2026-10-16 — The structural paper uses no generative notions it rejects (c-command removed from §1; no movement metaphor). Rival mechanisms (null heads, silent nouns, Lobeck's strong agreement, Saab's selectional feature, Payne et al.'s list of rivals) stay only as descriptions of the analyses argued against.
