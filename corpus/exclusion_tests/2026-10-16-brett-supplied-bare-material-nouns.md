@@ -24,7 +24,7 @@ Strings: `rather than nylon` (25 lines displayed), `instead of nylon` (63 displa
 
 | String | Source | Sentence |
 |---|---|---|
-| `rather than nylon` | budk.com | "I would like to see it in a leather sheath rather than nylon" (cited in the paper) |
+| `rather than nylon` | budk.com | "I would like to see it in a leather sheath rather than nylon" (cited 16 Oct, dropped 17 Oct: *nylon* can be read as naming the material, and on that reading no item is understood) |
 | `rather than nylon` | growveg.com | "Choose a metal-bladed version rather than nylon, as the latter will probably snap when faced with dense brambles." (cited; *the latter* picks up a single count referent) |
 | `rather than nylon` | duluthpack.com | "why would you choose a canvas product rather than nylon near the water?" |
 | `instead of plastic` | bikeforums.net | "offer a stainless steel cap instead of plastic" |
