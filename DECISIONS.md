@@ -836,3 +836,21 @@ Codex's corrections are adopted for the structural paper: *the some who* defeats
 - §7 quotes CGEL's "pure heads" (p. 410).
 
 Rejected, with reasons in TRIAGE.md: peripheral *a* as a duplicate, the rescue for compound genitives, hybridization as the comparator, *few* as a special fused head, and a parallel fusion fragment. Redundancy cuts S5 and S6 are on hold because they contain the trade-off statement.
+
+2026-10-17 — Structural paper: claim-by-claim audit of Payne, Huddleston & Pullum (2007) (Claude subagent; run `reviews/payne-audit-20261017/` in the fusion repo, gitignored) applied in full at Brett's instruction ("We do what's honest, clear, and best supported").
+- **The cost of fusion is restated.** Fusion's cost is now "a constituent with two functions", not "two parents" everywhere. Payne et al. say the category "will in effect have two mothers" but that "in the simple case the two mothers happen to coincide" (pp. 570–571). Their trees give Det–Head two parents (NP, Nom; pp. 582, 588) and Mod–Head one Nom that the constituent both modifies and heads ((19d), p. 588), unless a post-head dependent splits the functions ((24), p. 590). The intro's argument about relations over a node's parent is split by case.
+- **Figure fig:few is redrawn on (19d).** It had given *few* two parents. The §9.2 fragment's Mod–Head schema is corrected to Mod(n,x), Head(n,x).
+- **Gaps answered:**
+  - footnote 43 (p. 598): the only comparison they make, in passing;
+  - the claim that morphology mirrors fusion (pp. 565, 587–588; n. 30);
+  - independent PP determiners like *up to twice* (p. 589), as PPs with NP-like distribution (n. 7, p. 572);
+  - the mechanism for singulative and past *once* (p. 592);
+  - category from the modifiers (p. 583);
+  - their own statement that *some* etc. "never permit a preceding determiner" (p. 588), now cited at *the some who*.
+- **Fixes:**
+  - *more than once* (head *more*, p. 589);
+  - n. 5 on p. 571, not 570;
+  - pp. 589, 586–587, 570–571 citations corrected;
+  - term-of-office *once* heads an NP (consistent with §3.1);
+  - footnote on the referee's judgment of *this last once* (p. 586 n. 26).
+- **Redundancy pass.** P2 withdrawn (its target paragraph now carries the parentage facts). S5 and S6 released.
