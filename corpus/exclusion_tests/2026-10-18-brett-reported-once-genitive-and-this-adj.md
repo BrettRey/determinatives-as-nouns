@@ -35,3 +35,7 @@ The four hits confirm that the `[md*]` tag finds *last* in iWeb. `this last.[md*
 ## Reading
 
 The genitive is absent from *once*, *twice*, and *thrice* in all three corpora, as it is from *many* and *few*; the structural paper's §5 uses this in a footnote. The first run of the second search didn't test Payne et al.'s *this last once*, for the reason above. The rerun did: no *this last once* in COCA, NOW, or iWeb, which §5 now reports beside the referee's dissent.
+
+## Plain-string control (18 October 2026, later)
+
+GPT Pro suggested an untagged control for the negative POS-restricted searches. Brett ran the plain string `this last once` in NOW (2 lines) and iWeb (4 lines). None is the construction: five have the verb *last* (*Will this last once the lockdown is over?*, heraldscotland.com, 2020; *How long does this last once the oils are mixed?*, humblebeeandme.com), and one is a typo for *this last one* (*This last once focuses on type*, vanseodesign.com). COCA has no hits for the plain string (Brett). So the negative stands without the tags in all three corpora. The plain string `this last twice` has no hits in COCA, NOW, or iWeb (Brett), although *the last twice* is common in NOW (290 tokens; see `2026-10-18-brett-supplied-the-last-once-twice.md`). Raw lines are not kept (six lines, quoted here in part).

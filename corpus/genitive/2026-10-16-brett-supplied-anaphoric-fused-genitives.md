@@ -55,3 +55,11 @@
 - **Fusion.** *CGEL*'s case-matching reason fails for fused determiner-heads themselves: *each*, *either*, *neither* are fused determiner-heads in *CGEL*'s analysis, and they take the genitive. That adds to the compounds (p. 479) and *the latter's*.
 - **Silent nouns.** The concession in the fusion paper's §10 goes.
 - **Ordinary Head.** It gains nothing specific. It states the gap as the other two must.
+
+## A cardinal after a determiner: *the two's* (18 October 2026)
+
+**Source.** COCA, `those|the two 's` (confirmed from Brett's search history), run by hand by Brett Reynolds on 18 October 2026; 34 KWIC lines. Raw lines in the fusion repo's private `reviews/corpus-case-adj-20261018/raw/F1_COCA_the_those_two_genitive.txt`. Labels by Claude (Opus 5.5), one pass. Prompted by the numerals paper's *those two's story* (Reynolds 2026, ELL, p. 11 n. 6).
+
+**Result.** 21 of 34 lines have the genitive on *two* heading the nominal after *the* or *those*: *the two's relationship gets worse the longer Rosberg leads the championship* (*New York Post*, 2016); *The two's romance begins unexpectedly over a haircut* (Nerdist, 2017); *Just a hair over a half-stroke separated the two's scoring averages* (*Southern Living*, 2000); *the organism's faith in itself, its world, and the two's connection* (*Transactions of the Charles S. Peirce Society*, 2017); *Those two's story is NOT over* (tvline.com, 2012). Ten of the 21 are in edited prose (fiction, magazines, newspapers, academic). The other 13 are *two's complement* (3), the plural *twos* (*the terrible two's*, *the two's on the end*; 6), names (*Two's Day*, *Two's Company Café*, the *TWO*; 3), and one garbled line. Line labels: genitive 1–9, 11–14, 16, 19–22, 27, 32, 34.
+
+**Bearing.** After a determiner, the cardinal takes the genitive freely, and in edited prose, where *few* takes it once (*the first few's*) and *many* not at all. CGEL gives all three the same functions there (Mod–Head), so the division follows the word, as it does for the bare determinatives.

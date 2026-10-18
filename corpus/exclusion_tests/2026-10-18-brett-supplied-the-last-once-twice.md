@@ -5,7 +5,7 @@
 
 ## Searches
 
-Brett Reynolds pasted displays from COCA, iWeb, and NOW. Query not stated; from the lines, *the last* followed by *once*, *twice*, or *thrice* (Brett had been asked for `the last.[md*] once/twice/thrice`).
+Brett Reynolds pasted displays from COCA, iWeb, and NOW. Query `the last.[md*] once/twice/thrice` (confirmed from his search history, 18 Oct 2026), so *last* is restricted to the ordinal tag; the plain-string control below drops the tag.
 
 Classification by Claude (Opus 5.5), reading every line.
 
@@ -28,3 +28,11 @@ Classification by Claude (Opus 5.5), reading every line.
 ## Reading
 
 Payne et al.'s pattern, an adjective after a determiner with the fused word, is well attested with *twice*: *the last twice*, 'the last two times', is common in British and Irish sources and takes a relative clause like any head. With *once* it's absent in all three corpora, as *this last once* is. The structural paper's §5 now cites *the last twice* as the attested case and reports the absence of *the last once*.
+
+## Plain-string control for *the last once* (18 October 2026, later)
+
+GPT Pro noted that this record's query was inferred. Brett then ran the plain string `the last once` in all three corpora and pasted the results: COCA 4 lines and NOW 19 (both identical to the displays above, so the *once* part of the earlier search was this string), and iWeb 15 (more than the 9 *once* lines in the combined display above).
+
+iWeb, 15 lines: slips for *one(s)* 5 (*The last once is the biggest problem*, lagers.org.uk; *the last once closed in 1996*, macleans.ca; *in the last once year*); *ounce* 1; *once more* or *once again* 3; conjunction *once* 2 (*not the last once we get to Mark Minor*); names and titles 4 (*the last ONCE Festival*, *Once Upon a Time*). None has *once* heading the NP.
+
+Three lines across the corpora are ambiguous between a slip for *one* and *once* 'time': *it's been a while since the last once* (COCA, *Analog*, 2018, after *rejuv treatments*); *about 20 games since the last once* (NOW, *Guardian*, 2020, after *the international break*); *the last once was Senegal, 2002* (NOW, au.eurosport.com, 2022, a quoted speaker). The first two have a noun for *one* to refer back to; the third doesn't clearly. So: no clear instance in the three corpora, and at most three doubtful ones. The structural paper's §5 footnote now names the plain strings and says "clearly".
