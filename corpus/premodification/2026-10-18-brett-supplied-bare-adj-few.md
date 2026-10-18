@@ -43,3 +43,24 @@ COCA none (Brett). iWeb 21 lines: 13 head the nominal (*only select few have bee
 **Result.** Excluding 7 tokens where the tagger's adjective isn't one (*a level few schools* for *A-level*, *a just few moments*, *a luxury few teams can afford*), at least 123 tokens with 28 adjectives: *select* 24, *fair* 18, *mere* 13, *good* 10, *final* 9, *precious* 9, *quick* 7, *rare* 5, *lucky* 4, *relative* 3, *long*, *scant*, *selected* 2 each, and 15 others once each (*a paltry few pages*, *a harrowing few quarters*, *a favorite few tales*, *a further few steps*).
 
 **Bearing.** CGEL lists three expansions of *a few* (*very*, *good*, *fair*; p. 392). Before a noun, COCA has at least 28 adjectives in the slot, so it's open, as the structural paper's DP analysis has it (*a lucky few students*: the DP *a lucky few* is the determiner).
+
+## *Precious few* (18 October 2026, later)
+
+**COCA, `with precious few`** (13 lines, query inferred; raw D6 in the private run): all *precious few* + noun (*with precious few exceptions* 3, *apps*, *highways* in the *New York Times*, 1998, *seconds*, *possessions*), edited prose included. None standing alone.
+
+**iWeb, five lines Brett selected from a display of `[i*] precious few`** (query from his search history): *precious few* standing alone, heading the NP with no determiner: *I've come across precious few that offer an enjoyable experience* (tobaccoreviews.com), *one of precious few who have taken the textile medium far beyond …* (artfulhome.com), *seen by precious few on this earth* (travelbag.co.uk), *seen by precious few in Ammon* (kitrae.net), *a view that takes in precious few of Mourinho's men* (fantasyfootballscout.co.uk).
+
+**Bearing.** The structural paper's §4 footnote takes *precious* as a modifier inside the DP, as *very* is in *very few* (Matthews's predicative test: *Volunteers were precious few*), so these are the DP *precious few* as determiner or as head, not an adjective before a bare determinative. They match the web and Indian *select few* lines point for point: before a noun (*with select few lenses* / *with precious few apps*), standing alone after a preposition (*enjoyed by select few* / *seen by precious few*), and after *one of* with no *the* (*one of select few who* / *one of precious few who*, as standard English has *one of very few who*). That supports reading *select* in those varieties as a DP-internal modifier like *precious*. Brett's judgment on the predicative test (*The invitees were select few*) would decide it.
+
+## NOW: adjective + bare *few* + relative clause (18 October 2026, later)
+
+**Source.** NOW, `[i*] [j*] few who/that` (confirmed from Brett's search history), 33 lines (numbered to 37). The same query in COCA returns one line, the 2012 CNN blog post already listed above (*offering rides for select few who's income …*). Raw D7 in the private run. Labels by Claude, one pass.
+
+**Result.**
+- **Degree modifiers inside the DP** (the *precious* type): 8 — *precious few* (4: *among precious few that*, Yahoo, 2024; *to precious few that*, *Washington Post*, 2022; *one of precious few who*, USA Today, 2022; *the preserve of precious few who*, SuperSport, 2017), *only few* (3), *far few* (1).
+- **Headlines:** 2 (*chosen few who will receive highest honour*, *The Times*, 2022; *Found in Rare Few Who Can Naturally Manage HIV*, 2021).
+- **An ordinary adjective before bare *few***: 23 — *select*, *selected*, *privileged*, *chosen*, *gullible*, *vicious*, *powerful*, *connected*, *over ambitious*, *blessed*, *microscopic*, *lucky*, *unlucky*, *fortunate*, *uninvited* (*manipulation of the people by select few who …*, osundefender.com, 2021; *by gullible few who are wont to be …*, blueprint.ng; *the group of vicious few who are driven by self-interest*, legit.ng, 2020). By country: Nigeria 11, India 5, South Africa 2, Pakistan 1, Ireland 2, New Zealand 1, Britain 1. The four from Ireland, New Zealand, and Britain all follow *of*: *one of lucky few who* (GQ, 2014), *one of unlucky few who* (NZME, 2019), *the band of uninvited few who* (image.ie, 2020), *the list of select few who* (thejournal.ie, 2017). Three lines are readers' comments (Dawn, Sporting Post, ESPNcricinfo).
+
+**Bearing.** Ordinary adjectives occur in the same frame as *select*, in the same varieties, so *select few* isn't special. The likelier account of the web and Indian *select few* is the omission of *the* or *a* that these varieties show generally, not *select* as a DP-internal modifier like *precious* (the parallel suggested above is withdrawn as the main account). The gap holds where the article system is the standard one; elsewhere the missing article is the exception, and the inner-circle cases are confined to *of* frames. Neither analysis is separated by this: on both, the NP lacks the determiner that standard English requires.
+
+**Also run, nothing useful (Brett, 18 October 2026):** NOW `[i*] [j*] few`, COCA `[i*] [j*] some/few/more/many …`.
