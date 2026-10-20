@@ -1244,3 +1244,18 @@ Same day: Brett is "not confident about the tag" in *Scant attention was paid to
 Grounds: COCA, iWeb, and NOW collocates. There are 26 distinct lines with *ever* in bare *scant*'s clause or NP, against 1 marginal *never*, though *never* is the commoner word; record `corpus/exclusion_tests/2026-10-19-brett-supplied-scant-ever.md`. The tag test with *scant* stays out (Brett not confident). EVIDENCE.md gets a row.
 
 2026-10-19 — Table 1, at Brett's "I'll take your rec". The fusion cell for "A pre-head adjective with no determiner" now reads "Excluded by adjacency once nothing before the word makes it the determiner (Section 3) …", so the table shows both analyses keying the gap to the absence of a preceding determiner. No clause-negativity row (footnote only). The verdicts in the abstract, §1, §6, and §8 are unchanged. The Det–Head comparison moves somewhat toward ordinary Head but stays "a reasonable preference, not a forced conclusion"; Brett agreed.
+
+2026-10-19 — Structural paper, GPT Pro's fourth review (private: `reviews/external-reviews-20261019-round4/`, gpt-pro.md and TRIAGE.md). Applied at Brett's "make the changes and pro's suggested cuts"; Brett judges *None present objected* good.
+- §3 and Table 1: after *few*, *some*, and *none* a single adjective follows only if it's comparative or one, like *present*, that follows nouns too. The example is now *I've heard worse but none weirder* (an object NP), not the existential *There's none lovelier*.
+- §3, the *scant* footnote: it now claims only that polarity isn't specific to determiner function. It credits CGEL with the clause-negativity contrast and leaves open whether bare *scant* passes CGEL's tests for a negative clause. The *scant* record now says its binomial figures are rough, not a fit null.
+- §3, the genitive: "since the further condition does the work on either analysis" is deleted. The pure-head sentence now reads "change only that function".
+- §7: the double-fusion footnote names its evidence. The summary now says "fused-relative heads" and "a condition linking the head's case to a relative clause".
+- The spot-check was 105 lines, not 106. Corrected in the data note, the gaps-and-matrix record, and the private manifest.
+- EVIDENCE.md status line updated.
+- Cuts of repeated exposition, as GPT Pro suggested:
+  - §1 previews the two departures without §2's quotations.
+  - §3's restated trade is cut; the condition is now named ("the condition on pre-head adjectives").
+  - §4's summary of the three questions is trimmed, and its closing repeat cut.
+  - §6's weighing paragraph no longer restates the derivation and the exceptions.
+
+PDF count: 15,411 by the strict count, about 15,117 without tree labels (was 15,507 and 15,213).

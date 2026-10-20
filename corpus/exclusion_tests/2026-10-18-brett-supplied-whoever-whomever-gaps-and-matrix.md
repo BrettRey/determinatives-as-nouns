@@ -111,9 +111,11 @@ The order is the same inside each group, and *whomever* is several times rarer i
 
 ## Caveats
 
-- Labels by Claude, one pass, then checked by Brett Reynolds on 18 October 2026 on 106 lines: all 23 B1 lines, the 24 hard calls in A1 and A2 (ES, PR, MN, X), a random 30 from B2 and B3, and 28 lines from the 17 Oct genitive set. He changed five B1 labels, all to EC (4 fragments he reads as exhaustive conditionals, and l. 5, which Claude had excluded), and agreed with the other 101. None of the changes touches the main-clause-subject cell (8 against 33) or the 52% estimate.
+- Labels by Claude, one pass, then checked by Brett Reynolds on 18 October 2026 on 105 lines: all 23 B1 lines, the 24 hard calls in A1 and A2 (ES, PR, MN, X), a random 30 from B2 and B3, and 28 lines from the 17 Oct genitive set. He changed five B1 labels, all to EC (4 fragments he reads as exhaustive conditionals, and l. 5, which Claude had excluded), and agreed with the other 100. None of the changes touches the main-clause-subject cell (8 against 33) or the 52% estimate.
 - The before-pronoun estimates assume the displays are representative of the frequency-list rows.
-- The verb-object labels (§3) were checked by Brett on 18 October 2026, after the 106-line check of the earlier sets, with no changes.
+- The verb-object labels (§3) were checked by Brett on 18 October 2026, after the 105-line check of the earlier sets, with no changes.
 - Sentence-initial position catches main-clause subjects but also headings, quotations (Bible and Tao Te Ching lines in B3 and B4), and scripts; these are kept, labelled by function.
 
 **Totals (Brett, 18 Oct):** `. whoever [p*]` 644 (it 219, you 166, he 108, they 67, she 45, I 28, we 10, who 1); `. whoever [v*]` 2,606 (448 verb types). Raw lists in the private run (`raw/G1…`, `raw/G2…`).
+
+**Correction, 19 October 2026.** The spot-check was 105 lines, not 106 (23 + 24 + 28 + 30, counted from the check file `SPOT-CHECK.md`); the arithmetic slip was caught by GPT Pro's fourth review. The paper's data note is corrected to match.
