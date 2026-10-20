@@ -1272,3 +1272,13 @@ PDF count: 15,411 by the strict count, about 15,117 without tree labels (was 15,
 
 PDF count: 15,629 by the strict count, about 15,335 without tree labels.
 Same day: the 19 optional fixes are reverted at Brett's "drop the opt", leaving the 34 core fixes in §4.
+
+2026-10-20 — Structural paper: abbreviations, at Brett's "I'll take both".
+- Payne, Huddleston, and Pullum (2007) are defined in §1 as "henceforth PHP". "PHP" replaces "Payne et al." throughout the body, as "PHP (p. X)" and "(PHP, p. X)"; the abstract keeps the full form.
+- CGEL citations print as "(*CGEL*, p. X)", or as "(p. X)" where *CGEL* is named in the same sentence, not as "(Huddleston & Pullum, 2002, p. X)".
+
+The edits were made by hand in the drafts; the central bibliography is untouched. PDF count: 15,386 by the strict count, about 15,092 without tree labels (was 15,585).
+
+2026-10-20 — Sentences that describe structure by position, rewritten to state the structure; Brett asked after "something's not clicking". §4 now says *a lucky few* "is built like *the lucky few*", with a parallel sentence for the DP treatment. §3's fusion derivation now says why the adjective can't precede (*few* is itself the NP's determiner). The ungrammatical "on either way" now names CGEL's two treatments. PHP's adjacency example reads as "a pre-head dependent in the nominal, which a PP never is". The restrictor "follows it in the nominal".
+
+2026-10-20 — §4's *a few* paragraphs compressed at Brett's "yes". The third paragraph no longer repeats the conclusion, the two statements the treatments need, the *one whole thousand* parallel, or Figure 3's three panels. The first paragraph's statement now names "a slot after *a* inside the determinative". The third keeps *a little*, the *quite a few*/plural argument, and a one-line close ("So *a lucky few* is no exception to the gap"). About 85 words saved.
