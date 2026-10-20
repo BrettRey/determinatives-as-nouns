@@ -1259,3 +1259,16 @@ Grounds: COCA, iWeb, and NOW collocates. There are 26 distinct lines with *ever*
   - §6's weighing paragraph no longer restates the derivation and the exceptions.
 
 PDF count: 15,411 by the strict count, about 15,117 without tree labels (was 15,507 and 15,213).
+
+2026-10-19 — §4's determiners paragraph opens without "show". Brett called "the determiner doesn't show the modifier function" incoherent, since a determiner is a separate word. It now reads "Which determiners NPs like *the lucky few* take depends on the head word, not on a modifier function", with the plural-noun point and the role of *a* made explicit. §6 likewise: "give no evidence for either function", not "show neither function". Brett declined a definition of "show" for §2.
+
+2026-10-19 — Structural paper §4, precision pass. Brett: "This section seems to have a lot of this"; "Get codex and muse to scan the section". Codex found 44 cases and muse 74 (private: `reviews/precision-sec4-20261019-213412/`, with TRIAGE.md). Claude kept 53 with tighter rewrites, 34 core and 19 optional, and applied all at Brett's "proceed". The fixes cover:
+- unclear referents ("the phrase", "the list", "both", "either", "these");
+- contrasts with no second term ("the same partitive", "the NP's own" kind);
+- category slips ("a direction is a list", "an adjective can be a phrase", functions as positions, "Case shows …", "Form could show it in … the determiners");
+- "analysis" used both for CGEL's two treatments of *a few* and for fusion against ordinary Head;
+- one false statement ("*Blue* takes no determiner", now "can head a nominal with no determiner");
+- claims broader than the evidence ("the determiner in COCA" → "in the COCA lines searched"; "every use of *few*").
+
+PDF count: 15,629 by the strict count, about 15,335 without tree labels.
+Same day: the 19 optional fixes are reverted at Brett's "drop the opt", leaving the 34 core fixes in §4.
