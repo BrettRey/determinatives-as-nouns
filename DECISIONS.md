@@ -1282,3 +1282,20 @@ The edits were made by hand in the drafts; the central bibliography is untouched
 2026-10-20 — Sentences that describe structure by position, rewritten to state the structure; Brett asked after "something's not clicking". §4 now says *a lucky few* "is built like *the lucky few*", with a parallel sentence for the DP treatment. §3's fusion derivation now says why the adjective can't precede (*few* is itself the NP's determiner). The ungrammatical "on either way" now names CGEL's two treatments. PHP's adjacency example reads as "a pre-head dependent in the nominal, which a PP never is". The restrictor "follows it in the nominal".
 
 2026-10-20 — §4's *a few* paragraphs compressed at Brett's "yes". The third paragraph no longer repeats the conclusion, the two statements the treatments need, the *one whole thousand* parallel, or Figure 3's three panels. The first paragraph's statement now names "a slot after *a* inside the determinative". The third keeps *a little*, the *quite a few*/plural argument, and a one-line close ("So *a lucky few* is no exception to the gap"). About 85 words saved.
+
+2026-10-20 — §4, pronouns paragraph: "Ordinary Head's condition has to mention a determiner, as the pronouns' needn't, so fusion's derivation saves a statement, but not a kind of statement the grammar would otherwise lack" becomes "Ordinary Head's condition differs from the pronouns' restriction only in mentioning a determiner, which pronouns never take. So fusion's derivation saves one statement, of a kind the grammar already has." Brett found the old sentence awkward and the first rewrite's closing clause too negative.
+
+2026-10-20 — Table 1 check, at Brett's "make it and check all the other cells".
+- Restrictor row: both cells now carry the limit after *few*, *some*, and *none*. Ordinary Head's cell lacked it, so the row read as if ordinary Head needed nothing there.
+- "Determiners these heads take" becomes "The NP's determiner (*the few*, *the rich*)". Its fusion cell had the false "none for *blue*", now "none needed for *blue* (*I like blue*)". The genitive for *rich* is no longer attributed to CGEL p. 417, which gives only *the*.
+- The *a few* row names the DP analysis adopted here and "*CGEL*'s treatment with *a* as determiner", not "other route".
+- The adjectives row's ordinary-Head cell reads "The same types and exclusions".
+- The second-function row's "None outside fused relatives" pointed to §4; it now points to §7.
+
+2026-10-20 — Structural paper: search dates dropped from the corpus footnotes (§§3, 4, 5, 7; eight places), at Brett's suggestion. §2's data note gives the window ("September and October 2026"), and each record in the evidence index gives the exact date. Publication dates of quoted sources stay.
+Same day: the years and the two full dates are dropped from the 28 source citations of attested examples ("(*Newsweek*)", "(CBS)", "(film script)"); the source names stay. Brett: COCA, NOW, and iWeb are all current, so the year adds nothing, and a line can be found from its string and source.
+
+2026-10-20 — At Brett's "yes":
+- §7: CGEL's fourth NP property is now "a preposition left stranded (*what she referred to*, not \**to what she referred*)", not "no fronted preposition". Brett pointed out that *wherever* and *whenever* look like fronted prepositions. CGEL's property (p. 1069) is about a preposition whose complement is the relative word.
+- §4: "names" → "proper nouns" in the comparison with pronouns and determinatives (seven places). The claims concern heads, and CGEL ties the determiner facts to the heads of proper names (p. 520); "a secondary use of the name" keeps CGEL's notion. *Poor Henry* is now cited to p. 520.
+- §5: "names of offices" → "nouns for offices".
