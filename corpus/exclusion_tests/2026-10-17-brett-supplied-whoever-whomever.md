@@ -68,3 +68,5 @@ So *whom* fills under 0.1% of subject-gap ordinary relatives. CGEL p. 467 n. 62 
 **For the paper:** the matrix function's effect rests on CGEL's judgment of *?Whomever he marries will have to be very tolerant* (p. 1074). The baseline appears only in the search footnote.
 
 (Also in Brett's paste: a `[nn*] who* [v*]` list showing only its 1,000 most frequent types, total 360,225. Not used.)
+
+**Clause-taking prepositions in the before-verb list (added 18 October 2026).** A preposition that can introduce a clause (*until whoever you're waiting for gets here*) would put the fused relative in subject function, not in a preposition's object. In the 319 most frequent rows of the `[i*] who*ever [v*]` list (1,825 of its 2,506 tokens), 43 tokens have such a word before them, all *whoever*: *like* 27, *after* 8, *until* 4, *before* 2, *as* 2 (some of them may still be ordinary prepositional objects). The 681 frequency-1 rows were tallied by form, not by preposition, so they aren't covered. Removing the 43 changes the *whomever* share from 14.3% to 14.6%. Counted by Claude (Opus 5.5) from the private transcription (fusion repo `reviews/corpus-whoever-prep-20261017/`).
