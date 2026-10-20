@@ -1299,3 +1299,32 @@ Same day: the years and the two full dates are dropped from the 28 source citati
 - §7: CGEL's fourth NP property is now "a preposition left stranded (*what she referred to*, not \**to what she referred*)", not "no fronted preposition". Brett pointed out that *wherever* and *whenever* look like fronted prepositions. CGEL's property (p. 1069) is about a preposition whose complement is the relative word.
 - §4: "names" → "proper nouns" in the comparison with pronouns and determinatives (seven places). The claims concern heads, and CGEL ties the determiner facts to the heads of proper names (p. 520); "a secondary use of the name" keeps CGEL's notion. *Poor Henry* is now cited to p. 520.
 - §5: "names of offices" → "nouns for offices".
+
+2026-10-20 — Muse's clarity audit (private: `reviews/muse-clarity-20261020-130435/`, REPORT.md and TRIAGE.md), applied as Claude triaged it, at Brett's "I accept all your judgements".
+- Paragraph splits in §§1, 2, 4, 5, and 7.
+- One-clause additions that supply a missing step:
+  - the pronoun-subject proxy;
+  - the objection behind the hybrids "But";
+  - which node carries which departure in §6;
+  - "(*few* against *the few*)" in §6's confound;
+  - "Without case in the condition";
+  - "bear out *occasionally attested*".
+- The *real me* paragraph reordered, countability first.
+- Table 2's reading glossed with the two functions.
+- The content-clause result moved into the register footnote.
+- *Singulative* glossed.
+- The two "Apart from" sentences in §3 merged.
+- A callback to §6 in §7's double-fusion footnote.
+
+Declined, with reasons in TRIAGE.md:
+- the duplicated signpost in §5;
+- demoting the §2 categories sentence;
+- a "third treatment" roadmap for *a few*;
+- an overstated clause in §6;
+- a rewrite of §1's rivals paragraph that dropped Brett's wording.
+
+2026-10-20 — Cross-references, at Brett's request.
+- §3's first use of adjacency is now glossed: "PHP's condition that the fused functions are adjacent (p. 571)". PHP's property (iii) is on p. 571, checked in the PDF; the term was otherwise explained only in §4.
+- §3's "ordinary Head has to state it" now points to Section 4, where the condition is stated.
+- §1's pointer for the pronoun parallel was "(Section 3)", left stale when the 19 Oct cut moved that parallel out of §3. It now reads "(Sections 3 and 4)".
+Same day: two more cross-references. §4's "a condition of this kind" becomes "a condition like ordinary Head's", four paragraphs after the condition is stated. §7's first contextual use of *prenucleus* gets "(the fronted position; Section 2)", since the full gloss moved to §2 on 19 Oct.
