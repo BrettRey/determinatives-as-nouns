@@ -1361,3 +1361,12 @@ Same day: two more cross-references. §4's "a condition of this kind" becomes "a
 - New references-local.bib entries: nunberg1995, glass2019, vonfintel1994, each checked against its PDF (and against Crossref for the two DOIs).
 - The *nylon* and *dog* sentences came from the proposal's "Nylon and the dog" section, not from the four questions. They were applied as part of "make the edits".
 - Build: 30 pages, no undefined references. Word count rose from 15,393 to 16,273 by the strict count (about 15,979 without tree labels), +880, including three new references.
+
+2026-10-21 — Fusion paper, GPT referee point 2: five refinements from muse's earlier triage (muse-wonder-full-1.0, written before the response began; Brett pasted it afterwards). Decision owner Brett, who took Claude's items 1–5. Applied; not committed.
+1. §2: the test is now symmetric. "Each analysis still needs a route to the reading, and interpretation would distinguish them only where one needed a process the other doesn't." This replaces the one-way version.
+2. §3: "With no noun, the context supplies all of it" becomes "the discourse, the predicate, or a conventional reading has to identify the set". This avoids muse's "whole restrictor" overclaim.
+3. §4: a sentence on *the larger* (ex:mh f). The context supplies the alternatives and the comparative the property, and *the* picks out the piece that has it. The referee's follow-up named this case.
+4. §3: a licence clause. The domain says nothing about which determinatives can stand alone; both analyses list them (Table 1).
+5. §2: the dog relation is named, "(bearing a picture of one)".
+Not adopted: muse's material-to-object transfer for *I'll take nylon* with Warren p. 59 as the resource. *Nylon*'s own meaning applies to a garment (*This shirt is nylon*). Warren's own cases change countability (*nylons*, *a glass*). And she analyses these metonyms as implicit heads (pp. 58, 77), which the new footnote already reports.
+Word count after the five refinements: 16,331 by the strict count (+58).
