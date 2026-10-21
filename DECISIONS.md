@@ -1328,3 +1328,36 @@ Declined, with reasons in TRIAGE.md:
 - §3's "ordinary Head has to state it" now points to Section 4, where the condition is stated.
 - §1's pointer for the pronoun parallel was "(Section 3)", left stale when the 19 Oct cut moved that parallel out of §3. It now reads "(Sections 3 and 4)".
 Same day: two more cross-references. §4's "a condition of this kind" becomes "a condition like ordinary Head's", four paragraphs after the condition is stated. §7's first contextual use of *prenucleus* gets "(the fronted position; Section 2)", since the full gloss moved to §2 on 19 Oct.
+
+2026-10-21 — Fusion paper, GPT referee point 2 (interpretation), §2: keep *form* as the criterion, and give the reason interpretation drops out. Decision owner Brett, who accepted Claude's (Opus 5.5) recommendation of option A over widening the criterion (option B) or the minimum change (option C). Not yet applied.
+- The sentence "Interpretation can't supply it, since the two assign the same readings, one by a second function, the other by what the context supplies" (analyses.tex:88) is replaced. It conflicted with §4, which already uses the generic reading against a silent noun.
+- The replacement says that interpretation separates analyses that predict different readings, but fusion and ordinary Head predict the same readings, from the same sources.
+- It cites CGEL's interpretive types, simple, partitive, and special (p. 333). They cross the functions: CGEL's examples put Det–Head in all three and Mod–Head in the partitive and the special. That *nylon* fits the simple type is the paper's application; CGEL p. 421 ties its reading to the modifier function.
+- It ends with the test: a reading counts as evidence for a second function only if no independently needed source reaches it.
+- Draft wording: fusion repo `reviews/gptpro-referee-20261021/INTERP-PROPOSAL.md`.
+
+2026-10-21 — Fusion paper, GPT referee point 2: Warren (2006) is engaged as a silent-head analysis, not cited as support. Decision owner Brett, who chose option B without the Wu clause. Not yet applied.
+- On a closer reading, prompted by Brett asking how *lunch box* "turns into a modifier", Warren gives metonyms an implicit head, because "it is the implicit element that agrees with the verb" (p. 77). She gives *the poor* the same structure, "the+ adjective+ implicit head" (p. 58). Her "double exposure" (p. 22) names exceptions, not her analysis. So the earlier recommendation, to cite her framing in the predicand paragraph, was withdrawn.
+- One footnote goes on the silent-head sentence (analyses.tex:105). It cites Warren, then notes that (ex:dog)'s determiners follow the overt noun, then adds Nunberg 1995: 130 n. 18 (*une menthe*, gender follows *menthe*, not *sirop*). This replaces the separate Nunberg footnote proposed earlier.
+- Wu 2025 isn't cited.
+
+2026-10-21 — Fusion paper, GPT referee point 2, §4 and Table 1: *the rich*. Decision owner Brett, who took Claude's recommendations. Not yet applied.
+- (a) Glass (2019) goes in the text at mod-head.tex:86, after PHP's generic point. *CGEL* p. 420 gives the same observation for *the rich people*. Glass adds individuated uses that aren't about people (*The weak and mutated die, the healthy survive*, p. 10) and abstract ones, singular like *CGEL*'s *the immoral* (p. 418) (*The crazy … is easily detected*, p. 7). She derives both readings from the adjective's own meaning (pp. 12–13).
+  - It says "abstract" and "singular", not "non-count". Brett asked whether "non-count" was precise: a singular verb shows number, not countability, and *CGEL* describes the type as abstract and "obligatorily singular".
+  - A footnote notes that her silent nominalizing head (p. 15) isn't needed on ordinary Head, since the AdjP heads a nominal.
+- (b) mod-head.tex:98 says the determiners vary word by word, not type by type. *Unemployed*, which *CGEL* lists in the type, takes *many* and *some* in edited news; *these rich* and *some educated* occur mostly in blogs and in news outside Britain and the US. A footnote gives Brett's NOW and COCA counts (records 2026-10-21-brett-supplied-these-rich.md and -some-educated-many-unemployed.md) and Glass p. 7. Table 1's cell becomes "*the* (p. 417) or a genitive for *rich*, and also *many* or *some* for *unemployed*".
+- (c) mod-head.tex:102: "is a list on both analyses" becomes "is stated the same way on both analyses", and the closing sentence becomes "Ordinary Head states the same, as permissions to head a nominal". This avoids a seeming clash with (b)'s "word by word" and with Glass's productivity claim (p. 11).
+
+2026-10-21 — Fusion paper, GPT referee point 2, §3 (det-head.tex:24): von Fintel (1994) is cited for the semantic point only. Decision owner Brett, who took the revised option A without the footnote. Not yet applied.
+- The domain of any quantified expression is supplied by the context, and it's needed even with a noun: Westerståhl's *most people* about Sweden (p. 41). The domain is an index on the quantifying word (p. 43), not a constituent, so it isn't a silent noun.
+- With no noun, the context supplies the whole domain. That step is the paper's own.
+- p. 45 isn't cited. Brett pointed out that von Fintel's "determiner-quantifier" (p. 3) is a word picked out by its kind of denotation, so his claim that determiners "require a common noun phrase argument" ("of a syntactic nature") is true by definition of CGEL's determiner function and false of its determinative category (*some*, *few* stand alone). The footnote replying to p. 45 was declined.
+- The optional licence clause and the *few would* footnote addition aren't included. The (ex:dh)b line is cricket (Aaron Finch's side), so the addition couldn't have named Pakistan's people as drafted.
+
+2026-10-21 — Fusion paper, GPT referee point 2: all four decisions applied to the drafts. Not committed.
+- §2 (analyses.tex): the conditional claim; CGEL's interpretive types (p. 333); pronominal *other* (pp. 1517–1518) with Brett's *one … the other* example, *one* being fused Det–Head on p. 387; the test; the *nylon* paragraph's "What differs is the antecedent"; the *dog* sentence; and the Warren and Nunberg footnote on the silent-head sentence.
+- §3 (det-head.tex): a new paragraph on von Fintel.
+- §4 (mod-head.tex): the Glass paragraph and its footnote on her structure; the determiner sentence with *unemployed* and its counts footnote; "a list" replaced by "is stated the same way". Table 1 (costs.tex): the determiner cell.
+- New references-local.bib entries: nunberg1995, glass2019, vonfintel1994, each checked against its PDF (and against Crossref for the two DOIs).
+- The *nylon* and *dog* sentences came from the proposal's "Nylon and the dog" section, not from the four questions. They were applied as part of "make the edits".
+- Build: 30 pages, no undefined references. Word count rose from 15,393 to 16,273 by the strict count (about 15,979 without tree labels), +880, including three new references.
