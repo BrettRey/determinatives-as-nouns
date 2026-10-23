@@ -119,3 +119,15 @@ The order is the same inside each group, and *whomever* is several times rarer i
 **Totals (Brett, 18 Oct):** `. whoever [p*]` 644 (it 219, you 166, he 108, they 67, she 45, I 28, we 10, who 1); `. whoever [v*]` 2,606 (448 verb types). Raw lists in the private run (`raw/G1…`, `raw/G2…`).
 
 **Correction, 19 October 2026.** The spot-check was 105 lines, not 106 (23 + 24 + 28 + 30, counted from the check file `SPOT-CHECK.md`); the arithmetic slip was caught by GPT Pro's fourth review. The paper's data note is corrected to match.
+
+**Provenance check, 23 October 2026 (Claude, Opus 5.5, from the private raw files; no new searches).** This answers the open questions about Table 2: which queries the verb-object cells came from, and whether the displays are samples.
+- **J1–J3 queries, confirmed from the data.** Each frequency list sums to the total given above: 227 over 172 types for J1, 555 over 349 for J2, and 71 over 71 for J3. Every type has the query's shape:
+  - J1 and J2: a verb, then *whomever* or *whoever*, then a pronoun (*marry whomever they*, *call whoever you*);
+  - J3: a verb, then *whomever*, then a verb (*ask whomever runs*).
+- **J4's total of 1,372 belongs to J4.**
+  - It isn't the total of any other query in the batch (227, 555, 71, 644, 2,606).
+  - The 200 displayed J4 lines all have a verb, then *whoever*, then a verb.
+  - Their genre mix fits the chart's: χ² = 3.1 on 7 df, p ≈ 0.88, with TV and movies merged as the chart has them.
+  - The chart's five-year columns sum to 1,109, which is 1,372 less its 263 web and blog tokens. The corpus dates all web and blog texts to 2012.
+- **The displays are samples spread across the corpus, not the first hits.** Every display that shows fewer lines than its query's total runs from 1990 to 2019: J1, J2, J4, B2, and B4. J4's spread by period and genre matches its chart. First hits in date order would cluster at the 2019 end.
+- These checks rest on the pasted displays and frequency lists. Brett's search history for the J searches wasn't pasted, so the strings themselves are confirmed by what the searches returned, not from the history.

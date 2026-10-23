@@ -1436,3 +1436,121 @@ Word count after the five refinements: 16,331 by the strict count (+58).
 - So the absence is a matter of frequency, not grammar. A complement needs an antecedent noun that licenses it (CGEL p. 1259), and contexts with *some to* rarely supply one.
 - Not yet recorded as corpus evidence or cited in the paper (Brett's call).
 - Brett searched for an attested *some* + infinitival complement after a nominal with a licensing noun, and found none. He judges the constructed *We have some proposals to close it and some to keep it open* good (2026-10-23). Nothing has been added to the paper for it.
+
+2026-10-23 — Fusion paper: the Det–Head verdict is that fusion is favoured for a simple determinative standing alone, though not forced. Decision owner: Brett ("go with C"); drafted by Claude (Opus 5.5).
+- The options:
+  - (A) keep "ordinary Head, a reasonable preference" on the burden of proof;
+  - (B) unresolved, between ordinary Head and the intermediate grammar;
+  - (C) favour fusion for simple determinatives standing alone.
+- Why C:
+  - The one property of form bearing on the determiner function, no adjective before a bare determinative (*\*Lucky few escaped*), points to fusion, and no property of form points the other way.
+  - The exclamation test made that fact firmer. It also showed that ordinary Head's condition doesn't behave like the pronoun restriction it was modelled on (*Lucky you!*, *Poor man!*, but *\*Lucky few!*, *\*Lucky both!*).
+  - Ordinary Head's advantage (fewer functions, two-parent structure in one construction) is a value, not evidence, and the cost it avoids is one of extent.
+  - A rested on the argument withdrawn on 21 Oct. B presented a fact against a value as a standoff.
+- Grading: fusion is favoured more firmly in fused relatives, where the head analysis needs statements no other head needs (fused-relatives.tex:126, still unverified per the 21 Oct addendum), than for determinatives, whose case rests on one fact that counts for less.
+- Compounds: tentatively ordinary heads. They pattern with pronouns in the exclamation (*Poor everybody!*, *Poor somebody!*), on two COCA attestations and Brett's judgments.
+- The grammar favoured is CGEL's without Mod–Head, with the compounds as ordinary heads.
+- The verdict would reverse if a restriction that adjacency predicts for simple bare determinatives failed to hold, or if a property of form told against the determiner function.
+- Edits:
+  - abstract;
+  - intro (the verdict paragraph, and "the one construction" gone);
+  - analyses.tex:86;
+  - det-head.tex:53 (the compounds in the exclamations);
+  - mod-head.tex: the exclamation results, a footnote assuming no silent determiner (CGEL pp. 429, 430, 522–523), the compounds against fusion's derivation, and "looks like the pronouns' restriction but doesn't behave like it";
+  - once.tex:31 (stale "kind the grammar already contains" removed);
+  - costs.tex: Table 1 row, the trade paragraph, the verdict, the reversal conditions, and the favoured grammar;
+  - conclusion.
+- Compiles (make quick, 30 pp.). texcount sum 15,356, plus about 600 words of references, so about 950 over JL's 15,000.
+- Deferred, cross-paper: the taxonomic paper's section "Ordinary Head, fusion, and modifier attachment" pairs determinatives-as-nouns with ordinary Head for independent *some*, and needs revising. analyses.tex:86 already says the noun classification removes the category change on both analyses, so the taxonomic thesis doesn't depend on ordinary Head.
+- Deferred: the April 2026 payoff (getting rid of fusion for *take some*) is now reversed for simple determinatives. The private history records it.
+- Follow-up edits the same day:
+  - costs.tex: "nothing of form counts against" now points to §3, where the genitive divides the words in a way neither analysis predicts.
+  - costs.tex: a third reversal condition, that the bare word is a modifier–head like CGEL's *blue* (p. 417), since adjacency then derives nothing. The verdict depends on the Det–Head choice, and det-head.tex:53 notes that CGEL gives no argument picking determiner over modifier for *many*. Open (Brett's call): whether to promote the polarity footnote (this file, 19 Oct) as the paper's argument for Det over Mod.
+  - abstract: "simple" determinative.
+  - mod-head.tex:169: the pronoun parallel holds "on this question" only.
+  - mod-head.tex:109: the exclamations are the compounds'.
+
+2026-10-23 — Fusion paper: the §7 claim that the head analysis needs "statements no other head needs" (fused-relatives.tex:126) checked against CGEL (Brett: "verify the claim"). It holds for standard English, with one footnote added.
+- Subject relativization without a relative word. CGEL p. 1055 [68] has two less certain cases, in an it-cleft and an existential, "at the boundary between very informal and non-standard". CGEL ties them to position: the relative clause "could not be misconstrued as predicate of the matrix clause". A fused relative as subject is the misconstrual configuration, so these cases give the head analysis no parallel. Footnote added at fused-relatives.tex:64, closing the pending "note CGEL p. 1055 in §7".
+- No infinitival form. CGEL §5 (pp. 1066–1067) restricts only the wh type (the relative phrase must be preposition + NP; no subject). The one head it reports as excluding a relative, *it* ([4ii]), excludes finite relatives as well. No head in CGEL's discussion takes a finite bare relative but not a non-wh infinitival one. Searched: CGEL ch. 12 §5, and the fusion paper's use of p. 1067. Not exhaustive beyond that.
+- A case condition linking the head to a relative clause it isn't part of. CGEL p. 56: "Case is determined by the function of the NP in the larger construction". No parallel.
+
+2026-10-23 — Fusion paper: why Det–Head and not Mod–Head for a bare determinative. Brett chose (b): the gap itself picks it, and the polarity footnote stays where it is.
+- Correction: Claude had described promoting the polarity footnote (det-head.tex, the footnote opening "Polarity doesn't show it either") as the stronger fix. It isn't. The footnote shows that CGEL's clause-negativity argument (p. 394) doesn't separate determiner from modifier, given *scant*. Promoting it would move a doubt about the Det–Head choice into the main text.
+- det-head.tex:53: CGEL gives no argument for *many*, "but the gap itself picks it". A bare modifier–head would leave room for an adjective before it in the nominal, as *the lucky few* has after its determiner, and only the determiner–head leaves none (*\*Poor many!*, Brett's judgment of 21 Oct). The text says this is one fact favouring one analysis over two rivals, not a second fact for fusion.
+- costs.tex:59: the fact "counts for fusion with Det–Head, the analysis it also picks over Mod–Head".
+- costs.tex:61: the third reversal condition is now "if independent evidence showed the bare word to be a modifier–head".
+
+2026-10-23 — Fusion paper, Table 2 provenance: settled from the raw files, without Brett. Brett: "why are you asking me where Table 2's numbers come from? Can't you work that out?"
+- The J1–J3 query strings are confirmed by their frequency lists, which sum to the stated totals and all have the query's shape.
+- J4's 1,372 belongs to J4. No other query in the batch has that total, and the J4 display's genre mix fits the chart (χ² 3.1, df 7, p ≈ 0.88).
+- The displays are samples across the corpus, not first hits: all span 1990–2019.
+- Written into the public record (corpus/exclusion_tests/2026-10-18-…-gaps-and-matrix.md) and the private manifest.
+- The triage's question (iii), whether to publish a reconstruction supplement or keep the run private, is settled by the standing rule that raw COCA lines stay out of public repos. The record already gives queries, totals, and per-line labels. What's still open is the triage's presentation fixes for Table 2: "about" on the estimates, a note on the search frames, lower bounds, and the derivation of 8-of-51.
+
+2026-10-23 — Fusion paper: the referee-plan adopts applied (triage of GPT Pro's plan, "Adopt (no decision needed)"; Brett: "ok, so, ...?").
+- Polarity footnote (det-head.tex): narrowed to *ever*-licensing. The *Ghana … never* contrast is dropped, and the wider clause-negativity test is said to be untested.
+- Genitive wording: "the searches found the gap nearly complete" (det-head.tex:61), and "the searches found very few tokens of *many's*" (fused-relatives.tex:121).
+- analyses.tex:113: "Neither kind of silent head predicts that without a further provision".
+- §7: Bresnan and Grimshaw's agreement condition is now stated when the head analysis is introduced (l. 24). Finnish and Old English are dropped; the agreement sentence keeps the cross-language point generically (pp. 353, 373–374).
+- §7: one sentence separating frequency from acceptability at the start of the usage paragraph.
+- Table 2: the caption gives the search frames, says estimates come from labelled samples of capped displays, marks the frequency-list cell's counts as lower bounds, and derives the 51 (8 + about 43; 33 in a 498-line sample of 644, checked against the record). "About" is added to the 6%.
+- Figure 5b: "adapted from" Bresnan and Grimshaw.
+- Figure 6 and the footnote on *whichever*: changed for the C verdict. The favoured grammar keeps both fusions, the inner Det–Head as in CGEL p. 398 and the outer fused relative. The figure shows ordinary Head inside, and its caption now says so.
+- §4: *a lucky few* signposted ("That's all the comparison needs"; the DP analysis that follows is optional). CGEL's *the both of us* leads, with *the some* marginal.
+- Not done:
+  - local attribution of judgments at the crucial contrasts; the data note covers them, and no checked corpus claim was available to add;
+  - the §6 category-change paragraph, left for the cut.
+- Compiles. texcount 15,720 + about 600 references, so about 1,300 over JL's 15,000.
+
+2026-10-23 — Fusion paper: six references dropped (Brett: "drop the first group and the metonymy footnote").
+- Salzmann 2020 (intro and §2 footnote; Miller and Pullum 2022 stays).
+- Postal 1966 (§2 footnote; pronouns as articles belongs to the taxonomic paper).
+- Grosu 2016 (§7 footnote on transparent free relatives; Grosu 2003 stays).
+- Panagiotidis 2003 (§2's empty-noun list; Kester, Saab, Kayne, and Aarts stay).
+- The §2 metonymy footnote, with Warren 2006 and Nunberg 1995, 83 words. It came in on 21 Oct in answer to the simulated referee's interpretation point, so that point loses one strand. The §2 paragraph on *nylon* and *the dog* still makes the argument.
+- Kept, on Claude's advice: Aarts 2024 (on fused constructions), Kayne 2007 (*several*, *few*, *many*), and Pullum and Rogers 2008 (DAG). The Gisborne paragraph stays, as kept in the 18 Oct trim.
+- Full build (xelatex, biber, xelatex ×2): clean, no undefined references, 24 references.
+- texcount 15,720 → 15,627, plus six fewer reference entries (about 120 words).
+
+2026-10-23 — Fusion paper: corrections after the cut-proposal subagent's report (saved verbatim, with its scripts, in the fusion repo's private reviews/cut-proposal-20261023/).
+- Word count. Claude reported texcount all day ("about 950 over", "about 1,300 over", "about 1,100 over"), against this log's 18 Oct rule that the PDF-text count is the one reported (texcount under-counts by about 1,300). By the PDF text, without running heads and page numbers, the paper is 17,095 words including references: about 2,100 over JL's 15,000, or about 1,750 without about 330 words of tree labels. The earlier figures in today's entries are wrong.
+- fused-relatives.tex:126 still said fused relatives are "the only construction in which this paper keeps" fusion, contradicting verdict C. Sentence deleted (cut C8). It was missed in the stale-wording sweep.
+- conclusion.tex header comment corrected: analyses.tex still cites the taxonomic paper.
+- Cut list pending Brett's approval: tiers 1–3 save about 1,415 (PDF 15,680), Figures 6 and 4 about 200 more, and the optional *a few* analysis (C40) about 490, reaching 14,991. All verified by scratch builds.
+
+2026-10-23 — Fusion paper: GPT Pro's reply to the cut list (pasted by Brett; Claude triaged and verified).
+- Attestations verified on the source pages: *Lucky you. No, really—I mean, lucky both of us actually.* (Dave Hime, "Partitions", The Interior Collective, undated) and *"Poor Ev," … Poor all of us.* (OC Weekly review of *Everett Beekin*, 21 Sep 2000). CGEL p. 376 [14i] makes *all/both (of them)* partitive fused heads, and p. 412 [7a] puts the *of*-phrase inside the nominal with *few* as fused Det–Head, so fusion's adjacency predicts both out. det-head.tex:28 says the bare-use claim extends to partitives unchanged. Open: Brett's judgments on bare forms in the same echoing context, and the verdict for simple determinatives (verdict C rested on the exclamation contrast). Not yet decided.
+- Applied now, independent of the verdict: mod-head.tex:90 no longer holds up *none* as the model of evidence for a second function ("a form that marks the modifier function"), since det-head.tex:38–40 says *none*'s form isn't shown independently to mark the determiner function. The polarity footnote (det-head.tex:71) now opens "Licensing *ever* doesn't show it either", matching its own last sentence; cut C44 no longer applies as measured (the footnote is being kept anyway).
+- Cut application waits on the verdict for the spans it would rewrite (C14 abstract, C2, C4, and the §6 and conclusion compressions), since apply.py needs exact matches.
+
+2026-10-23 — Fusion paper: back to the earlier verdict (Brett: "Let's go back to the earlier verdict"). Decision owner Brett; drafted by Claude.
+- Brett's judgments: the two partitive attestations are good in context (*Lucky you. … lucky both of us actually*; *"Poor Ev," … Poor all of us*). Bare forms in the same context are not (*Lucky you. Lucky both!*, *Poor Ev. Poor all!*: "not so much"; marked * in the paper). *Poor many of us!*, *Lucky few of us!*, *Poor some of us!*, and *Poor all of the children!* need context before he can judge; not used.
+- Verdict: ordinary Head is preferred for both functions, more clearly for the modifier than the determiner function, and not forced. Fusion stays only in fused relatives. This reverses this morning's verdict C. The reason is that the exclamation divides the fused determiner–heads among themselves: the compounds and partitives take the adjective, and simple determinatives standing alone don't. Fusion's adjacency is right for one kind and wrong for two, ordinary Head's exception is right for two and needs a limit for the third, and each needs one further statement. What's left is the ordinary pre-head gap, which fusion derives and ordinary Head states as the grammar states the pronouns' restriction. §6 now calls that saving and ordinary Head's fewer functions both economies of the grammar, not facts of form (GPT Pro's point), so the burden on the second function decides.
+- Rewritten for the verdict: abstract (new, about 195 words, in place of cut C14), intro, §2's conditional, det-head.tex (the pre-head side is now "the only fact … that does", not "the one trace"; "the gap favours it", not "picks it"; partitives added to the exclamation exception), mod-head.tex's exclamation paragraphs (the four attestations, the bare forms starred, the whole-NP option made symmetric, and "favours neither"), Table 1's last row, §6's last three paragraphs, §7's whichever footnote and Figure 6's caption (both back to the earlier verdict's text), and the conclusion.
+- Cuts applied, as the ones Claude and GPT Pro agreed on (Brett: "Make the cuts you and pro agree on"): C1, C2, C4–C7, C9, C11–C13, C16–C33, C35, C39, C39b, C40, C40b, C40c, C46, C51, C52 (C8 earlier).
+  - Not applied: C14 (abstract written fresh for the verdict); C3a/b and C34 (absorbed into the rewrite); C38 (Figure 6 kept, since under this verdict it draws the structure the paper adopts); C41–C45 (kept, as both recommended).
+  - C37 was applied and then restored, because it removed the reflexive aside restored on 19 Oct.
+  - The numerals paper (reynolds2026numerals) is no longer cited. Corpus awareness: **deliberately set aside** here, since the *a few* analysis built on it was cut as unnecessary to the comparison. The taxonomic paper stays cited, and its pairing with ordinary Head now agrees with this paper's verdict again.
+- Build clean (xelatex, biber, xelatex ×2; no undefined references; 27 pages). PDF-text count 15,077 without running heads. This session's counter reads 17 higher than the cut subagent's on the same PDF, so about 15,060 on its measure: about 60–80 over, and under the limit without tree labels. Figure 5 is 40pt too tall for its page (LaTeX warning); not fixed.
+- Later the same day (a side agent's note, accepted): the partitive claim is narrowed to partitive *all* and *both* in det-head.tex, mod-head.tex ("Other partitives are untested"), Table 1, §6, and the conclusion, since only *all of us* and *both of us* are attested and Brett hasn't judged the others. OC Weekly checked again: *"Poor Ev," the father concludes.* and *Poor all of us.* are adjacent paragraphs, so "each just after" holds. EVIDENCE.md has a row for both web attestations. PDF-text count now 15,098 (this session's counter).
+
+2026-10-23 — Fusion paper: two simulated JL referee reports triaged (Muse Wonder Full, major revision; GPT Pro, minor revision; both saved with the triage in the fusion repo's private reviews/jl-referee-simulation-20261023/). Applied, as accuracy fixes verified against the text:
+- §7's opening now says §§3–4 found a fact that "favours", not "shows", a second function. The §7 summary states the case statement as case among the features the head shares with the gap, following Bresnan and Grimshaw.
+- The modifier-use correspondence is now conditional on fusion licensing the fused use through the modifier use.
+- Variety scope: claims about what's excluded are for standard English (data note); the article explanation of the bare *Adj few* cases is marked untested; *the both of us* carries CGEL's % mark.
+- The exclamation summaries keep the residual contrast (pronouns against simple determinatives standing alone), and "favours neither" is now "gives neither a clear advantage".
+- Table 1's genitive row says "No general bar". §2's silent-noun claim is narrowed to a silent *people*.
+- Kim's *Tom will do whatever to satisfy her* is dropped because it has a purpose reading (Kim 2017: 364 kept, checked).
+- PDF-text count 15,154. Open for Brett: length (Dialect A/B, Wu reply, Muse's §4/§5 compression), restoring a sentence on what would count as evidence (cut C4 removed it), a §7 implementation-neutrality sentence, an attraction clause for Table 2, lone *every*, and foregrounding the definite results. Deferred to the submission gate: an anonymized evidence-index route and data availability.
+
+2026-10-23 — Fusion paper, after the referee triage (Brett: "cut Dialect A/B and the Wu reply. put back the one sentence. add One sentence saying the subject and infinitival facts show the relative word has a function inside the clause, but don't choose among fusion, movement, and multidominance. Add 4 … the abstract should once more move towards an NBER style").
+- Cut: the Dialect A/B paragraph (C43), and the reply to Wu in §2's rivals footnote. Wu's reasons (category sharing, number) went with the reply, so the footnote doesn't leave an objection unanswered; it now gives only his position and pages.
+- Restored as one sentence in §2: CGEL itself names a form that would count, the genitive (p. 420). This was cut C4's point, answering the simulated referee's question about what evidence would have counted.
+- Added in §7: the subject and infinitival facts show the relative word has a function inside the clause but don't choose among fusion, movement, and multidominance.
+- Added after Table 2's preposition counts: both counts follow a preposition, so attraction to it is held constant, and the 49% against 14% difference follows the gap.
+- Abstract redrafted in NBER shape (house default): the puzzle first, then the test, the findings including the two arguments of CGEL's that don't separate the analyses (genitive, following modifiers), the verdict, and the consequence last. 209 rendered words.
+- Claude's own §6 and §4 text tightened where it repeated the pronoun-restriction point.
+- PDF-text count 15,036 (this session's counter; about 15,020 on the cut subagent's), still 20–40 over on the strict measure and about 250 under without tree labels. Build clean.
+- Later (a side agent's note): cutting the Wu reply had removed the paper's statement that *the rich* is plural without a plural ending on every analysis, which answers the simulated referee's question about where ordinary Head gets the plural. Restored as three words in mod-head.tex:86 ("on either analysis", CGEL p. 418), where the fact was already stated.
+- Abstract rewritten from scratch in NBER style (Brett: "throw out the abstract and start again, NBER style"). It's plain prose: the puzzle (one word with two functions; CGEL's *some* and *the rich*; Payne et al. 2007), the simpler alternative, the test, the three results, and the implication (keeping a category, heading a phrase, and taking a reading from context aren't evidence of a second function). Examples, starred forms, *once/twice/thrice*, and the genitive are left to the body. 196 rendered words. PDF-text count 15,022 (this session's counter; about 15,005 on the cut subagent's).
