@@ -1709,3 +1709,64 @@ Open for Brett: D1, whether to demote the definiteness account to a possible mot
 
   §3's Det-over-Mod sentence goes back to option (b): the gap favours the determiner–head, with \**Poor many!*, "one fact favouring one analysis over two rivals". This drops the claim that the group fact rules out the modifier–head, which both reviews called an overreach.
 - D2, decided: §1 and the conclusion now say "a second function … which CGEL's grammar states as fusion", matching §7's sentence that the facts don't choose among fusion, movement and multidominance (Brett: "add the D2 clause").
+
+2026-10-23 — Structural paper: two paragraph-level audits of f10c1c9 (Muse, saved privately in the fusion repo at `reviews/paragraph-audit-20261023-f10c1c9/PARAGRAPH-AUDIT.md`; GPT Pro, pasted in chat). Claude applied the clear fixes after checking CGEL pp. 412, 423 n. 43, 433–434, PHP pp. 589–590, and the corpus records. No build, no commit. Quote ledger rerun: 69/69 PASS.
+- **Correction to the entry above on *up to twice*.** PHP's tree (22b) for *more than once* (p. 590) makes *once* the complement of *than*, a bare determinative with no fused function. Their note on *up to twice* (p. 589 n. 31) fuses the whole PP and nothing inside it. The inferred inner fusion ("two fused heads, one inside the other") was wrong and is deleted. §5 now says only that ordinary Head gives each of these phrases a single function.
+- **§1.** "a noun phrase is headed by a determinative" is now "the ultimate head of a noun phrase is". The D2 sentence is split so that the antecedents are clear: "So the evidence favours a second function there, though it doesn't force one. CGEL states that function as fusion, and fused relatives are the one construction where this paper keeps fusion." The conclusion is split the same way and names "the grammar defended here".
+- **§2, conventions.** Two sentences added. A word is said to have a function when the phrase it heads has it. A constituent with two functions has two parents in Det–Head and in fused relatives, not in Mod–Head.
+- **§2, examples and data.**
+  - *nylon*: the antecedent supplies the kind of item and *nylon* the material, not "a shirt in its own meaning".
+  - The *dog*/*felony*/*nylon* sentence spells out the full NPs.
+  - The predeterminer footnote is now non-exhaustive: *all*, *both*, nouns and NPs, and *twice*, pp. 433–434. CGEL's fourth, adjectival, type comes only before *a*, so "before a definite determiner" still excludes it.
+  - The criterion says "a case form such as *whom*".
+  - The data note says who labelled what. The genitive lines were labelled in two runs of the model, the second blind, with the same genitives. Brett checked all the verb-object labels and a sample of 105 from the other searches, and changed five labels in the sample. Sources: the 2026-10-17 genitive record and the 2026-10-18 gaps-and-matrix record.
+- **§3.**
+  - The signpost says "the morphological forms".
+  - The Wu footnote now says that on ordinary Head, *some* isn't a determiner, which is why Wu's principle isn't violated.
+  - The restrictor paragraph now opens "Fusion doesn't determine which words take a restrictor either".
+  - The converted nouns are out of the list of exceptions. They have their own sentence, citing CGEL's *a little something* (p. 423 n. 43). There is a paragraph break before "The derivation needs".
+  - "a genitive can itself be the determiner", not "determiners can themselves be genitive".
+  - The number hypothesis is limited to bare determinatives, since plural *the poor's* and *the two's* take the genitive after a determiner.
+- **§4.**
+  - The PP claim is narrowed to *in the room* (CGEL has *the downstairs toilet*).
+  - Footnote: *work with select few lenses* has a noun after *few*, so it's replaced with the nounless *a privilege enjoyed by select few* (lakebit.com, 2026-10-18 bare-adj-few record).
+  - *We*/*us* are glossed as determinatives in determiner function (CGEL p. 412, *We students will leave first*).
+  - "*second* can head one".
+  - "*the rich's* only on the web in the lines searched".
+  - "On the complex-determinative treatment, *lucky* would occupy a slot inside the DP".
+  - "pronouns in their primary use".
+  - The exclamation paragraph is split, with the count "Five are attested, one of them from 1884". *The Interior Collective* line is undated, so the text doesn't say "four recent".
+  - "both kinds", not "both".
+  - "plural proper nouns in secondary uses can likewise occur bare".
+  - The compounds have their own paragraph. It quotes CGEL's "one or two nouns formed by conversion from compound determinatives" in place of "with an adjective, they're nouns for CGEL", which went beyond the footnote.
+- **§7.**
+  - The constituent levels are spelled out for (4a) and (4b).
+  - "the fused relative is the object of *with*".
+  - The head-analysis case paragraph opens with the condition: "unless case is among the features that agree with the gap".
+  - "subject gap" and "non-subject gap" are now subject and non-subject relativization in the usage paragraph, Table 2's caption and headings, and the footnotes. "Gap" is kept where an analysis's own gap is meant (fusion's "no subject gap", the head analysis's gap).
+  - The main-text comparison is about 52% against 14%, and the raw 49% moved to the footnote. The before-pronoun tokens are "mostly" non-subject relativization.
+  - In the PP paragraph, the *since* clause quoting p. 575 is cut. That quotation is about where relative clauses attach, and PHP's own PP tree has the same attachment under fusion.
+  - The last paragraph: "So a second function is favoured here". The facts "point to a function for the relative phrase inside the clause". Brett's list "fusion, movement, and multidominance" is kept.
+- **§5 and Table 1.** §5 ends "Ordinary Head has the fewer functions throughout, and in the term-of-office use one nominal fewer as well". The last ordinary-Head cell of Table 1 reads "Allowed only after a determiner, by a condition like CGEL's for pronouns".
+- Held for Brett:
+  - *the rich* "has plural agreement with singular morphology" (both audits: adjectives don't inflect for number);
+  - the *real us* sentence (GPT Pro);
+  - CGEL's \**the sociology* against the paper's *the dog* (Muse);
+  - the stub openings and the paragraph-initial "So" (Muse).
+- Later the same session:
+  - §7: *whomever* "is commonest where both functions call for accusative (about 52% and 37%)", not "comes near half only where …" (Muse §7P20). The verb-object cell is also accusative on both sides.
+  - §7, the double-fusion footnote: the outer fusion is one "which this section's first two properties favour, since *whichever* has no case forms to show the third" (Muse §7P9).
+  - Checked, no change needed: *the latter*/*the former* are among CGEL's fused modifier–heads (p. 416, the special-interpretation type), and *the downstairs toilet* is CGEL's (p. 444).
+  - Brett: "never use just 'predeterminer' but always 'predeterminer modifier'". The one bare use (§2, the *double* footnote) is fixed. The taxonomic paper has none.
+  - The build after this batch counted 15,026 words, 26 over the limit. Claude tightened its own new wording (the *we*/*us* gloss, the data note, the converted-noun sentence) by about 35 words. The count isn't rebuilt yet.
+  - Not taken, minor: §1P4 (any-analysis sentence), §2P9 ("no more widely"), Binchy over Anstey, and §7P22's request to expand the PP case (its *since* clause is cut instead).
+
+2026-10-23 — Structural paper: Brett's answers on the items held from the paragraph audits.
+- **1.** "pro is right". §4 now says *the rich* "takes plural agreement without plural inflection on *rich*" (p. 418).
+- **2.** "also pro is right". §4: "The pattern isn't confined to *me*: compare *the real us* and \**Real us never showed up*". This replaces the sentence inferring that singular number isn't the reason.
+- **3.** Brett: "I have no explanation" for CGEL's \**the sociology* beside *the dog*. §2 concedes it in one clause: *dog* and *felony* "work, which leaves \**the sociology* unexplained on either analysis".
+- **4.** Brett confirms that he checked the verb-object labels, not a sample. The data note stands.
+- **5.** "use your judgment". Claude removed four stub openings ("A note on data.", "Some things aren't at issue.", "Much comes out the same.", "Third, case." merged into its sentence). It also fixed "The second is the adjective" and the now-inaccurate "Larger phrases and the other uses". The §6 recap is folded into the table sentence. Two paragraph-initial "So"s are dropped (§4 "The two analyses agree", §7 "The form answers to both functions").
+  - "Nor is definiteness" became "Nor does definiteness separate them", since its "at issue" antecedent was cut.
+  - Kept: "This paper doesn't take those analyses on" (a scope statement), "Compounds raise the question of form again", and the remaining "So"s, which mark results.
+- **Side agent's note, accepted.** The shortened §3 sentence had cited CGEL p. 423 n. 43 for *instant everything*, which CGEL doesn't discuss. It now cites CGEL's own *a little something* and points to §4, where *instant everything* is presented as an extension of that analysis.
