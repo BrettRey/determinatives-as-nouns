@@ -1689,3 +1689,23 @@ Word count after the five refinements: 16,331 by the strict count (+58).
 - §7 footnotes 30 and 31 shortened (Brett: "can ff 30 and/or 31 be shortened without harm?"). Footnote 30 drops the lower-bound sentence (Table 2's caption says it) and the list of the other gap types. Footnote 31 drops the sampling description, which the caption and the evidence index carry. Kept: the query strings, why tokens before *it* are left out, the gap check (all but one *whomever*; 131 of 148 *whoever*; about 52%), the exclusions, and "the 8-of-51 cell is small, so its share is rough", a qualification GPT Pro asked to keep.
 - Table 2 source check (Brett: "check the 8 lines"). The 8 *whomever* tokens in the main-clause-subject cell come from 8 different texts, 3 of them edited fiction. The 9 content-clause tokens come from 9 different texts, 7 of them web or blog. So neither small cell rests on one prolific source. Recorded in the 18 Oct record. Still unchecked, low risk: the gap type in the column before a verb, and the variety (COCA, so American usage).
 - Fusion paper references: the three Davies corpus entries (COCA, NOW, iWeb) now print their URLs (Brett). The URLs were in `howpublished`, which biblatex-apa doesn't print for @misc, so they're now `url` fields in references-local.bib. The rebuilt references read, for example, "Davies, M. (2008–present). The Corpus of Contemporary American English (COCA). https://www.english-corpora.org/coca/".
+
+2026-10-23 — Fusion paper: second-round simulated reports triaged (Muse, R&R narrowed; GPT Pro, minor revision). Both are saved, with TRIAGE.md, in the fusion repo's private reviews/jl-referee-simulation-20261023-revision/. Both converge on §4's definiteness account. Its *few* step isn't shown independently of the determiner. GPT Pro cites *younger me* and *Teenage me* against the pronoun generalization; Claude couldn't fetch those pages, and the pattern needs Brett's judgment. Applied now:
+- the §7 attraction sentence narrowed ("can't by itself explain");
+- the abstract's "ordinarily no adjective comes before a bare determinative";
+- the *vicious few* footnote: "beyond the varieties my judgments cover";
+- §5 racing footnote: pointer to the evidence index;
+- EVIDENCE.md status line updated;
+- stale source comments cleaned.
+Open for Brett: D1, whether to demote the definiteness account to a possible motivation (recommended) or strengthen it; D2, aligning "fusion survives" with §7's implementation-neutral sentence.
+- D1, decided: the definiteness account is demoted to a possible motivation (Brett: "demote it (option a)"). Ordinary Head is again said to state its condition, "of a kind CGEL already states for pronouns" (§1, Table 1, §6, conclusion). §4 keeps the evidence and changes the claims:
+  - *the real us*, *\*Real us* stay, against singular number;
+  - CGEL p. 520 on proper names stays;
+  - "the likeness may come from definiteness";
+  - pronouns: "may need a determiner for a similar reason, though I haven't tested how far that holds";
+  - *few*: a semantic motivation "is possible … but every example of the use already has a determiner, so this would motivate the condition, not derive it";
+  - "nothing that holds for proper nouns or for *the real me* predicts \**Remaining few* …; fusion's adjacency does" is restored;
+  - the compounds (*a new everything*, *instant everything*) stay as the clear case.
+
+  §3's Det-over-Mod sentence goes back to option (b): the gap favours the determiner–head, with \**Poor many!*, "one fact favouring one analysis over two rivals". This drops the claim that the group fact rules out the modifier–head, which both reviews called an overreach.
+- D2, decided: §1 and the conclusion now say "a second function … which CGEL's grammar states as fusion", matching §7's sentence that the facts don't choose among fusion, movement and multidominance (Brett: "add the D2 clause").
