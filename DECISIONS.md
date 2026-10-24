@@ -1621,3 +1621,5 @@ Word count after the five refinements: 16,331 by the strict count (+58).
 - Fusion paper §3 footnote: "none has a personal compound" was true only of the COCA search, which missed *someone*. It now reads "but NOW, searched for *someone*, has *a certain someone special* twice (*Independent Online*, 2013)". EVIDENCE.md row added.
 - Taxonomic paper: this answers, for *someone*, the combined manuscript's untested footnote. The set-denoting use keeps the compound's post-head restrictor. Noted in the record, for when the footnote is allocated; the combined manuscript isn't edited.
 - Matrix: the plural lines are corpus evidence for *someone* on the held secondary-use feature.
+- §4: "and *the rich* is plural with no plural ending on either analysis" is now "and *the rich* has plural agreement with singular morphology" (Brett's wording).
+- The last "by hand" in the paper is gone (mod-head.tex:98 footnote, "COCA, searched by hand for *lucky*, …" now "searched for"). Brett: unclear what it meant. It meant one query per listed adjective rather than a pattern over all adjectives, and the list of adjectives already shows that.
