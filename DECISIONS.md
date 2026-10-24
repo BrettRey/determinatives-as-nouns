@@ -1770,3 +1770,81 @@ Open for Brett: D1, whether to demote the definiteness account to a possible mot
   - "Nor is definiteness" became "Nor does definiteness separate them", since its "at issue" antecedent was cut.
   - Kept: "This paper doesn't take those analyses on" (a scope statement), "Compounds raise the question of form again", and the remaining "So"s, which mark results.
 - **Side agent's note, accepted.** The shortened §3 sentence had cited CGEL p. 423 n. 43 for *instant everything*, which CGEL doesn't discuss. It now cites CGEL's own *a little something* and points to §4, where *instant everything* is presented as an extension of that analysis.
+
+2026-10-23 — Structural paper: the terminological-hygiene and redundancy passes were rerun as reports (fusion repo `notes/passes/2026-10-23-terminological-hygiene.md` and `2026-10-23-redundancy.md`; both recorded in the pass ledger). Brett: "apply the terminology repairs and the redundancy cuts". All 17 repairs (T1–T6) and 9 cuts (R1–R9) are applied, net about −105 words.
+- "Fusion" became "a second function" in the abstract, in §2, and at the end of §7's case paragraph, matching D2.
+- "Relative word" became "relative phrase" in §7's summary and §8.
+- The house rules on "use", "slot" and "fill" are applied in ten places.
+- The abstract's "ordinary head" became "a head with no second function".
+- The restrictor gloss lost "doesn't recur".
+- The cuts are restatements whose points are made elsewhere: §4's re-derivation of adjacency (now a pointer to §3), §7's recap of the genitive results, the last sentence of §5, and two duplicates in §6.
+- Lint clean; quote ledger 69/69. No build, no commit.
+- Brett asked separately about the rhetoric-and-humour pass. It goes in the prose round, after the cutting passes and before lakoffian-metaphor. Its job is finding opportunities for wit, not removing it (Brett: "Humour is looking for opportunities, not expunging it").
+
+2026-10-23 (overnight, Claude, unattended after Brett's "push on as much as you can without me") — Structural paper, a factual correction applied under the overnight rule: change only what a source contradicts.
+- **The source.** PHP's tree (24) on p. 590, *the more than once which would have been permitted*, gives the fused Mod–Head DP a parent in each of two nominals. Checked in the page image. The 17 Oct PHP audit (row 48) had noted it.
+- **What it contradicts.** §2's new convention sentence ("two parents in Det–Head and in fused relatives, but not in Mod–Head") and §4's "Unlike Det–Head, both functions belong to the same nominal".
+- **The change.** §2 now says both functions "usually belong to one nominal (pp. 582, 588)", cites the p. 590 exception, and ends "So two functions don't always mean two parents". §4 says "both functions here belong to the same nominal".
+- **Effect on the verdict.** Ordinary Head's claimed saving is unchanged: on ordinary Head, two-parent constituents occur only in fused relatives.
+- (overnight, continued) Numbers audit by Codex, read-only, on a staged copy of public inputs: 93 numeric claims, 88 match, and all Table 2 cells match. Corrected after Claude checked each against its record:
+  - the §4 footnote's "three nothing" is now "three no determiner (… a web post with only *other* before the adjective)", and a correction is appended to the adj-few record;
+  - *a certain someone special* "twice" now credits both sources (*Independent Online*, 2013; hindustantimes.com, 2025);
+  - "about 65% against 58%" (scaled estimates).
+  Run archived in the fusion repo's `reviews/numbers-audit-codex-20261023/`.
+- (overnight, continued) Source reread, first findings, each checked on the page and corrected:
+  - §5's sequential *once* example is now PHP's own ("once you have finished", p. 593); "once he arrived" was ours, in a sentence citing PHP.
+  - §2: CGEL's classification by function is on p. 410, and by interpretation on pp. 333 and 411. The text had cited p. 333 for both, and p. 333 classifies by "the syntactic category of the head".
+  - §4: *all* and *both* as fused heads in partitives are on CGEL p. 413, not p. 412.
+- (overnight, continued) Source reread finished. Claude read all 206 page-cited claims against their pages. The new tool `tools/claim_ledger.py` in the fusion repo pairs each claim with its page text; the report is `notes/passes/2026-10-23-source-reread.md`. Corrected where the page contradicts the text:
+  - four wrong pages:
+    - CGEL's classification by function is on p. 410;
+    - *all* and *both* in partitives, p. 413;
+    - *main* as attributive-only, p. 529;
+    - the analysis of *whoever* in §1, pp. 1073, 1076;
+  - six CGEL examples restored verbatim in eight places ("myself", "the new system", "as always", "with you" twice, "carefully" three times);
+  - §2's footnote on Wu adds pp. 184–185 for the determinative case;
+  - plus the PHP example and the two-parents fix already logged.
+  Charitable engagement was checked in the same read, with nothing to change. The quotation ledger still passes 69/69, and lint is clean.
+- (overnight, continued) Reader pass. A fresh read-only agent read the built PDF in order and found 32 issues (fusion repo `notes/passes/2026-10-24-reader-pass.md`; raw report private in `reviews/reader-pass-20261024/`). Claude applied 22 fixes that name a referent or correct a cross-reference and change no claim:
+  - "the trade" before §6 introduces it;
+  - "ultimate head" and "adjacency" in §1 before they're defined;
+  - "this analogy", "it", "that one", "Their", and "Five" with unclear referents;
+  - §8's section pointers;
+  - *the few's* missing from the number hedge;
+  - the second small-caps uses of two terms;
+  - Table 1's pointers;
+  - (4c) cited by number;
+  - "Sections 4 and 6 weigh".
+  Proposed for Brett:
+  - R1: "ordinary Head" names both the one-function analysis extended to fused relatives and the paper's grammar, which keeps the outer fusion;
+  - R2: §3's signpost against its one positive fact;
+  - R3: the summaries leave out §4's third question;
+  - R4–R12: smaller.
+- (overnight, correction to the line above) Reader pass: 21 fixes applied, not 22. One fix (§1 "lowest head" for *ultimate head*) was reverted, because it put an undefined synonym beside a defined term. Its forward use is now proposal R13. Three applied fixes go beyond naming a referent and are marked for Brett to keep or revert:
+  - F11, a new summary sentence in §4 ("With the compounds, the line follows category");
+  - F16, *the few's* added to §3's number hedge;
+  - F24, "The gap favours determiner over modifier" replacing "The gap favours it" in Brett's option-(b) sentence.
+  Overnight total: 38 corrections and fixes. Nothing committed.
+- 2026-10-24 — Correction to the overnight record (fusion paper, source reread). The plan Brett saw on 23 Oct said a model from another family would judge every claim–page pair in the claim ledger, with Claude checking its flags. That step didn't run: Claude judged all 206 pairs alone, and Codex checked only the numbers. The overnight index had described the step as "Codex gets the pairs Claude can't settle", which read as though some went; none did. The 12 citation corrections and 195 supported verdicts are one model's reading, by the model that wrote much of the paraphrase. Caught by a side agent on 24 Oct. Index and source-reread report corrected; a blind Codex judgment of the pairs (claim and cited page only, no verdicts) started the same morning, run record in the fusion repo's `reviews/claim-ledger-codex-20261024/` (private). Its flags are candidates, checked against the page images before any edit.
+- 2026-10-24 — Fusion paper, second-model citation check done. Codex (gpt-6.1-sol, read-only) judged all 206 page-cited claims blind, on the current working tree: 195 supported, 11 flagged, none a contradiction, none on the 12 overnight corrections. Claude checked each flag against the page. Six hold, giving five proposals for Brett: P1, CGEL pp. 420–421 argue against ellipsis, not every silent head; P2, p. 423 attached to the restrictor claim, which rests on Brett's judgments; P3, "question marks" for "judgments" (p. 1074); P4, PHP n. 30's "plausibly"; P5, two Glass examples truncated without a mark. Three were rejected against the page (C070, C105, C027), and two that Codex couldn't check were confirmed (Quirk p. 421, von Fintel p. 43). Nothing applied. Record in `notes/passes/2026-10-23-source-reread.md` and the private run dir `reviews/claim-ledger-codex-20261024/`.
+- 2026-10-24 — Fusion paper, four repairs from an outside review Brett pasted without comment. It keeps the revision.
+  - §4: "though fusion's derivation saves the additional condition on determinatives" replaces "saves only that difference" (reader-pass F14).
+  - §7: the head-analysis sentence is split back into two ("Ordinary Head is available here too. *Whomever I see* could be an NP …").
+  - §1 and §8: "*CGEL* represents the two functions as fused" for "states that function as fusion".
+  - §7: "they don't uniquely determine how that relation is represented" for "don't choose among fusion, movement, and multidominance". This replaces Brett's dictated 23 Oct wording; applied because he pasted the review, and flagged for him to revert if he wants the list back.
+  - Build 27 pp., 14,954 words on the inclusive PDF count (JL: 15,000 including references, footnotes, appendices).
+- 2026-10-24 — Fusion paper §7: the CGEL case quotation ("has to satisfy the case requirements of both the relative clause and the matrix clause") now cites pp. 1073–1074, not p. 1073; it crosses the page break. Found from a note in the Codex claim-ledger run. JL's limit confirmed from its author-instructions page: "Maximum 15,000 words, including references, footnotes and any appendices".
+- 2026-10-24 — Fusion paper: Codex proposals P1–P5 applied (Brett: "apply P1 through P5"). Each was rechecked against its page before editing.
+  - P1, §2 footnote: "*CGEL* gives its grounds against ellipsis on pp. 420–421, and PHP note a problem for a null head (p. 580 n. 17)", for "against a silent head". CGEL's pp. 420–421 argue only against ellipsis. Claude took the longer form (+8) over "against ellipsis" alone, because it keeps the footnote's ellipsis/empty-noun split covered on both sides. Still open: §1 and §2 say *CGEL* "argues for" all three commitments, including "no silent head noun".
+  - P2, §3: "and *all*, *much*, and *little*, which share *else* with the compounds (p. 423), take a restrictor (*little new*)". The page reference now sits on the *else* claim; the restrictor claim rests on Brett's judgments (EVIDENCE row 23).
+  - P3, §7: "which is what *CGEL*'s judgments record", for "question marks" (the marks are only on the *whomever* clashes, p. 1074).
+  - P4, §5: "PHP's own note suggests *·ce* is a reanalysed genitive ending", for "takes … to be" (n. 30: "plausibly").
+  - P5, §4: Glass's two examples restored in full (*… the healthy survive to pass on their genes*, p. 10; *The crazy … is easily detected and easily ignored*, p. 7), as CGEL's shortened examples were overnight, rather than marking the cut with a final ellipsis.
+  - Build: 27 pp., no undefined references, 14,968 words (32 under JL's limit). Quotation ledger 69/69.
+- 2026-10-24 — Fusion paper: Brett's decisions on the open proposals, all applied.
+  - Applied: the P1 follow-on ("that *CGEL* and PHP argue for", §1 and §2); R1 as revised (the *whichever* footnote: "The grammar defended here removes the inner fusion"; Table 1: "None (for fused relatives, see Section 7)"; §7's opening left as the review restored it); R2, short form ("The function shows in none of them, though one fact of order, taken up below, favours it"); R3 as revised (§4 summary names the first and third questions; §6 "except that only adjacency predicts \**Remaining few were the hangers-on*"; §8 "largely as the grammar states"); R7 (the Mod–Head closing line moved before "Mod–Head is also where the advantage"); R8 (the data note moved before "The criterion answers"); R9; R11; R12 (181 of 182 and 131 of 148 lines not before *it*, checked against the 18 Oct gaps-and-matrix record); A2; L1; L2; L3; S1; H1 (*He's gone well the last twice*, *Racing Post*, 2026, NOW, from the 18 Oct record, replacing the mgexp.com line); M1 (§7 heading "Fused relatives: evidence for a second function"); §1's "but the criterion can be applied to a second function in any analysis" cut.
+  - Kept: F11, F16, F24; S2; the review's §7 last sentence (over Brett's "fusion, movement, and multidominance"); the *dog* examples (1a)–(1b).
+  - Not taken: R4, R6, R10, A1, H2, H4. R13 left as is.
+  - Build: 27 pp., no undefined references, 14,996 words on the inclusive PDF count, 4 under JL's 15,000.
+  - Brett: "Ask Codex for humour opportunities; it's funnier than claude; ask Muse too to see how funny it is." Both run on one brief (fusion repo `reviews/humour-20261024-082706/`, private), told the paper is 4 words under the limit.
+- 2026-10-24 — Fusion paper, humour from the Codex and Muse run (Brett: "I'll take the 4 and the some pun"). Applied: §5 "attested for *twice*, not *once*" (Muse); §2 "the modifier function supplies no shirts" (Codex, also found by Muse); §8 "keeps fusion where form earns it, in fused relatives, not wherever a noun phrase lacks a noun" (Muse); §6 "fusion has a good argument" for "a good case" (Muse's note, Claude's wording); §4 "so PHP's "never" has *some* exceptions" (Muse, with "fused" restored). Not taken: the *fewer* pun (one §4 pun only), Codex's "stays put", Muse's "echo" and "tolerant spouse". Build 27 pp., no undefined references, 14,991 words (9 under). Run record: fusion repo `reviews/humour-20261024-082706/` (private).

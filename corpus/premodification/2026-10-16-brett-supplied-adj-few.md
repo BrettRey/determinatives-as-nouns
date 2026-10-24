@@ -76,3 +76,5 @@ Brett ran `these/those/my some who` (his description: "only a single hit"). The 
 - *CGEL* already has adjectives inside *a few* (*a good few*, *a fair few*), but as a short list. A fusion account has to open that slot to phrasal adjectives.
 - Ordinary Head has to let peripheral *a*, itself licensed with *few* (and *little*, *many* in *a great many*), license the adjective.
 - Either way the statement is specific to *few*.
+
+**Correction, 23 October 2026 (overnight numbers audit, Codex; checked by Claude).** The "nothing" row and the list under it count three lines, but the third (l. 103, *other less fortunate few …*) has *other* before the adjective, as the list says, so the label is OTHER, not nothing. What all three lack is a determiner. The fusion paper's footnote now says "three no determiner (a headline, a fragment, and a web post with only *other* before the adjective)". The counts are unchanged.
