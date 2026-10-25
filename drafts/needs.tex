@@ -1,0 +1,21 @@
+% Evidence-need markers for drafting the category paper (24 Oct 2026).
+%
+% While drafting, mark any claim that rests on data we don't yet have:
+%   \needs[id]{what would show it}
+% The id is optional but lets the ledger track the item across drafts
+% (e.g. \needs[partitive-lot]{COCA counts of "a lot of N" with plural agreement}).
+% In draft builds the marker prints in red; with \needsfinaltrue (set in the
+% submission build) any remaining marker stops the build.
+% Harvest them with:  python3 tools/evidence_needs.py
+% which merges them into planning/evidence-ledger.md.
+
+\newif\ifneedsfinal
+\needsfinalfalse
+\newcounter{needs}
+\newcommand{\needs}[2][]{%
+  \stepcounter{needs}%
+  \ifneedsfinal
+    \PackageError{needs}{Open evidence need \if\relax\detokenize{#1}\relax\else[#1] \fi#2}{Resolve the need or remove the marker before submission}%
+  \else
+    {\color{red}\textsf{\small[NEEDS\if\relax\detokenize{#1}\relax\else\ #1\fi: #2]}}%
+  \fi}

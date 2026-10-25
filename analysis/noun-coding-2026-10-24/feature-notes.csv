@@ -1,0 +1,125 @@
+feature,part,note
+genitive_case,new rows,Form-level: the plain form isn't genitive (dog's is a different form).
+accusative_case,new rows,Form-level.
+nominative_case,new rows,Form-level.
+in_word_formation_e_g_a_many_sided_shape,new rows,"Element of a compound or derived word (number-crunching, dog-eared, Toronto-based, tall-masted)."
+has_derivationtionally_related_words,new rows,"numerous/number, plentiful, majoritarian, Torontonian, richness, tallness."
+has_corresponding_word,new rows,"Sense inferred from the coded forms (little/less, no, that, we): a homonym in another category. number (verb), plenty (adverb: plenty big), dog and water (verbs), tall (adverb: walk tall)."
+compound_word,new rows,None of the twelve lexemes is a compound; each category has compounds.
+inflects_for_case,new rows,Genitive inflection (CGEL ch. 5 §1 [3]). rich and ADJ marginal: the poor's is attested in edited prose (corpus/genitive/2026-10-16-brett-supplied-anaphoric-fused-genitives.md).
+paradigm_has_distinct_acc_form,new rows,
+paradigm_has_genitive_form,new rows,CGEL ch. 5 §1 [3] gives dog's as a form of dog. CHECK: the matrix codes the compounds n here though inflects_for_case is y for them; nouns and compounds should be coded alike.
+paradigm_has_distinct_independent_genitive_form,new rows,
+paradigm_has_distinct_self_form,new rows,
+paradigm_has_comparative_and_superlative_forms,new rows,Inflectional only; numerous has analytic forms (added column has_analytic_comparative).
+paradigm_has_distinct_plural_form,new rows,lot: CGEL lists lots separately ([57ii]); PN: plural only in restricted uses (CGEL p. 521) and plural-only names; Kim n in the primary use.
+does_not_inflect,new rows,
+Monmorphemic,new rows,
+Must_be_stressed_as_object_after_particle,new rows,"Nouns follow a particle unstressed: pick up the dog, pick up Kim."
+Start_with_th,new rows,
+Start_with_hw,new rows,
+anaphoric_marker,new rows,Can be used with its restriction understood from context: A lot were arrested (CGEL p. 349 [56]); there's plenty in the fridge; numerous were injured; adjectives as anaphoric fused heads (CGEL p. 417).
+deictic_marker,new rows,
+person_deixis,new rows,
+pro_form,new rows,CN: pronominal one is a common noun (CGEL p. 429) and a pro-form.
+personal_gender_as_head_or_fused_head,new rows,"FOR BRETT: coded on CGEL's terms (the head selects who/he/she: the doctor who, Kim... she). On Reynolds (2025), descriptions and names shape referent construal while pronouns and determinatives carry the contrast lexically; on that view nouns would be n here, and this feature becomes a candidate property of pronouns and determinatives alone."
+non_personal_gender,new rows,Same caveat as personal gender.
+epicene_personal_gender,new rows,Same caveat.
+masculine_gender,new rows,"man, John. Same caveat."
+feminine_gender,new rows,"woman, Mary. Same caveat."
+definite,new rows,Proper names in their primary use are definite; common nouns get definiteness from a determiner.
+indefinite,new rows,plenty heads indefinite NPs with no determiner.
+existential,new rows,"Sense inferred from the coded forms (n only for wh-forms, generic one, dummy there, zero): can carry existential import. Low confidence."
+universal,new rows,
+free_choice,new rows,
+negative,new rows,
+interrogative,new rows,
+non_affirmative,new rows,CN: idioms such as a red cent.
+reflexive,new rows,
+reciprocal,new rows,
+dual,new rows,"CN: couple, pair."
+paucal,new rows,"CN: couple, handful."
+multal,new rows,
+proportional,new rows,"Not coded: the coded forms (y for a, that, these, some, cardinals; n for all, each, the) don't show the sense."
+semantically_countable,new rows,
+semantically_uncountable,new rows,"tall and ADJ blank here and in the three columns below: number and countability are about what a noun phrase denotes, so for adjectives they depend on the noun."
+semantically_singular,new rows,number permits only plural obliques (CGEL p. 350); the rich is plural.
+semantically_plural,new rows,
+distributive,new rows,Not coded: the sense isn't recoverable from the coded forms (his and mine are y).
+joint,new rows,"Not coded, as distributive."
+cardinal,new rows,FOR BRETT: dozen as a numeral-like noun.
+disjunctive,new rows,
+degree,new rows,Gradable meaning; in the matrix only the four gradable determinatives.
+sufficiency,new rows,ADJ: adequate.
+temporal,new rows,"CN: day, hour. PN: days of the week, if proper nouns."
+locative,new rows,"Sense from anywhere, somewhere: locative meaning. Low confidence."
+dummy,new rows,
+can_be_followed_by_adjective_such,new rows,"some such, no such: not with nouns."
+can_be_modified_by_almost,new rows,"Coded at NP level, as the matrix does for pronouns (almost his entire life): almost a dozen, almost a majority."
+can_be_modified_by_approximately,new rows,approximately a dozen.
+can_be_modified_by_at_least,new rows,"NP level: at least a dog, at least Kim."
+can_be_modified_by_hardly,new rows,"hardly a dozen, hardly a majority."
+can_be_modified_by_not,new rows,not a lot; not numerous.
+can_be_modified_by_adverb_very,new rows,
+Coordinates_with_independent_genitives,new rows,FOR BRETT: the sense (this and mine) is unclear for nouns; coded via the NP (the dog and mine).
+Coordinates_with_dependent_genitives,new rows,Plain forms.
+Coordinates_with_NPs,new rows,rich via its fused-head NP (the rich and the poor).
+intensifying_reduplication,new rows,"lots and lots, dozens and dozens, miles and miles; ADJ through comparatives (taller and taller)."
+selects_singular_heads,new rows,Determiner selection; nouns aren't determiners.
+selects_count_singular_heads,new rows,
+selects_non_count_heads,new rows,
+selects_plural_heads,new rows,"FOR BRETT: a dozen eggs, if dozen is numeral-like there."
+compatible_count_sing_NP,new rows,"FOR BRETT: for nouns coded through the of-complement (a lot of the cake), not as a determiner; ADJ through superlatives (the best of the cake)."
+compatible_count_plur_NP,new rows,As above.
+compatible_non_count_NP,new rows,As above.
+Forms_universal_pronouns_before_all,new rows,
+functions_as_a_predeterminer_modifier,new rows,"CN: half (CGEL p. 434). ADJ: double the cost, CGEL's category for double unchecked."
+functions_as_prehead_modifier_in_nominal,new rows,"dog houses, water bottle, majority rule, the dozen roses, the Clinton years, Toronto streets; the quantificational senses don't modify. CHECK: the difference between this column and functions_as_attrib_modifier_in_nominal isn't recoverable; coded alike."
+functions_as_degree_modifier_in_AdjP,new rows,a lot bigger; plenty big enough (CGEL p. 550); three inches long (CGEL p. 327 [6iv]).
+functions_as_predicative_complement,new rows,Three eggs is plenty (CGEL p. 349).
+functions_as_predicative_complement_to_seem,new rows,seems a lot to ask; seemed a nice dog.
+functions_as_marker_of_coordination,new rows,
+functions_as_fused_determiner_head,new rows,CGEL's analysis label; not a property of form.
+functions_as_head_of_partitive_construction,new rows,a lot of the delegates (CGEL p. 349 [54i]); a number of the protesters (p. 350); ADJ: the most important of her criticisms (pp. 332-333).
+functions_as_adjunct_in_clause_structure,new rows,I travel a lot; the day before yesterday (CGEL p. 327 [6iii]); ADJ as predicative adjunct.
+functions_as_attrib_modifier_in_nominal,new rows,Coded as functions_as_prehead_modifier_in_nominal.
+appears_in_subject,new rows,
+appears_in_object,new rows,
+functions_as_post_head_modifier_of_it_or_them,new rows,
+functions_as_post_head_modifier_of_N,new rows,"my friend Kim; the opera 'Carmen' (CGEL p. 327 [6vii]); someone rich, someone tall (postpositive, CGEL p. 527)."
+appears_in_existentials_there_s_on_the_table,new rows,In the displaced subject of an existential; names and pronouns are excluded on the ordinary reading.
+functions_as_determiner_in_day_s_time_ago,new rows,
+functions_as_subject_of_present_participal_of_joining_you,new rows,Kim joining us; the rich getting richer.
+Functions_as_subject_of_interrogative_tag,new rows,Tag subjects are pronouns.
+functions_as_subject_determiner,new rows,Plain forms.
+functions_in_vocative,new rows,"Waiter!; Kim, ...; Hey, gorgeous!"
+May_coordinate_with_non_fused_determiners,new rows,
+must_be_outranked_by_a_coindexed_element,new rows,
+takes_predeterminer_modifiers_all_or_both,new rows,all Toronto turned out. FOR BRETT: CGEL's analysis of all here unchecked.
+occurs_after_predeterminer_modifiers_fractions,new rows,"half dozen; half water, half milk; half Toronto."
+occurs_after_predeterminer_modifiers_multipliers,new rows,
+ironic_use_of_repetition,new rows,
+take_poor_lucky_silly_as_attrib_modifiers,new rows,Poor dog!; poor Kim (CGEL p. 520).
+takes_adverb_quite_as_a_modifier,new rows,quite a lot; quite a number of; quite a dog; quite tall.
+takes_else_or_more_as_a_post_head_dependent,new rows,"a lot more, plenty more, a dozen more: the more half of this conflated feature."
+accepts_genitive_apstrophe_s,new rows,As inflects_for_case.
+takes_post_head_modifier_the_hell,new rows,
+heads_nominal_after_separate_determiner,new rows,"a lot, a number (CGEL p. 350: obligatory determiner); plenty takes none (p. 350); names in the primary use take none, except names that include the (the Hague); the rich; the tall only in contrasts (CGEL p. 417)."
+takes_prehead_AdjP_modifier,new rows,"a whole/huge lot (CGEL p. 350); huge numbers (p. 350 [58]); plenty takes none (p. 350); the vast majority; the idle rich. Names n: in the primary use they take only non-restrictive adjectives (young Isaac Newton, CGEL pp. 520-521), a wider range than the pronouns' lucky/poor/silly, which the separate column records."
+takes_prehead_AdjP_modifier,existing forms,the lucky few (corpus/premodification/2026-10-16-brett-supplied-adj-few.md); a lucky few; the remaining three; pronouns 'do not normally allow internal pre-head dependents' (CGEL p. 430).
+takes_relative_clause_modifier,new rows,there's a lot that I don't understand; the rich who live here; names take integrated relatives only in secondary uses.
+takes_relative_clause_modifier,existing forms,"few who come ever leave, those who came, that which remains, something that you need to know (combined manuscript §2.4); I/We who have read the report, He who controls, you who worked (CGEL p. 430: personal pronouns with human denotation)."
+takes_nonpartitive_complement,new rows,a lot of people (CGEL p. 349 [54ii]); dozens of errors (p. 349 [53iii]); plenty of butter (p. 350); rich in minerals.
+takes_nonpartitive_complement,existing forms,than-phrases (more than ten); enough/sufficient with an infinitival (enough to go round).
+NP_functions_as_complement_in_PP,new rows,for the rich.
+NP_functions_as_complement_in_PP,existing forms,Dependent-only forms and nominative pronouns n; whose_int y (whose is that?).
+NP_functions_as_modifier_in_AdvP,new rows,a lot later; a whole day late.
+NP_functions_as_modifier_in_AdvP,existing forms,"much later, any sooner, no later, quickly enough, that quickly, the sooner."
+NP_functions_as_modifier_in_PP,new rows,a mile under the sea.
+NP_functions_as_modifier_in_PP,existing forms,much before noon; all over the floor; somewhat before.
+takes_post_head_AdjP,new rows,a dog bigger than mine; water fit to drink.
+takes_post_head_AdjP,existing forms,"someone nice; all present; those present; Brett (19 Oct): all, much, and little take plain restrictors, few, some, and none take only comparatives (corpus/exclusion_tests/2026-10-19-brett-supplied-none-comparative.md)."
+has_analytic_comparative,new rows,
+has_analytic_comparative,existing forms,
+takes_ly_adverb_modifier,new rows,"remarkably numerous; nouns take adjectives, not adverbs."
+takes_ly_adverb_modifier,existing forms,"remarkably few, surprisingly many, relatively little, considerably more."

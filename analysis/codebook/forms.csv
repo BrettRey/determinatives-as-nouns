@@ -1,0 +1,158 @@
+form,blind_label,category,source
+a,a / an,determinative,matrix-2026-10
+a_certain,"a certain, as in a certain person",determinative,matrix-2026-10
+a_few,a few,determinative,matrix-2026-10
+a_great_many,a great many,determinative,matrix-2026-10
+a_little,"a little, as in a little water",determinative,matrix-2026-10
+all,all,determinative,matrix-2026-10
+another,another,determinative,matrix-2026-10
+any,any,determinative,matrix-2026-10
+anybody,anybody,determinative,matrix-2026-10
+anyone,anyone,determinative,matrix-2026-10
+anything,anything,determinative,matrix-2026-10
+anywhere,anywhere,determinative,matrix-2026-10
+both,both,determinative,matrix-2026-10
+certain,"certain, as in certain people",determinative,matrix-2026-10
+each,each,determinative,matrix-2026-10
+either,either,determinative,matrix-2026-10
+enough,enough,determinative,matrix-2026-10
+every,every,determinative,matrix-2026-10
+everybody,everybody,determinative,matrix-2026-10
+everyone,everyone,determinative,matrix-2026-10
+everything,everything,determinative,matrix-2026-10
+everywhere,everywhere,determinative,matrix-2026-10
+few,"few, as in Few people came (not a few)",determinative,matrix-2026-10
+fewer,fewer,determinative,matrix-2026-10
+fewest,fewest,determinative,matrix-2026-10
+little,"little, as in little time (not a little)",determinative,matrix-2026-10
+less,less,determinative,matrix-2026-10
+least,least,determinative,matrix-2026-10
+many,many,determinative,matrix-2026-10
+many_a,"many a, as in many a day",determinative,matrix-2026-10
+more,more,determinative,matrix-2026-10
+most,most,determinative,matrix-2026-10
+much,much,determinative,matrix-2026-10
+neither,neither,determinative,matrix-2026-10
+last,"last, as in last week",determinative,matrix-2026-10
+next,"next, as in next week",determinative,matrix-2026-10
+no,no,determinative,matrix-2026-10
+none,none,determinative,matrix-2026-10
+nobody,nobody,determinative,matrix-2026-10
+no_one,no one,determinative,matrix-2026-10
+nothing,nothing,determinative,matrix-2026-10
+nowhere,nowhere,determinative,matrix-2026-10
+one_det,"one, the numeral, as in one book",determinative,matrix-2026-10
+two_det,two,determinative,matrix-2026-10
+three_det,three,determinative,matrix-2026-10
+once,"once, as in once a day",determinative,matrix-2026-10
+twice,twice,determinative,matrix-2026-10
+thrice,thrice,determinative,matrix-2026-10
+several,several,determinative,matrix-2026-10
+some,some,determinative,matrix-2026-10
+somebody,somebody,determinative,matrix-2026-10
+someone,someone,determinative,matrix-2026-10
+something,something,determinative,matrix-2026-10
+somewhere,somewhere,determinative,matrix-2026-10
+somewhat,somewhat,determinative,matrix-2026-10
+such,"such, as in such a day",determinative,matrix-2026-10
+sufficient,sufficient,determinative,matrix-2026-10
+that,that,determinative,matrix-2026-10
+these,these,determinative,matrix-2026-10
+this,this,determinative,matrix-2026-10
+those,those,determinative,matrix-2026-10
+the,the,determinative,matrix-2026-10
+us_det,"us, as in us linguists",determinative,matrix-2026-10
+we_det,"we, as in we linguists",determinative,matrix-2026-10
+you_det,"you, as in you linguists",determinative,matrix-2026-10
+what_det,"what, as in What book? / what money we had",determinative,matrix-2026-10
+whatever_det,"whatever, as in whatever book you like",determinative,matrix-2026-10
+which_rel_det,"which, relative, as in during which time",determinative,matrix-2026-10
+which_int_det,"which, interrogative, as in Which book? / Which do you want?",determinative,matrix-2026-10
+whichever_rel_det,"whichever, as in whichever book you choose",determinative,matrix-2026-10
+whichever_int_det,"whichever, as in Whichever do you mean? (interrogative)",determinative,matrix-2026-10
+zero_det,"zero, the numeral",determinative,matrix-2026-10
+various_det,various,determinative,matrix-2026-10
+each_other,each other,pronoun,matrix-2026-10
+one_another,one another,pronoun,matrix-2026-10
+he,he,pronoun,matrix-2026-10
+him,him,pronoun,matrix-2026-10
+himself,himself,pronoun,matrix-2026-10
+his,his,pronoun,matrix-2026-10
+she,she,pronoun,matrix-2026-10
+her_acc,"her, as in I saw her",pronoun,matrix-2026-10
+her_dep,"her, as in her book",pronoun,matrix-2026-10
+hers,hers,pronoun,matrix-2026-10
+herself,herself,pronoun,matrix-2026-10
+it_plain,"it, referring, as in It broke",pronoun,matrix-2026-10
+it_dum,"it, as in It's raining",pronoun,matrix-2026-10
+its,its,pronoun,matrix-2026-10
+itself,itself,pronoun,matrix-2026-10
+I,I,pronoun,matrix-2026-10
+me,me,pronoun,matrix-2026-10
+mine,mine,pronoun,matrix-2026-10
+my,my,pronoun,matrix-2026-10
+myself,myself,pronoun,matrix-2026-10
+one_pron,"one, generic, as in One shouldn't judge",pronoun,matrix-2026-10
+one_s,one's,pronoun,matrix-2026-10
+oneself,oneself,pronoun,matrix-2026-10
+their_sing,"their, of one person",pronoun,matrix-2026-10
+theirs_sing,"theirs, of one person",pronoun,matrix-2026-10
+their_plur,"their, of several",pronoun,matrix-2026-10
+theirs_plur,"theirs, of several",pronoun,matrix-2026-10
+them_sing,"them, of one person",pronoun,matrix-2026-10
+them_plur,"them, of several",pronoun,matrix-2026-10
+themself,themself,pronoun,matrix-2026-10
+themselves,themselves,pronoun,matrix-2026-10
+they_sing,"they, of one person",pronoun,matrix-2026-10
+they_plur,"they, of several",pronoun,matrix-2026-10
+we_pron,"we, as in We left",pronoun,matrix-2026-10
+us_pron,"us, as in They saw us",pronoun,matrix-2026-10
+our,our,pronoun,matrix-2026-10
+ours,ours,pronoun,matrix-2026-10
+ourselves,ourselves,pronoun,matrix-2026-10
+what_pron,"what, as in What happened?",pronoun,matrix-2026-10
+whatever_pron,"whatever, as in Whatever happened, happened",pronoun,matrix-2026-10
+which_rel_pron,"which, as in the book which I read",pronoun,matrix-2026-10
+who_int,"who, as in Who came?",pronoun,matrix-2026-10
+who_rel,"who, as in the person who came",pronoun,matrix-2026-10
+whom_int,"whom, as in Whom did you see?",pronoun,matrix-2026-10
+whom_rel,"whom, as in the person whom I saw",pronoun,matrix-2026-10
+whose_int,"whose, as in Whose is this?",pronoun,matrix-2026-10
+whose_rel,"whose, as in the person whose book I took",pronoun,matrix-2026-10
+whoever,whoever,pronoun,matrix-2026-10
+whomever,whomever,pronoun,matrix-2026-10
+whoever_s,whoever's,pronoun,matrix-2026-10
+whosever,whosever,pronoun,matrix-2026-10
+whosoever,whosoever,pronoun,matrix-2026-10
+whosoever_s,whosoever's,pronoun,matrix-2026-10
+you_pron_sing,"you, of one person",pronoun,matrix-2026-10
+you_pron_plur,"you, of several",pronoun,matrix-2026-10
+your_sing,"your, of one person",pronoun,matrix-2026-10
+yours_sing,"yours, of one person",pronoun,matrix-2026-10
+your_plur,"your, of several",pronoun,matrix-2026-10
+yours_plur,"yours, of several",pronoun,matrix-2026-10
+yourself,yourself,pronoun,matrix-2026-10
+yourselves,yourselves,pronoun,matrix-2026-10
+today,today,pronoun,matrix-2026-10
+tomorrow,tomorrow,pronoun,matrix-2026-10
+tonight,tonight,pronoun,matrix-2026-10
+yesterday,yesterday,pronoun,matrix-2026-10
+there,"there, as in There's a problem",pronoun,matrix-2026-10
+lot,"lot, as in a lot of people, A lot was spent",common noun,reference set 2026-10-24
+number,"number, as in a number of problems",common noun,reference set 2026-10-24
+numbers,"numbers, as in huge numbers of ants",common noun,reference set 2026-10-24
+plenty,"plenty, as in plenty of time, There's plenty",common noun,reference set 2026-10-24
+dozen,"dozen, as in a dozen eggs",common noun,reference set 2026-10-24
+dozens,"dozens, as in dozens of errors",common noun,reference set 2026-10-24
+majority,"majority, as in the majority of voters",common noun,reference set 2026-10-24
+dog,dog,common noun,reference set 2026-10-24
+dogs,dogs,common noun,reference set 2026-10-24
+water,water,common noun,reference set 2026-10-24
+Kim,"Kim, a personal name",proper noun,reference set 2026-10-24
+Toronto,"Toronto, a place name",proper noun,reference set 2026-10-24
+numerous,numerous,adjective,reference set 2026-10-24
+multiple,"multiple, as in multiple problems",adjective,reference set 2026-10-24
+countless,countless,adjective,reference set 2026-10-24
+rich,rich,adjective,reference set 2026-10-24
+poor,poor,adjective,reference set 2026-10-24
+tall,tall,adjective,reference set 2026-10-24

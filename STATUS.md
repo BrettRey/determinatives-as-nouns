@@ -5,15 +5,15 @@ title: Determinatives as nouns in English
 stage: draft
 external: rejected
 blocked_on: []
-updated: 2026-10-15
+updated: 2026-10-24
 source:
 - STATUS.md
 - PORTFOLIO.md
-venue: none
+venue: English Language and Linguistics (approved 2026-10-24 as an entirely new submission; not submitted)
 external_id: ELL-2026-0119
 preprints:
 - lingbuzz/009939
-next_action: 'Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: full draft done 15 Oct (fusion repo 86e79bf: repairs, once/twice/thrice, silent nouns, introduction, EVIDENCE.md); 16 Oct: the four library items read (fusion repo notes/2026-10-16-ellipsis-readings.md) and the possessive concession to silent nouns withdrawn on COCA evidence (fusion repo cba9ede; corpus/genitive/); paper reframed on economy and unification after a four-model question on the second mother (fusion repo abe85a7; reviews/muse-wonder-second-mother-20261016/; corpus/premodification/); next Brett reads the draft, then the passes he picks, the venue record and JL compliance; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; candidate lead logged 16 Oct in DECISIONS, pre-head adjectives across determiner-less noun subcategories; venue after the structural paper is out); (3) housekeeping: payload check and push done 16 Oct (this repo pushed minus the 2026-10-15 venue files, which are gitignored and local; fusion repo public at github.com/BrettRey/fusion-of-functions-revisited with reviews/ stripped from history and kept local); still to do: /push-bib at polish.'
+next_action: 'Now (24 Oct evening), the feature matrix: Brett answers the eight column questions in reviews/external-nm-pass-20261024/NM-FOR-BRETT.md (n-to-m pass); then one blind wave for the redesigned columns (codebook section 5), takes plural -(e)s, and the noun sample (frame drawn in analysis/noun-sample/; size by fake-data simulation), then Brett''s audit of accepted cells (codebook fork 7). Earlier: category paper rebuild for ELL (approved 24 Oct; plan in planning/drafting-plan.md, terms in planning/terms.md, venue record submission/venue-decision-2026-10-24-taxonomic.md). Steps 1–2 done 24 Oct (term sheet, budget of 9,000 words on tools/pdfwords.py, neighbouring papers adjudicated in DECISIONS). Step 3 done 24 Oct: evidence ledger seeded (planning/evidence-ledger.md, 27 rows: the noun coding drafted 24 Oct in analysis/noun-coding-2026-10-24/, then put on hold the same day pending a codebook (frames, may-polarity, y/m/n, forms) and the external logic review; a matched NOW rate of bare few/many against numerous/multiple/countless, for Brett; the pre-head adjective condition). Desk count done 24 Oct (analysis/node-reach-2026-10-24/): pronoun-like properties confined to four small subgroups of determinatives, so multiple inheritance is a third structure to weigh; methods from other fields in notes/nesting-tests-2026-10-24.md. Van Eynde's column now states the split as an English hypothesis (Brett: data from one language say little about another's lexemes). Next: step 4, the structure review (Muse plus an outsider reader), given the ledger. Open problem carried from 16 Oct (an observation the separate-category rival fails to predict): it now rests on the secondary-use rows, where CGEL's conversions are contradicted (reflexives keep the pronoun's person; compounds keep else); the pre-head adjective lead has been unsettled since 18 Oct. Fusion paper: posted lingbuzz/010465 on 24 Oct, JL after informal feedback. Earlier record, kept: Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: full draft done 15 Oct (fusion repo 86e79bf: repairs, once/twice/thrice, silent nouns, introduction, EVIDENCE.md); 16 Oct: the four library items read (fusion repo notes/2026-10-16-ellipsis-readings.md) and the possessive concession to silent nouns withdrawn on COCA evidence (fusion repo cba9ede; corpus/genitive/); paper reframed on economy and unification after a four-model question on the second mother (fusion repo abe85a7; reviews/muse-wonder-second-mother-20261016/; corpus/premodification/); next Brett reads the draft, then the passes he picks, the venue record and JL compliance; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; candidate lead logged 16 Oct in DECISIONS, pre-head adjectives across determiner-less noun subcategories; venue after the structural paper is out); (3) housekeeping: payload check and push done 16 Oct (this repo pushed minus the 2026-10-15 venue files, which are gitignored and local; fusion repo public at github.com/BrettRey/fusion-of-functions-revisited with reviews/ stripped from history and kept local); still to do: /push-bib at polish.'
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
@@ -21,16 +21,19 @@ claim:
   argues: >-
     Argues for determinative as a fourth coordinate subcategory of Noun,
     on the basis of their combined semantic, syntactic and morphological profiles, with inherited
-    nominal projection as a structural consequence. The rebuilt
-    working paper targets Journal of Linguistics readers; no submission is authorized.
+    nominal projection as a structural consequence. Since 24 Oct the claim
+    is stated against Hudson (determinatives nested inside pronoun) and Van Eynde
+    2003 (determinatives split between adjective and noun): every English
+    determinative is nominal, coordinate with pronoun. Rebuilt for ELL readers
+    as an entirely new paper; not submitted.
   provenance: drafted-from-map
-  claim_updated: 2026-09-10
+  claim_updated: 2026-10-24
 ---
 
 # STATUS
-<!-- SUMMARY: splitting into two papers (15 Oct): structural "Fusion of functions revisited" (papers/drafting/fusion-of-functions-revisited, to JL first) and taxonomic "Determinatives as nouns in English" (determinatives-as-nouns-taxonomic.tex); abstracts and conclusions drafted; Codex's two new arguments tested and dropped (test 3 a footnote, test 2 can't discriminate); now: allocation map, then the structural body · status: drafting · updated: 2026-10-15 -->
+<!-- SUMMARY: the category half of the 15 Oct split ("Determinatives as nouns in English"), now being rebuilt as an entirely new paper for English Language and Linguistics (venue approved 24 Oct); structural half posted as lingbuzz/010465 and bound for JL; evidence ledger seeded 24 Oct; next: the structure review · status: drafting · updated: 2026-10-24 -->
 
-**Last updated:** 2026-10-15
+**Last updated:** 2026-10-24 (venue approved, rebuild plan set; the state notes below are from 15 Oct)
 **State:** **Rebuild authorized after venue consideration.** Rejected by *English Language and Linguistics* (ELL-2026-0119) on 2026-09-07 after two reviews. Not under review anywhere. Preprint live at LingBuzz [009939](https://lingbuzz.net/lingbuzz/009939).
 
 ## 2026-10-15 Split; new arguments tested; priorities set

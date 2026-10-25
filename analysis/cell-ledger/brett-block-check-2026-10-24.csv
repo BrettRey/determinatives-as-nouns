@@ -1,0 +1,79 @@
+form,column,frame,value,status,evidence_type,note,proposer,judged_by,date
+I,appears_in_object,object of a main clause,m,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (coordinated object, widespread; widespread nonstandard); Brett: ""m""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+everywhere,appears_in_object,object of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+it_plain,appears_in_object,object of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+nowhere,appears_in_object,object of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+somewhere,appears_in_object,object of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+they_plur,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown m; Brett: ""n""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+we_det,appears_in_object,object of a main clause,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+we_pron,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown m; Brett: ""n""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+which_rel_pron,appears_in_object,object of an embedded tensed clause,y,accepted,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""Too embedded to count""; frame from the example; value not yet seen by Brett","Brett, BLOCK-CELLS.md",,2026-10-24
+which_rel_pron,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""Too embedded to count""; Brett: same call for all four relatives (too embedded)","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+who_rel,appears_in_object,object of an embedded tensed clause,y,accepted,Brett judgment (block check),BLOCK-CELLS.md; shown y (informal); Brett left it; frame from the example; value not yet seen by Brett,"Brett, BLOCK-CELLS.md",,2026-10-24
+who_rel,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (informal); Brett left it; Brett: same call for all four relatives (too embedded),"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whom_rel,appears_in_object,object of an embedded tensed clause,y,accepted,Brett judgment (block check),BLOCK-CELLS.md; shown y (formal); Brett left it; frame from the example; value not yet seen by Brett,"Brett, BLOCK-CELLS.md",,2026-10-24
+whom_rel,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (formal); Brett left it; Brett: same call for all four relatives (too embedded),"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whose_rel,appears_in_object,object of an embedded tensed clause,y,accepted,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it; frame from the example; value not yet seen by Brett,"Brett, BLOCK-CELLS.md",,2026-10-24
+whose_rel,appears_in_object,object of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it; Brett: same call for all four relatives (too embedded),"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+each_other,appears_in_subject,subject of a non-tensed clause,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+herself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""Doesn’t count or it’s a frame""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+herself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""Doesn’t count or it’s a frame""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+him,appears_in_subject,subject of a main clause,m,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (informal; informal (standard: for him to leave)); Brett: ""m""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+himself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+himself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+it_dum,appears_in_subject,subject of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+its,appears_in_subject,subject of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+itself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+itself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+me,appears_in_subject,subject of a main clause,m,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (informal); Brett: ""m""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+myself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+myself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+one_another,appears_in_subject,subject of a non-tensed clause,m,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown m; Brett: ""frame""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+oneself,appears_in_subject,subject of a main clause,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+ourselves,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+ourselves,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y; Brett: ""As above""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+them_plur,appears_in_subject,subject of a non-tensed clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (informal); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+them_sing,appears_in_subject,subject of a non-tensed clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (informal); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+themself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (newer form; recent, not all speakers; singular-they); Brett: ""As above (I’ll stop marking this)""; Brett: a frame","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+themself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (newer form; recent, not all speakers; singular-they); Brett: ""As above (I’ll stop marking this)""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+themselves,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it; Brett: a frame,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+themselves,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+us_det,appears_in_subject,subject of a main clause,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (informal); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+us_pron,appears_in_subject,subject of a main clause,m,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (informal); Brett: ""m""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whom_int,appears_in_subject,subject of an embedded tensed clause,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whom_rel,appears_in_subject,subject of an embedded tensed clause,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+yourself,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it; Brett: a frame,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+yourself,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+yourselves,appears_in_subject,emphatic reflexive modifier,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it; Brett: a frame,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+yourselves,appears_in_subject,subject of a main clause,n,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+another,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (formal); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+anybody,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+anyone,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+anything,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+each,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+each_other,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+either,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown m (formal); Brett: ""y""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+everybody,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+everyone,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+everything,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+his,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+its,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+neither,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown m (formal); Brett: ""y""","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+no_one,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+nobody,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+nothing,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+one_another,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+one_det,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+one_pron,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (formal); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+somebody,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+someone,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+something,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+somewhere,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+today,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+tomorrow,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+tonight,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+two_det,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y (journalistic; technical); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whoever,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whosever,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),"BLOCK-CELLS.md; shown y (archaic; formal, archaic); Brett left it","Brett, BLOCK-CELLS.md",Brett,2026-10-24
+whosoever,functions_as_subject_determiner,default,m,judged,Brett judgment (block check),BLOCK-CELLS.md; shown m (archaic); Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24
+yesterday,functions_as_subject_determiner,default,y,judged,Brett judgment (block check),BLOCK-CELLS.md; shown y; Brett left it,"Brett, BLOCK-CELLS.md",Brett,2026-10-24

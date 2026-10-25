@@ -31,3 +31,13 @@ reviews/external-*/
 # Venue strategy for the 2026-10-15 split: kept local (Brett, 16 Oct), stripped from unpushed history
 submission/venue-decision-2026-10-15-*.md
 submission/venue-research-2026-10-15/
+submission/venue-research-2026-10-24/
+submission/venue-decision-2026-10-24-*.md
+
+# Blind-coder output (raw model notes) folded into the cell ledger: local until Brett decides (24 Oct)
+analysis/cell-ledger/coder-cells*.csv
+analysis/cell-ledger/cells.csv
+
+# Derived from SUBTLEX-UK (not ours to redistribute); regenerate with analysis/noun-sample/draw_sample.py
+analysis/noun-sample/frame-order.csv
+__pycache__/

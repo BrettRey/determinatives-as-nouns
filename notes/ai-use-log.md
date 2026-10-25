@@ -1,0 +1,19 @@
+# AI-use log: the category paper (rebuild)
+<!-- SUMMARY: running record of every AI tool used on the rebuilt category paper, for the disclosure ELL requires (name and version, dates, access, uses; drafting in acknowledgements or a footnote, data classification in methods) · status: active · updated: 2026-10-24 -->
+
+Add a line whenever a tool touches the paper, its evidence, or its planning. One line: date · tool and version · access route · what it did · what it touched.
+
+## Inherited (material from the combined manuscript and the evidence repository)
+
+The combined manuscript's statement (`determinatives-as-nouns-taxonomic.tex`, 15 Oct) lists: GPT-6 (Astra), Claude Fable 5.1, Claude Opus 5 and 5.5, Claude Haiku 4.5, GLM-5.3-Flash (drafting, source retrieval, scripts, critical review, classification of corpus lines); GPT-5.6 (Sol) and GPT-6 (numerical checks). The corpus records also used TypeSafe's Jev (`jev-latest`) to screen lines (e.g. `corpus/exclusion_tests/every-reading.md`, `corpus/independent_argument/few_would.report.md`). Check each inherited record's own header for its tools before reusing its numbers.
+
+## Rebuild
+
+- 2026-10-24 · Claude Opus 5.5 (Claude Code session) · Anthropic API · venue search synthesis, venue record, term sheet, drafting plan · planning files only, no manuscript text.
+- 2026-10-24 · Claude Opus 5.5 (three Claude Code subagents) · Anthropic API · web screens of about 70 journals (one read some publisher pages through Brett's Chrome) · `submission/venue-research-2026-10-24/`.
+- 2026-10-24 · Claude Opus 5.5 (Claude Code session) · Anthropic API · seeded the evidence ledger (25 rows; rival predictions from Hudson 2000, 2004, Van Eynde 2003 and *CGEL*; summaries of existing corpus records) and changed `tools/evidence_needs.py` (seed rows, stricter `--check`) · `planning/evidence-ledger.md`, `tools/evidence_needs.py`; no manuscript text.
+- 2026-10-24 · Claude Opus 5.5 (Claude Code session) · Anthropic API · desk count over the 2026-10 feature matrix (script and outputs), methods note on testing nested categories, ledger changes (split column restated as an English hypothesis; two rows added) · `analysis/node-reach-2026-10-24/`, `notes/nesting-tests-2026-10-24.md`, `planning/evidence-ledger.md`; no manuscript text.
+- 2026-10-24 · Claude Opus 5.5 (Claude Code session) · Anthropic API · draft coding of 12 nouns and adjectives plus 3 category rows, and of 10 added features for the 139 existing forms (all values proposals for Brett) · `analysis/noun-coding-2026-10-24/`; no manuscript text.
+- 2026-10-24 · GPT-6.1 Sol (Codex CLI, read-only wrapper) and Muse Wonder 1.0 (muse CLI, no shell/write/web) · OpenAI and Meta APIs · independent critiques of the matrix coding scheme's logic (Horn, Kratzer, Blanché) · `reviews/external-logic-20261024-135944/`; no manuscript text sent.
+- 2026-10-24 · GPT-6.1 Sol (Codex, read-only), Muse Wonder 1.0 (muse, no shell/write/web), Claude Opus 5.5 (subagents without file access) · OpenAI, Meta, Anthropic APIs · blind coding of word forms on matrix columns (pilot and wave 2); Claude Opus 5.5 also drafted the codebook, tables, and scripts · `reviews/external-blind-coding-20261024-141034/`, `planning/codebook.md`, `analysis/codebook/`, `analysis/cell-ledger/`; no manuscript text.
+- 2026-10-24 · GPT-6.1 Sol (Codex, read-only), Muse Wonder 1.0 (muse, no shell/write/web), Claude Opus 5.5 (file-reading subagents limited to their packet; transcripts checked) · OpenAI, Meta, Anthropic APIs · blind recoding of 26 forms on Brett's 20 revised and 4 added columns (wave 3), and blind grading y / m / n of Brett's 1,941 2021 y cells in 62 columns (Muse and Claude only) · `reviews/external-blind-coding-wave3-20261024/`, `reviews/external-ym-pass-20261024/` (gitignored); parsers and review-sheet script in `analysis/cell-ledger/`.

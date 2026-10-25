@@ -1,0 +1,106 @@
+feature,det,pron,A_pronoun_like,B_quantity_like,C_rest,pattern
+genitive_case,0,22,0,0,0,pron only
+accusative_case,0,12,0,0,0,pron only
+nominative_case,0,11,0,0,0,pron only
+in_word_formation_e_g_a_many_sided_shape,16,13,2,8,6,shared
+has_derivationtionally_related_words,46,34,14,20,12,shared
+has_corresponding_word,29,9,10,14,5,shared
+compound_word,26,23,11,8,7,shared
+inflects_for_case,14,62,10,3,1,shared
+paradigm_has_distinct_acc_form,2,40,2,0,0,shared
+paradigm_has_genitive_form,0,53,0,0,0,pron only
+paradigm_has_distinct_independent_genitive_form,0,33,0,0,0,pron only
+paradigm_has_distinct_self_form,0,43,0,0,0,pron only
+paradigm_has_comparative_and_superlative_forms,10,0,0,10,0,det only
+paradigm_has_distinct_plural_form,4,18,4,0,0,shared
+does_not_inflect,55,7,15,24,16,shared
+Monmorphemic,37,33,10,20,7,shared
+Must_be_stressed_as_object_after_particle,5,35,5,0,0,shared
+Start_with_th,6,11,4,0,2,shared
+Start_with_hw,6,3,6,0,0,shared
+anaphoric_marker,49,40,13,32,4,shared
+deictic_marker,13,22,11,0,2,shared
+person_deixis,3,27,3,0,0,shared
+pro_form,0,65,0,0,0,pron only
+personal_gender_as_head_or_fused_head,11,45,11,0,0,shared
+non_personal_gender,20,12,4,7,9,shared
+epicene_personal_gender,11,32,11,0,0,shared
+masculine_gender,0,4,0,0,0,pron only
+feminine_gender,0,5,0,0,0,pron only
+definite,14,58,9,2,3,shared
+indefinite,59,14,12,33,14,shared
+existential,69,47,18,34,17,shared
+universal,8,0,2,4,2,det only
+free_choice,12,12,8,3,1,shared
+negative,13,0,2,9,2,det only
+interrogative,6,11,6,0,0,shared
+non_affirmative,13,11,8,4,1,shared
+reflexive,0,9,0,0,0,pron only
+reciprocal,0,2,0,0,0,pron only
+dual,5,0,0,4,1,det only
+paucal,11,1,1,10,0,shared
+multal,4,0,0,3,1,det only
+proportional,39,0,9,24,6,det only
+semantically_countable,50,57,17,28,5,shared
+semantically_uncountable,22,18,2,16,4,shared
+semantically_singular,36,49,10,21,5,shared
+semantically_plural,36,35,9,23,4,shared
+distributive,33,41,7,21,5,shared
+joint,29,41,7,20,2,shared
+cardinal,4,0,0,4,0,det only
+disjunctive,2,0,0,2,0,det only
+degree,10,0,0,10,0,det only
+sufficiency,2,0,0,2,0,det only
+temporal,5,4,0,0,5,shared
+locative,4,0,0,0,4,det only
+dummy,0,2,0,0,0,pron only
+can_be_followed_by_adjective_such,32,0,5,25,2,det only
+can_be_modified_by_almost,27,20,8,11,8,shared
+can_be_modified_by_approximately,16,0,2,9,5,det only
+can_be_modified_by_at_least,18,45,3,11,4,shared
+can_be_modified_by_hardly,15,15,2,9,4,shared
+can_be_modified_by_not,19,16,4,11,4,shared
+can_be_modified_by_adverb_very,4,0,0,4,0,det only
+Coordinates_with_independent_genitives,6,46,6,0,0,shared
+Coordinates_with_dependent_genitives,2,10,2,0,0,shared
+Coordinates_with_NPs,54,53,14,32,8,shared
+intensifying_reduplication,3,0,0,3,0,det only
+selects_singular_heads,18,2,2,10,6,shared
+selects_count_singular_heads,11,9,0,5,6,shared
+selects_non_count_heads,6,7,1,5,0,shared
+selects_plural_heads,19,7,6,13,0,shared
+compatible_count_sing_NP,35,20,13,11,11,shared
+compatible_count_plur_NP,34,18,11,20,3,shared
+compatible_non_count_NP,24,16,8,13,3,shared
+Forms_universal_pronouns_before_all,0,5,0,0,0,pron only
+functions_as_a_predeterminer_modifier,6,0,1,2,3,det only
+functions_as_prehead_modifier_in_nominal,12,1,0,11,1,shared
+functions_as_degree_modifier_in_AdjP,14,0,2,10,2,det only
+functions_as_predicative_complement,42,44,12,22,8,shared
+functions_as_predicative_complement_to_seem,6,11,0,6,0,shared
+functions_as_marker_of_coordination,2,0,0,2,0,det only
+functions_as_fused_determiner_head,55,0,14,33,8,det only
+functions_as_head_of_partitive_construction,37,0,2,35,0,det only
+functions_as_adjunct_in_clause_structure,23,15,0,16,7,shared
+functions_as_attrib_modifier_in_nominal,17,3,0,13,4,shared
+appears_in_subject,72,44,20,35,17,shared
+appears_in_object,66,54,20,35,11,shared
+functions_as_post_head_modifier_of_it_or_them,3,0,0,3,0,det only
+functions_as_post_head_modifier_of_N,4,0,0,4,0,det only
+appears_in_existentials_there_s_on_the_table,39,0,4,29,6,det only
+functions_as_determiner_in_day_s_time_ago,15,0,0,12,3,det only
+functions_as_subject_of_present_participal_of_joining_you,42,48,12,30,0,shared
+Functions_as_subject_of_interrogative_tag,0,11,0,0,0,pron only
+functions_as_subject_determiner,0,12,0,0,0,pron only
+functions_in_vocative,7,4,7,0,0,shared
+May_coordinate_with_non_fused_determiners,33,0,4,25,4,det only
+must_be_outranked_by_a_coindexed_element,0,12,0,0,0,pron only
+takes_predeterminer_modifiers_all_or_both,11,17,9,0,2,shared
+occurs_after_predeterminer_modifiers_fractions,22,26,11,7,4,shared
+occurs_after_predeterminer_modifiers_multipliers,25,23,11,10,4,shared
+ironic_use_of_repetition,0,15,0,0,0,pron only
+take_poor_lucky_silly_as_attrib_modifiers,3,7,3,0,0,shared
+takes_adverb_quite_as_a_modifier,28,20,6,16,6,shared
+takes_else_or_more_as_a_post_head_dependent,20,11,8,8,4,shared
+accepts_genitive_apstrophe_s,17,12,8,9,0,shared
+takes_post_head_modifier_the_hell,0,6,0,0,0,pron only
