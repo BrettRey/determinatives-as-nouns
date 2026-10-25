@@ -176,31 +176,14 @@ D = {
  "is_comparative_or_superlative_form": ("The form itself is an inflected comparative or superlative (bigger, biggest).", "bigger", "big", "sure"),
  # Lexeme level:
  "paradigm_has_dependent_independent_pair": ("Its lexeme has distinct forms for dependent and independent use (my/mine), whichever of them this form is.", "me (my/mine)", "him (his/his)", "sure"),
- # Bases of compounds (CGEL p. 423: a determinative base plus a nominal base):
- "base_body": ("The form is a compound with the base body (somebody).", "somebody", "", "sure"),
- "base_one": ("The form is a compound with the base one (someone).", "someone", "", "sure"),
- "base_thing": ("The form is a compound with the base thing (something).", "something", "", "sure"),
- "base_where": ("The form is a compound with the base where (somewhere).", "somewhere", "", "sure"),
- "base_self": ("The form is a compound with the base self or selves (myself, themselves).", "myself", "", "sure"),
- "base_other": ("The form is a compound with the base other (another, each other).", "another", "", "sure"),
- "base_ever": ("The form is a compound with the base ever (whoever, whatever).", "whoever", "", "sure"),
- "base_soever": ("The form is a compound with the base soever (whosoever).", "whosoever", "", "sure"),
- "base_day": ("The form is a compound with the base day (today, yesterday).", "today", "", "sure"),
- "base_night": ("The form is a compound with the base night (tonight).", "tonight", "", "sure"),
- "base_morrow": ("The form is a compound with the base morrow (tomorrow).", "tomorrow", "", "sure"),
- "base_every": ("The form is a compound with the base every (everyone).", "everyone", "", "sure"),
- "base_some": ("The form is a compound with the base some (someone, somewhat).", "someone", "", "sure"),
- "base_any": ("The form is a compound with the base any (anyone).", "anyone", "", "sure"),
- "base_no": ("The form is a compound with the base no (nobody, no one).", "nobody", "", "sure"),
- "base_wh": ("The form is a compound with a wh-word as base (whoever, whichever).", "whoever", "", "sure"),
- "base_a": ("The form is a compound or fixed combination with the base a or an (another, a few).", "another", "", "sure"),
- "base_each": ("The form is a compound with the base each (each other).", "each other", "", "sure"),
- "base_takes_plural_es": ("Its nominal base, as a word on its own, takes plural -(e)s (some-thing: things; any-body: bodies). x if it has no nominal base.", "something (things)", "somewhere (*wheres)", "sure"),
 }
 
 
 def main():
     cols = [r["column"] for r in csv.DictReader((HERE / "columns.csv").open())]
+    header = next(csv.reader((HERE.parents[1] / "analysis" / "matrix-2026-10" / "matrix-2026-10.csv").open()))
+    for w in header[1:header.index("genitive_case")]:   # the 2021 word-part columns
+        D.setdefault(w, (f"The form contains the word {w.replace('_', ' ')} as one of its parts, or is that word (anybody contains any and body; another contains a, another, and other). Reynolds (2021): a column for each word appearing as part of another word.", "", "", "sure"))
     missing = [c for c in cols if c not in D]
     assert not missing, missing
     with (HERE / "definitions.csv").open("w", newline="") as fh:

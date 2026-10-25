@@ -97,7 +97,7 @@ def main():
 
     m = list(csv.reader((M / "matrix-2026-10.csv").open()))
     header, forms = m[0], m[1:]
-    start = header.index("genitive_case")
+    start = 1  # every matrix column, the 2021 word-part columns included (24 Oct)
     applied = {(r["form"], r["feature"]): r for r in csv.DictReader((M / "applied_changes.csv").open())}
     for f in forms:
         for j in range(start, len(header)):

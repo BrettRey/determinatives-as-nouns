@@ -17,8 +17,9 @@ the coded forms; Brett to define).
 
 Morphology has three levels (Brett, 24 Oct: columns "for each of the words and
 their roots"; "I meant the bases, but both apply"): the word (the row's form),
-its lexeme, and the bases of a compound (CGEL p. 423: compound determinatives
-join a determinative base to a nominal one, body, one, thing, where).
+its lexeme, and the words a form contains (the 2021 matrix's word-part columns:
+anybody contains any and body; CGEL p. 423 calls these the compound's
+determinative and nominal bases).
 """
 import csv
 from pathlib import Path
@@ -27,6 +28,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 MATRIX = ROOT / "analysis" / "matrix-2026-10" / "matrix-2026-10.csv"
 ADDED = ROOT / "analysis" / "noun-coding-2026-10-24" / "features-added.csv"
+
+_HEADER = next(csv.reader(MATRIX.open()))
+WORD_PART = _HEADER[1:_HEADER.index("genitive_case")]
 
 FAMILY = {
     "case_form": ["genitive_case", "accusative_case", "nominative_case"],
@@ -86,10 +90,10 @@ FAMILY = {
                    "takes_nonpartitive_complement", "takes_ly_adverb_modifier",
                    "take_poor_lucky_silly_as_attrib_modifiers", "takes_else_or_more_as_a_post_head_dependent", "takes_more_as_a_post_head_dependent"],
     "analysis_label": ["functions_as_fused_determiner_head"],
-    "base": ["base_body", "base_one", "base_thing", "base_where", "base_self", "base_other", "base_ever",
-             "base_soever", "base_day", "base_night", "base_morrow",
-             "base_every", "base_some", "base_any", "base_no", "base_wh", "base_a", "base_each",
-             "base_takes_plural_es"],
+    # Reynolds (2021): "a column for each word appearing as part of another word";
+    # the 50 that survive in matrix-2026-10, read from its header (restored 24 Oct,
+    # replacing 18 coarser base_ columns Claude had re-invented the same day).
+    "base": WORD_PART,
 }
 # Added 24 Oct after Brett's answers on the y-to-m sheet ("what I meant is mostly
 # irrelevant. The question is ... how should these columns be set up to cover the
@@ -100,7 +104,7 @@ REDESIGN_NEW = ["imperative_subject", "heads_subject_np", "heads_object_np", "de
                 "sanctions_polarity_items", "heads_np_with_singular_agreement", "heads_np_with_plural_agreement",
                 "refers_to_or_ranges_over_single", "refers_to_or_ranges_over_plurality"]
 # Added 24 Oct on Brett's morphology point.
-MORPH_NEW = FAMILY["base"] + ["takes_plural_es", "is_plural_in_es", "is_independent_form",
+MORPH_NEW = ["takes_plural_es", "is_plural_in_es", "is_independent_form",
                               "paradigm_has_dependent_independent_pair", "is_comparative_or_superlative_form"]
 
 TYPE = {}
@@ -224,7 +228,7 @@ CGEL_POLARITY = {
 
 def main():
     header = next(csv.reader(MATRIX.open()))
-    cols = header[header.index("genitive_case"):]
+    cols = header[1:]   # the word-part columns first, as in the 2021 matrix
     cols += [r["feature"] for r in csv.DictReader(ADDED.open()) if r["feature"] not in cols]
     cols += [c for c in ("definite_reference_possible", "at_least_focus", "takes_more_as_a_post_head_dependent",
              "inflects_for_dependent_independent_use") if c not in cols]  # added 24 Oct on Brett's review

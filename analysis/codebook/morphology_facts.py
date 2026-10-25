@@ -76,18 +76,6 @@ def main():
 
     for f in [x["form"] for x in forms]:
         compound = (f in rows and rows[f][h.index("compound_word")] == "y")
-        for col, members in BASES.items():
-            if (f, col) == ("one_another", "base_one"):
-                add(f, col, "n", "rule: see check")
-                continue
-            add(f, col, "y" if f in members.split() else "n", "spelling; 2021 compound_word" if compound else "not a compound")
-        nominal = [b for b in ("body", "one", "thing", "where", "self", "day", "night", "morrow")
-                   if f in BASES[f"base_{b}"].split() and (f, f"base_{b}") != ("one_another", "base_one")]
-        if nominal:
-            v, note = BASE_PLURAL[nominal[0]]
-            add(f, "base_takes_plural_es", v, f"base {nominal[0]}: {note}")
-        else:
-            add(f, "base_takes_plural_es", "x", "no nominal base")
         add(f, "is_plural_in_es", "y" if f in ("dogs", "numbers", "dozens") else "n", "spelling")
         add(f, "is_comparative_or_superlative_form", "y" if f in ("fewer", "fewest", "less", "least", "more", "most") else "n",
             "CGEL p. 356 (degree determinatives inflect for grade)")
@@ -97,7 +85,10 @@ def main():
             "2021 paradigm_has_distinct_independent_genitive_form, plus no and none (CGEL p. 410)")
     # Fact columns the reference rows lack (2021 rows have Brett's values).
     MONO = {"lot", "number", "plenty", "dozen", "dog", "water", "Kim", "Toronto", "rich", "poor", "tall"}
+    header = next(csv.reader((ROOT / "analysis" / "matrix-2026-10" / "matrix-2026-10.csv").open()))
     for f in ref:
+        for col in header[1:header.index("genitive_case")]:
+            add(f, col, "n", "contains none of the 2021 matrix's word parts")
         for col in ("genitive_case", "accusative_case", "nominative_case", "compound_word", "Start_with_th", "Start_with_hw"):
             add(f, col, "n", "not a case form; not a compound; spelling and sound")
         add(f, "Monmorphemic", "y" if f in MONO else "n", "morphemes of the form")
