@@ -1943,3 +1943,36 @@ Open for Brett: D1, whether to demote the definiteness account to a possible mot
   - 16 footnote trims and 12 paragraph squeezes. Brett: "if you're careful, you can probably squeeze a few words from each paragraph." No claim, count the text relies on, or citation was removed. One planned cut, §7's pointer to the register split and its caveat, was dropped on that note.
   - The title-page acknowledgement now also credits Juliette Cahard's November comments, which led to the NOW genitive searches in §3 (Brett accepted it in review).
   - `EVIDENCE.md`'s NOW row no longer lists the attention-noun count, which the paper dropped.
+- 2026-11-20 — Fusion paper: fixes from three outside reads before LingBuzz v2 (edit batch `reviews/reader-read-20261120/batch/` in the fusion repo; decision owner Brett, triage and drafting Claude Opus 5.5). Brett asked for the reads ("Send it to muse, grok, and codex for a read"). Muse (Wonder Full 1.0), Grok and Codex (GPT-6.2 Sol) each got one brief and the PDF text of 6b19d1f, with no write, shell or web access. Grok read nothing outside its own saved copy of the prompt. They returned 16, 8 and 14 findings. Each was checked against the source; run manifest and hashes in the run folder. Brett approved the batch as sent ("approved"); 18 edits applied:
+  - search period and AI-use statement extended to November; GPT-6.2 and Muse Wonder Full added (the last after review);
+  - batch-1 seams: "occur in the first", and §7's "the missing genitive" in *many's expenses*;
+  - claims trimmed to their evidence:
+    - "at least" scoped over the capped verb list (2,458 and 352), reworded after review;
+    - "may be register";
+    - NP status for (4a–b) only;
+    - DAG only with two mothers;
+    - what ordinary Head saves restated without "without a relative clause", reworded after review;
+    - the abstract's case sentence now names both functions;
+  - small errors: the *whichever* footnote (prenucleus, not subject), "bare *scant*", "105 labels", "mostly *the*";
+  - *Real us never showed up* replaced by *saw real us* (case confound), and the criterion footnote reworded; both asked Brett, covered by his approval.
+  "Freely" (Codex) was dropped after review, because removing it lost the contrast with "rarely, if at all". Declined with reasons in `header.md`, among them: Codex on the head genitive (CGEL pp. 420, 479); Codex and Muse on "Fusion gets all three" (the integrated-only statement is itself a rule for relative clauses with a relative phrase); Grok on the 802 (the record shows *it* already excluded). Now 14,996 words by `tools/pdfwords.py`, 27 pages, clean build. No straight-through reader pass has been run since the November batches.
+- 2026-11-20 — Fusion paper §4, *privileged few* added to the *lucky few* counts (decision owner Brett; data gathered by Brett, labelled and applied by Claude Opus 5.5 without an edit batch). Brett ran `privileged few` in COCA by hand (100 lines) after the outside reads flagged the misspelled *priveledged* query. Record: `corpus/premodification/2026-11-20-brett-supplied-privileged-few.md`; raw paste and labels gitignored in the fusion repo (`reviews/corpus-privileged-few-20261120/`). Changes:
+  - footnote 18 now gives 420 lines: 260 *the*, 113 *a* alone, one *such a*, 28 demonstrative, 6 genitive, 3 *some*, 4 *we*/*us*/*you*, one name, four with no determiner. It no longer mentions the misspelling.
+  - the §4 body counts are 420 and 113;
+  - *you* added to the list of determiners before *few* (CGEL p. 412).
+  Two judgment calls were left for Brett to check: the *Spartacus* line (*what so privileged few bore witness*) counted as a fourth no-determiner case, and *you privileged few* (film script) counted under *we*/*us*/*you*.
+- 2026-11-20 — Fusion paper reader pass, the first straight-through read since 24 Oct (`notes/passes/2026-11-20-reader-pass.md`; batch `reviews/reader-pass-20261120/batch/` in the fusion repo; Brett "approved"; decision owner Brett, read and drafting Claude Opus 5.5). Six edits:
+  - the §3 dilemma no longer opens "If *many's* is out", and its horn is narrowed to fused determiner–heads after review;
+  - "As stated, neither analysis predicts the division" cut as a repetition;
+  - "searched for" restored in footnote 18;
+  - *we/you students* for CGEL's example;
+  - both "Fusion gets all three" sentences now say "rules the grammar already has for relative clauses with a relative phrase". That answers whether fusion needs an extra statement, not the graded case profile, which §7 leaves open.
+  Table 1's float was tested at `[H]` (28 pages) and `[t]` (deferred to p. 25) and left at `[tp]`. Now 14,993 words, 27 pages.
+- 2026-11-20 — Fusion paper numbers audit before LingBuzz v2 (`notes/passes/2026-11-20-numbers-audit.md` in the fusion repo). Codex (GPT-6.2 Sol) audited read-only, on a public-only copy, and Claude Opus 5.5 checked each finding against its record. Applied unseen on Brett's instruction ("Deal with all the rest of this as best you can. I'm going to the gym"). The NOW and *lucky few* counts reconcile. Corrections:
+  - the §4 exclamation count: five → twelve attested, eight just after the same exclamation with a name or pronoun. The paper had undercounted since 19 Oct, when a footnote with the NOW/iWeb lines was cut, and the index's "six more, four in a series" disagreed with this repo's own record (seven, five);
+  - "*the two's* or *those two's*";
+  - only the COCA genitive lines were double-labelled;
+  - "about 206 of about 562";
+  - "Of the 802";
+  - "sums frequency-list rows".
+  Declined: Codex's request to relabel the 352/2,458 cell as a proxy, since the text already says "nearly every token" and the record has the sensitivity check. Verified unchanged: two CGEL quotations (p. 423 n. 43; p. 1055). 14,996 words.
