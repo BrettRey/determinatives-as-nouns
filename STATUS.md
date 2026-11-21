@@ -5,7 +5,7 @@ title: Determinatives as nouns in English
 stage: draft
 external: rejected
 blocked_on: []
-updated: 2026-10-24
+updated: 2026-11-20
 source:
 - STATUS.md
 - PORTFOLIO.md
@@ -18,7 +18,9 @@ next_action: 'Now (24 Oct evening), the feature matrix: Brett answers the eight 
 - Comments from another reader are still awaited (see the people pages).
 - Later the same day: three outside reads (Muse, Grok, Codex); the privileged few search; a reader pass; and a numbers audit. All were applied and pushed (fusion repo 9cf2ce5), and the paper is 14,996 words, 27 pages. The upload sheet is the fusion repo''s notes/lingbuzz-v2-2026-11-20.md.
 
-Next for the fusion paper: Brett uploads v2 to LingBuzz, which needs his login. Earlier record, kept: Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: full draft done 15 Oct (fusion repo 86e79bf: repairs, once/twice/thrice, silent nouns, introduction, EVIDENCE.md); 16 Oct: the four library items read (fusion repo notes/2026-10-16-ellipsis-readings.md) and the possessive concession to silent nouns withdrawn on COCA evidence (fusion repo cba9ede; corpus/genitive/); paper reframed on economy and unification after a four-model question on the second mother (fusion repo abe85a7; reviews/muse-wonder-second-mother-20261016/; corpus/premodification/); next Brett reads the draft, then the passes he picks, the venue record and JL compliance; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; candidate lead logged 16 Oct in DECISIONS, pre-head adjectives across determiner-less noun subcategories; venue after the structural paper is out); (3) housekeeping: payload check and push done 16 Oct (this repo pushed minus the 2026-10-15 venue files, which are gitignored and local; fusion repo public at github.com/BrettRey/fusion-of-functions-revisited with reviews/ stripped from history and kept local); still to do: /push-bib at polish.'
+- v2 went up on LingBuzz the same evening (fusion repo c0d9e9c, 14,991 words, 27 pages; the abstract now says *answers to both its functions*; v1 stays listed).
+
+Next for the fusion paper: comments from the other reader, then JL. Earlier record, kept: Split into two papers (decided 2026-10-15). Order (Brett, "make it so"): (1) structural paper to JL: full draft done 15 Oct (fusion repo 86e79bf: repairs, once/twice/thrice, silent nouns, introduction, EVIDENCE.md); 16 Oct: the four library items read (fusion repo notes/2026-10-16-ellipsis-readings.md) and the possessive concession to silent nouns withdrawn on COCA evidence (fusion repo cba9ede; corpus/genitive/); paper reframed on economy and unification after a four-model question on the second mother (fusion repo abe85a7; reviews/muse-wonder-second-mother-20261016/; corpus/premodification/); next Brett reads the draft, then the passes he picks, the venue record and JL compliance; (2) taxonomic paper next (open problem: an observation the separate-category rival fails to predict; candidate lead logged 16 Oct in DECISIONS, pre-head adjectives across determiner-less noun subcategories; venue after the structural paper is out); (3) housekeeping: payload check and push done 16 Oct (this repo pushed minus the 2026-10-15 venue files, which are gitignored and local; fusion repo public at github.com/BrettRey/fusion-of-functions-revisited with reviews/ stripped from history and kept local); still to do: /push-bib at polish.'
 notes: 'Rejected by *English Language and Linguistics* 2026-09-07 after two reviews (both reject; editor:
   only a totally new paper would do). Earlier, *Word Structure*''s editorial prescreen rejected the
   manuscript 2026-05-28 for journal scope/fit, not quality. The preprint stays up.'
